@@ -1,0 +1,1108 @@
+[
+  {
+    "rule_name": "静脉TXA在TJA围术期不增加ATE风险_中等证据",
+    "head": {
+      "is_negative": false,
+      "name": "动脉栓塞风险无差异",
+      "arguments": [
+        "X",
+        "Y",
+        "TXA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "接受全关节置换术的患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "静脉使用",
+        "arguments": [
+          "X",
+          "TXA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对比组",
+        "arguments": [
+          "X",
+          "安慰剂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "围术期事件类型",
+        "arguments": [
+          "Y",
+          "ATE"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术"
+    },
+    "source_text": "中等强度证据支持: 由于TXA 多于静脉、口服或局部使用，关于动脉血栓栓塞( arterialthromboembolic events，ATE) 发生风险的ＲCT 数量有限。但现有证据表明，较安慰剂组相比，TXA 的使用不会增加TJA 围术期ATE 发生的风险。髋关节或膝关节置换术后出现ATE 是非常少见的，在ＲCT 中也极少报道，这是由于具有相关危险因素的患者一般都会被排除而不会纳入相应研究。在对动脉和静脉血栓栓塞事件的Meta 分析中，仅有9 项研究报道了ATE 的发生［20］。鉴于相应研究数量的有限，研究者对髋关节和膝关节置换术进行了联合Meta 分析，结果显示IV 或局部使用TXA在ATE 发生风险方面与安慰剂组相比没有统计学差异［20］。由于相应高质量研究的数量有限，指南将该推荐意见定为中等强度。限制研究者提出更高强度证据支持推荐意见的原因在于以下3 点: 基于有限的数据不得不进行联合分析，专门针对ATE 并发症的研究极少以及具有相应风险的患者在研究中多被排除。因此，在面对具体患者时需进行个体化的损益评估。"
+  },
+  {
+    "rule_name": "局部TXA在TJA围术期不增加ATE风险_中等证据",
+    "head": {
+      "is_negative": false,
+      "name": "动脉栓塞风险无差异",
+      "arguments": [
+        "X",
+        "Y",
+        "TXA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "接受全关节置换术的患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "局部使用",
+        "arguments": [
+          "X",
+          "TXA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对比组",
+        "arguments": [
+          "X",
+          "安慰剂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "围术期事件类型",
+        "arguments": [
+          "Y",
+          "ATE"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术"
+    },
+    "source_text": "中等强度证据支持: 由于TXA 多于静脉、口服或局部使用，关于动脉血栓栓塞( arterialthromboembolic events，ATE) 发生风险的ＲCT 数量有限。但现有证据表明，较安慰剂组相比，TXA 的使用不会增加TJA 围术期ATE 发生的风险。髋关节或膝关节置换术后出现ATE 是非常少见的，在ＲCT 中也极少报道，这是由于具有相关危险因素的患者一般都会被排除而不会纳入相应研究。在对动脉和静脉血栓栓塞事件的Meta 分析中，仅有9 项研究报道了ATE 的发生［20］。鉴于相应研究数量的有限，研究者对髋关节和膝关节置换术进行了联合Meta 分析，结果显示IV 或局部使用TXA在ATE 发生风险方面与安慰剂组相比没有统计学差异［20］。由于相应高质量研究的数量有限，指南将该推荐意见定为中等强度。限制研究者提出更高强度证据支持推荐意见的原因在于以下3 点: 基于有限的数据不得不进行联合分析，专门针对ATE 并发症的研究极少以及具有相应风险的患者在研究中多被排除。因此，在面对具体患者时需进行个体化的损益评估。"
+  },
+  {
+    "rule_name": "静脉输注TXA减少TJA失血与输血风险之高强度证据支持",
+    "head": {
+      "is_negative": false,
+      "name": "能减少",
+      "arguments": [
+        "X",
+        "TJA中的失血量及输血风险"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "属于治疗",
+        "arguments": [
+          "X",
+          "TXA治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用于",
+        "arguments": [
+          "X",
+          "全关节置换术TJA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用给药方式",
+        "arguments": [
+          "X",
+          "静脉输注IV"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "TXA治疗实例"
+    },
+    "source_text": "一、TXA 使用的有效性( 一) 使用TXA 能够减少TJA 中的失血量及输血风险高强度证据支持: 与安慰剂相比，静脉输注( intravenous，IV) 、局部使用、口服以及混合给药方式均能减少TJA 围手术期的失血量及输血的发生。通过对82 项高质量研究及1 项中等质量研究的Meta 分析发现，TXA 能够显著减少髋关节和膝关节置换术围术期的出血和输血风险［10 －11］。相应的网状Meta 分析也支持这一结论［10 －11］。"
+  },
+  {
+    "rule_name": "局部使用TXA减少TJA失血与输血风险之高强度证据支持",
+    "head": {
+      "is_negative": false,
+      "name": "能减少",
+      "arguments": [
+        "X",
+        "TJA中的失血量及输血风险"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "属于治疗",
+        "arguments": [
+          "X",
+          "TXA治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用于",
+        "arguments": [
+          "X",
+          "全关节置换术TJA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用给药方式",
+        "arguments": [
+          "X",
+          "局部使用"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "TXA治疗实例"
+    },
+    "source_text": "一、TXA 使用的有效性( 一) 使用TXA 能够减少TJA 中的失血量及输血风险高强度证据支持: 与安慰剂相比，静脉输注( intravenous，IV) 、局部使用、口服以及混合给药方式均能减少TJA 围手术期的失血量及输血的发生。通过对82 项高质量研究及1 项中等质量研究的Meta 分析发现，TXA 能够显著减少髋关节和膝关节置换术围术期的出血和输血风险［10 －11］。相应的网状Meta 分析也支持这一结论［10 －11］。"
+  },
+  {
+    "rule_name": "口服TXA减少TJA失血与输血风险之高强度证据支持",
+    "head": {
+      "is_negative": false,
+      "name": "能减少",
+      "arguments": [
+        "X",
+        "TJA中的失血量及输血风险"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "属于治疗",
+        "arguments": [
+          "X",
+          "TXA治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用于",
+        "arguments": [
+          "X",
+          "全关节置换术TJA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用给药方式",
+        "arguments": [
+          "X",
+          "口服"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "TXA治疗实例"
+    },
+    "source_text": "一、TXA 使用的有效性( 一) 使用TXA 能够减少TJA 中的失血量及输血风险高强度证据支持: 与安慰剂相比，静脉输注( intravenous，IV) 、局部使用、口服以及混合给药方式均能减少TJA 围手术期的失血量及输血的发生。通过对82 项高质量研究及1 项中等质量研究的Meta 分析发现，TXA 能够显著减少髋关节和膝关节置换术围术期的出血和输血风险［10 －11］。相应的网状Meta 分析也支持这一结论［10 －11］。"
+  },
+  {
+    "rule_name": "混合给药TXA减少TJA失血与输血风险之高强度证据支持",
+    "head": {
+      "is_negative": false,
+      "name": "能减少",
+      "arguments": [
+        "X",
+        "TJA中的失血量及输血风险"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "属于治疗",
+        "arguments": [
+          "X",
+          "TXA治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用于",
+        "arguments": [
+          "X",
+          "全关节置换术TJA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用给药方式",
+        "arguments": [
+          "X",
+          "混合给药"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "TXA治疗实例"
+    },
+    "source_text": "一、TXA 使用的有效性( 一) 使用TXA 能够减少TJA 中的失血量及输血风险高强度证据支持: 与安慰剂相比，静脉输注( intravenous，IV) 、局部使用、口服以及混合给药方式均能减少TJA 围手术期的失血量及输血的发生。通过对82 项高质量研究及1 项中等质量研究的Meta 分析发现，TXA 能够显著减少髋关节和膝关节置换术围术期的出血和输血风险［10 －11］。相应的网状Meta 分析也支持这一结论［10 －11］。"
+  },
+  {
+    "rule_name": "TKA中术前单次静脉TXA较术后使用在降低输血风险方面更具优势",
+    "head": {
+      "is_negative": false,
+      "name": "效果比较",
+      "arguments": [
+        "A",
+        "B",
+        "更具优势"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "手术事件",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "X",
+          "全膝关节置换术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药方案",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于手术",
+        "arguments": [
+          "A",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药方案",
+        "arguments": [
+          "B"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于手术",
+        "arguments": [
+          "B",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药时间",
+        "arguments": [
+          "A",
+          "术前"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "给药途径",
+        "arguments": [
+          "A",
+          "静脉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "给药频次",
+        "arguments": [
+          "A",
+          "单次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药时间",
+        "arguments": [
+          "B",
+          "术后"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "手术事件",
+      "A": "TXA用药方案（术前单次静脉）",
+      "B": "TXA用药方案（术后使用）"
+    },
+    "source_text": "中等强度证据支持: 在减少出血方面，TJA 术前使用TXA 较术后使用具有潜在更好的效果。Meta 分析纳入了5 项探究TXA 给药时间与止血效果的高质量研究［10 －11］，受到研究数量的限制，Meta 分析只对TKA 中TXA 的使用进行了比较［10 －11］。结果显示术前使用较术后使用不存在明显差异，但仍可观察到一定的潜在优势。针对TKA的网状Meta 分析发现，术前单次静脉输注TXA 较术后使用能够降低输血风险，但在失血量方面没有显著的改善［11］。而在THA 中，网状Meta 分析没有发现给药时间对止血效果有明显的影响［10］。"
+  },
+  {
+    "rule_name": "TKA中术前单次静脉TXA较术后使用在减少失血量方面无显著优势",
+    "head": {
+      "is_negative": false,
+      "name": "效果比较",
+      "arguments": [
+        "A",
+        "B",
+        "无显著优势"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "手术事件",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "X",
+          "全膝关节置换术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药方案",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于手术",
+        "arguments": [
+          "A",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药方案",
+        "arguments": [
+          "B"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于手术",
+        "arguments": [
+          "B",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药时间",
+        "arguments": [
+          "A",
+          "术前"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "给药途径",
+        "arguments": [
+          "A",
+          "静脉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "给药频次",
+        "arguments": [
+          "A",
+          "单次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药时间",
+        "arguments": [
+          "B",
+          "术后"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "手术事件",
+      "A": "TXA用药方案（术前单次静脉）",
+      "B": "TXA用药方案（术后使用）"
+    },
+    "source_text": "中等强度证据支持: 在减少出血方面，TJA 术前使用TXA 较术后使用具有潜在更好的效果。Meta 分析纳入了5 项探究TXA 给药时间与止血效果的高质量研究［10 －11］，受到研究数量的限制，Meta 分析只对TKA 中TXA 的使用进行了比较［10 －11］。结果显示术前使用较术后使用不存在明显差异，但仍可观察到一定的潜在优势。针对TKA的网状Meta 分析发现，术前单次静脉输注TXA 较术后使用能够降低输血风险，但在失血量方面没有显著的改善［11］。而在THA 中，网状Meta 分析没有发现给药时间对止血效果有明显的影响［10］。"
+  },
+  {
+    "rule_name": "THA中术前使用TXA较术后使用在减少出血效果上无明显优势",
+    "head": {
+      "is_negative": false,
+      "name": "效果比较",
+      "arguments": [
+        "A",
+        "B",
+        "无明显优势"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "手术事件",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "X",
+          "全髋关节置换术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药方案",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于手术",
+        "arguments": [
+          "A",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药方案",
+        "arguments": [
+          "B"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于手术",
+        "arguments": [
+          "B",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药时间",
+        "arguments": [
+          "A",
+          "术前"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药时间",
+        "arguments": [
+          "B",
+          "术后"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "手术事件",
+      "A": "TXA用药方案（术前使用）",
+      "B": "TXA用药方案（术后使用）"
+    },
+    "source_text": "中等强度证据支持: 在减少出血方面，TJA 术前使用TXA 较术后使用具有潜在更好的效果。Meta 分析纳入了5 项探究TXA 给药时间与止血效果的高质量研究［10 －11］，受到研究数量的限制，Meta 分析只对TKA 中TXA 的使用进行了比较［10 －11］。结果显示术前使用较术后使用不存在明显差异，但仍可观察到一定的潜在优势。针对TKA的网状Meta 分析发现，术前单次静脉输注TXA 较术后使用能够降低输血风险，但在失血量方面没有显著的改善［11］。而在THA 中，网状Meta 分析没有发现给药时间对止血效果有明显的影响［10］。"
+  },
+  {
+    "rule_name": "TKA患者术前使用TXA可降低输血风险",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "TXA",
+        "术前"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "TKA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药方式",
+        "arguments": [
+          "X",
+          "TXA",
+          "静脉输注"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "结果显示术前使用较术后使用不存在明显差异，但仍可观察到一定的潜在优势。针对TKA的网状Meta 分析发现，术前单次静脉输注TXA 较术后使用能够降低输血风险，但在失血量方面没有显著的改善［11］。而在THA 中，网状Meta 分析没有发现给药时间对止血效果有明显的影响［10］。由于高质量研究之间的结论存在差异，该指南·59·中华关节外科杂志( 电子版) 2019 年2 月第13 卷第1 期Chin J Joint Surg( Electronic Edition) ，February 2019，Vol．13，No．1http://guide.medlive.cn/将该推荐意见的证据支持强度定为“中等”。尽管如此，由于目前部分研究支持术前使用，同时还没有证据表明术后使用能够达到更好的效果，因此指南仍然建议术前使用TXA。二、TXA 使用的安全性( 一) 无静脉血栓栓塞病史的患者使用TXA 在术后发生静脉血栓栓塞的风险不会增高高强度证据支持: 无静脉血栓栓塞( venousthromboembolic event，VTE) 病史的患者使用TXA( IV，局部或口服) 后，在围术期出现VTE 的风险较安慰剂组相比并无升高。针对TXA 使用与VTE 发生风险的Meta 分析纳入了77 项高质量及1 项中等质量的ＲCT，其中92% 的研究中患者纳入标准为无血栓栓塞病史［20］。这些独立研究均表明，无论采用何种给药方式，TXA的使用较安慰剂组都不会增加血栓栓塞风险［20］。由于每个研究的样本量都较小，且VTE 并非一种常见的并发症，研究者将髋关节置换术和膝关节置换术的样本合在一起进行分析［20］。该联合分析发现，TXA 的使用完全不会增加VTE 发生的风险。如此有力的证据使得该指南将该推荐意见定为高强度证据支持。"
+  },
+  {
+    "rule_name": "指南基于部分研究支持及无更优证据推荐术前使用TXA",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "TXA",
+        "术前"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "关节置换手术患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在研究",
+        "arguments": [
+          "部分研究",
+          "支持术前使用"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "存在证据",
+        "arguments": [
+          "术后使用",
+          "效果更好"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "结果显示术前使用较术后使用不存在明显差异，但仍可观察到一定的潜在优势。针对TKA的网状Meta 分析发现，术前单次静脉输注TXA 较术后使用能够降低输血风险，但在失血量方面没有显著的改善［11］。而在THA 中，网状Meta 分析没有发现给药时间对止血效果有明显的影响［10］。由于高质量研究之间的结论存在差异，该指南·59·中华关节外科杂志( 电子版) 2019 年2 月第13 卷第1 期Chin J Joint Surg( Electronic Edition) ，February 2019，Vol．13，No．1http://guide.medlive.cn/将该推荐意见的证据支持强度定为“中等”。尽管如此，由于目前部分研究支持术前使用，同时还没有证据表明术后使用能够达到更好的效果，因此指南仍然建议术前使用TXA。二、TXA 使用的安全性( 一) 无静脉血栓栓塞病史的患者使用TXA 在术后发生静脉血栓栓塞的风险不会增高高强度证据支持: 无静脉血栓栓塞( venousthromboembolic event，VTE) 病史的患者使用TXA( IV，局部或口服) 后，在围术期出现VTE 的风险较安慰剂组相比并无升高。针对TXA 使用与VTE 发生风险的Meta 分析纳入了77 项高质量及1 项中等质量的ＲCT，其中92% 的研究中患者纳入标准为无血栓栓塞病史［20］。这些独立研究均表明，无论采用何种给药方式，TXA的使用较安慰剂组都不会增加血栓栓塞风险［20］。由于每个研究的样本量都较小，且VTE 并非一种常见的并发症，研究者将髋关节置换术和膝关节置换术的样本合在一起进行分析［20］。该联合分析发现，TXA 的使用完全不会增加VTE 发生的风险。如此有力的证据使得该指南将该推荐意见定为高强度证据支持。"
+  },
+  {
+    "rule_name": "无VTE病史患者使用TXA不增加围术期VTE风险",
+    "head": {
+      "is_negative": false,
+      "name": "风险关联",
+      "arguments": [
+        "使用TXA",
+        "VTE风险",
+        "无升高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "关节置换手术患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "既往病史",
+        "arguments": [
+          "X",
+          "VTE"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药",
+        "arguments": [
+          "X",
+          "TXA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对比组",
+        "arguments": [
+          "安慰剂组"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "结果显示术前使用较术后使用不存在明显差异，但仍可观察到一定的潜在优势。针对TKA的网状Meta 分析发现，术前单次静脉输注TXA 较术后使用能够降低输血风险，但在失血量方面没有显著的改善［11］。而在THA 中，网状Meta 分析没有发现给药时间对止血效果有明显的影响［10］。由于高质量研究之间的结论存在差异，该指南·59·中华关节外科杂志( 电子版) 2019 年2 月第13 卷第1 期Chin J Joint Surg( Electronic Edition) ，February 2019，Vol．13，No．1http://guide.medlive.cn/将该推荐意见的证据支持强度定为“中等”。尽管如此，由于目前部分研究支持术前使用，同时还没有证据表明术后使用能够达到更好的效果，因此指南仍然建议术前使用TXA。二、TXA 使用的安全性( 一) 无静脉血栓栓塞病史的患者使用TXA 在术后发生静脉血栓栓塞的风险不会增高高强度证据支持: 无静脉血栓栓塞( venousthromboembolic event，VTE) 病史的患者使用TXA( IV，局部或口服) 后，在围术期出现VTE 的风险较安慰剂组相比并无升高。针对TXA 使用与VTE 发生风险的Meta 分析纳入了77 项高质量及1 项中等质量的ＲCT，其中92% 的研究中患者纳入标准为无血栓栓塞病史［20］。这些独立研究均表明，无论采用何种给药方式，TXA的使用较安慰剂组都不会增加血栓栓塞风险［20］。由于每个研究的样本量都较小，且VTE 并非一种常见的并发症，研究者将髋关节置换术和膝关节置换术的样本合在一起进行分析［20］。该联合分析发现，TXA 的使用完全不会增加VTE 发生的风险。如此有力的证据使得该指南将该推荐意见定为高强度证据支持。"
+  },
+  {
+    "rule_name": "全关节置换术广泛应用氨甲环酸但存在多种实践问题",
+    "head": {
+      "is_negative": false,
+      "name": "具有问题",
+      "arguments": [
+        "X",
+        "临床标准化使用存在许多"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "全关节置换术",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用药物",
+        "arguments": [
+          "X",
+          "氨甲环酸",
+          "广泛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有问题",
+        "arguments": [
+          "X",
+          "给药途径不统一"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有问题",
+        "arguments": [
+          "X",
+          "给药剂量和时机存在争议"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "全关节置换术类型"
+    },
+    "source_text": "髋关节和膝关节置换术常出现大量出血，从而导致术后严重贫血，且通常需要进行同种异体或自体输血。如何安全有效地减少关节置换术中的出血是临床医生关注的重点问题。目前已有多种手段用以减少术中失血和术后输血的机会，其中，氨甲环酸( tranexamic acid，TXA) 对全关节置换术( total jointarthroplasty，TJA) 中的循环管理起到了很大的改善作用。氨甲环酸是一种抗纤溶药，可竞争性结合纤溶酶原上的赖氨酸结合位点，阻止纤溶酶原的激活，保护纤维蛋白不被降解，从而发挥止血作用［1］。氨甲环酸在全关节置换术中的止血功能已得到大量研究的证实［2 －8］，但我国临床工作者在氨甲环酸的实际运用中仍面临很多问题，如给药途径尚不统一，给药剂量和时机存在争议等。同时，作为一种抗纤溶剂，氨甲环酸理论上可以增加血栓形成的风险，因此如何安全使用也具有一定的挑战性。除此之外，目前相关的高质量文献样本量小，研究结果也受到偏倚·39·中华关节外科杂志( 电子版) 2019 年2 月第13 卷第1 期Chin J Joint Surg( Electronic Edition) ，February 2019，Vol．13，No．1http://guide.medlive.cn/因素的影响［8］。由此可见，尽管TXA 在全髋关节置换术( totalhip arthroplasty，THA) 及全膝关节置换术( total kneearthroplasty，TKA) 中已经得到了广泛的应用，但其临床标准化使用还存在许多问题。有大量的文献对TXA 在THA 和TKA 中的应用进行了探究，但目前仍然缺乏可用于制定临床指南的基于现有证据的综合性回顾和系统性分析。"
+  },
+  {
+    "rule_name": "氨甲环酸作为抗纤溶剂具有止血作用和血栓风险",
+    "head": {
+      "is_negative": false,
+      "name": "具有风险",
+      "arguments": [
+        "Y",
+        "血栓形成风险增加"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物类型",
+        "arguments": [
+          "Y",
+          "抗纤溶药"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用机制",
+        "arguments": [
+          "Y",
+          "竞争性结合纤溶酶原赖氨酸位点"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用机制",
+        "arguments": [
+          "Y",
+          "保护纤维蛋白不被降解"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用场景",
+        "arguments": [
+          "Y",
+          "全关节置换术"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "药物"
+    },
+    "source_text": "髋关节和膝关节置换术常出现大量出血，从而导致术后严重贫血，且通常需要进行同种异体或自体输血。如何安全有效地减少关节置换术中的出血是临床医生关注的重点问题。目前已有多种手段用以减少术中失血和术后输血的机会，其中，氨甲环酸( tranexamic acid，TXA) 对全关节置换术( total jointarthroplasty，TJA) 中的循环管理起到了很大的改善作用。氨甲环酸是一种抗纤溶药，可竞争性结合纤溶酶原上的赖氨酸结合位点，阻止纤溶酶原的激活，保护纤维蛋白不被降解，从而发挥止血作用［1］。氨甲环酸在全关节置换术中的止血功能已得到大量研究的证实［2 －8］，但我国临床工作者在氨甲环酸的实际运用中仍面临很多问题，如给药途径尚不统一，给药剂量和时机存在争议等。同时，作为一种抗纤溶剂，氨甲环酸理论上可以增加血栓形成的风险，因此如何安全使用也具有一定的挑战性。除此之外，目前相关的高质量文献样本量小，研究结果也受到偏倚·39·中华关节外科杂志( 电子版) 2019 年2 月第13 卷第1 期Chin J Joint Surg( Electronic Edition) ，February 2019，Vol．13，No．1http://guide.medlive.cn/因素的影响［8］。由此可见，尽管TXA 在全髋关节置换术( totalhip arthroplasty，THA) 及全膝关节置换术( total kneearthroplasty，TKA) 中已经得到了广泛的应用，但其临床标准化使用还存在许多问题。有大量的文献对TXA 在THA 和TKA 中的应用进行了探究，但目前仍然缺乏可用于制定临床指南的基于现有证据的综合性回顾和系统性分析。"
+  },
+  {
+    "rule_name": "全关节置换术的氨甲环酸研究存在偏倚需系统性分析制定指南",
+    "head": {
+      "is_negative": false,
+      "name": "需求动作",
+      "arguments": [
+        "Z",
+        "系统性分析"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "全关节置换术",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用药物",
+        "arguments": [
+          "X",
+          "氨甲环酸",
+          "广泛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究主题",
+        "arguments": [
+          "X",
+          "氨甲环酸应用"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "全关节置换术类型",
+      "Z": "系统性分析"
+    },
+    "source_text": "髋关节和膝关节置换术常出现大量出血，从而导致术后严重贫血，且通常需要进行同种异体或自体输血。如何安全有效地减少关节置换术中的出血是临床医生关注的重点问题。目前已有多种手段用以减少术中失血和术后输血的机会，其中，氨甲环酸( tranexamic acid，TXA) 对全关节置换术( total jointarthroplasty，TJA) 中的循环管理起到了很大的改善作用。氨甲环酸是一种抗纤溶药，可竞争性结合纤溶酶原上的赖氨酸结合位点，阻止纤溶酶原的激活，保护纤维蛋白不被降解，从而发挥止血作用［1］。氨甲环酸在全关节置换术中的止血功能已得到大量研究的证实［2 －8］，但我国临床工作者在氨甲环酸的实际运用中仍面临很多问题，如给药途径尚不统一，给药剂量和时机存在争议等。同时，作为一种抗纤溶剂，氨甲环酸理论上可以增加血栓形成的风险，因此如何安全使用也具有一定的挑战性。除此之外，目前相关的高质量文献样本量小，研究结果也受到偏倚·39·中华关节外科杂志( 电子版) 2019 年2 月第13 卷第1 期Chin J Joint Surg( Electronic Edition) ，February 2019，Vol．13，No．1http://guide.medlive.cn/因素的影响［8］。由此可见，尽管TXA 在全髋关节置换术( totalhip arthroplasty，THA) 及全膝关节置换术( total kneearthroplasty，TKA) 中已经得到了广泛的应用，但其临床标准化使用还存在许多问题。有大量的文献对TXA 在THA 和TKA 中的应用进行了探究，但目前仍然缺乏可用于制定临床指南的基于现有证据的综合性回顾和系统性分析。"
+  },
+  {
+    "rule_name": "全关节置换术中TXA用量对止血效果无显著影响_核心结论",
+    "head": {
+      "is_negative": false,
+      "name": "得出结论",
+      "arguments": [
+        "研究_证据_综述",
+        "无显著差异",
+        "基于"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "手术实例",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Z",
+          "全关节置换术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估指标",
+        "arguments": [
+          "Z",
+          "失血量"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估指标",
+        "arguments": [
+          "Z",
+          "输血风险"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Z",
+          "使用TXA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预变量",
+        "arguments": [
+          "Z",
+          "用药剂量"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "手术实例"
+    },
+    "source_text": "高强度证据支持: 全关节置换术中TXA 的用量对围术期的失血量及输血风险并无显著影响。由于相关研究数量有限，仅有6 篇单独探究IV剂量或局部用药剂量的高质量文献，无法进行Meta分析比较［10 －11］。只有两项已发表的研究对大剂量IV 或局部使用TXA 的效果进行了比较［12 －13］。但是，两项研究就在TKA 中局部使用不同剂量TXA( 1. 5 g 和3 g) 的失血量和出血风险进行比较后并未发现二者的效果存在差异［14 －15］。此外，两项针对TKA 或THA 中TXA IV 剂量的研究亦未发现更大剂量TXA 具有更好的止血效果［16 －17］。而网状Meta分析的结果也显示，无论是IV 还是局部给药途径，都没有足够的证据表明更大剂量的TXA 具有更明显的止血优势［10 －11］。尽管仅在TKA 中静脉输注TXA 过程中观察到了剂量效应，但不能就此否认剂量效应在IV 或局部使用TXA 中的存在。原因可能在于: 在THA 或TKA 中的TXA 使用剂量还未达到它产生剂量效应的值。目前TXA 的常用剂量为10 mg /kg、3 剂总共15 mg /kg ( IV ) 或总剂量0. 5 ～3 g ( 局部使用)［10 －11］。1．静脉输注TXA网状Meta 分析表明，即使增加IV TXA 的剂量( 小剂量IV( ＜20 mg /kg 或≤1 g) ，大剂量IV( ≥20 mg /kg 或＞1 g) ) ，失血量也并没有减少［12 －13］。在对TKA 中TXA 使用的网状Meta 分析发现存在剂量效应，但在THA 中却不尽然［10 －11］。此外，证据还表明，单剂量和多剂量IV 的效果也没有显著差异，因此，进一步支持了没有必要在膝关节或髋关节置换术中使用大剂量IV TXA 来减少出血的观点。"
+  },
+  {
+    "rule_name": "TKA中局部使用不同剂量TXA效果无差异_研究证据",
+    "head": {
+      "is_negative": false,
+      "name": "研究结论",
+      "arguments": [
+        "Y",
+        "效果无差异"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "手术实例",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Z",
+          "TKA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Z",
+          "局部使用TXA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究比较",
+        "arguments": [
+          "Y",
+          "不同剂量"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "比较对象",
+        "arguments": [
+          "Y",
+          "剂量1_1.5g"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "比较对象",
+        "arguments": [
+          "Y",
+          "剂量2_3g"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究关注点",
+        "arguments": [
+          "Y",
+          "失血量"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究对象",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "TKA手术实例",
+      "Y": "比较研究"
+    },
+    "source_text": "高强度证据支持: 全关节置换术中TXA 的用量对围术期的失血量及输血风险并无显著影响。由于相关研究数量有限，仅有6 篇单独探究IV剂量或局部用药剂量的高质量文献，无法进行Meta分析比较［10 －11］。只有两项已发表的研究对大剂量IV 或局部使用TXA 的效果进行了比较［12 －13］。但是，两项研究就在TKA 中局部使用不同剂量TXA( 1. 5 g 和3 g) 的失血量和出血风险进行比较后并未发现二者的效果存在差异［14 －15］。此外，两项针对TKA 或THA 中TXA IV 剂量的研究亦未发现更大剂量TXA 具有更好的止血效果［16 －17］。而网状Meta分析的结果也显示，无论是IV 还是局部给药途径，都没有足够的证据表明更大剂量的TXA 具有更明显的止血优势［10 －11］。尽管仅在TKA 中静脉输注TXA 过程中观察到了剂量效应，但不能就此否认剂量效应在IV 或局部使用TXA 中的存在。原因可能在于: 在THA 或TKA 中的TXA 使用剂量还未达到它产生剂量效应的值。目前TXA 的常用剂量为10 mg /kg、3 剂总共15 mg /kg ( IV ) 或总剂量0. 5 ～3 g ( 局部使用)［10 －11］。1．静脉输注TXA网状Meta 分析表明，即使增加IV TXA 的剂量( 小剂量IV( ＜20 mg /kg 或≤1 g) ，大剂量IV( ≥20 mg /kg 或＞1 g) ) ，失血量也并没有减少［12 －13］。在对TKA 中TXA 使用的网状Meta 分析发现存在剂量效应，但在THA 中却不尽然［10 －11］。此外，证据还表明，单剂量和多剂量IV 的效果也没有显著差异，因此，进一步支持了没有必要在膝关节或髋关节置换术中使用大剂量IV TXA 来减少出血的观点。"
+  },
+  {
+    "rule_name": "TKA_THA中IV使用不同剂量TXA效果无差异_研究证据",
+    "head": {
+      "is_negative": false,
+      "name": "研究结论",
+      "arguments": [
+        "Y",
+        "效果无差异"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "手术实例",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Z",
+          "关节置换术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Z",
+          "IV使用TXA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究比较",
+        "arguments": [
+          "Y",
+          "不同剂量"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "比较对象",
+        "arguments": [
+          "Y",
+          "常规剂量"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "比较对象",
+        "arguments": [
+          "Y",
+          "更大剂量"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究关注点",
+        "arguments": [
+          "Y",
+          "止血效果"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究对象",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "关节置换手术实例",
+      "Y": "比较研究"
+    },
+    "source_text": "高强度证据支持: 全关节置换术中TXA 的用量对围术期的失血量及输血风险并无显著影响。由于相关研究数量有限，仅有6 篇单独探究IV剂量或局部用药剂量的高质量文献，无法进行Meta分析比较［10 －11］。只有两项已发表的研究对大剂量IV 或局部使用TXA 的效果进行了比较［12 －13］。但是，两项研究就在TKA 中局部使用不同剂量TXA( 1. 5 g 和3 g) 的失血量和出血风险进行比较后并未发现二者的效果存在差异［14 －15］。此外，两项针对TKA 或THA 中TXA IV 剂量的研究亦未发现更大剂量TXA 具有更好的止血效果［16 －17］。而网状Meta分析的结果也显示，无论是IV 还是局部给药途径，都没有足够的证据表明更大剂量的TXA 具有更明显的止血优势［10 －11］。尽管仅在TKA 中静脉输注TXA 过程中观察到了剂量效应，但不能就此否认剂量效应在IV 或局部使用TXA 中的存在。原因可能在于: 在THA 或TKA 中的TXA 使用剂量还未达到它产生剂量效应的值。目前TXA 的常用剂量为10 mg /kg、3 剂总共15 mg /kg ( IV ) 或总剂量0. 5 ～3 g ( 局部使用)［10 －11］。1．静脉输注TXA网状Meta 分析表明，即使增加IV TXA 的剂量( 小剂量IV( ＜20 mg /kg 或≤1 g) ，大剂量IV( ≥20 mg /kg 或＞1 g) ) ，失血量也并没有减少［12 －13］。在对TKA 中TXA 使用的网状Meta 分析发现存在剂量效应，但在THA 中却不尽然［10 －11］。此外，证据还表明，单剂量和多剂量IV 的效果也没有显著差异，因此，进一步支持了没有必要在膝关节或髋关节置换术中使用大剂量IV TXA 来减少出血的观点。"
+  },
+  {
+    "rule_name": "关节置换术中不建议使用大剂量IV_TXA_基于证据支持",
+    "head": {
+      "is_negative": false,
+      "name": "临床建议",
+      "arguments": [
+        "共识_证据",
+        "不建议使用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "手术实例",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Z",
+          "关节置换术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标效果",
+        "arguments": [
+          "减少出血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Z",
+          "大剂量IV使用TXA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "证据支持",
+        "arguments": [
+          "共识_证据",
+          "无显著优势"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "涉及药物",
+        "arguments": [
+          "TXA"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "关节置换手术实例"
+    },
+    "source_text": "高强度证据支持: 全关节置换术中TXA 的用量对围术期的失血量及输血风险并无显著影响。由于相关研究数量有限，仅有6 篇单独探究IV剂量或局部用药剂量的高质量文献，无法进行Meta分析比较［10 －11］。只有两项已发表的研究对大剂量IV 或局部使用TXA 的效果进行了比较［12 －13］。但是，两项研究就在TKA 中局部使用不同剂量TXA( 1. 5 g 和3 g) 的失血量和出血风险进行比较后并未发现二者的效果存在差异［14 －15］。此外，两项针对TKA 或THA 中TXA IV 剂量的研究亦未发现更大剂量TXA 具有更好的止血效果［16 －17］。而网状Meta分析的结果也显示，无论是IV 还是局部给药途径，都没有足够的证据表明更大剂量的TXA 具有更明显的止血优势［10 －11］。尽管仅在TKA 中静脉输注TXA 过程中观察到了剂量效应，但不能就此否认剂量效应在IV 或局部使用TXA 中的存在。原因可能在于: 在THA 或TKA 中的TXA 使用剂量还未达到它产生剂量效应的值。目前TXA 的常用剂量为10 mg /kg、3 剂总共15 mg /kg ( IV ) 或总剂量0. 5 ～3 g ( 局部使用)［10 －11］。1．静脉输注TXA网状Meta 分析表明，即使增加IV TXA 的剂量( 小剂量IV( ＜20 mg /kg 或≤1 g) ，大剂量IV( ≥20 mg /kg 或＞1 g) ) ，失血量也并没有减少［12 －13］。在对TKA 中TXA 使用的网状Meta 分析发现存在剂量效应，但在THA 中却不尽然［10 －11］。此外，证据还表明，单剂量和多剂量IV 的效果也没有显著差异，因此，进一步支持了没有必要在膝关节或髋关节置换术中使用大剂量IV TXA 来减少出血的观点。"
+  }
+]

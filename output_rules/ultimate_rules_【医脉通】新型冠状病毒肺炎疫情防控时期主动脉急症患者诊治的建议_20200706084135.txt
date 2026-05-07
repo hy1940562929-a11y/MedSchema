@@ -1,0 +1,234 @@
+【原始长篇章】:
+The outbreak of 2019 coronavirus disease (COVID-19) coincides with the winter and spring which have high incidence of aortic emergencies. Aortic emergencies are mostly sudden onset, critical illness and have high mortality, requiring urgent treatment. Under the "First-level response mechanism for major public health emergencies", the diagnosis and treatment of patients with aortic emergencies need a new process. How to provide timely treatment for patients with aortic emergencies in this special period, and at the same time to enhance the awareness of medical staff to prevent the spread of the epidemic in the hospital, are major issues currently facing the emergency department/cardiac surgery/vascular surgery and other related departments. This article calls on all medical units to carry out medical practice on the basis of strictly abiding by the rules and regulations of the government and the hospital's infection control department. On the premise of "prevention and control of epidemic situation is priority, prevention of nosocomial infection is the most important, and conservative treatment is the first choice for confirmed COVID-19 patients", it advocates the diagnosis and treatment principle of "appropriate postponement of selective operation, isolation and screening of COVID-19 before deadline operation, and strict protection for emergency surgery".
+
+【规则 1】
+规则名: 疫情期间主动脉急症患者择期手术应适当推迟
+逻辑表达: 诊疗决策(Z, Y, 适当推迟) <- 主动脉急症患者(X) ^ 患有疾病(X, 主动脉疾病) ^ 需接受手术(Y) ^ 手术类型(Y, 择期) ^ 涉及患者(Y, X) ^ 遵循原则(Z, 防控优先) ^ 所属单位(X, Z)
+变量映射:
+  - X: 患者
+  - Y: 手术
+  - Z: 医疗单位
+
+【规则 2】
+规则名: 疫情期间限期手术前对未明确患者需隔离筛查
+逻辑表达: 诊疗决策(Z, Y, 隔离筛查) <- 主动脉急症患者(X) ^ 患有疾病(X, 主动脉疾病) ^ 需接受手术(Y) ^ 手术类型(Y, 限期) ^ 涉及患者(Y, X) ^ 新冠状态(X, 未明确) ^ 遵循原则(Z, 防控优先) ^ 所属单位(X, Z)
+变量映射:
+  - X: 患者
+  - Y: 手术
+  - Z: 医疗单位
+
+【规则 3】
+规则名: 疫情期间限期手术前对确诊或高风险患者按确诊处理
+逻辑表达: 诊疗决策(Z, Y, 按确诊处理) <- 主动脉急症患者(X) ^ 患有疾病(X, 主动脉疾病) ^ 需接受手术(Y) ^ 手术类型(Y, 限期) ^ 涉及患者(Y, X) ^ (确诊新冠(X) V 高危流行病学史(X)) ^ 遵循原则(Z, 防控优先) ^ 所属单位(X, Z)
+变量映射:
+  - X: 患者
+  - Y: 手术
+  - Z: 医疗单位
+
+【规则 4】
+规则名: 疫情期间主动脉急症患者急诊手术需严格防护
+逻辑表达: 诊疗决策(Z, Y, 严格防护下进行) <- 主动脉急症患者(X) ^ 患有疾病(X, 主动脉疾病) ^ 需接受手术(Y) ^ 手术类型(Y, 急诊) ^ 涉及患者(Y, X) ^ 遵循原则(Z, 严格防护) ^ 遵循原则(Z, 防控优先) ^ 所属单位(X, Z)
+变量映射:
+  - X: 患者
+  - Y: 手术
+  - Z: 医疗单位
+
+---
+
+
+【原始长篇章】:
+病史和临床症状：记录包括疫区逗留、与确诊COVID-19 患者接触史在内的流行病学史，发热或呼吸道症状，发热门诊就诊史等。可采取书面承诺书的形式，请患者及家属填写上述情况，并承诺遵守疫期的有关法律规章，签字存档。影像学排查：对于考虑主动脉急症的患者，应通过绿色通道尽快完善主动脉增强CT，并完成肺窗口头报告，第一时间判断有无肺炎影像学改变。将患者转运至CT 室过程中，患者全程佩戴口罩，医护人员穿戴临床二级个人防护装备。对于疑似患者，需提前请专家组会诊，检查走专用通道，并严格消毒，必要时医护人员穿戴临床三级个人防护装备。判断COVID-19 的风险度：如上述均为阴性，暂不考虑COVID-19。如有上述涉及的流行病学史、发热或呼吸道症状、肺炎影像学特征表现之一，应第一时间由专家组会诊，判断“暂不考虑COVID-19”或“疑似COVID-19”。暂不考虑COVID-19 者，按照一般流程继续接受常规诊疗，但由于疫期无法完全排除无症状感染，建议诊疗过程常规予以二级防护。疑似COVID-19 者，需在2 h内网络直报，并尽快采集呼吸道标本进行新冠病毒核酸检测。
+
+【规则 1】
+规则名: 筛查全阴性患者被判断为暂不考虑COVID19且获二级防护建议
+逻辑表达: 暂不考虑COVID19患者(X) ^ 后续处理建议(X, 按一般流程诊疗, 二级防护) <- 患者(X) ^ 筛查项目(Y1) ^ 筛查项目(Y2) ^ 筛查项目(Y3) ^ 归属患者(Y1, X) ^ 归属患者(Y2, X) ^ 归属患者(Y3, X) ^ 筛查结果为(Y1, 阴性) ^ 筛查结果为(Y2, 阴性) ^ 筛查结果为(Y3, 阴性) ^ 风险判断(专家组, X, 暂不考虑)
+变量映射:
+  - X: 患者
+  - Y1: 流行病学史筛查
+  - Y2: 临床症状筛查
+  - Y3: 影像学筛查
+
+【规则 2】
+规则名: 有流行病学史且被专家组判断为疑似COVID19需紧急上报检测
+逻辑表达: 疑似COVID19患者(X) ^ 后续处理(X, 网络直报, 2小时内) ^ 后续处理(X, 采集标本核酸检测, 尽快) <- 患者(X) ^ 存在流行病学史(X, 疫区接触史) ^ 风险判断(专家组, X, 疑似)
+变量映射:
+  - X: 患者
+
+【规则 3】
+规则名: 有发热或呼吸道症状且被专家组判断为疑似COVID19需紧急上报检测
+逻辑表达: 疑似COVID19患者(X) ^ 后续处理(X, 网络直报, 2小时内) ^ 后续处理(X, 采集标本核酸检测, 尽快) <- 患者(X) ^ 存在症状(X, 发热或呼吸道症状) ^ 风险判断(专家组, X, 疑似)
+变量映射:
+  - X: 患者
+
+【规则 4】
+规则名: 有肺炎影像学特征且被专家组判断为疑似COVID19需紧急上报检测
+逻辑表达: 疑似COVID19患者(X) ^ 后续处理(X, 网络直报, 2小时内) ^ 后续处理(X, 采集标本核酸检测, 尽快) <- 患者(X) ^ 影像学检查发现(X, 肺炎影像学特征) ^ 风险判断(专家组, X, 疑似)
+变量映射:
+  - X: 患者
+
+---
+
+
+【原始长篇章】: 疑似（或确诊）合并COVID-19 的患者：此类患者需在定点医院隔离救治。除需抢救生命外，原则上不宜在感染控制之前施行主动脉手术。为疑似（或确诊）COVID-19 病例行急诊手术前准备时，应尽可能明确诊断，确诊COVID-19 的患者可积极予以中西医结合治疗[3]，恢复至连续两次核酸检测（间隔1 d）转阴，再评估手术时机。此举既能为手术创造条件，减少术后并发症和死亡率，也能有效避免手术室、术后监护室聚集性感染导致医院运转失灵。术前准备过程须严格遵守相关防护规定，严防感染扩散[9-10]。措施包括：（1）医护人员穿戴临床三级个人防护装备。（2）隔离病房在实施标准防护的基础上，采取接触隔离、飞沫隔离和空气隔离等措施。具体包括：进出隔离病房，应当严格执行《医院隔离技术规范》、《医务人员穿脱防护用品的流程》，正确实施手卫生，按照标准流程穿脱防护用品，合适位置悬挂流程图，配置穿衣镜；配备感控人员督导医务人员穿脱防护用品，防止污染；用于诊疗疑似或确诊患者的医疗器具及护理物品专人专用。（3）手术知情同意书尽量由与患者无密切接触史的家属签署；与患者密切接触的家属，应建议其定点医院就诊，在隔离状态下通过视频或语音沟通手术风险，并录像、录音。（4）为疑似（或确诊）患者实施可能产生气溶胶的操作（如气管插管、无创通气、气管切开、插管前手动通气、支气管镜检查、心肺复苏等），防护措施包括：采取空气隔离措施；佩戴医用防护口罩，并进行密闭性能检测；眼部防护（如护目镜或面罩）；穿防体液渗入的长袖隔离衣，戴手套；房间中人数限制在患者所需护理和支持的最低数量。
+
+【规则 1】
+规则名: 疑似COVID19合并主动脉疾病患者手术限制
+逻辑表达: 不推荐手术时机(S, 感染控制前) <- 患者(X) ^ 疑似病例(X, COVID-19) ^ 患病(X, 主动脉疾病) ^ 需手术(S, X) ^ ¬手术指征(S, 抢救生命) ^ 救治地点(X, 定点医院) ^ 状态(X, 隔离中)
+变量映射:
+  - X: 患者
+  - S: 主动脉手术
+
+【规则 2】
+规则名: 确诊COVID19患者主动脉手术术前治疗与评估要求
+逻辑表达: 建议手术时机评估(S) <- 患者(X) ^ 确诊病例(X, COVID-19) ^ 患病(X, 主动脉疾病) ^ 需手术(S, X) ^ 接受治疗(X, 中西医结合) ^ 核酸检测结果(X, 阴性, 第一次) ^ 间隔时间(第二次检测, 第一次检测, 1天) ^ 核酸检测结果(X, 阴性, 第二次) ^ 救治地点(X, 定点医院) ^ 状态(X, 隔离中)
+变量映射:
+  - X: 患者
+  - S: 主动脉手术
+
+【规则 3】
+规则名: 为疑似或确诊COVID19患者操作时医护人员三级防护要求
+逻辑表达: 要求防护措施(P, 临床三级) <- 患者(X) ^ 疑似病例(X, COVID-19) ^ 医护操作(O, 针对患者X) ^ 执行人员(O, Y) ^ 医护人员(Y) ^ 配备防护装备(Y, P)
+变量映射:
+  - X: 患者
+  - Y: 医护人员
+  - O: 医疗操作
+  - P: 个人防护装备
+
+【规则 4】
+规则名: 疑似或确诊COVID19患者手术知情同意签署建议
+逻辑表达: 建议签署方式(F, 远程音视频) <- 患者(X) ^ 疑似病例(X, COVID-19) ^ 需手术(S, X) ^ 家属(F) ^ 密切接触史(F, X) ^ 就诊地点(F, 定点医院) ^ 状态(F, 隔离中) ^ 需签署文件(S, 知情同意书) ^ 签署人(知情同意书, F)
+变量映射:
+  - X: 患者
+  - S: 手术
+  - F: 家属
+
+【规则 5】
+规则名: 对疑似或确诊COVID19患者进行气溶胶操作时的强化防护
+逻辑表达: 要求强化防护操作(O) <- 患者(X) ^ 疑似病例(X, COVID-19) ^ 高风险操作(O, 产生气溶胶) ^ 对象(O, X) ^ 隔离类型(操作环境, 空气隔离) ^ 防护要求(O, 医用防护口罩) ^ 防护要求(O, 眼部防护) ^ 防护要求(O, 长袖隔离衣) ^ 防护要求(O, 手套) ^ 人数限制(操作环境, 最低必需)
+变量映射:
+  - X: 患者
+  - O: 医疗操作
+
+---
+
+
+【原始长篇章】:The outbreak of 2019 coronavirus disease (COVID-19) coincides with the winter and spring which have high incidence ofaortic emergencies. Aortic emergencies are mostly sudden onset, critical illness and have high mortality, requiring urgent treatment.Under the "First-level response mechanism for major public health emergencies", the diagnosis and treatment of patients with aorticemergencies need a new process. How to provide timely treatment for patients with aortic emergencies in this special period, andat the same time to enhance the awareness of medical staff to prevent the spread of the epidemic in the hospital, are major issuescurrently facing the emergency department/cardiac surgery/vascular surgery and other related departments. This article calls onall medical units to carry out medical practice on the basis of strictly abiding by the rules and regulations of the government andthe hospital's infection control department. On the premise of "prevention and control of epidemic situation is priority, preventionof nosocomial infection is the most important, and conservative treatment is the first choice for confirmed COVID-19 patients",it advocates the diagnosis and treatment principle of "appropriate postponement of selective operation, isolation and screening ofCOVID-19 before deadline operation, and strict protection for emergency surgery".
+
+【规则 1】
+规则名: 疫情响应期主动脉急症诊疗需遵循新流程
+逻辑表达: 遵循诊疗原则(X， 新流程) <- 处于时期(X， 公共卫生应急一级响应) ^ 接诊患者(X， Y) ^ 患有疾病(Y， 主动脉急症) ^ 诊疗需求(Y， 紧急)
+变量映射:
+  - X: 医院/医疗单位
+  - Y: 患者
+
+【规则 2】
+规则名: 疫情期主动脉急症诊疗核心前提
+逻辑表达: 执行医疗实践(X， 依据前述前提) <- 医疗单位(X) ^ 接诊患者(X， Y) ^ 患有疾病(Y， 主动脉急症) ^ 首要原则(疫情防控， 优先) ^ 关键要求(预防， 院内感染) ^ 确诊状态(Y， COVID-19) ^ 治疗首选(Y， 保守治疗)
+变量映射:
+  - X: 医院/医疗单位
+  - Y: 患者
+
+【规则 3】
+规则名: 疫情期主动脉急症患者择期手术处理原则
+逻辑表达: 应用诊疗原则(X， 适当推迟择期手术) <- 医疗单位(X) ^ 接诊患者(X， Y) ^ 患有疾病(Y， 主动脉急症) ^ 手术类型(Y， 择期手术) ^ 首要原则(疫情防控， 优先)
+变量映射:
+  - X: 医院/医疗单位
+  - Y: 患者
+
+【规则 4】
+规则名: 疫情期主动脉急症患者限期手术处理原则
+逻辑表达: 应用诊疗原则(X， 限期手术前隔离筛查) <- 医疗单位(X) ^ 接诊患者(X， Y) ^ 患有疾病(Y， 主动脉急症) ^ 手术类型(Y， 限期手术) ^ 关键要求(预防， 院内感染) ^ 筛查要求(Y， COVID-19检测)
+变量映射:
+  - X: 医院/医疗单位
+  - Y: 患者
+
+【规则 5】
+规则名: 疫情期主动脉急症患者急症手术处理原则
+逻辑表达: 应用诊疗原则(X， 急症手术严格防护) <- 医疗单位(X) ^ 接诊患者(X， Y) ^ 患有疾病(Y， 主动脉急症) ^ 手术类型(Y， 急症手术) ^ 诊疗需求(Y， 紧急) ^ 关键要求(预防， 院内感染) ^ 防护级别(手术， 严格)
+变量映射:
+  - X: 医院/医疗单位
+  - Y: 患者
+
+---
+
+
+【原始长篇章】:主动脉急症的确诊和治疗方案制定各项检查尤其是主动脉CT 血管造影（CTA）完成后，外科医师结合临床表现，立即判断是否需要手术。一般分为不需急诊手术和需要急诊手术两种情况，不需急诊手术者还可细分为以下三类：（1）无手术指征或无手术条件，保守治疗；（2）需择期手术；（3）需限期手术。须结合是否合并COVID-19 综合制定治疗方案。由于COVID-19 的表现多样[3,5]，如感染者可能无症状且咽拭子核酸检测阴性，无症状感染者也可能成为传染源，因此，在疫情流行期，无疫区直接接触史、无相关临床表现、肺部CT 阴性甚至核酸检测阴性的患者，仍无法完全排除COVID-19 的可能。同时考虑医院为高风险场所，推荐“择期手术适当推迟（减少疫期手术），限期手术术前排查（隔离观察至潜伏期结束），急诊手术严格防护”的治疗原则。
+
+【规则 1】
+规则名: 主动脉急症患者_制定保守治疗方案
+逻辑表达: 治疗方案建议(Y, 保守治疗) <- 主动脉急症患者(X) ^ 制定手术方案(Y) ^ 归属患者(Y, X) ^ 手术指征类型(Y, 无手术指征) ^ 患者状态(X, Z) ^ 新冠肺炎状态(X, Z)
+变量映射: 
+  - X: 患者
+  - Y: 手术方案
+  - Z: 新冠肺炎状态（常量：非新冠或未明）
+
+【规则 2】
+规则名: 主动脉急症患者_制定择期手术方案_非新冠患者
+逻辑表达: 治疗方案建议(Y, 择期手术且适当推迟) <- 主动脉急症患者(X) ^ 制定手术方案(Y) ^ 归属患者(Y, X) ^ 手术指征类型(Y, 择期) ^ 患者状态(X, 非新冠) ^ 环境状态(医院, 高风险)
+变量映射: 
+  - X: 患者
+  - Y: 手术方案
+
+【规则 3】
+规则名: 主动脉急症患者_制定限期手术方案_非新冠患者
+逻辑表达: 治疗方案建议(Y, 限期手术且术前排查隔离) <- 主动脉急症患者(X) ^ 制定手术方案(Y) ^ 归属患者(Y, X) ^ 手术指征类型(Y, 限期) ^ 患者状态(X, 非新冠) ^ 环境状态(医院, 高风险)
+变量映射: 
+  - X: 患者
+  - Y: 手术方案
+
+【规则 4】
+规则名: 主动脉急症患者_制定急诊手术方案_非新冠患者
+逻辑表达: 治疗方案建议(Y, 急诊手术且严格防护) <- 主动脉急症患者(X) ^ 制定手术方案(Y) ^ 归属患者(Y, X) ^ 手术指征类型(Y, 急诊) ^ 患者状态(X, 非新冠) ^ 环境状态(医院, 高风险)
+变量映射: 
+  - X: 患者
+  - Y: 手术方案
+
+【规则 5】
+规则名: 疫情流行期_主动脉急症患者_排除新冠感染状态困难
+逻辑表达: 确定状态困难(X, 新冠肺炎) <- 主动脉急症患者(X) ^ 疫情时期(当前, 流行期) ^ 无接触史(X, 疫区) ^ 临床表现(X, 无相关) ^ 检查结果(X, 肺部CT阴性) ^ 检测结果(X, 核酸阴性)
+变量映射: 
+  - X: 患者
+
+---
+
+
+【原始长篇章】:近期新型冠状病毒肺炎（2019 coronavirus disease，COVID-19）疫情爆发，恰逢主动脉急症高发的冬春时节，而主动脉急症大多起病急骤，病情危重，死亡率高，需紧急处理。在国家“重大突发公共卫生事件一级响应机制”之下，疫期主动脉急症患者的诊疗需制订全新的流程。如何在这一特殊时期增强医护人员的防护和正确救治意识，既让主动脉急症患者获得及时、有效的治疗，又能避免救治期间可能发生的院内疫情传播，是急诊科、心外科、血管外科等相关学科当前面临的重大课题。本文呼吁各医疗单位在严格遵守政府和医院感控部门规章制度的基础上开展医疗实践，在“疫情防控为重，严防院内感染，确诊COVID-19 患者首选保守”的前提下，提倡“择期手术适当推迟，限期手术术前隔离排查，急诊手术严格防护”的诊治原则，同时针对COVID-19 疫期主动脉急症患者的急诊科接诊、病房收治、术前准备、术中防护、术后处理等方面提出了建议。
+
+【规则 1】
+规则名: 非COVID19确诊患者的择期主动脉急症处理原则
+逻辑表达: 治疗原则(X, 适当推迟, 针对手术) <- 主动脉急症患者(X) ^ 手术类型(X, 择期) ^ ¬确诊COVID19患者(X) ^ 疫期背景(当前)
+变量映射:
+  - X: 患者
+
+【规则 2】
+规则名: COVID19确诊患者的主动脉急症保守治疗原则
+逻辑表达: 治疗原则(X, 保守治疗, 首选) <- 主动脉急症患者(X) ^ 确诊COVID19患者(X) ^ 疫期背景(当前) ^ 首要目标(疫情防控为重)
+变量映射:
+  - X: 患者
+
+【规则 3】
+规则名: 非COVID19确诊患者的限期主动脉急症处理原则
+逻辑表达: 治疗原则(X, 术前隔离排查, 针对手术) <- 主动脉急症患者(X) ^ 手术类型(X, 限期) ^ ¬确诊COVID19患者(X) ^ 疫期背景(当前)
+变量映射:
+  - X: 患者
+
+【规则 4】
+规则名: COVID19确诊患者的限期主动脉急症保守治疗原则
+逻辑表达: 治疗原则(X, 保守治疗, 首选) <- 主动脉急症患者(X) ^ 确诊COVID19患者(X) ^ 手术类型(X, 限期) ^ 首要目标(疫情防控为重)
+变量映射:
+  - X: 患者
+
+【规则 5】
+规则名: 非COVID19确诊患者的急诊主动脉急症处理原则
+逻辑表达: 治疗原则(X, 严格防护, 针对手术) <- 主动脉急症患者(X) ^ 手术类型(X, 急诊) ^ ¬确诊COVID19患者(X) ^ 疫期背景(当前)
+变量映射:
+  - X: 患者
+
+【规则 6】
+规则名: COVID19确诊患者的急诊主动脉急症保守治疗原则
+逻辑表达: 治疗原则(X, 保守治疗, 首选) <- 主动脉急症患者(X) ^ 确诊COVID19患者(X) ^ 手术类型(X, 急诊) ^ 首要目标(严防院内感染)
+变量映射:
+  - X: 患者
+
+---
+

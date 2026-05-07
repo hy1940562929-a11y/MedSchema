@@ -1,0 +1,1707 @@
+[
+  {
+    "rule_name": "因监测体系缺失导致RVGE疾病负担评估困难",
+    "head": {
+      "is_negative": false,
+      "name": "导致结果",
+      "arguments": [
+        "X",
+        "无法真实反映疾病负担",
+        "RVGE"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "传染病报病体系",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "监测上报项目",
+        "arguments": [
+          "X",
+          "RV",
+          "独立传染病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "隶属于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "地区",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "开展监测",
+        "arguments": [
+          "Y",
+          "哨点监测"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "国家传染病报病体系",
+      "Y": "地区"
+    },
+    "source_text": "RV疾病负担主要估算方法有：（1）基于国家监测项目以哨点医院为基础的，RVGE引起的门诊和住院情况、重症病例数和死亡例数等，以及在腹泻病发病和死亡中的RVGE所占比例；（2）根据RVGE的直接和间接成本，门急诊和住院的医疗支出，社会经济心理学、医源性感染、并发症等估算总支出成本。目前，直接而准确评估RV的疾病负担还存在一定的困难，主要原因在于，首先国家传染病报病体系中尚未将RV作为独立传染病进行监测上报，很多地区尚未开展哨点监测工作。其次部分急性胃肠炎患儿没有去医院就医，就医病例中仅部分采集标本进行了病原检测，且诊断水平和实验室检测方法灵敏度的差异，无法真实全面地反映国家和地区RVGE疾病负担［35］。"
+  },
+  {
+    "rule_name": "因病例检测不全导致5岁以下患儿RVGE疾病负担评估困难",
+    "head": {
+      "is_negative": false,
+      "name": "导致结果",
+      "arguments": [
+        "Z",
+        "无法真实反映疾病负担",
+        "RVGE"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "Z",
+          "急性胃肠炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄组",
+        "arguments": [
+          "Z",
+          "5岁以下"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "就医行为",
+        "arguments": [
+          "Z",
+          "去医院"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "部分执行",
+        "arguments": [
+          "Z",
+          "病原检测"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "患急性胃肠炎的儿童"
+    },
+    "source_text": "RV疾病负担主要估算方法有：（1）基于国家监测项目以哨点医院为基础的，RVGE引起的门诊和住院情况、重症病例数和死亡例数等，以及在腹泻病发病和死亡中的RVGE所占比例；（2）根据RVGE的直接和间接成本，门急诊和住院的医疗支出，社会经济心理学、医源性感染、并发症等估算总支出成本。目前，直接而准确评估RV的疾病负担还存在一定的困难，主要原因在于，首先国家传染病报病体系中尚未将RV作为独立传染病进行监测上报，很多地区尚未开展哨点监测工作。其次部分急性胃肠炎患儿没有去医院就医，就医病例中仅部分采集标本进行了病原检测，且诊断水平和实验室检测方法灵敏度的差异，无法真实全面地反映国家和地区RVGE疾病负担［35］。"
+  },
+  {
+    "rule_name": "RVGE是全球5岁以下儿童急性胃肠炎首要病因",
+    "head": {
+      "is_negative": false,
+      "name": "首要致病关系",
+      "arguments": [
+        "Y",
+        "轮状病毒"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病负担评估对象",
+        "arguments": [
+          "Y",
+          "全球5岁以下儿童"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "既往病史",
+        "arguments": [
+          "全球5岁以下儿童",
+          "RVGE"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "RVGE（轮状病毒胃肠炎）"
+    },
+    "source_text": "Rotavirus is the leading cause of acute gastroenteritis in children under 5 yearsworldwide. Every child aged 3 to 5 years has experienced at least one episode of rotavirus gastroenteritis(RVGE). In China, RVGE accounts for approximately 40% and 30% of diarrhea‑related hospitalizations andoutpatient visits in children under 5 years, and about 90% of RVGE occur in the children under 2 years.RVGE imposes heave burden to health care system and family and has gained wide attention from publichealth. World Health Organization ranked RVGE as the high priority vaccine‑preventable disease. As ofOctober 2019, 102 countries and regions have incorporated rotavirus vaccine into national immunizationprogram, which has remarkably reduced disease burden and death associated with RVGE in children under5 years worldwide. For this purpose, the Yangtze River Delta Immunization Integration Working Group,Chinese Medical Association Infectious Diseases Branch Pediatric Infection and Hepatology Groupformulated the'Expert consensus on the prevention, diagnosis and treatment of rotavirus gastroenteritis inchildren' based on the latest and important English and Chinese literatures."
+  },
+  {
+    "rule_name": "RVGE在中国5岁以下儿童中的高疾病负担特征",
+    "head": {
+      "is_negative": false,
+      "name": "占比",
+      "arguments": [
+        "Y",
+        "腹泻相关住院",
+        "约40%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "地域范围",
+        "arguments": [
+          "Y",
+          "中国"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病人群",
+        "arguments": [
+          "Y",
+          "5岁以下儿童"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "RVGE"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "疾病（RVGE）"
+    },
+    "source_text": "Rotavirus is the leading cause of acute gastroenteritis in children under 5 yearsworldwide. Every child aged 3 to 5 years has experienced at least one episode of rotavirus gastroenteritis(RVGE). In China, RVGE accounts for approximately 40% and 30% of diarrhea‑related hospitalizations andoutpatient visits in children under 5 years, and about 90% of RVGE occur in the children under 2 years.RVGE imposes heave burden to health care system and family and has gained wide attention from publichealth. World Health Organization ranked RVGE as the high priority vaccine‑preventable disease. As ofOctober 2019, 102 countries and regions have incorporated rotavirus vaccine into national immunizationprogram, which has remarkably reduced disease burden and death associated with RVGE in children under5 years worldwide. For this purpose, the Yangtze River Delta Immunization Integration Working Group,Chinese Medical Association Infectious Diseases Branch Pediatric Infection and Hepatology Groupformulated the'Expert consensus on the prevention, diagnosis and treatment of rotavirus gastroenteritis inchildren' based on the latest and important English and Chinese literatures."
+  },
+  {
+    "rule_name": "RVGE被列为高优先级疫苗可预防疾病",
+    "head": {
+      "is_negative": false,
+      "name": "WHO优先级评估",
+      "arguments": [
+        "Y",
+        "高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "Y",
+          "RVGE"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病负担",
+        "arguments": [
+          "Y",
+          "医疗系统",
+          "重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病负担",
+        "arguments": [
+          "Y",
+          "家庭",
+          "重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "公共卫生关注度",
+        "arguments": [
+          "Y",
+          "高"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "RVGE（轮状病毒胃肠炎）"
+    },
+    "source_text": "Rotavirus is the leading cause of acute gastroenteritis in children under 5 yearsworldwide. Every child aged 3 to 5 years has experienced at least one episode of rotavirus gastroenteritis(RVGE). In China, RVGE accounts for approximately 40% and 30% of diarrhea‑related hospitalizations andoutpatient visits in children under 5 years, and about 90% of RVGE occur in the children under 2 years.RVGE imposes heave burden to health care system and family and has gained wide attention from publichealth. World Health Organization ranked RVGE as the high priority vaccine‑preventable disease. As ofOctober 2019, 102 countries and regions have incorporated rotavirus vaccine into national immunizationprogram, which has remarkably reduced disease burden and death associated with RVGE in children under5 years worldwide. For this purpose, the Yangtze River Delta Immunization Integration Working Group,Chinese Medical Association Infectious Diseases Branch Pediatric Infection and Hepatology Groupformulated the'Expert consensus on the prevention, diagnosis and treatment of rotavirus gastroenteritis inchildren' based on the latest and important English and Chinese literatures."
+  },
+  {
+    "rule_name": "轮状病毒疫苗纳入国家免疫规划显著降低全球儿童疾病负担",
+    "head": {
+      "is_negative": false,
+      "name": "疾病负担指标",
+      "arguments": [
+        "全球5岁以下儿童",
+        "降低"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "X",
+          "轮状病毒疫苗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "国家免疫规划覆盖率",
+        "arguments": [
+          "X",
+          "102国家和地区",
+          "已纳入"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预目标",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "Y",
+          "RVGE"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "轮状病毒疫苗",
+      "Y": "RVGE（轮状病毒胃肠炎）",
+      "Z": "专家共识"
+    },
+    "source_text": "Rotavirus is the leading cause of acute gastroenteritis in children under 5 yearsworldwide. Every child aged 3 to 5 years has experienced at least one episode of rotavirus gastroenteritis(RVGE). In China, RVGE accounts for approximately 40% and 30% of diarrhea‑related hospitalizations andoutpatient visits in children under 5 years, and about 90% of RVGE occur in the children under 2 years.RVGE imposes heave burden to health care system and family and has gained wide attention from publichealth. World Health Organization ranked RVGE as the high priority vaccine‑preventable disease. As ofOctober 2019, 102 countries and regions have incorporated rotavirus vaccine into national immunizationprogram, which has remarkably reduced disease burden and death associated with RVGE in children under5 years worldwide. For this purpose, the Yangtze River Delta Immunization Integration Working Group,Chinese Medical Association Infectious Diseases Branch Pediatric Infection and Hepatology Groupformulated the'Expert consensus on the prevention, diagnosis and treatment of rotavirus gastroenteritis inchildren' based on the latest and important English and Chinese literatures."
+  },
+  {
+    "rule_name": "轮状病毒的科属归属与结构特征",
+    "head": {
+      "is_negative": false,
+      "name": "病毒分类",
+      "arguments": [
+        "X",
+        "轮状病毒属"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病毒分类",
+        "arguments": [
+          "X",
+          "呼肠病毒科"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有特征",
+        "arguments": [
+          "X",
+          "无包膜"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有特征",
+        "arguments": [
+          "X",
+          "双链RNA病毒"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有结构",
+        "arguments": [
+          "X",
+          "二十面体颗粒"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有尺寸",
+        "arguments": [
+          "X",
+          "70-75nm"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有结构",
+        "arguments": [
+          "X",
+          "三层衣壳"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "轮状病毒"
+    },
+    "source_text": "1973年澳大利亚科学家Bishop等［3］首次在严重腹泻儿童的十二指肠肠上皮细胞中发现人RV颗粒，之后发现和婴幼儿严重腹泻相关［4］，由于其独特的外观形如车轮（拉丁语中“Rota”意为车轮），故命为轮状病毒。（一）病毒结构和分型RV属于呼肠病毒科轮状病毒属，无包膜双链核糖核酸RNA病毒。病毒颗粒为70~75 nm的二十面体，分为外层衣壳、内层衣壳和核心三层包裹11条双链核酸（RNA）片段构成，分别编码6个结构蛋白（VP1~4，VP6~7）和5~6个非结构蛋白（NSP1~6）［5］。根据内层衣壳蛋白VP6的血清型，将RV分为A~J群［6‑9］，目前已知A、B、C和H群RV可导致人类腹泻的发生，D~G、I、J群主要感染哺乳动物和鸟类。其中A群RV是5岁以下儿童急性水样腹泻最为常见的病原体［10］。VP4和VP7为型特异性的抗原决定簇，可诱发机体产生血清和黏膜特异性保护免疫应答反应，在疾病预防中起着重要的作用，也是目前RV疫苗研发的主要保护机制［11‑12］。细胞介导的免疫应答反应在机体感染后的恢复和预防阶段发挥作用［13］。VP7蛋白是糖基化的蛋白，决定G的血清型。VP4是蛋白酶敏感蛋白，决定P血清型。"
+  },
+  {
+    "rule_name": "基于VP6的轮状病毒血清分群及其人类致病性",
+    "head": {
+      "is_negative": false,
+      "name": "是常见病原体",
+      "arguments": [
+        "X",
+        "5岁以下儿童急性水样腹泻"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "根据分型",
+        "arguments": [
+          "X",
+          "VP6血清型"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于血清群",
+        "arguments": [
+          "X",
+          "A群"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可导致疾病",
+        "arguments": [
+          "X",
+          "人类腹泻"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "主要感染",
+        "arguments": [
+          "X",
+          "哺乳动物或鸟类"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "A群轮状病毒"
+    },
+    "source_text": "1973年澳大利亚科学家Bishop等［3］首次在严重腹泻儿童的十二指肠肠上皮细胞中发现人RV颗粒，之后发现和婴幼儿严重腹泻相关［4］，由于其独特的外观形如车轮（拉丁语中“Rota”意为车轮），故命为轮状病毒。（一）病毒结构和分型RV属于呼肠病毒科轮状病毒属，无包膜双链核糖核酸RNA病毒。病毒颗粒为70~75 nm的二十面体，分为外层衣壳、内层衣壳和核心三层包裹11条双链核酸（RNA）片段构成，分别编码6个结构蛋白（VP1~4，VP6~7）和5~6个非结构蛋白（NSP1~6）［5］。根据内层衣壳蛋白VP6的血清型，将RV分为A~J群［6‑9］，目前已知A、B、C和H群RV可导致人类腹泻的发生，D~G、I、J群主要感染哺乳动物和鸟类。其中A群RV是5岁以下儿童急性水样腹泻最为常见的病原体［10］。VP4和VP7为型特异性的抗原决定簇，可诱发机体产生血清和黏膜特异性保护免疫应答反应，在疾病预防中起着重要的作用，也是目前RV疫苗研发的主要保护机制［11‑12］。细胞介导的免疫应答反应在机体感染后的恢复和预防阶段发挥作用［13］。VP7蛋白是糖基化的蛋白，决定G的血清型。VP4是蛋白酶敏感蛋白，决定P血清型。"
+  },
+  {
+    "rule_name": "VP4与VP7蛋白的抗原决定簇功能与血清型决定作用",
+    "head": {
+      "is_negative": false,
+      "name": "决定血清型",
+      "arguments": [
+        "Y",
+        "P血清型"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "是蛋白",
+        "arguments": [
+          "Y",
+          "VP4"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属病毒",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "是抗原决定簇",
+        "arguments": [
+          "Y",
+          "型特异性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有特性",
+        "arguments": [
+          "Y",
+          "蛋白酶敏感"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "轮状病毒",
+      "Y": "VP4蛋白"
+    },
+    "source_text": "1973年澳大利亚科学家Bishop等［3］首次在严重腹泻儿童的十二指肠肠上皮细胞中发现人RV颗粒，之后发现和婴幼儿严重腹泻相关［4］，由于其独特的外观形如车轮（拉丁语中“Rota”意为车轮），故命为轮状病毒。（一）病毒结构和分型RV属于呼肠病毒科轮状病毒属，无包膜双链核糖核酸RNA病毒。病毒颗粒为70~75 nm的二十面体，分为外层衣壳、内层衣壳和核心三层包裹11条双链核酸（RNA）片段构成，分别编码6个结构蛋白（VP1~4，VP6~7）和5~6个非结构蛋白（NSP1~6）［5］。根据内层衣壳蛋白VP6的血清型，将RV分为A~J群［6‑9］，目前已知A、B、C和H群RV可导致人类腹泻的发生，D~G、I、J群主要感染哺乳动物和鸟类。其中A群RV是5岁以下儿童急性水样腹泻最为常见的病原体［10］。VP4和VP7为型特异性的抗原决定簇，可诱发机体产生血清和黏膜特异性保护免疫应答反应，在疾病预防中起着重要的作用，也是目前RV疫苗研发的主要保护机制［11‑12］。细胞介导的免疫应答反应在机体感染后的恢复和预防阶段发挥作用［13］。VP7蛋白是糖基化的蛋白，决定G的血清型。VP4是蛋白酶敏感蛋白，决定P血清型。"
+  },
+  {
+    "rule_name": "中国5岁以下儿童RVGE疾病负担及流行病学特征",
+    "head": {
+      "is_negative": false,
+      "name": "疾病负担",
+      "arguments": [
+        "R",
+        "沉重"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主要病因",
+        "arguments": [
+          "C",
+          "急性胃肠炎",
+          "R"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "儿童",
+        "arguments": [
+          "C"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征",
+        "arguments": [
+          "C",
+          "年龄",
+          "小于5岁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "RVGE事件",
+        "arguments": [
+          "R"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生主体",
+        "arguments": [
+          "R",
+          "C"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "住院事件",
+        "arguments": [
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "门诊事件",
+        "arguments": [
+          "O"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病因",
+        "arguments": [
+          "H",
+          "R"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病因",
+        "arguments": [
+          "O",
+          "R"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征",
+        "arguments": [
+          "R",
+          "占住院比例",
+          "约百分之40"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征",
+        "arguments": [
+          "R",
+          "占门诊比例",
+          "约百分之30"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "亚组",
+        "arguments": [
+          "A",
+          "C"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征",
+        "arguments": [
+          "A",
+          "年龄",
+          "小于2岁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生在组内",
+        "arguments": [
+          "R",
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征",
+        "arguments": [
+          "R",
+          "组内发生率",
+          "约百分之90"
+        ]
+      }
+    ],
+    "variables": {
+      "C": "儿童",
+      "R": "RVGE事件",
+      "H": "住院事件",
+      "O": "门诊事件",
+      "A": "年龄小于2岁的儿童亚组"
+    },
+    "source_text": "Rotavirus is the leading cause of acute gastroenteritis in children under 5 yearsworldwide. Every child aged 3 to 5 years has experienced at least one episode of rotavirus gastroenteritis(RVGE). In China, RVGE accounts for approximately 40% and 30% of diarrhea‑related hospitalizations andoutpatient visits in children under 5 years, and about 90% of RVGE occur in the children under 2 years.RVGE imposes heave burden to health care system and family and has gained wide attention from publichealth. World Health Organization ranked RVGE as the high priority vaccine‑preventable disease. As ofOctober 2019, 102 countries and regions have incorporated rotavirus vaccine into national immunizationprogram, which has remarkably reduced disease burden and death associated with RVGE in children under5 years worldwide. For this purpose, the Yangtze River Delta Immunization Integration Working Group,Chinese Medical Association Infectious Diseases Branch Pediatric Infection and Hepatology Groupformulated the'Expert consensus on the prevention, diagnosis and treatment of rotavirus gastroenteritis inchildren' based on the latest and important English and Chinese literatures."
+  },
+  {
+    "rule_name": "全球疫苗纳入规划显著降低RVGE相关负担与死亡",
+    "head": {
+      "is_negative": false,
+      "name": "效果",
+      "arguments": [
+        "纳入规划",
+        "显著降低"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "RVGE"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征",
+        "arguments": [
+          "RVGE",
+          "WHO优先级",
+          "高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疫苗",
+        "arguments": [
+          "V"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预防目标",
+        "arguments": [
+          "V",
+          "RVGE"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "国家行动",
+        "arguments": [
+          "N",
+          "纳入免疫规划",
+          "V"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "儿童",
+        "arguments": [
+          "C"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征",
+        "arguments": [
+          "C",
+          "年龄",
+          "小于5岁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病负担",
+        "arguments": [
+          "B"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联",
+        "arguments": [
+          "B",
+          "RVGE"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联",
+        "arguments": [
+          "B",
+          "C"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "死亡事件",
+        "arguments": [
+          "D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联",
+        "arguments": [
+          "D",
+          "RVGE"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联",
+        "arguments": [
+          "D",
+          "C"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "减少目标",
+        "arguments": [
+          "纳入规划",
+          "B"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "减少目标",
+        "arguments": [
+          "纳入规划",
+          "D"
+        ]
+      }
+    ],
+    "variables": {
+      "V": "轮状病毒疫苗",
+      "RVGE": "轮状病毒胃肠炎（疾病实体）",
+      "C": "儿童",
+      "N": "国家（或地区）",
+      "B": "疾病负担",
+      "D": "死亡事件"
+    },
+    "source_text": "Rotavirus is the leading cause of acute gastroenteritis in children under 5 yearsworldwide. Every child aged 3 to 5 years has experienced at least one episode of rotavirus gastroenteritis(RVGE). In China, RVGE accounts for approximately 40% and 30% of diarrhea‑related hospitalizations andoutpatient visits in children under 5 years, and about 90% of RVGE occur in the children under 2 years.RVGE imposes heave burden to health care system and family and has gained wide attention from publichealth. World Health Organization ranked RVGE as the high priority vaccine‑preventable disease. As ofOctober 2019, 102 countries and regions have incorporated rotavirus vaccine into national immunizationprogram, which has remarkably reduced disease burden and death associated with RVGE in children under5 years worldwide. For this purpose, the Yangtze River Delta Immunization Integration Working Group,Chinese Medical Association Infectious Diseases Branch Pediatric Infection and Hepatology Groupformulated the'Expert consensus on the prevention, diagnosis and treatment of rotavirus gastroenteritis inchildren' based on the latest and important English and Chinese literatures."
+  },
+  {
+    "rule_name": "长三角工作组制定儿童RVGE专家共识的多重目的",
+    "head": {
+      "is_negative": false,
+      "name": "制定共识",
+      "arguments": [
+        "共识",
+        "多重目的"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "工作组",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定主体",
+        "arguments": [
+          "W",
+          "共识"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "共识主题",
+        "arguments": [
+          "共识",
+          "RVGE"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标",
+        "arguments": [
+          "共识",
+          "描绘流行病学"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标",
+        "arguments": [
+          "共识",
+          "评估临床症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标",
+        "arguments": [
+          "共识",
+          "评估疾病负担"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标",
+        "arguments": [
+          "共识",
+          "考虑疫苗接种"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标",
+        "arguments": [
+          "共识",
+          "构建防控策略"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联策略",
+        "arguments": [
+          "防控策略",
+          "区域",
+          "长三角"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "依据",
+        "arguments": [
+          "共识",
+          "最新文献"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疫苗",
+        "arguments": [
+          "V"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预防目标",
+        "arguments": [
+          "V",
+          "RVGE"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联",
+        "arguments": [
+          "共识",
+          "V"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "儿童",
+        "arguments": [
+          "C"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联",
+        "arguments": [
+          "共识",
+          "C"
+        ]
+      }
+    ],
+    "variables": {
+      "W": "长三角免疫一体化工作组",
+      "共识": "儿童轮状病毒胃肠炎防治专家共识",
+      "RVGE": "轮状病毒胃肠炎（疾病实体）",
+      "V": "轮状病毒疫苗",
+      "C": "儿童"
+    },
+    "source_text": "Rotavirus is the leading cause of acute gastroenteritis in children under 5 yearsworldwide. Every child aged 3 to 5 years has experienced at least one episode of rotavirus gastroenteritis(RVGE). In China, RVGE accounts for approximately 40% and 30% of diarrhea‑related hospitalizations andoutpatient visits in children under 5 years, and about 90% of RVGE occur in the children under 2 years.RVGE imposes heave burden to health care system and family and has gained wide attention from publichealth. World Health Organization ranked RVGE as the high priority vaccine‑preventable disease. As ofOctober 2019, 102 countries and regions have incorporated rotavirus vaccine into national immunizationprogram, which has remarkably reduced disease burden and death associated with RVGE in children under5 years worldwide. For this purpose, the Yangtze River Delta Immunization Integration Working Group,Chinese Medical Association Infectious Diseases Branch Pediatric Infection and Hepatology Groupformulated the'Expert consensus on the prevention, diagnosis and treatment of rotavirus gastroenteritis inchildren' based on the latest and important English and Chinese literatures."
+  },
+  {
+    "rule_name": "全球RVGE致死负担核心事实",
+    "head": {
+      "is_negative": false,
+      "name": "首要病因",
+      "arguments": [
+        "RVGE",
+        "5岁以下儿童重症致死性腹泻"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "统计对象",
+        "arguments": [
+          "X",
+          "全球"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要病因",
+        "arguments": [
+          "X",
+          "腹泻",
+          "5岁以下儿童感染性疾病死亡第二大"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核心关联疾病",
+        "arguments": [
+          "X",
+          "RVGE"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致病例数",
+        "arguments": [
+          "X",
+          "RVGE",
+          "1000万重症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "死亡病例数",
+        "arguments": [
+          "X",
+          "RVGE",
+          "118000-183000"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要发生地区",
+        "arguments": [
+          "死亡病例",
+          "亚洲",
+          "41%"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "全球统计对象"
+    },
+    "source_text": "发病、死亡、住院和经济负担：腹泻是全球5岁以下儿童感染性疾病死亡第二大病因，RVGE是该年龄段儿童重症致死性腹泻的首要病因，在全球每年导致1 000万重症RVGE病例和11.8万~18.3万死亡病例［36‑39］，其中约41%的死亡病例发生在亚洲地区［38，40］。据世界卫生组织估算，中国2013年5岁以下儿童23.6万全死因病例中，有9 072例死于腹泻，其中3 191例死于RVGE，占腹泻致死的35%［41］。基于中国2009—2015年连续7年国家监测项目报告，5岁以下儿童腹泻病例中，30%RV阳性，RV在腹泻住院病例中检出率为39.5%，门诊腹泻病例检出率为28.1%［31］。此外，中国是亚洲用于治疗RVGE支出成本最高的国家（3.65亿美元/每年）［42］。2011年一项中国儿童RVGE经济负担研究显示，2006年10月至2007年12月，五个城市（北京、上海、苏州、福州和广州）因RV感染导致每例门诊的平均社会成本约为480元人民币，其中直接医疗成本约为320元人民币。住院的平均社会成本为5 100元人民币，其中直接医疗成本为4 600元人民币。按每年RV腹泻病例1 210万例推算，国家用于RV疾病负担的年度总直接成本和年度总社会成本以及年度自费支出分别可高达21.06亿和28.86亿人民币［43］。"
+  },
+  {
+    "rule_name": "中国5岁以下儿童RVGE致死占比",
+    "head": {
+      "is_negative": false,
+      "name": "致死占比",
+      "arguments": [
+        "RVGE",
+        "腹泻",
+        "35%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "统计对象",
+        "arguments": [
+          "X",
+          "中国"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标群体",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "群体年龄",
+        "arguments": [
+          "Z",
+          "5岁以下"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "全死因病例数",
+        "arguments": [
+          "X",
+          "Z",
+          "236000"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致死病例数",
+        "arguments": [
+          "X",
+          "Z",
+          "腹泻",
+          "9072"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致死病例数",
+        "arguments": [
+          "X",
+          "Z",
+          "RVGE",
+          "3191"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "中国统计对象",
+      "Z": "5岁以下儿童群体"
+    },
+    "source_text": "发病、死亡、住院和经济负担：腹泻是全球5岁以下儿童感染性疾病死亡第二大病因，RVGE是该年龄段儿童重症致死性腹泻的首要病因，在全球每年导致1 000万重症RVGE病例和11.8万~18.3万死亡病例［36‑39］，其中约41%的死亡病例发生在亚洲地区［38，40］。据世界卫生组织估算，中国2013年5岁以下儿童23.6万全死因病例中，有9 072例死于腹泻，其中3 191例死于RVGE，占腹泻致死的35%［41］。基于中国2009—2015年连续7年国家监测项目报告，5岁以下儿童腹泻病例中，30%RV阳性，RV在腹泻住院病例中检出率为39.5%，门诊腹泻病例检出率为28.1%［31］。此外，中国是亚洲用于治疗RVGE支出成本最高的国家（3.65亿美元/每年）［42］。2011年一项中国儿童RVGE经济负担研究显示，2006年10月至2007年12月，五个城市（北京、上海、苏州、福州和广州）因RV感染导致每例门诊的平均社会成本约为480元人民币，其中直接医疗成本约为320元人民币。住院的平均社会成本为5 100元人民币，其中直接医疗成本为4 600元人民币。按每年RV腹泻病例1 210万例推算，国家用于RV疾病负担的年度总直接成本和年度总社会成本以及年度自费支出分别可高达21.06亿和28.86亿人民币［43］。"
+  },
+  {
+    "rule_name": "中国儿童腹泻病例RV感染流行病学特征",
+    "head": {
+      "is_negative": false,
+      "name": "高检出率",
+      "arguments": [
+        "RV",
+        "腹泻住院病例",
+        "39.5%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "统计对象",
+        "arguments": [
+          "X",
+          "中国"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标群体",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "群体年龄",
+        "arguments": [
+          "Z",
+          "5岁以下"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病监测项目",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测期",
+        "arguments": [
+          "Y",
+          "2009-2015年"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "阳性率",
+        "arguments": [
+          "腹泻病例",
+          "RV",
+          "30%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检出率",
+        "arguments": [
+          "腹泻门诊病例",
+          "RV",
+          "28.1%"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "中国统计对象",
+      "Z": "5岁以下儿童群体",
+      "Y": "国家监测项目"
+    },
+    "source_text": "发病、死亡、住院和经济负担：腹泻是全球5岁以下儿童感染性疾病死亡第二大病因，RVGE是该年龄段儿童重症致死性腹泻的首要病因，在全球每年导致1 000万重症RVGE病例和11.8万~18.3万死亡病例［36‑39］，其中约41%的死亡病例发生在亚洲地区［38，40］。据世界卫生组织估算，中国2013年5岁以下儿童23.6万全死因病例中，有9 072例死于腹泻，其中3 191例死于RVGE，占腹泻致死的35%［41］。基于中国2009—2015年连续7年国家监测项目报告，5岁以下儿童腹泻病例中，30%RV阳性，RV在腹泻住院病例中检出率为39.5%，门诊腹泻病例检出率为28.1%［31］。此外，中国是亚洲用于治疗RVGE支出成本最高的国家（3.65亿美元/每年）［42］。2011年一项中国儿童RVGE经济负担研究显示，2006年10月至2007年12月，五个城市（北京、上海、苏州、福州和广州）因RV感染导致每例门诊的平均社会成本约为480元人民币，其中直接医疗成本约为320元人民币。住院的平均社会成本为5 100元人民币，其中直接医疗成本为4 600元人民币。按每年RV腹泻病例1 210万例推算，国家用于RV疾病负担的年度总直接成本和年度总社会成本以及年度自费支出分别可高达21.06亿和28.86亿人民币［43］。"
+  },
+  {
+    "rule_name": "中国RV感染治疗支出与平均成本",
+    "head": {
+      "is_negative": false,
+      "name": "治疗支出最高国",
+      "arguments": [
+        "X",
+        "RVGE",
+        "亚洲"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "统计对象",
+        "arguments": [
+          "X",
+          "中国"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属地区",
+        "arguments": [
+          "X",
+          "亚洲"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年治疗支出",
+        "arguments": [
+          "X",
+          "RVGE",
+          "3.65亿美元"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究样本",
+        "arguments": [
+          "X",
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "样本类型",
+        "arguments": [
+          "W",
+          "多城市RV感染经济负担"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含城市",
+        "arguments": [
+          "W",
+          "北京_上海_苏州_福州_广州"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "平均社会成本",
+        "arguments": [
+          "W",
+          "门诊",
+          "480元"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "直接医疗成本",
+        "arguments": [
+          "W",
+          "门诊",
+          "320元"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "平均社会成本",
+        "arguments": [
+          "W",
+          "住院",
+          "5100元"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "直接医疗成本",
+        "arguments": [
+          "W",
+          "住院",
+          "4600元"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "中国统计对象",
+      "W": "多城市研究样本"
+    },
+    "source_text": "发病、死亡、住院和经济负担：腹泻是全球5岁以下儿童感染性疾病死亡第二大病因，RVGE是该年龄段儿童重症致死性腹泻的首要病因，在全球每年导致1 000万重症RVGE病例和11.8万~18.3万死亡病例［36‑39］，其中约41%的死亡病例发生在亚洲地区［38，40］。据世界卫生组织估算，中国2013年5岁以下儿童23.6万全死因病例中，有9 072例死于腹泻，其中3 191例死于RVGE，占腹泻致死的35%［41］。基于中国2009—2015年连续7年国家监测项目报告，5岁以下儿童腹泻病例中，30%RV阳性，RV在腹泻住院病例中检出率为39.5%，门诊腹泻病例检出率为28.1%［31］。此外，中国是亚洲用于治疗RVGE支出成本最高的国家（3.65亿美元/每年）［42］。2011年一项中国儿童RVGE经济负担研究显示，2006年10月至2007年12月，五个城市（北京、上海、苏州、福州和广州）因RV感染导致每例门诊的平均社会成本约为480元人民币，其中直接医疗成本约为320元人民币。住院的平均社会成本为5 100元人民币，其中直接医疗成本为4 600元人民币。按每年RV腹泻病例1 210万例推算，国家用于RV疾病负担的年度总直接成本和年度总社会成本以及年度自费支出分别可高达21.06亿和28.86亿人民币［43］。"
+  },
+  {
+    "rule_name": "中国RV疾病年度总经济负担估算",
+    "head": {
+      "is_negative": false,
+      "name": "年度总社会成本",
+      "arguments": [
+        "X",
+        "RV疾病负担",
+        "28.86亿人民币"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "统计对象",
+        "arguments": [
+          "X",
+          "中国"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "推算年病例数",
+        "arguments": [
+          "RV腹泻",
+          "1210万例"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年度总直接成本",
+        "arguments": [
+          "X",
+          "RV疾病负担",
+          "21.06亿人民币"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年度自费支出",
+        "arguments": [
+          "X",
+          "RV疾病负担",
+          "基于研究[43]"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "中国统计对象"
+    },
+    "source_text": "发病、死亡、住院和经济负担：腹泻是全球5岁以下儿童感染性疾病死亡第二大病因，RVGE是该年龄段儿童重症致死性腹泻的首要病因，在全球每年导致1 000万重症RVGE病例和11.8万~18.3万死亡病例［36‑39］，其中约41%的死亡病例发生在亚洲地区［38，40］。据世界卫生组织估算，中国2013年5岁以下儿童23.6万全死因病例中，有9 072例死于腹泻，其中3 191例死于RVGE，占腹泻致死的35%［41］。基于中国2009—2015年连续7年国家监测项目报告，5岁以下儿童腹泻病例中，30%RV阳性，RV在腹泻住院病例中检出率为39.5%，门诊腹泻病例检出率为28.1%［31］。此外，中国是亚洲用于治疗RVGE支出成本最高的国家（3.65亿美元/每年）［42］。2011年一项中国儿童RVGE经济负担研究显示，2006年10月至2007年12月，五个城市（北京、上海、苏州、福州和广州）因RV感染导致每例门诊的平均社会成本约为480元人民币，其中直接医疗成本约为320元人民币。住院的平均社会成本为5 100元人民币，其中直接医疗成本为4 600元人民币。按每年RV腹泻病例1 210万例推算，国家用于RV疾病负担的年度总直接成本和年度总社会成本以及年度自费支出分别可高达21.06亿和28.86亿人民币［43］。"
+  },
+  {
+    "rule_name": "RV是院内感染性腹泻的主要病原体并导致住院延长",
+    "head": {
+      "is_negative": false,
+      "name": "住院时长增加",
+      "arguments": [
+        "X",
+        "4-12天"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "儿童患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生院内感染",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "感染病原体",
+        "arguments": [
+          "X",
+          "RV"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断为",
+        "arguments": [
+          "X",
+          "感染性腹泻病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "院内获得性感染：RV在外界环境中结构稳定，存活时间长，传染性强，是院内感染的常见传染病原，由于发病季节性常与其他常见儿科传染性疾病存在一定时间上的重叠，院内感染和社区继发感染不容忽视。在欧洲，院内RVGE约占所有院内感染性腹泻病的50%~70%，平均延长住院4~12 d，极大程度地增加了医疗成本［50］。美国一项综述研究显示，由于其他病因入院的患儿有超过20% 继发RV感染。每4例因RV感染入院治疗的儿童会导致额外增加1例院内RV病例［21］。国内基于上海某儿科医院2006—2008年就诊情况研究显示，因腹泻病或胃肠炎住院的1月龄至13岁患者中，37.2%为RV阳性。由于其他病因（肺炎，支气管炎，婴幼儿肝炎，先天性心脏病等）入院的儿童，院内获得性继发腹泻病例中，54.8%呈RVGE阳性，87.7%院内获得性RVGE发生在2岁以下婴幼儿，最常发生在6~11月龄婴儿［51］。"
+  },
+  {
+    "rule_name": "其他病因入院的儿童易继发RV感染",
+    "head": {
+      "is_negative": false,
+      "name": "继发感染",
+      "arguments": [
+        "X",
+        "RV"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "儿童患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "因疾病住院",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "原发疾病",
+        "arguments": [
+          "X",
+          "RV感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "原发疾病",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疾病（如肺炎、支气管炎等）"
+    },
+    "source_text": "院内获得性感染：RV在外界环境中结构稳定，存活时间长，传染性强，是院内感染的常见传染病原，由于发病季节性常与其他常见儿科传染性疾病存在一定时间上的重叠，院内感染和社区继发感染不容忽视。在欧洲，院内RVGE约占所有院内感染性腹泻病的50%~70%，平均延长住院4~12 d，极大程度地增加了医疗成本［50］。美国一项综述研究显示，由于其他病因入院的患儿有超过20% 继发RV感染。每4例因RV感染入院治疗的儿童会导致额外增加1例院内RV病例［21］。国内基于上海某儿科医院2006—2008年就诊情况研究显示，因腹泻病或胃肠炎住院的1月龄至13岁患者中，37.2%为RV阳性。由于其他病因（肺炎，支气管炎，婴幼儿肝炎，先天性心脏病等）入院的儿童，院内获得性继发腹泻病例中，54.8%呈RVGE阳性，87.7%院内获得性RVGE发生在2岁以下婴幼儿，最常发生在6~11月龄婴儿［51］。"
+  },
+  {
+    "rule_name": "因RV入院治疗的儿童会导致额外院内感染病例",
+    "head": {
+      "is_negative": false,
+      "name": "导致额外院内病例",
+      "arguments": [
+        "X",
+        "RV"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "儿童患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "因疾病住院",
+        "arguments": [
+          "X",
+          "RV感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断为",
+        "arguments": [
+          "X",
+          "RVGE"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "院内获得性感染：RV在外界环境中结构稳定，存活时间长，传染性强，是院内感染的常见传染病原，由于发病季节性常与其他常见儿科传染性疾病存在一定时间上的重叠，院内感染和社区继发感染不容忽视。在欧洲，院内RVGE约占所有院内感染性腹泻病的50%~70%，平均延长住院4~12 d，极大程度地增加了医疗成本［50］。美国一项综述研究显示，由于其他病因入院的患儿有超过20% 继发RV感染。每4例因RV感染入院治疗的儿童会导致额外增加1例院内RV病例［21］。国内基于上海某儿科医院2006—2008年就诊情况研究显示，因腹泻病或胃肠炎住院的1月龄至13岁患者中，37.2%为RV阳性。由于其他病因（肺炎，支气管炎，婴幼儿肝炎，先天性心脏病等）入院的儿童，院内获得性继发腹泻病例中，54.8%呈RVGE阳性，87.7%院内获得性RVGE发生在2岁以下婴幼儿，最常发生在6~11月龄婴儿［51］。"
+  },
+  {
+    "rule_name": "2岁以下婴幼儿是院内获得性RVGE的高发人群",
+    "head": {
+      "is_negative": false,
+      "name": "诊断为",
+      "arguments": [
+        "X",
+        "院内获得性RVGE"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "婴幼儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄段",
+        "arguments": [
+          "X",
+          "2岁以下"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "因疾病住院",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "原发疾病",
+        "arguments": [
+          "X",
+          "腹泻或胃肠炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "院内继发腹泻",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "其他疾病（如肺炎、先天性心脏病等）"
+    },
+    "source_text": "院内获得性感染：RV在外界环境中结构稳定，存活时间长，传染性强，是院内感染的常见传染病原，由于发病季节性常与其他常见儿科传染性疾病存在一定时间上的重叠，院内感染和社区继发感染不容忽视。在欧洲，院内RVGE约占所有院内感染性腹泻病的50%~70%，平均延长住院4~12 d，极大程度地增加了医疗成本［50］。美国一项综述研究显示，由于其他病因入院的患儿有超过20% 继发RV感染。每4例因RV感染入院治疗的儿童会导致额外增加1例院内RV病例［21］。国内基于上海某儿科医院2006—2008年就诊情况研究显示，因腹泻病或胃肠炎住院的1月龄至13岁患者中，37.2%为RV阳性。由于其他病因（肺炎，支气管炎，婴幼儿肝炎，先天性心脏病等）入院的儿童，院内获得性继发腹泻病例中，54.8%呈RVGE阳性，87.7%院内获得性RVGE发生在2岁以下婴幼儿，最常发生在6~11月龄婴儿［51］。"
+  },
+  {
+    "rule_name": "HBGAs分布影响人群对RV易感性的核心通路",
+    "head": {
+      "is_negative": false,
+      "name": "影响_易感性",
+      "arguments": [
+        "H",
+        "TA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "FUT2_基因",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "调控",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "是_必需受体",
+        "arguments": [
+          "Y",
+          "RV病毒"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "HBGAs抗原",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分布_影响",
+        "arguments": [
+          "Y",
+          "TA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "毒株类型",
+        "arguments": [
+          "TA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属人群",
+        "arguments": [
+          "TA",
+          "动物源性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "基因",
+      "Y": "抗原",
+      "TA": "毒株类型",
+      "H": "人体"
+    },
+    "source_text": "个体对RV易感程度部分取决于机体糖基转移酶FUT2的基因表达。FUT2调控复合糖类组织血型抗原（histo‑blood group antigens，HBGAs）在肠黏膜的表达，是RV最初与宿主结合所必需的受体。HBGAs型别在不同地区不同人群中的分布，影响全球RV型别流行趋势和人体对动物源性毒株易感性，例如，新生儿对某些RV基因型（如P［11］）的易感性可能与HBGAs的结合有关，且非洲儿童中P［6］RV的高感染率可能是由于该人群中的Lewis阴性糖基表型具有更高流行率。HBGAs在RV疫苗株易感性中的作用及其对疫苗效力的相关影响是公共卫生研究的重要新兴领域［22‑24］。人体对RV免疫保护机制尚不明确，动物模型研究表明，获得性免疫主要和肠道黏膜表面抗RV免疫球蛋白IgA浓度，肠道RV抗体分泌细胞以及记忆细胞相关。B细胞在预防再感染中发挥主要作用，CD8+T细胞可缩短初次感染的病程，CD4+T细胞参与辅助B细胞CD8+T细胞免疫过程。它们也可通过γ‑干扰素依赖途径介导病毒结构重组蛋白VP6免疫后的主动保护［25‑26］。VP4或VP7特异性中和抗体可介导同型或异型保护，VP6特异性非中和抗体IgA也可在胞吞转运过程中发挥抗病毒作用［16，27］。"
+  },
+  {
+    "rule_name": "新生儿对P11基因型易感与HBGAs相关",
+    "head": {
+      "is_negative": false,
+      "name": "易感_相关",
+      "arguments": [
+        "Z",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "特定人群",
+        "arguments": [
+          "Z",
+          "新生儿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "易感_基因型",
+        "arguments": [
+          "Z",
+          "P11"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "HBGAs抗原",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "结合_相关",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "人群",
+      "Y": "抗原"
+    },
+    "source_text": "个体对RV易感程度部分取决于机体糖基转移酶FUT2的基因表达。FUT2调控复合糖类组织血型抗原（histo‑blood group antigens，HBGAs）在肠黏膜的表达，是RV最初与宿主结合所必需的受体。HBGAs型别在不同地区不同人群中的分布，影响全球RV型别流行趋势和人体对动物源性毒株易感性，例如，新生儿对某些RV基因型（如P［11］）的易感性可能与HBGAs的结合有关，且非洲儿童中P［6］RV的高感染率可能是由于该人群中的Lewis阴性糖基表型具有更高流行率。HBGAs在RV疫苗株易感性中的作用及其对疫苗效力的相关影响是公共卫生研究的重要新兴领域［22‑24］。人体对RV免疫保护机制尚不明确，动物模型研究表明，获得性免疫主要和肠道黏膜表面抗RV免疫球蛋白IgA浓度，肠道RV抗体分泌细胞以及记忆细胞相关。B细胞在预防再感染中发挥主要作用，CD8+T细胞可缩短初次感染的病程，CD4+T细胞参与辅助B细胞CD8+T细胞免疫过程。它们也可通过γ‑干扰素依赖途径介导病毒结构重组蛋白VP6免疫后的主动保护［25‑26］。VP4或VP7特异性中和抗体可介导同型或异型保护，VP6特异性非中和抗体IgA也可在胞吞转运过程中发挥抗病毒作用［16，27］。"
+  },
+  {
+    "rule_name": "非洲儿童P6高感染率与Lewis阴性表型相关",
+    "head": {
+      "is_negative": false,
+      "name": "导致_高感染率",
+      "arguments": [
+        "Z",
+        "TP"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "特定人群",
+        "arguments": [
+          "Z",
+          "非洲儿童"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "毒株类型",
+        "arguments": [
+          "TP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基因型",
+        "arguments": [
+          "TP",
+          "P6"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有_流行率",
+        "arguments": [
+          "Z",
+          "糖基表型Lewis阴性",
+          "高"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "人群",
+      "TP": "毒株类型"
+    },
+    "source_text": "个体对RV易感程度部分取决于机体糖基转移酶FUT2的基因表达。FUT2调控复合糖类组织血型抗原（histo‑blood group antigens，HBGAs）在肠黏膜的表达，是RV最初与宿主结合所必需的受体。HBGAs型别在不同地区不同人群中的分布，影响全球RV型别流行趋势和人体对动物源性毒株易感性，例如，新生儿对某些RV基因型（如P［11］）的易感性可能与HBGAs的结合有关，且非洲儿童中P［6］RV的高感染率可能是由于该人群中的Lewis阴性糖基表型具有更高流行率。HBGAs在RV疫苗株易感性中的作用及其对疫苗效力的相关影响是公共卫生研究的重要新兴领域［22‑24］。人体对RV免疫保护机制尚不明确，动物模型研究表明，获得性免疫主要和肠道黏膜表面抗RV免疫球蛋白IgA浓度，肠道RV抗体分泌细胞以及记忆细胞相关。B细胞在预防再感染中发挥主要作用，CD8+T细胞可缩短初次感染的病程，CD4+T细胞参与辅助B细胞CD8+T细胞免疫过程。它们也可通过γ‑干扰素依赖途径介导病毒结构重组蛋白VP6免疫后的主动保护［25‑26］。VP4或VP7特异性中和抗体可介导同型或异型保护，VP6特异性非中和抗体IgA也可在胞吞转运过程中发挥抗病毒作用［16，27］。"
+  },
+  {
+    "rule_name": "VP4特异性中和抗体介导保护",
+    "head": {
+      "is_negative": false,
+      "name": "介导_保护",
+      "arguments": [
+        "W",
+        "同型或异型"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "抗体类型",
+        "arguments": [
+          "W",
+          "中和抗体"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特异性",
+        "arguments": [
+          "W",
+          "VP4"
+        ]
+      }
+    ],
+    "variables": {
+      "W": "抗体"
+    },
+    "source_text": "个体对RV易感程度部分取决于机体糖基转移酶FUT2的基因表达。FUT2调控复合糖类组织血型抗原（histo‑blood group antigens，HBGAs）在肠黏膜的表达，是RV最初与宿主结合所必需的受体。HBGAs型别在不同地区不同人群中的分布，影响全球RV型别流行趋势和人体对动物源性毒株易感性，例如，新生儿对某些RV基因型（如P［11］）的易感性可能与HBGAs的结合有关，且非洲儿童中P［6］RV的高感染率可能是由于该人群中的Lewis阴性糖基表型具有更高流行率。HBGAs在RV疫苗株易感性中的作用及其对疫苗效力的相关影响是公共卫生研究的重要新兴领域［22‑24］。人体对RV免疫保护机制尚不明确，动物模型研究表明，获得性免疫主要和肠道黏膜表面抗RV免疫球蛋白IgA浓度，肠道RV抗体分泌细胞以及记忆细胞相关。B细胞在预防再感染中发挥主要作用，CD8+T细胞可缩短初次感染的病程，CD4+T细胞参与辅助B细胞CD8+T细胞免疫过程。它们也可通过γ‑干扰素依赖途径介导病毒结构重组蛋白VP6免疫后的主动保护［25‑26］。VP4或VP7特异性中和抗体可介导同型或异型保护，VP6特异性非中和抗体IgA也可在胞吞转运过程中发挥抗病毒作用［16，27］。"
+  },
+  {
+    "rule_name": "VP7特异性中和抗体介导保护",
+    "head": {
+      "is_negative": false,
+      "name": "介导_保护",
+      "arguments": [
+        "W",
+        "同型或异型"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "抗体类型",
+        "arguments": [
+          "W",
+          "中和抗体"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特异性",
+        "arguments": [
+          "W",
+          "VP7"
+        ]
+      }
+    ],
+    "variables": {
+      "W": "抗体"
+    },
+    "source_text": "个体对RV易感程度部分取决于机体糖基转移酶FUT2的基因表达。FUT2调控复合糖类组织血型抗原（histo‑blood group antigens，HBGAs）在肠黏膜的表达，是RV最初与宿主结合所必需的受体。HBGAs型别在不同地区不同人群中的分布，影响全球RV型别流行趋势和人体对动物源性毒株易感性，例如，新生儿对某些RV基因型（如P［11］）的易感性可能与HBGAs的结合有关，且非洲儿童中P［6］RV的高感染率可能是由于该人群中的Lewis阴性糖基表型具有更高流行率。HBGAs在RV疫苗株易感性中的作用及其对疫苗效力的相关影响是公共卫生研究的重要新兴领域［22‑24］。人体对RV免疫保护机制尚不明确，动物模型研究表明，获得性免疫主要和肠道黏膜表面抗RV免疫球蛋白IgA浓度，肠道RV抗体分泌细胞以及记忆细胞相关。B细胞在预防再感染中发挥主要作用，CD8+T细胞可缩短初次感染的病程，CD4+T细胞参与辅助B细胞CD8+T细胞免疫过程。它们也可通过γ‑干扰素依赖途径介导病毒结构重组蛋白VP6免疫后的主动保护［25‑26］。VP4或VP7特异性中和抗体可介导同型或异型保护，VP6特异性非中和抗体IgA也可在胞吞转运过程中发挥抗病毒作用［16，27］。"
+  }
+]

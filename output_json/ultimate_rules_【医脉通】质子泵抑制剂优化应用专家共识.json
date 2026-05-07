@@ -1,0 +1,795 @@
+[
+  {
+    "rule_name": "非甾体抗炎药致胃肠损伤高风险患者避免用药",
+    "head": {
+      "is_negative": false,
+      "name": "避免使用",
+      "arguments": [
+        "X",
+        "非甾体抗炎药"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "高风险患者",
+        "arguments": [
+          "X",
+          "非甾体抗炎药致胃肠损伤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "NSAIDs 引起胃黏膜损伤的危险分级如表6 所示，对于NSAIDs 致胃肠道损伤的高风险患者，要避免使用NSAIDs，如果必须使用，可以选择环氧化酶-2（COX-2）抑制剂，并合用PPIs；中等风险患者可选用COX-2 抑制剂，或者传统非选择性NSAIDs 合用PPIs；没有危险因素的低风险患者，不需要预防性用药[66]。"
+  },
+  {
+    "rule_name": "高风险患者必须使用非甾体抗炎药时的联合用药建议",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "环氧化酶2抑制剂",
+        "可选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "高风险患者",
+        "arguments": [
+          "X",
+          "非甾体抗炎药致胃肠损伤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "必须使用",
+        "arguments": [
+          "X",
+          "非甾体抗炎药"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合用药物",
+        "arguments": [
+          "环氧化酶2抑制剂",
+          "质子泵抑制剂"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "NSAIDs 引起胃黏膜损伤的危险分级如表6 所示，对于NSAIDs 致胃肠道损伤的高风险患者，要避免使用NSAIDs，如果必须使用，可以选择环氧化酶-2（COX-2）抑制剂，并合用PPIs；中等风险患者可选用COX-2 抑制剂，或者传统非选择性NSAIDs 合用PPIs；没有危险因素的低风险患者，不需要预防性用药[66]。"
+  },
+  {
+    "rule_name": "中等风险患者使用环氧化酶2抑制剂的治疗路径",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "环氧化酶2抑制剂",
+        "可选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "中等风险患者",
+        "arguments": [
+          "X",
+          "非甾体抗炎药致胃肠损伤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "NSAIDs 引起胃黏膜损伤的危险分级如表6 所示，对于NSAIDs 致胃肠道损伤的高风险患者，要避免使用NSAIDs，如果必须使用，可以选择环氧化酶-2（COX-2）抑制剂，并合用PPIs；中等风险患者可选用COX-2 抑制剂，或者传统非选择性NSAIDs 合用PPIs；没有危险因素的低风险患者，不需要预防性用药[66]。"
+  },
+  {
+    "rule_name": "中等风险患者使用传统非甾体抗炎药时的联合用药建议",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "传统非选择性非甾体抗炎药",
+        "可选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "中等风险患者",
+        "arguments": [
+          "X",
+          "非甾体抗炎药致胃肠损伤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合用药物",
+        "arguments": [
+          "传统非选择性非甾体抗炎药",
+          "质子泵抑制剂"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "NSAIDs 引起胃黏膜损伤的危险分级如表6 所示，对于NSAIDs 致胃肠道损伤的高风险患者，要避免使用NSAIDs，如果必须使用，可以选择环氧化酶-2（COX-2）抑制剂，并合用PPIs；中等风险患者可选用COX-2 抑制剂，或者传统非选择性NSAIDs 合用PPIs；没有危险因素的低风险患者，不需要预防性用药[66]。"
+  },
+  {
+    "rule_name": "低风险患者无需预防用药",
+    "head": {
+      "is_negative": false,
+      "name": "预防性用药需求",
+      "arguments": [
+        "X",
+        "无"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "低风险患者",
+        "arguments": [
+          "X",
+          "非甾体抗炎药致胃肠损伤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "NSAIDs 引起胃黏膜损伤的危险分级如表6 所示，对于NSAIDs 致胃肠道损伤的高风险患者，要避免使用NSAIDs，如果必须使用，可以选择环氧化酶-2（COX-2）抑制剂，并合用PPIs；中等风险患者可选用COX-2 抑制剂，或者传统非选择性NSAIDs 合用PPIs；没有危险因素的低风险患者，不需要预防性用药[66]。"
+  },
+  {
+    "rule_name": "胃溃疡患者口服PPIs标准疗程方案",
+    "head": {
+      "is_negative": false,
+      "name": "治疗计划",
+      "arguments": [
+        "Z",
+        "X",
+        "针对胃溃疡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "X",
+          "胃溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方案",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物剂量",
+        "arguments": [
+          "Z",
+          "常规"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "给药途径",
+        "arguments": [
+          "Z",
+          "口服"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药频率",
+        "arguments": [
+          "Z",
+          "每日一次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药疗程",
+        "arguments": [
+          "Z",
+          "6到8周"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "治疗方案"
+    },
+    "source_text": "【优化建议】通常口服常规剂量PPIs，每日1 次，胃溃疡用药疗程6~8 周，十二指肠溃疡疗程4~6 周[8]。对于存在高危因素和巨大溃疡的患者，建议适当延长疗程[9-10]。"
+  },
+  {
+    "rule_name": "十二指肠溃疡患者口服PPIs标准疗程方案",
+    "head": {
+      "is_negative": false,
+      "name": "治疗计划",
+      "arguments": [
+        "Z",
+        "X",
+        "针对十二指肠溃疡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "X",
+          "十二指肠溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方案",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物剂量",
+        "arguments": [
+          "Z",
+          "常规"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "给药途径",
+        "arguments": [
+          "Z",
+          "口服"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药频率",
+        "arguments": [
+          "Z",
+          "每日一次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药疗程",
+        "arguments": [
+          "Z",
+          "4到6周"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "治疗方案"
+    },
+    "source_text": "【优化建议】通常口服常规剂量PPIs，每日1 次，胃溃疡用药疗程6~8 周，十二指肠溃疡疗程4~6 周[8]。对于存在高危因素和巨大溃疡的患者，建议适当延长疗程[9-10]。"
+  },
+  {
+    "rule_name": "存在高危因素患者延长PPIs治疗疗程",
+    "head": {
+      "is_negative": false,
+      "name": "治疗调整",
+      "arguments": [
+        "Z",
+        "延长疗程"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方案",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗计划",
+        "arguments": [
+          "Z",
+          "X",
+          "针对胃溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在风险因素",
+        "arguments": [
+          "X",
+          "高危因素或巨大溃疡"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "治疗方案"
+    },
+    "source_text": "【优化建议】通常口服常规剂量PPIs，每日1 次，胃溃疡用药疗程6~8 周，十二指肠溃疡疗程4~6 周[8]。对于存在高危因素和巨大溃疡的患者，建议适当延长疗程[9-10]。"
+  },
+  {
+    "rule_name": "存在高危因素患者延长PPIs治疗疗程_针对十二指肠溃疡",
+    "head": {
+      "is_negative": false,
+      "name": "治疗调整",
+      "arguments": [
+        "Z",
+        "延长疗程"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方案",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗计划",
+        "arguments": [
+          "Z",
+          "X",
+          "针对十二指肠溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在风险因素",
+        "arguments": [
+          "X",
+          "高危因素或巨大溃疡"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "治疗方案"
+    },
+    "source_text": "【优化建议】通常口服常规剂量PPIs，每日1 次，胃溃疡用药疗程6~8 周，十二指肠溃疡疗程4~6 周[8]。对于存在高危因素和巨大溃疡的患者，建议适当延长疗程[9-10]。"
+  },
+  {
+    "rule_name": "中风险患者_COX2抑制剂用药选择",
+    "head": {
+      "is_negative": false,
+      "name": "用药选择",
+      "arguments": [
+        "X",
+        "COX-2抑制剂"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "中风险患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素数量",
+        "arguments": [
+          "X",
+          "一到两个"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "年龄大于65岁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "高剂量NSAID治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "溃疡病史无并发症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "合用阿司匹林或皮质类固醇或抗凝药"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "中等风险患者可选用COX-2 抑制剂，或者传统非选择性NSAIDs 合用PPIs；没有危险因素的低风险患者，不需要预防性用药。危险因素包括：1．年龄＞65 岁 2．高剂量NSAID 治疗 3．有溃疡病史但无并发症 4．合用阿司匹林（包括小剂量阿司匹林）、皮质类固醇或抗凝药。高风险因素包括：1．溃疡并发症史，特别是最近发生的溃疡 2．存在两个以上的危险因素。"
+  },
+  {
+    "rule_name": "中风险患者_传统NSAIDs联合PPI用药选择",
+    "head": {
+      "is_negative": false,
+      "name": "用药选择",
+      "arguments": [
+        "X",
+        "传统非选择性NSAIDs"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "联合用药",
+        "arguments": [
+          "X",
+          "传统非选择性NSAIDs",
+          "PPI"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "中风险患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素数量",
+        "arguments": [
+          "X",
+          "一到两个"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "年龄大于65岁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "高剂量NSAID治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "溃疡病史无并发症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "合用阿司匹林或皮质类固醇或抗凝药"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "中等风险患者可选用COX-2 抑制剂，或者传统非选择性NSAIDs 合用PPIs；没有危险因素的低风险患者，不需要预防性用药。危险因素包括：1．年龄＞65 岁 2．高剂量NSAID 治疗 3．有溃疡病史但无并发症 4．合用阿司匹林（包括小剂量阿司匹林）、皮质类固醇或抗凝药。高风险因素包括：1．溃疡并发症史，特别是最近发生的溃疡 2．存在两个以上的危险因素。"
+  },
+  {
+    "rule_name": "低风险患者_无需预防用药",
+    "head": {
+      "is_negative": false,
+      "name": "无需预防用药",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "低风险患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "年龄大于65岁"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "高剂量NSAID治疗"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "溃疡病史无并发症"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "合用阿司匹林或皮质类固醇或抗凝药"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "中等风险患者可选用COX-2 抑制剂，或者传统非选择性NSAIDs 合用PPIs；没有危险因素的低风险患者，不需要预防性用药。危险因素包括：1．年龄＞65 岁 2．高剂量NSAID 治疗 3．有溃疡病史但无并发症 4．合用阿司匹林（包括小剂量阿司匹林）、皮质类固醇或抗凝药。高风险因素包括：1．溃疡并发症史，特别是最近发生的溃疡 2．存在两个以上的危险因素。"
+  },
+  {
+    "rule_name": "高风险患者_溃疡并发症史",
+    "head": {
+      "is_negative": false,
+      "name": "高风险患者",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "溃疡并发症史"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "中等风险患者可选用COX-2 抑制剂，或者传统非选择性NSAIDs 合用PPIs；没有危险因素的低风险患者，不需要预防性用药。危险因素包括：1．年龄＞65 岁 2．高剂量NSAID 治疗 3．有溃疡病史但无并发症 4．合用阿司匹林（包括小剂量阿司匹林）、皮质类固醇或抗凝药。高风险因素包括：1．溃疡并发症史，特别是最近发生的溃疡 2．存在两个以上的危险因素。"
+  },
+  {
+    "rule_name": "危重症患者应激性溃疡预防PPI指征_呼吸衰竭机械通气",
+    "head": {
+      "is_negative": false,
+      "name": "预防用药推荐",
+      "arguments": [
+        "X",
+        "质子泵抑制剂",
+        "应使用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "危重症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "呼吸衰竭_机械通气超过48h"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "PPIs 预防危重症患者应激性溃疡（Stress Ulcer, SU）仅适用于高危人群[60],[61]，危险因素汇总见表4。 6 中国医院药学杂志  表 4 应激性溃疡的危险因素及预防用药建议 Tab 4 Risk factors for SU and recommendations for preventive use of PPIs 危险因素 预防建议 （1）呼吸衰竭：机械通气超过48ha （2）凝血功能障碍：国际标准化比值（INR）＞1.5，血小板＜50×109/L 或部分凝血酶原时间（APTT）＞正常值2 倍或服用抗凝或抗血小板药物a （3）严重创伤：如头部损伤伴随Glasgo 昏迷指数≤10 或无法服从简单的指示、全身烧伤面积>35%、多处创伤伴随创伤严重度评分≥16、脊髓损伤、创伤性休克 （4）器官功能不全：如多器官功能不全 综合征、肝功能不全、急性肾功能不全等 （5）复杂手术：如复杂肝脏手术、器官移植、手术时间较长(>3 h)等 （6）消化道出血史 （8）男性，高龄，入院前1 年内曾有消化性溃疡病史 （9）ARDS （10）休克或持续低血压 （11）脓毒症 （12）心脑血管意外 （13）严重心理应激，如精神创伤等 具有一项高危情况者应使用PPIs 预防应激性溃疡 （1）ICU 住院时间＞1 周 （2）粪便隐血持续时间＞3d （3）大剂量使用糖皮质激素（氢化可的松＞250 mg/d） （4）合并使用非甾体类抗炎药 （5）长期禁食及肠外营养 同时具有任意两项危险因素时也应考虑使用PPIs 预防应激性溃疡 注：a 多中心研究结果显示呼吸衰竭和凝血功能障碍为SU 的独立危险因素。 此外，对于非重症患者也应综合评估SU 的风险，必要时加以预防[61-62]，评分标准详见表5。"
+  },
+  {
+    "rule_name": "危重症患者应激性溃疡预防PPI指征_凝血功能障碍",
+    "head": {
+      "is_negative": false,
+      "name": "预防用药推荐",
+      "arguments": [
+        "X",
+        "质子泵抑制剂",
+        "应使用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "危重症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "凝血功能障碍"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "PPIs 预防危重症患者应激性溃疡（Stress Ulcer, SU）仅适用于高危人群[60],[61]，危险因素汇总见表4。 6 中国医院药学杂志  表 4 应激性溃疡的危险因素及预防用药建议 Tab 4 Risk factors for SU and recommendations for preventive use of PPIs 危险因素 预防建议 （1）呼吸衰竭：机械通气超过48ha （2）凝血功能障碍：国际标准化比值（INR）＞1.5，血小板＜50×109/L 或部分凝血酶原时间（APTT）＞正常值2 倍或服用抗凝或抗血小板药物a （3）严重创伤：如头部损伤伴随Glasgo 昏迷指数≤10 或无法服从简单的指示、全身烧伤面积>35%、多处创伤伴随创伤严重度评分≥16、脊髓损伤、创伤性休克 （4）器官功能不全：如多器官功能不全 综合征、肝功能不全、急性肾功能不全等 （5）复杂手术：如复杂肝脏手术、器官移植、手术时间较长(>3 h)等 （6）消化道出血史 （8）男性，高龄，入院前1 年内曾有消化性溃疡病史 （9）ARDS （10）休克或持续低血压 （11）脓毒症 （12）心脑血管意外 （13）严重心理应激，如精神创伤等 具有一项高危情况者应使用PPIs 预防应激性溃疡 （1）ICU 住院时间＞1 周 （2）粪便隐血持续时间＞3d （3）大剂量使用糖皮质激素（氢化可的松＞250 mg/d） （4）合并使用非甾体类抗炎药 （5）长期禁食及肠外营养 同时具有任意两项危险因素时也应考虑使用PPIs 预防应激性溃疡 注：a 多中心研究结果显示呼吸衰竭和凝血功能障碍为SU 的独立危险因素。 此外，对于非重症患者也应综合评估SU 的风险，必要时加以预防[61-62]，评分标准详见表5。"
+  },
+  {
+    "rule_name": "危重症患者应激性溃疡预防PPI指征_严重创伤头部损伤",
+    "head": {
+      "is_negative": false,
+      "name": "预防用药推荐",
+      "arguments": [
+        "X",
+        "质子泵抑制剂",
+        "应使用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "危重症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "严重创伤_头部损伤伴昏迷指数低"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "PPIs 预防危重症患者应激性溃疡（Stress Ulcer, SU）仅适用于高危人群[60],[61]，危险因素汇总见表4。 6 中国医院药学杂志  表 4 应激性溃疡的危险因素及预防用药建议 Tab 4 Risk factors for SU and recommendations for preventive use of PPIs 危险因素 预防建议 （1）呼吸衰竭：机械通气超过48ha （2）凝血功能障碍：国际标准化比值（INR）＞1.5，血小板＜50×109/L 或部分凝血酶原时间（APTT）＞正常值2 倍或服用抗凝或抗血小板药物a （3）严重创伤：如头部损伤伴随Glasgo 昏迷指数≤10 或无法服从简单的指示、全身烧伤面积>35%、多处创伤伴随创伤严重度评分≥16、脊髓损伤、创伤性休克 （4）器官功能不全：如多器官功能不全 综合征、肝功能不全、急性肾功能不全等 （5）复杂手术：如复杂肝脏手术、器官移植、手术时间较长(>3 h)等 （6）消化道出血史 （8）男性，高龄，入院前1 年内曾有消化性溃疡病史 （9）ARDS （10）休克或持续低血压 （11）脓毒症 （12）心脑血管意外 （13）严重心理应激，如精神创伤等 具有一项高危情况者应使用PPIs 预防应激性溃疡 （1）ICU 住院时间＞1 周 （2）粪便隐血持续时间＞3d （3）大剂量使用糖皮质激素（氢化可的松＞250 mg/d） （4）合并使用非甾体类抗炎药 （5）长期禁食及肠外营养 同时具有任意两项危险因素时也应考虑使用PPIs 预防应激性溃疡 注：a 多中心研究结果显示呼吸衰竭和凝血功能障碍为SU 的独立危险因素。 此外，对于非重症患者也应综合评估SU 的风险，必要时加以预防[61-62]，评分标准详见表5。"
+  },
+  {
+    "rule_name": "危重症患者应激性溃疡预防PPI指征_组合指征示例1",
+    "head": {
+      "is_negative": false,
+      "name": "预防用药推荐",
+      "arguments": [
+        "X",
+        "质子泵抑制剂",
+        "应考虑使用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "危重症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "机械通气超过48h"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "凝血功能障碍"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "PPIs 预防危重症患者应激性溃疡（Stress Ulcer, SU）仅适用于高危人群[60],[61]，危险因素汇总见表4。 6 中国医院药学杂志  表 4 应激性溃疡的危险因素及预防用药建议 Tab 4 Risk factors for SU and recommendations for preventive use of PPIs 危险因素 预防建议 （1）呼吸衰竭：机械通气超过48ha （2）凝血功能障碍：国际标准化比值（INR）＞1.5，血小板＜50×109/L 或部分凝血酶原时间（APTT）＞正常值2 倍或服用抗凝或抗血小板药物a （3）严重创伤：如头部损伤伴随Glasgo 昏迷指数≤10 或无法服从简单的指示、全身烧伤面积>35%、多处创伤伴随创伤严重度评分≥16、脊髓损伤、创伤性休克 （4）器官功能不全：如多器官功能不全 综合征、肝功能不全、急性肾功能不全等 （5）复杂手术：如复杂肝脏手术、器官移植、手术时间较长(>3 h)等 （6）消化道出血史 （8）男性，高龄，入院前1 年内曾有消化性溃疡病史 （9）ARDS （10）休克或持续低血压 （11）脓毒症 （12）心脑血管意外 （13）严重心理应激，如精神创伤等 具有一项高危情况者应使用PPIs 预防应激性溃疡 （1）ICU 住院时间＞1 周 （2）粪便隐血持续时间＞3d （3）大剂量使用糖皮质激素（氢化可的松＞250 mg/d） （4）合并使用非甾体类抗炎药 （5）长期禁食及肠外营养 同时具有任意两项危险因素时也应考虑使用PPIs 预防应激性溃疡 注：a 多中心研究结果显示呼吸衰竭和凝血功能障碍为SU 的独立危险因素。 此外，对于非重症患者也应综合评估SU 的风险，必要时加以预防[61-62]，评分标准详见表5。"
+  },
+  {
+    "rule_name": "危重症患者应激性溃疡预防PPI指征_组合指征示例2",
+    "head": {
+      "is_negative": false,
+      "name": "预防用药推荐",
+      "arguments": [
+        "X",
+        "质子泵抑制剂",
+        "应考虑使用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "危重症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "严重创伤_头部损伤伴昏迷指数低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "危险因素",
+        "arguments": [
+          "X",
+          "器官功能不全"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "PPIs 预防危重症患者应激性溃疡（Stress Ulcer, SU）仅适用于高危人群[60],[61]，危险因素汇总见表4。 6 中国医院药学杂志  表 4 应激性溃疡的危险因素及预防用药建议 Tab 4 Risk factors for SU and recommendations for preventive use of PPIs 危险因素 预防建议 （1）呼吸衰竭：机械通气超过48ha （2）凝血功能障碍：国际标准化比值（INR）＞1.5，血小板＜50×109/L 或部分凝血酶原时间（APTT）＞正常值2 倍或服用抗凝或抗血小板药物a （3）严重创伤：如头部损伤伴随Glasgo 昏迷指数≤10 或无法服从简单的指示、全身烧伤面积>35%、多处创伤伴随创伤严重度评分≥16、脊髓损伤、创伤性休克 （4）器官功能不全：如多器官功能不全 综合征、肝功能不全、急性肾功能不全等 （5）复杂手术：如复杂肝脏手术、器官移植、手术时间较长(>3 h)等 （6）消化道出血史 （8）男性，高龄，入院前1 年内曾有消化性溃疡病史 （9）ARDS （10）休克或持续低血压 （11）脓毒症 （12）心脑血管意外 （13）严重心理应激，如精神创伤等 具有一项高危情况者应使用PPIs 预防应激性溃疡 （1）ICU 住院时间＞1 周 （2）粪便隐血持续时间＞3d （3）大剂量使用糖皮质激素（氢化可的松＞250 mg/d） （4）合并使用非甾体类抗炎药 （5）长期禁食及肠外营养 同时具有任意两项危险因素时也应考虑使用PPIs 预防应激性溃疡 注：a 多中心研究结果显示呼吸衰竭和凝血功能障碍为SU 的独立危险因素。 此外，对于非重症患者也应综合评估SU 的风险，必要时加以预防[61-62]，评分标准详见表5。"
+  }
+]

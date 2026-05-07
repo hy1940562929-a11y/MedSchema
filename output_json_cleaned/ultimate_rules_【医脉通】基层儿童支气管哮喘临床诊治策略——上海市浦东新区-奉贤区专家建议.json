@@ -1,0 +1,1532 @@
+[
+  {
+    "rule_name": "早产致支气管肺发育不良婴幼儿反复喘息的评估与转诊路径",
+    "head": {
+      "is_negative": false,
+      "name": "转诊建议",
+      "arguments": [
+        "X",
+        "基层医疗卫生机构",
+        "明确诊断后"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "婴幼儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄小于1岁",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病因",
+        "arguments": [
+          "X",
+          "早产"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "支气管肺发育不良"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状",
+        "arguments": [
+          "X",
+          "反复喘息"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需要鉴别诊断",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "建议评估机构",
+        "arguments": [
+          "X",
+          "上级医院"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "由于早产造成的支气管肺发育不良、先天气道畸形/ 狭窄/ 软化、免疫缺陷导致的反复呼吸道感染和气道异物均会引起反复喘息，对于婴幼儿，尤其对1岁之内的儿童诊断哮喘时，需要十分地慎重，一定与其他喘息性疾病相鉴别；对于这部分儿童，建议在上级医院进行相关评估，明确诊断后再转诊到基层医疗卫生机构进行规范化治疗。"
+  },
+  {
+    "rule_name": "上海地区儿童哮喘高患病率状况",
+    "head": {
+      "is_negative": false,
+      "name": "地区患病率",
+      "arguments": [
+        "上海",
+        "哮喘",
+        "接近发达国家水平"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿数量",
+        "arguments": [
+          "上海",
+          "二十至三十万"
+        ]
+      }
+    ],
+    "variables": {
+      "上海": "地区",
+      "哮喘": "疾病"
+    },
+    "source_text": "其中，上海地区的患病率最高（7.57%），已接近发达国家水平，有20万~30万哮喘患儿。哮喘的治疗目标是达到并维持哮喘控制，其规范化控制治疗需要持续较长时间，有些患儿可能需要数年之久。哮喘的防治仅依靠三级医院及专科医院的力量是非常有限的，由于哮喘诊疗技术相对容易掌握，治疗方案较为成熟，危及生命的严重事件发生率较"
+  },
+  {
+    "rule_name": "哮喘治疗的长期控制目标",
+    "head": {
+      "is_negative": false,
+      "name": "治疗性质",
+      "arguments": [
+        "Y",
+        "长期规范化"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "X",
+          "哮喘控制",
+          "达到并维持"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方案",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对疾病",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病",
+      "Y": "治疗方案"
+    },
+    "source_text": "其中，上海地区的患病率最高（7.57%），已接近发达国家水平，有20万~30万哮喘患儿。哮喘的治疗目标是达到并维持哮喘控制，其规范化控制治疗需要持续较长时间，有些患儿可能需要数年之久。哮喘的防治仅依靠三级医院及专科医院的力量是非常有限的，由于哮喘诊疗技术相对容易掌握，治疗方案较为成熟，危及生命的严重事件发生率较"
+  },
+  {
+    "rule_name": "哮喘防治依赖非单一层级医疗机构",
+    "head": {
+      "is_negative": false,
+      "name": "防治力量来源",
+      "arguments": [
+        "Z",
+        "非仅限三级专科医院"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防治任务",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对疾病",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊疗技术特征",
+        "arguments": [
+          "X",
+          "相对易掌握"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方案特征",
+        "arguments": [
+          "X",
+          "较为成熟"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "严重事件发生率特征",
+        "arguments": [
+          "X",
+          "较低"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病",
+      "Z": "防治任务"
+    },
+    "source_text": "其中，上海地区的患病率最高（7.57%），已接近发达国家水平，有20万~30万哮喘患儿。哮喘的治疗目标是达到并维持哮喘控制，其规范化控制治疗需要持续较长时间，有些患儿可能需要数年之久。哮喘的防治仅依靠三级医院及专科医院的力量是非常有限的，由于哮喘诊疗技术相对容易掌握，治疗方案较为成熟，危及生命的严重事件发生率较"
+  },
+  {
+    "rule_name": "基层医疗机构成为儿童哮喘最佳防治平台的条件",
+    "head": {
+      "is_negative": false,
+      "name": "适宜平台",
+      "arguments": [
+        "X",
+        "儿童哮喘防治",
+        "最佳"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医疗机构",
+        "arguments": [
+          "X",
+          "基层"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "掌握",
+        "arguments": [
+          "X",
+          "急性治疗指征"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "掌握",
+        "arguments": [
+          "X",
+          "慢性治疗指征"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "掌握",
+        "arguments": [
+          "X",
+          "转诊指征"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "管理目标",
+        "arguments": [
+          "Y",
+          "儿童哮喘"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致力于",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "医疗机构",
+      "Y": "疾病管理"
+    },
+    "source_text": "Asthma is the most common chronic respiratory inflammatory disease in childhood.As long as we grasp the indications of acute and chronic treatment and referral，primary medical and health institutions should be the best platform for asthma prevention and treatment.This suggestions refers to the recent domestic and foreign relevant industry standards，research data and management guidelines，and publishes more specific understanding and interpretation of clinical diagnosis and treatment strategies for children's bronchial asthma，and puts forward more operational requirements and programs for clinical practice.This suggestions is divided into seven parts：early screening of children's asthma，detection of children's asthma pulmonary function，recognition of children's allergic symptoms and detection of allergens，assessment tool of asthma control based on grass-roots hospital，treatment strategy of children's asthma in grass-roots hospital，recommended scheme of children's asthma maintenance period treatment and two-way referral standard and process.Based on the treatment goal of children's asthma，the whole process of diagnosis and treatment is improved combing，focusing on the 'key points'，especially according to the 'treatment time axis' to develop the corresponding treatment plan，can maximize the standardization and normalization of management，in order to provide a reference for the chronic disease management in primary medical and health institutions."
+  },
+  {
+    "rule_name": "基于治疗时间轴制定方案以实现儿童哮喘规范化管理",
+    "head": {
+      "is_negative": false,
+      "name": "制定方案",
+      "arguments": [
+        "Y",
+        "Z",
+        "对应"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "Z",
+          "儿童哮喘"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "梳理过程",
+        "arguments": [
+          "W",
+          "儿童哮喘诊疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基于",
+        "arguments": [
+          "W",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "聚焦关键点",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时间轴",
+        "arguments": [
+          "T",
+          "治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "依据",
+        "arguments": [
+          "W",
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病管理方案",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "疾病管理方案",
+      "Z": "治疗目标",
+      "W": "诊疗过程梳理",
+      "T": "时间轴"
+    },
+    "source_text": "Asthma is the most common chronic respiratory inflammatory disease in childhood.As long as we grasp the indications of acute and chronic treatment and referral，primary medical and health institutions should be the best platform for asthma prevention and treatment.This suggestions refers to the recent domestic and foreign relevant industry standards，research data and management guidelines，and publishes more specific understanding and interpretation of clinical diagnosis and treatment strategies for children's bronchial asthma，and puts forward more operational requirements and programs for clinical practice.This suggestions is divided into seven parts：early screening of children's asthma，detection of children's asthma pulmonary function，recognition of children's allergic symptoms and detection of allergens，assessment tool of asthma control based on grass-roots hospital，treatment strategy of children's asthma in grass-roots hospital，recommended scheme of children's asthma maintenance period treatment and two-way referral standard and process.Based on the treatment goal of children's asthma，the whole process of diagnosis and treatment is improved combing，focusing on the 'key points'，especially according to the 'treatment time axis' to develop the corresponding treatment plan，can maximize the standardization and normalization of management，in order to provide a reference for the chronic disease management in primary medical and health institutions."
+  },
+  {
+    "rule_name": "基于目标与关键点梳理后制定治疗方案",
+    "head": {
+      "is_negative": false,
+      "name": "制定方案",
+      "arguments": [
+        "Z",
+        "X",
+        "相应"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "儿童哮喘患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊疗过程",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方案",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "依据目标改进梳理",
+        "arguments": [
+          "Y",
+          "X",
+          "儿童哮喘的治疗目标"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "聚焦",
+        "arguments": [
+          "Y",
+          "关键点"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "依据",
+        "arguments": [
+          "Y",
+          "治疗时间轴"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "诊疗过程",
+      "Z": "治疗方案"
+    },
+    "source_text": "This suggestions is divided into seven parts：early screening of children's asthma，detection of children's asthma pulmonary function，recognition of children's allergic symptoms and detection of allergens，assessment tool of asthma control based on grass-roots hospital，treatment strategy of children's asthma in grass-roots hospital，recommended scheme of children's asthma maintenance period treatment and two-way referral standard and process.Based on the treatment goal of children's asthma，the whole process of diagnosis and treatment is improved combing，focusing on the “key points”，especially according to the “treatment time axis” to develop the corresponding treatment plan，can maximize the standardization and normalization of management，in order to provide a reference for the chronic disease management in primary medical and health institutions."
+  },
+  {
+    "rule_name": "依据时间轴制定方案可实现规范化管理",
+    "head": {
+      "is_negative": false,
+      "name": "可实现管理效果",
+      "arguments": [
+        "X",
+        "最大化规范化和常态化"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "儿童哮喘患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊疗过程",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方案",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "依据目标改进梳理",
+        "arguments": [
+          "Y",
+          "X",
+          "儿童哮喘的治疗目标"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "聚焦",
+        "arguments": [
+          "Y",
+          "关键点"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "依据",
+        "arguments": [
+          "Y",
+          "治疗时间轴"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定方案",
+        "arguments": [
+          "Z",
+          "X",
+          "相应"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "诊疗过程",
+      "Z": "治疗方案"
+    },
+    "source_text": "This suggestions is divided into seven parts：early screening of children's asthma，detection of children's asthma pulmonary function，recognition of children's allergic symptoms and detection of allergens，assessment tool of asthma control based on grass-roots hospital，treatment strategy of children's asthma in grass-roots hospital，recommended scheme of children's asthma maintenance period treatment and two-way referral standard and process.Based on the treatment goal of children's asthma，the whole process of diagnosis and treatment is improved combing，focusing on the “key points”，especially according to the “treatment time axis” to develop the corresponding treatment plan，can maximize the standardization and normalization of management，in order to provide a reference for the chronic disease management in primary medical and health institutions."
+  },
+  {
+    "rule_name": "为基层机构慢病管理提供参考",
+    "head": {
+      "is_negative": false,
+      "name": "提供参考给",
+      "arguments": [
+        "W",
+        "慢性病管理"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "儿童哮喘患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊疗过程",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方案",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基层医疗卫生机构",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "依据目标改进梳理",
+        "arguments": [
+          "Y",
+          "X",
+          "儿童哮喘的治疗目标"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "聚焦",
+        "arguments": [
+          "Y",
+          "关键点"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "依据",
+        "arguments": [
+          "Y",
+          "治疗时间轴"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定方案",
+        "arguments": [
+          "Z",
+          "X",
+          "相应"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可实现管理效果",
+        "arguments": [
+          "X",
+          "最大化规范化和常态化"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "诊疗过程",
+      "Z": "治疗方案",
+      "W": "基层医疗卫生机构"
+    },
+    "source_text": "This suggestions is divided into seven parts：early screening of children's asthma，detection of children's asthma pulmonary function，recognition of children's allergic symptoms and detection of allergens，assessment tool of asthma control based on grass-roots hospital，treatment strategy of children's asthma in grass-roots hospital，recommended scheme of children's asthma maintenance period treatment and two-way referral standard and process.Based on the treatment goal of children's asthma，the whole process of diagnosis and treatment is improved combing，focusing on the “key points”，especially according to the “treatment time axis” to develop the corresponding treatment plan，can maximize the standardization and normalization of management，in order to provide a reference for the chronic disease management in primary medical and health institutions."
+  },
+  {
+    "rule_name": "基于临床表现与听诊的哮喘诊断线索",
+    "head": {
+      "is_negative": false,
+      "name": "临床诊断线索",
+      "arguments": [
+        "X",
+        "哮喘"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "临床表现",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状诱发",
+        "arguments": [
+          "Y",
+          "刺激",
+          "包括呼吸道感染等"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作时间特征",
+        "arguments": [
+          "Y",
+          "夜间或凌晨"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "听诊体征",
+        "arguments": [
+          "X",
+          "哮鸣音"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征归属",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "临床表现"
+    },
+    "source_text": "典型的临床症状是诊断哮喘的首要线索，这些症状包括暴露于各种刺激所诱发的反复发作的咳嗽、喘息、气促或胸闷，刺激包括呼吸道感染、刺激物（寒冷、烟草烟雾）、变应原（螨虫、花粉、宠物皮毛）、运动，尤其在夜间或凌晨出现症状，同时肺部听诊可闻及哮鸣音。个人的特应性病史（如变应性鼻炎、湿疹或吸入/ 食入变应原过敏）、变异性疾病或哮喘家族史、严重过敏史有助于哮喘的确诊［6-7］。考虑到哮喘症状的非特异性，并且可能在许多情况下导致喘息的发生，因此鉴别诊断尤为重要，包括引起儿童喘息的常见疾病以及罕见严重的儿童疾病［7］。"
+  },
+  {
+    "rule_name": "结合变异性疾病史的哮喘确诊支持",
+    "head": {
+      "is_negative": false,
+      "name": "诊断支持",
+      "arguments": [
+        "X",
+        "哮喘",
+        "辅助确诊"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "临床诊断线索",
+        "arguments": [
+          "X",
+          "哮喘"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病史特征",
+        "arguments": [
+          "X",
+          "变异性疾病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在辅助确诊因素",
+        "arguments": [
+          "X",
+          "阳性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "典型的临床症状是诊断哮喘的首要线索，这些症状包括暴露于各种刺激所诱发的反复发作的咳嗽、喘息、气促或胸闷，刺激包括呼吸道感染、刺激物（寒冷、烟草烟雾）、变应原（螨虫、花粉、宠物皮毛）、运动，尤其在夜间或凌晨出现症状，同时肺部听诊可闻及哮鸣音。个人的特应性病史（如变应性鼻炎、湿疹或吸入/ 食入变应原过敏）、变异性疾病或哮喘家族史、严重过敏史有助于哮喘的确诊［6-7］。考虑到哮喘症状的非特异性，并且可能在许多情况下导致喘息的发生，因此鉴别诊断尤为重要，包括引起儿童喘息的常见疾病以及罕见严重的儿童疾病［7］。"
+  },
+  {
+    "rule_name": "结合哮喘家族史的哮喘确诊支持",
+    "head": {
+      "is_negative": false,
+      "name": "诊断支持",
+      "arguments": [
+        "X",
+        "哮喘",
+        "辅助确诊"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "临床诊断线索",
+        "arguments": [
+          "X",
+          "哮喘"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "家族史",
+        "arguments": [
+          "X",
+          "哮喘"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在辅助确诊因素",
+        "arguments": [
+          "X",
+          "阳性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "典型的临床症状是诊断哮喘的首要线索，这些症状包括暴露于各种刺激所诱发的反复发作的咳嗽、喘息、气促或胸闷，刺激包括呼吸道感染、刺激物（寒冷、烟草烟雾）、变应原（螨虫、花粉、宠物皮毛）、运动，尤其在夜间或凌晨出现症状，同时肺部听诊可闻及哮鸣音。个人的特应性病史（如变应性鼻炎、湿疹或吸入/ 食入变应原过敏）、变异性疾病或哮喘家族史、严重过敏史有助于哮喘的确诊［6-7］。考虑到哮喘症状的非特异性，并且可能在许多情况下导致喘息的发生，因此鉴别诊断尤为重要，包括引起儿童喘息的常见疾病以及罕见严重的儿童疾病［7］。"
+  },
+  {
+    "rule_name": "排他性诊断支持哮喘",
+    "head": {
+      "is_negative": false,
+      "name": "诊断支持",
+      "arguments": [
+        "X",
+        "哮喘",
+        "排他性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "临床诊断线索",
+        "arguments": [
+          "X",
+          "哮喘"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需要鉴别诊断",
+        "arguments": [
+          "X",
+          "喘息性疾病"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "其他喘息性疾病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "典型的临床症状是诊断哮喘的首要线索，这些症状包括暴露于各种刺激所诱发的反复发作的咳嗽、喘息、气促或胸闷，刺激包括呼吸道感染、刺激物（寒冷、烟草烟雾）、变应原（螨虫、花粉、宠物皮毛）、运动，尤其在夜间或凌晨出现症状，同时肺部听诊可闻及哮鸣音。个人的特应性病史（如变应性鼻炎、湿疹或吸入/ 食入变应原过敏）、变异性疾病或哮喘家族史、严重过敏史有助于哮喘的确诊［6-7］。考虑到哮喘症状的非特异性，并且可能在许多情况下导致喘息的发生，因此鉴别诊断尤为重要，包括引起儿童喘息的常见疾病以及罕见严重的儿童疾病［7］。"
+  },
+  {
+    "rule_name": "基于反复喘息症状的哮喘诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "构成诊断依据",
+      "arguments": [
+        "X",
+        "哮喘"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "喘息"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状性质",
+        "arguments": [
+          "喘息",
+          "反复发作"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于类型",
+        "arguments": [
+          "喘息",
+          "典型临床症状"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（1）目前诊断哮喘的主要线索是典型的临床症状，包括反复发作的喘息、咳嗽、气促、胸闷，其中又以反复多次的喘息作为疾病的主要特征，并不是完全依靠肺功能检查和过敏原检查；"
+  },
+  {
+    "rule_name": "基于反复咳嗽症状的哮喘诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "构成诊断依据",
+      "arguments": [
+        "X",
+        "哮喘"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "咳嗽"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状性质",
+        "arguments": [
+          "咳嗽",
+          "反复发作"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于类型",
+        "arguments": [
+          "咳嗽",
+          "典型临床症状"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（1）目前诊断哮喘的主要线索是典型的临床症状，包括反复发作的喘息、咳嗽、气促、胸闷，其中又以反复多次的喘息作为疾病的主要特征，并不是完全依靠肺功能检查和过敏原检查；"
+  },
+  {
+    "rule_name": "基于反复气促症状的哮喘诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "构成诊断依据",
+      "arguments": [
+        "X",
+        "哮喘"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "气促"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状性质",
+        "arguments": [
+          "气促",
+          "反复发作"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于类型",
+        "arguments": [
+          "气促",
+          "典型临床症状"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（1）目前诊断哮喘的主要线索是典型的临床症状，包括反复发作的喘息、咳嗽、气促、胸闷，其中又以反复多次的喘息作为疾病的主要特征，并不是完全依靠肺功能检查和过敏原检查；"
+  },
+  {
+    "rule_name": "基于反复胸闷症状的哮喘诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "构成诊断依据",
+      "arguments": [
+        "X",
+        "哮喘"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "胸闷"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状性质",
+        "arguments": [
+          "胸闷",
+          "反复发作"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于类型",
+        "arguments": [
+          "胸闷",
+          "典型临床症状"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（1）目前诊断哮喘的主要线索是典型的临床症状，包括反复发作的喘息、咳嗽、气促、胸闷，其中又以反复多次的喘息作为疾病的主要特征，并不是完全依靠肺功能检查和过敏原检查；"
+  },
+  {
+    "rule_name": "基于高频次喘息发作且支气管扩张剂治疗有效的哮喘诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "构成诊断依据",
+      "arguments": [
+        "X",
+        "哮喘"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作事件",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属于",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作性质",
+        "arguments": [
+          "Z",
+          "高频次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对药物反应",
+        "arguments": [
+          "X",
+          "支气管扩张剂",
+          "有效"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "喘息发作事件"
+    },
+    "source_text": "（2）哮喘诊断的关键线索是喘息发作的频次和严重程度，以及支气管扩张剂（雾化或口服）或抗哮喘药物的治疗有效性；"
+  },
+  {
+    "rule_name": "基于高严重度喘息发作且支气管扩张剂治疗有效的哮喘诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "构成诊断依据",
+      "arguments": [
+        "X",
+        "哮喘"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作事件",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属于",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作性质",
+        "arguments": [
+          "Z",
+          "高严重度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对药物反应",
+        "arguments": [
+          "X",
+          "支气管扩张剂",
+          "有效"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "喘息发作事件"
+    },
+    "source_text": "（2）哮喘诊断的关键线索是喘息发作的频次和严重程度，以及支气管扩张剂（雾化或口服）或抗哮喘药物的治疗有效性；"
+  },
+  {
+    "rule_name": "基于高频次喘息发作且抗哮喘药物治疗有效的哮喘诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "构成诊断依据",
+      "arguments": [
+        "X",
+        "哮喘"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作事件",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属于",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作性质",
+        "arguments": [
+          "Z",
+          "高频次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对药物反应",
+        "arguments": [
+          "X",
+          "抗哮喘药物",
+          "有效"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "喘息发作事件"
+    },
+    "source_text": "（2）哮喘诊断的关键线索是喘息发作的频次和严重程度，以及支气管扩张剂（雾化或口服）或抗哮喘药物的治疗有效性；"
+  },
+  {
+    "rule_name": "基于高严重度喘息发作且抗哮喘药物治疗有效的哮喘诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "构成诊断依据",
+      "arguments": [
+        "X",
+        "哮喘"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作事件",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属于",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作性质",
+        "arguments": [
+          "Z",
+          "高严重度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对药物反应",
+        "arguments": [
+          "X",
+          "抗哮喘药物",
+          "有效"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "喘息发作事件"
+    },
+    "source_text": "（2）哮喘诊断的关键线索是喘息发作的频次和严重程度，以及支气管扩张剂（雾化或口服）或抗哮喘药物的治疗有效性；"
+  },
+  {
+    "rule_name": "基于过去1年喘息≥3次且发作需急诊的哮喘诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "构成诊断依据",
+      "arguments": [
+        "X",
+        "哮喘"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "在周期内发作频次",
+        "arguments": [
+          "X",
+          "过去1年",
+          "≥3次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作事件",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属于",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致干预",
+        "arguments": [
+          "Z",
+          "需要急诊"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "特定喘息发作事件"
+    },
+    "source_text": "（3）过去1年中喘息≥3次，或在过去的2~3年中平均每年喘息≥2次，其中至少有1次因为喘息发作需要急诊/ 吸氧/ 全身使用糖皮质激素/ 住院，可作为哮喘诊断的重要参考依据；"
+  },
+  {
+    "rule_name": "基于过去1年喘息≥3次且发作需吸氧的哮喘诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "构成诊断依据",
+      "arguments": [
+        "X",
+        "哮喘"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "在周期内发作频次",
+        "arguments": [
+          "X",
+          "过去1年",
+          "≥3次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作事件",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属于",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致干预",
+        "arguments": [
+          "Z",
+          "需要吸氧"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "特定喘息发作事件"
+    },
+    "source_text": "（3）过去1年中喘息≥3次，或在过去的2~3年中平均每年喘息≥2次，其中至少有1次因为喘息发作需要急诊/ 吸氧/ 全身使用糖皮质激素/ 住院，可作为哮喘诊断的重要参考依据；"
+  },
+  {
+    "rule_name": "基于过去1年喘息≥3次且发作需全身使用糖皮质激素的哮喘诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "构成诊断依据",
+      "arguments": [
+        "X",
+        "哮喘"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "在周期内发作频次",
+        "arguments": [
+          "X",
+          "过去1年",
+          "≥3次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作事件",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属于",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致干预",
+        "arguments": [
+          "Z",
+          "全身使用糖皮质激素"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "特定喘息发作事件"
+    },
+    "source_text": "（3）过去1年中喘息≥3次，或在过去的2~3年中平均每年喘息≥2次，其中至少有1次因为喘息发作需要急诊/ 吸氧/ 全身使用糖皮质激素/ 住院，可作为哮喘诊断的重要参考依据；"
+  },
+  {
+    "rule_name": "基于过去1年喘息≥3次且发作需住院的哮喘诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "构成诊断依据",
+      "arguments": [
+        "X",
+        "哮喘"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "在周期内发作频次",
+        "arguments": [
+          "X",
+          "过去1年",
+          "≥3次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作事件",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属于",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致干预",
+        "arguments": [
+          "Z",
+          "需要住院"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "特定喘息发作事件"
+    },
+    "source_text": "（3）过去1年中喘息≥3次，或在过去的2~3年中平均每年喘息≥2次，其中至少有1次因为喘息发作需要急诊/ 吸氧/ 全身使用糖皮质激素/ 住院，可作为哮喘诊断的重要参考依据；"
+  },
+  {
+    "rule_name": "基于过去2-3年年均喘息≥2次且发作需急诊的哮喘诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "构成诊断依据",
+      "arguments": [
+        "X",
+        "哮喘"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "在周期内发作频次",
+        "arguments": [
+          "X",
+          "过去2-3年",
+          "年均≥2次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作事件",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属于",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致干预",
+        "arguments": [
+          "Z",
+          "需要急诊"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "特定喘息发作事件"
+    },
+    "source_text": "（3）过去1年中喘息≥3次，或在过去的2~3年中平均每年喘息≥2次，其中至少有1次因为喘息发作需要急诊/ 吸氧/ 全身使用糖皮质激素/ 住院，可作为哮喘诊断的重要参考依据；"
+  },
+  {
+    "rule_name": "基于过去2-3年年均喘息≥2次且发作需吸氧的哮喘诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "构成诊断依据",
+      "arguments": [
+        "X",
+        "哮喘"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "在周期内发作频次",
+        "arguments": [
+          "X",
+          "过去2-3年",
+          "年均≥2次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作事件",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属于",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致干预",
+        "arguments": [
+          "Z",
+          "需要吸氧"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "特定喘息发作事件"
+    },
+    "source_text": "（3）过去1年中喘息≥3次，或在过去的2~3年中平均每年喘息≥2次，其中至少有1次因为喘息发作需要急诊/ 吸氧/ 全身使用糖皮质激素/ 住院，可作为哮喘诊断的重要参考依据；"
+  }
+]

@@ -1,0 +1,267 @@
+【原始长篇章】:
+1.1Diagnostic testing in primary careMeasuring albumin-adjusted serum calciumMeasuring albumin-adjusted serum calcium1.1.1Measure albumin-adjusted serum calcium for people with any of the followingfeatures, which might indicate primary hyperparathyroidism:symptoms of hypercalcaemia, such as thirst, frequent or excessive urination, orconstipationosteoporosis or a previous fragility fracture (for recommendations on assessing therisk of fragility fracture in people with osteoporosis, see the NICE guideline onosteoporosis)a renal stone (for recommendations on assessing and managing renal stones, see theNICE guideline on renal and ureteric stones)an incidental finding of elevated albumin-adjusted serum calcium (2.6 mmol/litre orabove).1.1.2Consider measuring albumin-adjusted serum calcium for people with chronicnon-differentiated symptoms.1.1.3Do not measure ionised calcium when testing for primary hyperparathyroidism.1.1.4Repeat the albumin-adjusted serum calcium measurement at least once if thefirst measurement is either:2.6 mmol/litre or above oror2.5 mmol/litre or above and features of primary hyperparathyroidism are present.Base the decision to carry out further repeat measurements on the level of albumin-adjusted serum calcium and the person's symptoms.Measuring parMeasuring parathathyroid hormoneyroid hormone1.1.5Measure parathyroid hormone (PTH) for people whose albumin-adjusted serumcalcium level is either:2.6 mmol/litre or above on at least 2 separate occasions oror2.5 mmol/litre or above on at least 2 separate occasions and primaryhyperparathyroidism is suspected.1.1.6When measuring PTH, use a random sample and do a concurrent measurementof the albumin-adjusted serum calcium level.1.1.7Do not routinely repeat PTH measurement in primary care.1.1.8Seek advice from a specialist with expertise in primary hyperparathyroidism ifthe person's PTH measurement is either:above the midpoint of the reference range and primary hyperparathyroidism issuspected ororbelow the midpoint of the reference range with a concurrent albumin-adjusted serumcalcium level of 2.6 mmol/litre or above.1.1.9Do not offer further investigations for primary hyperparathyroidism if:the person's PTH is within the reference range but below the midpoint of the referencerange andandtheir concurrent albumin-adjusted serum calcium level is below 2.6 mmol/litre.1.1.10Look for alternative diagnoses, including malignancy, if the person's PTH isbelow the lower limit of the reference range.
+
+【规则 1】
+规则名: 初级保健测量血钙指征_高钙血症症状
+逻辑表达: 建议行动(测量, 白蛋白校正血清钙, 初级保健) <- 患者(X) ^ 患者特征(X, 高钙血症症状) ^ ¬测量类型(测量, 离子钙)
+变量映射:
+  - X: 患者
+  - 测量: 测量活动
+
+【规则 2】
+规则名: 初级保健测量血钙指征_骨质疏松或脆性骨折史
+逻辑表达: 建议行动(测量, 白蛋白校正血清钙, 初级保健) <- 患者(X) ^ (患病(X, 骨质疏松) V 既往病史(X, 脆性骨折)) ^ ¬测量类型(测量, 离子钙)
+变量映射:
+  - X: 患者
+  - 测量: 测量活动
+
+【规则 3】
+规则名: 初级保健测量血钙指征_肾结石
+逻辑表达: 建议行动(测量, 白蛋白校正血清钙, 初级保健) <- 患者(X) ^ 患病(X, 肾结石) ^ ¬测量类型(测量, 离子钙)
+变量映射:
+  - X: 患者
+  - 测量: 测量活动
+
+【规则 4】
+规则名: 初级保健测量血钙指征_血钙偶然升高
+逻辑表达: 建议行动(测量, 白蛋白校正血清钙, 初级保健) <- 患者(X) ^ 检查发现(X, 白蛋白校正血清钙_2.6mmolL以上) ^ ¬测量类型(测量, 离子钙)
+变量映射:
+  - X: 患者
+  - 测量: 测量活动
+
+【规则 5】
+规则名: 初级保健重复测量血钙_首次测量值大于等于2.6
+逻辑表达: 建议行动(重复测量, 白蛋白校正血清钙, 至少一次) <- 患者(X) ^ 检测活动(首次测量) ^ 检测对象(首次测量, 白蛋白校正血清钙) ^ 检测结果(首次测量, 大于等于2.6mmolL)
+变量映射:
+  - X: 患者
+  - 首次测量: 检测活动
+  - 重复测量: 检测活动
+
+【规则 6】
+规则名: 初级保健重复测量血钙_首次测量值大于等于2.5且伴临床特征
+逻辑表达: 建议行动(重复测量, 白蛋白校正血清钙, 至少一次) <- 患者(X) ^ 检测活动(首次测量) ^ 检测对象(首次测量, 白蛋白校正血清钙) ^ 检测结果(首次测量, 大于等于2.5mmolL) ^ 患者特征(X, 原发性甲旁亢临床特征)
+变量映射:
+  - X: 患者
+  - 首次测量: 检测活动
+  - 重复测量: 检测活动
+
+【规则 7】
+规则名: 初级保健测量PTH指征_血钙持续大于等于2.6
+逻辑表达: 建议行动(测量PTH, 甲状旁腺激素, 初级保健) <- 患者(X) ^ 检测活动(血钙检测1) ^ 检测活动(血钙检测2) ^ 检测对象(血钙检测1, 白蛋白校正血清钙) ^ 检测对象(血钙检测2, 白蛋白校正血清钙) ^ 检测结果(血钙检测1, 大于等于2.6mmolL) ^ 检测结果(血钙检测2, 大于等于2.6mmolL) ^ 独立于(血钙检测1, 血钙检测2)
+变量映射:
+  - X: 患者
+  - 测量PTH: 检测活动
+  - 血钙检测1: 检测活动
+  - 血钙检测2: 检测活动
+
+【规则 8】
+规则名: 初级保健测量PTH指征_血钙持续大于等于2.5且疑诊
+逻辑表达: 建议行动(测量PTH, 甲状旁腺激素, 初级保健) <- 患者(X) ^ 检测活动(血钙检测1) ^ 检测活动(血钙检测2) ^ 检测对象(血钙检测1, 白蛋白校正血清钙) ^ 检测对象(血钙检测2, 白蛋白校正血清钙) ^ 检测结果(血钙检测1, 大于等于2.5mmolL) ^ 检测结果(血钙检测2, 大于等于2.5mmolL) ^ 独立于(血钙检测1, 血钙检测2) ^ 疑似诊断(X, 原发性甲旁亢)
+变量映射:
+  - X: 患者
+  - 测量PTH: 检测活动
+  - 血钙检测1: 检测活动
+  - 血钙检测2: 检测活动
+
+【规则 9】
+规则名: 初级保健进行PTH测量时的伴随检测要求
+逻辑表达: 检测条件(测量PTH, 随机样本) ^ 伴随检测(测量PTH, 血钙测量) <- 检测活动(测量PTH) ^ 检测对象(测量PTH, 甲状旁腺激素) ^ 检测活动(血钙测量) ^ 检测对象(血钙测量, 白蛋白校正血清钙)
+变量映射:
+  - 测量PTH: 检测活动
+  - 血钙测量: 检测活动
+
+【规则 10】
+规则名: 初级保健常规不重复测量PTH
+逻辑表达: ¬建议行动(重复测量, 甲状旁腺激素, 常规) <- 检测活动(首次测量) ^ 检测对象(首次测量, 甲状旁腺激素)
+变量映射:
+  - 首次测量: 检测活动
+  - 重复测量: 检测活动
+
+【规则 11】
+规则名: 初级保健寻求专家建议_PTH高于中位值且疑诊
+逻辑表达: 建议行动(寻求建议, 专科医生, 针对病例) <- 患者(X) ^ 检测活动(PTH测量) ^ 检测对象(PTH测量, 甲状旁腺激素) ^ 检测结果(PTH测量, 高于参考范围中位值) ^ 疑似诊断(X, 原发性甲旁亢)
+变量映射:
+  - X: 患者
+  - PTH测量: 检测活动
+
+【规则 12】
+规则名: 初级保健寻求专家建议_PTH低于中位值且血钙高
+逻辑表达: 建议行动(寻求建议, 专科医生, 针对病例) <- 患者(X) ^ 检测活动(PTH测量) ^ 检测活动(血钙测量) ^ 检测对象(PTH测量, 甲状旁腺激素) ^ 检测对象(血钙测量, 白蛋白校正血清钙) ^ 检测结果(PTH测量, 低于参考范围中位值) ^ 检测结果(血钙测量, 大于等于2.6mmolL) ^ 并发于(血钙测量, PTH测量)
+变量映射:
+  - X: 患者
+  - PTH测量: 检测活动
+  - 血钙测量: 检测活动
+
+【规则 13】
+规则名: 初级保健不进一步检查的条件
+逻辑表达: ¬建议行动(进一步检查, 原发性甲旁亢, 针对患者) <- 患者(X) ^ 检测活动(PTH测量) ^ 检测活动(血钙测量) ^ 检测对象(PTH测量, 甲状旁腺激素) ^ 检测对象(血钙测量, 白蛋白校正血清钙) ^ 检测结果(PTH测量, 在参考范围内) ^ 检测结果(PTH测量, 低于参考范围中位值) ^ 检测结果(血钙测量, 低于2.6mmolL) ^ 并发于(血钙测量, PTH测量)
+变量映射:
+  - X: 患者
+  - PTH测量: 检测活动
+  - 血钙测量: 检测活动
+
+【规则 14】
+规则名: 初级保健寻找替代诊断_PTH低于下限
+逻辑表达: 建议行动(寻找诊断, 替代诊断, 包括恶性肿瘤) <- 患者(X) ^ 检测活动(PTH测量) ^ 检测对象(PTH测量, 甲状旁腺激素) ^ 检测结果(PTH测量, 低于参考范围下限)
+变量映射:
+  - X: 患者
+  - PTH测量: 检测活动
+
+---
+
+
+【原始长篇章】:
+Measure albumin-adjusted serum calcium for people with any of the following features, which might indicate primary hyperparathyroidism: symptoms of hypercalcaemia, such as thirst, frequent or excessive urination, or constipation osteoporosis or a previous fragility fracture (for recommendations on assessing the risk of fragility fracture in people with osteoporosis, see the NICE guideline on osteoporosis) a renal stone (for recommendations on assessing and managing renal stones, see the NICE guideline on renal and ureteric stones) an incidental finding of elevated albumin-adjusted serum calcium (2.6 mmol/litre or above). Repeat the albumin-adjusted serum calcium measurement at least once if the first measurement is either: 2.6 mmol/litre or above or 2.5 mmol/litre or above and features of primary hyperparathyroidism are present. Measure parathyroid hormone (PTH) for people whose albumin-adjusted serum calcium level is either: 2.6 mmol/litre or above on at least 2 separate occasions or 2.5 mmol/litre or above on at least 2 separate occasions and primary hyperparathyroidism is suspected. Seek advice from a specialist with expertise in primary hyperparathyroidism if the person‘s PTH measurement is either: above the midpoint of the reference range and primary hyperparathyroidism is suspected or below the midpoint of the reference range with a concurrent albumin-adjusted serum calcium level of 2.6 mmol/litre or above. Do not offer further investigations for primary hyperparathyroidism if: the person's PTH is within the reference range but below the midpoint of the reference range and their concurrent albumin-adjusted serum calcium level is below 2.6 mmol/litre.
+
+【规则 1】
+规则名: 初级保健中测量校正血清钙的指征_高钙血症症状
+逻辑表达: 执行医疗检测(X, 测量校正血清钙) <- 人员(X) ^ 高钙血症症状(X) ^ 临床指征(X, 疑似原发性甲旁亢)
+变量映射:
+  - X: 人员
+
+【规则 2】
+规则名: 初级保健中测量校正血清钙的指征_偶然发现高钙
+逻辑表达: 执行医疗检测(X, 测量校正血清钙) <- 人员(X) ^ 血清钙水平(X, 2.6mmolL以上, 初始测量) ^ ¬高钙血症症状(X) ^ ¬骨质疏松(X) ^ ¬肾结石病史(X) ^ 临床指征(X, 疑似原发性甲旁亢)
+变量映射:
+  - X: 人员
+
+【规则 3】
+规则名: 初级保健中需重复测量校正血清钙的条件_首次测量值高
+逻辑表达: 执行医疗检测(X, 重复测量校正血清钙) <- 人员(X) ^ 血清钙水平(X, 2.6mmolL以上, 初始测量)
+变量映射:
+  - X: 人员
+
+【规则 4】
+规则名: 初级保健中需重复测量校正血清钙的条件_首次测量值临界且有特征
+逻辑表达: 执行医疗检测(X, 重复测量校正血清钙) <- 人员(X) ^ 血清钙水平(X, 2.5mmolL以上, 初始测量) ^ 原发性甲旁亢疑似特征(X)
+变量映射:
+  - X: 人员
+
+【规则 5】
+规则名: 初级保健中测量甲状旁腺激素的条件_两次高钙血症
+逻辑表达: 执行医疗检测(X, 测量甲状旁腺激素) <- 人员(X) ^ 血清钙水平(X, 2.6mmolL以上, 两次测量) ^ 临床指征(X, 疑似原发性甲旁亢)
+变量映射:
+  - X: 人员
+
+【规则 6】
+规则名: 初级保健中测量甲状旁腺激素的条件_两次临界钙且临床怀疑
+逻辑表达: 执行医疗检测(X, 测量甲状旁腺激素) <- 人员(X) ^ 血清钙水平(X, 2.5mmolL以上, 两次测量) ^ 临床指征(X, 疑似原发性甲旁亢)
+变量映射:
+  - X: 人员
+
+【规则 7】
+规则名: 初级保健中需寻求专家建议的条件_PTH高于中位且临床怀疑
+逻辑表达: 寻求专家建议(X, 原发性甲旁亢专家) <- 人员(X) ^ 甲状旁腺激素水平(X, 高于参考范围中位) ^ 临床指征(X, 疑似原发性甲旁亢)
+变量映射:
+  - X: 人员
+
+【规则 8】
+规则名: 初级保健中需寻求专家建议的条件_PTH低于中位且伴发高钙
+逻辑表达: 寻求专家建议(X, 原发性甲旁亢专家) <- 人员(X) ^ 甲状旁腺激素水平(X, 低于参考范围中位) ^ 血清钙水平(X, 2.6mmolL以上, 同期测量)
+变量映射:
+  - X: 人员
+
+【规则 9】
+规则名: 初级保健中无需进一步调查原发性甲旁亢的条件
+逻辑表达: 终止医疗流程(X, 原发性甲旁亢进一步调查) <- 人员(X) ^ 甲状旁腺激素水平(X, 参考范围内) ^ 甲状旁腺激素水平(X, 低于参考范围中位) ^ 血清钙水平(X, 低于2.6mmolL, 同期测量)
+变量映射:
+  - X: 人员
+
+---
+
+
+【原始长篇章】: Calcimimetics. Cinacalcet is the only calcimimetic for which evidence was available. The committee noted that cinacalcet does not directly stop kidney problems or bone loss caused by primary hyperparathyroidism, and that surgery is the only definitive treatment for primary hyperparathyroidism. Based on the evidence and their experience, the committee agreed that treatment with cinacalcet could be considered for the purpose of reducing symptoms and lowering the risk of a hypercalcaemic crisis for people who have not had surgery and those for whom surgery has not been successful. The committee agreed that, in their experience, cinacalcet can improve quality of life for people with symptoms of hypercalcaemia and an albumin-adjusted serum calcium level of 2.85 mmol/litre or above. For people with an albumin-adjusted serum calcium level of 3.0 mmol/litre or above, who are more at risk of hypercalcaemic crises, cinacalcet can both improve quality of life and help to prevent hypercalcaemic crises. The committee agreed that treatment-related changes in serum calcium should be managed by basing initiation and continuation of treatment on albumin-adjusted serum calcium level and symptoms. They also agreed that treatment with cinacalcet should be continued if it produces a decrease in albumin-adjusted serum calcium or an improvement in symptoms, because discontinuation is likely to reverse these improvements. The committee noted that there is no evidence for and little likelihood of benefit from cinacalcet for people with normal calcium levels and no symptoms.
+
+【规则 1】
+规则名: 未手术患者考虑西那卡塞治疗指征_基于症状与血钙水平
+逻辑表达: 用药推荐(X, 西那卡塞, 可考虑) <- 患者(X) ^ 患病(X, 原发性甲状旁腺功能亢进症) ^ ¬已接受手术(X) ^ 存在症状(X, 高钙血症) ^ 血清钙指标(X, 白蛋白校正血钙>=2.85mmol/L)
+变量映射:
+  - X: 患者
+
+【规则 2】
+规则名: 手术未成功患者考虑西那卡塞治疗指征_基于症状与血钙水平
+逻辑表达: 用药推荐(X, 西那卡塞, 可考虑) <- 患者(X) ^ 患病(X, 原发性甲状旁腺功能亢进症) ^ 已接受手术(X) ^ 手术结果(X, 未成功) ^ 存在症状(X, 高钙血症) ^ 血清钙指标(X, 白蛋白校正血钙>=2.85mmol/L)
+变量映射:
+  - X: 患者
+
+【规则 3】
+规则名: 高钙危象风险患者西那卡塞治疗指征
+逻辑表达: 用药推荐(X, 西那卡塞, 可考虑) <- 患者(X) ^ 患病(X, 原发性甲状旁腺功能亢进症) ^ 血清钙指标(X, 白蛋白校正血钙>=3.0mmol/L) ^ 存在风险(X, 高钙危象)
+变量映射:
+  - X: 患者
+
+【规则 4】
+规则名: 西那卡塞治疗有效应继续_基于血钙下降
+逻辑表达: 应继续治疗(Y, 西那卡塞) <- 治疗方案(Y, 西那卡塞) ^ 归属患者(Y, X) ^ 用药导致结果(Y, 血清钙水平下降)
+变量映射:
+  - X: 患者
+  - Y: 治疗方案
+
+【规则 5】
+规则名: 西那卡塞治疗有效应继续_基于症状改善
+逻辑表达: 应继续治疗(Y, 西那卡塞) <- 治疗方案(Y, 西那卡塞) ^ 归属患者(Y, X) ^ 用药导致结果(Y, 高钙血症症状改善)
+变量映射:
+  - X: 患者
+  - Y: 治疗方案
+
+【规则 6】
+规则名: 正常钙水平无症状患者西那卡塞无获益指征
+逻辑表达: 用药无获益(X, 西那卡塞) <- 患者(X) ^ 患病(X, 原发性甲状旁腺功能亢进症) ^ 血清钙指标(X, 白蛋白校正血钙正常) ^ ¬存在症状(X, 高钙血症)
+变量映射:
+  - X: 患者
+
+---
+
+
+【原始长篇章】:Care during pregnancy 1.7.2Discuss the management of primary hyperparathyroidism for pregnant women with a MDT in a specialist centre, and refer the woman for specialist care if needed. The MDT should include: an obstetrician a physician with expertise in primary hyperparathyroidism a surgeon a midwife an anaesthetist.
+
+【规则 1】
+规则名: 妊娠期原发性甲旁亢患者需由包含特定成员的多学科团队讨论管理
+逻辑表达: 需讨论管理(X, Y, 在专科中心) <- 患者(X) ^ 患有疾病(X, 原发性甲状旁腺功能亢进症) ^ 处于状态(X, 怀孕) ^ 多学科团队(Y) ^ 团队应包含成员(Y, 产科医生) ^ 团队应包含成员(Y, 原发甲旁亢专家医师) ^ 团队应包含成员(Y, 外科医生) ^ 团队应包含成员(Y, 助产士) ^ 团队应包含成员(Y, 麻醉医师)
+变量映射: 
+  - X: 患者
+  - Y: 多学科团队
+
+---
+
+
+【原始长篇章】:Offer parathyroidectomy to people with primary hyperparathyroidism if they meet one or more of the following criteria: • serum calcium concentration of 0.25 mmol/litre (1 mg/dl) or more above the upper limit of normal range (adjusted for albumin) • renal involvement (for example, creatinine clearance reduced to less than 60 ml/min, renal stones or nephrocalcinosis) • osteoporosis (a T‑score of –2.5 or less at the lumbar spine, femoral neck, total hip or distal radius). If parathyroidectomy is indicated but the person is unable or unwilling to have surgery, consider medical management.
+
+【规则 1】
+规则名: 高钙血症患者甲状旁腺切除术指征
+逻辑表达: 推荐治疗(X, 甲状旁腺切除术) <- 患者(X) ^ 患病(X, 原发性甲状旁腺功能亢进症) ^ 血钙水平(X, 高于正常范围, 持续性) ^ 超出幅度(X, 0.25 mmol/litre)
+变量映射:
+  - X: 患者
+
+【规则 2】
+规则名: 肾功能受累患者甲状旁腺切除术指征
+逻辑表达: 推荐治疗(X, 甲状旁腺切除术) <- 患者(X) ^ 患病(X, 原发性甲状旁腺功能亢进症) ^ 肾功能指标(X, 肌酐清除率) ^ 数值关系(肌酐清除率, 低于, 60 ml/min)
+变量映射:
+  - X: 患者
+
+【规则 3】
+规则名: 肾结石患者甲状旁腺切除术指征
+逻辑表达: 推荐治疗(X, 甲状旁腺切除术) <- 患者(X) ^ 患病(X, 原发性甲状旁腺功能亢进症) ^ 并发疾病(X, 肾结石)
+变量映射:
+  - X: 患者
+
+【规则 4】
+规则名: 肾钙质沉着症患者甲状旁腺切除术指征
+逻辑表达: 推荐治疗(X, 甲状旁腺切除术) <- 患者(X) ^ 患病(X, 原发性甲状旁腺功能亢进症) ^ 并发疾病(X, 肾钙质沉着症)
+变量映射:
+  - X: 患者
+
+【规则 5】
+规则名: 骨质疏松患者甲状旁腺切除术指征
+逻辑表达: 推荐治疗(X, 甲状旁腺切除术) <- 患者(X) ^ 患病(X, 原发性甲状旁腺功能亢进症) ^ 患病(X, 骨质疏松) ^ 骨密度指标(X, T值, ≤-2.5) ^ 测量部位(X, 腰椎)
+变量映射:
+  - X: 患者
+
+【规则 6】
+规则名: 拒绝手术患者的药物治疗考量
+逻辑表达: 考虑治疗(X, 药物管理) <- 患者(X) ^ 患病(X, 原发性甲状旁腺功能亢进症) ^ 具有指征(X, 甲状旁腺切除术) ^ ¬接受治疗(X, 甲状旁腺切除术)
+变量映射:
+  - X: 患者
+
+---
+

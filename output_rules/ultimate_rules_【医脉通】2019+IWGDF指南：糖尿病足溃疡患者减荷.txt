@@ -1,0 +1,319 @@
+【原始长篇章】:
+In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both mild infection and mild ischemia, or with either moderate infection or moderate ischaemia, consider using a removable knee-high offloading device to promote healing of the ulcer. (Weak; Low) c) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both moderate infection and moderate ischaemia, or with either severe infection or severe ischemia, primarily address the infection and/or ischemia, and consider using a removable offloading © 2019The International Working Group on the Diabetic FootIWGDF Offloading GuidelineIWGDFGuidelineshttp://guide.medlive.cn/intervention based on the patient’s functioning, ambulatory status and activity level, to promote healing of the ulcer. (Weak;
+
+【规则 1】
+规则名: 轻度感染缺血糖尿病足溃疡推荐膝高卸载装置
+逻辑表达: 推荐疗法(Y, 可拆卸膝高卸载装置, 促进愈合) <- 糖尿病患者(X) ^ 神经性足溃疡(Y) ^ 溃疡位置(Y, 足前部或中足部) ^ 归属患者(Y, X) ^ 感染程度(Y, 轻度) ^ 缺血程度(Y, 轻度)
+变量映射:
+  - X: 患者
+  - Y: 神经性足部溃疡
+
+【规则 2】
+规则名: 中度感染糖尿病足溃疡推荐膝高卸载装置
+逻辑表达: 推荐疗法(Y, 可拆卸膝高卸载装置, 促进愈合) <- 糖尿病患者(X) ^ 神经性足溃疡(Y) ^ 溃疡位置(Y, 足前部或中足部) ^ 归属患者(Y, X) ^ 感染程度(Y, 中度)
+变量映射:
+  - X: 患者
+  - Y: 神经性足部溃疡
+
+【规则 3】
+规则名: 中度缺血糖尿病足溃疡推荐膝高卸载装置
+逻辑表达: 推荐疗法(Y, 可拆卸膝高卸载装置, 促进愈合) <- 糖尿病患者(X) ^ 神经性足溃疡(Y) ^ 溃疡位置(Y, 足前部或中足部) ^ 归属患者(Y, X) ^ 缺血程度(Y, 中度)
+变量映射:
+  - X: 患者
+  - Y: 神经性足部溃疡
+
+【规则 4】
+规则名: 中度感染中度缺血糖尿病足溃疡首要处理并考虑卸载
+逻辑表达: 考虑疗法(Y, 可拆卸卸载装置, 基于功能状态) <- 糖尿病患者(X) ^ 神经性足溃疡(Y) ^ 溃疡位置(Y, 足前部或中足部) ^ 归属患者(Y, X) ^ 感染程度(Y, 中度) ^ 缺血程度(Y, 中度) ^ 首要处理(Y, 感染缺血)
+变量映射:
+  - X: 患者
+  - Y: 神经性足部溃疡
+
+【规则 5】
+规则名: 严重感染糖尿病足溃疡首要处理并考虑卸载
+逻辑表达: 考虑疗法(Y, 可拆卸卸载装置, 基于功能状态) <- 糖尿病患者(X) ^ 神经性足溃疡(Y) ^ 溃疡位置(Y, 足前部或中足部) ^ 归属患者(Y, X) ^ 感染程度(Y, 严重) ^ 首要处理(Y, 感染缺血)
+变量映射:
+  - X: 患者
+  - Y: 神经性足部溃疡
+
+【规则 6】
+规则名: 严重缺血糖尿病足溃疡首要处理并考虑卸载
+逻辑表达: 考虑疗法(Y, 可拆卸卸载装置, 基于功能状态) <- 糖尿病患者(X) ^ 神经性足溃疡(Y) ^ 溃疡位置(Y, 足前部或中足部) ^ 归属患者(Y, X) ^ 缺血程度(Y, 严重) ^ 首要处理(Y, 感染缺血)
+变量映射:
+  - X: 患者
+  - Y: 神经性足部溃疡
+
+---
+
+
+【原始长篇章】:
+In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both moderate infection and moderate ischaemia, or with either severe infection or severe ischemia, primarily address the infection and/or ischemia, and consider using a removable offloading based on the patient’s functioning, ambulatory status and activity level, to promote healing of the ulcer.
+
+【规则 1】
+规则名: 糖尿病患者伴中度感染和中度缺血的前中足神经性溃疡处理原则
+逻辑表达: 首要处理措施(Y, 控制感染) ^ 首要处理措施(Y, 控制缺血) ^ 治疗考量(Y, 使用可拆卸减压装置) <- 糖尿病患者(X) ^ 神经性足底溃疡(Y) ^ 位于前足或中足(Y) ^ 感染程度(Y, 中度) ^ 缺血程度(Y, 中度) ^ 所属患者(Y, X) ^ 功能状态(X, F) ^ 行走状态(X, A) ^ 活动水平(X, L)
+变量映射:
+  - X: 患者
+  - Y: 足底溃疡
+  - F: 特定功能状态
+  - A: 特定行走状态
+  - L: 特定活动水平
+
+【规则 2】
+规则名: 糖尿病患者伴重度感染的前中足神经性溃疡处理原则
+逻辑表达: 首要处理措施(Y, 控制感染) ^ 治疗考量(Y, 使用可拆卸减压装置) <- 糖尿病患者(X) ^ 神经性足底溃疡(Y) ^ 位于前足或中足(Y) ^ 感染程度(Y, 重度) ^ 所属患者(Y, X) ^ 功能状态(X, F) ^ 行走状态(X, A) ^ 活动水平(X, L)
+变量映射:
+  - X: 患者
+  - Y: 足底溃疡
+  - F: 特定功能状态
+  - A: 特定行走状态
+  - L: 特定活动水平
+
+【规则 3】
+规则名: 糖尿病患者伴重度缺血的前中足神经性溃疡处理原则
+逻辑表达: 首要处理措施(Y, 控制缺血) ^ 治疗考量(Y, 使用可拆卸减压装置) <- 糖尿病患者(X) ^ 神经性足底溃疡(Y) ^ 位于前足或中足(Y) ^ 缺血程度(Y, 重度) ^ 所属患者(Y, X) ^ 功能状态(X, F) ^ 行走状态(X, A) ^ 活动水平(X, L)
+变量映射:
+  - X: 患者
+  - Y: 足底溃疡
+  - F: 特定功能状态
+  - A: 特定行走状态
+  - L: 特定活动水平
+
+---
+
+
+【原始长篇章】:
+When using a non-removable knee-high offloading device to heal a neuropathic plantar forefoot or midfoot ulcer in a person with diabetes, use either a total contact cast or non-removable knee-high walker, with the choice dependent on the resources available, technician skills, patient preferences and extent of foot deformity present. (Strong; Moderate) 2. In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a non-removable knee-high offloading device is contraindicated or not tolerated, consider using a removable knee-high offloading device with an appropriate foot-device interface as the second-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device.
+
+【规则 1】
+规则名: 糖尿病患者前中足神经性溃疡使用非可拆卸膝下减压装置之全接触石膏方案
+逻辑表达: 减压方法(X, Y, 使用) <- 糖尿病患者(X) ^ 患有溃疡(Y, 前中足神经性) ^ 归属患者(Y, X) ^ 非可拆卸膝下装置(Z) ^ 所属类型(Z, 全接触石膏) ^ 选择依赖(Z, 可用资源与技术偏好等)
+变量映射:
+  - X: 患者
+  - Y: 溃疡
+  - Z: 非可拆卸膝下减压装置
+
+【规则 2】
+规则名: 糖尿病患者前中足神经性溃疡使用非可拆卸膝下减压装置之膝下助行器方案
+逻辑表达: 减压方法(X, Y, 使用) <- 糖尿病患者(X) ^ 患有溃疡(Y, 前中足神经性) ^ 归属患者(Y, X) ^ 非可拆卸膝下装置(Z) ^ 所属类型(Z, 膝下助行器) ^ 选择依赖(Z, 可用资源与技术偏好等)
+变量映射:
+  - X: 患者
+  - Y: 溃疡
+  - Z: 非可拆卸膝下减压装置
+
+【规则 3】
+规则名: 非可拆卸装置禁忌或不耐受时考虑使用可拆卸膝下装置作为第二选择
+逻辑表达: 考虑使用(X, W, 第二选择) <- 糖尿病患者(X) ^ 患有溃疡(Y, 前中足神经性) ^ 归属患者(Y, X) ^ ¬适用减压方法(X, Z, 非可拆卸膝下装置) ^ 可拆卸膝下装置(W) ^ 具有特性(W, 合适足部接口)
+变量映射:
+  - X: 患者
+  - Y: 溃疡
+  - Z: 非可拆卸膝下减压装置
+  - W: 可拆卸膝下减压装置
+
+【规则 4】
+规则名: 建议使用可拆卸膝下装置的患者坚持穿戴
+逻辑表达: 鼓励行为(X, 坚持穿戴) <- 糖尿病患者(X) ^ 考虑使用(X, W, 第二选择) ^ 可拆卸膝下装置(W)
+变量映射:
+  - X: 患者
+  - W: 可拆卸膝下减压装置
+
+---
+
+
+【原始长篇章】:  Moderate) 2. In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a non-removable knee-high offloading device is contraindicated or not tolerated, consider using a removable knee-high offloading device with an appropriate foot-device interface as the second-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Weak; Low) 3. In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a knee-high offloading device is contraindicated or not tolerated, use a removable ankle-high offloading device as the third-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Strong;
+
+【规则 1】
+规则名: 糖尿病患者神经性前足中足溃疡_非可拆卸膝高卸载禁忌_第二选择可拆卸膝高
+逻辑表达: 治疗推荐(Y, 可拆卸膝高卸载装置, 第二选择) <- 糖尿病患者(X) ^ 神经性足溃疡(Y) ^ 溃疡位置(Y, 前足或中足) ^ 归属患者(Y, X) ^ 禁忌症(X, 非可拆卸膝高卸载装置) ^ 医嘱执行(X, 坚持佩戴装置)
+变量映射:
+  - X: 患者
+  - Y: 足溃疡
+
+【规则 2】
+规则名: 糖尿病患者神经性前足中足溃疡_非可拆卸膝高不耐受_第二选择可拆卸膝高
+逻辑表达: 治疗推荐(Y, 可拆卸膝高卸载装置, 第二选择) <- 糖尿病患者(X) ^ 神经性足溃疡(Y) ^ 溃疡位置(Y, 前足或中足) ^ 归属患者(Y, X) ^ ¬耐受性(X, 非可拆卸膝高卸载装置) ^ 医嘱执行(X, 坚持佩戴装置)
+变量映射:
+  - X: 患者
+  - Y: 足溃疡
+
+【规则 3】
+规则名: 糖尿病患者神经性前足中足溃疡_膝高卸载装置禁忌_第三选择可拆卸踝高
+逻辑表达: 治疗推荐(Y, 可拆卸踝高卸载装置, 第三选择) <- 糖尿病患者(X) ^ 神经性足溃疡(Y) ^ 溃疡位置(Y, 前足或中足) ^ 归属患者(Y, X) ^ 禁忌症(X, 膝高卸载装置) ^ 医嘱执行(X, 坚持佩戴装置)
+变量映射:
+  - X: 患者
+  - Y: 足溃疡
+
+【规则 4】
+规则名: 糖尿病患者神经性前足中足溃疡_膝高卸载装置不耐受_第三选择可拆卸踝高
+逻辑表达: 治疗推荐(Y, 可拆卸踝高卸载装置, 第三选择) <- 糖尿病患者(X) ^ 神经性足溃疡(Y) ^ 溃疡位置(Y, 前足或中足) ^ 归属患者(Y, X) ^ ¬耐受性(X, 膝高卸载装置) ^ 医嘱执行(X, 坚持佩戴装置)
+变量映射:
+  - X: 患者
+  - Y: 足溃疡
+
+【规则 5】
+规则名: 糖尿病患者神经性前足中足溃疡_膝高卸载禁忌之非可拆卸型禁忌子类
+逻辑表达: 禁忌症(X, 膝高卸载装置) <- 禁忌症(X, 非可拆卸膝高卸载装置)
+变量映射:
+  - X: 患者
+
+【规则 6】
+规则名: 糖尿病患者神经性前足中足溃疡_膝高卸载不耐受之非可拆卸型不耐受子类
+逻辑表达: ¬耐受性(X, 膝高卸载装置) <- ¬耐受性(X, 非可拆卸膝高卸载装置)
+变量映射:
+  - X: 患者
+
+---
+
+
+【原始长篇章】: In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a knee-high offloading device is contraindicated or not tolerated, use a removable ankle-high offloading device as the third-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Strong; Low) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer, do not use, and instruct the patient not to use, conventional or standard therapeutic footwear as offloading treatment to promote healing of the ulcer, unless none of the above-mentioned offloading devices is available. (Strong; Moderate) In that case, consider using felted foam in combination with appropriately fitting conventional or standard therapeutic footwear as the fourth choice of offloading treatment to promote healing of the ulcer. (Weak;)
+【规则 1】
+规则名: 膝高减压装置禁忌患者之足溃疡第三选择踝高装置
+逻辑表达: 治疗推荐(X, 使用踝高减压装置, 第三选择) ^ 行为推荐(X, 坚持使用装置, 针对治疗) <- 糖尿病患者(X) ^ 患有溃疡(Y) ^ 溃疡性质(Y, 神经性) ^ 溃疡位置(Y, 足前足或中足) ^ 归属患者(Y, X) ^ 治疗禁忌(X, 使用膝高减压装置) ^ ¬治疗推荐(X, 使用常规治疗鞋, 作为减压)
+变量映射:
+  - X: 患者
+  - Y: 足溃疡
+
+【规则 2】
+规则名: 膝高减压装置不耐受患者之足溃疡第三选择踝高装置
+逻辑表达: 治疗推荐(X, 使用踝高减压装置, 第三选择) ^ 行为推荐(X, 坚持使用装置, 针对治疗) <- 糖尿病患者(X) ^ 患有溃疡(Y) ^ 溃疡性质(Y, 神经性) ^ 溃疡位置(Y, 足前足或中足) ^ 归属患者(Y, X) ^ 不耐受(X, 使用膝高减压装置) ^ ¬治疗推荐(X, 使用常规治疗鞋, 作为减压)
+变量映射:
+  - X: 患者
+  - Y: 足溃疡
+
+【规则 3】
+规则名: 足溃疡患者常规不使用常规治疗鞋进行减压
+逻辑表达: ¬治疗推荐(X, 使用常规治疗鞋, 作为减压) ^ ¬行为推荐(X, 使用常规治疗鞋, 作为减压) <- 糖尿病患者(X) ^ 患有溃疡(Y) ^ 溃疡性质(Y, 神经性) ^ 溃疡位置(Y, 足前足或中足) ^ 归属患者(Y, X)
+变量映射:
+  - X: 患者
+  - Y: 足溃疡
+
+【规则 4】
+规则名: 无可用减压装置时足溃疡第四选择毛毡泡沫结合常规鞋
+逻辑表达: 治疗推荐(X, 使用毛毡泡沫结合常规鞋, 第四选择) <- 糖尿病患者(X) ^ 患有溃疡(Y) ^ 溃疡性质(Y, 神经性) ^ 溃疡位置(Y, 足前足或中足) ^ 归属患者(Y, X) ^ ¬治疗推荐(X, 使用膝高减压装置, 作为选择) ^ ¬治疗推荐(X, 使用踝高减压装置, 作为选择) ^ ¬治疗推荐(X, 使用常规治疗鞋, 作为减压)
+变量映射:
+  - X: 患者
+  - Y: 足溃疡
+
+---
+
+
+【原始长篇章】: a) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with either mild infection or mild ischemia, consider using a non-removable knee-high offloading device to promote healing of the ulcer. (Weak; Low) b) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both mild infection and mild ischemia, or with either moderate infection or moderate ischaemia, consider using a removable knee-high offloading device to promote healing of the ulcer. (Weak;
+
+【规则 1】
+规则名: 糖尿病患者神经性足底前中足溃疡伴轻度感染的非可拆卸减压装置考虑
+逻辑表达: 治疗推荐(Y, 非可拆卸膝上减压装置, 考虑) <- 糖尿病患者(X) ^ 神经性溃疡(Y) ^ 溃疡位置(Y, 足底前足或中足) ^ 所属患者(Y, X) ^ 并发症(Y, 感染, 轻度)
+变量映射:
+  - X: 患者
+  - Y: 溃疡病灶
+
+【规则 2】
+规则名: 糖尿病患者神经性足底前中足溃疡伴轻度缺血的非可拆卸减压装置考虑
+逻辑表达: 治疗推荐(Y, 非可拆卸膝上减压装置, 考虑) <- 糖尿病患者(X) ^ 神经性溃疡(Y) ^ 溃疡位置(Y, 足底前足或中足) ^ 所属患者(Y, X) ^ 并发症(Y, 缺血, 轻度)
+变量映射:
+  - X: 患者
+  - Y: 溃疡病灶
+
+【规则 3】
+规则名: 糖尿病患者神经性足底前中足溃疡伴轻度感染和轻度缺血的可拆卸减压装置考虑
+逻辑表达: 治疗推荐(Y, 可拆卸膝上减压装置, 考虑) <- 糖尿病患者(X) ^ 神经性溃疡(Y) ^ 溃疡位置(Y, 足底前足或中足) ^ 所属患者(Y, X) ^ 并发症(Y, 感染, 轻度) ^ 并发症(Y, 缺血, 轻度)
+变量映射:
+  - X: 患者
+  - Y: 溃疡病灶
+
+【规则 4】
+规则名: 糖尿病患者神经性足底前中足溃疡伴中度感染的可拆卸减压装置考虑
+逻辑表达: 治疗推荐(Y, 可拆卸膝上减压装置, 考虑) <- 糖尿病患者(X) ^ 神经性溃疡(Y) ^ 溃疡位置(Y, 足底前足或中足) ^ 所属患者(Y, X) ^ 并发症(Y, 感染, 中度)
+变量映射:
+  - X: 患者
+  - Y: 溃疡病灶
+
+【规则 5】
+规则名: 糖尿病患者神经性足底前中足溃疡伴中度缺血的可拆卸减压装置考虑
+逻辑表达: 治疗推荐(Y, 可拆卸膝上减压装置, 考虑) <- 糖尿病患者(X) ^ 神经性溃疡(Y) ^ 溃疡位置(Y, 足底前足或中足) ^ 所属患者(Y, X) ^ 并发症(Y, 缺血, 中度)
+变量映射:
+  - X: 患者
+  - Y: 溃疡病灶
+
+---
+
+
+【原始长篇章】:For healing a neuropathic plantar forefoot or midfoot ulcer in a person with diabetes, we recommend that a non-removable knee-high offloading device is the first-choice of offloading treatment. A removable knee-high and removable ankle-high offloading device are to be considered as the second- and third-choice offloading treatment, respectively, if contraindications or patient intolerance to non-removable offloading exist. Appropriately fitting footwear combined with felted foam can be considered as the fourth-choice offloading treatment. If non-surgical offloading fails, we recommend to consider surgical offloading interventions for healing metatarsal head and digital ulcers. We have added new recommendations for the use of offloading treatment for healing ulcers that are complicated with infection or ischemia, and for healing plantar heel ulcers.
+
+【规则 1】
+规则名: 糖尿病神经性足底前足或中足溃疡首选减压治疗
+逻辑表达: 首选治疗选择(Y, 非可拆卸膝高减压装置) <- 糖尿病患者(X) ^ 神经性溃疡(Y) ^ 溃疡位置(Y, 足底前足或中足) ^ 归属患者(Y, X) ^ ¬存在禁忌症(X, 非可拆卸减压) ^ ¬存在不耐受(X, 非可拆卸减压)
+变量映射:
+  - X: 患者
+  - Y: 溃疡病灶
+
+【规则 2】
+规则名: 糖尿病神经性足底前足或中足溃疡次选减压治疗_存在禁忌
+逻辑表达: 次选治疗选择(Y, 可拆卸膝高减压装置) <- 糖尿病患者(X) ^ 神经性溃疡(Y) ^ 溃疡位置(Y, 足底前足或中足) ^ 归属患者(Y, X) ^ 存在禁忌症(X, 非可拆卸减压)
+变量映射:
+  - X: 患者
+  - Y: 溃疡病灶
+
+【规则 3】
+规则名: 糖尿病神经性足底前足或中足溃疡三选减压治疗_存在不耐受
+逻辑表达: 三选治疗选择(Y, 可拆卸踝高减压装置) <- 糖尿病患者(X) ^ 神经性溃疡(Y) ^ 溃疡位置(Y, 足底前足或中足) ^ 归属患者(Y, X) ^ 存在不耐受(X, 非可拆卸减压)
+变量映射:
+  - X: 患者
+  - Y: 溃疡病灶
+
+【规则 4】
+规则名: 糖尿病神经性足底前足或中足溃疡四选减压治疗
+逻辑表达: 四选治疗选择(Y, 合适鞋具联合毛毡泡沫) <- 糖尿病患者(X) ^ 神经性溃疡(Y) ^ 溃疡位置(Y, 足底前足或中足) ^ 归属患者(Y, X)
+变量映射:
+  - X: 患者
+  - Y: 溃疡病灶
+
+【规则 5】
+规则名: 非手术减压失败后考虑手术治疗跖骨头或趾溃疡
+逻辑表达: 考虑治疗选择(Y, 手术减压干预) <- 糖尿病患者(X) ^ 溃疡病灶(Y) ^ 溃疡类型(Y, 跖骨头或趾部溃疡) ^ 归属患者(Y, X) ^ 治疗状态(Y, 非手术减压失败)
+变量映射:
+  - X: 患者
+  - Y: 溃疡病灶
+
+【规则 6】
+规则名: 糖尿病并发感染或缺血的溃疡减压治疗新推荐
+逻辑表达: 适用减压治疗新推荐(Y) <- 糖尿病患者(X) ^ 溃疡病灶(Y) ^ 归属患者(Y, X) ^ 并发状况(Y, 感染或缺血)
+变量映射:
+  - X: 患者
+  - Y: 溃疡病灶
+
+【规则 7】
+规则名: 糖尿病足底足跟溃疡减压治疗新推荐
+逻辑表达: 适用减压治疗新推荐(Y) <- 糖尿病患者(X) ^ 溃疡病灶(Y) ^ 归属患者(Y, X) ^ 溃疡位置(Y, 足底足跟)
+变量映射:
+  - X: 患者
+  - Y: 溃疡病灶
+
+---
+
+
+【原始长篇章】:The risk of developing a foot ulcer in a person with diabetes is high and increases with the presence of peripheral neuropathy, foot deformity, and peripheral arterial disease. After healing, the risk of ulcer recurrence is even higher. Ulcers that are not offloaded sufficiently are difficult to heal. Offloading the ulcer is thus a mandatory, evidence-based, cost-effective, and first-choice intervention for all patients with a diabetic foot ulcer to enhance healing.
+
+【规则 1】
+规则名: 活动性糖尿病足溃疡的强制性减压干预
+逻辑表达: 干预措施(Y, 减压, 强制性) <- 糖尿病患者(X) ^ 足溃疡(Y) ^ 归属患者(Y, X) ^ 活动性(Y) ^ 未干预(Y, 减压) ^ 难以愈合(Y)
+变量映射: 
+  - X: 患者
+  - Y: 足溃疡
+
+【规则 2】
+规则名: 高复发风险患者的足溃疡强制性减压干预
+逻辑表达: 干预措施(Y2, 减压, 强制性) <- 糖尿病患者(X) ^ 足溃疡(Y1) ^ 归属患者(Y1, X) ^ 已愈合(Y1) ^ 高复发风险(X) ^ 足溃疡(Y2) ^ 归属患者(Y2, X) ^ 未干预(Y2, 减压)
+变量映射: 
+  - X: 患者
+  - Y1: 历史足溃疡
+  - Y2: 新发足溃疡
+
+【规则 3】
+规则名: 糖尿病足溃疡减压干预的多重核心属性
+逻辑表达: 干预措施(Y, 减压, 基于证据) ^ 干预措施(Y, 减压, 成本效益高) ^ 干预措施(Y, 减压, 首选) <- 糖尿病患者(X) ^ 足溃疡(Y) ^ 归属患者(Y, X)
+变量映射: 
+  - X: 患者
+  - Y: 足溃疡
+
+---
+

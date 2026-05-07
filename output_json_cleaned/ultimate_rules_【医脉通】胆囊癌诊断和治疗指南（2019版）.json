@@ -1,0 +1,1661 @@
+[
+  {
+    "rule_name": "动态增强MRI血管成像明确肿瘤多项特征",
+    "head": {
+      "is_negative": false,
+      "name": "检查可明确特征",
+      "arguments": [
+        "Z",
+        "肿瘤大小",
+        "T"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "检查可明确特征",
+        "arguments": [
+          "Z",
+          "肝脏侵犯程度",
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查可明确特征",
+        "arguments": [
+          "Z",
+          "血管侵犯",
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查可明确特征",
+        "arguments": [
+          "Z",
+          "腹腔淋巴结转移",
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查可明确特征",
+        "arguments": [
+          "Z",
+          "远处转移",
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "是检查方法",
+        "arguments": [
+          "Z",
+          "动态增强MRI联合血管成像"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查目标",
+        "arguments": [
+          "Z",
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "是肿瘤",
+        "arguments": [
+          "T"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "检查方法",
+      "T": "肿瘤"
+    },
+    "source_text": "MRI检查：准确率为84.9%~90.4%。磁共振胰胆管成像可清晰显示胰胆管解剖关系，显示胆管梗阻的灵敏度为91%~100%，准确度>90%。动态增强MRI联合血管成像可明确肿瘤大小、肝脏侵犯程度、血管侵犯、腹腔淋巴结转移及远处转移等［26］。当CT或MRI检查有可疑发现时，建议行PET⁃CT检查［28］。"
+  },
+  {
+    "rule_name": "CT检查发现可疑时建议PETCT",
+    "head": {
+      "is_negative": false,
+      "name": "建议后续检查",
+      "arguments": [
+        "Z",
+        "PETCT检查"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "检查方法",
+        "arguments": [
+          "Y",
+          "CT检查"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查发现",
+        "arguments": [
+          "Y",
+          "可疑"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "是影像学检查",
+        "arguments": [
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "检查方法",
+      "Z": "后续检查"
+    },
+    "source_text": "MRI检查：准确率为84.9%~90.4%。磁共振胰胆管成像可清晰显示胰胆管解剖关系，显示胆管梗阻的灵敏度为91%~100%，准确度>90%。动态增强MRI联合血管成像可明确肿瘤大小、肝脏侵犯程度、血管侵犯、腹腔淋巴结转移及远处转移等［26］。当CT或MRI检查有可疑发现时，建议行PET⁃CT检查［28］。"
+  },
+  {
+    "rule_name": "MRI检查发现可疑时建议PETCT",
+    "head": {
+      "is_negative": false,
+      "name": "建议后续检查",
+      "arguments": [
+        "Z",
+        "PETCT检查"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "检查方法",
+        "arguments": [
+          "Y",
+          "MRI检查"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查发现",
+        "arguments": [
+          "Y",
+          "可疑"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "是影像学检查",
+        "arguments": [
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "检查方法",
+      "Z": "后续检查"
+    },
+    "source_text": "MRI检查：准确率为84.9%~90.4%。磁共振胰胆管成像可清晰显示胰胆管解剖关系，显示胆管梗阻的灵敏度为91%~100%，准确度>90%。动态增强MRI联合血管成像可明确肿瘤大小、肝脏侵犯程度、血管侵犯、腹腔淋巴结转移及远处转移等［26］。当CT或MRI检查有可疑发现时，建议行PET⁃CT检查［28］。"
+  },
+  {
+    "rule_name": "大尺寸胆囊息肉癌变高风险",
+    "head": {
+      "is_negative": false,
+      "name": "癌变高风险",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "胆囊息肉样病变",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有特征",
+        "arguments": [
+          "X",
+          "直径",
+          "≥10mm"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "胆囊息肉",
+      "Y": "患者"
+    },
+    "source_text": "具有恶变倾向的胆囊息肉有以下特征：（1）直径≥10 mm；（2）合并胆囊结石、胆囊炎；（3）单发息肉或无蒂息肉，息肉生长速度快（生长速度>3 mm/6个月）；（4）腺瘤样息肉［5］。"
+  },
+  {
+    "rule_name": "合并胆囊结石的息肉癌变高风险",
+    "head": {
+      "is_negative": false,
+      "name": "癌变高风险",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "胆囊息肉样病变",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "Y",
+          "胆囊结石"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "胆囊息肉",
+      "Y": "患者"
+    },
+    "source_text": "具有恶变倾向的胆囊息肉有以下特征：（1）直径≥10 mm；（2）合并胆囊结石、胆囊炎；（3）单发息肉或无蒂息肉，息肉生长速度快（生长速度>3 mm/6个月）；（4）腺瘤样息肉［5］。"
+  },
+  {
+    "rule_name": "合并胆囊炎的息肉癌变高风险",
+    "head": {
+      "is_negative": false,
+      "name": "癌变高风险",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "胆囊息肉样病变",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "Y",
+          "胆囊炎"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "胆囊息肉",
+      "Y": "患者"
+    },
+    "source_text": "具有恶变倾向的胆囊息肉有以下特征：（1）直径≥10 mm；（2）合并胆囊结石、胆囊炎；（3）单发息肉或无蒂息肉，息肉生长速度快（生长速度>3 mm/6个月）；（4）腺瘤样息肉［5］。"
+  },
+  {
+    "rule_name": "快速生长的单发息肉癌变高风险",
+    "head": {
+      "is_negative": false,
+      "name": "癌变高风险",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "胆囊息肉样病变",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有特征",
+        "arguments": [
+          "X",
+          "数量特征",
+          "单发"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生长速度",
+        "arguments": [
+          "X",
+          ">3mm/6个月"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "胆囊息肉",
+      "Y": "患者"
+    },
+    "source_text": "具有恶变倾向的胆囊息肉有以下特征：（1）直径≥10 mm；（2）合并胆囊结石、胆囊炎；（3）单发息肉或无蒂息肉，息肉生长速度快（生长速度>3 mm/6个月）；（4）腺瘤样息肉［5］。"
+  },
+  {
+    "rule_name": "快速生长的无蒂息肉癌变高风险",
+    "head": {
+      "is_negative": false,
+      "name": "癌变高风险",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "胆囊息肉样病变",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有特征",
+        "arguments": [
+          "X",
+          "形态",
+          "无蒂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生长速度",
+        "arguments": [
+          "X",
+          ">3mm/6个月"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "胆囊息肉",
+      "Y": "患者"
+    },
+    "source_text": "具有恶变倾向的胆囊息肉有以下特征：（1）直径≥10 mm；（2）合并胆囊结石、胆囊炎；（3）单发息肉或无蒂息肉，息肉生长速度快（生长速度>3 mm/6个月）；（4）腺瘤样息肉［5］。"
+  },
+  {
+    "rule_name": "腺瘤样息肉癌变高风险",
+    "head": {
+      "is_negative": false,
+      "name": "癌变高风险",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "胆囊息肉样病变",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "息肉类型",
+        "arguments": [
+          "X",
+          "腺瘤样"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "胆囊息肉",
+      "Y": "患者"
+    },
+    "source_text": "具有恶变倾向的胆囊息肉有以下特征：（1）直径≥10 mm；（2）合并胆囊结石、胆囊炎；（3）单发息肉或无蒂息肉，息肉生长速度快（生长速度>3 mm/6个月）；（4）腺瘤样息肉［5］。"
+  },
+  {
+    "rule_name": "进展期胆囊癌的精准评估与多学科决策流程",
+    "head": {
+      "is_negative": false,
+      "name": "应进行",
+      "arguments": [
+        "Y",
+        "多学科讨论"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "胆囊癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病分期",
+        "arguments": [
+          "X",
+          "进展期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受评估",
+        "arguments": [
+          "X",
+          "精准分型分期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "治疗决策过程"
+    },
+    "source_text": "为提高我国胆囊癌总体治疗效果，中华医学会外科学分会胆道外科学组、中国医师协会胆道外科专业委员会制订了《胆囊癌诊断和治疗指南（2019版）》。该指南明确了胆囊癌发病的危险因素及干预方法、随访流程，描述了胆囊癌TNM最新分期，并提出了胆囊癌的临床分型。基于现代高质量影像技术和内镜技术可精准评估胆囊癌分期和分型，对进展期胆囊癌应贯彻综合治疗的理念，进行多学科讨论，科学决策治疗手段。胆囊癌的外科治疗应在具有丰富经验的肝胆胰外科医师和病理科医师的医疗中心完成，合理选择手术技术平台，实施规范的胆囊癌根治性切除术；化疗、放疗、靶向治疗及免疫治疗的结合应用可改善胆囊癌患者的预后，但仍需进一步研究使胆囊癌患者获得更大生存获益。"
+  },
+  {
+    "rule_name": "胆囊癌根治术的医疗中心与人员资质要求",
+    "head": {
+      "is_negative": false,
+      "name": "应选择",
+      "arguments": [
+        "Z",
+        "合理手术技术平台"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "需接受",
+        "arguments": [
+          "X",
+          "外科治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "胆囊癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "由医师执行",
+        "arguments": [
+          "Z",
+          "肝胆胰外科医师"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具备经验",
+        "arguments": [
+          "肝胆胰外科医师",
+          "丰富"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属机构",
+        "arguments": [
+          "Z",
+          "病理科医师"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具备经验",
+        "arguments": [
+          "病理科医师",
+          "丰富"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "治疗机构/医疗中心"
+    },
+    "source_text": "为提高我国胆囊癌总体治疗效果，中华医学会外科学分会胆道外科学组、中国医师协会胆道外科专业委员会制订了《胆囊癌诊断和治疗指南（2019版）》。该指南明确了胆囊癌发病的危险因素及干预方法、随访流程，描述了胆囊癌TNM最新分期，并提出了胆囊癌的临床分型。基于现代高质量影像技术和内镜技术可精准评估胆囊癌分期和分型，对进展期胆囊癌应贯彻综合治疗的理念，进行多学科讨论，科学决策治疗手段。胆囊癌的外科治疗应在具有丰富经验的肝胆胰外科医师和病理科医师的医疗中心完成，合理选择手术技术平台，实施规范的胆囊癌根治性切除术；化疗、放疗、靶向治疗及免疫治疗的结合应用可改善胆囊癌患者的预后，但仍需进一步研究使胆囊癌患者获得更大生存获益。"
+  },
+  {
+    "rule_name": "综合治疗结合多学科决策对预后的改善",
+    "head": {
+      "is_negative": false,
+      "name": "改善",
+      "arguments": [
+        "X",
+        "预后"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "综合治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应进行",
+        "arguments": [
+          "Y",
+          "多学科讨论"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "治疗决策过程"
+    },
+    "source_text": "为提高我国胆囊癌总体治疗效果，中华医学会外科学分会胆道外科学组、中国医师协会胆道外科专业委员会制订了《胆囊癌诊断和治疗指南（2019版）》。该指南明确了胆囊癌发病的危险因素及干预方法、随访流程，描述了胆囊癌TNM最新分期，并提出了胆囊癌的临床分型。基于现代高质量影像技术和内镜技术可精准评估胆囊癌分期和分型，对进展期胆囊癌应贯彻综合治疗的理念，进行多学科讨论，科学决策治疗手段。胆囊癌的外科治疗应在具有丰富经验的肝胆胰外科医师和病理科医师的医疗中心完成，合理选择手术技术平台，实施规范的胆囊癌根治性切除术；化疗、放疗、靶向治疗及免疫治疗的结合应用可改善胆囊癌患者的预后，但仍需进一步研究使胆囊癌患者获得更大生存获益。"
+  },
+  {
+    "rule_name": "制定胆囊癌诊疗指南的目的",
+    "head": {
+      "is_negative": false,
+      "name": "制定指南",
+      "arguments": [
+        "X",
+        "提升疗效"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "指南名称",
+        "arguments": [
+          "X",
+          "胆囊癌诊疗指南(2019版)"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定机构",
+        "arguments": [
+          "X",
+          "中国外科协会胆道外科学组"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定机构",
+        "arguments": [
+          "X",
+          "中华医学会胆道外科学组"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标疾病",
+        "arguments": [
+          "X",
+          "胆囊癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标范围",
+        "arguments": [
+          "X",
+          "中国"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "诊疗指南"
+    },
+    "source_text": "In order to improve the overall therapeutic effect of gallbladder cancer in China,Branch of Biliary Surgery, Chinese Surgical Society and Chinese Committee of Biliary Surgeons haveformulated the guideline for the diagnosis and treatment of gallbladder carcinoma(2019 edition). Theguideline provided an overview of the evidence on epidemiological risk factors, treatment and follow⁃upstrategies for patients with gallbladder cancer.It also updated the new TNM stage and proposed the clinicalclassification of gallbladder cancer for the first time.The guideline highlighted the importance of accurateprediction of TNM stage and type of gallbladder cancer based on modern high⁃quality imaging technologyand endoscopic techniques.The idea of comprehensive treatment should be established as the fundamentalprinciple for patients with advanced gallbladder cancer,and a multidisciplinary approach is recommended tomake optimal clinical decisions. Standard radical surgical treatment should be delivered by a team ofexperienced hepato⁃pancreato⁃biliary surgeons and pathologists.The combination regimens of chemotherapy,radiotherapy,targeted therapy and immunotherapy for gallbladder cancer have shown promise in improvingprognosis. Further research is still needed to confer greater survival benefits to patients with gallbladdercancer."
+  },
+  {
+    "rule_name": "高质量成像技术对准确预测胆囊癌分期和分型至关重要",
+    "head": {
+      "is_negative": false,
+      "name": "强调重要性",
+      "arguments": [
+        "X",
+        "准确预测",
+        "基于技术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "指南名称",
+        "arguments": [
+          "X",
+          "胆囊癌诊疗指南(2019版)"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预测对象",
+        "arguments": [
+          "Y",
+          "TNM分期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预测对象",
+        "arguments": [
+          "Y",
+          "临床分型"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病对象",
+        "arguments": [
+          "Y",
+          "胆囊癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "依赖技术",
+        "arguments": [
+          "Z",
+          "现代高质量成像"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "依赖技术",
+        "arguments": [
+          "Z",
+          "内镜技术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关注关系",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "诊疗指南",
+      "Y": "预测任务",
+      "Z": "诊断技术"
+    },
+    "source_text": "In order to improve the overall therapeutic effect of gallbladder cancer in China,Branch of Biliary Surgery, Chinese Surgical Society and Chinese Committee of Biliary Surgeons haveformulated the guideline for the diagnosis and treatment of gallbladder carcinoma(2019 edition). Theguideline provided an overview of the evidence on epidemiological risk factors, treatment and follow⁃upstrategies for patients with gallbladder cancer.It also updated the new TNM stage and proposed the clinicalclassification of gallbladder cancer for the first time.The guideline highlighted the importance of accurateprediction of TNM stage and type of gallbladder cancer based on modern high⁃quality imaging technologyand endoscopic techniques.The idea of comprehensive treatment should be established as the fundamentalprinciple for patients with advanced gallbladder cancer,and a multidisciplinary approach is recommended tomake optimal clinical decisions. Standard radical surgical treatment should be delivered by a team ofexperienced hepato⁃pancreato⁃biliary surgeons and pathologists.The combination regimens of chemotherapy,radiotherapy,targeted therapy and immunotherapy for gallbladder cancer have shown promise in improvingprognosis. Further research is still needed to confer greater survival benefits to patients with gallbladdercancer."
+  },
+  {
+    "rule_name": "为晚期胆囊癌患者确立综合治疗根本原则并推荐多学科决策",
+    "head": {
+      "is_negative": false,
+      "name": "确立根本原则",
+      "arguments": [
+        "P",
+        "综合治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者群体",
+        "arguments": [
+          "P",
+          "晚期胆囊癌患者"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "P",
+          "制定最优临床决策"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分类名称",
+        "arguments": [
+          "P",
+          "晚期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病状态",
+        "arguments": [
+          "P",
+          "胆囊癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "推荐方法",
+        "arguments": [
+          "P",
+          "多学科方法"
+        ]
+      }
+    ],
+    "variables": {
+      "P": "患者群体"
+    },
+    "source_text": "In order to improve the overall therapeutic effect of gallbladder cancer in China,Branch of Biliary Surgery, Chinese Surgical Society and Chinese Committee of Biliary Surgeons haveformulated the guideline for the diagnosis and treatment of gallbladder carcinoma(2019 edition). Theguideline provided an overview of the evidence on epidemiological risk factors, treatment and follow⁃upstrategies for patients with gallbladder cancer.It also updated the new TNM stage and proposed the clinicalclassification of gallbladder cancer for the first time.The guideline highlighted the importance of accurateprediction of TNM stage and type of gallbladder cancer based on modern high⁃quality imaging technologyand endoscopic techniques.The idea of comprehensive treatment should be established as the fundamentalprinciple for patients with advanced gallbladder cancer,and a multidisciplinary approach is recommended tomake optimal clinical decisions. Standard radical surgical treatment should be delivered by a team ofexperienced hepato⁃pancreato⁃biliary surgeons and pathologists.The combination regimens of chemotherapy,radiotherapy,targeted therapy and immunotherapy for gallbladder cancer have shown promise in improvingprognosis. Further research is still needed to confer greater survival benefits to patients with gallbladdercancer."
+  },
+  {
+    "rule_name": "标准根治性胆囊癌手术需由经验丰富的外科与病理团队实施",
+    "head": {
+      "is_negative": false,
+      "name": "应由团队实施",
+      "arguments": [
+        "T",
+        "标准根治性手术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "治疗类型",
+        "arguments": [
+          "T",
+          "胆囊癌外科手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "实施团队属性",
+        "arguments": [
+          "Q",
+          "经验丰富"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "团队组成",
+        "arguments": [
+          "Q",
+          "肝胆胰外科医生"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "团队组成",
+        "arguments": [
+          "Q",
+          "病理学家"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分类名称",
+        "arguments": [
+          "T",
+          "根治性"
+        ]
+      }
+    ],
+    "variables": {
+      "T": "外科治疗",
+      "Q": "医疗团队"
+    },
+    "source_text": "In order to improve the overall therapeutic effect of gallbladder cancer in China,Branch of Biliary Surgery, Chinese Surgical Society and Chinese Committee of Biliary Surgeons haveformulated the guideline for the diagnosis and treatment of gallbladder carcinoma(2019 edition). Theguideline provided an overview of the evidence on epidemiological risk factors, treatment and follow⁃upstrategies for patients with gallbladder cancer.It also updated the new TNM stage and proposed the clinicalclassification of gallbladder cancer for the first time.The guideline highlighted the importance of accurateprediction of TNM stage and type of gallbladder cancer based on modern high⁃quality imaging technologyand endoscopic techniques.The idea of comprehensive treatment should be established as the fundamentalprinciple for patients with advanced gallbladder cancer,and a multidisciplinary approach is recommended tomake optimal clinical decisions. Standard radical surgical treatment should be delivered by a team ofexperienced hepato⁃pancreato⁃biliary surgeons and pathologists.The combination regimens of chemotherapy,radiotherapy,targeted therapy and immunotherapy for gallbladder cancer have shown promise in improvingprognosis. Further research is still needed to confer greater survival benefits to patients with gallbladdercancer."
+  },
+  {
+    "rule_name": "胆囊癌联合治疗方案显示出改善预后的前景",
+    "head": {
+      "is_negative": false,
+      "name": "显示前景",
+      "arguments": [
+        "R",
+        "改善预后"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "治疗方案",
+        "arguments": [
+          "R",
+          "胆囊癌联合治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含疗法",
+        "arguments": [
+          "R",
+          "化疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含疗法",
+        "arguments": [
+          "R",
+          "放疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含疗法",
+        "arguments": [
+          "R",
+          "靶向治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含疗法",
+        "arguments": [
+          "R",
+          "免疫治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "R": "治疗方案"
+    },
+    "source_text": "In order to improve the overall therapeutic effect of gallbladder cancer in China,Branch of Biliary Surgery, Chinese Surgical Society and Chinese Committee of Biliary Surgeons haveformulated the guideline for the diagnosis and treatment of gallbladder carcinoma(2019 edition). Theguideline provided an overview of the evidence on epidemiological risk factors, treatment and follow⁃upstrategies for patients with gallbladder cancer.It also updated the new TNM stage and proposed the clinicalclassification of gallbladder cancer for the first time.The guideline highlighted the importance of accurateprediction of TNM stage and type of gallbladder cancer based on modern high⁃quality imaging technologyand endoscopic techniques.The idea of comprehensive treatment should be established as the fundamentalprinciple for patients with advanced gallbladder cancer,and a multidisciplinary approach is recommended tomake optimal clinical decisions. Standard radical surgical treatment should be delivered by a team ofexperienced hepato⁃pancreato⁃biliary surgeons and pathologists.The combination regimens of chemotherapy,radiotherapy,targeted therapy and immunotherapy for gallbladder cancer have shown promise in improvingprognosis. Further research is still needed to confer greater survival benefits to patients with gallbladdercancer."
+  },
+  {
+    "rule_name": "仍需进一步研究以期为胆囊癌患者带来更大生存获益",
+    "head": {
+      "is_negative": false,
+      "name": "需要进一步研究",
+      "arguments": [
+        "S"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "研究领域",
+        "arguments": [
+          "S",
+          "胆囊癌治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究目标",
+        "arguments": [
+          "S",
+          "带来更大生存获益"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "受益群体",
+        "arguments": [
+          "S",
+          "胆囊癌患者"
+        ]
+      }
+    ],
+    "variables": {
+      "S": "研究方向"
+    },
+    "source_text": "In order to improve the overall therapeutic effect of gallbladder cancer in China,Branch of Biliary Surgery, Chinese Surgical Society and Chinese Committee of Biliary Surgeons haveformulated the guideline for the diagnosis and treatment of gallbladder carcinoma(2019 edition). Theguideline provided an overview of the evidence on epidemiological risk factors, treatment and follow⁃upstrategies for patients with gallbladder cancer.It also updated the new TNM stage and proposed the clinicalclassification of gallbladder cancer for the first time.The guideline highlighted the importance of accurateprediction of TNM stage and type of gallbladder cancer based on modern high⁃quality imaging technologyand endoscopic techniques.The idea of comprehensive treatment should be established as the fundamentalprinciple for patients with advanced gallbladder cancer,and a multidisciplinary approach is recommended tomake optimal clinical decisions. Standard radical surgical treatment should be delivered by a team ofexperienced hepato⁃pancreato⁃biliary surgeons and pathologists.The combination regimens of chemotherapy,radiotherapy,targeted therapy and immunotherapy for gallbladder cancer have shown promise in improvingprognosis. Further research is still needed to confer greater survival benefits to patients with gallbladdercancer."
+  },
+  {
+    "rule_name": "T1期胆囊癌分期依赖术中及术后病理检查",
+    "head": {
+      "is_negative": false,
+      "name": "主要分期方法",
+      "arguments": [
+        "X",
+        "术中快速冰冻切片"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "胆囊癌病例",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肿瘤分期",
+        "arguments": [
+          "X",
+          "T1期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分期困难",
+        "arguments": [
+          "X",
+          "术前影像学"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分期依赖",
+        "arguments": [
+          "X",
+          "术后病理学检查"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "胆囊癌病例"
+    },
+    "source_text": "四、胆囊癌术前与术中评估胆囊癌病情评估内容包括T分期、淋巴结转移、远处转移情况；术中再次评估分期及可切除性，旨在为选择合适的治疗策略提供依据。（一）术前评估1.T分期评估：T1期胆囊癌通过术前影像学分期较困难，其分期主要依靠术中快速冰冻切片及术后病理学检查；T2、T3和T4期胆囊癌可通过多层螺旋CT和MRI等术前影像学检查进行临床分期［29⁃30］。三维可视化技术有助于准确地评估胆囊癌的可切除性、制定合理的手术规划［31］。2.淋巴结转移评估：超声检查，尤其是CT、MRI检查，可较好地显示肝门区、胰头周围、腹膜后、肠系膜根部的淋巴结。淋巴结转移影像学特征：淋巴结最小径≥5 mm、强化、融合分叶或毛刺状、淋巴结内部坏死等［29⁃30］。"
+  },
+  {
+    "rule_name": "T2至T4期胆囊癌分期依赖多层螺旋CT和MRI检查",
+    "head": {
+      "is_negative": false,
+      "name": "临床分期方法",
+      "arguments": [
+        "X",
+        "多层螺旋CT和MRI"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "胆囊癌病例",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肿瘤分期范围",
+        "arguments": [
+          "X",
+          "T2至T4期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可进行术前分期",
+        "arguments": [
+          "X",
+          "临床分期"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "胆囊癌病例"
+    },
+    "source_text": "四、胆囊癌术前与术中评估胆囊癌病情评估内容包括T分期、淋巴结转移、远处转移情况；术中再次评估分期及可切除性，旨在为选择合适的治疗策略提供依据。（一）术前评估1.T分期评估：T1期胆囊癌通过术前影像学分期较困难，其分期主要依靠术中快速冰冻切片及术后病理学检查；T2、T3和T4期胆囊癌可通过多层螺旋CT和MRI等术前影像学检查进行临床分期［29⁃30］。三维可视化技术有助于准确地评估胆囊癌的可切除性、制定合理的手术规划［31］。2.淋巴结转移评估：超声检查，尤其是CT、MRI检查，可较好地显示肝门区、胰头周围、腹膜后、肠系膜根部的淋巴结。淋巴结转移影像学特征：淋巴结最小径≥5 mm、强化、融合分叶或毛刺状、淋巴结内部坏死等［29⁃30］。"
+  },
+  {
+    "rule_name": "淋巴结转移评估的影像学方法与特征",
+    "head": {
+      "is_negative": false,
+      "name": "评估手段",
+      "arguments": [
+        "Y",
+        "CT"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "淋巴结",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联癌症",
+        "arguments": [
+          "Y",
+          "胆囊癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在转移",
+        "arguments": [
+          "Y",
+          "淋巴结转移"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估目标",
+        "arguments": [
+          "Y",
+          "淋巴结转移"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估手段",
+        "arguments": [
+          "Y",
+          "MRI"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估手段",
+        "arguments": [
+          "Y",
+          "超声检查"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "显示区域",
+        "arguments": [
+          "Y",
+          "肝门区"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "显示区域",
+        "arguments": [
+          "Y",
+          "胰头周围"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "显示区域",
+        "arguments": [
+          "Y",
+          "腹膜后"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "显示区域",
+        "arguments": [
+          "Y",
+          "肠系膜根部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像特征",
+        "arguments": [
+          "Y",
+          "淋巴结最小径≥5mm"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像特征",
+        "arguments": [
+          "Y",
+          "强化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像特征",
+        "arguments": [
+          "Y",
+          "融合分叶或毛刺状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像特征",
+        "arguments": [
+          "Y",
+          "淋巴结内部坏死"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "淋巴结"
+    },
+    "source_text": "四、胆囊癌术前与术中评估胆囊癌病情评估内容包括T分期、淋巴结转移、远处转移情况；术中再次评估分期及可切除性，旨在为选择合适的治疗策略提供依据。（一）术前评估1.T分期评估：T1期胆囊癌通过术前影像学分期较困难，其分期主要依靠术中快速冰冻切片及术后病理学检查；T2、T3和T4期胆囊癌可通过多层螺旋CT和MRI等术前影像学检查进行临床分期［29⁃30］。三维可视化技术有助于准确地评估胆囊癌的可切除性、制定合理的手术规划［31］。2.淋巴结转移评估：超声检查，尤其是CT、MRI检查，可较好地显示肝门区、胰头周围、腹膜后、肠系膜根部的淋巴结。淋巴结转移影像学特征：淋巴结最小径≥5 mm、强化、融合分叶或毛刺状、淋巴结内部坏死等［29⁃30］。"
+  },
+  {
+    "rule_name": "T1b_T2a期胆囊癌推荐肝脏楔形切除指征",
+    "head": {
+      "is_negative": false,
+      "name": "手术推荐",
+      "arguments": [
+        "X",
+        "肝脏楔形切除",
+        "针对病灶"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胆囊癌",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肿瘤分期",
+        "arguments": [
+          "Y",
+          "T1b期至T2a期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肝切除获益不确定",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术方式特性",
+        "arguments": [
+          "肝脏楔形切除",
+          "不显著增加难度"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "胆囊癌病灶"
+    },
+    "source_text": "胆囊癌根治性切除的条件包括：（1）R0切除为目标的胆囊及邻近器官癌灶切除和区域性淋巴结清扫；（2）剩余肝脏功能可代偿，可保存或重建其脉管结构；（3）患者可耐受手术创伤。T1b和T2a期：联合肝脏切除是否获益尚不明确［33⁃34］。鉴于肝脏楔形切除未明显增加手术难度及并发症，在获得确切循证医学证据之前推荐联合距胆囊床2 cm以上的肝组织楔形切除。T2b期：T2b期胆囊癌合并血管、神经侵犯及淋巴结转移的比例高，联合肝切除可延长总体生存时间［34⁃35］。肝切除的手术切除范围可为肝楔形切除或肝脏4b+5段切除，二者优劣尚不能确定。T3期：对于肝床受累<2 cm、无肝十二指肠韧带淋巴结转移者，肝脏4b+5段切除即可达到R0切除。以下情况应结合患者全身状况进行评估，推荐行右半肝或右三叶切除：（1）胆囊癌肝床受累≥2 cm；（2）肿瘤局限于右半肝，且转移灶数目为2个；"
+  },
+  {
+    "rule_name": "T2b期胆囊癌推荐肝楔形切除选项",
+    "head": {
+      "is_negative": false,
+      "name": "手术推荐",
+      "arguments": [
+        "X",
+        "肝楔形切除",
+        "可选方案"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胆囊癌",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肿瘤分期",
+        "arguments": [
+          "Y",
+          "T2b期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血管神经侵犯",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "淋巴结转移",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肝切除获益明确",
+        "arguments": [
+          "Y",
+          "延长生存"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "胆囊癌病灶"
+    },
+    "source_text": "胆囊癌根治性切除的条件包括：（1）R0切除为目标的胆囊及邻近器官癌灶切除和区域性淋巴结清扫；（2）剩余肝脏功能可代偿，可保存或重建其脉管结构；（3）患者可耐受手术创伤。T1b和T2a期：联合肝脏切除是否获益尚不明确［33⁃34］。鉴于肝脏楔形切除未明显增加手术难度及并发症，在获得确切循证医学证据之前推荐联合距胆囊床2 cm以上的肝组织楔形切除。T2b期：T2b期胆囊癌合并血管、神经侵犯及淋巴结转移的比例高，联合肝切除可延长总体生存时间［34⁃35］。肝切除的手术切除范围可为肝楔形切除或肝脏4b+5段切除，二者优劣尚不能确定。T3期：对于肝床受累<2 cm、无肝十二指肠韧带淋巴结转移者，肝脏4b+5段切除即可达到R0切除。以下情况应结合患者全身状况进行评估，推荐行右半肝或右三叶切除：（1）胆囊癌肝床受累≥2 cm；（2）肿瘤局限于右半肝，且转移灶数目为2个；"
+  },
+  {
+    "rule_name": "T2b期胆囊癌推荐肝4b5段切除选项",
+    "head": {
+      "is_negative": false,
+      "name": "手术推荐",
+      "arguments": [
+        "X",
+        "肝脏4b+5段切除",
+        "可选方案"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胆囊癌",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肿瘤分期",
+        "arguments": [
+          "Y",
+          "T2b期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血管神经侵犯",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "淋巴结转移",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肝切除获益明确",
+        "arguments": [
+          "Y",
+          "延长生存"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "胆囊癌病灶"
+    },
+    "source_text": "胆囊癌根治性切除的条件包括：（1）R0切除为目标的胆囊及邻近器官癌灶切除和区域性淋巴结清扫；（2）剩余肝脏功能可代偿，可保存或重建其脉管结构；（3）患者可耐受手术创伤。T1b和T2a期：联合肝脏切除是否获益尚不明确［33⁃34］。鉴于肝脏楔形切除未明显增加手术难度及并发症，在获得确切循证医学证据之前推荐联合距胆囊床2 cm以上的肝组织楔形切除。T2b期：T2b期胆囊癌合并血管、神经侵犯及淋巴结转移的比例高，联合肝切除可延长总体生存时间［34⁃35］。肝切除的手术切除范围可为肝楔形切除或肝脏4b+5段切除，二者优劣尚不能确定。T3期：对于肝床受累<2 cm、无肝十二指肠韧带淋巴结转移者，肝脏4b+5段切除即可达到R0切除。以下情况应结合患者全身状况进行评估，推荐行右半肝或右三叶切除：（1）胆囊癌肝床受累≥2 cm；（2）肿瘤局限于右半肝，且转移灶数目为2个；"
+  },
+  {
+    "rule_name": "T3期肝床受累小且无特定淋巴结转移者行4b5段切除指征",
+    "head": {
+      "is_negative": false,
+      "name": "手术推荐",
+      "arguments": [
+        "X",
+        "肝脏4b+5段切除",
+        "可达R0"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胆囊癌",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肿瘤分期",
+        "arguments": [
+          "Y",
+          "T3期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肝床受累程度",
+        "arguments": [
+          "Y",
+          "<2cm"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "淋巴结转移位置",
+        "arguments": [
+          "肝十二指肠韧带"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术目标",
+        "arguments": [
+          "X",
+          "R0切除"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "胆囊癌病灶"
+    },
+    "source_text": "胆囊癌根治性切除的条件包括：（1）R0切除为目标的胆囊及邻近器官癌灶切除和区域性淋巴结清扫；（2）剩余肝脏功能可代偿，可保存或重建其脉管结构；（3）患者可耐受手术创伤。T1b和T2a期：联合肝脏切除是否获益尚不明确［33⁃34］。鉴于肝脏楔形切除未明显增加手术难度及并发症，在获得确切循证医学证据之前推荐联合距胆囊床2 cm以上的肝组织楔形切除。T2b期：T2b期胆囊癌合并血管、神经侵犯及淋巴结转移的比例高，联合肝切除可延长总体生存时间［34⁃35］。肝切除的手术切除范围可为肝楔形切除或肝脏4b+5段切除，二者优劣尚不能确定。T3期：对于肝床受累<2 cm、无肝十二指肠韧带淋巴结转移者，肝脏4b+5段切除即可达到R0切除。以下情况应结合患者全身状况进行评估，推荐行右半肝或右三叶切除：（1）胆囊癌肝床受累≥2 cm；（2）肿瘤局限于右半肝，且转移灶数目为2个；"
+  },
+  {
+    "rule_name": "T3期肝床受累大者推荐右半肝或右三叶切除指征",
+    "head": {
+      "is_negative": false,
+      "name": "手术推荐",
+      "arguments": [
+        "X",
+        "右半肝切除",
+        "需全身评估"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胆囊癌",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肿瘤分期",
+        "arguments": [
+          "Y",
+          "T3期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肝床受累程度",
+        "arguments": [
+          "Y",
+          "≥2cm"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需全身状况评估",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "胆囊癌病灶"
+    },
+    "source_text": "胆囊癌根治性切除的条件包括：（1）R0切除为目标的胆囊及邻近器官癌灶切除和区域性淋巴结清扫；（2）剩余肝脏功能可代偿，可保存或重建其脉管结构；（3）患者可耐受手术创伤。T1b和T2a期：联合肝脏切除是否获益尚不明确［33⁃34］。鉴于肝脏楔形切除未明显增加手术难度及并发症，在获得确切循证医学证据之前推荐联合距胆囊床2 cm以上的肝组织楔形切除。T2b期：T2b期胆囊癌合并血管、神经侵犯及淋巴结转移的比例高，联合肝切除可延长总体生存时间［34⁃35］。肝切除的手术切除范围可为肝楔形切除或肝脏4b+5段切除，二者优劣尚不能确定。T3期：对于肝床受累<2 cm、无肝十二指肠韧带淋巴结转移者，肝脏4b+5段切除即可达到R0切除。以下情况应结合患者全身状况进行评估，推荐行右半肝或右三叶切除：（1）胆囊癌肝床受累≥2 cm；（2）肿瘤局限于右半肝，且转移灶数目为2个；"
+  },
+  {
+    "rule_name": "T3期肿瘤局限右半肝且双转移者推荐右半肝或右三叶切除指征",
+    "head": {
+      "is_negative": false,
+      "name": "手术推荐",
+      "arguments": [
+        "X",
+        "右半肝切除",
+        "需全身评估"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胆囊癌",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肿瘤分期",
+        "arguments": [
+          "Y",
+          "T3期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肿瘤局限范围",
+        "arguments": [
+          "Y",
+          "右半肝"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肝内转移灶数目",
+        "arguments": [
+          "Y",
+          "2个"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需全身状况评估",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "胆囊癌病灶"
+    },
+    "source_text": "胆囊癌根治性切除的条件包括：（1）R0切除为目标的胆囊及邻近器官癌灶切除和区域性淋巴结清扫；（2）剩余肝脏功能可代偿，可保存或重建其脉管结构；（3）患者可耐受手术创伤。T1b和T2a期：联合肝脏切除是否获益尚不明确［33⁃34］。鉴于肝脏楔形切除未明显增加手术难度及并发症，在获得确切循证医学证据之前推荐联合距胆囊床2 cm以上的肝组织楔形切除。T2b期：T2b期胆囊癌合并血管、神经侵犯及淋巴结转移的比例高，联合肝切除可延长总体生存时间［34⁃35］。肝切除的手术切除范围可为肝楔形切除或肝脏4b+5段切除，二者优劣尚不能确定。T3期：对于肝床受累<2 cm、无肝十二指肠韧带淋巴结转移者，肝脏4b+5段切除即可达到R0切除。以下情况应结合患者全身状况进行评估，推荐行右半肝或右三叶切除：（1）胆囊癌肝床受累≥2 cm；（2）肿瘤局限于右半肝，且转移灶数目为2个；"
+  },
+  {
+    "rule_name": "胆囊癌患者满足根治性切除三大核心条件",
+    "head": {
+      "is_negative": false,
+      "name": "手术可行性评估",
+      "arguments": [
+        "X",
+        "根治性切除",
+        "可行"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胆囊癌",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术目标",
+        "arguments": [
+          "X",
+          "R0切除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剩余肝脏功能",
+        "arguments": [
+          "X",
+          "可代偿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者一般状况",
+        "arguments": [
+          "X",
+          "可耐受手术"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "胆囊癌病灶"
+    },
+    "source_text": "胆囊癌根治性切除的条件包括：（1）R0切除为目标的胆囊及邻近器官癌灶切除和区域性淋巴结清扫；（2）剩余肝脏功能可代偿，可保存或重建其脉管结构；（3）患者可耐受手术创伤。T1b和T2a期：联合肝脏切除是否获益尚不明确［33⁃34］。鉴于肝脏楔形切除未明显增加手术难度及并发症，在获得确切循证医学证据之前推荐联合距胆囊床2 cm以上的肝组织楔形切除。T2b期：T2b期胆囊癌合并血管、神经侵犯及淋巴结转移的比例高，联合肝切除可延长总体生存时间［34⁃35］。肝切除的手术切除范围可为肝楔形切除或肝脏4b+5段切除，二者优劣尚不能确定。T3期：对于肝床受累<2 cm、无肝十二指肠韧带淋巴结转移者，肝脏4b+5段切除即可达到R0切除。以下情况应结合患者全身状况进行评估，推荐行右半肝或右三叶切除：（1）胆囊癌肝床受累≥2 cm；（2）肿瘤局限于右半肝，且转移灶数目为2个；"
+  }
+]

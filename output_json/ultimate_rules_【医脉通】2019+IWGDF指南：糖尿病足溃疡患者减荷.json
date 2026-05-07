@@ -1,0 +1,2360 @@
+[
+  {
+    "rule_name": "糖尿病患者前中足神经性溃疡使用非可拆卸膝下减压装置之全接触石膏方案",
+    "head": {
+      "is_negative": false,
+      "name": "减压方法",
+      "arguments": [
+        "X",
+        "Y",
+        "使用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有溃疡",
+        "arguments": [
+          "Y",
+          "前中足神经性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "非可拆卸膝下装置",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属类型",
+        "arguments": [
+          "Z",
+          "全接触石膏"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡",
+      "Z": "非可拆卸膝下减压装置"
+    },
+    "source_text": "When using a non-removable knee-high offloading device to heal a neuropathic plantar forefoot or midfoot ulcer in a person with diabetes, use either a total contact cast or non-removable knee-high walker, with the choice dependent on the resources available, technician skills, patient preferences and extent of foot deformity present. (Strong; Moderate)"
+  },
+  {
+    "rule_name": "糖尿病患者前中足神经性溃疡使用非可拆卸膝下减压装置之膝下助行器方案",
+    "head": {
+      "is_negative": false,
+      "name": "减压方法",
+      "arguments": [
+        "X",
+        "Y",
+        "使用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有溃疡",
+        "arguments": [
+          "Y",
+          "前中足神经性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "非可拆卸膝下装置",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属类型",
+        "arguments": [
+          "Z",
+          "膝下助行器"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡",
+      "Z": "非可拆卸膝下减压装置"
+    },
+    "source_text": "When using a non-removable knee-high offloading device to heal a neuropathic plantar forefoot or midfoot ulcer in a person with diabetes, use either a total contact cast or non-removable knee-high walker, with the choice dependent on the resources available, technician skills, patient preferences and extent of foot deformity present. (Strong; Moderate)"
+  },
+  {
+    "rule_name": "非可拆卸装置禁忌或不耐受时考虑使用可拆卸膝下装置作为第二选择",
+    "head": {
+      "is_negative": false,
+      "name": "考虑使用",
+      "arguments": [
+        "X",
+        "W",
+        "第二选择"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有溃疡",
+        "arguments": [
+          "Y",
+          "前中足神经性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "适用减压方法",
+        "arguments": [
+          "X",
+          "Z",
+          "非可拆卸膝下装置"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可拆卸膝下装置",
+        "arguments": [
+          "W"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡",
+      "Z": "非可拆卸膝下减压装置",
+      "W": "可拆卸膝下减压装置"
+    },
+    "source_text": "In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a non-removable knee-high offloading device is contraindicated or not tolerated, consider using a removable knee-high offloading device with an appropriate foot-device interface as the second-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device."
+  },
+  {
+    "rule_name": "建议使用可拆卸膝下装置的患者坚持穿戴",
+    "head": {
+      "is_negative": false,
+      "name": "鼓励行为",
+      "arguments": [
+        "X",
+        "坚持穿戴"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "考虑使用",
+        "arguments": [
+          "X",
+          "W",
+          "第二选择"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可拆卸膝下装置",
+        "arguments": [
+          "W"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "W": "可拆卸膝下减压装置"
+    },
+    "source_text": "In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a non-removable knee-high offloading device is contraindicated or not tolerated, consider using a removable knee-high offloading device with an appropriate foot-device interface as the second-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device."
+  },
+  {
+    "rule_name": "糖尿病患者伴中度感染和中度缺血的前中足神经性溃疡处理原则",
+    "head": {
+      "is_negative": false,
+      "name": "首要处理措施",
+      "arguments": [
+        "Y",
+        "控制感染"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "首要处理措施",
+        "arguments": [
+          "Y",
+          "控制缺血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗考量",
+        "arguments": [
+          "Y",
+          "使用可拆卸减压装置"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性足底溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "位于前足或中足",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "感染程度",
+        "arguments": [
+          "Y",
+          "中度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺血程度",
+        "arguments": [
+          "Y",
+          "中度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "功能状态",
+        "arguments": [
+          "X",
+          "F"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "行走状态",
+        "arguments": [
+          "X",
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "活动水平",
+        "arguments": [
+          "X",
+          "L"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足底溃疡",
+      "F": "特定功能状态",
+      "A": "特定行走状态",
+      "L": "特定活动水平"
+    },
+    "source_text": "In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both moderate infection and moderate ischaemia, or with either severe infection or severe ischemia, primarily address the infection and/or ischemia, and consider using a removable offloading based on the patient’s functioning, ambulatory status and activity level, to promote healing of the ulcer."
+  },
+  {
+    "rule_name": "糖尿病患者伴重度感染的前中足神经性溃疡处理原则",
+    "head": {
+      "is_negative": false,
+      "name": "首要处理措施",
+      "arguments": [
+        "Y",
+        "控制感染"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "治疗考量",
+        "arguments": [
+          "Y",
+          "使用可拆卸减压装置"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性足底溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "位于前足或中足",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "感染程度",
+        "arguments": [
+          "Y",
+          "重度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "功能状态",
+        "arguments": [
+          "X",
+          "F"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "行走状态",
+        "arguments": [
+          "X",
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "活动水平",
+        "arguments": [
+          "X",
+          "L"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足底溃疡",
+      "F": "特定功能状态",
+      "A": "特定行走状态",
+      "L": "特定活动水平"
+    },
+    "source_text": "In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both moderate infection and moderate ischaemia, or with either severe infection or severe ischemia, primarily address the infection and/or ischemia, and consider using a removable offloading based on the patient’s functioning, ambulatory status and activity level, to promote healing of the ulcer."
+  },
+  {
+    "rule_name": "糖尿病患者伴重度缺血的前中足神经性溃疡处理原则",
+    "head": {
+      "is_negative": false,
+      "name": "首要处理措施",
+      "arguments": [
+        "Y",
+        "控制缺血"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "治疗考量",
+        "arguments": [
+          "Y",
+          "使用可拆卸减压装置"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性足底溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "位于前足或中足",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺血程度",
+        "arguments": [
+          "Y",
+          "重度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "功能状态",
+        "arguments": [
+          "X",
+          "F"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "行走状态",
+        "arguments": [
+          "X",
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "活动水平",
+        "arguments": [
+          "X",
+          "L"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足底溃疡",
+      "F": "特定功能状态",
+      "A": "特定行走状态",
+      "L": "特定活动水平"
+    },
+    "source_text": "In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both moderate infection and moderate ischaemia, or with either severe infection or severe ischemia, primarily address the infection and/or ischemia, and consider using a removable offloading based on the patient’s functioning, ambulatory status and activity level, to promote healing of the ulcer."
+  },
+  {
+    "rule_name": "膝高减压装置禁忌患者之足溃疡第三选择踝高装置",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "使用踝高减压装置",
+        "第三选择"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡性质",
+        "arguments": [
+          "Y",
+          "神经性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗禁忌",
+        "arguments": [
+          "X",
+          "使用膝高减压装置"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "治疗推荐",
+        "arguments": [
+          "X",
+          "使用常规治疗鞋",
+          "作为减压"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足溃疡"
+    },
+    "source_text": "In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a knee-high offloading device is contraindicated or not tolerated, use a removable ankle-high offloading device as the third-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Strong; Low)"
+  },
+  {
+    "rule_name": "膝高减压装置不耐受患者之足溃疡第三选择踝高装置",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "使用踝高减压装置",
+        "第三选择"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡性质",
+        "arguments": [
+          "Y",
+          "神经性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "不耐受",
+        "arguments": [
+          "X",
+          "使用膝高减压装置"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "治疗推荐",
+        "arguments": [
+          "X",
+          "使用常规治疗鞋",
+          "作为减压"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足溃疡"
+    },
+    "source_text": "In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a knee-high offloading device is contraindicated or not tolerated, use a removable ankle-high offloading device as the third-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Strong; Low)"
+  },
+  {
+    "rule_name": "足溃疡患者常规不使用常规治疗鞋进行减压",
+    "head": {
+      "is_negative": true,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "使用常规治疗鞋",
+        "作为减压"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡性质",
+        "arguments": [
+          "Y",
+          "神经性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足溃疡"
+    },
+    "source_text": "In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer, do not use, and instruct the patient not to use, conventional or standard therapeutic footwear as offloading treatment to promote healing of the ulcer, unless none of the above-mentioned offloading devices is available. (Strong; Moderate)"
+  },
+  {
+    "rule_name": "无可用减压装置时足溃疡第四选择毛毡泡沫结合常规鞋",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "使用毛毡泡沫结合常规鞋",
+        "第四选择"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡性质",
+        "arguments": [
+          "Y",
+          "神经性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "治疗推荐",
+        "arguments": [
+          "X",
+          "使用膝高减压装置",
+          "作为选择"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "治疗推荐",
+        "arguments": [
+          "X",
+          "使用踝高减压装置",
+          "作为选择"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "治疗推荐",
+        "arguments": [
+          "X",
+          "使用常规治疗鞋",
+          "作为减压"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足溃疡"
+    },
+    "source_text": "In that case, consider using felted foam in combination with appropriately fitting conventional or standard therapeutic footwear as the fourth choice of offloading treatment to promote healing of the ulcer. (Weak;)"
+  },
+  {
+    "rule_name": "糖尿病患者神经性前足中足溃疡_非可拆卸膝高卸载禁忌_第二选择可拆卸膝高",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "可拆卸膝高卸载装置",
+        "第二选择"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "禁忌症",
+        "arguments": [
+          "X",
+          "非可拆卸膝高卸载装置"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医嘱执行",
+        "arguments": [
+          "X",
+          "坚持佩戴装置"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足溃疡"
+    },
+    "source_text": "Moderate) 2. In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a non-removable knee-high offloading device is contraindicated or not tolerated, consider using a removable knee-high offloading device with an appropriate foot-device interface as the second-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Weak; Low) 3. In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a knee-high offloading device is contraindicated or not tolerated, use a removable ankle-high offloading device as the third-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Strong;"
+  },
+  {
+    "rule_name": "糖尿病患者神经性前足中足溃疡_非可拆卸膝高不耐受_第二选择可拆卸膝高",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "可拆卸膝高卸载装置",
+        "第二选择"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "耐受性",
+        "arguments": [
+          "X",
+          "非可拆卸膝高卸载装置"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医嘱执行",
+        "arguments": [
+          "X",
+          "坚持佩戴装置"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足溃疡"
+    },
+    "source_text": "Moderate) 2. In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a non-removable knee-high offloading device is contraindicated or not tolerated, consider using a removable knee-high offloading device with an appropriate foot-device interface as the second-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Weak; Low) 3. In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a knee-high offloading device is contraindicated or not tolerated, use a removable ankle-high offloading device as the third-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Strong;"
+  },
+  {
+    "rule_name": "糖尿病患者神经性前足中足溃疡_膝高卸载装置禁忌_第三选择可拆卸踝高",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "可拆卸踝高卸载装置",
+        "第三选择"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "禁忌症",
+        "arguments": [
+          "X",
+          "膝高卸载装置"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医嘱执行",
+        "arguments": [
+          "X",
+          "坚持佩戴装置"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足溃疡"
+    },
+    "source_text": "Moderate) 2. In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a non-removable knee-high offloading device is contraindicated or not tolerated, consider using a removable knee-high offloading device with an appropriate foot-device interface as the second-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Weak; Low) 3. In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a knee-high offloading device is contraindicated or not tolerated, use a removable ankle-high offloading device as the third-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Strong;"
+  },
+  {
+    "rule_name": "糖尿病患者神经性前足中足溃疡_膝高卸载装置不耐受_第三选择可拆卸踝高",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "可拆卸踝高卸载装置",
+        "第三选择"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "耐受性",
+        "arguments": [
+          "X",
+          "膝高卸载装置"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医嘱执行",
+        "arguments": [
+          "X",
+          "坚持佩戴装置"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足溃疡"
+    },
+    "source_text": "Moderate) 2. In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a non-removable knee-high offloading device is contraindicated or not tolerated, consider using a removable knee-high offloading device with an appropriate foot-device interface as the second-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Weak; Low) 3. In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a knee-high offloading device is contraindicated or not tolerated, use a removable ankle-high offloading device as the third-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Strong;"
+  },
+  {
+    "rule_name": "糖尿病患者神经性前足中足溃疡_膝高卸载禁忌之非可拆卸型禁忌子类",
+    "head": {
+      "is_negative": false,
+      "name": "禁忌症",
+      "arguments": [
+        "X",
+        "膝高卸载装置"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "禁忌症",
+        "arguments": [
+          "X",
+          "非可拆卸膝高卸载装置"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Moderate) 2. In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a non-removable knee-high offloading device is contraindicated or not tolerated, consider using a removable knee-high offloading device with an appropriate foot-device interface as the second-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Weak; Low) 3. In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a knee-high offloading device is contraindicated or not tolerated, use a removable ankle-high offloading device as the third-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Strong;"
+  },
+  {
+    "rule_name": "糖尿病患者神经性前足中足溃疡_膝高卸载不耐受之非可拆卸型不耐受子类",
+    "head": {
+      "is_negative": true,
+      "name": "耐受性",
+      "arguments": [
+        "X",
+        "膝高卸载装置"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": true,
+        "name": "耐受性",
+        "arguments": [
+          "X",
+          "非可拆卸膝高卸载装置"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Moderate) 2. In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a non-removable knee-high offloading device is contraindicated or not tolerated, consider using a removable knee-high offloading device with an appropriate foot-device interface as the second-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Weak; Low) 3. In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer for whom a knee-high offloading device is contraindicated or not tolerated, use a removable ankle-high offloading device as the third-choice of offloading treatment to promote healing of the ulcer. Additionally, encourage the patient to consistently wear the device. (Strong;"
+  },
+  {
+    "rule_name": "活动性糖尿病足溃疡的强制性减压干预",
+    "head": {
+      "is_negative": false,
+      "name": "干预措施",
+      "arguments": [
+        "Y",
+        "减压",
+        "强制性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "活动性",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "干预",
+        "arguments": [
+          "Y",
+          "减压"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "难以愈合",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足溃疡"
+    },
+    "source_text": "The risk of developing a foot ulcer in a person with diabetes is high and increases with the presence of peripheral neuropathy, foot deformity, and peripheral arterial disease. After healing, the risk of ulcer recurrence is even higher. Ulcers that are not offloaded sufficiently are difficult to heal. Offloading the ulcer is thus a mandatory, evidence-based, cost-effective, and first-choice intervention for all patients with a diabetic foot ulcer to enhance healing."
+  },
+  {
+    "rule_name": "高复发风险患者的足溃疡强制性减压干预",
+    "head": {
+      "is_negative": false,
+      "name": "干预措施",
+      "arguments": [
+        "Y2",
+        "减压",
+        "强制性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足溃疡",
+        "arguments": [
+          "Y1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y1",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "已愈合",
+        "arguments": [
+          "Y1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高复发风险",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足溃疡",
+        "arguments": [
+          "Y2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y2",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "干预",
+        "arguments": [
+          "Y2",
+          "减压"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y1": "历史足溃疡",
+      "Y2": "新发足溃疡"
+    },
+    "source_text": "The risk of developing a foot ulcer in a person with diabetes is high and increases with the presence of peripheral neuropathy, foot deformity, and peripheral arterial disease. After healing, the risk of ulcer recurrence is even higher. Ulcers that are not offloaded sufficiently are difficult to heal. Offloading the ulcer is thus a mandatory, evidence-based, cost-effective, and first-choice intervention for all patients with a diabetic foot ulcer to enhance healing."
+  },
+  {
+    "rule_name": "糖尿病足溃疡减压干预的多重核心属性",
+    "head": {
+      "is_negative": false,
+      "name": "干预措施",
+      "arguments": [
+        "Y",
+        "减压",
+        "基于证据"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Y",
+          "减压",
+          "成本效益高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Y",
+          "减压",
+          "首选"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足溃疡"
+    },
+    "source_text": "The risk of developing a foot ulcer in a person with diabetes is high and increases with the presence of peripheral neuropathy, foot deformity, and peripheral arterial disease. After healing, the risk of ulcer recurrence is even higher. Ulcers that are not offloaded sufficiently are difficult to heal. Offloading the ulcer is thus a mandatory, evidence-based, cost-effective, and first-choice intervention for all patients with a diabetic foot ulcer to enhance healing."
+  },
+  {
+    "rule_name": "轻度感染缺血糖尿病足溃疡推荐膝高卸载装置",
+    "head": {
+      "is_negative": false,
+      "name": "推荐疗法",
+      "arguments": [
+        "Y",
+        "可拆卸膝高卸载装置",
+        "促进愈合"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足前部或中足部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "感染程度",
+        "arguments": [
+          "Y",
+          "轻度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺血程度",
+        "arguments": [
+          "Y",
+          "轻度"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "神经性足部溃疡"
+    },
+    "source_text": "In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both mild infection and mild ischemia, or with either moderate infection or moderate ischaemia, consider using a removable knee-high offloading device to promote healing of the ulcer. (Weak; Low) c) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both moderate infection and moderate ischaemia, or with either severe infection or severe ischemia, primarily address the infection and/or ischemia, and consider using a removable offloading © 2019The International Working Group on the Diabetic FootIWGDF Offloading GuidelineIWGDFGuidelineshttp://guide.medlive.cn/intervention based on the patient’s functioning, ambulatory status and activity level, to promote healing of the ulcer. (Weak;"
+  },
+  {
+    "rule_name": "中度感染糖尿病足溃疡推荐膝高卸载装置",
+    "head": {
+      "is_negative": false,
+      "name": "推荐疗法",
+      "arguments": [
+        "Y",
+        "可拆卸膝高卸载装置",
+        "促进愈合"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足前部或中足部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "感染程度",
+        "arguments": [
+          "Y",
+          "中度"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "神经性足部溃疡"
+    },
+    "source_text": "In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both mild infection and mild ischemia, or with either moderate infection or moderate ischaemia, consider using a removable knee-high offloading device to promote healing of the ulcer. (Weak; Low) c) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both moderate infection and moderate ischaemia, or with either severe infection or severe ischemia, primarily address the infection and/or ischemia, and consider using a removable offloading © 2019The International Working Group on the Diabetic FootIWGDF Offloading GuidelineIWGDFGuidelineshttp://guide.medlive.cn/intervention based on the patient’s functioning, ambulatory status and activity level, to promote healing of the ulcer. (Weak;"
+  },
+  {
+    "rule_name": "中度缺血糖尿病足溃疡推荐膝高卸载装置",
+    "head": {
+      "is_negative": false,
+      "name": "推荐疗法",
+      "arguments": [
+        "Y",
+        "可拆卸膝高卸载装置",
+        "促进愈合"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足前部或中足部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺血程度",
+        "arguments": [
+          "Y",
+          "中度"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "神经性足部溃疡"
+    },
+    "source_text": "In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both mild infection and mild ischemia, or with either moderate infection or moderate ischaemia, consider using a removable knee-high offloading device to promote healing of the ulcer. (Weak; Low) c) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both moderate infection and moderate ischaemia, or with either severe infection or severe ischemia, primarily address the infection and/or ischemia, and consider using a removable offloading © 2019The International Working Group on the Diabetic FootIWGDF Offloading GuidelineIWGDFGuidelineshttp://guide.medlive.cn/intervention based on the patient’s functioning, ambulatory status and activity level, to promote healing of the ulcer. (Weak;"
+  },
+  {
+    "rule_name": "中度感染中度缺血糖尿病足溃疡首要处理并考虑卸载",
+    "head": {
+      "is_negative": false,
+      "name": "考虑疗法",
+      "arguments": [
+        "Y",
+        "可拆卸卸载装置",
+        "基于功能状态"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足前部或中足部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "感染程度",
+        "arguments": [
+          "Y",
+          "中度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺血程度",
+        "arguments": [
+          "Y",
+          "中度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "首要处理",
+        "arguments": [
+          "Y",
+          "感染缺血"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "神经性足部溃疡"
+    },
+    "source_text": "In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both mild infection and mild ischemia, or with either moderate infection or moderate ischaemia, consider using a removable knee-high offloading device to promote healing of the ulcer. (Weak; Low) c) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both moderate infection and moderate ischaemia, or with either severe infection or severe ischemia, primarily address the infection and/or ischemia, and consider using a removable offloading © 2019The International Working Group on the Diabetic FootIWGDF Offloading GuidelineIWGDFGuidelineshttp://guide.medlive.cn/intervention based on the patient’s functioning, ambulatory status and activity level, to promote healing of the ulcer. (Weak;"
+  },
+  {
+    "rule_name": "严重感染糖尿病足溃疡首要处理并考虑卸载",
+    "head": {
+      "is_negative": false,
+      "name": "考虑疗法",
+      "arguments": [
+        "Y",
+        "可拆卸卸载装置",
+        "基于功能状态"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足前部或中足部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "感染程度",
+        "arguments": [
+          "Y",
+          "严重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "首要处理",
+        "arguments": [
+          "Y",
+          "感染缺血"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "神经性足部溃疡"
+    },
+    "source_text": "In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both mild infection and mild ischemia, or with either moderate infection or moderate ischaemia, consider using a removable knee-high offloading device to promote healing of the ulcer. (Weak; Low) c) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both moderate infection and moderate ischaemia, or with either severe infection or severe ischemia, primarily address the infection and/or ischemia, and consider using a removable offloading © 2019The International Working Group on the Diabetic FootIWGDF Offloading GuidelineIWGDFGuidelineshttp://guide.medlive.cn/intervention based on the patient’s functioning, ambulatory status and activity level, to promote healing of the ulcer. (Weak;"
+  },
+  {
+    "rule_name": "严重缺血糖尿病足溃疡首要处理并考虑卸载",
+    "head": {
+      "is_negative": false,
+      "name": "考虑疗法",
+      "arguments": [
+        "Y",
+        "可拆卸卸载装置",
+        "基于功能状态"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足前部或中足部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺血程度",
+        "arguments": [
+          "Y",
+          "严重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "首要处理",
+        "arguments": [
+          "Y",
+          "感染缺血"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "神经性足部溃疡"
+    },
+    "source_text": "In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both mild infection and mild ischemia, or with either moderate infection or moderate ischaemia, consider using a removable knee-high offloading device to promote healing of the ulcer. (Weak; Low) c) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both moderate infection and moderate ischaemia, or with either severe infection or severe ischemia, primarily address the infection and/or ischemia, and consider using a removable offloading © 2019The International Working Group on the Diabetic FootIWGDF Offloading GuidelineIWGDFGuidelineshttp://guide.medlive.cn/intervention based on the patient’s functioning, ambulatory status and activity level, to promote healing of the ulcer. (Weak;"
+  },
+  {
+    "rule_name": "糖尿病患者神经性足底前中足溃疡伴轻度感染的非可拆卸减压装置考虑",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "非可拆卸膝上减压装置",
+        "考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足底前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症",
+        "arguments": [
+          "Y",
+          "感染",
+          "轻度"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡病灶"
+    },
+    "source_text": "a) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with either mild infection or mild ischemia, consider using a non-removable knee-high offloading device to promote healing of the ulcer. (Weak; Low) b) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both mild infection and mild ischemia, or with either moderate infection or moderate ischaemia, consider using a removable knee-high offloading device to promote healing of the ulcer. (Weak;"
+  },
+  {
+    "rule_name": "糖尿病患者神经性足底前中足溃疡伴轻度缺血的非可拆卸减压装置考虑",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "非可拆卸膝上减压装置",
+        "考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足底前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症",
+        "arguments": [
+          "Y",
+          "缺血",
+          "轻度"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡病灶"
+    },
+    "source_text": "a) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with either mild infection or mild ischemia, consider using a non-removable knee-high offloading device to promote healing of the ulcer. (Weak; Low) b) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both mild infection and mild ischemia, or with either moderate infection or moderate ischaemia, consider using a removable knee-high offloading device to promote healing of the ulcer. (Weak;"
+  },
+  {
+    "rule_name": "糖尿病患者神经性足底前中足溃疡伴轻度感染和轻度缺血的可拆卸减压装置考虑",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "可拆卸膝上减压装置",
+        "考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足底前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症",
+        "arguments": [
+          "Y",
+          "感染",
+          "轻度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症",
+        "arguments": [
+          "Y",
+          "缺血",
+          "轻度"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡病灶"
+    },
+    "source_text": "a) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with either mild infection or mild ischemia, consider using a non-removable knee-high offloading device to promote healing of the ulcer. (Weak; Low) b) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both mild infection and mild ischemia, or with either moderate infection or moderate ischaemia, consider using a removable knee-high offloading device to promote healing of the ulcer. (Weak;"
+  },
+  {
+    "rule_name": "糖尿病患者神经性足底前中足溃疡伴中度感染的可拆卸减压装置考虑",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "可拆卸膝上减压装置",
+        "考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足底前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症",
+        "arguments": [
+          "Y",
+          "感染",
+          "中度"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡病灶"
+    },
+    "source_text": "a) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with either mild infection or mild ischemia, consider using a non-removable knee-high offloading device to promote healing of the ulcer. (Weak; Low) b) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both mild infection and mild ischemia, or with either moderate infection or moderate ischaemia, consider using a removable knee-high offloading device to promote healing of the ulcer. (Weak;"
+  },
+  {
+    "rule_name": "糖尿病患者神经性足底前中足溃疡伴中度缺血的可拆卸减压装置考虑",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "可拆卸膝上减压装置",
+        "考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足底前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症",
+        "arguments": [
+          "Y",
+          "缺血",
+          "中度"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡病灶"
+    },
+    "source_text": "a) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with either mild infection or mild ischemia, consider using a non-removable knee-high offloading device to promote healing of the ulcer. (Weak; Low) b) In a person with diabetes and a neuropathic plantar forefoot or midfoot ulcer with both mild infection and mild ischemia, or with either moderate infection or moderate ischaemia, consider using a removable knee-high offloading device to promote healing of the ulcer. (Weak;"
+  },
+  {
+    "rule_name": "糖尿病神经性足底前足或中足溃疡首选减压治疗",
+    "head": {
+      "is_negative": false,
+      "name": "首选治疗选择",
+      "arguments": [
+        "Y",
+        "非可拆卸膝高减压装置"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足底前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "存在禁忌症",
+        "arguments": [
+          "X",
+          "非可拆卸减压"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "存在不耐受",
+        "arguments": [
+          "X",
+          "非可拆卸减压"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡病灶"
+    },
+    "source_text": "For healing a neuropathic plantar forefoot or midfoot ulcer in a person with diabetes, we recommend that a non-removable knee-high offloading device is the first-choice of offloading treatment. A removable knee-high and removable ankle-high offloading device are to be considered as the second- and third-choice offloading treatment, respectively, if contraindications or patient intolerance to non-removable offloading exist. Appropriately fitting footwear combined with felted foam can be considered as the fourth-choice offloading treatment. If non-surgical offloading fails, we recommend to consider surgical offloading interventions for healing metatarsal head and digital ulcers. We have added new recommendations for the use of offloading treatment for healing ulcers that are complicated with infection or ischemia, and for healing plantar heel ulcers."
+  },
+  {
+    "rule_name": "糖尿病神经性足底前足或中足溃疡次选减压治疗_存在禁忌",
+    "head": {
+      "is_negative": false,
+      "name": "次选治疗选择",
+      "arguments": [
+        "Y",
+        "可拆卸膝高减压装置"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足底前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在禁忌症",
+        "arguments": [
+          "X",
+          "非可拆卸减压"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡病灶"
+    },
+    "source_text": "For healing a neuropathic plantar forefoot or midfoot ulcer in a person with diabetes, we recommend that a non-removable knee-high offloading device is the first-choice of offloading treatment. A removable knee-high and removable ankle-high offloading device are to be considered as the second- and third-choice offloading treatment, respectively, if contraindications or patient intolerance to non-removable offloading exist. Appropriately fitting footwear combined with felted foam can be considered as the fourth-choice offloading treatment. If non-surgical offloading fails, we recommend to consider surgical offloading interventions for healing metatarsal head and digital ulcers. We have added new recommendations for the use of offloading treatment for healing ulcers that are complicated with infection or ischemia, and for healing plantar heel ulcers."
+  },
+  {
+    "rule_name": "糖尿病神经性足底前足或中足溃疡三选减压治疗_存在不耐受",
+    "head": {
+      "is_negative": false,
+      "name": "三选治疗选择",
+      "arguments": [
+        "Y",
+        "可拆卸踝高减压装置"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足底前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在不耐受",
+        "arguments": [
+          "X",
+          "非可拆卸减压"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡病灶"
+    },
+    "source_text": "For healing a neuropathic plantar forefoot or midfoot ulcer in a person with diabetes, we recommend that a non-removable knee-high offloading device is the first-choice of offloading treatment. A removable knee-high and removable ankle-high offloading device are to be considered as the second- and third-choice offloading treatment, respectively, if contraindications or patient intolerance to non-removable offloading exist. Appropriately fitting footwear combined with felted foam can be considered as the fourth-choice offloading treatment. If non-surgical offloading fails, we recommend to consider surgical offloading interventions for healing metatarsal head and digital ulcers. We have added new recommendations for the use of offloading treatment for healing ulcers that are complicated with infection or ischemia, and for healing plantar heel ulcers."
+  },
+  {
+    "rule_name": "糖尿病神经性足底前足或中足溃疡四选减压治疗",
+    "head": {
+      "is_negative": false,
+      "name": "四选治疗选择",
+      "arguments": [
+        "Y",
+        "合适鞋具联合毛毡泡沫"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经性溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足底前足或中足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡病灶"
+    },
+    "source_text": "For healing a neuropathic plantar forefoot or midfoot ulcer in a person with diabetes, we recommend that a non-removable knee-high offloading device is the first-choice of offloading treatment. A removable knee-high and removable ankle-high offloading device are to be considered as the second- and third-choice offloading treatment, respectively, if contraindications or patient intolerance to non-removable offloading exist. Appropriately fitting footwear combined with felted foam can be considered as the fourth-choice offloading treatment. If non-surgical offloading fails, we recommend to consider surgical offloading interventions for healing metatarsal head and digital ulcers. We have added new recommendations for the use of offloading treatment for healing ulcers that are complicated with infection or ischemia, and for healing plantar heel ulcers."
+  },
+  {
+    "rule_name": "非手术减压失败后考虑手术治疗跖骨头或趾溃疡",
+    "head": {
+      "is_negative": false,
+      "name": "考虑治疗选择",
+      "arguments": [
+        "Y",
+        "手术减压干预"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡病灶",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡类型",
+        "arguments": [
+          "Y",
+          "跖骨头或趾部溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗状态",
+        "arguments": [
+          "Y",
+          "非手术减压失败"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡病灶"
+    },
+    "source_text": "For healing a neuropathic plantar forefoot or midfoot ulcer in a person with diabetes, we recommend that a non-removable knee-high offloading device is the first-choice of offloading treatment. A removable knee-high and removable ankle-high offloading device are to be considered as the second- and third-choice offloading treatment, respectively, if contraindications or patient intolerance to non-removable offloading exist. Appropriately fitting footwear combined with felted foam can be considered as the fourth-choice offloading treatment. If non-surgical offloading fails, we recommend to consider surgical offloading interventions for healing metatarsal head and digital ulcers. We have added new recommendations for the use of offloading treatment for healing ulcers that are complicated with infection or ischemia, and for healing plantar heel ulcers."
+  },
+  {
+    "rule_name": "糖尿病并发感染或缺血的溃疡减压治疗新推荐",
+    "head": {
+      "is_negative": false,
+      "name": "适用减压治疗新推荐",
+      "arguments": [
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡病灶",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发状况",
+        "arguments": [
+          "Y",
+          "感染或缺血"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡病灶"
+    },
+    "source_text": "For healing a neuropathic plantar forefoot or midfoot ulcer in a person with diabetes, we recommend that a non-removable knee-high offloading device is the first-choice of offloading treatment. A removable knee-high and removable ankle-high offloading device are to be considered as the second- and third-choice offloading treatment, respectively, if contraindications or patient intolerance to non-removable offloading exist. Appropriately fitting footwear combined with felted foam can be considered as the fourth-choice offloading treatment. If non-surgical offloading fails, we recommend to consider surgical offloading interventions for healing metatarsal head and digital ulcers. We have added new recommendations for the use of offloading treatment for healing ulcers that are complicated with infection or ischemia, and for healing plantar heel ulcers."
+  },
+  {
+    "rule_name": "糖尿病足底足跟溃疡减压治疗新推荐",
+    "head": {
+      "is_negative": false,
+      "name": "适用减压治疗新推荐",
+      "arguments": [
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡病灶",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡位置",
+        "arguments": [
+          "Y",
+          "足底足跟"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡病灶"
+    },
+    "source_text": "For healing a neuropathic plantar forefoot or midfoot ulcer in a person with diabetes, we recommend that a non-removable knee-high offloading device is the first-choice of offloading treatment. A removable knee-high and removable ankle-high offloading device are to be considered as the second- and third-choice offloading treatment, respectively, if contraindications or patient intolerance to non-removable offloading exist. Appropriately fitting footwear combined with felted foam can be considered as the fourth-choice offloading treatment. If non-surgical offloading fails, we recommend to consider surgical offloading interventions for healing metatarsal head and digital ulcers. We have added new recommendations for the use of offloading treatment for healing ulcers that are complicated with infection or ischemia, and for healing plantar heel ulcers."
+  }
+]

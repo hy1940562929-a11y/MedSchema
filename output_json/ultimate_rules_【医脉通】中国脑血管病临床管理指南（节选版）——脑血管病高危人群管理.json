@@ -1,0 +1,1449 @@
+[
+  {
+    "rule_name": "高危人群注射流感疫苗可能降低卒中风险",
+    "head": {
+      "is_negative": false,
+      "name": "干预措施推荐",
+      "arguments": [
+        "X",
+        "流感疫苗",
+        "每年定期注射"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中高危风险人群",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预目的",
+        "arguments": [
+          "X",
+          "降低卒中风险"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "干预效果明确",
+        "arguments": [
+          "X",
+          "降低卒中风险"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "·具有卒中高危风险的人群每年定期注射流感疫苗有可能降低卒中风险，但仍需更多大型临床研究证实（Ⅱb类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "高危人群通过检测超敏C反应蛋白评估卒中风险",
+    "head": {
+      "is_negative": false,
+      "name": "检测推荐",
+      "arguments": [
+        "X",
+        "超敏C反应蛋白检测",
+        "用于评估"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中高危风险人群",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测目标",
+        "arguments": [
+          "X",
+          "评估卒中风险"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "·对于高危卒中风险的人群，可通过检测超敏C反应蛋白或重组人脂蛋白相关磷脂酶A2等炎症因子以评估卒中风险（Ⅱb类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "高危人群通过检测脂蛋白相关磷脂酶A2评估卒中风险",
+    "head": {
+      "is_negative": false,
+      "name": "检测推荐",
+      "arguments": [
+        "X",
+        "脂蛋白相关磷脂酶A2检测",
+        "用于评估"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中高危风险人群",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测目标",
+        "arguments": [
+          "X",
+          "评估卒中风险"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "·对于高危卒中风险的人群，可通过检测超敏C反应蛋白或重组人脂蛋白相关磷脂酶A2等炎症因子以评估卒中风险（Ⅱb类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "特定心肌梗死患者使用卡那单抗很可能降低卒中风险",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "卡那单抗",
+        "很可能"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "心肌梗死患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测指标",
+        "arguments": [
+          "X",
+          "超敏C反应蛋白"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标数值",
+        "arguments": [
+          "X",
+          "大于2.0mg/L"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "·对于超敏C反应蛋白＞2.0 mg/L的心肌梗死患者，给予卡那单抗进行抗炎治疗很可能降低卒中风险（Ⅱa类推荐，B级证据），但对于卒中复发风险的作用仍需要以脑梗死人群为主的大型临床研究证实；他汀类药物是否可通过抗炎作用降低心脑血管病的发生风险仍需大型临床研究证实（Ⅱb类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "不推荐使用抗生素治疗慢性感染以预防卒中",
+    "head": {
+      "is_negative": false,
+      "name": "干预措施禁忌",
+      "arguments": [
+        "X",
+        "抗生素治疗",
+        "不推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患有慢性感染",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预目的",
+        "arguments": [
+          "抗生素治疗",
+          "预防卒中发生"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "·不推荐给予抗生素治疗慢性感染以预防卒中发生（Ⅲ类推荐，A级证据）。"
+  },
+  {
+    "rule_name": "综合饮食控制一般推荐方案",
+    "head": {
+      "is_negative": false,
+      "name": "饮食方案推荐",
+      "arguments": [
+        "X",
+        "综合控制方案",
+        "一般标准"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "总脂肪摄入",
+        "arguments": [
+          "Y1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y1",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y1",
+          "总热量30%比例"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "反式脂肪酸摄入",
+        "arguments": [
+          "Y2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y2",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y2",
+          "不超过2克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "蔬菜摄入",
+        "arguments": [
+          "Y3"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y3",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y3",
+          "每日400-500克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "水果摄入",
+        "arguments": [
+          "Y4"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y4",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y4",
+          "每日200-400克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "鱼禽蛋瘦肉摄入",
+        "arguments": [
+          "Y5"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y5",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y5",
+          "每日120-200克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "奶制品摄入",
+        "arguments": [
+          "Y6"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y6",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y6",
+          "相当于液态奶300克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "烹调植物油摄入",
+        "arguments": [
+          "Y7"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y7",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y7",
+          "小于25克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "添加糖摄入",
+        "arguments": [
+          "Y8"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y8",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y8",
+          "每日小于50克"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y1": "总脂肪摄入量实体",
+      "Y2": "反式脂肪酸摄入量实体",
+      "Y3": "蔬菜摄入量实体",
+      "Y4": "水果摄入量实体",
+      "Y5": "鱼禽蛋瘦肉摄入量实体",
+      "Y6": "奶制品摄入量实体",
+      "Y7": "烹调植物油摄入量实体",
+      "Y8": "添加糖摄入量实体"
+    },
+    "source_text": "每日总脂肪摄入量应小于总热量的30%，反式脂肪酸摄入量不超过2 g；摄入新鲜蔬菜400～500 g；水果200～400 g；适量鱼、禽、蛋和瘦肉，平均摄入总量120～200 g；各种奶制品相当于液态奶300 g；烹调植物油<25 g；控制添加糖（或称游离糖，即食物中添加的单体糖，如冰糖、白砂糖等）摄入，每日<50 g，最好<25 g。"
+  },
+  {
+    "rule_name": "综合饮食控制添加糖最优推荐方案",
+    "head": {
+      "is_negative": false,
+      "name": "饮食方案推荐",
+      "arguments": [
+        "X",
+        "综合控制方案",
+        "最优标准"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "总脂肪摄入",
+        "arguments": [
+          "Y1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y1",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y1",
+          "总热量30%比例"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "反式脂肪酸摄入",
+        "arguments": [
+          "Y2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y2",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y2",
+          "不超过2克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "蔬菜摄入",
+        "arguments": [
+          "Y3"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y3",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y3",
+          "每日400-500克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "水果摄入",
+        "arguments": [
+          "Y4"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y4",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y4",
+          "每日200-400克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "鱼禽蛋瘦肉摄入",
+        "arguments": [
+          "Y5"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y5",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y5",
+          "每日120-200克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "奶制品摄入",
+        "arguments": [
+          "Y6"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y6",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y6",
+          "相当于液态奶300克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "烹调植物油摄入",
+        "arguments": [
+          "Y7"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y7",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y7",
+          "小于25克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "添加糖摄入",
+        "arguments": [
+          "Y8"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y8",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入达标",
+        "arguments": [
+          "Y8",
+          "每日小于25克"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y1": "总脂肪摄入量实体",
+      "Y2": "反式脂肪酸摄入量实体",
+      "Y3": "蔬菜摄入量实体",
+      "Y4": "水果摄入量实体",
+      "Y5": "鱼禽蛋瘦肉摄入量实体",
+      "Y6": "奶制品摄入量实体",
+      "Y7": "烹调植物油摄入量实体",
+      "Y8": "添加糖摄入量实体"
+    },
+    "source_text": "每日总脂肪摄入量应小于总热量的30%，反式脂肪酸摄入量不超过2 g；摄入新鲜蔬菜400～500 g；水果200～400 g；适量鱼、禽、蛋和瘦肉，平均摄入总量120～200 g；各种奶制品相当于液态奶300 g；烹调植物油<25 g；控制添加糖（或称游离糖，即食物中添加的单体糖，如冰糖、白砂糖等）摄入，每日<50 g，最好<25 g。"
+  },
+  {
+    "rule_name": "高危动脉粥样硬化患者卒中一级预防推荐他汀",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "他汀类药物",
+        "一级预防"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "动脉粥样硬化性脑血管病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险等级",
+        "arguments": [
+          "X",
+          "高危"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "·对于动脉粥样硬化性脑血管病风险高危或极高危者，除了治疗性生活方式的改变外，推荐他汀类药物用于卒中的一级预防（Ⅰ类推荐，A级证据）。"
+  },
+  {
+    "rule_name": "极高危动脉粥样硬化患者卒中一级预防推荐他汀",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "他汀类药物",
+        "一级预防"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "动脉粥样硬化性脑血管病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险等级",
+        "arguments": [
+          "X",
+          "极高危"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "·对于动脉粥样硬化性脑血管病风险高危或极高危者，除了治疗性生活方式的改变外，推荐他汀类药物用于卒中的一级预防（Ⅰ类推荐，A级证据）。"
+  },
+  {
+    "rule_name": "调脂干预设定LDL-C为首要靶点",
+    "head": {
+      "is_negative": false,
+      "name": "首要干预靶点",
+      "arguments": [
+        "Y",
+        "LDL-C"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "调脂治疗方案",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "调脂治疗方案"
+    },
+    "source_text": "·调脂治疗需要设定目标值，推荐以LDL-C为首要干预靶点（Ⅰ类推荐，A级证据）。"
+  },
+  {
+    "rule_name": "为极高危患者设定LDL-C目标值_1.8",
+    "head": {
+      "is_negative": false,
+      "name": "设定治疗目标",
+      "arguments": [
+        "Y",
+        "LDL-C小于1.8mmol/L"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "调脂治疗方案",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用对象",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险等级",
+        "arguments": [
+          "X",
+          "极高危"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "调脂治疗方案"
+    },
+    "source_text": "·根据脑血管病风险评估设定LDL-C目标值：极高危者LDL-C<1.8 mmol/L（70 mg/dL），高危者LDL-C<2.6 mmol/L（100 mg/dL） （Ⅰ类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "为高危患者设定LDL-C目标值_2.6",
+    "head": {
+      "is_negative": false,
+      "name": "设定治疗目标",
+      "arguments": [
+        "Y",
+        "LDL-C小于2.6mmol/L"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "调脂治疗方案",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用对象",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险等级",
+        "arguments": [
+          "X",
+          "高危"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "调脂治疗方案"
+    },
+    "source_text": "·根据脑血管病风险评估设定LDL-C目标值：极高危者LDL-C<1.8 mmol/L（70 mg/dL），高危者LDL-C<2.6 mmol/L（100 mg/dL） （Ⅰ类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "对LDL-C基线高且不达标者要求至少降低50%",
+    "head": {
+      "is_negative": false,
+      "name": "设定治疗目标",
+      "arguments": [
+        "Y",
+        "LDL-C降低至少50%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "调脂治疗方案",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用对象",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基线特征",
+        "arguments": [
+          "X",
+          "LDL-C较高且不能达标"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "调脂治疗方案"
+    },
+    "source_text": "LDL-C基线值较高不能达标者，LDL-C至少降低50%（Ⅱa类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "对基线达标的极高危患者要求LDL-C再降30%",
+    "head": {
+      "is_negative": false,
+      "name": "设定治疗目标",
+      "arguments": [
+        "Y",
+        "LDL-C降低30%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "调脂治疗方案",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用对象",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险等级",
+        "arguments": [
+          "X",
+          "极高危"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基线特征",
+        "arguments": [
+          "X",
+          "LDL-C在目标值内"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "调脂治疗方案"
+    },
+    "source_text": "极高危患者LDL-C基线在目标值以内者，LDL-C仍应降低30%左右（Ⅰ类推荐，A级证据）。"
+  },
+  {
+    "rule_name": "建议高危者起始中等强度他汀并允许调整与联合",
+    "head": {
+      "is_negative": false,
+      "name": "起始治疗方案",
+      "arguments": [
+        "X",
+        "中等强度他汀"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "风险等级",
+        "arguments": [
+          "X",
+          "高危"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "不能耐受",
+        "arguments": [
+          "X",
+          "中等强度他汀"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "·建议脑血管病风险高危或极高危者起始宜应用中等强度他汀，根据个体调脂疗效和耐受情况，适当调整剂量，若胆固醇水平不能达标，应考虑与其他调脂药物联合使用（Ⅰ类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "建议极高危者起始中等强度他汀并允许调整与联合",
+    "head": {
+      "is_negative": false,
+      "name": "起始治疗方案",
+      "arguments": [
+        "X",
+        "中等强度他汀"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "风险等级",
+        "arguments": [
+          "X",
+          "极高危"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "不能耐受",
+        "arguments": [
+          "X",
+          "中等强度他汀"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "·建议脑血管病风险高危或极高危者起始宜应用中等强度他汀，根据个体调脂疗效和耐受情况，适当调整剂量，若胆固醇水平不能达标，应考虑与其他调脂药物联合使用（Ⅰ类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "对他汀不耐受者可考虑非他汀类药物",
+    "head": {
+      "is_negative": false,
+      "name": "考虑替代治疗方案",
+      "arguments": [
+        "X",
+        "非他汀类降脂药"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "不能耐受",
+        "arguments": [
+          "X",
+          "他汀治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "·对于不能耐受他汀治疗或他汀治疗未达标的患者，可考虑使用或联合使用非他汀类降脂药物例如纤维酸衍生物、烟酸或依折麦布、PCSK9抑制剂，其预防卒中的效果有待进一步明确（Ⅱb类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "对他汀治疗未达标者可考虑非他汀类药物",
+    "head": {
+      "is_negative": false,
+      "name": "考虑替代治疗方案",
+      "arguments": [
+        "X",
+        "非他汀类降脂药"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "治疗效果",
+        "arguments": [
+          "X",
+          "他汀治疗未达标"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "·对于不能耐受他汀治疗或他汀治疗未达标的患者，可考虑使用或联合使用非他汀类降脂药物例如纤维酸衍生物、烟酸或依折麦布、PCSK9抑制剂，其预防卒中的效果有待进一步明确（Ⅱb类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "高风险个体阿司匹林一级预防推荐合理",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "阿司匹林",
+        "合理"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心脑血管风险水平",
+        "arguments": [
+          "X",
+          "大于10%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药目的",
+        "arguments": [
+          "X",
+          "预防脑血管病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "个体"
+    },
+    "source_text": "对于10年心脑血管事件风险>10%的个体，使用阿司匹林预防脑血管病是合理的，其获益远超过风险（Ⅱa类推荐，A级证据）。"
+  },
+  {
+    "rule_name": "中风险个体阿司匹林一级预防可使用",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "阿司匹林",
+        "可使用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心脑血管风险水平",
+        "arguments": [
+          "X",
+          "百分之6至10"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药目的",
+        "arguments": [
+          "X",
+          "预防脑血管病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "个体"
+    },
+    "source_text": "在10年心脑血管事件风险为6%～10%的个体中，可以使用阿司匹林预防脑血管病（Ⅱa类推荐，A级证据）。"
+  },
+  {
+    "rule_name": "低风险个体不建议应用阿司匹林一级预防",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "阿司匹林",
+        "不建议"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心脑血管风险水平",
+        "arguments": [
+          "X",
+          "低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药目的",
+        "arguments": [
+          "X",
+          "预防性应用"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "个体"
+    },
+    "source_text": "不建议脑血管病低风险人群预防性应用阿司匹林（Ⅲ类推荐，A级证据）。"
+  },
+  {
+    "rule_name": "老年女性患者建议阿司匹林一级预防",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "阿司匹林",
+        "建议"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "性别",
+        "arguments": [
+          "X",
+          "女性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄属性",
+        "arguments": [
+          "X",
+          "大于45岁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药方案",
+        "arguments": [
+          "X",
+          "100mg隔日"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药目的",
+        "arguments": [
+          "X",
+          "卒中一级预防"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "45岁以上的女性患者，尤其是65岁以上女性患者，建议应用阿司匹林（100 mg，隔日）进行卒中一级预防（Ⅱa类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "中度肾功能不全患者阿司匹林一级预防或合理",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "阿司匹林",
+        "或许合理"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "慢性肾脏疾病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肾功能指标",
+        "arguments": [
+          "X",
+          "肾小球滤过率小于45"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药目的",
+        "arguments": [
+          "X",
+          "卒中一级预防"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "阿司匹林用于慢性肾脏疾病患者［估计肾小球滤过率＜45 mL·min-1·（1.73 m2）-1］的卒中一级预防或许是合理的（Ⅱb类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "严重肾功能不全患者不建议阿司匹林一级预防",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "阿司匹林",
+        "不建议"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "慢性肾脏疾病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病分期",
+        "arguments": [
+          "X",
+          "CKD4期或5期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肾功能指标",
+        "arguments": [
+          "X",
+          "肾小球滤过率小于30"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "但不建议用于严重的肾脏疾病患者［CKD4期或5期，估计肾小球滤过率＜30 mL·min-1·（1.73 m2）-1］。"
+  },
+  {
+    "rule_name": "存在其他病变的未破裂动脉瘤患者干预指征",
+    "head": {
+      "is_negative": false,
+      "name": "临床干预指征",
+      "arguments": [
+        "X",
+        "强烈",
+        "处理流程"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动脉瘤",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学随访增大",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者年龄因素",
+        "arguments": [
+          "X",
+          "考虑"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "既往病史",
+        "arguments": [
+          "X",
+          "动脉瘤性SAH"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "家族史",
+        "arguments": [
+          "X",
+          "颅内动脉瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "多发性动脉瘤",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并存病变",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变类型",
+        "arguments": [
+          "Z",
+          "动静脉畸形"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "动脉瘤",
+      "Z": "其他病变"
+    },
+    "source_text": "连续影像学随访证实动脉瘤增大；患者年龄；既往动脉瘤性SAH史；颅内动脉瘤家族史；存在多发性动脉瘤；同时存在导致动脉瘤破裂出血风险增高的其他病变（如动静脉畸形）或遗传性疾病（Ⅰ类推荐，C级证据）。未破裂动脉瘤患者处理流程见图5。"
+  },
+  {
+    "rule_name": "存在遗传病的未破裂动脉瘤患者干预指征",
+    "head": {
+      "is_negative": false,
+      "name": "临床干预指征",
+      "arguments": [
+        "X",
+        "强烈",
+        "处理流程"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动脉瘤",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学随访增大",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者年龄因素",
+        "arguments": [
+          "X",
+          "考虑"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "既往病史",
+        "arguments": [
+          "X",
+          "动脉瘤性SAH"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "家族史",
+        "arguments": [
+          "X",
+          "颅内动脉瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "多发性动脉瘤",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "遗传性疾病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "动脉瘤"
+    },
+    "source_text": "连续影像学随访证实动脉瘤增大；患者年龄；既往动脉瘤性SAH史；颅内动脉瘤家族史；存在多发性动脉瘤；同时存在导致动脉瘤破裂出血风险增高的其他病变（如动静脉畸形）或遗传性疾病（Ⅰ类推荐，C级证据）。未破裂动脉瘤患者处理流程见图5。"
+  }
+]

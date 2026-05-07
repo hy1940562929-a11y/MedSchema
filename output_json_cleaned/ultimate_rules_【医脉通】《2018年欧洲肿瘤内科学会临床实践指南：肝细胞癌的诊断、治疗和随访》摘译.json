@@ -1,0 +1,953 @@
+[
+  {
+    "rule_name": "符合Zacharias研究纳入标准的患者特征",
+    "head": {
+      "is_negative": false,
+      "name": "被纳入研究",
+      "arguments": [
+        "X",
+        "Zacharias_2018_研究"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "成人患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "肝硬化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "X",
+          "食管胃底静脉曲张"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目的",
+        "arguments": [
+          "X",
+          "上消化道出血一级预防"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "参与试验类型",
+        "arguments": [
+          "X",
+          "随机临床试验"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "比较治疗",
+        "arguments": [
+          "该试验",
+          "卡维地洛",
+          "非选择性β受体阻滞剂"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "该试验": "患者X所参与的随机临床试验"
+    },
+    "source_text": "卡维地洛与非选择性β受体阻滞剂治疗成人肝硬化食管胃底静脉曲张效果比较【据《ＣｏｃｈｒａｎｅＤａｔａｂａｓｅＳｙｓｔＲｅｖ》２０１８年１０月报道】题：比较卡维地洛与非选择性β受体阻滞剂治疗成人肝硬化食管胃底静脉曲张的结局（作者ＺａｃｈａｒｉａｓＡＰ等）非选择性β受体阻滞剂被推荐用于预防肝硬化门静脉高压患者的食管胃底静脉曲张出血。卡维地洛是非选择性β受体阻滞剂，还可阻断α１受体，因此在降低门静脉压力和减少上消化道出血风险方面可能优于非选择性β 受体阻滞剂。Ｚａｃｈａｒｉａｓ等的研究旨在评估卡维地洛与非选择性β 受体阻滞剂治疗成人肝硬化食管胃底静脉曲张的利和弊。研究者检索了Ｃｏｃｈｒａｎｅ肝胆组对照试验注册库、Ｃｏｃｈｒａｎｅ对照试验中心注册库（ＣＥＮＴＲＡＬ）、Ｍｅｄｌｉｎｅ、Ｅｍｂａｓｅ、ＬＩＬＡＣＳ和ＳＣＩ数据库，结合人工检索。纳入了比较卡维地洛与非选择性β 受体阻滞剂的随机临床试验，不论发表状态、盲法或语言；还纳入了有关成人肝硬化伴食管胃底静脉曲张患者进行上消化道出血一级和二级预防的试验。主要结局指标为病死率、上消化道出血和严重不良事件。用相对危险度（ＲＲ）或均值差（ＭＤ）以及各自９５％可信区间（９５％ＣＩ）呈现效应量，用Ｉ２值评估异质性。通过Ｃｏｃｈｒａｎｅ肝胆领域评估偏倚控制和ＧＲＡＤＥ评估证据质量。１０项随机临床试验被纳入，包括８１０例肝硬化伴食管静脉曲张患者。"
+  },
+  {
+    "rule_name": "Zacharias研究评估卡维地洛利弊的核心逻辑",
+    "head": {
+      "is_negative": false,
+      "name": "研究评估",
+      "arguments": [
+        "该研究",
+        "利弊"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "研究作者",
+        "arguments": [
+          "该研究",
+          "Zacharias_AP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究目标",
+        "arguments": [
+          "该研究",
+          "比较结局"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "比较药物",
+        "arguments": [
+          "该研究",
+          "卡维地洛",
+          "非选择性β受体阻滞剂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标患者群体",
+        "arguments": [
+          "该研究",
+          "成人肝硬化食管胃底静脉曲张患者"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物机制",
+        "arguments": [
+          "卡维地洛",
+          "双重阻断"
+        ]
+      }
+    ],
+    "variables": {
+      "该研究": "Zacharias_2018_研究"
+    },
+    "source_text": "卡维地洛与非选择性β受体阻滞剂治疗成人肝硬化食管胃底静脉曲张效果比较【据《ＣｏｃｈｒａｎｅＤａｔａｂａｓｅＳｙｓｔＲｅｖ》２０１８年１０月报道】题：比较卡维地洛与非选择性β受体阻滞剂治疗成人肝硬化食管胃底静脉曲张的结局（作者ＺａｃｈａｒｉａｓＡＰ等）非选择性β受体阻滞剂被推荐用于预防肝硬化门静脉高压患者的食管胃底静脉曲张出血。卡维地洛是非选择性β受体阻滞剂，还可阻断α１受体，因此在降低门静脉压力和减少上消化道出血风险方面可能优于非选择性β 受体阻滞剂。Ｚａｃｈａｒｉａｓ等的研究旨在评估卡维地洛与非选择性β 受体阻滞剂治疗成人肝硬化食管胃底静脉曲张的利和弊。研究者检索了Ｃｏｃｈｒａｎｅ肝胆组对照试验注册库、Ｃｏｃｈｒａｎｅ对照试验中心注册库（ＣＥＮＴＲＡＬ）、Ｍｅｄｌｉｎｅ、Ｅｍｂａｓｅ、ＬＩＬＡＣＳ和ＳＣＩ数据库，结合人工检索。纳入了比较卡维地洛与非选择性β 受体阻滞剂的随机临床试验，不论发表状态、盲法或语言；还纳入了有关成人肝硬化伴食管胃底静脉曲张患者进行上消化道出血一级和二级预防的试验。主要结局指标为病死率、上消化道出血和严重不良事件。用相对危险度（ＲＲ）或均值差（ＭＤ）以及各自９５％可信区间（９５％ＣＩ）呈现效应量，用Ｉ２值评估异质性。通过Ｃｏｃｈｒａｎｅ肝胆领域评估偏倚控制和ＧＲＡＤＥ评估证据质量。１０项随机临床试验被纳入，包括８１０例肝硬化伴食管静脉曲张患者。"
+  },
+  {
+    "rule_name": "A期无症状肝功良好患者TACE获益推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "TACE",
+        "延长总体生存期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HCC患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状状态",
+        "arguments": [
+          "X",
+          "无症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肝功能状态",
+        "arguments": [
+          "X",
+          "良好"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病分期",
+        "arguments": [
+          "X",
+          "BCLC_A期"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "(11) 无临床症状且肝功能良好的ＢＣＬＣＡ期患者及肿瘤较小但不适合手术或局部消融治疗的早中阶段ＢＣＬＣＢ期患者，行ＴＡＣＥ治疗可延长总体生存期［Ⅰ，Ａ］。"
+  },
+  {
+    "rule_name": "早中B期肿瘤小且不适手术消融患者TACE获益推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "TACE",
+        "延长总体生存期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HCC患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适合治疗",
+        "arguments": [
+          "X",
+          "手术",
+          "不适合"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适合治疗",
+        "arguments": [
+          "X",
+          "局部消融治疗",
+          "不适合"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肿瘤特征",
+        "arguments": [
+          "X",
+          "较小"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病阶段",
+        "arguments": [
+          "X",
+          "早中阶段"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病分期",
+        "arguments": [
+          "X",
+          "BCLC_B期"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "(11) 无临床症状且肝功能良好的ＢＣＬＣＡ期患者及肿瘤较小但不适合手术或局部消融治疗的早中阶段ＢＣＬＣＢ期患者，行ＴＡＣＥ治疗可延长总体生存期［Ⅰ，Ａ］。"
+  },
+  {
+    "rule_name": "非临床试验背景下基于无效评分模型的TACE方案不推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "Z",
+        "不推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "治疗流程方案",
+        "arguments": [
+          "Z",
+          "基于未知预测价值预后评分模型的TACE治疗流程"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联患者",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "研究类型",
+        "arguments": [
+          "Z",
+          "临床试验"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "治疗流程方案"
+    },
+    "source_text": "(12) 除临床试验外，对于初次启动或重复ＴＡＣＥ治疗，基于未知预测价值预后评分模型的治疗流程方案，目前不被推荐［Ⅲ，Ａ］。"
+  },
+  {
+    "rule_name": "常规TACE作为中期HCC标准方案",
+    "head": {
+      "is_negative": false,
+      "name": "标准治疗方案",
+      "arguments": [
+        "X",
+        "常规TACE"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "中期HCC患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方式",
+        "arguments": [
+          "常规TACE",
+          "碘油乳剂栓塞剂"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "(13) 碘油乳剂为栓塞剂的常规ＴＡＣＥ是中期ＨＣＣ患者的标准治疗方案，尽管应用载药微球为栓塞剂的药物洗脱微球ＴＡＣＥ可以减少化疗产生的全身副作用［Ⅰ，Ｃ］。"
+  },
+  {
+    "rule_name": "TACE与全身治疗同时使用不推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "W",
+        "不推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HCC患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方式组合",
+        "arguments": [
+          "W",
+          "同时使用",
+          "TACE",
+          "索拉非尼等全身治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联患者",
+        "arguments": [
+          "W",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "W": "治疗方式组合"
+    },
+    "source_text": "(14) 不推荐ＴＡＣＥ与索拉非尼等全身治疗同时或序贯使用［Ⅰ，Ｅ］。"
+  },
+  {
+    "rule_name": "TACE与全身治疗序贯使用不推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "W",
+        "不推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HCC患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方式组合",
+        "arguments": [
+          "W",
+          "序贯使用",
+          "TACE",
+          "索拉非尼等全身治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联患者",
+        "arguments": [
+          "W",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "W": "治疗方式组合"
+    },
+    "source_text": "(14) 不推荐ＴＡＣＥ与索拉非尼等全身治疗同时或序贯使用［Ⅰ，Ｅ］。"
+  },
+  {
+    "rule_name": "中晚期HCC患者一线不推荐选择性内放射治疗",
+    "head": {
+      "is_negative": false,
+      "name": "一线治疗方案",
+      "arguments": [
+        "选择性内放射治疗",
+        "不推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HCC患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病分期",
+        "arguments": [
+          "X",
+          "中晚期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联治疗方案",
+        "arguments": [
+          "X",
+          "选择性内放射治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "(15) 对于中晚期ＨＣＣ患者，不推荐将选择性内放射治疗作为一线治疗方案［Ⅰ，Ｅ］。"
+  },
+  {
+    "rule_name": "通过组织学小梁间隔增宽确诊高分化HCC活检",
+    "head": {
+      "is_negative": false,
+      "name": "确诊依据",
+      "arguments": [
+        "X",
+        "高分化HCC",
+        "充分"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "活检样本",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分化类型",
+        "arguments": [
+          "X",
+          "高分化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺乏明确征象",
+        "arguments": [
+          "X",
+          "恶性肿瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组织学特征",
+        "arguments": [
+          "X",
+          "小梁间隔增宽"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "活检样本",
+      "Y": "患者"
+    },
+    "source_text": "（１０）高分化ＨＣＣ活组织检查通常看不到明确恶性肿瘤征象（间质或血管侵犯），可通过组织学（小梁改变：小梁间隔增宽、假腺管结构、病灶内网状支架减少或消失、包膜形成）和细胞学（细胞核／质比增加如细胞核呈拥挤表象、细胞质嗜碱性物质增多）方面来确诊［Ⅲ，Ｂ］。"
+  },
+  {
+    "rule_name": "通过组织学假腺管结构确诊高分化HCC活检",
+    "head": {
+      "is_negative": false,
+      "name": "确诊依据",
+      "arguments": [
+        "X",
+        "高分化HCC",
+        "充分"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "活检样本",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分化类型",
+        "arguments": [
+          "X",
+          "高分化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺乏明确征象",
+        "arguments": [
+          "X",
+          "恶性肿瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组织学特征",
+        "arguments": [
+          "X",
+          "假腺管结构"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "活检样本",
+      "Y": "患者"
+    },
+    "source_text": "（１０）高分化ＨＣＣ活组织检查通常看不到明确恶性肿瘤征象（间质或血管侵犯），可通过组织学（小梁改变：小梁间隔增宽、假腺管结构、病灶内网状支架减少或消失、包膜形成）和细胞学（细胞核／质比增加如细胞核呈拥挤表象、细胞质嗜碱性物质增多）方面来确诊［Ⅲ，Ｂ］。"
+  },
+  {
+    "rule_name": "通过组织学网状支架减少或消失确诊高分化HCC活检",
+    "head": {
+      "is_negative": false,
+      "name": "确诊依据",
+      "arguments": [
+        "X",
+        "高分化HCC",
+        "充分"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "活检样本",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分化类型",
+        "arguments": [
+          "X",
+          "高分化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺乏明确征象",
+        "arguments": [
+          "X",
+          "恶性肿瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组织学特征",
+        "arguments": [
+          "X",
+          "病灶内网状支架减少或消失"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "活检样本",
+      "Y": "患者"
+    },
+    "source_text": "（１０）高分化ＨＣＣ活组织检查通常看不到明确恶性肿瘤征象（间质或血管侵犯），可通过组织学（小梁改变：小梁间隔增宽、假腺管结构、病灶内网状支架减少或消失、包膜形成）和细胞学（细胞核／质比增加如细胞核呈拥挤表象、细胞质嗜碱性物质增多）方面来确诊［Ⅲ，Ｂ］。"
+  },
+  {
+    "rule_name": "通过组织学包膜形成确诊高分化HCC活检",
+    "head": {
+      "is_negative": false,
+      "name": "确诊依据",
+      "arguments": [
+        "X",
+        "高分化HCC",
+        "充分"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "活检样本",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分化类型",
+        "arguments": [
+          "X",
+          "高分化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺乏明确征象",
+        "arguments": [
+          "X",
+          "恶性肿瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组织学特征",
+        "arguments": [
+          "X",
+          "包膜形成"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "活检样本",
+      "Y": "患者"
+    },
+    "source_text": "（１０）高分化ＨＣＣ活组织检查通常看不到明确恶性肿瘤征象（间质或血管侵犯），可通过组织学（小梁改变：小梁间隔增宽、假腺管结构、病灶内网状支架减少或消失、包膜形成）和细胞学（细胞核／质比增加如细胞核呈拥挤表象、细胞质嗜碱性物质增多）方面来确诊［Ⅲ，Ｂ］。"
+  },
+  {
+    "rule_name": "通过细胞学核质比增加细胞核拥挤确诊高分化HCC活检",
+    "head": {
+      "is_negative": false,
+      "name": "确诊依据",
+      "arguments": [
+        "X",
+        "高分化HCC",
+        "充分"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "活检样本",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分化类型",
+        "arguments": [
+          "X",
+          "高分化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺乏明确征象",
+        "arguments": [
+          "X",
+          "恶性肿瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "细胞学特征",
+        "arguments": [
+          "X",
+          "细胞核拥挤表象"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "活检样本",
+      "Y": "患者"
+    },
+    "source_text": "（１０）高分化ＨＣＣ活组织检查通常看不到明确恶性肿瘤征象（间质或血管侵犯），可通过组织学（小梁改变：小梁间隔增宽、假腺管结构、病灶内网状支架减少或消失、包膜形成）和细胞学（细胞核／质比增加如细胞核呈拥挤表象、细胞质嗜碱性物质增多）方面来确诊［Ⅲ，Ｂ］。"
+  },
+  {
+    "rule_name": "通过细胞学嗜碱性物质增多确诊高分化HCC活检",
+    "head": {
+      "is_negative": false,
+      "name": "确诊依据",
+      "arguments": [
+        "X",
+        "高分化HCC",
+        "充分"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "活检样本",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分化类型",
+        "arguments": [
+          "X",
+          "高分化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺乏明确征象",
+        "arguments": [
+          "X",
+          "恶性肿瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "细胞学特征",
+        "arguments": [
+          "X",
+          "细胞质嗜碱性物质增多"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "活检样本",
+      "Y": "患者"
+    },
+    "source_text": "（１０）高分化ＨＣＣ活组织检查通常看不到明确恶性肿瘤征象（间质或血管侵犯），可通过组织学（小梁改变：小梁间隔增宽、假腺管结构、病灶内网状支架减少或消失、包膜形成）和细胞学（细胞核／质比增加如细胞核呈拥挤表象、细胞质嗜碱性物质增多）方面来确诊［Ⅲ，Ｂ］。"
+  },
+  {
+    "rule_name": "不伴门脉高压的Child_Pugh_A级患者适用肝切除术",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗",
+      "arguments": [
+        "X",
+        "肝切除术",
+        "适用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "HCC"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "Child_Pugh_A级",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "门静脉高压症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（４）通常应用Ｃｈｉｌｄ－Ｐｕｇｈ评分系统（血清胆红素、血清白蛋白、腹水、凝血酶原时间和肝性脑病）来评估肝储备情况［Ⅲ，Ａ］。（５）在Ｃｈｉｌｄ－ＰｕｇｈＡ级ＨＣＣ患者中，应用白蛋白－胆红素（ＡＬＢＩ）评分可以对预后进行评估：ＡＬＢＩ１级患者预后较好，ＡＬＢＩ２级患者预后较差，２组中位生存期分别为２６个月和１４个月［Ⅳ，Ｂ］。（６）临床上出现食管静脉曲张和（或）脾大伴血小板计数为１００× １０９／Ｌ表明存在门静脉高压症，也可通过经颈静脉途径进行有创测量（肝静脉压力梯度＞１０ｍｍＨｇ）［Ⅲ，Ａ］。４ 疾病管理４．１ 早期和中期ＨＣＣ的管理（１）不伴门静脉高压症的Ｃｈｉｌｄ－ＰｕｇｈＡ级患者适用小范围或大范围肝切除术［Ⅲ，Ｂ］。（２）经过谨慎筛选的伴或不伴门静脉高压症的Ｃｈｉｌｄ－ＰｕｇｈＢ级患者可适用小范围肝切除术［Ⅲ，Ａ］。"
+  },
+  {
+    "rule_name": "谨慎筛选伴门脉高压的Child_Pugh_B级患者可适用小范围肝切",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗",
+      "arguments": [
+        "X",
+        "肝切除术",
+        "小范围"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "HCC"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "Child_Pugh_B级",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "门静脉高压症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "经过筛选",
+        "arguments": [
+          "X",
+          "谨慎"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（４）通常应用Ｃｈｉｌｄ－Ｐｕｇｈ评分系统（血清胆红素、血清白蛋白、腹水、凝血酶原时间和肝性脑病）来评估肝储备情况［Ⅲ，Ａ］。（５）在Ｃｈｉｌｄ－ＰｕｇｈＡ级ＨＣＣ患者中，应用白蛋白－胆红素（ＡＬＢＩ）评分可以对预后进行评估：ＡＬＢＩ１级患者预后较好，ＡＬＢＩ２级患者预后较差，２组中位生存期分别为２６个月和１４个月［Ⅳ，Ｂ］。（６）临床上出现食管静脉曲张和（或）脾大伴血小板计数为１００× １０９／Ｌ表明存在门静脉高压症，也可通过经颈静脉途径进行有创测量（肝静脉压力梯度＞１０ｍｍＨｇ）［Ⅲ，Ａ］。４ 疾病管理４．１ 早期和中期ＨＣＣ的管理（１）不伴门静脉高压症的Ｃｈｉｌｄ－ＰｕｇｈＡ级患者适用小范围或大范围肝切除术［Ⅲ，Ｂ］。（２）经过谨慎筛选的伴或不伴门静脉高压症的Ｃｈｉｌｄ－ＰｕｇｈＢ级患者可适用小范围肝切除术［Ⅲ，Ａ］。"
+  },
+  {
+    "rule_name": "谨慎筛选不伴门脉高压的Child_Pugh_B级患者可适用小范围肝切",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗",
+      "arguments": [
+        "X",
+        "肝切除术",
+        "小范围"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "HCC"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "Child_Pugh_B级",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "门静脉高压症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "经过筛选",
+        "arguments": [
+          "X",
+          "谨慎"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（４）通常应用Ｃｈｉｌｄ－Ｐｕｇｈ评分系统（血清胆红素、血清白蛋白、腹水、凝血酶原时间和肝性脑病）来评估肝储备情况［Ⅲ，Ａ］。（５）在Ｃｈｉｌｄ－ＰｕｇｈＡ级ＨＣＣ患者中，应用白蛋白－胆红素（ＡＬＢＩ）评分可以对预后进行评估：ＡＬＢＩ１级患者预后较好，ＡＬＢＩ２级患者预后较差，２组中位生存期分别为２６个月和１４个月［Ⅳ，Ｂ］。（６）临床上出现食管静脉曲张和（或）脾大伴血小板计数为１００× １０９／Ｌ表明存在门静脉高压症，也可通过经颈静脉途径进行有创测量（肝静脉压力梯度＞１０ｍｍＨｇ）［Ⅲ，Ａ］。４ 疾病管理４．１ 早期和中期ＨＣＣ的管理（１）不伴门静脉高压症的Ｃｈｉｌｄ－ＰｕｇｈＡ级患者适用小范围或大范围肝切除术［Ⅲ，Ｂ］。（２）经过谨慎筛选的伴或不伴门静脉高压症的Ｃｈｉｌｄ－ＰｕｇｈＢ级患者可适用小范围肝切除术［Ⅲ，Ａ］。"
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "促甲状腺激素": [
+    "thyroid‑stimulating hormone",
+    "TSH"
+  ],
+  "左甲状腺素": [
+    "levothyroxine"
+  ],
+  "甲状腺球蛋白": [
+    "Tg"
+  ],
+  "滤泡性病变": [
+    "follicular neoplasm",
+    "follicular lesions"
+  ],
+  "意义不明确的非典型性": [
+    "atypia of undetermined significance",
+    "AUS"
+  ],
+  "意义不明确的滤泡性病变": [
+    "FLUS",
+    "follicular lesions of undetermined significance"
+  ],
+  "甲状腺乳头状癌": [
+    "papillary thyroid carcinoma",
+    "PAP‑1"
+  ],
+  "BRAF V600E": [
+    "BRAF V600E"
+  ],
+  "甲状腺细针穿刺活检": [
+    "FNA"
+  ],
+  "美国国家癌症研究所": [
+    "NCI"
+  ],
+  "Bethesda分类系统": [
+    "Bethesda Classification"
+  ],
+  "甲状腺影像报告和数据系统": [
+    "TI-RADS"
+  ],
+  "美国甲状腺协会": [
+    "ATA"
+  ],
+  "细针穿刺": [
+    "FNA"
+  ],
+  "淋巴结转移": [
+    "淋巴腺转移"
+  ],
+  "细胞学": [
+    "cytology"
+  ],
+  "超声": [
+    "ultrasound",
+    "Ultrasound",
+    "ultrasound‑guided"
+  ],
+  "恶性肿瘤": [
+    "neoplasm"
+  ],
+  "非典型滤泡性病变": [
+    "atypical follicular lesion"
+  ],
+  "细胞性滤泡性病变": [
+    "cellular follicular lesion"
+  ],
+  "分子诊断结果": [
+    "Molecular Diagnostic Results"
+  ],
+  "叶切除术": [
+    "lobectomy"
+  ],
+  "活检": [
+    "biopsy"
+  ],
+  "甲状腺结节": [
+    "thyroid nodule",
+    "Thyroid nodule(s)"
+  ],
+  "甲状腺": [
+    "thyroid"
+  ],
+  "颈部": [
+    "neck"
+  ],
+  "淋巴结": [
+    "lymph node"
+  ],
+  "甲状腺功能减退症": [
+    "hypothyroidism"
+  ],
+  "甲状腺功能亢进症": [
+    "thyrotoxicosis"
+  ],
+  "放射性碘成像": [
+    "Radioiodineimaging"
+  ],
+  "甲状腺摄取和扫描": [
+    "thyroid uptake and scan"
+  ],
+  "自主功能性结节": [
+    "autonomous nodules",
+    "Autonomously functioning (hot)"
+  ],
+  "低功能结节": [
+    "Hypofunctional"
+  ]
+}

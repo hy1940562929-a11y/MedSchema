@@ -1,0 +1,2776 @@
+[
+  {
+    "rule_name": "退行性骨密度降低性骨代谢病钙剂补充方案",
+    "head": {
+      "is_negative": false,
+      "name": "行为推荐",
+      "arguments": [
+        "X",
+        "C",
+        "针对疾病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "罹患",
+        "arguments": [
+          "X",
+          "D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "D",
+          "骨代谢异常性疾病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征",
+        "arguments": [
+          "D",
+          "退行性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征",
+        "arguments": [
+          "D",
+          "骨密度降低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "行为类型",
+        "arguments": [
+          "C",
+          "补充钙剂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属行为",
+        "arguments": [
+          "C",
+          "适量补充"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "D": "疾病",
+      "C": "行为"
+    },
+    "source_text": "（6）钙剂与维生素D：需适量补充。用于以退行性和骨密度降低为主要特征的骨代谢异常性疾病，每日元素钙的总摄入量可加至800~1 200 mg，目前国内有碳酸钙、醋酸钙、葡萄糖酸钙、枸橼酸钙等多种制剂可选。在补充钙剂的同时可补充维生素D 600~800 U或骨化三醇等［32］。"
+  },
+  {
+    "rule_name": "狄诺塞麦作为RANKL抑制剂的骨密度增加机制",
+    "head": {
+      "is_negative": false,
+      "name": "增加骨密度",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "RANKL抑制剂",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "单克隆抗体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特异性靶向",
+        "arguments": [
+          "X",
+          "RANKL"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "阻止结合",
+        "arguments": [
+          "X",
+          "RANKL与受体"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抑制过程",
+        "arguments": [
+          "X",
+          "破骨细胞活化"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "药物物质"
+    },
+    "source_text": "（2）狄诺塞麦：是一种RANK配体（RANKL）抑制剂，与现已获准的减少肿瘤骨骼并发症的药物作用机制不同。它是一种特异性靶向RANKL的完全人源化单克隆抗体，可以阻止RANKL和其受体物质结合，抑制破骨细胞活化和发展，减少骨吸收，增加骨密度。新药Evenity（romosozumab）是一种结合硬骨素的单克隆抗体，临床研究表明其同样能够有效地增加骨形成，并减少骨吸收，目前未在国内上市［35］。"
+  },
+  {
+    "rule_name": "单克隆抗体药物通过阻断RANKL通路抑制骨吸收",
+    "head": {
+      "is_negative": false,
+      "name": "抑制过程",
+      "arguments": [
+        "X",
+        "骨吸收"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "单克隆抗体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特异性靶向",
+        "arguments": [
+          "X",
+          "RANKL"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "阻止结合",
+        "arguments": [
+          "X",
+          "RANKL与受体"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抑制过程",
+        "arguments": [
+          "X",
+          "破骨细胞发展"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "药物物质"
+    },
+    "source_text": "（2）狄诺塞麦：是一种RANK配体（RANKL）抑制剂，与现已获准的减少肿瘤骨骼并发症的药物作用机制不同。它是一种特异性靶向RANKL的完全人源化单克隆抗体，可以阻止RANKL和其受体物质结合，抑制破骨细胞活化和发展，减少骨吸收，增加骨密度。新药Evenity（romosozumab）是一种结合硬骨素的单克隆抗体，临床研究表明其同样能够有效地增加骨形成，并减少骨吸收，目前未在国内上市［35］。"
+  },
+  {
+    "rule_name": "结合硬骨素的单克隆抗体新药的骨形成促进作用",
+    "head": {
+      "is_negative": false,
+      "name": "促进过程",
+      "arguments": [
+        "X",
+        "骨形成"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "单克隆抗体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "结合靶点",
+        "arguments": [
+          "X",
+          "硬骨素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抑制过程",
+        "arguments": [
+          "X",
+          "骨吸收"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "药物物质"
+    },
+    "source_text": "（2）狄诺塞麦：是一种RANK配体（RANKL）抑制剂，与现已获准的减少肿瘤骨骼并发症的药物作用机制不同。它是一种特异性靶向RANKL的完全人源化单克隆抗体，可以阻止RANKL和其受体物质结合，抑制破骨细胞活化和发展，减少骨吸收，增加骨密度。新药Evenity（romosozumab）是一种结合硬骨素的单克隆抗体，临床研究表明其同样能够有效地增加骨形成，并减少骨吸收，目前未在国内上市［35］。"
+  },
+  {
+    "rule_name": "免疫炎症性骨病患者的一线常规药物推荐",
+    "head": {
+      "is_negative": false,
+      "name": "药物推荐",
+      "arguments": [
+        "X",
+        "甲氨蝶呤",
+        "常规"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "类风湿关节炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "强直性脊柱炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "Y",
+          "控制症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "Y",
+          "防止结构破坏"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疾病"
+    },
+    "source_text": "免疫、炎症性骨代谢异常：类风湿关节炎、强直性脊柱炎、股骨头坏死、炎性肠病等多种自身免疫、炎症性疾病也与骨代谢异常有关。系统性的炎症是发生骨质疏松的独立危险因素，骨骼可能是类风湿性关节炎病程中一个重要的靶器官。类风湿性关节炎、强直性脊柱炎等疾病的治疗目标为控制症状、防止结构破坏、恢复生理功能及提高日常生活能力。针对这类疾病的病理生理过程，常用的治疗药物为非甾体类抗炎药（NSAIDs）、抗风湿药（如甲氨蝶呤和柳氮磺吡啶、TNF抑制剂、云克）等［37］。糖皮质激素可以减轻患者症状，故也常被应用于这类疾病，TNF抑制剂常用于NSAIDs疗效不佳的患者，临床研究已证实了其良好的抗炎和阻止疾病进展的作用，但应用时应注意其不良反应及增加感染的风险。"
+  },
+  {
+    "rule_name": "免疫炎症性骨病患者症状控制常用糖皮质激素",
+    "head": {
+      "is_negative": false,
+      "name": "药物应用",
+      "arguments": [
+        "X",
+        "糖皮质激素",
+        "常用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类别",
+        "arguments": [
+          "Y",
+          "免疫炎症性骨病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "Y",
+          "需减轻症状"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疾病"
+    },
+    "source_text": "免疫、炎症性骨代谢异常：类风湿关节炎、强直性脊柱炎、股骨头坏死、炎性肠病等多种自身免疫、炎症性疾病也与骨代谢异常有关。系统性的炎症是发生骨质疏松的独立危险因素，骨骼可能是类风湿性关节炎病程中一个重要的靶器官。类风湿性关节炎、强直性脊柱炎等疾病的治疗目标为控制症状、防止结构破坏、恢复生理功能及提高日常生活能力。针对这类疾病的病理生理过程，常用的治疗药物为非甾体类抗炎药（NSAIDs）、抗风湿药（如甲氨蝶呤和柳氮磺吡啶、TNF抑制剂、云克）等［37］。糖皮质激素可以减轻患者症状，故也常被应用于这类疾病，TNF抑制剂常用于NSAIDs疗效不佳的患者，临床研究已证实了其良好的抗炎和阻止疾病进展的作用，但应用时应注意其不良反应及增加感染的风险。"
+  },
+  {
+    "rule_name": "NSAIDs疗效不佳患者的TNF抑制剂适用指征",
+    "head": {
+      "is_negative": false,
+      "name": "药物适用",
+      "arguments": [
+        "X",
+        "TNF抑制剂",
+        "针对疾病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类别",
+        "arguments": [
+          "Y",
+          "免疫炎症性骨病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "NSAIDs"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "疗效满意",
+        "arguments": [
+          "NSAIDs",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疾病"
+    },
+    "source_text": "免疫、炎症性骨代谢异常：类风湿关节炎、强直性脊柱炎、股骨头坏死、炎性肠病等多种自身免疫、炎症性疾病也与骨代谢异常有关。系统性的炎症是发生骨质疏松的独立危险因素，骨骼可能是类风湿性关节炎病程中一个重要的靶器官。类风湿性关节炎、强直性脊柱炎等疾病的治疗目标为控制症状、防止结构破坏、恢复生理功能及提高日常生活能力。针对这类疾病的病理生理过程，常用的治疗药物为非甾体类抗炎药（NSAIDs）、抗风湿药（如甲氨蝶呤和柳氮磺吡啶、TNF抑制剂、云克）等［37］。糖皮质激素可以减轻患者症状，故也常被应用于这类疾病，TNF抑制剂常用于NSAIDs疗效不佳的患者，临床研究已证实了其良好的抗炎和阻止疾病进展的作用，但应用时应注意其不良反应及增加感染的风险。"
+  },
+  {
+    "rule_name": "应用TNF抑制剂需注意不良反应与感染风险",
+    "head": {
+      "is_negative": false,
+      "name": "用药注意事项",
+      "arguments": [
+        "Z",
+        "不良反应及感染风险",
+        "需注意"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物类别",
+        "arguments": [
+          "Z",
+          "TNF抑制剂"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "药物"
+    },
+    "source_text": "免疫、炎症性骨代谢异常：类风湿关节炎、强直性脊柱炎、股骨头坏死、炎性肠病等多种自身免疫、炎症性疾病也与骨代谢异常有关。系统性的炎症是发生骨质疏松的独立危险因素，骨骼可能是类风湿性关节炎病程中一个重要的靶器官。类风湿性关节炎、强直性脊柱炎等疾病的治疗目标为控制症状、防止结构破坏、恢复生理功能及提高日常生活能力。针对这类疾病的病理生理过程，常用的治疗药物为非甾体类抗炎药（NSAIDs）、抗风湿药（如甲氨蝶呤和柳氮磺吡啶、TNF抑制剂、云克）等［37］。糖皮质激素可以减轻患者症状，故也常被应用于这类疾病，TNF抑制剂常用于NSAIDs疗效不佳的患者，临床研究已证实了其良好的抗炎和阻止疾病进展的作用，但应用时应注意其不良反应及增加感染的风险。"
+  },
+  {
+    "rule_name": "退行性关节病变的主要症状表现",
+    "head": {
+      "is_negative": false,
+      "name": "主要症状表现",
+      "arguments": [
+        "Y",
+        "活动受限"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "退行性关节病变",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "受累关节",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要症状表现",
+        "arguments": [
+          "Y",
+          "骨性肿胀"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要症状表现",
+        "arguments": [
+          "Y",
+          "关节畸形"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要症状表现",
+        "arguments": [
+          "Y",
+          "关节不稳"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "关节"
+    },
+    "source_text": "（二）关节变形及运动受限当骨代谢异常主要发生在关节骨及软骨时，常伴有受累关节的肿胀变形、运动受限。1.退行性关节病变：（1）关节活动受限：关节的主动运动受限程度与被动运动受限程度相同，主要因为关节边缘骨赘形成；（2）骨性肿胀：由边缘性骨赘及关节一侧的骨、软骨重塑引起；（3）关节畸形：可出现于晚期的关节损伤；（4）关节不稳：患者可有肌无力及髌骨外侧半脱位［24］。"
+  },
+  {
+    "rule_name": "免疫炎症性关节病变早期累及特定小关节",
+    "head": {
+      "is_negative": false,
+      "name": "早期累及关节",
+      "arguments": [
+        "X",
+        "掌指关节"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "免疫炎症性关节病变",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "早期累及关节",
+        "arguments": [
+          "X",
+          "近端指间关节"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "早期累及关节",
+        "arguments": [
+          "X",
+          "拇指指间关节"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "早期累及关节",
+        "arguments": [
+          "X",
+          "腕关节"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "早期累及关节",
+        "arguments": [
+          "X",
+          "跖趾关节"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "2. 免疫、炎症性关节病变：疾病早期累及小关节，主要为掌指关节和近端指间关节、拇指的指间关节、腕关节和足趾的跖趾关节，例如痛风发生时可见肢端小关节的痛风结节形成；关节僵硬多见于晨起及维持同一姿势过久，如类风湿性关节炎常见“晨僵”现象，持续时间较长，病程中多伴发多个关节的肿胀。"
+  },
+  {
+    "rule_name": "痛风导致肢端小关节痛风结节",
+    "head": {
+      "is_negative": false,
+      "name": "主要症状表现",
+      "arguments": [
+        "Y",
+        "痛风结节形成"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "痛风"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肢端小关节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "关节"
+    },
+    "source_text": "例如痛风发生时可见肢端小关节的痛风结节形成；"
+  },
+  {
+    "rule_name": "类风湿性关节炎的关节肿胀与晨僵",
+    "head": {
+      "is_negative": false,
+      "name": "病程伴随症状",
+      "arguments": [
+        "X",
+        "多个关节肿胀"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "类风湿性关节炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病程伴随症状",
+        "arguments": [
+          "X",
+          "晨僵现象"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状特征",
+        "arguments": [
+          "晨僵现象",
+          "持续时间较长"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "如类风湿性关节炎常见“晨僵”现象，持续时间较长，病程中多伴发多个关节的肿胀。"
+  },
+  {
+    "rule_name": "严重强直性脊柱炎的关节表现",
+    "head": {
+      "is_negative": false,
+      "name": "主要表现",
+      "arguments": [
+        "X",
+        "脊柱关节强直"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "强直性脊柱炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "严重程度",
+        "arguments": [
+          "X",
+          "严重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要表现",
+        "arguments": [
+          "X",
+          "骶髂关节强直"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要表现",
+        "arguments": [
+          "X",
+          "非对称下肢滑膜炎"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "严重的强直性脊柱炎表现为脊柱关节及骶髂关节强直，非对称的以下肢关节为主的滑膜炎。"
+  },
+  {
+    "rule_name": "骨转移及原发恶性肿瘤破坏关节结构",
+    "head": {
+      "is_negative": false,
+      "name": "病理后果",
+      "arguments": [
+        "X",
+        "关节骨结构破坏"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患肿瘤",
+        "arguments": [
+          "X",
+          "骨转移"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患肿瘤",
+        "arguments": [
+          "X",
+          "原发性骨肿瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变部位",
+        "arguments": [
+          "X",
+          "关节"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.恶性肿瘤的关节转移及原发性骨肿瘤：骨转移及原发恶性肿瘤往往破坏关节骨结构，部分恶性肿瘤所致副肿瘤综合征也可引起关节骨及软组织功能的破坏。"
+  },
+  {
+    "rule_name": "恶性肿瘤副肿瘤综合征破坏关节功能",
+    "head": {
+      "is_negative": false,
+      "name": "病理后果",
+      "arguments": [
+        "X",
+        "关节功能破坏"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患肿瘤",
+        "arguments": [
+          "X",
+          "恶性肿瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "X",
+          "副肿瘤综合征"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理后果",
+        "arguments": [
+          "X",
+          "软组织功能破坏"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "部分恶性肿瘤所致副肿瘤综合征也可引起关节骨及软组织功能的破坏。"
+  },
+  {
+    "rule_name": "退行性废用性骨代谢异常疼痛病的典型临床表现",
+    "head": {
+      "is_negative": false,
+      "name": "呈现临床表现",
+      "arguments": [
+        "Y",
+        "典型退行废用性模式"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "退行性或废用性骨代谢异常疼痛病",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛部位",
+        "arguments": [
+          "Y",
+          "腰背部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛部位",
+        "arguments": [
+          "Y",
+          "大关节"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛性质",
+        "arguments": [
+          "Y",
+          "局部锐痛",
+          "初始"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛性质",
+        "arguments": [
+          "Y",
+          "酸胀痛",
+          "转化后"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛表现",
+        "arguments": [
+          "Y",
+          "全身疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛程度",
+        "arguments": [
+          "Y",
+          "左右不一"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "加重因素",
+        "arguments": [
+          "Y",
+          "劳累"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "加重因素",
+        "arguments": [
+          "Y",
+          "负重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缓解方式",
+        "arguments": [
+          "Y",
+          "休息"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴随症状",
+        "arguments": [
+          "Y",
+          "肌肉痉挛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴随症状",
+        "arguments": [
+          "Y",
+          "软组织疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴随症状",
+        "arguments": [
+          "Y",
+          "压痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致结果",
+        "arguments": [
+          "Y",
+          "高强度活动受限",
+          "早期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致结果",
+        "arguments": [
+          "Y",
+          "影响日常生活",
+          "中期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致结果",
+        "arguments": [
+          "Y",
+          "身心俱疲",
+          "后期"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疼痛病症"
+    },
+    "source_text": "退行性、废用性等因素所致的骨代谢异常疼痛病：主要表现为急、慢性腰背部及大关节疼痛，疼痛性质可为初始的局部锐痛逐渐转化为酸胀痛，也可有全身疼痛，疼痛程度往往在躯体左右不一，在劳累、负重后可加重，休息后缓解，可伴肌肉痉挛及软组织疼痛、压痛，病程早期的锐痛可导致高强度活动受限，病程中期疼痛可逐渐影响日常生活，后期病程中持续性钝痛使患者往往陈述身心俱疲。"
+  },
+  {
+    "rule_name": "疾病引致骨代谢异常并引发骨重塑速率降低与骨密度下降及局部疼痛",
+    "head": {
+      "is_negative": false,
+      "name": "引起",
+      "arguments": [
+        "疼痛P",
+        "局部",
+        "最终"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病实体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "X",
+          "骨代谢调节异常Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "骨代谢调节异常Y",
+          "骨重塑速率降低Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "骨重塑速率降低Z",
+          "骨密度下降W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "骨代谢调节异常Y",
+          "骨密度下降W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "骨密度下降W",
+          "疼痛P",
+          "最终"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病实体",
+      "Y": "骨代谢调节异常状态",
+      "Z": "骨重塑速率降低过程",
+      "W": "骨密度下降表现",
+      "P": "疼痛"
+    },
+    "source_text": "各种疾病导致的骨代谢调节异常、矿物质流失与不足、活性维生素D缺乏，可以使骨重塑速率降低或升高、骨基质减少或增加，骨矿物质缺乏或沉积过多，引起骨质疏松、骨软化、骨质增生、骨与软骨过度钙化等，表现为骨密度和（或）骨强度下降、慢性骨骼形变、病理性骨折、溶骨性和成骨性改变，并最终引起局部甚至全身的急、慢性疼痛病。"
+  },
+  {
+    "rule_name": "疾病引致骨代谢异常并引发骨重塑速率降低与骨强度下降及局部疼痛",
+    "head": {
+      "is_negative": false,
+      "name": "引起",
+      "arguments": [
+        "疼痛P",
+        "局部",
+        "最终"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病实体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "X",
+          "骨代谢调节异常Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "骨代谢调节异常Y",
+          "骨重塑速率降低Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "骨重塑速率降低Z",
+          "骨强度下降W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "骨代谢调节异常Y",
+          "骨强度下降W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "骨强度下降W",
+          "疼痛P",
+          "最终"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病实体",
+      "Y": "骨代谢调节异常状态",
+      "Z": "骨重塑速率降低过程",
+      "W": "骨强度下降表现",
+      "P": "疼痛"
+    },
+    "source_text": "各种疾病导致的骨代谢调节异常、矿物质流失与不足、活性维生素D缺乏，可以使骨重塑速率降低或升高、骨基质减少或增加，骨矿物质缺乏或沉积过多，引起骨质疏松、骨软化、骨质增生、骨与软骨过度钙化等，表现为骨密度和（或）骨强度下降、慢性骨骼形变、病理性骨折、溶骨性和成骨性改变，并最终引起局部甚至全身的急、慢性疼痛病。"
+  },
+  {
+    "rule_name": "疾病引致骨代谢异常并引发骨重塑速率升高与骨基质减少及全身疼痛",
+    "head": {
+      "is_negative": false,
+      "name": "引起",
+      "arguments": [
+        "疼痛P",
+        "全身",
+        "最终"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病实体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "X",
+          "骨代谢调节异常Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "骨代谢调节异常Y",
+          "骨重塑速率升高Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "骨重塑速率升高Z",
+          "骨基质减少W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "骨代谢调节异常Y",
+          "骨质疏松D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "骨质疏松D",
+          "骨基质减少W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "骨质疏松D",
+          "疼痛P",
+          "最终"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病实体",
+      "Y": "骨代谢调节异常状态",
+      "Z": "骨重塑速率升高过程",
+      "W": "骨基质减少表现",
+      "D": "骨质疏松疾病",
+      "P": "疼痛"
+    },
+    "source_text": "各种疾病导致的骨代谢调节异常、矿物质流失与不足、活性维生素D缺乏，可以使骨重塑速率降低或升高、骨基质减少或增加，骨矿物质缺乏或沉积过多，引起骨质疏松、骨软化、骨质增生、骨与软骨过度钙化等，表现为骨密度和（或）骨强度下降、慢性骨骼形变、病理性骨折、溶骨性和成骨性改变，并最终引起局部甚至全身的急、慢性疼痛病。"
+  },
+  {
+    "rule_name": "疾病引致骨代谢异常并引发骨重塑速率降低与骨基质增加及整体疼痛",
+    "head": {
+      "is_negative": false,
+      "name": "引起",
+      "arguments": [
+        "疼痛P",
+        "整体",
+        "最终"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病实体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "X",
+          "骨代谢调节异常Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "骨代谢调节异常Y",
+          "骨重塑速率降低Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "骨重塑速率降低Z",
+          "骨基质增加W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "骨代谢调节异常Y",
+          "骨质增生D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "骨质增生D",
+          "骨基质增加W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "骨质增生D",
+          "疼痛P",
+          "最终"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病实体",
+      "Y": "骨代谢调节异常状态",
+      "Z": "骨重塑速率降低过程",
+      "W": "骨基质增加表现",
+      "D": "骨质增生疾病",
+      "P": "疼痛"
+    },
+    "source_text": "各种疾病导致的骨代谢调节异常、矿物质流失与不足、活性维生素D缺乏，可以使骨重塑速率降低或升高、骨基质减少或增加，骨矿物质缺乏或沉积过多，引起骨质疏松、骨软化、骨质增生、骨与软骨过度钙化等，表现为骨密度和（或）骨强度下降、慢性骨骼形变、病理性骨折、溶骨性和成骨性改变，并最终引起局部甚至全身的急、慢性疼痛病。"
+  },
+  {
+    "rule_name": "骨代谢异常导致病理性骨折易感性",
+    "head": {
+      "is_negative": false,
+      "name": "具有风险",
+      "arguments": [
+        "X",
+        "病理性骨折"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "骨代谢异常"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理状态",
+        "arguments": [
+          "X",
+          "骨量减少"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理状态",
+        "arguments": [
+          "X",
+          "骨密度改变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理状态",
+        "arguments": [
+          "X",
+          "骨强度改变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "当骨代谢异常导致骨量减少，可导致骨密度及骨强度的改变，易发生病理性骨折，有时也可表现为骨畸形。脊柱胸腰段椎体压缩性骨折、髋部及长骨骨折是退行性骨代谢异常最常见和严重的并发症。新发的胸腰椎压缩性骨折亦可产生急性疼痛，相应部位的脊柱棘突可有强烈压痛及叩击痛。若压迫相应的脊神经可产生四肢放射痛、双下肢感觉运动障碍、肋间神经痛、胸骨后疼痛类似心绞痛。肿瘤骨转移部位也常在无明确暴力损伤或低能量外伤下即可发生骨折。脊柱部位的病理性骨折可合并截瘫。另外，初发的病理性骨折可提示病理性骨折的再发风险升高［25］。"
+  },
+  {
+    "rule_name": "退行性骨代谢异常的严重骨折并发症",
+    "head": {
+      "is_negative": false,
+      "name": "属于并发症",
+      "arguments": [
+        "Y",
+        "严重"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "退行性骨代谢异常"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "骨折事件",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "骨折类型",
+        "arguments": [
+          "Y",
+          "脊柱胸腰段椎体压缩性骨折"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "骨折事件"
+    },
+    "source_text": "当骨代谢异常导致骨量减少，可导致骨密度及骨强度的改变，易发生病理性骨折，有时也可表现为骨畸形。脊柱胸腰段椎体压缩性骨折、髋部及长骨骨折是退行性骨代谢异常最常见和严重的并发症。新发的胸腰椎压缩性骨折亦可产生急性疼痛，相应部位的脊柱棘突可有强烈压痛及叩击痛。若压迫相应的脊神经可产生四肢放射痛、双下肢感觉运动障碍、肋间神经痛、胸骨后疼痛类似心绞痛。肿瘤骨转移部位也常在无明确暴力损伤或低能量外伤下即可发生骨折。脊柱部位的病理性骨折可合并截瘫。另外，初发的病理性骨折可提示病理性骨折的再发风险升高［25］。"
+  },
+  {
+    "rule_name": "退行性骨代谢异常的髋部及长骨骨折并发症",
+    "head": {
+      "is_negative": false,
+      "name": "属于并发症",
+      "arguments": [
+        "Y",
+        "严重"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "退行性骨代谢异常"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "骨折事件",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "骨折类型",
+        "arguments": [
+          "Y",
+          "髋部骨折"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "骨折类型",
+        "arguments": [
+          "Y",
+          "长骨骨折"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "骨折事件"
+    },
+    "source_text": "当骨代谢异常导致骨量减少，可导致骨密度及骨强度的改变，易发生病理性骨折，有时也可表现为骨畸形。脊柱胸腰段椎体压缩性骨折、髋部及长骨骨折是退行性骨代谢异常最常见和严重的并发症。新发的胸腰椎压缩性骨折亦可产生急性疼痛，相应部位的脊柱棘突可有强烈压痛及叩击痛。若压迫相应的脊神经可产生四肢放射痛、双下肢感觉运动障碍、肋间神经痛、胸骨后疼痛类似心绞痛。肿瘤骨转移部位也常在无明确暴力损伤或低能量外伤下即可发生骨折。脊柱部位的病理性骨折可合并截瘫。另外，初发的病理性骨折可提示病理性骨折的再发风险升高［25］。"
+  },
+  {
+    "rule_name": "新发胸腰椎压缩骨折的临床表现",
+    "head": {
+      "is_negative": false,
+      "name": "临床表现",
+      "arguments": [
+        "Y",
+        "急性疼痛"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "骨折事件",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "骨折类型",
+        "arguments": [
+          "Y",
+          "新发胸腰椎压缩性骨折"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床表现",
+        "arguments": [
+          "Y",
+          "脊柱棘突压痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床表现",
+        "arguments": [
+          "Y",
+          "脊柱棘突叩击痛"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "骨折事件"
+    },
+    "source_text": "当骨代谢异常导致骨量减少，可导致骨密度及骨强度的改变，易发生病理性骨折，有时也可表现为骨畸形。脊柱胸腰段椎体压缩性骨折、髋部及长骨骨折是退行性骨代谢异常最常见和严重的并发症。新发的胸腰椎压缩性骨折亦可产生急性疼痛，相应部位的脊柱棘突可有强烈压痛及叩击痛。若压迫相应的脊神经可产生四肢放射痛、双下肢感觉运动障碍、肋间神经痛、胸骨后疼痛类似心绞痛。肿瘤骨转移部位也常在无明确暴力损伤或低能量外伤下即可发生骨折。脊柱部位的病理性骨折可合并截瘫。另外，初发的病理性骨折可提示病理性骨折的再发风险升高［25］。"
+  },
+  {
+    "rule_name": "脊柱骨折压迫脊神经的多种症状",
+    "head": {
+      "is_negative": false,
+      "name": "并发症状",
+      "arguments": [
+        "Y",
+        "四肢放射痛"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "骨折事件",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "骨折类型",
+        "arguments": [
+          "Y",
+          "脊柱骨折"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理机制",
+        "arguments": [
+          "Y",
+          "压迫脊神经"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "Y",
+          "双下肢感觉运动障碍"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "Y",
+          "肋间神经痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "Y",
+          "胸骨后心绞痛样痛"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "骨折事件"
+    },
+    "source_text": "当骨代谢异常导致骨量减少，可导致骨密度及骨强度的改变，易发生病理性骨折，有时也可表现为骨畸形。脊柱胸腰段椎体压缩性骨折、髋部及长骨骨折是退行性骨代谢异常最常见和严重的并发症。新发的胸腰椎压缩性骨折亦可产生急性疼痛，相应部位的脊柱棘突可有强烈压痛及叩击痛。若压迫相应的脊神经可产生四肢放射痛、双下肢感觉运动障碍、肋间神经痛、胸骨后疼痛类似心绞痛。肿瘤骨转移部位也常在无明确暴力损伤或低能量外伤下即可发生骨折。脊柱部位的病理性骨折可合并截瘫。另外，初发的病理性骨折可提示病理性骨折的再发风险升高［25］。"
+  },
+  {
+    "rule_name": "肿瘤骨转移部位的低能量骨折",
+    "head": {
+      "is_negative": false,
+      "name": "易发骨折部位",
+      "arguments": [
+        "Z"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "肿瘤转移灶",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "原发疾病",
+        "arguments": [
+          "Z",
+          "肿瘤骨转移"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "触发条件",
+        "arguments": [
+          "Z",
+          "无明确暴力损伤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "触发条件",
+        "arguments": [
+          "Z",
+          "低能量外伤"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "解剖部位"
+    },
+    "source_text": "当骨代谢异常导致骨量减少，可导致骨密度及骨强度的改变，易发生病理性骨折，有时也可表现为骨畸形。脊柱胸腰段椎体压缩性骨折、髋部及长骨骨折是退行性骨代谢异常最常见和严重的并发症。新发的胸腰椎压缩性骨折亦可产生急性疼痛，相应部位的脊柱棘突可有强烈压痛及叩击痛。若压迫相应的脊神经可产生四肢放射痛、双下肢感觉运动障碍、肋间神经痛、胸骨后疼痛类似心绞痛。肿瘤骨转移部位也常在无明确暴力损伤或低能量外伤下即可发生骨折。脊柱部位的病理性骨折可合并截瘫。另外，初发的病理性骨折可提示病理性骨折的再发风险升高［25］。"
+  },
+  {
+    "rule_name": "脊柱病理性骨折合并截瘫",
+    "head": {
+      "is_negative": false,
+      "name": "并发症状",
+      "arguments": [
+        "Y",
+        "截瘫"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "骨折事件",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "骨折类型",
+        "arguments": [
+          "Y",
+          "脊柱病理性骨折"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "骨折事件"
+    },
+    "source_text": "当骨代谢异常导致骨量减少，可导致骨密度及骨强度的改变，易发生病理性骨折，有时也可表现为骨畸形。脊柱胸腰段椎体压缩性骨折、髋部及长骨骨折是退行性骨代谢异常最常见和严重的并发症。新发的胸腰椎压缩性骨折亦可产生急性疼痛，相应部位的脊柱棘突可有强烈压痛及叩击痛。若压迫相应的脊神经可产生四肢放射痛、双下肢感觉运动障碍、肋间神经痛、胸骨后疼痛类似心绞痛。肿瘤骨转移部位也常在无明确暴力损伤或低能量外伤下即可发生骨折。脊柱部位的病理性骨折可合并截瘫。另外，初发的病理性骨折可提示病理性骨折的再发风险升高［25］。"
+  },
+  {
+    "rule_name": "初发病理性骨折预示再发风险升高",
+    "head": {
+      "is_negative": false,
+      "name": "风险升高",
+      "arguments": [
+        "X",
+        "再发骨折"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "骨折事件",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "骨折性质",
+        "arguments": [
+          "Y",
+          "病理性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生顺序",
+        "arguments": [
+          "Y",
+          "初次"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "骨折事件"
+    },
+    "source_text": "当骨代谢异常导致骨量减少，可导致骨密度及骨强度的改变，易发生病理性骨折，有时也可表现为骨畸形。脊柱胸腰段椎体压缩性骨折、髋部及长骨骨折是退行性骨代谢异常最常见和严重的并发症。新发的胸腰椎压缩性骨折亦可产生急性疼痛，相应部位的脊柱棘突可有强烈压痛及叩击痛。若压迫相应的脊神经可产生四肢放射痛、双下肢感觉运动障碍、肋间神经痛、胸骨后疼痛类似心绞痛。肿瘤骨转移部位也常在无明确暴力损伤或低能量外伤下即可发生骨折。脊柱部位的病理性骨折可合并截瘫。另外，初发的病理性骨折可提示病理性骨折的再发风险升高［25］。"
+  },
+  {
+    "rule_name": "类风湿关节炎自身免疫反应导致炎性疼痛",
+    "head": {
+      "is_negative": false,
+      "name": "导致",
+      "arguments": [
+        "Y",
+        "疼痛",
+        "炎性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "X",
+          "类风湿性关节炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理过程",
+        "arguments": [
+          "Y",
+          "进行性骨关节破坏"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "Y",
+          "自身免疫反应"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "Y",
+          "释放致痛物质"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病实体",
+      "Y": "病理过程"
+    },
+    "source_text": "进行性的骨与关节破坏也是类风湿性关节炎的主要病理过程，局部严重的自身免疫反应引起前列腺素及P物质（SP）等致痛物质的大量释放，导致炎性疼痛；当自身免疫过程建立后，自身免疫复合物会形成可以降解软骨和骨骼的侵袭性组织，这些组织连同炎症因子及免疫细胞等最终引起破骨细胞与成骨细胞的功能异常、局部骨吸收超过骨形成，引起骨、软骨和关节的慢性形变，并最终导致疼痛［9］。"
+  },
+  {
+    "rule_name": "类风湿关节炎骨吸收异常导致慢性形变与疼痛",
+    "head": {
+      "is_negative": false,
+      "name": "导致",
+      "arguments": [
+        "Z",
+        "疼痛",
+        "慢性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "X",
+          "类风湿性关节炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理过程",
+        "arguments": [
+          "Y",
+          "侵袭性组织形成"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "Y",
+          "骨吸收异常"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "Y",
+          "慢性形变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变实体",
+        "arguments": [
+          "Z",
+          "慢性形变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病实体",
+      "Y": "病理过程",
+      "Z": "病变实体"
+    },
+    "source_text": "进行性的骨与关节破坏也是类风湿性关节炎的主要病理过程，局部严重的自身免疫反应引起前列腺素及P物质（SP）等致痛物质的大量释放，导致炎性疼痛；当自身免疫过程建立后，自身免疫复合物会形成可以降解软骨和骨骼的侵袭性组织，这些组织连同炎症因子及免疫细胞等最终引起破骨细胞与成骨细胞的功能异常、局部骨吸收超过骨形成，引起骨、软骨和关节的慢性形变，并最终导致疼痛［9］。"
+  },
+  {
+    "rule_name": "溶骨性骨转移通过破骨细胞与RANKL导致癌性骨痛",
+    "head": {
+      "is_negative": false,
+      "name": "导致",
+      "arguments": [
+        "Z",
+        "疼痛",
+        "癌性骨痛"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病变类型",
+        "arguments": [
+          "Y",
+          "溶骨性骨转移"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "涉及细胞",
+        "arguments": [
+          "Y",
+          "破骨细胞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "涉及因子",
+        "arguments": [
+          "Y",
+          "RANKL"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "激活",
+        "arguments": [
+          "Y",
+          "感觉神经元"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛事件",
+        "arguments": [
+          "Z",
+          "癌性骨痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "由...导致",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "病变类型",
+      "Z": "疼痛事件"
+    },
+    "source_text": "3.溶骨性或成骨性改变：恶性肿瘤的骨转移通常分为以破坏正常骨为特征的溶骨性骨转移和伴随新生骨沉积的成骨性骨转移，有时两者同时发生。当肿瘤骨转移发生时，肿瘤细胞受体与骨微环境之间的黏附交互作用可以使肿瘤细胞产生更多的血管生成因子和骨质吸收因子，从而促进骨中肿瘤的生长。此外，骨质吸收过程中释放和激活的多种生长因子会刺激骨肿瘤的生长。其中，破骨细胞与核因子⁃κB受体活化因子配体（RANKL）是癌性骨痛的主要诱发因素。溶骨性骨转移发生时，破骨细胞释放的质子可以通过激活支配骨骼的感觉神经元上的TRPV1及ASIC引起疼痛，而抑制溶骨性骨质吸收可以显著减少骨痛［10］。"
+  },
+  {
+    "rule_name": "肿瘤侵犯骨膜导致神经病理性疼痛",
+    "head": {
+      "is_negative": false,
+      "name": "导致",
+      "arguments": [
+        "Z",
+        "疼痛",
+        "神经病理性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病变实体",
+        "arguments": [
+          "X",
+          "肿瘤组织"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "侵犯部位",
+        "arguments": [
+          "X",
+          "骨膜"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "造成损伤",
+        "arguments": [
+          "X",
+          "感觉神经"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛事件",
+        "arguments": [
+          "Z",
+          "神经病理性疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "由...导致",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病变实体",
+      "Z": "疼痛事件"
+    },
+    "source_text": "另外，原发或转移的肿瘤组织也会侵犯富含神经的骨膜等组织，造成感觉神经的损伤或潜在损伤，产生神经病理性疼痛。"
+  },
+  {
+    "rule_name": "骨破坏导致病理性骨折并引发急性疼痛",
+    "head": {
+      "is_negative": false,
+      "name": "导致",
+      "arguments": [
+        "Z",
+        "疼痛",
+        "急性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病变过程",
+        "arguments": [
+          "W",
+          "骨破坏"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "W",
+          "病理性骨折"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "骨折事件",
+        "arguments": [
+          "Y",
+          "病理性骨折"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "激活",
+        "arguments": [
+          "Y",
+          "伤害性传入纤维"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛事件",
+        "arguments": [
+          "Z",
+          "急性疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "由...导致",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "W": "病变过程",
+      "Y": "骨折事件",
+      "Z": "疼痛事件"
+    },
+    "source_text": "4. 病理性骨折：当骨质疏松、慢性骨骼形变或肿瘤等所导致的骨破坏加重时，易出现病理性骨折［11］。病理性骨折后，骨膜内密集分布的对机械刺激敏感的Aδ纤维和C纤维激活并产生大量伤害性传入信号，导致急性疼痛。"
+  },
+  {
+    "rule_name": "脊椎病理性骨折损伤神经根导致神经病理性疼痛",
+    "head": {
+      "is_negative": false,
+      "name": "导致",
+      "arguments": [
+        "Z",
+        "疼痛",
+        "神经病理性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "骨折事件",
+        "arguments": [
+          "Y",
+          "病理性骨折"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生部位",
+        "arguments": [
+          "Y",
+          "脊椎骨"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "损伤结构",
+        "arguments": [
+          "Y",
+          "脊神经根"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛事件",
+        "arguments": [
+          "Z",
+          "神经病理性疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "由...导致",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "骨折事件",
+      "Z": "疼痛事件"
+    },
+    "source_text": "由于病理性骨折常发生于脊椎骨，脊神经根可因骨折而受压、损伤，导致神经病理性疼痛。"
+  },
+  {
+    "rule_name": "持续外周痛信号中枢敏化导致急性疼痛转为慢性",
+    "head": {
+      "is_negative": false,
+      "name": "导致",
+      "arguments": [
+        "Z2",
+        "疼痛",
+        "慢性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疼痛事件",
+        "arguments": [
+          "Z1",
+          "急性疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有属性",
+        "arguments": [
+          "Z1",
+          "持续外周传入"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "Z1",
+          "中枢敏化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛事件",
+        "arguments": [
+          "Z2",
+          "慢性疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转变为",
+        "arguments": [
+          "Z1",
+          "Z2"
+        ]
+      }
+    ],
+    "variables": {
+      "Z1": "疼痛事件",
+      "Z2": "疼痛事件"
+    },
+    "source_text": "持续的外周痛觉传入信号，导致中枢伤害性传入通路神经元兴奋性的增加和神经元突触功能的长时程增强，发生疼痛的中枢敏化，最终引起急性疼痛向慢性疼痛的转变［12⁃13］。"
+  },
+  {
+    "rule_name": "原发性骨质疏松症属于退行性骨代谢异常疼痛病",
+    "head": {
+      "is_negative": false,
+      "name": "疾病分类",
+      "arguments": [
+        "X",
+        "退行性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "X",
+          "原发性骨质疏松症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛类别",
+        "arguments": [
+          "X",
+          "骨代谢异常相关疼痛病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病实体"
+    },
+    "source_text": "三、疾病分类根据病因、发病机制，骨代谢异常相关疼痛病可分为以下几类：（1）退行性：常见于原发性骨质疏松症、骨性关节炎等［3⁃4，14］。"
+  },
+  {
+    "rule_name": "骨性关节炎属于退行性骨代谢异常疼痛病",
+    "head": {
+      "is_negative": false,
+      "name": "疾病分类",
+      "arguments": [
+        "X",
+        "退行性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "X",
+          "骨性关节炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛类别",
+        "arguments": [
+          "X",
+          "骨代谢异常相关疼痛病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病实体"
+    },
+    "source_text": "三、疾病分类根据病因、发病机制，骨代谢异常相关疼痛病可分为以下几类：（1）退行性：常见于原发性骨质疏松症、骨性关节炎等［3⁃4，14］。"
+  },
+  {
+    "rule_name": "类风湿性关节炎属于免疫炎症性骨代谢异常疼痛病",
+    "head": {
+      "is_negative": false,
+      "name": "疾病分类",
+      "arguments": [
+        "X",
+        "免疫炎症性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "X",
+          "类风湿性关节炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛类别",
+        "arguments": [
+          "X",
+          "骨代谢异常相关疼痛病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病实体"
+    },
+    "source_text": "（2）免疫、炎症性：常见于类风湿性关节炎、强直性脊柱炎、痛风、致密性髂骨炎等［15⁃16］。"
+  },
+  {
+    "rule_name": "强直性脊柱炎属于免疫炎症性骨代谢异常疼痛病",
+    "head": {
+      "is_negative": false,
+      "name": "疾病分类",
+      "arguments": [
+        "X",
+        "免疫炎症性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "X",
+          "强直性脊柱炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛类别",
+        "arguments": [
+          "X",
+          "骨代谢异常相关疼痛病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病实体"
+    },
+    "source_text": "（2）免疫、炎症性：常见于类风湿性关节炎、强直性脊柱炎、痛风、致密性髂骨炎等［15⁃16］。"
+  },
+  {
+    "rule_name": "痛风属于免疫炎症性骨代谢异常疼痛病",
+    "head": {
+      "is_negative": false,
+      "name": "疾病分类",
+      "arguments": [
+        "X",
+        "免疫炎症性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "X",
+          "痛风"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛类别",
+        "arguments": [
+          "X",
+          "骨代谢异常相关疼痛病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病实体"
+    },
+    "source_text": "（2）免疫、炎症性：常见于类风湿性关节炎、强直性脊柱炎、痛风、致密性髂骨炎等［15⁃16］。"
+  },
+  {
+    "rule_name": "致密性髂骨炎属于免疫炎症性骨代谢异常疼痛病",
+    "head": {
+      "is_negative": false,
+      "name": "疾病分类",
+      "arguments": [
+        "X",
+        "免疫炎症性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "X",
+          "致密性髂骨炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛类别",
+        "arguments": [
+          "X",
+          "骨代谢异常相关疼痛病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病实体"
+    },
+    "source_text": "（2）免疫、炎症性：常见于类风湿性关节炎、强直性脊柱炎、痛风、致密性髂骨炎等［15⁃16］。"
+  },
+  {
+    "rule_name": "成骨破骨细胞功能异常导致骨代谢调节紊乱与异常",
+    "head": {
+      "is_negative": false,
+      "name": "导致",
+      "arguments": [
+        "Z",
+        "骨代谢异常",
+        "最终结果"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "属于",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组成部分",
+        "arguments": [
+          "Y",
+          "骨组织"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "细胞功能异常",
+        "arguments": [
+          "X",
+          "成骨破骨细胞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "Y",
+          "Z",
+          "骨代谢调节功能紊乱"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "成骨破骨细胞群体",
+      "Y": "骨多细胞单位(BMU)",
+      "Z": "目标骨组织"
+    },
+    "source_text": "骨是高度动态变化的器官，以骨多细胞单位（BMU）为最小单位，通过骨重塑的形式维持自身结构刚度、韧性和钙磷平衡。BMU主要由成骨细胞、破骨细胞和骨细胞等构成。正常成人BMU的骨形成量基本等于骨吸收量［3⁃4］，处于骨代谢平衡状态。（一）骨代谢的调节与异常骨代谢的调节主要通过全身调节和局部调节。全身调节因素包括钙调素、甲状旁腺激素（PTH）、甲状腺素、骨化三醇、生长激素/胰岛素样生长因子⁃1（IGF⁃1）、糖皮质激素和性激素等。一部分细胞因子（如IGF⁃1）同时具有全身调节和局部调节的作用。另一部分包括前列腺素、转化生长因子（TGF⁃β）等在内的细胞因子则主要参与局部调节。成骨破骨细胞功能的改变、骨及其附属组织（如软骨、滑囊等）微结构和微环境的改变均可导致骨代谢调节功能的紊乱，引起局部或整体骨代谢的异常［5］。"
+  },
+  {
+    "rule_name": "骨及其附属组织微结构改变导致骨代谢调节紊乱与异常",
+    "head": {
+      "is_negative": false,
+      "name": "导致",
+      "arguments": [
+        "Z",
+        "骨代谢异常",
+        "最终结果"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "属于",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "微结构异常",
+        "arguments": [
+          "X",
+          "骨组织"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "微结构异常",
+        "arguments": [
+          "Y",
+          "软骨滑囊等附属组织"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "Z",
+          "W",
+          "骨代谢调节功能紊乱"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "目标骨组织本身",
+      "Y": "骨的软骨或滑囊等附属组织",
+      "Z": "目标骨解剖单元",
+      "W": "骨代谢调节功能"
+    },
+    "source_text": "骨是高度动态变化的器官，以骨多细胞单位（BMU）为最小单位，通过骨重塑的形式维持自身结构刚度、韧性和钙磷平衡。BMU主要由成骨细胞、破骨细胞和骨细胞等构成。正常成人BMU的骨形成量基本等于骨吸收量［3⁃4］，处于骨代谢平衡状态。（一）骨代谢的调节与异常骨代谢的调节主要通过全身调节和局部调节。全身调节因素包括钙调素、甲状旁腺激素（PTH）、甲状腺素、骨化三醇、生长激素/胰岛素样生长因子⁃1（IGF⁃1）、糖皮质激素和性激素等。一部分细胞因子（如IGF⁃1）同时具有全身调节和局部调节的作用。另一部分包括前列腺素、转化生长因子（TGF⁃β）等在内的细胞因子则主要参与局部调节。成骨破骨细胞功能的改变、骨及其附属组织（如软骨、滑囊等）微结构和微环境的改变均可导致骨代谢调节功能的紊乱，引起局部或整体骨代谢的异常［5］。"
+  },
+  {
+    "rule_name": "骨及其附属组织微环境改变导致骨代谢调节紊乱与异常",
+    "head": {
+      "is_negative": false,
+      "name": "导致",
+      "arguments": [
+        "Z",
+        "骨代谢异常",
+        "最终结果"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "属于",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "微环境异常",
+        "arguments": [
+          "X",
+          "骨组织"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "微环境异常",
+        "arguments": [
+          "Y",
+          "软骨滑囊等附属组织"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "Z",
+          "W",
+          "骨代谢调节功能紊乱"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "目标骨组织本身",
+      "Y": "骨的软骨或滑囊等附属组织",
+      "Z": "目标骨解剖单元",
+      "W": "骨代谢调节功能"
+    },
+    "source_text": "骨是高度动态变化的器官，以骨多细胞单位（BMU）为最小单位，通过骨重塑的形式维持自身结构刚度、韧性和钙磷平衡。BMU主要由成骨细胞、破骨细胞和骨细胞等构成。正常成人BMU的骨形成量基本等于骨吸收量［3⁃4］，处于骨代谢平衡状态。（一）骨代谢的调节与异常骨代谢的调节主要通过全身调节和局部调节。全身调节因素包括钙调素、甲状旁腺激素（PTH）、甲状腺素、骨化三醇、生长激素/胰岛素样生长因子⁃1（IGF⁃1）、糖皮质激素和性激素等。一部分细胞因子（如IGF⁃1）同时具有全身调节和局部调节的作用。另一部分包括前列腺素、转化生长因子（TGF⁃β）等在内的细胞因子则主要参与局部调节。成骨破骨细胞功能的改变、骨及其附属组织（如软骨、滑囊等）微结构和微环境的改变均可导致骨代谢调节功能的紊乱，引起局部或整体骨代谢的异常［5］。"
+  },
+  {
+    "rule_name": "细胞因子IGF1通过全身与局部调节参与维持正常骨代谢",
+    "head": {
+      "is_negative": false,
+      "name": "维持于",
+      "arguments": [
+        "A",
+        "骨代谢平衡状态"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "最小功能单位",
+        "arguments": [
+          "B",
+          "A",
+          "BMU"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "调节因素",
+        "arguments": [
+          "C",
+          "IGF1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用方式",
+        "arguments": [
+          "C",
+          "全身调节"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用方式",
+        "arguments": [
+          "C",
+          "局部调节"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "正常成人的骨组织",
+      "B": "骨多细胞单位(BMU)",
+      "C": "胰岛素样生长因子-1(IGF-1)"
+    },
+    "source_text": "骨是高度动态变化的器官，以骨多细胞单位（BMU）为最小单位，通过骨重塑的形式维持自身结构刚度、韧性和钙磷平衡。BMU主要由成骨细胞、破骨细胞和骨细胞等构成。正常成人BMU的骨形成量基本等于骨吸收量［3⁃4］，处于骨代谢平衡状态。（一）骨代谢的调节与异常骨代谢的调节主要通过全身调节和局部调节。全身调节因素包括钙调素、甲状旁腺激素（PTH）、甲状腺素、骨化三醇、生长激素/胰岛素样生长因子⁃1（IGF⁃1）、糖皮质激素和性激素等。一部分细胞因子（如IGF⁃1）同时具有全身调节和局部调节的作用。另一部分包括前列腺素、转化生长因子（TGF⁃β）等在内的细胞因子则主要参与局部调节。成骨破骨细胞功能的改变、骨及其附属组织（如软骨、滑囊等）微结构和微环境的改变均可导致骨代谢调节功能的紊乱，引起局部或整体骨代谢的异常［5］。"
+  },
+  {
+    "rule_name": "双膦酸盐作为骨吸收抑制剂",
+    "head": {
+      "is_negative": false,
+      "name": "药物类别",
+      "arguments": [
+        "X",
+        "骨吸收抑制剂"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物类别",
+        "arguments": [
+          "X",
+          "双膦酸盐"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "药物"
+    },
+    "source_text": "骨代谢异常相关疼痛病的总体治疗原则包含两个方面：一方面，要针对骨代谢异常性疾病的病因和发病机制进行治疗；另一方面，要同时针对相关疼痛的发生机制进行治疗。（一）基于骨代谢异常发病机制的治疗1. 调节骨代谢：调节骨代谢的相关治疗主要通过作用于“骨吸收⁃骨形成”代谢中的多个环节以达到治疗效果。调节骨代谢的药物可分为骨吸收抑制剂和骨形成促进剂两大类。前者包括双膦酸盐、雌激素类药物及受体调节剂、降钙素；后者主要为甲状旁腺激素类似物；活性维生素D、锶盐等药物可作用于骨代谢微环境。（1）双膦酸盐：能够特异性结合到骨重建活跃的骨表面，抑制破骨细胞功能，临床常用的有阿仑膦酸钠、唑来膦酸、利塞膦酸钠、伊班膦酸钠、依替膦酸二钠。双膦酸盐类药物总体安全性较好，但可能存在胃肠道不良反应，“流感样”症状和肾毒性，还应警惕下颌骨坏死的发生［1，29］。"
+  },
+  {
+    "rule_name": "双膦酸盐结合骨表面抑制破骨细胞",
+    "head": {
+      "is_negative": false,
+      "name": "作用机制",
+      "arguments": [
+        "X",
+        "抑制破骨细胞功能"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物类别",
+        "arguments": [
+          "X",
+          "双膦酸盐"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用方式",
+        "arguments": [
+          "X",
+          "特异性结合骨表面"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标骨表面状态",
+        "arguments": [
+          "活跃骨重建"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "药物"
+    },
+    "source_text": "骨代谢异常相关疼痛病的总体治疗原则包含两个方面：一方面，要针对骨代谢异常性疾病的病因和发病机制进行治疗；另一方面，要同时针对相关疼痛的发生机制进行治疗。（一）基于骨代谢异常发病机制的治疗1. 调节骨代谢：调节骨代谢的相关治疗主要通过作用于“骨吸收⁃骨形成”代谢中的多个环节以达到治疗效果。调节骨代谢的药物可分为骨吸收抑制剂和骨形成促进剂两大类。前者包括双膦酸盐、雌激素类药物及受体调节剂、降钙素；后者主要为甲状旁腺激素类似物；活性维生素D、锶盐等药物可作用于骨代谢微环境。（1）双膦酸盐：能够特异性结合到骨重建活跃的骨表面，抑制破骨细胞功能，临床常用的有阿仑膦酸钠、唑来膦酸、利塞膦酸钠、伊班膦酸钠、依替膦酸二钠。双膦酸盐类药物总体安全性较好，但可能存在胃肠道不良反应，“流感样”症状和肾毒性，还应警惕下颌骨坏死的发生［1，29］。"
+  },
+  {
+    "rule_name": "阿仑膦酸钠是双膦酸盐类药物",
+    "head": {
+      "is_negative": false,
+      "name": "药物类别",
+      "arguments": [
+        "X",
+        "双膦酸盐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物通用名",
+        "arguments": [
+          "X",
+          "阿仑膦酸钠"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "药物"
+    },
+    "source_text": "骨代谢异常相关疼痛病的总体治疗原则包含两个方面：一方面，要针对骨代谢异常性疾病的病因和发病机制进行治疗；另一方面，要同时针对相关疼痛的发生机制进行治疗。（一）基于骨代谢异常发病机制的治疗1. 调节骨代谢：调节骨代谢的相关治疗主要通过作用于“骨吸收⁃骨形成”代谢中的多个环节以达到治疗效果。调节骨代谢的药物可分为骨吸收抑制剂和骨形成促进剂两大类。前者包括双膦酸盐、雌激素类药物及受体调节剂、降钙素；后者主要为甲状旁腺激素类似物；活性维生素D、锶盐等药物可作用于骨代谢微环境。（1）双膦酸盐：能够特异性结合到骨重建活跃的骨表面，抑制破骨细胞功能，临床常用的有阿仑膦酸钠、唑来膦酸、利塞膦酸钠、伊班膦酸钠、依替膦酸二钠。双膦酸盐类药物总体安全性较好，但可能存在胃肠道不良反应，“流感样”症状和肾毒性，还应警惕下颌骨坏死的发生［1，29］。"
+  },
+  {
+    "rule_name": "唑来膦酸是双膦酸盐类药物",
+    "head": {
+      "is_negative": false,
+      "name": "药物类别",
+      "arguments": [
+        "X",
+        "双膦酸盐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物通用名",
+        "arguments": [
+          "X",
+          "唑来膦酸"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "药物"
+    },
+    "source_text": "骨代谢异常相关疼痛病的总体治疗原则包含两个方面：一方面，要针对骨代谢异常性疾病的病因和发病机制进行治疗；另一方面，要同时针对相关疼痛的发生机制进行治疗。（一）基于骨代谢异常发病机制的治疗1. 调节骨代谢：调节骨代谢的相关治疗主要通过作用于“骨吸收⁃骨形成”代谢中的多个环节以达到治疗效果。调节骨代谢的药物可分为骨吸收抑制剂和骨形成促进剂两大类。前者包括双膦酸盐、雌激素类药物及受体调节剂、降钙素；后者主要为甲状旁腺激素类似物；活性维生素D、锶盐等药物可作用于骨代谢微环境。（1）双膦酸盐：能够特异性结合到骨重建活跃的骨表面，抑制破骨细胞功能，临床常用的有阿仑膦酸钠、唑来膦酸、利塞膦酸钠、伊班膦酸钠、依替膦酸二钠。双膦酸盐类药物总体安全性较好，但可能存在胃肠道不良反应，“流感样”症状和肾毒性，还应警惕下颌骨坏死的发生［1，29］。"
+  },
+  {
+    "rule_name": "利塞膦酸钠是双膦酸盐类药物",
+    "head": {
+      "is_negative": false,
+      "name": "药物类别",
+      "arguments": [
+        "X",
+        "双膦酸盐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物通用名",
+        "arguments": [
+          "X",
+          "利塞膦酸钠"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "药物"
+    },
+    "source_text": "骨代谢异常相关疼痛病的总体治疗原则包含两个方面：一方面，要针对骨代谢异常性疾病的病因和发病机制进行治疗；另一方面，要同时针对相关疼痛的发生机制进行治疗。（一）基于骨代谢异常发病机制的治疗1. 调节骨代谢：调节骨代谢的相关治疗主要通过作用于“骨吸收⁃骨形成”代谢中的多个环节以达到治疗效果。调节骨代谢的药物可分为骨吸收抑制剂和骨形成促进剂两大类。前者包括双膦酸盐、雌激素类药物及受体调节剂、降钙素；后者主要为甲状旁腺激素类似物；活性维生素D、锶盐等药物可作用于骨代谢微环境。（1）双膦酸盐：能够特异性结合到骨重建活跃的骨表面，抑制破骨细胞功能，临床常用的有阿仑膦酸钠、唑来膦酸、利塞膦酸钠、伊班膦酸钠、依替膦酸二钠。双膦酸盐类药物总体安全性较好，但可能存在胃肠道不良反应，“流感样”症状和肾毒性，还应警惕下颌骨坏死的发生［1，29］。"
+  },
+  {
+    "rule_name": "伊班膦酸钠是双膦酸盐类药物",
+    "head": {
+      "is_negative": false,
+      "name": "药物类别",
+      "arguments": [
+        "X",
+        "双膦酸盐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物通用名",
+        "arguments": [
+          "X",
+          "伊班膦酸钠"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "药物"
+    },
+    "source_text": "骨代谢异常相关疼痛病的总体治疗原则包含两个方面：一方面，要针对骨代谢异常性疾病的病因和发病机制进行治疗；另一方面，要同时针对相关疼痛的发生机制进行治疗。（一）基于骨代谢异常发病机制的治疗1. 调节骨代谢：调节骨代谢的相关治疗主要通过作用于“骨吸收⁃骨形成”代谢中的多个环节以达到治疗效果。调节骨代谢的药物可分为骨吸收抑制剂和骨形成促进剂两大类。前者包括双膦酸盐、雌激素类药物及受体调节剂、降钙素；后者主要为甲状旁腺激素类似物；活性维生素D、锶盐等药物可作用于骨代谢微环境。（1）双膦酸盐：能够特异性结合到骨重建活跃的骨表面，抑制破骨细胞功能，临床常用的有阿仑膦酸钠、唑来膦酸、利塞膦酸钠、伊班膦酸钠、依替膦酸二钠。双膦酸盐类药物总体安全性较好，但可能存在胃肠道不良反应，“流感样”症状和肾毒性，还应警惕下颌骨坏死的发生［1，29］。"
+  },
+  {
+    "rule_name": "依替膦酸二钠是双膦酸盐类药物",
+    "head": {
+      "is_negative": false,
+      "name": "药物类别",
+      "arguments": [
+        "X",
+        "双膦酸盐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物通用名",
+        "arguments": [
+          "X",
+          "依替膦酸二钠"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "药物"
+    },
+    "source_text": "骨代谢异常相关疼痛病的总体治疗原则包含两个方面：一方面，要针对骨代谢异常性疾病的病因和发病机制进行治疗；另一方面，要同时针对相关疼痛的发生机制进行治疗。（一）基于骨代谢异常发病机制的治疗1. 调节骨代谢：调节骨代谢的相关治疗主要通过作用于“骨吸收⁃骨形成”代谢中的多个环节以达到治疗效果。调节骨代谢的药物可分为骨吸收抑制剂和骨形成促进剂两大类。前者包括双膦酸盐、雌激素类药物及受体调节剂、降钙素；后者主要为甲状旁腺激素类似物；活性维生素D、锶盐等药物可作用于骨代谢微环境。（1）双膦酸盐：能够特异性结合到骨重建活跃的骨表面，抑制破骨细胞功能，临床常用的有阿仑膦酸钠、唑来膦酸、利塞膦酸钠、伊班膦酸钠、依替膦酸二钠。双膦酸盐类药物总体安全性较好，但可能存在胃肠道不良反应，“流感样”症状和肾毒性，还应警惕下颌骨坏死的发生［1，29］。"
+  },
+  {
+    "rule_name": "双膦酸盐类药物可能引起胃肠道不良反应",
+    "head": {
+      "is_negative": false,
+      "name": "可能不良反应",
+      "arguments": [
+        "X",
+        "胃肠道不良反应"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物类别",
+        "arguments": [
+          "X",
+          "双膦酸盐"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "总体安全性评价",
+        "arguments": [
+          "X",
+          "较好"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "药物"
+    },
+    "source_text": "骨代谢异常相关疼痛病的总体治疗原则包含两个方面：一方面，要针对骨代谢异常性疾病的病因和发病机制进行治疗；另一方面，要同时针对相关疼痛的发生机制进行治疗。（一）基于骨代谢异常发病机制的治疗1. 调节骨代谢：调节骨代谢的相关治疗主要通过作用于“骨吸收⁃骨形成”代谢中的多个环节以达到治疗效果。调节骨代谢的药物可分为骨吸收抑制剂和骨形成促进剂两大类。前者包括双膦酸盐、雌激素类药物及受体调节剂、降钙素；后者主要为甲状旁腺激素类似物；活性维生素D、锶盐等药物可作用于骨代谢微环境。（1）双膦酸盐：能够特异性结合到骨重建活跃的骨表面，抑制破骨细胞功能，临床常用的有阿仑膦酸钠、唑来膦酸、利塞膦酸钠、伊班膦酸钠、依替膦酸二钠。双膦酸盐类药物总体安全性较好，但可能存在胃肠道不良反应，“流感样”症状和肾毒性，还应警惕下颌骨坏死的发生［1，29］。"
+  },
+  {
+    "rule_name": "双膦酸盐类药物可能引起流感样症状",
+    "head": {
+      "is_negative": false,
+      "name": "可能不良反应",
+      "arguments": [
+        "X",
+        "流感样症状"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物类别",
+        "arguments": [
+          "X",
+          "双膦酸盐"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "总体安全性评价",
+        "arguments": [
+          "X",
+          "较好"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "药物"
+    },
+    "source_text": "骨代谢异常相关疼痛病的总体治疗原则包含两个方面：一方面，要针对骨代谢异常性疾病的病因和发病机制进行治疗；另一方面，要同时针对相关疼痛的发生机制进行治疗。（一）基于骨代谢异常发病机制的治疗1. 调节骨代谢：调节骨代谢的相关治疗主要通过作用于“骨吸收⁃骨形成”代谢中的多个环节以达到治疗效果。调节骨代谢的药物可分为骨吸收抑制剂和骨形成促进剂两大类。前者包括双膦酸盐、雌激素类药物及受体调节剂、降钙素；后者主要为甲状旁腺激素类似物；活性维生素D、锶盐等药物可作用于骨代谢微环境。（1）双膦酸盐：能够特异性结合到骨重建活跃的骨表面，抑制破骨细胞功能，临床常用的有阿仑膦酸钠、唑来膦酸、利塞膦酸钠、伊班膦酸钠、依替膦酸二钠。双膦酸盐类药物总体安全性较好，但可能存在胃肠道不良反应，“流感样”症状和肾毒性，还应警惕下颌骨坏死的发生［1，29］。"
+  },
+  {
+    "rule_name": "双膦酸盐类药物可能引起肾毒性",
+    "head": {
+      "is_negative": false,
+      "name": "可能不良反应",
+      "arguments": [
+        "X",
+        "肾毒性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物类别",
+        "arguments": [
+          "X",
+          "双膦酸盐"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "总体安全性评价",
+        "arguments": [
+          "X",
+          "较好"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "药物"
+    },
+    "source_text": "骨代谢异常相关疼痛病的总体治疗原则包含两个方面：一方面，要针对骨代谢异常性疾病的病因和发病机制进行治疗；另一方面，要同时针对相关疼痛的发生机制进行治疗。（一）基于骨代谢异常发病机制的治疗1. 调节骨代谢：调节骨代谢的相关治疗主要通过作用于“骨吸收⁃骨形成”代谢中的多个环节以达到治疗效果。调节骨代谢的药物可分为骨吸收抑制剂和骨形成促进剂两大类。前者包括双膦酸盐、雌激素类药物及受体调节剂、降钙素；后者主要为甲状旁腺激素类似物；活性维生素D、锶盐等药物可作用于骨代谢微环境。（1）双膦酸盐：能够特异性结合到骨重建活跃的骨表面，抑制破骨细胞功能，临床常用的有阿仑膦酸钠、唑来膦酸、利塞膦酸钠、伊班膦酸钠、依替膦酸二钠。双膦酸盐类药物总体安全性较好，但可能存在胃肠道不良反应，“流感样”症状和肾毒性，还应警惕下颌骨坏死的发生［1，29］。"
+  },
+  {
+    "rule_name": "使用双膦酸盐类药物需警惕下颌骨坏死",
+    "head": {
+      "is_negative": false,
+      "name": "需警惕严重不良反应",
+      "arguments": [
+        "使用X",
+        "下颌骨坏死"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物类别",
+        "arguments": [
+          "X",
+          "双膦酸盐"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "药物"
+    },
+    "source_text": "骨代谢异常相关疼痛病的总体治疗原则包含两个方面：一方面，要针对骨代谢异常性疾病的病因和发病机制进行治疗；另一方面，要同时针对相关疼痛的发生机制进行治疗。（一）基于骨代谢异常发病机制的治疗1. 调节骨代谢：调节骨代谢的相关治疗主要通过作用于“骨吸收⁃骨形成”代谢中的多个环节以达到治疗效果。调节骨代谢的药物可分为骨吸收抑制剂和骨形成促进剂两大类。前者包括双膦酸盐、雌激素类药物及受体调节剂、降钙素；后者主要为甲状旁腺激素类似物；活性维生素D、锶盐等药物可作用于骨代谢微环境。（1）双膦酸盐：能够特异性结合到骨重建活跃的骨表面，抑制破骨细胞功能，临床常用的有阿仑膦酸钠、唑来膦酸、利塞膦酸钠、伊班膦酸钠、依替膦酸二钠。双膦酸盐类药物总体安全性较好，但可能存在胃肠道不良反应，“流感样”症状和肾毒性，还应警惕下颌骨坏死的发生［1，29］。"
+  }
+]

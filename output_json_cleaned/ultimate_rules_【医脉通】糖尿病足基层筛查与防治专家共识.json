@@ -1,0 +1,1831 @@
+[
+  {
+    "rule_name": "DF感染创面需抗生素治疗",
+    "head": {
+      "is_negative": false,
+      "name": "需抗生素治疗",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "DF创面",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生临床感染",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "DF创面"
+    },
+    "source_text": "DF的抗感染治疗：（1）药物治疗。DF感染须通过临床诊断，以局部或全身的体征或炎症的症状为基础。几乎所有发生感染的DF创面都需抗生素治疗，未发生临床感染的创面不需使用抗生素。在选择抗生素控制感染前，有条件的应行溃疡创面细菌培养和药敏试验，细菌培养方法可选择严格清创后的棉拭子及病理组织培养。"
+  },
+  {
+    "rule_name": "DF未感染创面不需抗生素治疗",
+    "head": {
+      "is_negative": true,
+      "name": "需抗生素治疗",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "DF创面",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "发生临床感染",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "DF创面"
+    },
+    "source_text": "DF的抗感染治疗：（1）药物治疗。DF感染须通过临床诊断，以局部或全身的体征或炎症的症状为基础。几乎所有发生感染的DF创面都需抗生素治疗，未发生临床感染的创面不需使用抗生素。在选择抗生素控制感染前，有条件的应行溃疡创面细菌培养和药敏试验，细菌培养方法可选择严格清创后的棉拭子及病理组织培养。"
+  },
+  {
+    "rule_name": "有条件时推荐对感染创面行病原学检测",
+    "head": {
+      "is_negative": false,
+      "name": "推荐操作",
+      "arguments": [
+        "X",
+        "行细菌培养和药敏试验"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "DF创面",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生临床感染",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具备条件",
+        "arguments": [
+          "X",
+          "病原学检测"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "DF创面"
+    },
+    "source_text": "DF的抗感染治疗：（1）药物治疗。DF感染须通过临床诊断，以局部或全身的体征或炎症的症状为基础。几乎所有发生感染的DF创面都需抗生素治疗，未发生临床感染的创面不需使用抗生素。在选择抗生素控制感染前，有条件的应行溃疡创面细菌培养和药敏试验，细菌培养方法可选择严格清创后的棉拭子及病理组织培养。"
+  },
+  {
+    "rule_name": "DF诊断_三要素必备_含神经病变",
+    "head": {
+      "is_negative": false,
+      "name": "临床诊断为",
+      "arguments": [
+        "X",
+        "Y",
+        "DF综合征"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在足部组织缺损",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并神经病变",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足部组织缺损"
+    },
+    "source_text": "DF的诊断：DF是指糖尿病患者合并神经病变及各种不同程度的周围血管病变而导致下肢感染、溃疡形成和/或深部组织破坏的疾病。DF临床表现为综合征并具备三要素——糖尿病患者、存在足部组织缺损（溃疡或坏疽）及伴有一定程度的下肢神经或/和血管病变，其中感染和下肢缺血程度是DF溃疡能否愈合的关键因素［7］。通过询问病史、体格检查、相关实验室及影像学检查常可诊断DF。对患者综合评估（包括全身状况、下肢血管和/或神经及创面），根据病情予分级分类是诊断DF的关键。"
+  },
+  {
+    "rule_name": "DF诊断_三要素必备_含血管病变",
+    "head": {
+      "is_negative": false,
+      "name": "临床诊断为",
+      "arguments": [
+        "X",
+        "Y",
+        "DF综合征"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在足部组织缺损",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并血管病变",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足部组织缺损"
+    },
+    "source_text": "DF的诊断：DF是指糖尿病患者合并神经病变及各种不同程度的周围血管病变而导致下肢感染、溃疡形成和/或深部组织破坏的疾病。DF临床表现为综合征并具备三要素——糖尿病患者、存在足部组织缺损（溃疡或坏疽）及伴有一定程度的下肢神经或/和血管病变，其中感染和下肢缺血程度是DF溃疡能否愈合的关键因素［7］。通过询问病史、体格检查、相关实验室及影像学检查常可诊断DF。对患者综合评估（包括全身状况、下肢血管和/或神经及创面），根据病情予分级分类是诊断DF的关键。"
+  },
+  {
+    "rule_name": "发生临床感染的DF溃疡创面需全身抗生素治疗",
+    "head": {
+      "is_negative": false,
+      "name": "需要抗生素治疗",
+      "arguments": [
+        "X",
+        "全身"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "DF溃疡创面",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基于临床诊断",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生感染",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病足溃疡创面"
+    },
+    "source_text": "DF感染须通过临床诊断，以局部或全身的体征或炎症的症状为基础。几乎所有发生感染的DF创面都需抗生素治疗，未发生临床感染的创面不需使用抗生素。在选择抗生素控制感染前，有条件的应行溃疡创面细菌培养和药敏试验，细菌培养方法可选择严格清创后的棉拭子及病理组织培养。伤口初期首选抗菌素为抗革兰氏阳性菌药物；抗菌素治疗效果欠佳者，需及时转诊上级医院诊治；不推荐抗生素局部应用；未合并骨髓炎足溃疡感染，抗生素治疗疗程1~2周。"
+  },
+  {
+    "rule_name": "未发生临床感染的DF溃疡创面不需抗生素治疗",
+    "head": {
+      "is_negative": false,
+      "name": "不需要抗生素治疗",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "DF溃疡创面",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "通过临床评估",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "临床感染",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病足溃疡创面"
+    },
+    "source_text": "DF感染须通过临床诊断，以局部或全身的体征或炎症的症状为基础。几乎所有发生感染的DF创面都需抗生素治疗，未发生临床感染的创面不需使用抗生素。在选择抗生素控制感染前，有条件的应行溃疡创面细菌培养和药敏试验，细菌培养方法可选择严格清创后的棉拭子及病理组织培养。伤口初期首选抗菌素为抗革兰氏阳性菌药物；抗菌素治疗效果欠佳者，需及时转诊上级医院诊治；不推荐抗生素局部应用；未合并骨髓炎足溃疡感染，抗生素治疗疗程1~2周。"
+  },
+  {
+    "rule_name": "具备条件时感染创面应进行细菌培养和药敏试验",
+    "head": {
+      "is_negative": false,
+      "name": "应进行检查",
+      "arguments": [
+        "X",
+        "细菌培养和药敏试验"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "DF溃疡创面",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生感染",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需要抗生素治疗",
+        "arguments": [
+          "X",
+          "全身"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具备细菌培养条件",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病足溃疡创面"
+    },
+    "source_text": "DF感染须通过临床诊断，以局部或全身的体征或炎症的症状为基础。几乎所有发生感染的DF创面都需抗生素治疗，未发生临床感染的创面不需使用抗生素。在选择抗生素控制感染前，有条件的应行溃疡创面细菌培养和药敏试验，细菌培养方法可选择严格清创后的棉拭子及病理组织培养。伤口初期首选抗菌素为抗革兰氏阳性菌药物；抗菌素治疗效果欠佳者，需及时转诊上级医院诊治；不推荐抗生素局部应用；未合并骨髓炎足溃疡感染，抗生素治疗疗程1~2周。"
+  },
+  {
+    "rule_name": "感染初期创面首选抗革兰氏阳性菌药物",
+    "head": {
+      "is_negative": false,
+      "name": "首选抗生素类型",
+      "arguments": [
+        "X",
+        "抗革兰氏阳性菌药物"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "DF溃疡创面",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生感染",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处于感染初期",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病足溃疡创面"
+    },
+    "source_text": "DF感染须通过临床诊断，以局部或全身的体征或炎症的症状为基础。几乎所有发生感染的DF创面都需抗生素治疗，未发生临床感染的创面不需使用抗生素。在选择抗生素控制感染前，有条件的应行溃疡创面细菌培养和药敏试验，细菌培养方法可选择严格清创后的棉拭子及病理组织培养。伤口初期首选抗菌素为抗革兰氏阳性菌药物；抗菌素治疗效果欠佳者，需及时转诊上级医院诊治；不推荐抗生素局部应用；未合并骨髓炎足溃疡感染，抗生素治疗疗程1~2周。"
+  },
+  {
+    "rule_name": "抗生素治疗效果不佳需转诊上级医院",
+    "head": {
+      "is_negative": false,
+      "name": "需要转诊",
+      "arguments": [
+        "X",
+        "上级医院"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "DF溃疡创面",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "抗生素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗效果",
+        "arguments": [
+          "X",
+          "欠佳"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病足溃疡创面"
+    },
+    "source_text": "DF感染须通过临床诊断，以局部或全身的体征或炎症的症状为基础。几乎所有发生感染的DF创面都需抗生素治疗，未发生临床感染的创面不需使用抗生素。在选择抗生素控制感染前，有条件的应行溃疡创面细菌培养和药敏试验，细菌培养方法可选择严格清创后的棉拭子及病理组织培养。伤口初期首选抗菌素为抗革兰氏阳性菌药物；抗菌素治疗效果欠佳者，需及时转诊上级医院诊治；不推荐抗生素局部应用；未合并骨髓炎足溃疡感染，抗生素治疗疗程1~2周。"
+  },
+  {
+    "rule_name": "DF溃疡创面不推荐抗生素局部应用",
+    "head": {
+      "is_negative": false,
+      "name": "不推荐治疗方式",
+      "arguments": [
+        "X",
+        "抗生素局部应用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "DF溃疡创面",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在治疗需求",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病足溃疡创面"
+    },
+    "source_text": "DF感染须通过临床诊断，以局部或全身的体征或炎症的症状为基础。几乎所有发生感染的DF创面都需抗生素治疗，未发生临床感染的创面不需使用抗生素。在选择抗生素控制感染前，有条件的应行溃疡创面细菌培养和药敏试验，细菌培养方法可选择严格清创后的棉拭子及病理组织培养。伤口初期首选抗菌素为抗革兰氏阳性菌药物；抗菌素治疗效果欠佳者，需及时转诊上级医院诊治；不推荐抗生素局部应用；未合并骨髓炎足溃疡感染，抗生素治疗疗程1~2周。"
+  },
+  {
+    "rule_name": "未合并骨髓炎的感染创面推荐1至2周抗生素疗程",
+    "head": {
+      "is_negative": false,
+      "name": "推荐疗程",
+      "arguments": [
+        "X",
+        "1至2周"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "DF溃疡创面",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生感染",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "合并骨髓炎",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需要抗生素治疗",
+        "arguments": [
+          "X",
+          "全身"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病足溃疡创面"
+    },
+    "source_text": "DF感染须通过临床诊断，以局部或全身的体征或炎症的症状为基础。几乎所有发生感染的DF创面都需抗生素治疗，未发生临床感染的创面不需使用抗生素。在选择抗生素控制感染前，有条件的应行溃疡创面细菌培养和药敏试验，细菌培养方法可选择严格清创后的棉拭子及病理组织培养。伤口初期首选抗菌素为抗革兰氏阳性菌药物；抗菌素治疗效果欠佳者，需及时转诊上级医院诊治；不推荐抗生素局部应用；未合并骨髓炎足溃疡感染，抗生素治疗疗程1~2周。"
+  },
+  {
+    "rule_name": "高龄无症状周围血管病变患者长期服用阿司匹林指征",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "阿司匹林",
+        "长期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病周围血管病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄大于",
+        "arguments": [
+          "X",
+          "50岁"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "出现症状",
+        "arguments": [
+          "X",
+          "间歇性跛行"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（2）内科治疗。有症状的周围血管病变，主要治疗目的是缓解患肢疼痛症状，改善血管重建术后组织灌注及生活质量。可以给予舒张血管药物，如前列腺素类药物、西洛他唑、沙格雷酯；抗血小板/抗凝药物，如阿司匹林、氯吡格雷等。其中西洛他唑具有抗血小板活性和舒张血管特性，推荐作为治疗间歇性跛行的一线药物。对于年龄＞50岁，无症状的周围血管病变患者应长期服用阿司匹林，有症状的周围血管病变（间歇性跛行）口服阿司匹林或者氯吡格雷。有间歇性跛行症状并且症状逐渐加重的患者（没有出现溃疡）推荐使用西洛他唑加阿司匹林或者氯吡格雷。严重缺血患者在等待血管重建手术期间口服阿司匹林或者氯吡格雷［13］。"
+  },
+  {
+    "rule_name": "有症状周围血管病变患者使用阿司匹林指征",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "阿司匹林",
+        "口服"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病周围血管病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出现症状",
+        "arguments": [
+          "X",
+          "间歇性跛行"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（2）内科治疗。有症状的周围血管病变，主要治疗目的是缓解患肢疼痛症状，改善血管重建术后组织灌注及生活质量。可以给予舒张血管药物，如前列腺素类药物、西洛他唑、沙格雷酯；抗血小板/抗凝药物，如阿司匹林、氯吡格雷等。其中西洛他唑具有抗血小板活性和舒张血管特性，推荐作为治疗间歇性跛行的一线药物。对于年龄＞50岁，无症状的周围血管病变患者应长期服用阿司匹林，有症状的周围血管病变（间歇性跛行）口服阿司匹林或者氯吡格雷。有间歇性跛行症状并且症状逐渐加重的患者（没有出现溃疡）推荐使用西洛他唑加阿司匹林或者氯吡格雷。严重缺血患者在等待血管重建手术期间口服阿司匹林或者氯吡格雷［13］。"
+  },
+  {
+    "rule_name": "有症状周围血管病变患者使用氯吡格雷指征",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "氯吡格雷",
+        "口服"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病周围血管病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出现症状",
+        "arguments": [
+          "X",
+          "间歇性跛行"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（2）内科治疗。有症状的周围血管病变，主要治疗目的是缓解患肢疼痛症状，改善血管重建术后组织灌注及生活质量。可以给予舒张血管药物，如前列腺素类药物、西洛他唑、沙格雷酯；抗血小板/抗凝药物，如阿司匹林、氯吡格雷等。其中西洛他唑具有抗血小板活性和舒张血管特性，推荐作为治疗间歇性跛行的一线药物。对于年龄＞50岁，无症状的周围血管病变患者应长期服用阿司匹林，有症状的周围血管病变（间歇性跛行）口服阿司匹林或者氯吡格雷。有间歇性跛行症状并且症状逐渐加重的患者（没有出现溃疡）推荐使用西洛他唑加阿司匹林或者氯吡格雷。严重缺血患者在等待血管重建手术期间口服阿司匹林或者氯吡格雷［13］。"
+  },
+  {
+    "rule_name": "加重性间歇性跛行无溃疡患者联合用药指征_西洛他唑加阿司匹林",
+    "head": {
+      "is_negative": false,
+      "name": "联合用药推荐",
+      "arguments": [
+        "X",
+        "西洛他唑和阿司匹林"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病周围血管病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出现症状",
+        "arguments": [
+          "X",
+          "间歇性跛行"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状特征",
+        "arguments": [
+          "X",
+          "逐渐加重"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "出现症状",
+        "arguments": [
+          "X",
+          "溃疡"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（2）内科治疗。有症状的周围血管病变，主要治疗目的是缓解患肢疼痛症状，改善血管重建术后组织灌注及生活质量。可以给予舒张血管药物，如前列腺素类药物、西洛他唑、沙格雷酯；抗血小板/抗凝药物，如阿司匹林、氯吡格雷等。其中西洛他唑具有抗血小板活性和舒张血管特性，推荐作为治疗间歇性跛行的一线药物。对于年龄＞50岁，无症状的周围血管病变患者应长期服用阿司匹林，有症状的周围血管病变（间歇性跛行）口服阿司匹林或者氯吡格雷。有间歇性跛行症状并且症状逐渐加重的患者（没有出现溃疡）推荐使用西洛他唑加阿司匹林或者氯吡格雷。严重缺血患者在等待血管重建手术期间口服阿司匹林或者氯吡格雷［13］。"
+  },
+  {
+    "rule_name": "加重性间歇性跛行无溃疡患者联合用药指征_西洛他唑加氯吡格雷",
+    "head": {
+      "is_negative": false,
+      "name": "联合用药推荐",
+      "arguments": [
+        "X",
+        "西洛他唑和氯吡格雷"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病周围血管病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出现症状",
+        "arguments": [
+          "X",
+          "间歇性跛行"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状特征",
+        "arguments": [
+          "X",
+          "逐渐加重"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "出现症状",
+        "arguments": [
+          "X",
+          "溃疡"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（2）内科治疗。有症状的周围血管病变，主要治疗目的是缓解患肢疼痛症状，改善血管重建术后组织灌注及生活质量。可以给予舒张血管药物，如前列腺素类药物、西洛他唑、沙格雷酯；抗血小板/抗凝药物，如阿司匹林、氯吡格雷等。其中西洛他唑具有抗血小板活性和舒张血管特性，推荐作为治疗间歇性跛行的一线药物。对于年龄＞50岁，无症状的周围血管病变患者应长期服用阿司匹林，有症状的周围血管病变（间歇性跛行）口服阿司匹林或者氯吡格雷。有间歇性跛行症状并且症状逐渐加重的患者（没有出现溃疡）推荐使用西洛他唑加阿司匹林或者氯吡格雷。严重缺血患者在等待血管重建手术期间口服阿司匹林或者氯吡格雷［13］。"
+  },
+  {
+    "rule_name": "严重缺血等待手术患者使用阿司匹林指征",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "阿司匹林",
+        "口服"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病周围血管病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病状态",
+        "arguments": [
+          "X",
+          "严重缺血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗阶段",
+        "arguments": [
+          "X",
+          "等待血管重建手术"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（2）内科治疗。有症状的周围血管病变，主要治疗目的是缓解患肢疼痛症状，改善血管重建术后组织灌注及生活质量。可以给予舒张血管药物，如前列腺素类药物、西洛他唑、沙格雷酯；抗血小板/抗凝药物，如阿司匹林、氯吡格雷等。其中西洛他唑具有抗血小板活性和舒张血管特性，推荐作为治疗间歇性跛行的一线药物。对于年龄＞50岁，无症状的周围血管病变患者应长期服用阿司匹林，有症状的周围血管病变（间歇性跛行）口服阿司匹林或者氯吡格雷。有间歇性跛行症状并且症状逐渐加重的患者（没有出现溃疡）推荐使用西洛他唑加阿司匹林或者氯吡格雷。严重缺血患者在等待血管重建手术期间口服阿司匹林或者氯吡格雷［13］。"
+  },
+  {
+    "rule_name": "严重缺血等待手术患者使用氯吡格雷指征",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "氯吡格雷",
+        "口服"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病周围血管病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病状态",
+        "arguments": [
+          "X",
+          "严重缺血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗阶段",
+        "arguments": [
+          "X",
+          "等待血管重建手术"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（2）内科治疗。有症状的周围血管病变，主要治疗目的是缓解患肢疼痛症状，改善血管重建术后组织灌注及生活质量。可以给予舒张血管药物，如前列腺素类药物、西洛他唑、沙格雷酯；抗血小板/抗凝药物，如阿司匹林、氯吡格雷等。其中西洛他唑具有抗血小板活性和舒张血管特性，推荐作为治疗间歇性跛行的一线药物。对于年龄＞50岁，无症状的周围血管病变患者应长期服用阿司匹林，有症状的周围血管病变（间歇性跛行）口服阿司匹林或者氯吡格雷。有间歇性跛行症状并且症状逐渐加重的患者（没有出现溃疡）推荐使用西洛他唑加阿司匹林或者氯吡格雷。严重缺血患者在等待血管重建手术期间口服阿司匹林或者氯吡格雷［13］。"
+  },
+  {
+    "rule_name": "糖尿病足溃疡危险因素判定_周围神经自主神经病变",
+    "head": {
+      "is_negative": false,
+      "name": "危险因素",
+      "arguments": [
+        "Y",
+        "有发生足溃疡",
+        "因"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属足",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变类型",
+        "arguments": [
+          "Y",
+          "周围神经和自主神经病变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "糖尿病足溃疡危险因素判定_周围血管病变",
+    "head": {
+      "is_negative": false,
+      "name": "危险因素",
+      "arguments": [
+        "Y",
+        "有发生足溃疡",
+        "因"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属足",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变类型",
+        "arguments": [
+          "Y",
+          "周围血管病变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "糖尿病足溃疡危险因素判定_既往足溃疡史",
+    "head": {
+      "is_negative": false,
+      "name": "危险因素",
+      "arguments": [
+        "Y",
+        "有发生足溃疡",
+        "因"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属足",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "既往病史",
+        "arguments": [
+          "X",
+          "足溃疡"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "糖尿病足溃疡危险因素判定_足畸形",
+    "head": {
+      "is_negative": false,
+      "name": "危险因素",
+      "arguments": [
+        "Y",
+        "有发生足溃疡",
+        "因"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属足",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "解剖异常",
+        "arguments": [
+          "Y",
+          "足畸形"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "糖尿病足溃疡危险因素判定_胼胝",
+    "head": {
+      "is_negative": false,
+      "name": "危险因素",
+      "arguments": [
+        "Y",
+        "有发生足溃疡",
+        "因"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属足",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "体征",
+        "arguments": [
+          "Y",
+          "胼胝"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "糖尿病足溃疡危险因素判定_失明",
+    "head": {
+      "is_negative": false,
+      "name": "危险因素",
+      "arguments": [
+        "Y",
+        "有发生足溃疡",
+        "因"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属足",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "视力障碍",
+        "arguments": [
+          "X",
+          "失明"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "糖尿病足溃疡危险因素判定_视力严重减退",
+    "head": {
+      "is_negative": false,
+      "name": "危险因素",
+      "arguments": [
+        "Y",
+        "有发生足溃疡",
+        "因"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属足",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "视力障碍",
+        "arguments": [
+          "X",
+          "视力严重减退"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "糖尿病足溃疡危险因素判定_合并肾脏病变",
+    "head": {
+      "is_negative": false,
+      "name": "危险因素",
+      "arguments": [
+        "Y",
+        "有发生足溃疡",
+        "因"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属足",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症",
+        "arguments": [
+          "X",
+          "肾脏病变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "糖尿病足溃疡危险因素判定_独立生活的老年人",
+    "head": {
+      "is_negative": false,
+      "name": "危险因素",
+      "arguments": [
+        "Y",
+        "有发生足溃疡",
+        "因"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属足",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "社会人口特征",
+        "arguments": [
+          "X",
+          "老年人"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生活状态",
+        "arguments": [
+          "X",
+          "独立生活"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "糖尿病足溃疡危险因素判定_糖尿病知识缺乏无足保护",
+    "head": {
+      "is_negative": false,
+      "name": "危险因素",
+      "arguments": [
+        "Y",
+        "有发生足溃疡",
+        "因"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属足",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "认知行为缺陷",
+        "arguments": [
+          "X",
+          "糖尿病知识缺乏"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "执行行为",
+        "arguments": [
+          "X",
+          "足保护"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "周围神经病变患者的足溃疡高风险",
+    "head": {
+      "is_negative": false,
+      "name": "高风险",
+      "arguments": [
+        "X",
+        "足溃疡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "周围神经病变",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "感觉异常",
+        "arguments": [
+          "X",
+          "足部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部检查",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "自主神经病变患者的足溃疡高风险",
+    "head": {
+      "is_negative": false,
+      "name": "高风险",
+      "arguments": [
+        "X",
+        "足溃疡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "自主神经病变",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出汗异常",
+        "arguments": [
+          "X",
+          "足部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部检查",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "周围血管病变患者的足溃疡高风险",
+    "head": {
+      "is_negative": false,
+      "name": "高风险",
+      "arguments": [
+        "X",
+        "足溃疡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "周围血管病变",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "下肢缺血",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部检查",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "有足溃疡史患者的足溃疡复发高风险",
+    "head": {
+      "is_negative": false,
+      "name": "高风险",
+      "arguments": [
+        "X",
+        "足溃疡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "既往病史",
+        "arguments": [
+          "X",
+          "足溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "皮肤脆弱",
+        "arguments": [
+          "X",
+          "足部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部检查",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "足畸形患者的足溃疡高风险",
+    "head": {
+      "is_negative": false,
+      "name": "高风险",
+      "arguments": [
+        "X",
+        "足溃疡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足畸形",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "压力异常",
+        "arguments": [
+          "X",
+          "足部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部检查",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "胼胝患者的足溃疡高风险",
+    "head": {
+      "is_negative": false,
+      "name": "高风险",
+      "arguments": [
+        "X",
+        "足溃疡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胼胝",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "局部高压",
+        "arguments": [
+          "X",
+          "足部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部检查",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "失明患者的足溃疡高风险",
+    "head": {
+      "is_negative": false,
+      "name": "高风险",
+      "arguments": [
+        "X",
+        "足溃疡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "视力障碍",
+        "arguments": [
+          "X",
+          "失明"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "自查困难",
+        "arguments": [
+          "X",
+          "足部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部检查",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "视力严重减退患者的足溃疡高风险",
+    "head": {
+      "is_negative": false,
+      "name": "高风险",
+      "arguments": [
+        "X",
+        "足溃疡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "视力障碍",
+        "arguments": [
+          "X",
+          "严重减退"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "自查困难",
+        "arguments": [
+          "X",
+          "足部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部检查",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "合并肾衰患者的足溃疡高风险",
+    "head": {
+      "is_negative": false,
+      "name": "高风险",
+      "arguments": [
+        "X",
+        "足溃疡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并症",
+        "arguments": [
+          "X",
+          "肾脏病变",
+          "功能衰竭"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "水肿倾向",
+        "arguments": [
+          "X",
+          "下肢"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部检查",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "独立生活老年糖尿病患者的足溃疡高风险",
+    "head": {
+      "is_negative": false,
+      "name": "高风险",
+      "arguments": [
+        "X",
+        "足溃疡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "老年人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生活状态",
+        "arguments": [
+          "X",
+          "独立"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部检查",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  },
+  {
+    "rule_name": "缺乏足保护知识患者的足溃疡高风险",
+    "head": {
+      "is_negative": false,
+      "name": "高风险",
+      "arguments": [
+        "X",
+        "足溃疡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "知识缺乏",
+        "arguments": [
+          "X",
+          "足保护"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "无法执行",
+        "arguments": [
+          "X",
+          "足保护"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部检查",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "发生溃疡的危险因素包括周围神经和自主神经病变、周围血管病变、以往有足溃疡史、足畸形（如鹰爪足、Charcot足等）、胼胝、失明或者视力严重减退、合并肾脏病变（尤其是肾脏功能衰竭）、独立生活的老年人、糖尿病知识缺乏而不能进行足保护者。"
+  }
+]

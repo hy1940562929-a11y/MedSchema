@@ -1,0 +1,2627 @@
+[
+  {
+    "rule_name": "前循环大动脉闭塞患者血管内治疗强烈推荐指征_CTP影像_DAWN标准",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "血管内治疗",
+        "强烈"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Z",
+          "AIS"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "闭塞位置",
+        "arguments": [
+          "Z",
+          "前循环大动脉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病时间窗",
+        "arguments": [
+          "Z",
+          "6至24小时"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行影像检查",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像类型",
+        "arguments": [
+          "Y",
+          "CTP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合入组标准",
+        "arguments": [
+          "Y",
+          "DAWN研究"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "CTP影像检查",
+      "Z": "疾病"
+    },
+    "source_text": "在6～24 h时间窗内，推荐符合前循环大动脉闭塞的AIS患者进行CTP或DWI及PWI成像后严格按照两个RCT（DAWN研究和DEFUSE 3研究）入组标准筛选进行血管内治疗（Ⅱa类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "前循环大动脉闭塞患者血管内治疗强烈推荐指征_DWI及PWI影像_DEFUSE3标准",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "血管内治疗",
+        "强烈"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Z",
+          "AIS"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "闭塞位置",
+        "arguments": [
+          "Z",
+          "前循环大动脉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病时间窗",
+        "arguments": [
+          "Z",
+          "6至24小时"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行影像检查",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像类型",
+        "arguments": [
+          "Y",
+          "DWI及PWI"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合入组标准",
+        "arguments": [
+          "Y",
+          "DEFUSE_3研究"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "DWI及PWI影像检查",
+      "Z": "疾病"
+    },
+    "source_text": "在6～24 h时间窗内，推荐符合前循环大动脉闭塞的AIS患者进行CTP或DWI及PWI成像后严格按照两个RCT（DAWN研究和DEFUSE 3研究）入组标准筛选进行血管内治疗（Ⅱa类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "医院条件满足时_6-24h窗_前循环大动脉闭塞患者_经CTP筛选后推荐血管内治疗",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗",
+      "arguments": [
+        "X",
+        "血管内治疗",
+        "Ⅱa类"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医院",
+        "arguments": [
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具备条件",
+        "arguments": [
+          "H",
+          "多模式影像"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "急性脑梗死患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病特征",
+        "arguments": [
+          "X",
+          "前循环大动脉闭塞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处于时间窗",
+        "arguments": [
+          "X",
+          "6至24小时"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受检查操作",
+        "arguments": [
+          "X",
+          "检查Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查类型",
+        "arguments": [
+          "检查Y",
+          "CTP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合入组标准",
+        "arguments": [
+          "X",
+          "DAWN_DEFUSE3"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "H": "医院",
+      "检查Y": "影像检查操作"
+    },
+    "source_text": "有条件的医院在6～24 h时间窗内，推荐符合前循环大动脉闭塞的急性脑梗死患者进行CTP或DWI及PWI后，按照两个RCT（DAWN研究和DEFUSE 3研究）入组标准筛选，进行血管内治疗（Ⅱa类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "医院条件满足时_6-24h窗_前循环大动脉闭塞患者_经DWI-PWI筛选后推荐血管内治疗",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗",
+      "arguments": [
+        "X",
+        "血管内治疗",
+        "Ⅱa类"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医院",
+        "arguments": [
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具备条件",
+        "arguments": [
+          "H",
+          "多模式影像"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "急性脑梗死患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病特征",
+        "arguments": [
+          "X",
+          "前循环大动脉闭塞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处于时间窗",
+        "arguments": [
+          "X",
+          "6至24小时"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受检查操作",
+        "arguments": [
+          "X",
+          "检查Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查类型",
+        "arguments": [
+          "检查Y",
+          "DWI"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受检查操作",
+        "arguments": [
+          "X",
+          "检查Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查类型",
+        "arguments": [
+          "检查Z",
+          "PWI"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合入组标准",
+        "arguments": [
+          "X",
+          "DAWN_DEFUSE3"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "H": "医院",
+      "检查Y": "影像检查操作",
+      "检查Z": "影像检查操作"
+    },
+    "source_text": "有条件的医院在6～24 h时间窗内，推荐符合前循环大动脉闭塞的急性脑梗死患者进行CTP或DWI及PWI后，按照两个RCT（DAWN研究和DEFUSE 3研究）入组标准筛选，进行血管内治疗（Ⅱa类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "未溶栓轻型卒中患者24小时内启用双抗方案降低复发风险",
+    "head": {
+      "is_negative": false,
+      "name": "显著降低风险",
+      "arguments": [
+        "X",
+        "90天卒中复发"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "属于类型",
+        "arguments": [
+          "X",
+          "患者"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于类型",
+        "arguments": [
+          "X",
+          "轻型卒中患者"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "进行过",
+        "arguments": [
+          "X",
+          "静脉溶栓治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有时间约束",
+        "arguments": [
+          "X",
+          "发病24小时内"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "启用方案",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "方案内容",
+        "arguments": [
+          "Y",
+          "双重抗血小板治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "方案药物",
+        "arguments": [
+          "Y",
+          "阿司匹林与氯吡格雷组合"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "方案剂量描述",
+        "arguments": [
+          "Y",
+          "阿司匹林100mg每日氯吡格雷首日300mg后75mg每日"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "方案持续期",
+        "arguments": [
+          "Y",
+          "21天"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "治疗方案"
+    },
+    "source_text": "对于未接受静脉溶栓治疗的轻型卒中及高危TIA患者，在发病24 h内启动双重抗血小板治疗[阿司匹林100 mg/d，联合氯吡格雷75 mg/d（首日负荷剂量为300 mg）]，并持续21 d，后可改成单药氯吡格雷75 mg/d，能显著降低90 d的卒中复发（Ⅰ类推荐，A级证据）。"
+  },
+  {
+    "rule_name": "未溶栓高危TIA患者24小时内启用双抗方案降低复发风险",
+    "head": {
+      "is_negative": false,
+      "name": "显著降低风险",
+      "arguments": [
+        "X",
+        "90天卒中复发"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "属于类型",
+        "arguments": [
+          "X",
+          "患者"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于类型",
+        "arguments": [
+          "X",
+          "高危TIA患者"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "进行过",
+        "arguments": [
+          "X",
+          "静脉溶栓治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有时间约束",
+        "arguments": [
+          "X",
+          "发病24小时内"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "启用方案",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "方案内容",
+        "arguments": [
+          "Y",
+          "双重抗血小板治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "方案药物",
+        "arguments": [
+          "Y",
+          "阿司匹林与氯吡格雷组合"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "方案剂量描述",
+        "arguments": [
+          "Y",
+          "阿司匹林100mg每日氯吡格雷首日300mg后75mg每日"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "方案持续期",
+        "arguments": [
+          "Y",
+          "21天"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "治疗方案"
+    },
+    "source_text": "对于未接受静脉溶栓治疗的轻型卒中及高危TIA患者，在发病24 h内启动双重抗血小板治疗[阿司匹林100 mg/d，联合氯吡格雷75 mg/d（首日负荷剂量为300 mg）]，并持续21 d，后可改成单药氯吡格雷75 mg/d，能显著降低90 d的卒中复发（Ⅰ类推荐，A级证据）。"
+  },
+  {
+    "rule_name": "AIS合并ST抬高心肌梗死累及左心室静脉rt-PA溶栓安全性不确定",
+    "head": {
+      "is_negative": false,
+      "name": "静脉溶栓推荐",
+      "arguments": [
+        "X",
+        "rt-PA",
+        "不确定"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "急性缺血性卒中"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "近期病史",
+        "arguments": [
+          "X",
+          "心肌梗死大于3个月"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心肌梗死类型",
+        "arguments": [
+          "X",
+          "ST抬高型"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "梗死部位",
+        "arguments": [
+          "X",
+          "左心室"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "AIS合并近期心肌梗死（＞3个月），如果为ST抬高心肌梗死，累及左心室/前壁，静脉rt-PA溶栓的安全性与风险尚不确定（Ⅱb类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "AIS合并ST抬高心肌梗死累及前壁静脉rt-PA溶栓安全性不确定",
+    "head": {
+      "is_negative": false,
+      "name": "静脉溶栓推荐",
+      "arguments": [
+        "X",
+        "rt-PA",
+        "不确定"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "急性缺血性卒中"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "近期病史",
+        "arguments": [
+          "X",
+          "心肌梗死大于3个月"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心肌梗死类型",
+        "arguments": [
+          "X",
+          "ST抬高型"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "梗死部位",
+        "arguments": [
+          "X",
+          "前壁"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "AIS合并近期心肌梗死（＞3个月），如果为ST抬高心肌梗死，累及左心室/前壁，静脉rt-PA溶栓的安全性与风险尚不确定（Ⅱb类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "重度AIS合并急性心包炎静脉rt-PA溶栓获益不明需紧急会诊",
+    "head": {
+      "is_negative": false,
+      "name": "静脉溶栓推荐",
+      "arguments": [
+        "X",
+        "rt-PA",
+        "获益不明"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中严重程度",
+        "arguments": [
+          "X",
+          "重度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "急性缺血性卒中"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "X",
+          "急性心包炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需紧急会诊",
+        "arguments": [
+          "X",
+          "心内科"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "重度AIS合并急性心包炎，可能导致重度残疾（mRS评分3～5分），静脉rt-PA溶栓获益不明确。需要心内科专家紧急会诊（Ⅱb类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "轻度AIS合并急性心包炎静脉rt-PA溶栓获益危险未知",
+    "head": {
+      "is_negative": false,
+      "name": "静脉溶栓推荐",
+      "arguments": [
+        "X",
+        "rt-PA",
+        "获益危险未知"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中严重程度",
+        "arguments": [
+          "X",
+          "轻度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "急性缺血性卒中"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "X",
+          "急性心包炎"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "轻度或中度AIS合并急性心包炎或合并左心房或左心室血栓，静脉rt-PA溶栓获益和危险未知（Ⅲ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "中度AIS合并急性心包炎静脉rt-PA溶栓获益危险未知",
+    "head": {
+      "is_negative": false,
+      "name": "静脉溶栓推荐",
+      "arguments": [
+        "X",
+        "rt-PA",
+        "获益危险未知"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中严重程度",
+        "arguments": [
+          "X",
+          "中度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "急性缺血性卒中"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "X",
+          "急性心包炎"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "轻度或中度AIS合并急性心包炎或合并左心房或左心室血栓，静脉rt-PA溶栓获益和危险未知（Ⅲ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "轻度AIS合并左心房血栓静脉rt-PA溶栓获益危险未知",
+    "head": {
+      "is_negative": false,
+      "name": "静脉溶栓推荐",
+      "arguments": [
+        "X",
+        "rt-PA",
+        "获益危险未知"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中严重程度",
+        "arguments": [
+          "X",
+          "轻度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "急性缺血性卒中"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并血栓部位",
+        "arguments": [
+          "X",
+          "左心房"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "轻度或中度AIS合并急性心包炎或合并左心房或左心室血栓，静脉rt-PA溶栓获益和危险未知（Ⅲ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "轻度AIS合并左心室血栓静脉rt-PA溶栓获益危险未知",
+    "head": {
+      "is_negative": false,
+      "name": "静脉溶栓推荐",
+      "arguments": [
+        "X",
+        "rt-PA",
+        "获益危险未知"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中严重程度",
+        "arguments": [
+          "X",
+          "轻度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "急性缺血性卒中"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并血栓部位",
+        "arguments": [
+          "X",
+          "左心室"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "轻度或中度AIS合并急性心包炎或合并左心房或左心室血栓，静脉rt-PA溶栓获益和危险未知（Ⅲ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "中度AIS合并左心房血栓静脉rt-PA溶栓获益危险未知",
+    "head": {
+      "is_negative": false,
+      "name": "静脉溶栓推荐",
+      "arguments": [
+        "X",
+        "rt-PA",
+        "获益危险未知"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中严重程度",
+        "arguments": [
+          "X",
+          "中度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "急性缺血性卒中"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并血栓部位",
+        "arguments": [
+          "X",
+          "左心房"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "轻度或中度AIS合并急性心包炎或合并左心房或左心室血栓，静脉rt-PA溶栓获益和危险未知（Ⅲ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "中度AIS合并左心室血栓静脉rt-PA溶栓获益危险未知",
+    "head": {
+      "is_negative": false,
+      "name": "静脉溶栓推荐",
+      "arguments": [
+        "X",
+        "rt-PA",
+        "获益危险未知"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中严重程度",
+        "arguments": [
+          "X",
+          "中度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "急性缺血性卒中"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并血栓部位",
+        "arguments": [
+          "X",
+          "左心室"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "轻度或中度AIS合并急性心包炎或合并左心房或左心室血栓，静脉rt-PA溶栓获益和危险未知（Ⅲ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "活动受限卒中患者深静脉血栓预防推荐_间歇充气加压",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "Y",
+        "联合常规治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "缺血性卒中患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "活动能力受限",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "无禁忌证",
+        "arguments": [
+          "X",
+          "深静脉血栓预防"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受常规治疗",
+        "arguments": [
+          "X",
+          "阿司匹林和补液"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗措施",
+        "arguments": [
+          "Y",
+          "间歇充气加压"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标疗效",
+        "arguments": [
+          "Y",
+          "减少深静脉血栓形成风险"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "治疗措施"
+    },
+    "source_text": "对于活动能力受限的无禁忌证卒中患者，除了常规治疗（阿司匹林和补液），推荐间歇充气加压联合常规治疗以减少深静脉血栓形成风险（Ⅰ类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "活动受限AIS患者预防性肝素获益不明确_普通肝素",
+    "head": {
+      "is_negative": false,
+      "name": "获益评价",
+      "arguments": [
+        "使用(X, Z)",
+        "尚不明确"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "缺血性卒中患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "活动能力受限",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药品",
+        "arguments": [
+          "Z",
+          "预防剂量普通肝素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "给药方式",
+        "arguments": [
+          "Z",
+          "皮下注射"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目的",
+        "arguments": [
+          "Z",
+          "预防性抗凝"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "药品"
+    },
+    "source_text": "活动能力受限的AIS患者皮下注射预防剂量肝素（普通肝素或低分子肝素）的获益尚不明确（Ⅱb类推荐，A级证据）。"
+  },
+  {
+    "rule_name": "活动受限AIS患者预防性肝素获益不明确_低分子肝素",
+    "head": {
+      "is_negative": false,
+      "name": "获益评价",
+      "arguments": [
+        "使用(X, W)",
+        "尚不明确"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "缺血性卒中患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "活动能力受限",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药品",
+        "arguments": [
+          "W",
+          "预防剂量低分子肝素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "给药方式",
+        "arguments": [
+          "W",
+          "皮下注射"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目的",
+        "arguments": [
+          "W",
+          "预防性抗凝"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "W": "药品"
+    },
+    "source_text": "活动能力受限的AIS患者皮下注射预防剂量肝素（普通肝素或低分子肝素）的获益尚不明确（Ⅱb类推荐，A级证据）。"
+  },
+  {
+    "rule_name": "预防性抗凝治疗中低分子肝素对比普通肝素获益不明确",
+    "head": {
+      "is_negative": false,
+      "name": "对比获益",
+      "arguments": [
+        "W",
+        "Z",
+        "尚不明确"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药品",
+        "arguments": [
+          "W",
+          "预防剂量低分子肝素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药品",
+        "arguments": [
+          "Z",
+          "预防剂量普通肝素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目的",
+        "arguments": [
+          "W",
+          "预防性抗凝"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目的",
+        "arguments": [
+          "Z",
+          "预防性抗凝"
+        ]
+      }
+    ],
+    "variables": {
+      "W": "药品（低分子肝素）",
+      "Z": "药品（普通肝素）"
+    },
+    "source_text": "当给予预防性抗凝治疗时，预防剂量的低分子肝素与预防剂量的普通肝素的获益对比尚不明确（Ⅱb类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "缺血性卒中患者不常规推荐弹力袜",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "使用(X, V)",
+        "不常规"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "缺血性卒中患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗器械",
+        "arguments": [
+          "V",
+          "弹力袜"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标疗效",
+        "arguments": [
+          "V",
+          "预防下肢静脉血栓"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "V": "医疗器械"
+    },
+    "source_text": "缺血性卒中患者不常规推荐使用弹力袜（Ⅲ类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "意识水平下降的AIS患者气道支持推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "气道支持和辅助通气",
+        "I类"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "AIS患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "意识水平下降"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "意识水平下降",
+          "气道损害"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "干预措施"
+    },
+    "source_text": "对于意识水平下降或延髓功能障碍导致气道损害的AIS患者，推荐给予气道支持和辅助通气（Ⅰ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "延髓功能障碍的AIS患者气道支持推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "气道支持和辅助通气",
+        "I类"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "AIS患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "延髓功能障碍"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "延髓功能障碍",
+          "气道损害"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "干预措施"
+    },
+    "source_text": "对于意识水平下降或延髓功能障碍导致气道损害的AIS患者，推荐给予气道支持和辅助通气（Ⅰ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "AIS患者必要时维持高血氧的吸氧推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "吸氧",
+        "I类"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "AIS患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在指征",
+        "arguments": [
+          "X",
+          "必要时"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血氧饱和度条件",
+        "arguments": [
+          "X",
+          "低于94%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "干预措施"
+    },
+    "source_text": "必要时吸氧，应维持血氧饱和度＞94%（Ⅰ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "无低氧血症的AIS患者常规吸氧不推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗不推荐",
+      "arguments": [
+        "Y",
+        "常规吸氧",
+        "III类"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "AIS患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "低氧血症",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "干预措施"
+    },
+    "source_text": "无低氧血症的AIS患者不推荐常规吸氧（Ⅲ类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "发热卒中患者的体温药物管理推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "给予药物维持体温正常",
+        "I类"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "体温状态",
+        "arguments": [
+          "X",
+          "发热"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发热原因",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "寻找",
+        "arguments": [
+          "医疗行为",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "干预措施",
+      "Z": "原因"
+    },
+    "source_text": "寻找发热（体温>38 ℃）原因，对于发热的卒中患者应给予相应药物以维持体温在正常范围（Ⅰ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "缺血性卒中患者诱导低温治疗限制于临床试验",
+    "head": {
+      "is_negative": false,
+      "name": "治疗限制",
+      "arguments": [
+        "Y",
+        "仅用于临床试验",
+        "IIb类"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "缺血性卒中患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Y",
+          "诱导低温治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疗效状态",
+        "arguments": [
+          "诱导低温治疗",
+          "不明确"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "治疗干预"
+    },
+    "source_text": "诱导低温治疗缺血性卒中患者的获益尚不明确。低温疗法应仅用于正在进行的临床试验（Ⅱb类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "AIS患者早期肠内营养启动推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "开始肠内营养",
+        "I类"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "AIS患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时间条件",
+        "arguments": [
+          "入院后",
+          "7天内"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "干预措施"
+    },
+    "source_text": "AIS后应在入院7 d内开始给予肠内营养（Ⅰ类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "吞咽困难AIS患者卒中早期鼻饲推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "使用鼻饲",
+        "IIa类"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "AIS患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "吞咽困难"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时间条件",
+        "arguments": [
+          "卒中早期",
+          "发病后7天内"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "干预措施"
+    },
+    "source_text": "对于吞咽困难的患者，在卒中早期（发病后7 d内）使用鼻饲，在预期会长期持续（＞2～3周）不能安全吞咽时放置经皮内镜下胃造口管饲是合理的（Ⅱa类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "长期吞咽困难AIS患者胃造口管饲推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "放置经皮内镜下胃造口管饲",
+        "IIa类"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "AIS患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "吞咽困难"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "持续时间",
+        "arguments": [
+          "不能安全吞咽",
+          "大于2到3周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "干预措施"
+    },
+    "source_text": "对于吞咽困难的患者，在卒中早期（发病后7 d内）使用鼻饲，在预期会长期持续（＞2～3周）不能安全吞咽时放置经皮内镜下胃造口管饲是合理的（Ⅱa类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "营养不良风险AIS患者营养补充剂使用推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "Y",
+        "使用营养补充剂",
+        "IIa类"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "AIS患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险状态",
+        "arguments": [
+          "X",
+          "营养不良或有营养不良风险"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "干预措施"
+    },
+    "source_text": "对于营养不良或有营养不良风险的患者，使用营养补充剂是合理的（Ⅱa类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "前循环大血管闭塞患者_6-16h_符合DAWN标准_强烈推荐机械取栓",
+    "head": {
+      "is_negative": false,
+      "name": "推荐强度",
+      "arguments": [
+        "X",
+        "机械取栓",
+        "Ⅰ类A级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "前循环大血管闭塞患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时间窗口符合",
+        "arguments": [
+          "X",
+          "距最后正常时间6-16h"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合标准",
+        "arguments": [
+          "X",
+          "DAWN研究入组标准"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "距患者最后正常时间6～16 h的前循环大血管闭塞患者，当符合DAWN研究入组标准或DEFUSE 3研究入组标准时，强烈推荐机械取栓治疗（Ⅰ类推荐，A级证据）。距患者最后正常时间16～24 h的前循环大血管闭塞患者，当符合DAWN研究入组标准时，推荐使用机械取栓治疗（Ⅱa类推荐，B级证据）。发病6～24 h的急性基底动脉闭塞患者，可以考虑在影像检查评估后实施机械取栓，或者按照当地伦理委员会批准的血管内治疗RCT进行取栓（Ⅱb类推荐，B级证据）。发病24 h以上的大血管闭塞患者，机械取栓的获益性尚不明确（Ⅱb类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "前循环大血管闭塞患者_6-16h_符合DEFUSE3标准_强烈推荐机械取栓",
+    "head": {
+      "is_negative": false,
+      "name": "推荐强度",
+      "arguments": [
+        "X",
+        "机械取栓",
+        "Ⅰ类A级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "前循环大血管闭塞患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时间窗口符合",
+        "arguments": [
+          "X",
+          "距最后正常时间6-16h"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合标准",
+        "arguments": [
+          "X",
+          "DEFUSE3研究入组标准"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "距患者最后正常时间6～16 h的前循环大血管闭塞患者，当符合DAWN研究入组标准或DEFUSE 3研究入组标准时，强烈推荐机械取栓治疗（Ⅰ类推荐，A级证据）。距患者最后正常时间16～24 h的前循环大血管闭塞患者，当符合DAWN研究入组标准时，推荐使用机械取栓治疗（Ⅱa类推荐，B级证据）。发病6～24 h的急性基底动脉闭塞患者，可以考虑在影像检查评估后实施机械取栓，或者按照当地伦理委员会批准的血管内治疗RCT进行取栓（Ⅱb类推荐，B级证据）。发病24 h以上的大血管闭塞患者，机械取栓的获益性尚不明确（Ⅱb类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "前循环大血管闭塞患者_16-24h_符合DAWN标准_推荐机械取栓",
+    "head": {
+      "is_negative": false,
+      "name": "推荐强度",
+      "arguments": [
+        "X",
+        "机械取栓",
+        "Ⅱa类B级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "前循环大血管闭塞患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时间窗口符合",
+        "arguments": [
+          "X",
+          "距最后正常时间16-24h"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合标准",
+        "arguments": [
+          "X",
+          "DAWN研究入组标准"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "距患者最后正常时间6～16 h的前循环大血管闭塞患者，当符合DAWN研究入组标准或DEFUSE 3研究入组标准时，强烈推荐机械取栓治疗（Ⅰ类推荐，A级证据）。距患者最后正常时间16～24 h的前循环大血管闭塞患者，当符合DAWN研究入组标准时，推荐使用机械取栓治疗（Ⅱa类推荐，B级证据）。发病6～24 h的急性基底动脉闭塞患者，可以考虑在影像检查评估后实施机械取栓，或者按照当地伦理委员会批准的血管内治疗RCT进行取栓（Ⅱb类推荐，B级证据）。发病24 h以上的大血管闭塞患者，机械取栓的获益性尚不明确（Ⅱb类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "急性基底动脉闭塞患者_6-24h_影像评估_考虑机械取栓",
+    "head": {
+      "is_negative": false,
+      "name": "推荐强度",
+      "arguments": [
+        "X",
+        "机械取栓",
+        "Ⅱb类B级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "急性基底动脉闭塞患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病时间窗口",
+        "arguments": [
+          "X",
+          "6-24h"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受评估",
+        "arguments": [
+          "X",
+          "影像检查评估"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "距患者最后正常时间6～16 h的前循环大血管闭塞患者，当符合DAWN研究入组标准或DEFUSE 3研究入组标准时，强烈推荐机械取栓治疗（Ⅰ类推荐，A级证据）。距患者最后正常时间16～24 h的前循环大血管闭塞患者，当符合DAWN研究入组标准时，推荐使用机械取栓治疗（Ⅱa类推荐，B级证据）。发病6～24 h的急性基底动脉闭塞患者，可以考虑在影像检查评估后实施机械取栓，或者按照当地伦理委员会批准的血管内治疗RCT进行取栓（Ⅱb类推荐，B级证据）。发病24 h以上的大血管闭塞患者，机械取栓的获益性尚不明确（Ⅱb类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "急性基底动脉闭塞患者_6-24h_按当地RCT_考虑机械取栓",
+    "head": {
+      "is_negative": false,
+      "name": "推荐强度",
+      "arguments": [
+        "X",
+        "机械取栓",
+        "Ⅱb类B级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "急性基底动脉闭塞患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病时间窗口",
+        "arguments": [
+          "X",
+          "6-24h"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合治疗路径",
+        "arguments": [
+          "X",
+          "当地伦理批准血管内治疗RCT"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "距患者最后正常时间6～16 h的前循环大血管闭塞患者，当符合DAWN研究入组标准或DEFUSE 3研究入组标准时，强烈推荐机械取栓治疗（Ⅰ类推荐，A级证据）。距患者最后正常时间16～24 h的前循环大血管闭塞患者，当符合DAWN研究入组标准时，推荐使用机械取栓治疗（Ⅱa类推荐，B级证据）。发病6～24 h的急性基底动脉闭塞患者，可以考虑在影像检查评估后实施机械取栓，或者按照当地伦理委员会批准的血管内治疗RCT进行取栓（Ⅱb类推荐，B级证据）。发病24 h以上的大血管闭塞患者，机械取栓的获益性尚不明确（Ⅱb类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "大血管闭塞患者_超过24h_机械取栓获益不明确",
+    "head": {
+      "is_negative": false,
+      "name": "获益评估",
+      "arguments": [
+        "X",
+        "机械取栓",
+        "尚不明确"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "大血管闭塞患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病时间窗口",
+        "arguments": [
+          "X",
+          "超过24h"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "距患者最后正常时间6～16 h的前循环大血管闭塞患者，当符合DAWN研究入组标准或DEFUSE 3研究入组标准时，强烈推荐机械取栓治疗（Ⅰ类推荐，A级证据）。距患者最后正常时间16～24 h的前循环大血管闭塞患者，当符合DAWN研究入组标准时，推荐使用机械取栓治疗（Ⅱa类推荐，B级证据）。发病6～24 h的急性基底动脉闭塞患者，可以考虑在影像检查评估后实施机械取栓，或者按照当地伦理委员会批准的血管内治疗RCT进行取栓（Ⅱb类推荐，B级证据）。发病24 h以上的大血管闭塞患者，机械取栓的获益性尚不明确（Ⅱb类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "大面积脑梗死患者高风险时推荐转送监护并监测",
+    "head": {
+      "is_negative": false,
+      "name": "诊疗推荐",
+      "arguments": [
+        "X",
+        "转送至重症监护室或卒中单元",
+        "推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "大面积脑梗死",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险",
+        "arguments": [
+          "X",
+          "脑水肿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险",
+        "arguments": [
+          "X",
+          "颅内压增高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "状态",
+        "arguments": [
+          "卒中后早期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊疗行动",
+        "arguments": [
+          "X",
+          "采取减轻水肿风险措施"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测目标",
+        "arguments": [
+          "X",
+          "神经功能恶化体征"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "脑水肿/颅高压处理流程见图5。推荐意见：·大面积脑梗死患者合并脑水肿和颅内压增高的风险高，推荐将患者转送至重症监护室或卒中单元，在卒中后早期采用减轻水肿风险的措施，密切监测患者神经功能恶化体征的出现（Ⅰ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "年龄不超过60岁单侧大脑中动脉梗死患者恶化后合理行去骨瓣减压术",
+    "head": {
+      "is_negative": false,
+      "name": "手术推荐",
+      "arguments": [
+        "X",
+        "去骨瓣减压术及硬脑膜扩张术",
+        "合理"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "年龄属性",
+        "arguments": [
+          "X",
+          "小于等于60岁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "大脑中动脉梗死",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "单侧",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病后接受",
+        "arguments": [
+          "X",
+          "药物治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "恶化时间窗口",
+        "arguments": [
+          "X",
+          "发病后48小时内"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "恶化表现",
+        "arguments": [
+          "X",
+          "神经功能恶化"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "对于年龄≤60岁、尽管接受了药物治疗却在发病后48 h内出现神经功能恶化的单侧大脑中动脉梗死患者，行去骨瓣减压术及硬脑膜扩张术是合理的（Ⅱa类推荐，A级证据）。"
+  },
+  {
+    "rule_name": "年龄超过60岁单侧大脑中动脉梗死患者恶化后可考虑行去骨瓣减压术",
+    "head": {
+      "is_negative": false,
+      "name": "手术推荐",
+      "arguments": [
+        "X",
+        "去骨瓣减压术及硬脑膜扩张术",
+        "可考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "年龄属性",
+        "arguments": [
+          "X",
+          "大于60岁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "大脑中动脉梗死",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "单侧",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病后接受",
+        "arguments": [
+          "X",
+          "药物治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "恶化时间窗口",
+        "arguments": [
+          "X",
+          "发病后48小时内"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "恶化表现",
+        "arguments": [
+          "X",
+          "神经功能恶化"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "对于年龄>60岁、尽管接受了药物治疗却在发病后48 h内出现神经功能恶化的单侧大脑中动脉梗死患者，可以考虑行去骨瓣减压术及硬脑膜扩张术（Ⅱb类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "以脑水肿致意识水平下降为标准选择手术合理",
+    "head": {
+      "is_negative": false,
+      "name": "手术标准选择",
+      "arguments": [
+        "Z",
+        "合理"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发于",
+        "arguments": [
+          "Y",
+          "脑水肿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致后果",
+        "arguments": [
+          "Y",
+          "意识水平下降"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术",
+        "arguments": [
+          "Z",
+          "去骨瓣减压术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "依据标准",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "病症状态",
+      "Z": "手术"
+    },
+    "source_text": "虽然去骨瓣减压术的最佳时机尚不明确，但将脑水肿引起的意识水平下降作为选择行手术的标准是合理的（Ⅱa类推荐，A级证据）。"
+  },
+  {
+    "rule_name": "小脑梗死后梗阻性脑积水推荐脑室引流术",
+    "head": {
+      "is_negative": false,
+      "name": "手术推荐",
+      "arguments": [
+        "Y",
+        "脑室引流术",
+        "推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "小脑梗死",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者患有",
+        "arguments": [
+          "X",
+          "梗阻性脑积水"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生时机",
+        "arguments": [
+          "梗阻性脑积水",
+          "梗死后"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术方法"
+    },
+    "source_text": "推荐脑室引流术治疗小脑梗死后梗阻性脑积水。是否需要同时或后续行去骨瓣减压图5  脑水肿/颅高压的处理流程http://guide.medlive.cn/718Chin J Stroke, Jul 2019, Vol 14, No.7术应基于梗死体积、神经功能状态、脑干受压程度及药物治疗有效性等因素（Ⅰ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "小脑梗死患者药物难治性恶化时推荐枕下去骨瓣减压",
+    "head": {
+      "is_negative": false,
+      "name": "手术推荐",
+      "arguments": [
+        "X",
+        "枕骨下去骨瓣减压术及硬脑膜扩张术",
+        "推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "小脑梗死",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "最大程度药物治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "恶化原因",
+        "arguments": [
+          "X",
+          "脑干受压"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "恶化表现",
+        "arguments": [
+          "X",
+          "神经功能恶化"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "小脑梗死患者虽经过最大程度的药物治疗但仍因脑干受压而出现神经功能恶化时，推荐实施枕骨下去骨瓣减压术及硬脑膜扩张术。当安全性及指征得到确认后，应同时行脑室引流术治疗梗阻性脑积水（Ⅰ类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "小脑梗死手术患者安全指征确认后应同时行脑室引流",
+    "head": {
+      "is_negative": false,
+      "name": "同时手术推荐",
+      "arguments": [
+        "Y",
+        "脑室引流术",
+        "应实施"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "小脑梗死",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术决策",
+        "arguments": [
+          "Y",
+          "枕骨下去骨瓣减压术及硬脑膜扩张术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术前提条件满足",
+        "arguments": [
+          "Y",
+          "安全性确认"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术前提条件满足",
+        "arguments": [
+          "Y",
+          "指征确认"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发状况",
+        "arguments": [
+          "X",
+          "梗阻性脑积水"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术决策"
+    },
+    "source_text": "小脑梗死患者虽经过最大程度的药物治疗但仍因脑干受压而出现神经功能恶化时，推荐实施枕骨下去骨瓣减压术及硬脑膜扩张术。当安全性及指征得到确认后，应同时行脑室引流术治疗梗阻性脑积水（Ⅰ类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "幕上大面积梗死患者占位恶化时合理用渗透性药物",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "抢救性渗透性药物",
+        "合理"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "幕上梗死",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "大面积",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴有体征",
+        "arguments": [
+          "X",
+          "占位征象"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病情进展表现",
+        "arguments": [
+          "X",
+          "进行性神经功能恶化"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "对于幕上大面积梗死或小脑梗死伴有占位征象且进行性神经功能恶化者，使用抢救性渗透性药物治疗是合理的（Ⅱa类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "小脑梗死患者占位恶化时合理用渗透性药物",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "抢救性渗透性药物",
+        "合理"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "小脑梗死",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴有体征",
+        "arguments": [
+          "X",
+          "占位征象"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病情进展表现",
+        "arguments": [
+          "X",
+          "进行性神经功能恶化"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "对于幕上大面积梗死或小脑梗死伴有占位征象且进行性神经功能恶化者，使用抢救性渗透性药物治疗是合理的（Ⅱa类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "脑肿胀致急危重神经功能下降患者合理使用过度换气",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "短暂适度过度换气",
+        "合理作为过渡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病理状态",
+        "arguments": [
+          "X",
+          "脑肿胀"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致后果",
+        "arguments": [
+          "脑肿胀",
+          "急危重性神经功能下降"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗参数",
+        "arguments": [
+          "短暂适度过度换气",
+          "PCO2目标值30到34mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "对于脑肿胀所致的急危重性神经功能下降患者，使用短暂适度的过度换气（PCO2目标值30～34 mm Hg）作为过渡治疗是合理的（Ⅱa类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "大脑半球梗死伴脑肿胀不推荐低温或巴比妥药物",
+    "head": {
+      "is_negative": true,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "低温或巴比妥类药物",
+        "不推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "大脑半球梗死",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发状态",
+        "arguments": [
+          "X",
+          "脑肿胀"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "对于大脑半球或小脑梗死伴脑肿胀的患者，不推荐使用低温或巴比妥类药物治疗（Ⅲ类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "小脑梗死伴脑肿胀不推荐低温或巴比妥药物",
+    "head": {
+      "is_negative": true,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "低温或巴比妥类药物",
+        "不推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "小脑梗死",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发状态",
+        "arguments": [
+          "X",
+          "脑肿胀"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "对于大脑半球或小脑梗死伴脑肿胀的患者，不推荐使用低温或巴比妥类药物治疗（Ⅲ类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "缺血性卒中后脑水肿及颅高压不应使用类固醇",
+    "head": {
+      "is_negative": true,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "类固醇",
+        "不应"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "缺血性卒中",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发状态",
+        "arguments": [
+          "X",
+          "脑水肿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发状态",
+        "arguments": [
+          "X",
+          "颅内压增高"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "由于缺乏有效性证据且潜在增加感染并发症风险，不应使用类固醇（普通或大剂量）治疗缺血性卒中后合并的脑水肿和颅内压增高（Ⅲ类推荐，A级证据）。"
+  }
+]

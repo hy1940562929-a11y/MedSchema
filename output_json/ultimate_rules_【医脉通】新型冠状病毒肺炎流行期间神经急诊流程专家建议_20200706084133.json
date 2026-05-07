@@ -1,0 +1,1995 @@
+[
+  {
+    "rule_name": "COVID-19流行期神经急诊承担双重责任与专业委员会提供建议",
+    "head": {
+      "is_negative": false,
+      "name": "提供工作流程建议",
+      "arguments": [
+        "Y",
+        "X",
+        "涵盖会诊抢救转运"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "神经急诊科",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处于时期",
+        "arguments": [
+          "X",
+          "COVID-19防控关键期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "面临责任",
+        "arguments": [
+          "X",
+          "疫情防控"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "面临责任",
+        "arguments": [
+          "X",
+          "处理急性神经系统疾病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "专业委员会",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "隶属领域",
+        "arguments": [
+          "Y",
+          "神经急诊重症监护"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "神经急诊科",
+      "Y": "中国人体健康科技促进会神经急诊重症监护专业委员会"
+    },
+    "source_text": "In the key period of the prevention and control of the new coronavirus pneumonia （COVID-19），emergency neurology is facing various challenges.It is not only responsible for the prevention and control of the epidemic，but also responsible for the pressure of managing acute cerebrovascular disease and other acute neurological diseases.The Neuroemergency Critical Care Committee of China Association for Promotion of Health Science and Technology provides expert advices in the workflow of neurological emergency in the condition of epidemic prevention and control，including consultation，rescue，outbound transport，green channel management，etc.The aim is to give a reference for neurological emergency physicians to adhere for the treatment of neurological emergency patients while doing a good job of protection."
+  },
+  {
+    "rule_name": "神经急诊医生通过防护与识别实现疫情有效控制",
+    "head": {
+      "is_negative": false,
+      "name": "控制效果",
+      "arguments": [
+        "疫情",
+        "有效",
+        "通过行动"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "神经急诊医生",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "身处环境",
+        "arguments": [
+          "X",
+          "神经急诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "做好防护",
+        "arguments": [
+          "X",
+          "自身"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "快速识别",
+        "arguments": [
+          "X",
+          "传染性疾病隐患"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "神经急诊医生"
+    },
+    "source_text": "自2019 年底新型冠状病毒肺炎（COVID-19）暴发以来，虽经我国全民抗疫的艰苦努力取得了阶段性成果，但国外仍呈上升趋势，我国输入型病例仍时有发生，疫情防控任重道远。为切实有效控制传染源，切断传播途径，保护易感人群，从千万就医患者及家属中第一时间准确识别出感染患者尤为关键。作为医院急诊重要组成部分，神经急诊一直战斗在医院第一线，肩负着疫情防控的重任，接诊的患者常有急性脑血管病、急性颅内感染、急性症状性癫痫发作以及各种慢性病神经系统急性受累及失代偿症状发生。急诊患者的不可限制、无法预料和需要紧急处置等特点，再加上接诊环境的限制，作为患者及陪护家属的第一接触者，神经急诊医生首先要做好自身防护，并能在紧急救治的同时快速识别出传染性疾病的隐患，是使疫情得到有效控制的核心，更是保证疫情不在院内扩散的关键，从而确保医院神经急诊医疗服务体系在危机面前正常运行。"
+  },
+  {
+    "rule_name": "神经急诊医生通过防护与识别防止疫情院内扩散并保障体系运行",
+    "head": {
+      "is_negative": false,
+      "name": "负责控制",
+      "arguments": [
+        "X",
+        "疫情院内扩散"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "神经急诊医生",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "身处环境",
+        "arguments": [
+          "X",
+          "神经急诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "做好防护",
+        "arguments": [
+          "X",
+          "自身"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "快速识别",
+        "arguments": [
+          "X",
+          "传染性疾病隐患"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "保证运行",
+        "arguments": [
+          "急诊医疗服务体系",
+          "正常"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "神经急诊医生"
+    },
+    "source_text": "自2019 年底新型冠状病毒肺炎（COVID-19）暴发以来，虽经我国全民抗疫的艰苦努力取得了阶段性成果，但国外仍呈上升趋势，我国输入型病例仍时有发生，疫情防控任重道远。为切实有效控制传染源，切断传播途径，保护易感人群，从千万就医患者及家属中第一时间准确识别出感染患者尤为关键。作为医院急诊重要组成部分，神经急诊一直战斗在医院第一线，肩负着疫情防控的重任，接诊的患者常有急性脑血管病、急性颅内感染、急性症状性癫痫发作以及各种慢性病神经系统急性受累及失代偿症状发生。急诊患者的不可限制、无法预料和需要紧急处置等特点，再加上接诊环境的限制，作为患者及陪护家属的第一接触者，神经急诊医生首先要做好自身防护，并能在紧急救治的同时快速识别出传染性疾病的隐患，是使疫情得到有效控制的核心，更是保证疫情不在院内扩散的关键，从而确保医院神经急诊医疗服务体系在危机面前正常运行。"
+  },
+  {
+    "rule_name": "有流行病学史未排除患者进行开放气道检查的转运人员高级别防护要求",
+    "head": {
+      "is_negative": false,
+      "name": "防护要求",
+      "arguments": [
+        "Z",
+        "高级别",
+        "针对检查"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "有表现未排除患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "流行病学史",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经急诊患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "外出检查",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需要进行",
+        "arguments": [
+          "Y",
+          "开放气道操作"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转运人员",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "负责转运",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "外出检查",
+      "Z": "转运人员"
+    },
+    "source_text": "在疫情期间，神经急诊患者外出进行检查时应对患者的COVID-19 诊断的可能性和传播风险进行评估，以确定对转运人员的暴露风险，进行相应最低级别以上的防护。（2）COVID-19 确诊和疑似患者应转至发热门诊处理。建议根据有无流行病学史或临床表现，将其他患者分为有表现（有流行病学史或临床表现中任一条，但不满足COVID-19确诊和疑似诊断标准）未排除、无表现未排除和无表现已排除3 大类，以是否有开放气道或需要做开放气道的操作将传播风险进行分组。转运人员（包括医生、护士、护工、家属等）和进行检查的技术人员的暴露风险建议见表1。（3）对于有表现未排除COVID-19的患者，外出检查建议设置专门的通道，有条件时设置专门的检查室，在检查之后技术人员应对检查室进行物品及环境消毒。"
+  },
+  {
+    "rule_name": "有临床表现未排除患者进行开放气道检查的转运人员高级别防护要求",
+    "head": {
+      "is_negative": false,
+      "name": "防护要求",
+      "arguments": [
+        "Z",
+        "高级别",
+        "针对检查"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "有表现未排除患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床表现",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经急诊患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "外出检查",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需要进行",
+        "arguments": [
+          "Y",
+          "开放气道操作"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转运人员",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "负责转运",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "外出检查",
+      "Z": "转运人员"
+    },
+    "source_text": "在疫情期间，神经急诊患者外出进行检查时应对患者的COVID-19 诊断的可能性和传播风险进行评估，以确定对转运人员的暴露风险，进行相应最低级别以上的防护。（2）COVID-19 确诊和疑似患者应转至发热门诊处理。建议根据有无流行病学史或临床表现，将其他患者分为有表现（有流行病学史或临床表现中任一条，但不满足COVID-19确诊和疑似诊断标准）未排除、无表现未排除和无表现已排除3 大类，以是否有开放气道或需要做开放气道的操作将传播风险进行分组。转运人员（包括医生、护士、护工、家属等）和进行检查的技术人员的暴露风险建议见表1。（3）对于有表现未排除COVID-19的患者，外出检查建议设置专门的通道，有条件时设置专门的检查室，在检查之后技术人员应对检查室进行物品及环境消毒。"
+  },
+  {
+    "rule_name": "有表现未排除患者无开放气道检查的转运人员防护升级要求",
+    "head": {
+      "is_negative": false,
+      "name": "防护要求",
+      "arguments": [
+        "Z",
+        "升级",
+        "针对检查"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "有表现未排除患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经急诊患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "外出检查",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "需要进行",
+        "arguments": [
+          "Y",
+          "开放气道操作"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转运人员",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "负责转运",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "外出检查",
+      "Z": "转运人员"
+    },
+    "source_text": "在疫情期间，神经急诊患者外出进行检查时应对患者的COVID-19 诊断的可能性和传播风险进行评估，以确定对转运人员的暴露风险，进行相应最低级别以上的防护。（2）COVID-19 确诊和疑似患者应转至发热门诊处理。建议根据有无流行病学史或临床表现，将其他患者分为有表现（有流行病学史或临床表现中任一条，但不满足COVID-19确诊和疑似诊断标准）未排除、无表现未排除和无表现已排除3 大类，以是否有开放气道或需要做开放气道的操作将传播风险进行分组。转运人员（包括医生、护士、护工、家属等）和进行检查的技术人员的暴露风险建议见表1。（3）对于有表现未排除COVID-19的患者，外出检查建议设置专门的通道，有条件时设置专门的检查室，在检查之后技术人员应对检查室进行物品及环境消毒。"
+  },
+  {
+    "rule_name": "有表现未排除患者外出检查需专用通道及检查室消毒",
+    "head": {
+      "is_negative": false,
+      "name": "检查后处理",
+      "arguments": [
+        "T",
+        "物品环境消毒"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "有表现未排除患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经急诊患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "外出检查",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查技术人员",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "负责检查",
+        "arguments": [
+          "T",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "建议设置",
+        "arguments": [
+          "Y",
+          "专门通道"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "建议设置",
+        "arguments": [
+          "Y",
+          "专门检查室"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "外出检查",
+      "T": "检查技术人员"
+    },
+    "source_text": "在疫情期间，神经急诊患者外出进行检查时应对患者的COVID-19 诊断的可能性和传播风险进行评估，以确定对转运人员的暴露风险，进行相应最低级别以上的防护。（2）COVID-19 确诊和疑似患者应转至发热门诊处理。建议根据有无流行病学史或临床表现，将其他患者分为有表现（有流行病学史或临床表现中任一条，但不满足COVID-19确诊和疑似诊断标准）未排除、无表现未排除和无表现已排除3 大类，以是否有开放气道或需要做开放气道的操作将传播风险进行分组。转运人员（包括医生、护士、护工、家属等）和进行检查的技术人员的暴露风险建议见表1。（3）对于有表现未排除COVID-19的患者，外出检查建议设置专门的通道，有条件时设置专门的检查室，在检查之后技术人员应对检查室进行物品及环境消毒。"
+  },
+  {
+    "rule_name": "开放气道且有表现未排除患者的转运风险_极高",
+    "head": {
+      "is_negative": false,
+      "name": "risk_level",
+      "arguments": [
+        "P",
+        "T",
+        "极高风险"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转运任务",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "任务对象",
+        "arguments": [
+          "T",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断状态",
+        "arguments": [
+          "P",
+          "有表现未排除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "气道状态",
+        "arguments": [
+          "P",
+          "开放"
+        ]
+      }
+    ],
+    "variables": {
+      "P": "患者",
+      "T": "转运人员"
+    },
+    "source_text": "表1　神经急诊患者外出检查转运人员暴露风险级别建议Table 1　Recommendations on the exposure risk level of neurological emergency personnel about transferring patients项目COVID-19 诊断有表现未排除无表现未排除无表现已排除开放气道极高/ 高风险高风险中风险a未开放气道高风险中风险a中/ 低风险a注：COVID-19= 新型冠状病毒肺炎；a 在疫情高发地区，神经急诊的最低风险级别建议设为高风险"
+  },
+  {
+    "rule_name": "开放气道且无表现未排除患者的转运风险_高",
+    "head": {
+      "is_negative": false,
+      "name": "risk_level",
+      "arguments": [
+        "P",
+        "T",
+        "高风险"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转运任务",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "任务对象",
+        "arguments": [
+          "T",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断状态",
+        "arguments": [
+          "P",
+          "无表现未排除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "气道状态",
+        "arguments": [
+          "P",
+          "开放"
+        ]
+      }
+    ],
+    "variables": {
+      "P": "患者",
+      "T": "转运人员"
+    },
+    "source_text": "表1　神经急诊患者外出检查转运人员暴露风险级别建议Table 1　Recommendations on the exposure risk level of neurological emergency personnel about transferring patients项目COVID-19 诊断有表现未排除无表现未排除无表现已排除开放气道极高/ 高风险高风险中风险a未开放气道高风险中风险a中/ 低风险a注：COVID-19= 新型冠状病毒肺炎；a 在疫情高发地区，神经急诊的最低风险级别建议设为高风险"
+  },
+  {
+    "rule_name": "开放气道且无表现已排除患者的转运风险_中",
+    "head": {
+      "is_negative": false,
+      "name": "risk_level",
+      "arguments": [
+        "P",
+        "T",
+        "中风险"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转运任务",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "任务对象",
+        "arguments": [
+          "T",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断状态",
+        "arguments": [
+          "P",
+          "无表现已排除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "气道状态",
+        "arguments": [
+          "P",
+          "开放"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "地区状态",
+        "arguments": [
+          "疫情高发地区"
+        ]
+      }
+    ],
+    "variables": {
+      "P": "患者",
+      "T": "转运人员"
+    },
+    "source_text": "表1　神经急诊患者外出检查转运人员暴露风险级别建议Table 1　Recommendations on the exposure risk level of neurological emergency personnel about transferring patients项目COVID-19 诊断有表现未排除无表现未排除无表现已排除开放气道极高/ 高风险高风险中风险a未开放气道高风险中风险a中/ 低风险a注：COVID-19= 新型冠状病毒肺炎；a 在疫情高发地区，神经急诊的最低风险级别建议设为高风险"
+  },
+  {
+    "rule_name": "疫情高发区开放气道且无表现已排除患者的转运风险_高",
+    "head": {
+      "is_negative": false,
+      "name": "risk_level",
+      "arguments": [
+        "P",
+        "T",
+        "高风险"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转运任务",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "任务对象",
+        "arguments": [
+          "T",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断状态",
+        "arguments": [
+          "P",
+          "无表现已排除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "气道状态",
+        "arguments": [
+          "P",
+          "开放"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "地区状态",
+        "arguments": [
+          "疫情高发地区"
+        ]
+      }
+    ],
+    "variables": {
+      "P": "患者",
+      "T": "转运人员"
+    },
+    "source_text": "表1　神经急诊患者外出检查转运人员暴露风险级别建议Table 1　Recommendations on the exposure risk level of neurological emergency personnel about transferring patients项目COVID-19 诊断有表现未排除无表现未排除无表现已排除开放气道极高/ 高风险高风险中风险a未开放气道高风险中风险a中/ 低风险a注：COVID-19= 新型冠状病毒肺炎；a 在疫情高发地区，神经急诊的最低风险级别建议设为高风险"
+  },
+  {
+    "rule_name": "未开放气道且有表现未排除患者的转运风险_高",
+    "head": {
+      "is_negative": false,
+      "name": "risk_level",
+      "arguments": [
+        "P",
+        "T",
+        "高风险"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转运任务",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "任务对象",
+        "arguments": [
+          "T",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断状态",
+        "arguments": [
+          "P",
+          "有表现未排除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "气道状态",
+        "arguments": [
+          "P",
+          "未开放"
+        ]
+      }
+    ],
+    "variables": {
+      "P": "患者",
+      "T": "转运人员"
+    },
+    "source_text": "表1　神经急诊患者外出检查转运人员暴露风险级别建议Table 1　Recommendations on the exposure risk level of neurological emergency personnel about transferring patients项目COVID-19 诊断有表现未排除无表现未排除无表现已排除开放气道极高/ 高风险高风险中风险a未开放气道高风险中风险a中/ 低风险a注：COVID-19= 新型冠状病毒肺炎；a 在疫情高发地区，神经急诊的最低风险级别建议设为高风险"
+  },
+  {
+    "rule_name": "未开放气道且无表现未排除患者的转运风险_中",
+    "head": {
+      "is_negative": false,
+      "name": "risk_level",
+      "arguments": [
+        "P",
+        "T",
+        "中风险"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转运任务",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "任务对象",
+        "arguments": [
+          "T",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断状态",
+        "arguments": [
+          "P",
+          "无表现未排除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "气道状态",
+        "arguments": [
+          "P",
+          "未开放"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "地区状态",
+        "arguments": [
+          "疫情高发地区"
+        ]
+      }
+    ],
+    "variables": {
+      "P": "患者",
+      "T": "转运人员"
+    },
+    "source_text": "表1　神经急诊患者外出检查转运人员暴露风险级别建议Table 1　Recommendations on the exposure risk level of neurological emergency personnel about transferring patients项目COVID-19 诊断有表现未排除无表现未排除无表现已排除开放气道极高/ 高风险高风险中风险a未开放气道高风险中风险a中/ 低风险a注：COVID-19= 新型冠状病毒肺炎；a 在疫情高发地区，神经急诊的最低风险级别建议设为高风险"
+  },
+  {
+    "rule_name": "疫情高发区未开放气道且无表现未排除患者的转运风险_高",
+    "head": {
+      "is_negative": false,
+      "name": "risk_level",
+      "arguments": [
+        "P",
+        "T",
+        "高风险"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转运任务",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "任务对象",
+        "arguments": [
+          "T",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断状态",
+        "arguments": [
+          "P",
+          "无表现未排除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "气道状态",
+        "arguments": [
+          "P",
+          "未开放"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "地区状态",
+        "arguments": [
+          "疫情高发地区"
+        ]
+      }
+    ],
+    "variables": {
+      "P": "患者",
+      "T": "转运人员"
+    },
+    "source_text": "表1　神经急诊患者外出检查转运人员暴露风险级别建议Table 1　Recommendations on the exposure risk level of neurological emergency personnel about transferring patients项目COVID-19 诊断有表现未排除无表现未排除无表现已排除开放气道极高/ 高风险高风险中风险a未开放气道高风险中风险a中/ 低风险a注：COVID-19= 新型冠状病毒肺炎；a 在疫情高发地区，神经急诊的最低风险级别建议设为高风险"
+  },
+  {
+    "rule_name": "未开放气道且无表现已排除患者的转运风险_中低",
+    "head": {
+      "is_negative": false,
+      "name": "risk_level",
+      "arguments": [
+        "P",
+        "T",
+        "中低风险"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转运任务",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "任务对象",
+        "arguments": [
+          "T",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断状态",
+        "arguments": [
+          "P",
+          "无表现已排除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "气道状态",
+        "arguments": [
+          "P",
+          "未开放"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "地区状态",
+        "arguments": [
+          "疫情高发地区"
+        ]
+      }
+    ],
+    "variables": {
+      "P": "患者",
+      "T": "转运人员"
+    },
+    "source_text": "表1　神经急诊患者外出检查转运人员暴露风险级别建议Table 1　Recommendations on the exposure risk level of neurological emergency personnel about transferring patients项目COVID-19 诊断有表现未排除无表现未排除无表现已排除开放气道极高/ 高风险高风险中风险a未开放气道高风险中风险a中/ 低风险a注：COVID-19= 新型冠状病毒肺炎；a 在疫情高发地区，神经急诊的最低风险级别建议设为高风险"
+  },
+  {
+    "rule_name": "疫情高发区未开放气道且无表现已排除患者的转运风险_高",
+    "head": {
+      "is_negative": false,
+      "name": "risk_level",
+      "arguments": [
+        "P",
+        "T",
+        "高风险"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转运任务",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "任务对象",
+        "arguments": [
+          "T",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断状态",
+        "arguments": [
+          "P",
+          "无表现已排除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "气道状态",
+        "arguments": [
+          "P",
+          "未开放"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "地区状态",
+        "arguments": [
+          "疫情高发地区"
+        ]
+      }
+    ],
+    "variables": {
+      "P": "患者",
+      "T": "转运人员"
+    },
+    "source_text": "表1　神经急诊患者外出检查转运人员暴露风险级别建议Table 1　Recommendations on the exposure risk level of neurological emergency personnel about transferring patients项目COVID-19 诊断有表现未排除无表现未排除无表现已排除开放气道极高/ 高风险高风险中风险a未开放气道高风险中风险a中/ 低风险a注：COVID-19= 新型冠状病毒肺炎；a 在疫情高发地区，神经急诊的最低风险级别建议设为高风险"
+  },
+  {
+    "rule_name": "有条件者在发热门诊继续卒中绿色通道救治_发热患者",
+    "head": {
+      "is_negative": false,
+      "name": "救治场所安排",
+      "arguments": [
+        "X",
+        "发热门诊",
+        "继续"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "可疑患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "发热"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "就诊医院",
+        "arguments": [
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属机构",
+        "arguments": [
+          "X",
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具备设施",
+        "arguments": [
+          "H",
+          "专用CT检查室",
+          "独立"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合条件",
+        "arguments": [
+          "H",
+          "发热病房静脉溶栓治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "H": "医院"
+    },
+    "source_text": "（1）如就诊医院有独立的针对发热/ 疑似/ 确诊患者使用的专用CT 检查室，且发热/ 隔离病房符合静脉溶栓治疗条件，以上可疑患者可在发热门诊继续进行卒中绿色通道救治工作，其诊治应由卒中绿色通道医师及感染科医师共同进行［3-5］。"
+  },
+  {
+    "rule_name": "有条件者在发热门诊继续卒中绿色通道救治_疑似患者",
+    "head": {
+      "is_negative": false,
+      "name": "救治场所安排",
+      "arguments": [
+        "X",
+        "发热门诊",
+        "继续"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "可疑患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断状态",
+        "arguments": [
+          "X",
+          "COVID-19疑似"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "就诊医院",
+        "arguments": [
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属机构",
+        "arguments": [
+          "X",
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具备设施",
+        "arguments": [
+          "H",
+          "专用CT检查室",
+          "独立"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合条件",
+        "arguments": [
+          "H",
+          "发热病房静脉溶栓治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "H": "医院"
+    },
+    "source_text": "（1）如就诊医院有独立的针对发热/ 疑似/ 确诊患者使用的专用CT 检查室，且发热/ 隔离病房符合静脉溶栓治疗条件，以上可疑患者可在发热门诊继续进行卒中绿色通道救治工作，其诊治应由卒中绿色通道医师及感染科医师共同进行［3-5］。"
+  },
+  {
+    "rule_name": "有条件者在发热门诊继续卒中绿色通道救治_确诊患者",
+    "head": {
+      "is_negative": false,
+      "name": "救治场所安排",
+      "arguments": [
+        "X",
+        "发热门诊",
+        "继续"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "可疑患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断状态",
+        "arguments": [
+          "X",
+          "COVID-19确诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "就诊医院",
+        "arguments": [
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属机构",
+        "arguments": [
+          "X",
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具备设施",
+        "arguments": [
+          "H",
+          "专用CT检查室",
+          "独立"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合条件",
+        "arguments": [
+          "H",
+          "发热病房静脉溶栓治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "H": "医院"
+    },
+    "source_text": "（1）如就诊医院有独立的针对发热/ 疑似/ 确诊患者使用的专用CT 检查室，且发热/ 隔离病房符合静脉溶栓治疗条件，以上可疑患者可在发热门诊继续进行卒中绿色通道救治工作，其诊治应由卒中绿色通道医师及感染科医师共同进行［3-5］。"
+  },
+  {
+    "rule_name": "无专用CT室且符合溶栓指征者转运至定点医院",
+    "head": {
+      "is_negative": false,
+      "name": "转运建议",
+      "arguments": [
+        "X",
+        "COVID-19定点医院具备溶栓能力"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合指征",
+        "arguments": [
+          "X",
+          "静脉溶栓"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生命体征",
+        "arguments": [
+          "X",
+          "平稳"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病情允许",
+        "arguments": [
+          "X",
+          "转运"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "就诊医院",
+        "arguments": [
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属机构",
+        "arguments": [
+          "X",
+          "H"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "具备设施",
+        "arguments": [
+          "H",
+          "专用CT检查室",
+          "独立"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "H": "医院"
+    },
+    "source_text": "（2）如就诊医院无独立专用CT 检查室，经评估患者其他情况均符合静脉溶栓指征，在患者生命体征平稳，病情允许情况下，建议转运至具备溶栓能力的COVID-19 定点医院继续诊治。"
+  },
+  {
+    "rule_name": "暂排除COVID-19卒中患者由神经内科急诊医师接诊流程",
+    "head": {
+      "is_negative": false,
+      "name": "接诊医师类型",
+      "arguments": [
+        "X",
+        "神经内科急诊医师"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预检状态",
+        "arguments": [
+          "X",
+          "COVID-19暂排除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接诊操作",
+        "arguments": [
+          "X",
+          "询问病史"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接诊操作",
+        "arguments": [
+          "X",
+          "查体"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接诊操作",
+        "arguments": [
+          "X",
+          "掌握静脉溶栓适应证禁忌证"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "补充询问",
+        "arguments": [
+          "X",
+          "COVID-19流行病学史及症状"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（3）预检暂排除COVID-19 的卒中患者，由神经内科急诊医师/ 卒中绿色通道医师接诊，详细询问病史、查体，严格掌握静脉溶栓适应证及禁忌证，并补充询问COVID-19 相关流行病学史及有无发热/ 呼吸道症状。"
+  },
+  {
+    "rule_name": "暂排除COVID-19卒中患者由卒中绿色通道医师接诊流程",
+    "head": {
+      "is_negative": false,
+      "name": "接诊医师类型",
+      "arguments": [
+        "X",
+        "卒中绿色通道医师"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预检状态",
+        "arguments": [
+          "X",
+          "COVID-19暂排除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接诊操作",
+        "arguments": [
+          "X",
+          "询问病史"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接诊操作",
+        "arguments": [
+          "X",
+          "查体"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接诊操作",
+        "arguments": [
+          "X",
+          "掌握静脉溶栓适应证禁忌证"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "补充询问",
+        "arguments": [
+          "X",
+          "COVID-19流行病学史及症状"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（3）预检暂排除COVID-19 的卒中患者，由神经内科急诊医师/ 卒中绿色通道医师接诊，详细询问病史、查体，严格掌握静脉溶栓适应证及禁忌证，并补充询问COVID-19 相关流行病学史及有无发热/ 呼吸道症状。"
+  },
+  {
+    "rule_name": "绿色通道患者行颅脑CT时同步行胸部CT检查",
+    "head": {
+      "is_negative": false,
+      "name": "检查执行方式",
+      "arguments": [
+        "X",
+        "颅脑CT与胸部CT同步"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "绿色通道患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "颅脑CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "胸部CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标",
+        "arguments": [
+          "X",
+          "减少移动避免交叉感染"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（4）卒中绿色通道检查项目包括血常规、血糖、凝血功能、急诊生化、颅脑CT、胸部CT，为了避免交叉感染，绿色通道患者应尽量减少移动，在颅脑CT 检查的同时行胸部CT 检查。"
+  },
+  {
+    "rule_name": "疫情时期对轻型非致残性卒中患者谨慎溶栓建议",
+    "head": {
+      "is_negative": false,
+      "name": "治疗建议",
+      "arguments": [
+        "X",
+        "静脉溶栓",
+        "谨慎"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "类型",
+        "arguments": [
+          "X",
+          "急性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "子类型",
+        "arguments": [
+          "X",
+          "轻型非致残性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时期背景",
+        "arguments": [
+          "COVID-19疫情"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "前提原则",
+        "arguments": [
+          "治疗以安全为前提"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "严格要求",
+        "arguments": [
+          "X",
+          "DNT时间"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（5）在COVID-19 疫情时期对于急性卒中的治疗应以安全为前提，原则上对患者到院至静脉溶栓用药时间（door to needle time，DNT）不做过多要求，对于轻型非致残性卒中患者，建议在充分权衡患者可能的获益和风险下谨慎溶栓。"
+  },
+  {
+    "rule_name": "绿色通道患者单间诊疗及在急诊专用诊室溶栓",
+    "head": {
+      "is_negative": false,
+      "name": "诊疗安排",
+      "arguments": [
+        "X",
+        "单间"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "绿色通道患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测内容",
+        "arguments": [
+          "溶栓期间",
+          "生命体征及神经系统症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "后续判断",
+        "arguments": [
+          "根据结果排除COVID-19后可收入病房"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（6）卒中绿色通道患者建议单间诊疗，静脉溶栓应在急诊专用诊室进行，溶栓期间监测生命体征（包括血氧饱和度）及神经系统症状体征。无须进一步介入治疗的患者，根据检验及影像结果排除COVID-19后收入卒中病房或缓冲病房，并建议入院后单间隔离。"
+  },
+  {
+    "rule_name": "抢救室防护物资按需定点管理",
+    "head": {
+      "is_negative": false,
+      "name": "物资管理状态",
+      "arguments": [
+        "Z",
+        "按需定点"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "防护物资",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "准备级别",
+        "arguments": [
+          "Z",
+          "三级"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分配方式",
+        "arguments": [
+          "Z",
+          "按需"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "管理方式",
+        "arguments": [
+          "Z",
+          "专人"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "放置方式",
+        "arguments": [
+          "Z",
+          "定点"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "防护物资"
+    },
+    "source_text": "按三级防护准备物资，包括工作服、一次性隔离衣、防护服、工作帽、医用外科口罩、防护口罩、全面型呼吸防护器、护目镜/ 防护面屏、乳胶手套、鞋套，保障防护物资按需分配，专人管理，定点放置。严格落实标准预防，强调患者、陪同人员与医务人员之间的双向防护，做好手卫生，不要随意触摸眼睛和鼻黏膜。日常诊疗活动中可采用一级防护。与高风险/ 潜伏期患者密切接触时及接诊时，采用二级或三级防护。所有就诊患者必须认真筛查COVID-19 风险，再次认真追问患者和家属的流行病学接触史，强调隐瞒病史的法律责任，并签署疫情防控告知书。每例患者留固定陪护人员1 名，家属需佩戴口罩，配合测量体温，如实提供有无去过疫区及高危人群接触史。再次认真询问有无呼吸道症状或发热病史，并核查血常规、胸部CT 和新型冠状病毒核酸检查结果。建议患者行脑部影像学检查同时行胸部CT 平扫，并注意胸部CT 是否有COVID-19 的表现，必要时复查。如发现疑似COVID-19 患者，应当立即进行单人间隔离治疗，提升防护至三级防护级别，院内专家会诊或主诊医师会诊，仍考虑疑似患者，在2 h 内进行网络直报，并采集标本进行新型冠状病毒核酸检测，同时在确保转运安全前提下立即将疑似患者转运至定点医院。"
+  },
+  {
+    "rule_name": "日常诊疗活动医务人员一级防护",
+    "head": {
+      "is_negative": false,
+      "name": "采用防护级别",
+      "arguments": [
+        "X",
+        "一级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医务人员",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行活动",
+        "arguments": [
+          "X",
+          "日常诊疗"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "密切接触患者类型",
+        "arguments": [
+          "X",
+          "高风险"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "密切接触患者类型",
+        "arguments": [
+          "X",
+          "潜伏期"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "进行活动",
+        "arguments": [
+          "X",
+          "接诊"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "医务人员"
+    },
+    "source_text": "按三级防护准备物资，包括工作服、一次性隔离衣、防护服、工作帽、医用外科口罩、防护口罩、全面型呼吸防护器、护目镜/ 防护面屏、乳胶手套、鞋套，保障防护物资按需分配，专人管理，定点放置。严格落实标准预防，强调患者、陪同人员与医务人员之间的双向防护，做好手卫生，不要随意触摸眼睛和鼻黏膜。日常诊疗活动中可采用一级防护。与高风险/ 潜伏期患者密切接触时及接诊时，采用二级或三级防护。所有就诊患者必须认真筛查COVID-19 风险，再次认真追问患者和家属的流行病学接触史，强调隐瞒病史的法律责任，并签署疫情防控告知书。每例患者留固定陪护人员1 名，家属需佩戴口罩，配合测量体温，如实提供有无去过疫区及高危人群接触史。再次认真询问有无呼吸道症状或发热病史，并核查血常规、胸部CT 和新型冠状病毒核酸检查结果。建议患者行脑部影像学检查同时行胸部CT 平扫，并注意胸部CT 是否有COVID-19 的表现，必要时复查。如发现疑似COVID-19 患者，应当立即进行单人间隔离治疗，提升防护至三级防护级别，院内专家会诊或主诊医师会诊，仍考虑疑似患者，在2 h 内进行网络直报，并采集标本进行新型冠状病毒核酸检测，同时在确保转运安全前提下立即将疑似患者转运至定点医院。"
+  },
+  {
+    "rule_name": "接触高风险患者医务人员二级防护",
+    "head": {
+      "is_negative": false,
+      "name": "采用防护级别",
+      "arguments": [
+        "X",
+        "二级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医务人员",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "密切接触患者类型",
+        "arguments": [
+          "X",
+          "高风险"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "密切接触患者类型",
+        "arguments": [
+          "X",
+          "潜伏期"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "医务人员"
+    },
+    "source_text": "按三级防护准备物资，包括工作服、一次性隔离衣、防护服、工作帽、医用外科口罩、防护口罩、全面型呼吸防护器、护目镜/ 防护面屏、乳胶手套、鞋套，保障防护物资按需分配，专人管理，定点放置。严格落实标准预防，强调患者、陪同人员与医务人员之间的双向防护，做好手卫生，不要随意触摸眼睛和鼻黏膜。日常诊疗活动中可采用一级防护。与高风险/ 潜伏期患者密切接触时及接诊时，采用二级或三级防护。所有就诊患者必须认真筛查COVID-19 风险，再次认真追问患者和家属的流行病学接触史，强调隐瞒病史的法律责任，并签署疫情防控告知书。每例患者留固定陪护人员1 名，家属需佩戴口罩，配合测量体温，如实提供有无去过疫区及高危人群接触史。再次认真询问有无呼吸道症状或发热病史，并核查血常规、胸部CT 和新型冠状病毒核酸检查结果。建议患者行脑部影像学检查同时行胸部CT 平扫，并注意胸部CT 是否有COVID-19 的表现，必要时复查。如发现疑似COVID-19 患者，应当立即进行单人间隔离治疗，提升防护至三级防护级别，院内专家会诊或主诊医师会诊，仍考虑疑似患者，在2 h 内进行网络直报，并采集标本进行新型冠状病毒核酸检测，同时在确保转运安全前提下立即将疑似患者转运至定点医院。"
+  },
+  {
+    "rule_name": "接诊或接触潜伏期患者三级防护",
+    "head": {
+      "is_negative": false,
+      "name": "采用防护级别",
+      "arguments": [
+        "X",
+        "三级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医务人员",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行活动",
+        "arguments": [
+          "X",
+          "接诊"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "医务人员"
+    },
+    "source_text": "按三级防护准备物资，包括工作服、一次性隔离衣、防护服、工作帽、医用外科口罩、防护口罩、全面型呼吸防护器、护目镜/ 防护面屏、乳胶手套、鞋套，保障防护物资按需分配，专人管理，定点放置。严格落实标准预防，强调患者、陪同人员与医务人员之间的双向防护，做好手卫生，不要随意触摸眼睛和鼻黏膜。日常诊疗活动中可采用一级防护。与高风险/ 潜伏期患者密切接触时及接诊时，采用二级或三级防护。所有就诊患者必须认真筛查COVID-19 风险，再次认真追问患者和家属的流行病学接触史，强调隐瞒病史的法律责任，并签署疫情防控告知书。每例患者留固定陪护人员1 名，家属需佩戴口罩，配合测量体温，如实提供有无去过疫区及高危人群接触史。再次认真询问有无呼吸道症状或发热病史，并核查血常规、胸部CT 和新型冠状病毒核酸检查结果。建议患者行脑部影像学检查同时行胸部CT 平扫，并注意胸部CT 是否有COVID-19 的表现，必要时复查。如发现疑似COVID-19 患者，应当立即进行单人间隔离治疗，提升防护至三级防护级别，院内专家会诊或主诊医师会诊，仍考虑疑似患者，在2 h 内进行网络直报，并采集标本进行新型冠状病毒核酸检测，同时在确保转运安全前提下立即将疑似患者转运至定点医院。"
+  },
+  {
+    "rule_name": "就诊患者COVID-19筛查标准流程",
+    "head": {
+      "is_negative": false,
+      "name": "完成筛查",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "就诊患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有陪护人员",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "签署文件",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核查检查结果",
+        "arguments": [
+          "X",
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "文件类型",
+        "arguments": [
+          "Z",
+          "疫情防控告知书"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "询问项目",
+        "arguments": [
+          "X",
+          "流行病学接触史"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "询问项目",
+        "arguments": [
+          "X",
+          "呼吸道症状或发热史"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查结果类型",
+        "arguments": [
+          "W",
+          "血常规"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查结果类型",
+        "arguments": [
+          "W",
+          "胸部CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查结果类型",
+        "arguments": [
+          "W",
+          "新型冠状病毒核酸"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "就诊患者",
+      "Y": "陪护人员",
+      "Z": "文件",
+      "W": "检查结果集合"
+    },
+    "source_text": "按三级防护准备物资，包括工作服、一次性隔离衣、防护服、工作帽、医用外科口罩、防护口罩、全面型呼吸防护器、护目镜/ 防护面屏、乳胶手套、鞋套，保障防护物资按需分配，专人管理，定点放置。严格落实标准预防，强调患者、陪同人员与医务人员之间的双向防护，做好手卫生，不要随意触摸眼睛和鼻黏膜。日常诊疗活动中可采用一级防护。与高风险/ 潜伏期患者密切接触时及接诊时，采用二级或三级防护。所有就诊患者必须认真筛查COVID-19 风险，再次认真追问患者和家属的流行病学接触史，强调隐瞒病史的法律责任，并签署疫情防控告知书。每例患者留固定陪护人员1 名，家属需佩戴口罩，配合测量体温，如实提供有无去过疫区及高危人群接触史。再次认真询问有无呼吸道症状或发热病史，并核查血常规、胸部CT 和新型冠状病毒核酸检查结果。建议患者行脑部影像学检查同时行胸部CT 平扫，并注意胸部CT 是否有COVID-19 的表现，必要时复查。如发现疑似COVID-19 患者，应当立即进行单人间隔离治疗，提升防护至三级防护级别，院内专家会诊或主诊医师会诊，仍考虑疑似患者，在2 h 内进行网络直报，并采集标本进行新型冠状病毒核酸检测，同时在确保转运安全前提下立即将疑似患者转运至定点医院。"
+  },
+  {
+    "rule_name": "脑部影像检查患者建议并行胸部CT平扫",
+    "head": {
+      "is_negative": false,
+      "name": "给予检查建议",
+      "arguments": [
+        "X",
+        "胸部CT平扫",
+        "同时"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "就诊患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需进行检查",
+        "arguments": [
+          "X",
+          "脑部影像学"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目的",
+        "arguments": [
+          "X",
+          "排查COVID-19表现"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "就诊患者"
+    },
+    "source_text": "按三级防护准备物资，包括工作服、一次性隔离衣、防护服、工作帽、医用外科口罩、防护口罩、全面型呼吸防护器、护目镜/ 防护面屏、乳胶手套、鞋套，保障防护物资按需分配，专人管理，定点放置。严格落实标准预防，强调患者、陪同人员与医务人员之间的双向防护，做好手卫生，不要随意触摸眼睛和鼻黏膜。日常诊疗活动中可采用一级防护。与高风险/ 潜伏期患者密切接触时及接诊时，采用二级或三级防护。所有就诊患者必须认真筛查COVID-19 风险，再次认真追问患者和家属的流行病学接触史，强调隐瞒病史的法律责任，并签署疫情防控告知书。每例患者留固定陪护人员1 名，家属需佩戴口罩，配合测量体温，如实提供有无去过疫区及高危人群接触史。再次认真询问有无呼吸道症状或发热病史，并核查血常规、胸部CT 和新型冠状病毒核酸检查结果。建议患者行脑部影像学检查同时行胸部CT 平扫，并注意胸部CT 是否有COVID-19 的表现，必要时复查。如发现疑似COVID-19 患者，应当立即进行单人间隔离治疗，提升防护至三级防护级别，院内专家会诊或主诊医师会诊，仍考虑疑似患者，在2 h 内进行网络直报，并采集标本进行新型冠状病毒核酸检测，同时在确保转运安全前提下立即将疑似患者转运至定点医院。"
+  },
+  {
+    "rule_name": "发现疑似COVID-19患者标准处置流程",
+    "head": {
+      "is_negative": false,
+      "name": "启动处置流程",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疑似COVID-19患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "实施措施",
+        "arguments": [
+          "X",
+          "单人间隔离治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "调整防护级别",
+        "arguments": [
+          "医务人员",
+          "三级"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行会诊",
+        "arguments": [
+          "X",
+          "院内专家或主诊医师"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行上报",
+        "arguments": [
+          "X",
+          "网络直报"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时间限制",
+        "arguments": [
+          "上报",
+          "2小时内"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采集标本",
+        "arguments": [
+          "X",
+          "新型冠状病毒核酸检测"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行转运",
+        "arguments": [
+          "X",
+          "定点医院"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "前提条件",
+        "arguments": [
+          "转运",
+          "确保安全"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疑似COVID-19患者"
+    },
+    "source_text": "按三级防护准备物资，包括工作服、一次性隔离衣、防护服、工作帽、医用外科口罩、防护口罩、全面型呼吸防护器、护目镜/ 防护面屏、乳胶手套、鞋套，保障防护物资按需分配，专人管理，定点放置。严格落实标准预防，强调患者、陪同人员与医务人员之间的双向防护，做好手卫生，不要随意触摸眼睛和鼻黏膜。日常诊疗活动中可采用一级防护。与高风险/ 潜伏期患者密切接触时及接诊时，采用二级或三级防护。所有就诊患者必须认真筛查COVID-19 风险，再次认真追问患者和家属的流行病学接触史，强调隐瞒病史的法律责任，并签署疫情防控告知书。每例患者留固定陪护人员1 名，家属需佩戴口罩，配合测量体温，如实提供有无去过疫区及高危人群接触史。再次认真询问有无呼吸道症状或发热病史，并核查血常规、胸部CT 和新型冠状病毒核酸检查结果。建议患者行脑部影像学检查同时行胸部CT 平扫，并注意胸部CT 是否有COVID-19 的表现，必要时复查。如发现疑似COVID-19 患者，应当立即进行单人间隔离治疗，提升防护至三级防护级别，院内专家会诊或主诊医师会诊，仍考虑疑似患者，在2 h 内进行网络直报，并采集标本进行新型冠状病毒核酸检测，同时在确保转运安全前提下立即将疑似患者转运至定点医院。"
+  }
+]

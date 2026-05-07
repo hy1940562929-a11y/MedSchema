@@ -1,0 +1,1399 @@
+[
+  {
+    "rule_name": "休克妇科患者启动急诊手术流程条件",
+    "head": {
+      "is_negative": false,
+      "name": "启动",
+      "arguments": [
+        "Y",
+        "急诊手术流程"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "休克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估操作",
+        "arguments": [
+          "Z1",
+          "肺部病情"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对象",
+        "arguments": [
+          "Z1",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "耐受状态",
+        "arguments": [
+          "X",
+          "麻醉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有条件开通",
+        "arguments": [
+          "W",
+          "两条静脉通道"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标",
+        "arguments": [
+          "W",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "同时执行",
+        "arguments": [
+          "Y",
+          "纠正休克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属流程",
+        "arguments": [
+          "Y",
+          "急诊手术"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "急诊手术流程",
+      "Z1": "肺部病情评估操作",
+      "W": "静脉通道开通操作"
+    },
+    "source_text": "存在休克等症状时需评估肺部病情,如能耐受麻醉则启动急诊手术流程,有条件者开通2条静脉通道,纠正休克的同时开展急诊手术。如生命体征平稳,则根据患者病情,开具血常规、凝血四项、HCG、输血前全套、血型、妇科B超、胸部CT等检测。因病情危重未行胸部CT扫描者,均应按疑似患者处理,直至排除COVID鄄19。"
+  },
+  {
+    "rule_name": "生命体征平稳妇科患者开具辅助检查包",
+    "head": {
+      "is_negative": false,
+      "name": "开具检查包",
+      "arguments": [
+        "X",
+        "标准妇科急诊检测包"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生命体征",
+        "arguments": [
+          "X",
+          "平稳"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含项目",
+        "arguments": [
+          "标准妇科急诊检测包",
+          "血常规"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含项目",
+        "arguments": [
+          "标准妇科急诊检测包",
+          "凝血四项"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含项目",
+        "arguments": [
+          "标准妇科急诊检测包",
+          "HCG"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含项目",
+        "arguments": [
+          "标准妇科急诊检测包",
+          "输血前全套"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含项目",
+        "arguments": [
+          "标准妇科急诊检测包",
+          "血型"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含项目",
+        "arguments": [
+          "标准妇科急诊检测包",
+          "妇科B超"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含项目",
+        "arguments": [
+          "标准妇科急诊检测包",
+          "胸部CT"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "存在休克等症状时需评估肺部病情,如能耐受麻醉则启动急诊手术流程,有条件者开通2条静脉通道,纠正休克的同时开展急诊手术。如生命体征平稳,则根据患者病情,开具血常规、凝血四项、HCG、输血前全套、血型、妇科B超、胸部CT等检测。因病情危重未行胸部CT扫描者,均应按疑似患者处理,直至排除COVID鄄19。"
+  },
+  {
+    "rule_name": "未行胸部CT的危重妇科患者按疑似处理",
+    "head": {
+      "is_negative": false,
+      "name": "处理状态",
+      "arguments": [
+        "X",
+        "按疑似患者处理"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病情状态",
+        "arguments": [
+          "X",
+          "危重"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "已完成",
+        "arguments": [
+          "X",
+          "胸部CT扫描"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "存在休克等症状时需评估肺部病情,如能耐受麻醉则启动急诊手术流程,有条件者开通2条静脉通道,纠正休克的同时开展急诊手术。如生命体征平稳,则根据患者病情,开具血常规、凝血四项、HCG、输血前全套、血型、妇科B超、胸部CT等检测。因病情危重未行胸部CT扫描者,均应按疑似患者处理,直至排除COVID鄄19。"
+  },
+  {
+    "rule_name": "急诊术后患者抵抗力下降与肺部感染风险升高",
+    "head": {
+      "is_negative": false,
+      "name": "感染风险升高",
+      "arguments": [
+        "X",
+        "肺部感染"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患急诊术后",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术后患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "机体状态",
+        "arguments": [
+          "X",
+          "抵抗力下降"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "同时,急诊术后患者机体抵抗力下降,肺部感染机会增加。2. 2摇妇科手术摇麻醉常需行呼吸机辅助通气、患者术后平卧等致患者术后肺功能恢复时间延长。妇科微创手术诸如腹腔镜、宫腔镜手术技术应用普遍。腹腔镜手术中人工气腹可导致患者肺容积减少、气道压增加、CO2潴留和肺顺应性下降,不利于患者术后肺功能恢复。宫腔镜手术容易导致患者肺水肿,影响患者肺功能恢复,增加COVID鄄19发病风险。"
+  },
+  {
+    "rule_name": "妇科手术患者因呼吸支持与体位致肺功能恢复延迟",
+    "head": {
+      "is_negative": false,
+      "name": "恢复状态",
+      "arguments": [
+        "X",
+        "肺功能恢复时间延长"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "术后患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "经历手术类型",
+        "arguments": [
+          "X",
+          "妇科手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "呼吸机辅助通气"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术后体位",
+        "arguments": [
+          "X",
+          "平卧"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "同时,急诊术后患者机体抵抗力下降,肺部感染机会增加。2. 2摇妇科手术摇麻醉常需行呼吸机辅助通气、患者术后平卧等致患者术后肺功能恢复时间延长。妇科微创手术诸如腹腔镜、宫腔镜手术技术应用普遍。腹腔镜手术中人工气腹可导致患者肺容积减少、气道压增加、CO2潴留和肺顺应性下降,不利于患者术后肺功能恢复。宫腔镜手术容易导致患者肺水肿,影响患者肺功能恢复,增加COVID鄄19发病风险。"
+  },
+  {
+    "rule_name": "腹腔镜手术人工气腹损害多项肺功能指标",
+    "head": {
+      "is_negative": false,
+      "name": "导致生理变化",
+      "arguments": [
+        "Y",
+        "肺顺应性下降"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Y",
+          "腹腔镜手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术特点",
+        "arguments": [
+          "Y",
+          "建立人工气腹"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致生理变化",
+        "arguments": [
+          "Y",
+          "肺容积减少"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致生理变化",
+        "arguments": [
+          "Y",
+          "气道压增加"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致生理变化",
+        "arguments": [
+          "Y",
+          "CO2潴留"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影响术后恢复",
+        "arguments": [
+          "Y",
+          "肺功能恢复"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术"
+    },
+    "source_text": "同时,急诊术后患者机体抵抗力下降,肺部感染机会增加。2. 2摇妇科手术摇麻醉常需行呼吸机辅助通气、患者术后平卧等致患者术后肺功能恢复时间延长。妇科微创手术诸如腹腔镜、宫腔镜手术技术应用普遍。腹腔镜手术中人工气腹可导致患者肺容积减少、气道压增加、CO2潴留和肺顺应性下降,不利于患者术后肺功能恢复。宫腔镜手术容易导致患者肺水肿,影响患者肺功能恢复,增加COVID鄄19发病风险。"
+  },
+  {
+    "rule_name": "宫腔镜手术致肺水肿增加肺功能恢复难度与COVID-19风险",
+    "head": {
+      "is_negative": false,
+      "name": "增加疾病风险",
+      "arguments": [
+        "X",
+        "COVID-19"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Z",
+          "宫腔镜手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致并发症",
+        "arguments": [
+          "Z",
+          "肺水肿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影响术后恢复",
+        "arguments": [
+          "Z",
+          "肺功能恢复"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "手术"
+    },
+    "source_text": "同时,急诊术后患者机体抵抗力下降,肺部感染机会增加。2. 2摇妇科手术摇麻醉常需行呼吸机辅助通气、患者术后平卧等致患者术后肺功能恢复时间延长。妇科微创手术诸如腹腔镜、宫腔镜手术技术应用普遍。腹腔镜手术中人工气腹可导致患者肺容积减少、气道压增加、CO2潴留和肺顺应性下降,不利于患者术后肺功能恢复。宫腔镜手术容易导致患者肺水肿,影响患者肺功能恢复,增加COVID鄄19发病风险。"
+  },
+  {
+    "rule_name": "需鉴别之单纯腹痛女性患者",
+    "head": {
+      "is_negative": false,
+      "name": "需执行鉴别诊断",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "女性",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要症状",
+        "arguments": [
+          "X",
+          "腹痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床表现",
+        "arguments": [
+          "X",
+          "发热或干咳或乏力"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "就诊场景",
+        "arguments": [
+          "X",
+          "妇科急诊"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "确诊疾病",
+        "arguments": [
+          "X",
+          "COVID-19"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "确诊疾病",
+        "arguments": [
+          "X",
+          "内外科急腹症"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "确诊疾病",
+        "arguments": [
+          "X",
+          "妇科急诊"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "其中以腹痛为主要症状的女性患者达到2. 2% ,需与COVID鄄19合并妇科急诊、内外科急腹症相鉴别，这两类患者如诊治不及时，容易延误治疗，同时增加医护人员院内感染风险。"
+  },
+  {
+    "rule_name": "诊治不及时的COVID-19合并妇科急诊患者之双重风险",
+    "head": {
+      "is_negative": false,
+      "name": "导致后果",
+      "arguments": [
+        "处置A",
+        "后果C"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "确诊疾病",
+        "arguments": [
+          "X",
+          "D1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "D1",
+          "COVID-19"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "确诊疾病",
+        "arguments": [
+          "X",
+          "D2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "D2",
+          "妇科急诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要症状",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状类型",
+        "arguments": [
+          "Y",
+          "腹痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗处置",
+        "arguments": [
+          "处置A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处置类型",
+        "arguments": [
+          "处置A",
+          "诊治不及时"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用于",
+        "arguments": [
+          "处置A",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影响",
+        "arguments": [
+          "处置A",
+          "D1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影响",
+        "arguments": [
+          "处置A",
+          "D2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "产生后果",
+        "arguments": [
+          "处置A",
+          "后果C1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "后果类型",
+        "arguments": [
+          "后果C1",
+          "延误治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "产生后果",
+        "arguments": [
+          "处置A",
+          "后果C2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "后果类型",
+        "arguments": [
+          "后果C2",
+          "增加风险"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "增加风险",
+        "arguments": [
+          "诊治不及时",
+          "院内感染",
+          "对医护人员"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "症状",
+      "D1": "疾病",
+      "D2": "疾病",
+      "处置A": "医疗处置",
+      "后果C1": "医疗后果",
+      "后果C2": "医疗后果"
+    },
+    "source_text": "其中以腹痛为主要症状的女性患者达到2. 2% ,需与COVID鄄19合并妇科急诊、内外科急腹症相鉴别，这两类患者如诊治不及时，容易延误治疗，同时增加医护人员院内感染风险。"
+  },
+  {
+    "rule_name": "有COVID-19感染风险腹痛女性的特殊防护需求",
+    "head": {
+      "is_negative": false,
+      "name": "需加强防护",
+      "arguments": [
+        "就诊过程Z"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "女性",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要症状",
+        "arguments": [
+          "X",
+          "腹痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床表现",
+        "arguments": [
+          "X",
+          "发热或干咳或乏力"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "流行病学史",
+        "arguments": [
+          "X",
+          "疫情相关"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "就诊于",
+        "arguments": [
+          "X",
+          "科室K"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "科室类型",
+        "arguments": [
+          "科室K",
+          "妇科急诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "涉及过程",
+        "arguments": [
+          "就诊于X科室K",
+          "就诊过程Z"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "确诊疾病",
+        "arguments": [
+          "X",
+          "COVID-19"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "科室K": "医疗科室",
+      "就诊过程Z": "诊疗过程"
+    },
+    "source_text": "其中以腹痛为主要症状的女性患者达到2. 2% ,需与COVID鄄19合并妇科急诊、内外科急腹症相鉴别，这两类患者如诊治不及时，容易延误治疗，同时增加医护人员院内感染风险。"
+  },
+  {
+    "rule_name": "接触潜在传染性标本的人员需执行特定指南",
+    "head": {
+      "is_negative": false,
+      "name": "需要遵循",
+      "arguments": [
+        "X",
+        "Z"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "人员",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "标本",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接触",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "视为具有",
+        "arguments": [
+          "Y",
+          "潜在传染性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指南",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定者",
+        "arguments": [
+          "Z",
+          "国家卫生健康委员会"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基于原则",
+        "arguments": [
+          "Z",
+          "标准预防"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基于原则",
+        "arguments": [
+          "Z",
+          "分级防护"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "人员",
+      "Y": "标本",
+      "Z": "《医疗机构内新型冠状病毒感染预防与控制技术指南(第一版)》"
+    },
+    "source_text": "所有标本应视为具有潜在传染性,与之接触的各类人员需按照国家卫生健康委员会制定的《医疗机构内新型冠状病毒感染预防与控制技术指南(第一版)》[5] 执行,遵循标准预防及分级防护的原则。标准预防是指基于患者血液、体液、分泌物(不包括汗液)、黏膜和非完整皮肤均可能含有感染性因子的原则,为了最大限度减少医院感染的发生,所采取的一系列措施。"
+  },
+  {
+    "rule_name": "标准预防措施的定义基础",
+    "head": {
+      "is_negative": false,
+      "name": "是基于原则",
+      "arguments": [
+        "P",
+        "R"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "标准预防措施",
+        "arguments": [
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预防原则",
+        "arguments": [
+          "R"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "内容为",
+        "arguments": [
+          "R",
+          "患者材料可能含有感染性因子"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标为",
+        "arguments": [
+          "P",
+          "减少医院感染"
+        ]
+      }
+    ],
+    "variables": {
+      "P": "标准预防措施",
+      "R": "基于患者血液、体液、分泌物、黏膜和非完整皮肤均可能含有感染性因子的原则"
+    },
+    "source_text": "所有标本应视为具有潜在传染性,与之接触的各类人员需按照国家卫生健康委员会制定的《医疗机构内新型冠状病毒感染预防与控制技术指南(第一版)》[5] 执行,遵循标准预防及分级防护的原则。标准预防是指基于患者血液、体液、分泌物(不包括汗液)、黏膜和非完整皮肤均可能含有感染性因子的原则,为了最大限度减少医院感染的发生,所采取的一系列措施。"
+  },
+  {
+    "rule_name": "COVID-19疫情期间妇科医师的核心职责与行动准则",
+    "head": {
+      "is_negative": false,
+      "name": "核心职责执行",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "妇科医师",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所处阶段",
+        "arguments": [
+          "抗击COVID-19疫情",
+          "关键"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "认清",
+        "arguments": [
+          "X",
+          "形势"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组织领导",
+        "arguments": [
+          "X",
+          "党中央"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "职责履行",
+        "arguments": [
+          "X",
+          "守土有责"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "职责履行",
+        "arguments": [
+          "X",
+          "守土担责"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "职责履行",
+        "arguments": [
+          "X",
+          "守土尽责"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处理事件",
+        "arguments": [
+          "X",
+          "妇科急诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "重要性",
+        "arguments": [
+          "处理",
+          "抗疫",
+          "特殊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "留意",
+        "arguments": [
+          "处理",
+          "特殊性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关注对象",
+        "arguments": [
+          "X",
+          "医务人员自身防护与医疗安全"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "妇科医师"
+    },
+    "source_text": "抗击COVID鄄19疫情目前正处在关键阶段,广大妇科医师应认清形势,在党中央领导下,做到守土有责,守土担责,守土尽责。在处理妇科急诊的时候既要认识到抗击疫情的重要性,又要留意COVID鄄19患者合并妇科急诊的特殊性,同时应特别关注医务人员自身防护与医疗安全。相信在广大医护工作者的共同努力下,我们将万众一心,众志成城,全力打赢这场没有硝烟的战争。因COVID鄄19传染源及中间宿主尚未确定,亦缺乏特效药物,所参考的标准、共识、文献等内容也在不断修正,后期临床效果还需进一步检验。随着研究的不断进行,本共识可能需要修改。"
+  },
+  {
+    "rule_name": "COVID-19患者手术中避免电刀以减少气溶胶风险",
+    "head": {
+      "is_negative": false,
+      "name": "操作建议",
+      "arguments": [
+        "Y",
+        "避免使用",
+        "电刀"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "COVID-19状态患者",
+        "arguments": [
+          "X",
+          "疑似或确诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术操作",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术中防护目标",
+        "arguments": [
+          "Z",
+          "减少气溶胶产生"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险关联",
+        "arguments": [
+          "Z",
+          "增加医护人员感染"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术操作",
+      "Z": "防护目标"
+    },
+    "source_text": "5. 3摇术中防护摇全面探查,缩短时间,操作轻柔,避免医源性针刺伤等。建议对此类患者术中尽量避免使用电刀,减少气溶胶产生,增加医护人员感染风险。因三级防护措施会降低医护人员的视、听、触觉功能,影响手术操作,建议三级防护时护目镜使用前使用碘伏或者洗手液等疏水液体涂抹,或佩戴全面型呼吸防护器或正压式头套,保持术中视野清晰。"
+  },
+  {
+    "rule_name": "三级防护下手术的基本操作原则",
+    "head": {
+      "is_negative": false,
+      "name": "操作属性",
+      "arguments": [
+        "Y",
+        "轻柔"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "COVID-19状态患者",
+        "arguments": [
+          "X",
+          "疑似或确诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术操作",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用防护措施",
+        "arguments": [
+          "Y",
+          "三级防护"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防护副作用",
+        "arguments": [
+          "三级防护",
+          "降低医护人员感觉功能"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "操作结果",
+        "arguments": [
+          "Y",
+          "医源性针刺伤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术操作"
+    },
+    "source_text": "5. 3摇术中防护摇全面探查,缩短时间,操作轻柔,避免医源性针刺伤等。建议对此类患者术中尽量避免使用电刀,减少气溶胶产生,增加医护人员感染风险。因三级防护措施会降低医护人员的视、听、触觉功能,影响手术操作,建议三级防护时护目镜使用前使用碘伏或者洗手液等疏水液体涂抹,或佩戴全面型呼吸防护器或正压式头套,保持术中视野清晰。"
+  },
+  {
+    "rule_name": "三级防护下使用碘伏处理护目镜以维持视野",
+    "head": {
+      "is_negative": false,
+      "name": "防护操作",
+      "arguments": [
+        "Z",
+        "涂抹碘伏"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "COVID-19状态患者",
+        "arguments": [
+          "X",
+          "疑似或确诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术操作",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用防护措施",
+        "arguments": [
+          "Y",
+          "三级防护"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防护用具",
+        "arguments": [
+          "Z",
+          "护目镜"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防护副作用",
+        "arguments": [
+          "三级防护",
+          "降低医护人员感觉功能"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作目标",
+        "arguments": [
+          "涂抹碘伏",
+          "保持术中视野清晰"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术操作",
+      "Z": "防护用具"
+    },
+    "source_text": "5. 3摇术中防护摇全面探查,缩短时间,操作轻柔,避免医源性针刺伤等。建议对此类患者术中尽量避免使用电刀,减少气溶胶产生,增加医护人员感染风险。因三级防护措施会降低医护人员的视、听、触觉功能,影响手术操作,建议三级防护时护目镜使用前使用碘伏或者洗手液等疏水液体涂抹,或佩戴全面型呼吸防护器或正压式头套,保持术中视野清晰。"
+  },
+  {
+    "rule_name": "三级防护下使用洗手液处理护目镜以维持视野",
+    "head": {
+      "is_negative": false,
+      "name": "防护操作",
+      "arguments": [
+        "Z",
+        "涂抹洗手液"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "COVID-19状态患者",
+        "arguments": [
+          "X",
+          "疑似或确诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术操作",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用防护措施",
+        "arguments": [
+          "Y",
+          "三级防护"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防护用具",
+        "arguments": [
+          "Z",
+          "护目镜"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防护副作用",
+        "arguments": [
+          "三级防护",
+          "降低医护人员感觉功能"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作目标",
+        "arguments": [
+          "涂抹洗手液",
+          "保持术中视野清晰"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术操作",
+      "Z": "防护用具"
+    },
+    "source_text": "5. 3摇术中防护摇全面探查,缩短时间,操作轻柔,避免医源性针刺伤等。建议对此类患者术中尽量避免使用电刀,减少气溶胶产生,增加医护人员感染风险。因三级防护措施会降低医护人员的视、听、触觉功能,影响手术操作,建议三级防护时护目镜使用前使用碘伏或者洗手液等疏水液体涂抹,或佩戴全面型呼吸防护器或正压式头套,保持术中视野清晰。"
+  },
+  {
+    "rule_name": "三级防护下佩戴全面型呼吸防护器以维持视野",
+    "head": {
+      "is_negative": false,
+      "name": "采用防护设备",
+      "arguments": [
+        "Z",
+        "全面型呼吸防护器"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "COVID-19状态患者",
+        "arguments": [
+          "X",
+          "疑似或确诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术操作",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用防护措施",
+        "arguments": [
+          "Y",
+          "三级防护"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防护副作用",
+        "arguments": [
+          "三级防护",
+          "降低医护人员感觉功能"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "设备功能",
+        "arguments": [
+          "Z",
+          "保持术中视野清晰"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术操作",
+      "Z": "防护设备"
+    },
+    "source_text": "5. 3摇术中防护摇全面探查,缩短时间,操作轻柔,避免医源性针刺伤等。建议对此类患者术中尽量避免使用电刀,减少气溶胶产生,增加医护人员感染风险。因三级防护措施会降低医护人员的视、听、触觉功能,影响手术操作,建议三级防护时护目镜使用前使用碘伏或者洗手液等疏水液体涂抹,或佩戴全面型呼吸防护器或正压式头套,保持术中视野清晰。"
+  },
+  {
+    "rule_name": "三级防护下佩戴正压式头套以维持视野",
+    "head": {
+      "is_negative": false,
+      "name": "采用防护设备",
+      "arguments": [
+        "Z",
+        "正压式头套"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "COVID-19状态患者",
+        "arguments": [
+          "X",
+          "疑似或确诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术操作",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用防护措施",
+        "arguments": [
+          "Y",
+          "三级防护"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防护副作用",
+        "arguments": [
+          "三级防护",
+          "降低医护人员感觉功能"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "设备功能",
+        "arguments": [
+          "Z",
+          "保持术中视野清晰"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术操作",
+      "Z": "防护设备"
+    },
+    "source_text": "5. 3摇术中防护摇全面探查,缩短时间,操作轻柔,避免医源性针刺伤等。建议对此类患者术中尽量避免使用电刀,减少气溶胶产生,增加医护人员感染风险。因三级防护措施会降低医护人员的视、听、触觉功能,影响手术操作,建议三级防护时护目镜使用前使用碘伏或者洗手液等疏水液体涂抹,或佩戴全面型呼吸防护器或正压式头套,保持术中视野清晰。"
+  }
+]

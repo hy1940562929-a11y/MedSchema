@@ -1,0 +1,332 @@
+【原始长篇章】:
+There are a wide variety of diseases that affect the thyroid gland ranging from hyperplastic to neoplastic, autoimmune, or inﬂammatory.They can present with functional abnormality or a palpable structural change. Imaging has a key role in diagnosing and characterizingthe thyroid ﬁnding for management. Imaging is also essential in the management of thyroid cancer.The American College of Radiology Appropriateness Criteria are evidence-based guidelines for speciﬁc clinical conditions that arereviewed annually by a multidisciplinary expert panel. The guideline development and revision include an extensive analysis of currentmedical literature from peer reviewed journals and the application of well-established methodologies (RAND/UCLA AppropriatenessMethod and Grading of Recommendations Assessment, Development, and Evaluation or GRADE) to rate the appropriateness ofimaging and treatment procedures for speciﬁc clinical scenarios. In those instances where evidence is lacking or equivocal, expert opinionmay supplement the available evidence to recommend imaging or treatment.
+
+【规则 1】
+规则名: 甲状腺疾病成像关键作用_基于症状与类型
+逻辑表达: 作用关键(Z, 诊断与特征描述, 针对疾病) <- 患者(X) ^ 患有疾病(X, Y) ^ 甲状腺疾病(Y) ^ 疾病类型(Y, 增生性至炎症性) ^ 临床表现(Y, 功能异常) ^ 成像程序(Z) ^ 针对目标(Z, Y)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺疾病
+  - Z: 成像程序
+
+【规则 2】
+规则名: 甲状腺恶性肿瘤管理中成像至关重要
+逻辑表达: 作用关键(Z, 疾病管理, 针对恶性肿瘤) <- 患者(X) ^ 患有疾病(X, Y) ^ 甲状腺疾病(Y) ^ 疾病性质(Y, 恶性) ^ 成像程序(Z) ^ 针对目标(Z, Y)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺恶性肿瘤
+  - Z: 成像程序
+
+【规则 3】
+规则名: ACR适当性标准作为证据指南的属性与制定
+逻辑表达: 是指南(A, 基于证据, 针对临床条件) <- 适当性标准(A) ^ 归属机构(A, ACR) ^ 制定依据(A, 分析当前文献) ^ 应用方法(A, RAND_UCLA与GRADE) ^ 目的(A, 评估成像与治疗适当性) ^ 审查方(A, 多学科专家小组) ^ 审查频率(A, 每年)
+变量映射:
+  - A: ACR适当性标准指南
+
+---
+
+
+【原始长篇章】:
+Thyroid nodules are the most common ﬁnding in the thyroid gland. The majority of thyroid nodules are benign [1,2]. Initiating workup is costly for the patient and health care system as biopsy is frequently followed by repeat imaging and surgery [3], despite the fact that the majority of small thyroid cancers are indolent [1,2]. Vaccarella et al [4] estimated that “overdiagnosis,” or identifying cancer that otherwise would be indolent, accounts for 77% of thyroid cancer cases in the United States.
+
+【规则 1】
+规则名: 甲状腺结节检查的高成本与常见后续干预
+逻辑表达: 检查成本高(X, Y, 针对结节) ^ 常伴随干预(Y, 重复影像与手术) <- 甲状腺结节(Y) ^ 归属患者(Y, X) ^ 良性(Y) ^ 惰性(Y) ^ 普遍现象(过度诊断, 甲状腺癌案例)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+
+【规则 2】
+规则名: 分化型甲状腺癌的良好预后与主要治疗方案
+逻辑表达: 高生存率(X, Y, 10年期) ^ 首选治疗(Y, 手术) ^ 可能采用治疗(Y, 放射性碘消融) <- 患有癌症(X, 分化型甲状腺癌) ^ 癌症类型(Y, 乳头状癌) ^ 癌症类型(Y, 滤泡癌)
+变量映射:
+  - X: 患者
+  - Y: 癌症
+
+【规则 3】
+规则名: 髓样甲状腺癌的侵袭性与治疗
+逻辑表达: 较低生存率(X, Y, 10年期) ^ 首选治疗(Y, 手术) <- 患有癌症(X, 髓样甲状腺癌) ^ 侵袭性(Y, 更高)
+变量映射:
+  - X: 患者
+  - Y: 癌症
+
+【规则 4】
+规则名: 甲状腺肿的常见人口学特征
+逻辑表达: 慢性病程(Y, 多年) ^ 更常见于人群(X, 女性特定年龄段) <- 甲状腺肿(Y) ^ 归属患者(Y, X)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺肿
+
+【规则 5】
+规则名: 甲状腺毒症的常见内在病因
+逻辑表达: 病因(X, 甲状腺毒症, 内在性) ^ 具体病因包括(内在性, 格雷夫斯病_毒性腺瘤_毒性多结节性甲状腺肿_亚急性甲状腺炎) <- 患有病症(X, 甲状腺毒症)
+变量映射:
+  - X: 患者
+
+---
+
+
+【原始长篇章】:
+Thyroid nodules are the most common ﬁnding in the thyroid gland. The majority of thyroid nodules are benign [1,2]. Initiating workup is costly for the patient and health care system as biopsy is frequently followed by repeat imaging and surgery [3], despite the fact that the majority of small thyroid cancers are indolent [1,2]. Vaccarella et al [4] estimated that “overdiagnosis,” or identifying cancer that otherwise would be indolent, accounts for 77% of thyroid cancer cases in the United States. Papillary and follicular carcinomas arise from the follicular epithelial cells are known as differentiated thyroid carcinomas (DTC), representing 84% and 11% of all thyroid malignancies, respectively [2]. DTC have an excellent prognosis, with a 10-year survival rate of 99% for papillary carcinoma and 95% for follicular type [2]. DTCs are treated primarily with surgery and may have radioiodine ablation depending on the stage of disease. Medullary thyroid carcinoma (MTC) arises from parafollicular cells and is more aggressive, with a survival rate of 82% at 10 years [2]. MTC is also treated with surgery. Anaplastic carcinoma is an aggressive undifferentiated tumor typically occurring in the elderly with a 10-year survival of 8% [9]. Treatment of anaplastic carcinoma does not signiﬁcantly impact survival.
+
+【规则 1】
+规则名: 多数甲状腺结节为良性
+逻辑表达: 流行病学数据(甲状腺结节, 最常见, 于甲状腺) ^ 性质(甲状腺结节, 多数) ^ 临床性质(甲状腺结节, 良性)
+变量映射: 
+  - (本规则主要描述常量事实，未使用核心变量推导)
+
+【规则 2】
+规则名: 启动小结节癌检查的成本效益矛盾_因多数为惰性
+逻辑表达: 诊疗流程成本高昂(甲状腺结节诊疗流程, 对系统) ^ 包含步骤(甲状腺结节诊疗流程, 活检) ^ 后续常为(活检, 重复影像) ^ 后续常为(活检, 手术) ^ 性质(小甲状腺癌, 多数) ^ 肿瘤行为(小甲状腺癌, 惰性)
+变量映射: 
+  - (本规则主要描述常量事实与关系，变量主要用于串联流程步骤)
+
+【规则 3】
+规则名: 美国甲状腺癌过度诊断的高比例
+逻辑表达: 流行病学占比(过度诊断病例, 77%, 在美国甲状腺癌病例中) ^ 定义(过度诊断, 识别惰性癌) ^ ¬临床意义(被识别的惰性癌, 有)
+变量映射: 
+  - (本规则主要描述常量事实与否定关系)
+
+【规则 4】
+规则名: 分化型甲状腺癌_乳头状癌的属性与治疗
+逻辑表达: 癌症类型(分化型甲状腺癌) ^ 包含亚型(分化型甲状腺癌, 乳头状癌) ^ 细胞起源(乳头状癌, 滤泡上皮细胞) ^ 流行病学占比(乳头状癌, 84%, 于甲状腺恶性肿瘤) ^ 预后指标(乳头状癌, 10年生存率, 99%) ^ 主要治疗(乳头状癌, 手术) ^ 可能治疗(乳头状癌, 放射性碘消融)
+变量映射: 
+  - (本规则主要描述常量“乳头状癌”的属性与关系)
+
+【规则 5】
+规则名: 分化型甲状腺癌_滤泡状癌的属性与治疗
+逻辑表达: 癌症类型(分化型甲状腺癌) ^ 包含亚型(分化型甲状腺癌, 滤泡状癌) ^ 细胞起源(滤泡状癌, 滤泡上皮细胞) ^ 流行病学占比(滤泡状癌, 11%, 于甲状腺恶性肿瘤) ^ 预后指标(滤泡状癌, 10年生存率, 95%) ^ 主要治疗(滤泡状癌, 手术) ^ 可能治疗(滤泡状癌, 放射性碘消融)
+变量映射: 
+  - (本规则主要描述常量“滤泡状癌”的属性与关系)
+
+【规则 6】
+规则名: 髓样甲状腺癌的属性与治疗
+逻辑表达: 癌症类型(髓样甲状腺癌) ^ 细胞起源(髓样甲状腺癌, 滤泡旁细胞) ^ 侵袭性比较(髓样甲状腺癌, 高于, 分化型甲状腺癌) ^ 预后指标(髓样甲状腺癌, 10年生存率, 82%) ^ 主要治疗(髓样甲状腺癌, 手术)
+变量映射: 
+  - (本规则主要描述常量“髓样甲状腺癌”的属性与关系)
+
+【规则 7】
+规则名: 未分化甲状腺癌的恶劣预后
+逻辑表达: 癌症类型(未分化甲状腺癌) ^ 肿瘤分化程度(未分化甲状腺癌, 未分化) ^ 侵袭性(未分化甲状腺癌, 高) ^ 好发人群(未分化甲状腺癌, 老年人) ^ 预后指标(未分化甲状腺癌, 10年生存率, 8%) ^ ¬治疗显著影响(未分化甲状腺癌治疗, 生存率)
+变量映射: 
+  - (本规则主要描述常量“未分化甲状腺癌”的属性与否定关系)
+
+---
+
+
+【原始长篇章】:
+pentetreotide is insensitive, and MTC cells do nottake up iodine [61,62,66].Whole-Body Scintigraphy. WBS has no role in theimaging of MTC, and MTC cells do not uptake iodine[61,62,66].Ga-68 DOTATATE Skull Base to Mid-Thigh. Thereis some early evidence gallium-68 (Ga-68) DOTATATEis more sensitive than FDG-PET/CT [67], althoughresultsaremixed,andthestudiesmaybecomplementary [68]. In any event, it is more sensitivethan pentetreotide [69]. It would not be recommendeduntil further work is done.SUMMARY OF RECOMMENDATIONSn Variant 1: US thyroid is usually appropriate for theinitial imaging of palpable thyroid nodule, withoutgoiter and in a euthyroid state.n Variant 2: US thyroid is usually appropriate for theinitial imaging of suspected goiter. CT neckwithout IV contrast is usually appropriate if thereis suspicion for substernal extension.n Variant 3: US thyroid, I-123 radionuclide uptakeand scan neck, or I-131 radionuclide uptake andTc-99mpertechnetatescanneckareusuallyappropriate for the initial imaging of thyrotoxicosis.The nuclear medicine studies are procedures thatareequivalentalternativesand complementarywith US.n Variant 4: Imaging is not recommended for theinitial imaging of primary hypothyroidism.n Variant 5: US thyroid is usually appropriate for thepreoperative evaluation of differentiated thyroidcancer. CT neck with IV contrast is usuallyappropriate if there is higher stage disease.n Variant 6: US thyroid is usually appropriate forearly imaging after treatment of differentiatedthyroid cancer. The panel did not agree onrecommending CT neck with IV contrast or I-131 scan whole body in this clinical scenario.There is insufﬁcient medical literature to concludewhether or not these patients would beneﬁtfrom these procedures. The use of CT neck withIV contrast or I-131 scan whole body in thispatient population is controversial but may beappropriate.n Variant 7: US thyroid and I-123 scan whole bodyareusuallyappropriateforthesuspectedrecurrence of differentiated thyroid cancer. Theseprocedures are complementary. CT neck with IVcontrast or MRI neck without and with IVcontrast are second-line studies that are usuallyappropriate and alternatives depending on clinicalﬁndings.n Variant 8: US thyroid, CT neck with IV contrast,CT chest with IV contrast, or MRI neck withoutand with IV contrast is usually appropriate for thesuspected recurrence of medullary thyroid cancers.Theseproceduresareequivalentalternativesand the choice of modality depends on clinicalﬁndings.
+
+【规则 1】
+规则名: 无甲状腺肿且甲状腺功能正常的可触及甲状腺结节初始影像学推荐
+逻辑表达: 影像学推荐(X, 甲状腺超声, 初始) <- 患者状态(X, 甲状腺功能正常) ^ 存在病症(X, 可触及甲状腺结节) ^ ¬存在病症(X, 甲状腺肿)
+变量映射:
+  - X: 患者
+
+【规则 2】
+规则名: 疑似甲状腺肿初始影像学推荐
+逻辑表达: 影像学推荐(X, 甲状腺超声, 初始) <- 存在病症(X, 疑似甲状腺肿)
+变量映射:
+  - X: 患者
+
+【规则 3】
+规则名: 疑似甲状腺肿伴有胸骨后延伸可能的初始影像学推荐
+逻辑表达: 影像学推荐(X, CT颈部无造影, 初始) <- 存在病症(X, 疑似甲状腺肿) ^ 疑似存在(X, 胸骨后延伸)
+变量映射:
+  - X: 患者
+
+【规则 4】
+规则名: 甲状腺毒症初始影像学推荐选项1_甲状腺超声
+逻辑表达: 影像学推荐(X, 甲状腺超声, 初始) <- 患者状态(X, 甲状腺毒症)
+变量映射:
+  - X: 患者
+
+【规则 5】
+规则名: 甲状腺毒症初始影像学推荐选项2_I-123检查
+逻辑表达: 影像学推荐(X, I-123颈部检查, 初始) <- 患者状态(X, 甲状腺毒症)
+变量映射:
+  - X: 患者
+
+【规则 6】
+规则名: 甲状腺毒症初始影像学推荐选项3_I-131或Tc-99m检查
+逻辑表达: 影像学推荐(X, I-131或Tc-99m颈部检查, 初始) <- 患者状态(X, 甲状腺毒症)
+变量映射:
+  - X: 患者
+
+【规则 7】
+规则名: 原发性甲状腺功能减退症不推荐初始影像学
+逻辑表达: ¬影像学推荐(X, 任何成像, 初始) <- 患者状态(X, 原发性甲状腺功能减退)
+变量映射:
+  - X: 患者
+
+【规则 8】
+规则名: 分化型甲状腺癌术前评估影像学推荐
+逻辑表达: 影像学推荐(X, 甲状腺超声, 术前) <- 患病(X, 分化型甲状腺癌) ^ 诊疗阶段(X, 术前)
+变量映射:
+  - X: 患者
+
+【规则 9】
+规则名: 高分期分化型甲状腺癌术前评估影像学推荐
+逻辑表达: 影像学推荐(X, CT颈部有造影, 术前) <- 患病(X, 分化型甲状腺癌) ^ 诊疗阶段(X, 术前) ^ 疾病分期(X, 高分期)
+变量映射:
+  - X: 患者
+
+【规则 10】
+规则名: 分化型甲状腺癌治疗后早期影像学推荐
+逻辑表达: 影像学推荐(X, 甲状腺超声, 治疗后早期) <- 患病(X, 分化型甲状腺癌) ^ 诊疗阶段(X, 治疗后早期)
+变量映射:
+  - X: 患者
+
+【规则 11】
+规则名: 分化型甲状腺癌治疗后早期影像学可选方案1
+逻辑表达: 影像学可能适当(X, CT颈部有造影, 治疗后早期) <- 患病(X, 分化型甲状腺癌) ^ 诊疗阶段(X, 治疗后早期)
+变量映射:
+  - X: 患者
+
+【规则 12】
+规则名: 分化型甲状腺癌治疗后早期影像学可选方案2
+逻辑表达: 影像学可能适当(X, I-131全身扫描, 治疗后早期) <- 患病(X, 分化型甲状腺癌) ^ 诊疗阶段(X, 治疗后早期)
+变量映射:
+  - X: 患者
+
+【规则 13】
+规则名: 疑似分化型甲状腺癌复发一线影像学推荐
+逻辑表达: 影像学推荐(X, 甲状腺超声, 疑似复发) <- 患病(X, 分化型甲状腺癌) ^ 疑似存在(X, 疾病复发)
+变量映射:
+  - X: 患者
+
+【规则 14】
+规则名: 疑似分化型甲状腺癌复发一线影像学推荐补充
+逻辑表达: 影像学推荐(X, I-123全身扫描, 疑似复发) <- 患病(X, 分化型甲状腺癌) ^ 疑似存在(X, 疾病复发)
+变量映射:
+  - X: 患者
+
+【规则 15】
+规则名: 疑似分化型甲状腺癌复发二线影像学可选方案1
+逻辑表达: 影像学推荐(X, CT颈部有造影, 疑似复发二线) <- 患病(X, 分化型甲状腺癌) ^ 疑似存在(X, 疾病复发) ^ 依据临床发现(X, 选择)
+变量映射:
+  - X: 患者
+
+【规则 16】
+规则名: 疑似分化型甲状腺癌复发二线影像学可选方案2
+逻辑表达: 影像学推荐(X, MRI颈部无有造影, 疑似复发二线) <- 患病(X, 分化型甲状腺癌) ^ 疑似存在(X, 疾病复发) ^ 依据临床发现(X, 选择)
+变量映射:
+  - X: 患者
+
+【规则 17】
+规则名: 疑似髓样甲状腺癌复发影像学可选方案1
+逻辑表达: 影像学推荐(X, 甲状腺超声, 疑似复发) <- 患病(X, 髓样甲状腺癌) ^ 疑似存在(X, 疾病复发) ^ 依据临床发现(X, 选择)
+变量映射:
+  - X: 患者
+
+【规则 18】
+规则名: 疑似髓样甲状腺癌复发影像学可选方案2
+逻辑表达: 影像学推荐(X, CT颈部有造影, 疑似复发) <- 患病(X, 髓样甲状腺癌) ^ 疑似存在(X, 疾病复发) ^ 依据临床发现(X, 选择)
+变量映射:
+  - X: 患者
+
+【规则 19】
+规则名: 疑似髓样甲状腺癌复发影像学可选方案3
+逻辑表达: 影像学推荐(X, CT胸部有造影, 疑似复发) <- 患病(X, 髓样甲状腺癌) ^ 疑似存在(X, 疾病复发) ^ 依据临床发现(X, 选择)
+变量映射:
+  - X: 患者
+
+【规则 20】
+规则名: 疑似髓样甲状腺癌复发影像学可选方案4
+逻辑表达: 影像学推荐(X, MRI颈部无有造影, 疑似复发) <- 患病(X, 髓样甲状腺癌) ^ 疑似存在(X, 疾病复发) ^ 依据临床发现(X, 选择)
+变量映射:
+  - X: 患者
+
+---
+
+
+【原始长篇章】: Disclaimer: The ACR Committee on Appropriateness Criteria and its expert panels have developed criteria for determining appropriate imaging examinations for diagnosis and treatment of specified medical condition(s). These criteria are intended to guide radiologists, radiation oncologists, and referring physicians in making decisions regarding radiologic imaging and treatment.Generally, the complexity and severity of a patient’s clinical condition should dictate the selection of appropriate imaging procedures or treatments. Only those examinations generally used for evaluation of the patient’s condition are ranked. Other imaging studies necessary to evaluate other co-existent diseases or other medical consequences of this condition are not considered in this document. The availability of equipment or personnel may influence the selection of appropriate imaging procedures or treatments. Imaging techniques classified as investigational by the FDA have not been considered in developing these criteria;
+
+【规则 1】
+规则名: 依据临床状况复杂性与严重性选择影像检查
+逻辑表达: 决定选择(Z, X) <- 患者(X) ^ 面临临床状况(W) ^ 具有属性(W, 复杂性) ^ 具有属性(W, 严重性) ^ 需要检查(X, Z) ^ 适用于状况(Z, W)
+变量映射:
+  - X: 患者
+  - Z: 影像检查
+  - W: 临床状况
+
+【规则 2】
+规则名: 纳入排名的检查需用于评估患者状况
+逻辑表达: 纳入排名(Z, 是) <- 患者(X) ^ 面临临床状况(W) ^ 需要检查(X, Z) ^ 用途(Z, 评估患者状况) ^ 适用于状况(Z, W)
+变量映射:
+  - X: 患者
+  - Z: 影像检查
+  - W: 临床状况
+
+【规则 3】
+规则名: 评估共存疾病或后果的其他检查不被考虑
+逻辑表达: ¬纳入排名(Z, 是) <- 患者(X) ^ 面临临床状况(W) ^ 需要检查(X, Z) ^ 用途(Z, 评估共存疾病或其他医学后果)
+变量映射:
+  - X: 患者
+  - Z: 影像检查
+  - W: 临床状况
+
+【规则 4】
+规则名: 设备或人员可用性可能影响检查选择
+逻辑表达: 可能影响选择(Z, U) <- 患者(X) ^ 需要检查(X, Z) ^ 需要资源(Z, U) ^ 资源可用性(U, 受限)
+变量映射:
+  - X: 患者
+  - Z: 影像检查
+  - U: 设备或人员资源
+
+【规则 5】
+规则名: FDA分类为研究性的影像技术不被标准考虑
+逻辑表达: ¬标准考虑(Z) <- 影像技术(Z) ^ 监管分类(Z, FDA研究性)
+变量映射:
+  - Z: 影像检查
+
+---
+
+
+【原始长篇章】:Variant 1: Palpable Thyroid Nodule. Not Goiter. Euthyroid. Initial ImagingScreening for thyroid cancer by palpation is not recommended by the US Preventive Task Force [15]. However,if a patient presents with a palpable neck nodule, the goalof imaging is to determine if the palpable abnormalitycorresponds to a thyroid nodule and to characterize thenodule for malignancy risk. Thyroid function testsshould beperformed ﬁrst. If the serumthyroid-stimulating hormone (TSH) is subnormal, then the pa-tient has thyrotoxicosis (Variant 3). This variant refers toa palpable thyroid nodule in the setting of a euthyroidpatient.US Thyroid. US provides high-resolution imaging toshow that the palpable abnormality is within the thyroidand is the best study to characterize the nodule for therisk of malignancy. Certain sonographic features are moreprevalent in malignancies. The combination of thesefeatures and the nodule size guide the decision to biopsyunder the ACR TI-RADS and other risk stratiﬁcationcriteria [8,16].CT Neck. There is no evidence that CT can differentiatebetween malignant and benign nodules unless there isgross invasion or metastatic disease [7]. There may be arole for this cross-sectional imaging modality if thenodule is part of a goiter that is suspected to extendsubsternally or there is a suspicion of invasive thyroidcancer. Dual-phase CT imaging with and without IVcontrast does not provide any additional information.MRI Neck. There is no evidence that MRI can differ-entiate between malignant and benign nodules unlessthere is gross invasion or metastatic disease. There may bea role for this cross-sectional imaging modality if thenodule is part of a goiter that is suspected to extendsubsternally or there is a suspicion of invasive thyroidcancer. CT is preferred since there is less respiratorymotion artifact.FDG-PET/CT Neck. There is no evidence to supportthe use of PET using the tracer ﬂuorine-18-2-ﬂuoro-2-deoxy-D-glucose (FDG)/CT in the setting of palpablethyroid nodule.Radionuclide Uptake and Scan. In euthyroid patients,radioisotope scanning is not helpful in determiningmalignancy and decision to biopsy. Although coldnodules are more likely to be malignant, the majority ofnodules are cold, and the majority of cold nodules arebenign, resulting in a low positive predictive value.
+
+【规则 1】
+规则名: 可触及甲状腺结节超声应用指征_表征恶性风险
+逻辑表达: 检查适用(超声, 表征恶性风险) <- 患者(X) ^ 存在结节(Y) ^ 结节性质(Y, 可触及) ^ 归属患者(Y, X) ^ 存在异常(Z) ^ 对应异常(Z, Y) ^ 位置关系(Z, 甲状腺内) ^ 结节状态(Y, 有恶性风险)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+  - Z: 可触及异常
+
+【规则 2】
+规则名: 可触及甲状腺结节CT应用指征_评估侵犯转移
+逻辑表达: 检查适用(CT, 评估侵犯转移) <- 患者(X) ^ 存在结节(Y) ^ 结节性质(Y, 可触及) ^ 归属患者(Y, X) ^ 结节状态(Y, 有恶性风险) ^ 疾病状态(Y, 明显侵犯) V 疾病状态(Y, 转移性疾病)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+
+【规则 3】
+规则名: 可触及甲状腺结节CT不适用指征_常规区分良恶性
+逻辑表达: ¬检查适用(CT, 区分良恶性) <- 患者(X) ^ 存在结节(Y) ^ 结节性质(Y, 可触及) ^ 归属患者(Y, X) ^ 结节状态(Y, 有恶性风险) ^ ¬疾病状态(Y, 明显侵犯) ^ ¬疾病状态(Y, 转移性疾病)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+
+【规则 4】
+规则名: 可触及甲状腺结节MRI不适用指征_常规区分良恶性
+逻辑表达: ¬检查适用(MRI, 区分良恶性) <- 患者(X) ^ 存在结节(Y) ^ 结节性质(Y, 可触及) ^ 归属患者(Y, X) ^ 结节状态(Y, 有恶性风险) ^ ¬疾病状态(Y, 明显侵犯) ^ ¬疾病状态(Y, 转移性疾病)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+
+【规则 5】
+规则名: 可触及甲状腺结节FDG-PET_CT不适用指征
+逻辑表达: ¬检查适用(FDG-PET_CT, 常规评估) <- 患者(X) ^ 存在结节(Y) ^ 结节性质(Y, 可触及) ^ 归属患者(Y, X) ^ 结节状态(Y, 有恶性风险)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+
+【规则 6】
+规则名: 甲状腺功能正常患者放射性核素扫描不适用指征_确定恶性
+逻辑表达: ¬检查适用(放射性核素扫描, 确定恶性) <- 患者(X) ^ 甲状腺功能状态(X, 正常) ^ 存在结节(Y) ^ 结节性质(Y, 可触及) ^ 归属患者(Y, X) ^ 结节状态(Y, 有恶性风险)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+
+---
+

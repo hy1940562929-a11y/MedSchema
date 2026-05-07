@@ -1,0 +1,1447 @@
+[
+  {
+    "rule_name": "良性或未达FNA标准结节的超声稳定后延长监测间隔",
+    "head": {
+      "is_negative": false,
+      "name": "推荐处理",
+      "arguments": [
+        "Y2",
+        "考虑进行",
+        "3至5年间隔"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于监测方案",
+        "arguments": [
+          "X",
+          "良性结节监测"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声检查",
+        "arguments": [
+          "Y1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "Y1",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时间属性",
+        "arguments": [
+          "Y1",
+          "初始6-12月后"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声检查",
+        "arguments": [
+          "Y2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "Y2",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时序关系",
+        "arguments": [
+          "Y2",
+          "在Y1后"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声稳定",
+        "arguments": [
+          "Y1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声稳定",
+        "arguments": [
+          "Y2"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "甲状腺结节",
+      "Y1": "首次随访超声检查事件",
+      "Y2": "后续超声检查事件"
+    },
+    "source_text": "For well‑defined, autonomous nodules FNA is rarely indicated and repeat ultrasound may not be necessary. For other nodules not meeting criteria for FNA, or nodules that appear to be benign by ultrasound or FNA, surveillance should include repeat ultrasound after 6–12 months; if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals. If growth and/or change in ultrasonographic features, consider FNA and follow THYR‑3, THYR‑4, and THYR-5 for subsequent management."
+  },
+  {
+    "rule_name": "监测中结节生长后的处理建议",
+    "head": {
+      "is_negative": false,
+      "name": "推荐处理",
+      "arguments": [
+        "X",
+        "进行FNA",
+        "若生长时"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于监测方案",
+        "arguments": [
+          "X",
+          "良性结节监测"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声检查",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时序关系",
+        "arguments": [
+          "Y",
+          "监测期间"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发现特征",
+        "arguments": [
+          "Y",
+          "结节生长"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "是自主性结节",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "甲状腺结节",
+      "Y": "监测期间的超声检查事件"
+    },
+    "source_text": "For well‑defined, autonomous nodules FNA is rarely indicated and repeat ultrasound may not be necessary. For other nodules not meeting criteria for FNA, or nodules that appear to be benign by ultrasound or FNA, surveillance should include repeat ultrasound after 6–12 months; if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals. If growth and/or change in ultrasonographic features, consider FNA and follow THYR‑3, THYR‑4, and THYR-5 for subsequent management."
+  },
+  {
+    "rule_name": "监测中结节超声特征变化后的处理建议",
+    "head": {
+      "is_negative": false,
+      "name": "推荐处理",
+      "arguments": [
+        "X",
+        "进行FNA",
+        "若特征变化时"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于监测方案",
+        "arguments": [
+          "X",
+          "良性结节监测"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声检查",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时序关系",
+        "arguments": [
+          "Y",
+          "监测期间"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发现特征",
+        "arguments": [
+          "Y",
+          "超声特征改变"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "是自主性结节",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "甲状腺结节",
+      "Y": "监测期间的超声检查事件"
+    },
+    "source_text": "For well‑defined, autonomous nodules FNA is rarely indicated and repeat ultrasound may not be necessary. For other nodules not meeting criteria for FNA, or nodules that appear to be benign by ultrasound or FNA, surveillance should include repeat ultrasound after 6–12 months; if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals. If growth and/or change in ultrasonographic features, consider FNA and follow THYR‑3, THYR‑4, and THYR-5 for subsequent management."
+  },
+  {
+    "rule_name": "分子检测提示乳头状癌_参考特定指南",
+    "head": {
+      "is_negative": false,
+      "name": "处理推荐",
+      "arguments": [
+        "X",
+        "参考PAP1指南"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "FNA结果分类",
+        "arguments": [
+          "X",
+          "滤泡性肿瘤或AUS或FLUS"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受检测",
+        "arguments": [
+          "X",
+          "分子诊断"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测结果指示",
+        "arguments": [
+          "X",
+          "乳头状甲状腺癌"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "甲状腺结节"
+    },
+    "source_text": "j) The diagnosis of follicular carcinoma or Hürthle cell carcinoma requires evidence of either vascular or capsular invasion, which cannot be determined by FNA. Molecular diagnostics may be useful to allow reclassification of follicular lesions (ie, follicular neoplasm, atypia of undetermined significance [AUS], follicular lesions of undetermined significance [FLUS]) as either more or less likely to be benign or malignant based on the genetic profile. If molecular testing suggests papillary thyroid carcinoma, especially in the case of BRAF V600E, see (PAP‑1). If molecular testing, in conjunction with clinical and ultrasound features, predicts a risk of malignancy comparable to the risk of malignancy seen with a benign FNA cytology (approximately 5% or less), consider active surveillance. Molecular markers should be interpreted with caution and in the context of clinical, radiographic, and cytologic features of each individual patient."
+  },
+  {
+    "rule_name": "分子检测提示乳头状癌伴BRAF突变_参考特定指南",
+    "head": {
+      "is_negative": false,
+      "name": "处理推荐",
+      "arguments": [
+        "X",
+        "参考PAP1指南"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "FNA结果分类",
+        "arguments": [
+          "X",
+          "滤泡性肿瘤或AUS或FLUS"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受检测",
+        "arguments": [
+          "X",
+          "分子诊断"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测结果指示",
+        "arguments": [
+          "X",
+          "乳头状甲状腺癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "携带突变",
+        "arguments": [
+          "X",
+          "BRAF_V600E"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "甲状腺结节"
+    },
+    "source_text": "j) The diagnosis of follicular carcinoma or Hürthle cell carcinoma requires evidence of either vascular or capsular invasion, which cannot be determined by FNA. Molecular diagnostics may be useful to allow reclassification of follicular lesions (ie, follicular neoplasm, atypia of undetermined significance [AUS], follicular lesions of undetermined significance [FLUS]) as either more or less likely to be benign or malignant based on the genetic profile. If molecular testing suggests papillary thyroid carcinoma, especially in the case of BRAF V600E, see (PAP‑1). If molecular testing, in conjunction with clinical and ultrasound features, predicts a risk of malignancy comparable to the risk of malignancy seen with a benign FNA cytology (approximately 5% or less), consider active surveillance. Molecular markers should be interpreted with caution and in the context of clinical, radiographic, and cytologic features of each individual patient."
+  },
+  {
+    "rule_name": "分子检测联合临床特征预测低恶性风险_考虑主动监测",
+    "head": {
+      "is_negative": false,
+      "name": "处理推荐",
+      "arguments": [
+        "X",
+        "考虑主动监测"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受检测",
+        "arguments": [
+          "X",
+          "分子诊断"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有临床特征",
+        "arguments": [
+          "Y",
+          "特定超声与临床特征"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "预测恶性风险",
+        "arguments": [
+          "X",
+          "高于良性FNA基准"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "甲状腺结节",
+      "Y": "患者"
+    },
+    "source_text": "j) The diagnosis of follicular carcinoma or Hürthle cell carcinoma requires evidence of either vascular or capsular invasion, which cannot be determined by FNA. Molecular diagnostics may be useful to allow reclassification of follicular lesions (ie, follicular neoplasm, atypia of undetermined significance [AUS], follicular lesions of undetermined significance [FLUS]) as either more or less likely to be benign or malignant based on the genetic profile. If molecular testing suggests papillary thyroid carcinoma, especially in the case of BRAF V600E, see (PAP‑1). If molecular testing, in conjunction with clinical and ultrasound features, predicts a risk of malignancy comparable to the risk of malignancy seen with a benign FNA cytology (approximately 5% or less), consider active surveillance. Molecular markers should be interpreted with caution and in the context of clinical, radiographic, and cytologic features of each individual patient."
+  },
+  {
+    "rule_name": "分子诊断需在临床影像细胞学背景下谨慎解读",
+    "head": {
+      "is_negative": false,
+      "name": "解读要求",
+      "arguments": [
+        "D",
+        "需谨慎并在临床背景下"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "分子诊断结果",
+        "arguments": [
+          "D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联结节",
+        "arguments": [
+          "D",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有临床特征",
+        "arguments": [
+          "Y",
+          "特定特征"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有影像特征",
+        "arguments": [
+          "Y",
+          "特定特征"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有细胞学特征",
+        "arguments": [
+          "X",
+          "特定特征"
+        ]
+      }
+    ],
+    "variables": {
+      "D": "分子诊断结果",
+      "X": "甲状腺结节",
+      "Y": "患者"
+    },
+    "source_text": "j) The diagnosis of follicular carcinoma or Hürthle cell carcinoma requires evidence of either vascular or capsular invasion, which cannot be determined by FNA. Molecular diagnostics may be useful to allow reclassification of follicular lesions (ie, follicular neoplasm, atypia of undetermined significance [AUS], follicular lesions of undetermined significance [FLUS]) as either more or less likely to be benign or malignant based on the genetic profile. If molecular testing suggests papillary thyroid carcinoma, especially in the case of BRAF V600E, see (PAP‑1). If molecular testing, in conjunction with clinical and ultrasound features, predicts a risk of malignancy comparable to the risk of malignancy seen with a benign FNA cytology (approximately 5% or less), consider active surveillance. Molecular markers should be interpreted with caution and in the context of clinical, radiographic, and cytologic features of each individual patient."
+  },
+  {
+    "rule_name": "甲状腺结节使用TI-RADS标准评估后的监测策略",
+    "head": {
+      "is_negative": false,
+      "name": "管理策略",
+      "arguments": [
+        "X",
+        "结节监测"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估标准",
+        "arguments": [
+          "X",
+          "TI-RADS"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估行为",
+        "arguments": [
+          "医生",
+          "X",
+          "执行"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "符合标准",
+        "arguments": [
+          "X",
+          "FNA指征"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "甲状腺结节"
+    },
+    "source_text": "THYR-2• Links to TI-RADS and ATA criteria for FNA were added.• \"Active surveillance\" changed to \"Nodule surveillance\" (also for THYR-3, THYR-4, and THYR-5)• Footnote f was updated: \"Tg washout may be useful in diagnosis of lymph node metastases and is recommended if cytology is negative or non‑diagnostic. Consider at the time of lymph node biopsy.\"• Footnote h was updated: \"For well‑defined, autonomous nodules FNA is rarely indicated and repeat ultrasound may not be necessary. For other nodules not meeting criteria for FNA, or nodules that appear to be benign by ultrasound or FNA, surveillance should include repeat ultrasound after 6–12 months; if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals. If growth and/or change in ultrasonographic features, consider FNA and follow THYR‑3, THYR‑4, and THYR-5 for subsequent management.\""
+  },
+  {
+    "rule_name": "甲状腺结节使用ATA标准评估后的监测策略",
+    "head": {
+      "is_negative": false,
+      "name": "管理策略",
+      "arguments": [
+        "X",
+        "结节监测"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估标准",
+        "arguments": [
+          "X",
+          "ATA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估行为",
+        "arguments": [
+          "医生",
+          "X",
+          "执行"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "符合标准",
+        "arguments": [
+          "X",
+          "FNA指征"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "甲状腺结节"
+    },
+    "source_text": "THYR-2• Links to TI-RADS and ATA criteria for FNA were added.• \"Active surveillance\" changed to \"Nodule surveillance\" (also for THYR-3, THYR-4, and THYR-5)• Footnote f was updated: \"Tg washout may be useful in diagnosis of lymph node metastases and is recommended if cytology is negative or non‑diagnostic. Consider at the time of lymph node biopsy.\"• Footnote h was updated: \"For well‑defined, autonomous nodules FNA is rarely indicated and repeat ultrasound may not be necessary. For other nodules not meeting criteria for FNA, or nodules that appear to be benign by ultrasound or FNA, surveillance should include repeat ultrasound after 6–12 months; if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals. If growth and/or change in ultrasonographic features, consider FNA and follow THYR‑3, THYR‑4, and THYR-5 for subsequent management.\""
+  },
+  {
+    "rule_name": "细胞学结果为滤泡性病变的甲状腺结节恶性风险评估",
+    "head": {
+      "is_negative": false,
+      "name": "恶性风险",
+      "arguments": [
+        "X",
+        "6-18%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "细胞学结果",
+        "arguments": [
+          "X",
+          "滤泡性病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估来源",
+        "arguments": [
+          "医生",
+          "X",
+          "进行"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分类体系",
+        "arguments": [
+          "X",
+          "THYR-3"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "甲状腺结节"
+    },
+    "source_text": "THYR‑3• Footnote k was updated: \"Alternative terms include: rule out neoplasm, atypical follicular lesion, and cellular follicular lesion. Estimated risk of malignancy is 5%‑15% 6%–18%. Also for THYR-4.• Footnote m is new: \"The order of the treatment options does not indicate preference.\""
+  },
+  {
+    "rule_name": "诊断结果为分子诊断的甲状腺结节治疗选项调整",
+    "head": {
+      "is_negative": true,
+      "name": "治疗选项包含",
+      "arguments": [
+        "X",
+        "考虑叶切除术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断结果类型",
+        "arguments": [
+          "X",
+          "分子诊断结果"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分类体系",
+        "arguments": [
+          "X",
+          "THYR-4"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "路径",
+        "arguments": [
+          "X",
+          "滤泡性肿瘤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "甲状腺结节"
+    },
+    "source_text": "THYR‑4• The page name was changed to \"Molecular Diagnostic Results\" from \"FNA Results.\"• Follicular neoplasm, bottom pathway treatment: \"Consider lobectomy for definitive diagnosis/treatment\" was removed."
+  },
+  {
+    "rule_name": "实体甲状腺结节重复非诊断性FNA后的治疗考虑",
+    "head": {
+      "is_negative": false,
+      "name": "治疗考虑",
+      "arguments": [
+        "X",
+        "考虑手术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "结节属性",
+        "arguments": [
+          "X",
+          "实体"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "活检结果",
+        "arguments": [
+          "X",
+          "非诊断性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "重复操作",
+        "arguments": [
+          "医生",
+          "X",
+          "执行"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "最终结果",
+        "arguments": [
+          "X",
+          "仍非诊断性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "甲状腺结节"
+    },
+    "source_text": "THYR-5• Insufficient biopsy, nondiagnostic, solid treatment: \"if repeat non‑diagnostic FNAs\" added to \"Consider surgery.\""
+  },
+  {
+    "rule_name": "增长的良性甲状腺结节不建议多次活检",
+    "head": {
+      "is_negative": true,
+      "name": "建议操作",
+      "arguments": [
+        "医生",
+        "X",
+        "超过两次活检"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理性质",
+        "arguments": [
+          "X",
+          "良性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生长状态",
+        "arguments": [
+          "X",
+          "增长"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属类别",
+        "arguments": [
+          "X",
+          "THYR-5"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "甲状腺结节"
+    },
+    "source_text": "THYR-5• \"Generally, more than two biopsies on a growing benign nodule are not indicated.\" was added to footnote t."
+  },
+  {
+    "rule_name": "低TSH甲状腺结节_放射性碘扫描_自主功能性结节管理",
+    "head": {
+      "is_negative": false,
+      "name": "后续管理推荐",
+      "arguments": [
+        "X",
+        "评估治疗甲状腺毒症",
+        "针对结节"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "刺激素水平",
+        "arguments": [
+          "X",
+          "低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查推荐",
+        "arguments": [
+          "X",
+          "放射性碘扫描",
+          "针对结节"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "扫描结果",
+        "arguments": [
+          "Y",
+          "自主功能性热结节"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺结节"
+    },
+    "source_text": "For thyroid nodule known or suspected on exam or incidental imaging finding:• Measure thyroid‑stimulating hormone (TSH)• Ultrasound of thyroid and neck including lateral neck lymph node compartmentsThyroid nodule(s) with low TSHThyroid nodule(s) with normal or elevated TSHaa\tEvaluate and treat for hypothyroidism as clinically indicated.b\tFor well‑defined, autonomous nodules FNA is rarely indicated and repeat ultrasound may not be necessary. For other nodules not meeting criteria for FNA, or nodules that appear to be benign by ultrasound or FNA, surveillance should include repeat ultrasound after 6–12 months; if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals. If growth, follow THYR‑2 for subsequent management.Radioiodineimaging 123l thyroid uptake and scanAutonomously functioning (hot)HypofunctionalEvaluate and treat for thyrotoxicosis as indicated(malignancy is rare)bConsider ultrasound‑guided FNA based on clinical and sonographic featuresSeeSonographicFeaturesb (THYR‑2)"
+  },
+  {
+    "rule_name": "低TSH甲状腺结节_放射性碘扫描_低功能结节管理",
+    "head": {
+      "is_negative": false,
+      "name": "后续管理推荐",
+      "arguments": [
+        "Y",
+        "超声引导下FNA检查",
+        "基于特征"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "刺激素水平",
+        "arguments": [
+          "X",
+          "低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查推荐",
+        "arguments": [
+          "X",
+          "放射性碘扫描",
+          "针对结节"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "扫描结果",
+        "arguments": [
+          "Y",
+          "低功能"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺结节"
+    },
+    "source_text": "For thyroid nodule known or suspected on exam or incidental imaging finding:• Measure thyroid‑stimulating hormone (TSH)• Ultrasound of thyroid and neck including lateral neck lymph node compartmentsThyroid nodule(s) with low TSHThyroid nodule(s) with normal or elevated TSHaa\tEvaluate and treat for hypothyroidism as clinically indicated.b\tFor well‑defined, autonomous nodules FNA is rarely indicated and repeat ultrasound may not be necessary. For other nodules not meeting criteria for FNA, or nodules that appear to be benign by ultrasound or FNA, surveillance should include repeat ultrasound after 6–12 months; if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals. If growth, follow THYR‑2 for subsequent management.Radioiodineimaging 123l thyroid uptake and scanAutonomously functioning (hot)HypofunctionalEvaluate and treat for thyrotoxicosis as indicated(malignancy is rare)bConsider ultrasound‑guided FNA based on clinical and sonographic featuresSeeSonographicFeaturesb (THYR‑2)"
+  },
+  {
+    "rule_name": "正常或高TSH甲状腺结节_界限清晰自主结节管理",
+    "head": {
+      "is_negative": false,
+      "name": "管理方案",
+      "arguments": [
+        "Y",
+        "无需重复超声"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "刺激素水平",
+        "arguments": [
+          "X",
+          "正常或升高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "结节性质",
+        "arguments": [
+          "Y",
+          "界限清晰"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "结节性质",
+        "arguments": [
+          "Y",
+          "自主功能性"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "符合标准",
+        "arguments": [
+          "Y",
+          "FNA指征"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺结节"
+    },
+    "source_text": "For thyroid nodule known or suspected on exam or incidental imaging finding:• Measure thyroid‑stimulating hormone (TSH)• Ultrasound of thyroid and neck including lateral neck lymph node compartmentsThyroid nodule(s) with low TSHThyroid nodule(s) with normal or elevated TSHaa\tEvaluate and treat for hypothyroidism as clinically indicated.b\tFor well‑defined, autonomous nodules FNA is rarely indicated and repeat ultrasound may not be necessary. For other nodules not meeting criteria for FNA, or nodules that appear to be benign by ultrasound or FNA, surveillance should include repeat ultrasound after 6–12 months; if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals. If growth, follow THYR‑2 for subsequent management.Radioiodineimaging 123l thyroid uptake and scanAutonomously functioning (hot)HypofunctionalEvaluate and treat for thyrotoxicosis as indicated(malignancy is rare)bConsider ultrasound‑guided FNA based on clinical and sonographic featuresSeeSonographicFeaturesb (THYR‑2)"
+  },
+  {
+    "rule_name": "正常或高TSH甲状腺结节_非FNA指征或良性结节的监测方案",
+    "head": {
+      "is_negative": false,
+      "name": "监测方案",
+      "arguments": [
+        "Y",
+        "重复超声",
+        "时间6至12个月"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "刺激素水平",
+        "arguments": [
+          "X",
+          "正常或升高"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "符合标准",
+        "arguments": [
+          "Y",
+          "FNA指征"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "成像评估结果",
+        "arguments": [
+          "Y",
+          "良性"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "结节性质",
+        "arguments": [
+          "Y",
+          "界限清晰自主功能性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺结节"
+    },
+    "source_text": "For thyroid nodule known or suspected on exam or incidental imaging finding:• Measure thyroid‑stimulating hormone (TSH)• Ultrasound of thyroid and neck including lateral neck lymph node compartmentsThyroid nodule(s) with low TSHThyroid nodule(s) with normal or elevated TSHaa\tEvaluate and treat for hypothyroidism as clinically indicated.b\tFor well‑defined, autonomous nodules FNA is rarely indicated and repeat ultrasound may not be necessary. For other nodules not meeting criteria for FNA, or nodules that appear to be benign by ultrasound or FNA, surveillance should include repeat ultrasound after 6–12 months; if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals. If growth, follow THYR‑2 for subsequent management.Radioiodineimaging 123l thyroid uptake and scanAutonomously functioning (hot)HypofunctionalEvaluate and treat for thyrotoxicosis as indicated(malignancy is rare)bConsider ultrasound‑guided FNA based on clinical and sonographic featuresSeeSonographicFeaturesb (THYR‑2)"
+  },
+  {
+    "rule_name": "正常或高TSH甲状腺结节_监测方案持续稳定后的延长间隔",
+    "head": {
+      "is_negative": false,
+      "name": "监测方案",
+      "arguments": [
+        "Y",
+        "后续超声",
+        "时间3至5年间隔"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "刺激素水平",
+        "arguments": [
+          "X",
+          "正常或升高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "既往监测结果",
+        "arguments": [
+          "Y",
+          "稳定1至2年"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前管理方案",
+        "arguments": [
+          "Y",
+          "监测中"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺结节"
+    },
+    "source_text": "For thyroid nodule known or suspected on exam or incidental imaging finding:• Measure thyroid‑stimulating hormone (TSH)• Ultrasound of thyroid and neck including lateral neck lymph node compartmentsThyroid nodule(s) with low TSHThyroid nodule(s) with normal or elevated TSHaa\tEvaluate and treat for hypothyroidism as clinically indicated.b\tFor well‑defined, autonomous nodules FNA is rarely indicated and repeat ultrasound may not be necessary. For other nodules not meeting criteria for FNA, or nodules that appear to be benign by ultrasound or FNA, surveillance should include repeat ultrasound after 6–12 months; if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals. If growth, follow THYR‑2 for subsequent management.Radioiodineimaging 123l thyroid uptake and scanAutonomously functioning (hot)HypofunctionalEvaluate and treat for thyrotoxicosis as indicated(malignancy is rare)bConsider ultrasound‑guided FNA based on clinical and sonographic featuresSeeSonographicFeaturesb (THYR‑2)"
+  },
+  {
+    "rule_name": "符合特定细胞学特征的良性结节建议监测",
+    "head": {
+      "is_negative": false,
+      "name": "临床管理建议",
+      "arguments": [
+        "Y",
+        "主动监测",
+        "考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "细针穿刺活检样本",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "来源于",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "细胞学诊断",
+        "arguments": [
+          "Z",
+          "良性"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "甲状腺结节",
+      "Z": "细针穿刺活检样本"
+    },
+    "source_text": "Includes nodular goiter, colloid nodule, hyperplastic/adenomatoid nodule, and Hashimoto’s thyroiditis. Estimated risk of malignancy is approximately 5% or less; consider active surveillance.s\tRepeat ultrasound after 6–12 months, if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals.t\tGrowth defined as >50% increase in nodule volume or 20% increase in size of 2–3 dimensions. Size changes should be >2 mm and should be assessed by direct comparison of images. Generally, more than two biopsies on a growing benign nodule are not indicated.THYR‑5Diagnostic categories for FNA results reflect NCI state of the science conference, the Bethesda Classification. Cibas ES and Ali SZ. Thyroid 2017;"
+  },
+  {
+    "rule_name": "初始监测期后结节稳定则延长监测间隔",
+    "head": {
+      "is_negative": false,
+      "name": "临床管理建议",
+      "arguments": [
+        "Y",
+        "延长超声监测间隔至3至5年",
+        "可考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "实施监测方案",
+        "arguments": [
+          "Y",
+          "主动监测"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声检查事件",
+        "arguments": [
+          "E1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "E1",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查时间间隔",
+        "arguments": [
+          "E1",
+          "初始6至12个月"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查结果",
+        "arguments": [
+          "E1",
+          "稳定"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "稳定持续时间",
+        "arguments": [
+          "Y",
+          "1至2年"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "甲状腺结节",
+      "E1": "超声检查事件"
+    },
+    "source_text": "Includes nodular goiter, colloid nodule, hyperplastic/adenomatoid nodule, and Hashimoto’s thyroiditis. Estimated risk of malignancy is approximately 5% or less; consider active surveillance.s\tRepeat ultrasound after 6–12 months, if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals.t\tGrowth defined as >50% increase in nodule volume or 20% increase in size of 2–3 dimensions. Size changes should be >2 mm and should be assessed by direct comparison of images. Generally, more than two biopsies on a growing benign nodule are not indicated.THYR‑5Diagnostic categories for FNA results reflect NCI state of the science conference, the Bethesda Classification. Cibas ES and Ali SZ. Thyroid 2017;"
+  },
+  {
+    "rule_name": "定义结节生长标准_体积显著增加",
+    "head": {
+      "is_negative": false,
+      "name": "判定为生长",
+      "arguments": [
+        "Y",
+        "是"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声检查事件",
+        "arguments": [
+          "E2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "E2",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声检查事件",
+        "arguments": [
+          "E3"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "E3",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时间先后",
+        "arguments": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "体积增加百分比",
+        "arguments": [
+          "Y",
+          "E2",
+          "E3",
+          "大于50%"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "甲状腺结节",
+      "E2": "历史超声检查事件",
+      "E3": "当前超声检查事件"
+    },
+    "source_text": "Includes nodular goiter, colloid nodule, hyperplastic/adenomatoid nodule, and Hashimoto’s thyroiditis. Estimated risk of malignancy is approximately 5% or less; consider active surveillance.s\tRepeat ultrasound after 6–12 months, if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals.t\tGrowth defined as >50% increase in nodule volume or 20% increase in size of 2–3 dimensions. Size changes should be >2 mm and should be assessed by direct comparison of images. Generally, more than two biopsies on a growing benign nodule are not indicated.THYR‑5Diagnostic categories for FNA results reflect NCI state of the science conference, the Bethesda Classification. Cibas ES and Ali SZ. Thyroid 2017;"
+  },
+  {
+    "rule_name": "定义结节生长标准_多维度尺寸显著增加",
+    "head": {
+      "is_negative": false,
+      "name": "判定为生长",
+      "arguments": [
+        "Y",
+        "是"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声检查事件",
+        "arguments": [
+          "E2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "E2",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声检查事件",
+        "arguments": [
+          "E3"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "E3",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时间先后",
+        "arguments": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "至少二维尺寸增加百分比",
+        "arguments": [
+          "Y",
+          "E2",
+          "E3",
+          "大于20%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "最小尺寸变化",
+        "arguments": [
+          "Y",
+          "E2",
+          "E3",
+          "大于2毫米"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "甲状腺结节",
+      "E2": "历史超声检查事件",
+      "E3": "当前超声检查事件"
+    },
+    "source_text": "Includes nodular goiter, colloid nodule, hyperplastic/adenomatoid nodule, and Hashimoto’s thyroiditis. Estimated risk of malignancy is approximately 5% or less; consider active surveillance.s\tRepeat ultrasound after 6–12 months, if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals.t\tGrowth defined as >50% increase in nodule volume or 20% increase in size of 2–3 dimensions. Size changes should be >2 mm and should be assessed by direct comparison of images. Generally, more than two biopsies on a growing benign nodule are not indicated.THYR‑5Diagnostic categories for FNA results reflect NCI state of the science conference, the Bethesda Classification. Cibas ES and Ali SZ. Thyroid 2017;"
+  },
+  {
+    "rule_name": "良性结节持续生长且已进行多次活检则不宜再活检",
+    "head": {
+      "is_negative": false,
+      "name": "临床管理建议",
+      "arguments": [
+        "Y",
+        "不再进行活检",
+        "通常"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "细胞学诊断历史",
+        "arguments": [
+          "Y",
+          "良性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "判定为生长",
+        "arguments": [
+          "Y",
+          "是"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "已进行活检次数",
+        "arguments": [
+          "Y",
+          "大于等于2"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "甲状腺结节"
+    },
+    "source_text": "Includes nodular goiter, colloid nodule, hyperplastic/adenomatoid nodule, and Hashimoto’s thyroiditis. Estimated risk of malignancy is approximately 5% or less; consider active surveillance.s\tRepeat ultrasound after 6–12 months, if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals.t\tGrowth defined as >50% increase in nodule volume or 20% increase in size of 2–3 dimensions. Size changes should be >2 mm and should be assessed by direct comparison of images. Generally, more than two biopsies on a growing benign nodule are not indicated.THYR‑5Diagnostic categories for FNA results reflect NCI state of the science conference, the Bethesda Classification. Cibas ES and Ali SZ. Thyroid 2017;"
+  }
+]

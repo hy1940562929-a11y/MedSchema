@@ -1,0 +1,788 @@
+[
+  {
+    "rule_name": "社区获得性肺炎诊断标准_医院外罹患",
+    "head": {
+      "is_negative": false,
+      "name": "患病",
+      "arguments": [
+        "X",
+        "社区获得性肺炎"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "感染部位",
+        "arguments": [
+          "X",
+          "肺实质"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "感染环境",
+        "arguments": [
+          "X",
+          "医院外"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "pneumonia，CAP）：在医院外罹患的感染性肺实质（含肺泡壁，即广义上的肺间质）炎症，包括具有明确潜伏期的病原体感染而在入院后平均潜伏期内（48 h内）发病的肺炎。"
+  },
+  {
+    "rule_name": "社区获得性肺炎诊断标准_潜伏期内发病",
+    "head": {
+      "is_negative": false,
+      "name": "患病",
+      "arguments": [
+        "X",
+        "社区获得性肺炎"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "感染部位",
+        "arguments": [
+          "X",
+          "肺实质"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病原体感染",
+        "arguments": [
+          "X",
+          "有明确潜伏期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病时间",
+        "arguments": [
+          "X",
+          "入院后48小时内"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "pneumonia，CAP）：在医院外罹患的感染性肺实质（含肺泡壁，即广义上的肺间质）炎症，包括具有明确潜伏期的病原体感染而在入院后平均潜伏期内（48 h内）发病的肺炎。"
+  },
+  {
+    "rule_name": "中国AIS患者SAP风险评估模型推荐",
+    "head": {
+      "is_negative": false,
+      "name": "风险评估模型推荐",
+      "arguments": [
+        "X",
+        "AIS-APS"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者国籍",
+        "arguments": [
+          "X",
+          "中国"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有卒中类型",
+        "arguments": [
+          "X",
+          "急性缺血性卒中"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "模型基于人群",
+        "arguments": [
+          "X",
+          "中国人群数据"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "模型已获验证",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "建议采用由冀瑞俊等[6，11]报道的基于中国人群数据建立的评分法评估中国卒中患者SAP风险（表1）。该预测模型已经得到相关研究验证[14，20]。推荐意见：采用基于中国人群数据建立的急性缺血性卒中相关性肺炎评分（acute ischemic stroke-associated pneumonia score，AIS-APS）、自发性脑出血相关性肺炎评分(intracerebral hemorrhage-associated pneumonia score，ICH-APS）预测模型评估中国卒中患者SAP风险。"
+  },
+  {
+    "rule_name": "中国ICH患者SAP风险评估模型推荐",
+    "head": {
+      "is_negative": false,
+      "name": "风险评估模型推荐",
+      "arguments": [
+        "X",
+        "ICH-APS"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者国籍",
+        "arguments": [
+          "X",
+          "中国"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有卒中类型",
+        "arguments": [
+          "X",
+          "自发性脑出血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "模型基于人群",
+        "arguments": [
+          "X",
+          "中国人群数据"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "模型已获验证",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "建议采用由冀瑞俊等[6，11]报道的基于中国人群数据建立的评分法评估中国卒中患者SAP风险（表1）。该预测模型已经得到相关研究验证[14，20]。推荐意见：采用基于中国人群数据建立的急性缺血性卒中相关性肺炎评分（acute ischemic stroke-associated pneumonia score，AIS-APS）、自发性脑出血相关性肺炎评分(intracerebral hemorrhage-associated pneumonia score，ICH-APS）预测模型评估中国卒中患者SAP风险。"
+  },
+  {
+    "rule_name": "急性缺血性卒中患者推荐使用AIS-APS评估SAP风险",
+    "head": {
+      "is_negative": false,
+      "name": "推荐使用评估模型",
+      "arguments": [
+        "X",
+        "AIS-APS",
+        "针对卒中类型"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属人群",
+        "arguments": [
+          "X",
+          "中国"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有卒中类型",
+        "arguments": [
+          "X",
+          "急性缺血性卒中"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "模型用于评估风险",
+        "arguments": [
+          "AIS-APS",
+          "SAP风险"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "模型基于数据",
+        "arguments": [
+          "AIS-APS",
+          "中国人群数据"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "推荐意见：采用基于中国人群数据建立的急性缺血性卒中相关性肺炎评分（acute ischemic stroke-associated pneumonia score，AIS-APS）、自发性脑出血相关性肺炎评分(intracerebral hemorrhage-associated pneumonia score，ICH-APS）预测模型评估中国卒中患者SAP风险。ICH-APS-A和ICH-APS-B分别为不包含血肿体积和包含血肿体积的ICH-APS。"
+  },
+  {
+    "rule_name": "自发性脑出血患者无血肿体积信息时推荐使用ICH-APS-A",
+    "head": {
+      "is_negative": false,
+      "name": "推荐使用评估模型",
+      "arguments": [
+        "X",
+        "ICH-APS-A",
+        "针对卒中类型"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属人群",
+        "arguments": [
+          "X",
+          "中国"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有卒中类型",
+        "arguments": [
+          "X",
+          "自发性脑出血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "模型用于评估风险",
+        "arguments": [
+          "ICH-APS-A",
+          "SAP风险"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "模型基于数据",
+        "arguments": [
+          "ICH-APS-A",
+          "中国人群数据"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "模型特点",
+        "arguments": [
+          "ICH-APS-A",
+          "不包含血肿体积"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "可用信息",
+        "arguments": [
+          "X",
+          "血肿体积"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "推荐意见：采用基于中国人群数据建立的急性缺血性卒中相关性肺炎评分（acute ischemic stroke-associated pneumonia score，AIS-APS）、自发性脑出血相关性肺炎评分(intracerebral hemorrhage-associated pneumonia score，ICH-APS）预测模型评估中国卒中患者SAP风险。ICH-APS-A和ICH-APS-B分别为不包含血肿体积和包含血肿体积的ICH-APS。"
+  },
+  {
+    "rule_name": "自发性脑出血患者有血肿体积信息时推荐使用ICH-APS-B",
+    "head": {
+      "is_negative": false,
+      "name": "推荐使用评估模型",
+      "arguments": [
+        "X",
+        "ICH-APS-B",
+        "针对卒中类型"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "卒中患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属人群",
+        "arguments": [
+          "X",
+          "中国"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有卒中类型",
+        "arguments": [
+          "X",
+          "自发性脑出血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "模型用于评估风险",
+        "arguments": [
+          "ICH-APS-B",
+          "SAP风险"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "模型基于数据",
+        "arguments": [
+          "ICH-APS-B",
+          "中国人群数据"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "模型特点",
+        "arguments": [
+          "ICH-APS-B",
+          "包含血肿体积"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可用信息",
+        "arguments": [
+          "X",
+          "血肿体积"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "推荐意见：采用基于中国人群数据建立的急性缺血性卒中相关性肺炎评分（acute ischemic stroke-associated pneumonia score，AIS-APS）、自发性脑出血相关性肺炎评分(intracerebral hemorrhage-associated pneumonia score，ICH-APS）预测模型评估中国卒中患者SAP风险。ICH-APS-A和ICH-APS-B分别为不包含血肿体积和包含血肿体积的ICH-APS。"
+  },
+  {
+    "rule_name": "深部咳痰法痰标本采集与送检规范",
+    "head": {
+      "is_negative": false,
+      "name": "执行送检流程",
+      "arguments": [
+        "Y",
+        "痰标本"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "痰标本",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采集自",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床方法",
+        "arguments": [
+          "X",
+          "深部咳痰"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采集前准备",
+        "arguments": [
+          "X",
+          "清洁口腔"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采集过程",
+        "arguments": [
+          "Y",
+          "深咳取痰"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有人员指导",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医务人员",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "送检频率",
+        "arguments": [
+          "Y",
+          "每天1次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "送检持续",
+        "arguments": [
+          "Y",
+          "连续2至3天"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "送检后处理",
+        "arguments": [
+          "Y",
+          "1至2小时内"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "痰标本",
+      "Z": "医务人员"
+    },
+    "source_text": "其中深部咳痰法无创伤，患者或家属较易接受，临床应用较多；采集痰标本前应摘去义齿、牙托等，清洁口腔，深咳取痰，采集过程中最好有医务人员指导；不能主动咳痰的患者需要拍背排痰。痰标本每天送检1次，连续2～3 d做痰涂片和痰培养；采集后1～2 h之内须立即进行实验室处理。"
+  },
+  {
+    "rule_name": "成人血培养标本采集规范",
+    "head": {
+      "is_negative": false,
+      "name": "执行检查流程",
+      "arguments": [
+        "W",
+        "血培养"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "血培养标本",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采集自",
+        "arguments": [
+          "W",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "成人患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采集套数",
+        "arguments": [
+          "W",
+          "2至3套"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "不同穿刺点采集",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采血时机",
+        "arguments": [
+          "X",
+          "寒战或发热初起"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "注入顺序",
+        "arguments": [
+          "W",
+          "厌氧后需氧"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "每瓶采血量",
+        "arguments": [
+          "W",
+          "8至10mL"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "成人患者",
+      "W": "血培养标本"
+    },
+    "source_text": "血培养是诊断血流感染的重要方法，成人每次应采集2～3套，每套从不同穿刺点进行采集。从同一穿刺点采集的血液标本通常按顺序注入厌氧和需氧培养瓶，每瓶采血量为8～10 mL，以提高阳性率。采血应在寒战或发热初起时进行。"
+  },
+  {
+    "rule_name": "非典型病原体抗体检测确诊条件",
+    "head": {
+      "is_negative": false,
+      "name": "确诊感染",
+      "arguments": [
+        "X",
+        "非典型病原体"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "SAP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "送检样本",
+        "arguments": [
+          "X",
+          "血液"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测目标",
+        "arguments": [
+          "血液",
+          "非典型病原体抗体"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清抗体阳性",
+        "arguments": [
+          "X",
+          "IgM"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "必要时抽血送检非典型病原体（支原体、衣原体和军团菌）抗体或者核酸检测，如果血清IgM抗体阳性或急性期和恢复期双份血清特异性IgG抗体滴度呈4倍或4倍以上变化即可确诊。"
+  },
+  {
+    "rule_name": "非典型病原体核酸检测确诊条件",
+    "head": {
+      "is_negative": false,
+      "name": "确诊感染",
+      "arguments": [
+        "X",
+        "非典型病原体"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "SAP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "送检样本",
+        "arguments": [
+          "X",
+          "血液"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测目标",
+        "arguments": [
+          "血液",
+          "非典型病原体核酸"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清抗体阳性",
+        "arguments": [
+          "X",
+          "IgM"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "必要时抽血送检非典型病原体（支原体、衣原体和军团菌）抗体或者核酸检测，如果血清IgM抗体阳性或急性期和恢复期双份血清特异性IgG抗体滴度呈4倍或4倍以上变化即可确诊。"
+  },
+  {
+    "rule_name": "呼吸道病毒流行期检测指征",
+    "head": {
+      "is_negative": false,
+      "name": "送检检测",
+      "arguments": [
+        "T",
+        "呼吸道病毒"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处于期间",
+        "arguments": [
+          "当前",
+          "呼吸道病毒流行"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有接触史",
+        "arguments": [
+          "X",
+          "流行病学"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "呼吸道分泌物标本",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采集自",
+        "arguments": [
+          "T",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测目标",
+        "arguments": [
+          "T",
+          "病毒抗原核酸或培养"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "T": "呼吸道分泌物标本"
+    },
+    "source_text": "呼吸道病毒流行期间且有流行病学接触史，应送检呼吸道分泌物（鼻/咽拭子）做相应病毒抗原、核酸检测或病毒培养[29]。"
+  },
+  {
+    "rule_name": "有条件时推荐病原高通量检测",
+    "head": {
+      "is_negative": false,
+      "name": "检查推荐",
+      "arguments": [
+        "X",
+        "病原高通量检测"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "SAP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有条件进行",
+        "arguments": [
+          "X",
+          "病原高通量检测"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "有条件者，做病原高通量检测，其敏感度、特异度、准确度、阳性预测值、阴性预测值等诊断效能指标均明显高于临床检测，特别对于混合感染具有更高的诊断价值。"
+  }
+]

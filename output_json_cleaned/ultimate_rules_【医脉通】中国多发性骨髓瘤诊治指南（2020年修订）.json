@@ -1,0 +1,1813 @@
+[
+  {
+    "rule_name": "基于CRAB症状及高浆细胞比例的MM诊断标准",
+    "head": {
+      "is_negative": false,
+      "name": "诊断",
+      "arguments": [
+        "X",
+        "多发性骨髓瘤"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "出现CRAB症状",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "克隆浆细胞群体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "浆细胞比例",
+        "arguments": [
+          "Y",
+          "大于等于10%",
+          "在骨髓中"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "克隆浆细胞群体"
+    },
+    "source_text": "多发性骨髓瘤的诊断需满足以下3项标准中的任意1项，并且满足第2项或第3项。第1项：骨髓单克隆浆细胞比例≥10%和/或组织活检证明有浆细胞瘤。第2项：血清和/或尿出现单克隆M蛋白；如未检测出M蛋白，则需评估受累与非受累血清游离轻链（FLC）比≥100，或受累FLC≥100 mg/L。第3项：骨髓瘤相关器官或组织损害（CRAB症状）：血钙升高（校正后血清钙>2.75 mmol/L），肾功能损害（血肌酐>177 μmol/L或肌酐清除率<40 mL/min），贫血（血红蛋白低于正常下限20 g/L或<100 g/L），骨质破坏（影像学检查显示溶骨性破坏或严重骨质疏松伴病理性骨折）；以及其他有症状的器官损害（SLiM标准）：骨髓单克隆浆细胞比例≥60%，受累与非受累血清FLC比≥100，或MRI检查出现>1处局灶性骨质破坏。"
+  },
+  {
+    "rule_name": "基于CRAB症状及M蛋白异常的MM诊断标准",
+    "head": {
+      "is_negative": false,
+      "name": "诊断",
+      "arguments": [
+        "X",
+        "多发性骨髓瘤"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "出现CRAB症状",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "单克隆M蛋白",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清M蛋白水平",
+        "arguments": [
+          "Z",
+          "大于等于30g/L",
+          "达标"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "单克隆M蛋白"
+    },
+    "source_text": "多发性骨髓瘤的诊断需满足以下3项标准中的任意1项，并且满足第2项或第3项。第1项：骨髓单克隆浆细胞比例≥10%和/或组织活检证明有浆细胞瘤。第2项：血清和/或尿出现单克隆M蛋白；如未检测出M蛋白，则需评估受累与非受累血清游离轻链（FLC）比≥100，或受累FLC≥100 mg/L。第3项：骨髓瘤相关器官或组织损害（CRAB症状）：血钙升高（校正后血清钙>2.75 mmol/L），肾功能损害（血肌酐>177 μmol/L或肌酐清除率<40 mL/min），贫血（血红蛋白低于正常下限20 g/L或<100 g/L），骨质破坏（影像学检查显示溶骨性破坏或严重骨质疏松伴病理性骨折）；以及其他有症状的器官损害（SLiM标准）：骨髓单克隆浆细胞比例≥60%，受累与非受累血清FLC比≥100，或MRI检查出现>1处局灶性骨质破坏。"
+  },
+  {
+    "rule_name": "基于SLiM器官损害及高浆细胞比例的MM诊断标准",
+    "head": {
+      "is_negative": false,
+      "name": "诊断",
+      "arguments": [
+        "X",
+        "多发性骨髓瘤"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "存在SLiM器官损害",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "克隆浆细胞群体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "浆细胞比例",
+        "arguments": [
+          "Y",
+          "大于等于60%",
+          "在骨髓中"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "克隆浆细胞群体"
+    },
+    "source_text": "多发性骨髓瘤的诊断需满足以下3项标准中的任意1项，并且满足第2项或第3项。第1项：骨髓单克隆浆细胞比例≥10%和/或组织活检证明有浆细胞瘤。第2项：血清和/或尿出现单克隆M蛋白；如未检测出M蛋白，则需评估受累与非受累血清游离轻链（FLC）比≥100，或受累FLC≥100 mg/L。第3项：骨髓瘤相关器官或组织损害（CRAB症状）：血钙升高（校正后血清钙>2.75 mmol/L），肾功能损害（血肌酐>177 μmol/L或肌酐清除率<40 mL/min），贫血（血红蛋白低于正常下限20 g/L或<100 g/L），骨质破坏（影像学检查显示溶骨性破坏或严重骨质疏松伴病理性骨折）；以及其他有症状的器官损害（SLiM标准）：骨髓单克隆浆细胞比例≥60%，受累与非受累血清FLC比≥100，或MRI检查出现>1处局灶性骨质破坏。"
+  },
+  {
+    "rule_name": "基于SLiM器官损害及M蛋白异常的MM诊断标准",
+    "head": {
+      "is_negative": false,
+      "name": "诊断",
+      "arguments": [
+        "X",
+        "多发性骨髓瘤"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "存在SLiM器官损害",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "单克隆M蛋白",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清游离轻链比例",
+        "arguments": [
+          "Z",
+          "大于等于100",
+          "受累非受累比"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "单克隆M蛋白"
+    },
+    "source_text": "多发性骨髓瘤的诊断需满足以下3项标准中的任意1项，并且满足第2项或第3项。第1项：骨髓单克隆浆细胞比例≥10%和/或组织活检证明有浆细胞瘤。第2项：血清和/或尿出现单克隆M蛋白；如未检测出M蛋白，则需评估受累与非受累血清游离轻链（FLC）比≥100，或受累FLC≥100 mg/L。第3项：骨髓瘤相关器官或组织损害（CRAB症状）：血钙升高（校正后血清钙>2.75 mmol/L），肾功能损害（血肌酐>177 μmol/L或肌酐清除率<40 mL/min），贫血（血红蛋白低于正常下限20 g/L或<100 g/L），骨质破坏（影像学检查显示溶骨性破坏或严重骨质疏松伴病理性骨折）；以及其他有症状的器官损害（SLiM标准）：骨髓单克隆浆细胞比例≥60%，受累与非受累血清FLC比≥100，或MRI检查出现>1处局灶性骨质破坏。"
+  },
+  {
+    "rule_name": "PD标准_血清M蛋白相对升高",
+    "head": {
+      "is_negative": false,
+      "name": "疾病状态",
+      "arguments": [
+        "X",
+        "PD"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "多发性骨髓瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标值",
+        "arguments": [
+          "X",
+          "血清M蛋白",
+          "最低值"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标变化",
+        "arguments": [
+          "X",
+          "血清M蛋白",
+          "升高≥25%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "变化绝对值",
+        "arguments": [
+          "X",
+          "血清M蛋白",
+          "≥5g/L"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "7.PD：符合以下1项即可（以下所有数据均与获得的最低数值相比）：（1）血清M蛋白升高≥25%（升高绝对值≥5 g/L）或M蛋白增加≥10 g/L（基线血清M蛋白≥50 g/L时）；"
+  },
+  {
+    "rule_name": "PD标准_血清M蛋白绝对升高_高基线时",
+    "head": {
+      "is_negative": false,
+      "name": "疾病状态",
+      "arguments": [
+        "X",
+        "PD"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "多发性骨髓瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标值",
+        "arguments": [
+          "X",
+          "血清M蛋白",
+          "最低值"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标值",
+        "arguments": [
+          "X",
+          "血清M蛋白",
+          "基线≥50"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标变化",
+        "arguments": [
+          "X",
+          "血清M蛋白",
+          "增加≥10g/L"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "7.PD：符合以下1项即可（以下所有数据均与获得的最低数值相比）：（1）血清M蛋白升高≥25%（升高绝对值≥5 g/L）或M蛋白增加≥10 g/L（基线血清M蛋白≥50 g/L时）；"
+  },
+  {
+    "rule_name": "PD标准_尿M蛋白升高",
+    "head": {
+      "is_negative": false,
+      "name": "疾病状态",
+      "arguments": [
+        "X",
+        "PD"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "多发性骨髓瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标值",
+        "arguments": [
+          "X",
+          "尿M蛋白",
+          "最低值"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标变化",
+        "arguments": [
+          "X",
+          "尿M蛋白",
+          "升高≥25%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "变化绝对值",
+        "arguments": [
+          "X",
+          "尿M蛋白",
+          "≥200mg/24h"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "7.PD：符合以下1项即可（以下所有数据均与获得的最低数值相比）：（2）尿M蛋白升高≥25%（升高绝对值≥200 mg/24 h）；"
+  },
+  {
+    "rule_name": "PD标准_血清尿M蛋白无法检出时_血清FLC差值升高",
+    "head": {
+      "is_negative": false,
+      "name": "疾病状态",
+      "arguments": [
+        "X",
+        "PD"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "多发性骨髓瘤"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "可检出",
+        "arguments": [
+          "X",
+          "血清M蛋白"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "可检出",
+        "arguments": [
+          "X",
+          "尿M蛋白"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标值",
+        "arguments": [
+          "X",
+          "血清FLC差值",
+          "最低值"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标变化",
+        "arguments": [
+          "X",
+          "血清FLC差值",
+          "增加≥25%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "变化绝对值",
+        "arguments": [
+          "X",
+          "血清FLC差值",
+          ">100mg/L"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "7.PD：符合以下1项即可（以下所有数据均与获得的最低数值相比）：（3）若血清和尿M蛋白无法检出，则要求受累与非受累血清FLC之间的差值增加≥25%，且绝对值增加>100 mg/L；"
+  },
+  {
+    "rule_name": "PD标准_所有蛋白指标不可测时_骨髓浆细胞比例升高",
+    "head": {
+      "is_negative": false,
+      "name": "疾病状态",
+      "arguments": [
+        "X",
+        "PD"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "多发性骨髓瘤"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "可测定",
+        "arguments": [
+          "X",
+          "血清M蛋白"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "可测定",
+        "arguments": [
+          "X",
+          "尿M蛋白"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "可测定",
+        "arguments": [
+          "X",
+          "血清FLC"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标值",
+        "arguments": [
+          "X",
+          "骨髓浆细胞比例",
+          "最低值"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标变化",
+        "arguments": [
+          "X",
+          "骨髓浆细胞比例",
+          "升高≥25%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "变化绝对值",
+        "arguments": [
+          "X",
+          "骨髓浆细胞比例",
+          "增加≥10%"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "7.PD：符合以下1项即可（以下所有数据均与获得的最低数值相比）：（4）若血清和尿中M蛋白以及血清FLC都不可测定，则要求骨髓浆细胞比例升高≥25%且绝对值增加≥10%；"
+  },
+  {
+    "rule_name": "PD标准_出现新软组织浆细胞瘤病变_原有可测量病变SPD增加",
+    "head": {
+      "is_negative": false,
+      "name": "疾病状态",
+      "arguments": [
+        "X",
+        "PD"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "多发性骨髓瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出现新病变",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变类型",
+        "arguments": [
+          "Y",
+          "软组织浆细胞瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "原有可测量病变",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "尺寸从最低点增加",
+        "arguments": [
+          "Y",
+          "SPD",
+          "≥50%"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "病变"
+    },
+    "source_text": "7.PD：符合以下1项即可（以下所有数据均与获得的最低数值相比）：（5）出现新的软组织浆细胞瘤病变：原有1个以上的可测量病变SPD从最低点增加≥50%；或原有的≥1cm病变的长轴增加≥50%；"
+  },
+  {
+    "rule_name": "PD标准_出现新软组织浆细胞瘤病变_原有病变长轴增加",
+    "head": {
+      "is_negative": false,
+      "name": "疾病状态",
+      "arguments": [
+        "X",
+        "PD"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "多发性骨髓瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出现新病变",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变类型",
+        "arguments": [
+          "Y",
+          "软组织浆细胞瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "原有病变",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "尺寸基线",
+        "arguments": [
+          "Y",
+          "长轴",
+          "≥1cm"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "尺寸从最低点增加",
+        "arguments": [
+          "Y",
+          "长轴",
+          "≥50%"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "病变"
+    },
+    "source_text": "7.PD：符合以下1项即可（以下所有数据均与获得的最低数值相比）：（5）出现新的软组织浆细胞瘤病变：原有1个以上的可测量病变SPD从最低点增加≥50%；或原有的≥1cm病变的长轴增加≥50%；"
+  },
+  {
+    "rule_name": "临床复发标准_出现新病变",
+    "head": {
+      "is_negative": false,
+      "name": "临床复发",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "骨病变",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变类型",
+        "arguments": [
+          "Y",
+          "新的"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "骨折类型",
+        "arguments": [
+          "Y",
+          "骨质疏松性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "骨病变"
+    },
+    "source_text": "临床复发：符合以下1项或多项：（1）出现新的骨病变或者软组织浆细胞瘤（骨质疏松性骨折除外）；（2）明确的（可测量病变SPD增加50% 且绝对值≥1 cm）已有的浆细胞瘤或骨病变增加；（3）高钙血症（>2.75 mmol/L）；（4）血红蛋白浓度下降≥20 g/L（与治疗或非MM因素无关）；（5）从MM治疗开始，血肌酐上升≥176.8 μmol/L（2 mg/dl）并且与MM相关；（6）血清M蛋白相关的高黏滞血症。"
+  },
+  {
+    "rule_name": "临床复发标准_出现新软组织浆细胞瘤",
+    "head": {
+      "is_negative": false,
+      "name": "临床复发",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "软组织浆细胞瘤",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变类型",
+        "arguments": [
+          "Y",
+          "新的"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "软组织浆细胞瘤"
+    },
+    "source_text": "临床复发：符合以下1项或多项：（1）出现新的骨病变或者软组织浆细胞瘤（骨质疏松性骨折除外）；（2）明确的（可测量病变SPD增加50% 且绝对值≥1 cm）已有的浆细胞瘤或骨病变增加；（3）高钙血症（>2.75 mmol/L）；（4）血红蛋白浓度下降≥20 g/L（与治疗或非MM因素无关）；（5）从MM治疗开始，血肌酐上升≥176.8 μmol/L（2 mg/dl）并且与MM相关；（6）血清M蛋白相关的高黏滞血症。"
+  },
+  {
+    "rule_name": "临床复发标准_原有浆细胞瘤明确增加",
+    "head": {
+      "is_negative": false,
+      "name": "临床复发",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "浆细胞瘤",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可测量病变",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "尺寸增加幅度",
+        "arguments": [
+          "Y",
+          "50%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "绝对尺寸增加量",
+        "arguments": [
+          "Y",
+          "大于等于1厘米"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "浆细胞瘤"
+    },
+    "source_text": "临床复发：符合以下1项或多项：（1）出现新的骨病变或者软组织浆细胞瘤（骨质疏松性骨折除外）；（2）明确的（可测量病变SPD增加50% 且绝对值≥1 cm）已有的浆细胞瘤或骨病变增加；（3）高钙血症（>2.75 mmol/L）；（4）血红蛋白浓度下降≥20 g/L（与治疗或非MM因素无关）；（5）从MM治疗开始，血肌酐上升≥176.8 μmol/L（2 mg/dl）并且与MM相关；（6）血清M蛋白相关的高黏滞血症。"
+  },
+  {
+    "rule_name": "临床复发标准_高钙血症",
+    "head": {
+      "is_negative": false,
+      "name": "临床复发",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血钙指标",
+        "arguments": [
+          "X",
+          "大于2.75毫摩尔每升"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "临床复发：符合以下1项或多项：（1）出现新的骨病变或者软组织浆细胞瘤（骨质疏松性骨折除外）；（2）明确的（可测量病变SPD增加50% 且绝对值≥1 cm）已有的浆细胞瘤或骨病变增加；（3）高钙血症（>2.75 mmol/L）；（4）血红蛋白浓度下降≥20 g/L（与治疗或非MM因素无关）；（5）从MM治疗开始，血肌酐上升≥176.8 μmol/L（2 mg/dl）并且与MM相关；（6）血清M蛋白相关的高黏滞血症。"
+  },
+  {
+    "rule_name": "临床复发标准_无关因素血红蛋白显著下降",
+    "head": {
+      "is_negative": false,
+      "name": "临床复发",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血红蛋白浓度下降值",
+        "arguments": [
+          "X",
+          "大于等于20克每升"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "下降原因关联",
+        "arguments": [
+          "X",
+          "治疗"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "下降原因关联",
+        "arguments": [
+          "X",
+          "非骨髓瘤因素"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "临床复发：符合以下1项或多项：（1）出现新的骨病变或者软组织浆细胞瘤（骨质疏松性骨折除外）；（2）明确的（可测量病变SPD增加50% 且绝对值≥1 cm）已有的浆细胞瘤或骨病变增加；（3）高钙血症（>2.75 mmol/L）；（4）血红蛋白浓度下降≥20 g/L（与治疗或非MM因素无关）；（5）从MM治疗开始，血肌酐上升≥176.8 μmol/L（2 mg/dl）并且与MM相关；（6）血清M蛋白相关的高黏滞血症。"
+  },
+  {
+    "rule_name": "临床复发标准_治疗开始后肌酐MM相关升高",
+    "head": {
+      "is_negative": false,
+      "name": "临床复发",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "骨髓瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血肌酐上升值",
+        "arguments": [
+          "X",
+          "大于等于176.8微摩尔每升"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "升高原因关联",
+        "arguments": [
+          "X",
+          "骨髓瘤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "临床复发：符合以下1项或多项：（1）出现新的骨病变或者软组织浆细胞瘤（骨质疏松性骨折除外）；（2）明确的（可测量病变SPD增加50% 且绝对值≥1 cm）已有的浆细胞瘤或骨病变增加；（3）高钙血症（>2.75 mmol/L）；（4）血红蛋白浓度下降≥20 g/L（与治疗或非MM因素无关）；（5）从MM治疗开始，血肌酐上升≥176.8 μmol/L（2 mg/dl）并且与MM相关；（6）血清M蛋白相关的高黏滞血症。"
+  },
+  {
+    "rule_name": "临床复发标准_血清M蛋白高黏滞血症",
+    "head": {
+      "is_negative": false,
+      "name": "临床复发",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清蛋白异常",
+        "arguments": [
+          "X",
+          "M蛋白"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症",
+        "arguments": [
+          "X",
+          "高黏滞血症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病因关联",
+        "arguments": [
+          "高黏滞血症",
+          "M蛋白"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "临床复发：符合以下1项或多项：（1）出现新的骨病变或者软组织浆细胞瘤（骨质疏松性骨折除外）；（2）明确的（可测量病变SPD增加50% 且绝对值≥1 cm）已有的浆细胞瘤或骨病变增加；（3）高钙血症（>2.75 mmol/L）；（4）血红蛋白浓度下降≥20 g/L（与治疗或非MM因素无关）；（5）从MM治疗开始，血肌酐上升≥176.8 μmol/L（2 mg/dl）并且与MM相关；（6）血清M蛋白相关的高黏滞血症。"
+  },
+  {
+    "rule_name": "IgH重排阳性后需检测易位并进行局部低剂量CT",
+    "head": {
+      "is_negative": false,
+      "name": "需进一步检测",
+      "arguments": [
+        "X",
+        "特定染色体易位"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "荧光原位杂交检测结果",
+        "arguments": [
+          "X",
+          "IgH重排阳性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测对象",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行影像检查",
+        "arguments": [
+          "Z",
+          "局部低剂量CT"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "荧光原位杂交检测样本",
+      "Y": "患者",
+      "Z": "影像检查"
+    },
+    "source_text": "若荧光原位杂交检测IgH重排阳性，则进一步检测t（4;14）、t（11;14）、t（14;16）、t（14;20）等局部或全身低剂量CT或全身或局部MRI（包括颈椎、胸椎、腰骶椎、头颅）、PET‑CT怀疑淀粉样变性者，需行腹壁皮下脂肪、骨髓或受累器官活检，并行刚果红染色。怀疑心功能不全及怀疑合并心脏淀粉样变性者，需行超声心动图检查"
+  },
+  {
+    "rule_name": "IgH重排阳性后需检测易位并进行全身低剂量CT",
+    "head": {
+      "is_negative": false,
+      "name": "需进一步检测",
+      "arguments": [
+        "X",
+        "特定染色体易位"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "荧光原位杂交检测结果",
+        "arguments": [
+          "X",
+          "IgH重排阳性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测对象",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行影像检查",
+        "arguments": [
+          "Z",
+          "全身低剂量CT"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "荧光原位杂交检测样本",
+      "Y": "患者",
+      "Z": "影像检查"
+    },
+    "source_text": "若荧光原位杂交检测IgH重排阳性，则进一步检测t（4;14）、t（11;14）、t（14;16）、t（14;20）等局部或全身低剂量CT或全身或局部MRI（包括颈椎、胸椎、腰骶椎、头颅）、PET‑CT怀疑淀粉样变性者，需行腹壁皮下脂肪、骨髓或受累器官活检，并行刚果红染色。怀疑心功能不全及怀疑合并心脏淀粉样变性者，需行超声心动图检查"
+  },
+  {
+    "rule_name": "IgH重排阳性后需检测易位并进行局部MRI",
+    "head": {
+      "is_negative": false,
+      "name": "需进一步检测",
+      "arguments": [
+        "X",
+        "特定染色体易位"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "荧光原位杂交检测结果",
+        "arguments": [
+          "X",
+          "IgH重排阳性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测对象",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行影像检查",
+        "arguments": [
+          "Z",
+          "局部MRI"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "荧光原位杂交检测样本",
+      "Y": "患者",
+      "Z": "影像检查"
+    },
+    "source_text": "若荧光原位杂交检测IgH重排阳性，则进一步检测t（4;14）、t（11;14）、t（14;16）、t（14;20）等局部或全身低剂量CT或全身或局部MRI（包括颈椎、胸椎、腰骶椎、头颅）、PET‑CT怀疑淀粉样变性者，需行腹壁皮下脂肪、骨髓或受累器官活检，并行刚果红染色。怀疑心功能不全及怀疑合并心脏淀粉样变性者，需行超声心动图检查"
+  },
+  {
+    "rule_name": "IgH重排阳性后需检测易位并进行全身MRI",
+    "head": {
+      "is_negative": false,
+      "name": "需进一步检测",
+      "arguments": [
+        "X",
+        "特定染色体易位"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "荧光原位杂交检测结果",
+        "arguments": [
+          "X",
+          "IgH重排阳性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测对象",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行影像检查",
+        "arguments": [
+          "Z",
+          "全身MRI"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "荧光原位杂交检测样本",
+      "Y": "患者",
+      "Z": "影像检查"
+    },
+    "source_text": "若荧光原位杂交检测IgH重排阳性，则进一步检测t（4;14）、t（11;14）、t（14;16）、t（14;20）等局部或全身低剂量CT或全身或局部MRI（包括颈椎、胸椎、腰骶椎、头颅）、PET‑CT怀疑淀粉样变性者，需行腹壁皮下脂肪、骨髓或受累器官活检，并行刚果红染色。怀疑心功能不全及怀疑合并心脏淀粉样变性者，需行超声心动图检查"
+  },
+  {
+    "rule_name": "PET-CT疑淀粉样变性需行腹壁皮下脂肪活检及刚果红染色",
+    "head": {
+      "is_negative": false,
+      "name": "需执行活检",
+      "arguments": [
+        "Y",
+        "腹壁皮下脂肪活检"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "影像检查结果",
+        "arguments": [
+          "Z",
+          "PET‑CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "怀疑疾病",
+        "arguments": [
+          "Z",
+          "淀粉样变性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需执行检测",
+        "arguments": [
+          "Y",
+          "刚果红染色"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "患者",
+      "Z": "PET‑CT检查"
+    },
+    "source_text": "若荧光原位杂交检测IgH重排阳性，则进一步检测t（4;14）、t（11;14）、t（14;16）、t（14;20）等局部或全身低剂量CT或全身或局部MRI（包括颈椎、胸椎、腰骶椎、头颅）、PET‑CT怀疑淀粉样变性者，需行腹壁皮下脂肪、骨髓或受累器官活检，并行刚果红染色。怀疑心功能不全及怀疑合并心脏淀粉样变性者，需行超声心动图检查"
+  },
+  {
+    "rule_name": "PET-CT疑淀粉样变性需行骨髓活检及刚果红染色",
+    "head": {
+      "is_negative": false,
+      "name": "需执行活检",
+      "arguments": [
+        "Y",
+        "骨髓活检"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "影像检查结果",
+        "arguments": [
+          "Z",
+          "PET‑CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "怀疑疾病",
+        "arguments": [
+          "Z",
+          "淀粉样变性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需执行检测",
+        "arguments": [
+          "Y",
+          "刚果红染色"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "患者",
+      "Z": "PET‑CT检查"
+    },
+    "source_text": "若荧光原位杂交检测IgH重排阳性，则进一步检测t（4;14）、t（11;14）、t（14;16）、t（14;20）等局部或全身低剂量CT或全身或局部MRI（包括颈椎、胸椎、腰骶椎、头颅）、PET‑CT怀疑淀粉样变性者，需行腹壁皮下脂肪、骨髓或受累器官活检，并行刚果红染色。怀疑心功能不全及怀疑合并心脏淀粉样变性者，需行超声心动图检查"
+  },
+  {
+    "rule_name": "PET-CT疑淀粉样变性需行受累器官活检及刚果红染色",
+    "head": {
+      "is_negative": false,
+      "name": "需执行活检",
+      "arguments": [
+        "Y",
+        "受累器官活检"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "影像检查结果",
+        "arguments": [
+          "Z",
+          "PET‑CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "怀疑疾病",
+        "arguments": [
+          "Z",
+          "淀粉样变性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需执行检测",
+        "arguments": [
+          "Y",
+          "刚果红染色"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "患者",
+      "Z": "PET‑CT检查"
+    },
+    "source_text": "若荧光原位杂交检测IgH重排阳性，则进一步检测t（4;14）、t（11;14）、t（14;16）、t（14;20）等局部或全身低剂量CT或全身或局部MRI（包括颈椎、胸椎、腰骶椎、头颅）、PET‑CT怀疑淀粉样变性者，需行腹壁皮下脂肪、骨髓或受累器官活检，并行刚果红染色。怀疑心功能不全及怀疑合并心脏淀粉样变性者，需行超声心动图检查"
+  },
+  {
+    "rule_name": "疑心功能不全及心脏淀粉样变性需行超声心动图",
+    "head": {
+      "is_negative": false,
+      "name": "需执行检查",
+      "arguments": [
+        "Y",
+        "超声心动图"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "怀疑状态",
+        "arguments": [
+          "Y",
+          "心功能不全"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "怀疑疾病",
+        "arguments": [
+          "Y",
+          "心脏淀粉样变性"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "患者"
+    },
+    "source_text": "若荧光原位杂交检测IgH重排阳性，则进一步检测t（4;14）、t（11;14）、t（14;16）、t（14;20）等局部或全身低剂量CT或全身或局部MRI（包括颈椎、胸椎、腰骶椎、头颅）、PET‑CT怀疑淀粉样变性者，需行腹壁皮下脂肪、骨髓或受累器官活检，并行刚果红染色。怀疑心功能不全及怀疑合并心脏淀粉样变性者，需行超声心动图检查"
+  },
+  {
+    "rule_name": "多发性骨髓瘤基本检查项目_血液与尿液",
+    "head": {
+      "is_negative": false,
+      "name": "检查项目",
+      "arguments": [
+        "X",
+        "血常规"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "肝功能"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "肾功能"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "血清蛋白电泳"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "尿常规"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "尿蛋白电泳"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似诊断",
+        "arguments": [
+          "X",
+          "多发性骨髓瘤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "表1多发性骨髓瘤的检测项目项目基本检查项目对诊断或预后分层有价值的项目血液检查尿液检查骨髓检查影像学检查其他检查血液检查尿液检查骨髓检查影像学检查其他检查具体内容血常规、肝肾功能（包括白蛋白、乳酸脱氢酶、尿酸）、电解质（包括钙离子）、凝血功能、血清蛋白电泳（包括M蛋白含量）、免疫固定电泳（必要时加做IgD［3］）、β2微球蛋白、C反应蛋白、外周血涂片（浆细胞百分数）、血清免疫球蛋白定量（包括轻链）尿常规、蛋白电泳、尿免疫固定电泳、24 h尿轻链骨髓细胞学涂片分类、骨髓活检+免疫组化（骨髓免疫组化建议应包括针对如下分子的抗体：CD19、CD20、CD38、CD56、CD138、κ轻链、λ轻链）全身X线平片（包括头颅、骨盆、股骨、肱骨、胸椎、腰椎、颈椎）胸部CT、心电图、腹部B超血清游离轻链心功能不全及怀疑合并心脏淀粉样变性或者轻链沉积病患者，检测心肌酶谱、肌钙蛋白、B型钠尿肽或N末端B型利钠肽原24 h尿蛋白谱（多发性骨髓瘤肾病及怀疑淀粉样变者）流式细胞术（建议抗体标记采用4色以上，应包括针对如下分子的抗体：CD19、CD38、CD45、CD56、CD20、CD138、κ轻链、λ轻链；"
+  },
+  {
+    "rule_name": "多发性骨髓瘤基本检查项目_骨髓与影像",
+    "head": {
+      "is_negative": false,
+      "name": "检查项目",
+      "arguments": [
+        "X",
+        "骨髓细胞学涂片"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "骨髓活检"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "全身X线平片"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "胸部CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "心电图"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似诊断",
+        "arguments": [
+          "X",
+          "多发性骨髓瘤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "表1多发性骨髓瘤的检测项目项目基本检查项目对诊断或预后分层有价值的项目血液检查尿液检查骨髓检查影像学检查其他检查血液检查尿液检查骨髓检查影像学检查其他检查具体内容血常规、肝肾功能（包括白蛋白、乳酸脱氢酶、尿酸）、电解质（包括钙离子）、凝血功能、血清蛋白电泳（包括M蛋白含量）、免疫固定电泳（必要时加做IgD［3］）、β2微球蛋白、C反应蛋白、外周血涂片（浆细胞百分数）、血清免疫球蛋白定量（包括轻链）尿常规、蛋白电泳、尿免疫固定电泳、24 h尿轻链骨髓细胞学涂片分类、骨髓活检+免疫组化（骨髓免疫组化建议应包括针对如下分子的抗体：CD19、CD20、CD38、CD56、CD138、κ轻链、λ轻链）全身X线平片（包括头颅、骨盆、股骨、肱骨、胸椎、腰椎、颈椎）胸部CT、心电图、腹部B超血清游离轻链心功能不全及怀疑合并心脏淀粉样变性或者轻链沉积病患者，检测心肌酶谱、肌钙蛋白、B型钠尿肽或N末端B型利钠肽原24 h尿蛋白谱（多发性骨髓瘤肾病及怀疑淀粉样变者）流式细胞术（建议抗体标记采用4色以上，应包括针对如下分子的抗体：CD19、CD38、CD45、CD56、CD20、CD138、κ轻链、λ轻链；"
+  },
+  {
+    "rule_name": "多发性骨髓瘤诊断分层检查_血清游离轻链与24h尿蛋白",
+    "head": {
+      "is_negative": false,
+      "name": "检查项目",
+      "arguments": [
+        "X",
+        "血清游离轻链"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "24小时尿蛋白谱"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "血清免疫球蛋白定量"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "外周血涂片"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似诊断",
+        "arguments": [
+          "X",
+          "多发性骨髓瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断分层需求",
+        "arguments": [
+          "X",
+          "预后"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "表1多发性骨髓瘤的检测项目项目基本检查项目对诊断或预后分层有价值的项目血液检查尿液检查骨髓检查影像学检查其他检查血液检查尿液检查骨髓检查影像学检查其他检查具体内容血常规、肝肾功能（包括白蛋白、乳酸脱氢酶、尿酸）、电解质（包括钙离子）、凝血功能、血清蛋白电泳（包括M蛋白含量）、免疫固定电泳（必要时加做IgD［3］）、β2微球蛋白、C反应蛋白、外周血涂片（浆细胞百分数）、血清免疫球蛋白定量（包括轻链）尿常规、蛋白电泳、尿免疫固定电泳、24 h尿轻链骨髓细胞学涂片分类、骨髓活检+免疫组化（骨髓免疫组化建议应包括针对如下分子的抗体：CD19、CD20、CD38、CD56、CD138、κ轻链、λ轻链）全身X线平片（包括头颅、骨盆、股骨、肱骨、胸椎、腰椎、颈椎）胸部CT、心电图、腹部B超血清游离轻链心功能不全及怀疑合并心脏淀粉样变性或者轻链沉积病患者，检测心肌酶谱、肌钙蛋白、B型钠尿肽或N末端B型利钠肽原24 h尿蛋白谱（多发性骨髓瘤肾病及怀疑淀粉样变者）流式细胞术（建议抗体标记采用4色以上，应包括针对如下分子的抗体：CD19、CD38、CD45、CD56、CD20、CD138、κ轻链、λ轻链；"
+  },
+  {
+    "rule_name": "多发性骨髓瘤诊断分层检查_流式细胞术抗体面板",
+    "head": {
+      "is_negative": false,
+      "name": "检查项目",
+      "arguments": [
+        "X",
+        "流式细胞术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "抗体标记",
+        "arguments": [
+          "X",
+          "CD19"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体标记",
+        "arguments": [
+          "X",
+          "CD38"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体标记",
+        "arguments": [
+          "X",
+          "CD45"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体标记",
+        "arguments": [
+          "X",
+          "CD56"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似诊断",
+        "arguments": [
+          "X",
+          "多发性骨髓瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断分层需求",
+        "arguments": [
+          "X",
+          "预后"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "表1多发性骨髓瘤的检测项目项目基本检查项目对诊断或预后分层有价值的项目血液检查尿液检查骨髓检查影像学检查其他检查血液检查尿液检查骨髓检查影像学检查其他检查具体内容血常规、肝肾功能（包括白蛋白、乳酸脱氢酶、尿酸）、电解质（包括钙离子）、凝血功能、血清蛋白电泳（包括M蛋白含量）、免疫固定电泳（必要时加做IgD［3］）、β2微球蛋白、C反应蛋白、外周血涂片（浆细胞百分数）、血清免疫球蛋白定量（包括轻链）尿常规、蛋白电泳、尿免疫固定电泳、24 h尿轻链骨髓细胞学涂片分类、骨髓活检+免疫组化（骨髓免疫组化建议应包括针对如下分子的抗体：CD19、CD20、CD38、CD56、CD138、κ轻链、λ轻链）全身X线平片（包括头颅、骨盆、股骨、肱骨、胸椎、腰椎、颈椎）胸部CT、心电图、腹部B超血清游离轻链心功能不全及怀疑合并心脏淀粉样变性或者轻链沉积病患者，检测心肌酶谱、肌钙蛋白、B型钠尿肽或N末端B型利钠肽原24 h尿蛋白谱（多发性骨髓瘤肾病及怀疑淀粉样变者）流式细胞术（建议抗体标记采用4色以上，应包括针对如下分子的抗体：CD19、CD38、CD45、CD56、CD20、CD138、κ轻链、λ轻链；"
+  },
+  {
+    "rule_name": "怀疑特定并发症时的附加检查项目",
+    "head": {
+      "is_negative": false,
+      "name": "检查项目",
+      "arguments": [
+        "X",
+        "心肌酶谱"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "肌钙蛋白"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "B型钠尿肽"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "腹部B超"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似诊断",
+        "arguments": [
+          "X",
+          "多发性骨髓瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似并发症",
+        "arguments": [
+          "X",
+          "心脏淀粉样变性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似并发症",
+        "arguments": [
+          "X",
+          "轻链沉积病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "表1多发性骨髓瘤的检测项目项目基本检查项目对诊断或预后分层有价值的项目血液检查尿液检查骨髓检查影像学检查其他检查血液检查尿液检查骨髓检查影像学检查其他检查具体内容血常规、肝肾功能（包括白蛋白、乳酸脱氢酶、尿酸）、电解质（包括钙离子）、凝血功能、血清蛋白电泳（包括M蛋白含量）、免疫固定电泳（必要时加做IgD［3］）、β2微球蛋白、C反应蛋白、外周血涂片（浆细胞百分数）、血清免疫球蛋白定量（包括轻链）尿常规、蛋白电泳、尿免疫固定电泳、24 h尿轻链骨髓细胞学涂片分类、骨髓活检+免疫组化（骨髓免疫组化建议应包括针对如下分子的抗体：CD19、CD20、CD38、CD56、CD138、κ轻链、λ轻链）全身X线平片（包括头颅、骨盆、股骨、肱骨、胸椎、腰椎、颈椎）胸部CT、心电图、腹部B超血清游离轻链心功能不全及怀疑合并心脏淀粉样变性或者轻链沉积病患者，检测心肌酶谱、肌钙蛋白、B型钠尿肽或N末端B型利钠肽原24 h尿蛋白谱（多发性骨髓瘤肾病及怀疑淀粉样变者）流式细胞术（建议抗体标记采用4色以上，应包括针对如下分子的抗体：CD19、CD38、CD45、CD56、CD20、CD138、κ轻链、λ轻链；"
+  },
+  {
+    "rule_name": "临床疑似多发性骨髓瘤患者需完成基本检查项目",
+    "head": {
+      "is_negative": false,
+      "name": "需执行",
+      "arguments": [
+        "X",
+        "基本检查项目",
+        "完成"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床疑似诊断",
+        "arguments": [
+          "X",
+          "多发性骨髓瘤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "诊断标准、分型、分期一、诊断所需的检测项目（表1［3］）对于临床疑似MM的患者，应完成基本检查项目。在此基础上，有条件者可进行对诊断病情及预后分层具有重要价值的项目检测。二、诊断标准综合参考美国国家综合癌症网络（NationalComprehensive Cancer Network，NCCN）及国际骨髓瘤工作组（International Myeloma Working Group，IMWG）的指南［4］，诊断无症状（冒烟型）骨髓瘤和有症状（活动性）骨髓瘤的标准如下。"
+  },
+  {
+    "rule_name": "有条件临床疑似多发性骨髓瘤患者可进行重要项目检测",
+    "head": {
+      "is_negative": false,
+      "name": "可执行",
+      "arguments": [
+        "X",
+        "重要价值检测项目",
+        "进行"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床疑似诊断",
+        "arguments": [
+          "X",
+          "多发性骨髓瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具备条件",
+        "arguments": [
+          "X",
+          "检测"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "诊断标准、分型、分期一、诊断所需的检测项目（表1［3］）对于临床疑似MM的患者，应完成基本检查项目。在此基础上，有条件者可进行对诊断病情及预后分层具有重要价值的项目检测。二、诊断标准综合参考美国国家综合癌症网络（NationalComprehensive Cancer Network，NCCN）及国际骨髓瘤工作组（International Myeloma Working Group，IMWG）的指南［4］，诊断无症状（冒烟型）骨髓瘤和有症状（活动性）骨髓瘤的标准如下。"
+  },
+  {
+    "rule_name": "多发性骨髓瘤诊断标准需参考NCCN指南",
+    "head": {
+      "is_negative": false,
+      "name": "诊断标准参考",
+      "arguments": [
+        "Y",
+        "Z",
+        "NCCN"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "诊断标准制定行为",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对疾病",
+        "arguments": [
+          "Y",
+          "多发性骨髓瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "标准来源",
+        "arguments": [
+          "Z",
+          "美国国家综合癌症网络指南"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "诊断标准制定行为",
+      "Z": "标准或指南"
+    },
+    "source_text": "诊断标准、分型、分期一、诊断所需的检测项目（表1［3］）对于临床疑似MM的患者，应完成基本检查项目。在此基础上，有条件者可进行对诊断病情及预后分层具有重要价值的项目检测。二、诊断标准综合参考美国国家综合癌症网络（NationalComprehensive Cancer Network，NCCN）及国际骨髓瘤工作组（International Myeloma Working Group，IMWG）的指南［4］，诊断无症状（冒烟型）骨髓瘤和有症状（活动性）骨髓瘤的标准如下。"
+  },
+  {
+    "rule_name": "多发性骨髓瘤诊断标准需参考IMWG指南",
+    "head": {
+      "is_negative": false,
+      "name": "诊断标准参考",
+      "arguments": [
+        "Y",
+        "Z",
+        "IMWG"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "诊断标准制定行为",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对疾病",
+        "arguments": [
+          "Y",
+          "多发性骨髓瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "标准来源",
+        "arguments": [
+          "Z",
+          "国际骨髓瘤工作组指南"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "诊断标准制定行为",
+      "Z": "标准或指南"
+    },
+    "source_text": "诊断标准、分型、分期一、诊断所需的检测项目（表1［3］）对于临床疑似MM的患者，应完成基本检查项目。在此基础上，有条件者可进行对诊断病情及预后分层具有重要价值的项目检测。二、诊断标准综合参考美国国家综合癌症网络（NationalComprehensive Cancer Network，NCCN）及国际骨髓瘤工作组（International Myeloma Working Group，IMWG）的指南［4］，诊断无症状（冒烟型）骨髓瘤和有症状（活动性）骨髓瘤的标准如下。"
+  }
+]

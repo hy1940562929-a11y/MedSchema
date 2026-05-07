@@ -1,0 +1,1154 @@
+[
+  {
+    "rule_name": "学龄期CAP患者为MP感染高发人群",
+    "head": {
+      "is_negative": false,
+      "name": "高发人群",
+      "arguments": [
+        "X",
+        "MP感染"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄范围",
+        "arguments": [
+          "X",
+          "学龄前期和学龄期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "社区获得性肺炎"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "发病高峰年龄是学龄前期和学龄期儿童，3~15 岁儿童的社区获得性肺炎（community acquiredpneumonia，CAP）中8%~40% 由MP 感染引起，但反复感染者少见［7‐8］。婴幼儿常表现为轻症感染。"
+  },
+  {
+    "rule_name": "学龄期MP-CAP患者反复感染非典型",
+    "head": {
+      "is_negative": false,
+      "name": "非典型特征",
+      "arguments": [
+        "X",
+        "反复感染"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄范围",
+        "arguments": [
+          "X",
+          "3-15岁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "社区获得性肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病因",
+        "arguments": [
+          "社区获得性肺炎",
+          "MP感染"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "病史特征",
+        "arguments": [
+          "X",
+          "反复感染"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "发病高峰年龄是学龄前期和学龄期儿童，3~15 岁儿童的社区获得性肺炎（community acquiredpneumonia，CAP）中8%~40% 由MP 感染引起，但反复感染者少见［7‐8］。婴幼儿常表现为轻症感染。"
+  },
+  {
+    "rule_name": "婴幼儿MP感染者常表现为轻症",
+    "head": {
+      "is_negative": false,
+      "name": "临床表现",
+      "arguments": [
+        "X",
+        "轻症感染"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄范围",
+        "arguments": [
+          "X",
+          "婴幼儿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "MP感染"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "发病高峰年龄是学龄前期和学龄期儿童，3~15 岁儿童的社区获得性肺炎（community acquiredpneumonia，CAP）中8%~40% 由MP 感染引起，但反复感染者少见［7‐8］。婴幼儿常表现为轻症感染。"
+  },
+  {
+    "rule_name": "肺炎支原体的基本微生物学与形态学特征",
+    "head": {
+      "is_negative": false,
+      "name": "微生物",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "分类归属",
+        "arguments": [
+          "X",
+          "支原体属"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有特性",
+        "arguments": [
+          "X",
+          "可体外非细胞培养生长"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有特性",
+        "arguments": [
+          "X",
+          "无细胞壁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有形态",
+        "arguments": [
+          "X",
+          "纺锤体状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可通过孔径",
+        "arguments": [
+          "X",
+          "0.45μm滤器"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有结构",
+        "arguments": [
+          "X",
+          "环状双股DNA"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "肺炎支原体(MP)"
+    },
+    "source_text": "MP 归属支原体属支原体科支原体目柔膜体纲，是迄今发现的能在体外固体培养基（如SP4 培养基）上生长、不依靠活体细胞而生存的最小微生物。其菌落在高倍显微镜下呈典型的煎蛋状。MP无细胞壁，形态多样，常为纺锤体状，长1~2 μm、宽0.1~0.2 μm，体积不及细菌平均体积的5%，可以通过0.45 μm 孔径的细菌滤器。MP 结构呈环状双股DNA，共有687个基因，全长816 394 bp［4］。MP感染的致病机制尚未完全明确，感染的MP载量、宿主的免疫状态以及呼吸道正常菌群的分布均可能影响MP 感染的进程。MP 可通过黏附及细胞毒效应对呼吸道上皮造成直接损伤、通过免疫机制引起呼吸系统和其他系统损伤［5］，当侵入呼吸道并借滑行运动定位于纤毛间时，MP 丝状体顶端的P1 和P30 黏附蛋白可使其牢固地黏附于上皮细胞的表面受体，抵抗纤毛的清除和吞噬细胞的吞噬，黏附蛋白也具有直接细胞毒性并激活初始炎症反应。内源性活性氧及过氧化物、脂蛋白也是重要毒力因素［6］，而MP 分泌的社区获得性呼吸窘迫综合征毒素可造成上皮细胞空泡化、纤毛功能丧失等气道黏膜损伤。"
+  },
+  {
+    "rule_name": "肺炎支原体通过黏附与细胞毒效应致病的机制",
+    "head": {
+      "is_negative": false,
+      "name": "致病机制",
+      "arguments": [
+        "X",
+        "直接损伤"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病原体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有结构部件",
+        "arguments": [
+          "X",
+          "P1黏附蛋白"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有结构部件",
+        "arguments": [
+          "X",
+          "P30黏附蛋白"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用机制",
+        "arguments": [
+          "X",
+          "黏附于上皮细胞受体"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用机制",
+        "arguments": [
+          "X",
+          "抵抗纤毛清除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用机制",
+        "arguments": [
+          "X",
+          "激活初始炎症反应"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用效应",
+        "arguments": [
+          "X",
+          "细胞毒性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "肺炎支原体(MP)"
+    },
+    "source_text": "MP 归属支原体属支原体科支原体目柔膜体纲，是迄今发现的能在体外固体培养基（如SP4 培养基）上生长、不依靠活体细胞而生存的最小微生物。其菌落在高倍显微镜下呈典型的煎蛋状。MP无细胞壁，形态多样，常为纺锤体状，长1~2 μm、宽0.1~0.2 μm，体积不及细菌平均体积的5%，可以通过0.45 μm 孔径的细菌滤器。MP 结构呈环状双股DNA，共有687个基因，全长816 394 bp［4］。MP感染的致病机制尚未完全明确，感染的MP载量、宿主的免疫状态以及呼吸道正常菌群的分布均可能影响MP 感染的进程。MP 可通过黏附及细胞毒效应对呼吸道上皮造成直接损伤、通过免疫机制引起呼吸系统和其他系统损伤［5］，当侵入呼吸道并借滑行运动定位于纤毛间时，MP 丝状体顶端的P1 和P30 黏附蛋白可使其牢固地黏附于上皮细胞的表面受体，抵抗纤毛的清除和吞噬细胞的吞噬，黏附蛋白也具有直接细胞毒性并激活初始炎症反应。内源性活性氧及过氧化物、脂蛋白也是重要毒力因素［6］，而MP 分泌的社区获得性呼吸窘迫综合征毒素可造成上皮细胞空泡化、纤毛功能丧失等气道黏膜损伤。"
+  },
+  {
+    "rule_name": "肺炎支原体的关键毒力因素与毒素损伤效应",
+    "head": {
+      "is_negative": false,
+      "name": "致病机制",
+      "arguments": [
+        "X",
+        "毒力损伤"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病原体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有毒力因素",
+        "arguments": [
+          "X",
+          "内源性活性氧及过氧化物",
+          "重要"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有毒力因素",
+        "arguments": [
+          "X",
+          "脂蛋白",
+          "重要"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分泌物质",
+        "arguments": [
+          "X",
+          "社区获得性呼吸窘迫综合征毒素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用效应",
+        "arguments": [
+          "社区获得性呼吸窘迫综合征毒素",
+          "上皮细胞空泡化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用效应",
+        "arguments": [
+          "社区获得性呼吸窘迫综合征毒素",
+          "纤毛功能丧失"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "肺炎支原体(MP)"
+    },
+    "source_text": "MP 归属支原体属支原体科支原体目柔膜体纲，是迄今发现的能在体外固体培养基（如SP4 培养基）上生长、不依靠活体细胞而生存的最小微生物。其菌落在高倍显微镜下呈典型的煎蛋状。MP无细胞壁，形态多样，常为纺锤体状，长1~2 μm、宽0.1~0.2 μm，体积不及细菌平均体积的5%，可以通过0.45 μm 孔径的细菌滤器。MP 结构呈环状双股DNA，共有687个基因，全长816 394 bp［4］。MP感染的致病机制尚未完全明确，感染的MP载量、宿主的免疫状态以及呼吸道正常菌群的分布均可能影响MP 感染的进程。MP 可通过黏附及细胞毒效应对呼吸道上皮造成直接损伤、通过免疫机制引起呼吸系统和其他系统损伤［5］，当侵入呼吸道并借滑行运动定位于纤毛间时，MP 丝状体顶端的P1 和P30 黏附蛋白可使其牢固地黏附于上皮细胞的表面受体，抵抗纤毛的清除和吞噬细胞的吞噬，黏附蛋白也具有直接细胞毒性并激活初始炎症反应。内源性活性氧及过氧化物、脂蛋白也是重要毒力因素［6］，而MP 分泌的社区获得性呼吸窘迫综合征毒素可造成上皮细胞空泡化、纤毛功能丧失等气道黏膜损伤。"
+  },
+  {
+    "rule_name": "专家共识的制定依据",
+    "head": {
+      "is_negative": false,
+      "name": "共识文档",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "《中国儿童肺炎支原体感染实验室诊断规范和临床实践专家共识（2019年）》",
+      "Y": "肺炎支原体感染实验室检测方法"
+    },
+    "source_text": "肺炎支原体感染是临床的常见病征，要做到恰当诊断、治疗和合理使用抗菌药物，迫切需要规范其检测方法并指导临床应用。遵照国家卫生计生委合理用药专家委员会的专项通知要求，儿科临床和检验学科专家基于实验室规范和临床实践这两个要素，博采各方观点、集思广益并参考相关文献编写成本共识，依据是检测方法的敏感性和特异性，经济实用性和可及性，共识还分层推荐了不同场景下肺炎支原体感染实验室诊断方法之选择。"
+  },
+  {
+    "rule_name": "共识分层推荐检测方法",
+    "head": {
+      "is_negative": false,
+      "name": "推荐方法",
+      "arguments": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "共识文档",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对主题",
+        "arguments": [
+          "X",
+          "儿童肺炎支原体感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床场景",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需实验室诊断",
+        "arguments": [
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "《中国儿童肺炎支原体感染实验室诊断规范和临床实践专家共识（2019年）》",
+      "Y": "实验室诊断方法",
+      "Z": "临床场景"
+    },
+    "source_text": "肺炎支原体感染是临床的常见病征，要做到恰当诊断、治疗和合理使用抗菌药物，迫切需要规范其检测方法并指导临床应用。遵照国家卫生计生委合理用药专家委员会的专项通知要求，儿科临床和检验学科专家基于实验室规范和临床实践这两个要素，博采各方观点、集思广益并参考相关文献编写成本共识，依据是检测方法的敏感性和特异性，经济实用性和可及性，共识还分层推荐了不同场景下肺炎支原体感染实验室诊断方法之选择。"
+  },
+  {
+    "rule_name": "MP感染诊断中抗体检测优先于抗原检测的建议",
+    "head": {
+      "is_negative": false,
+      "name": "检测方法推荐",
+      "arguments": [
+        "MP感染诊断",
+        "抗体检测",
+        "优先"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "实验室诊断需求",
+        "arguments": [
+          "MP感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断方法",
+        "arguments": [
+          "抗原检测"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "普及程度",
+        "arguments": [
+          "抗原检测",
+          "低"
+        ]
+      }
+    ],
+    "variables": {},
+    "source_text": "MP感染的实验室诊断，目前选择抗体检测优先于抗原检测，抗原检测法和试剂临床尚未广泛普及。如能获取急性期与恢复期双份血清，抗体检测的价值更大。血清抗体滴度≥1∶160可以作为MP近期感染或急性感染参考标准；恢复期和急性期MP‐IgG抗体滴度呈4倍及以上增高或减低时，可确诊MP感染。免疫胶体金法定性检测MP‐IgM抗体可作为门诊或急诊快速筛查的常用方法，建议选取定性的阳性折点相当于MP‐IgM抗体滴度为1∶160的试剂。过低标准的试剂必将导致MP感染的过多诊断。MP抗体定量检测推荐目前国内最广泛使用的PA法，亚型抗体测定有免疫胶体金技术、ELISA、间接免疫荧光试验和化学发光法，可作为补充检测手段。"
+  },
+  {
+    "rule_name": "血清MP-IgG滴度达近期感染参考标准",
+    "head": {
+      "is_negative": false,
+      "name": "诊断参考指标",
+      "arguments": [
+        "X",
+        "MP近期感染",
+        "血清滴度"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标本",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属标本",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体检测结果",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "来源标本",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "Z",
+          "PA法"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体类型",
+        "arguments": [
+          "Z",
+          "MP-IgG"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "滴度值",
+        "arguments": [
+          "Z",
+          "≥1:160"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "血清标本",
+      "Z": "抗体检测结果"
+    },
+    "source_text": "MP感染的实验室诊断，目前选择抗体检测优先于抗原检测，抗原检测法和试剂临床尚未广泛普及。如能获取急性期与恢复期双份血清，抗体检测的价值更大。血清抗体滴度≥1∶160可以作为MP近期感染或急性感染参考标准；恢复期和急性期MP‐IgG抗体滴度呈4倍及以上增高或减低时，可确诊MP感染。免疫胶体金法定性检测MP‐IgM抗体可作为门诊或急诊快速筛查的常用方法，建议选取定性的阳性折点相当于MP‐IgM抗体滴度为1∶160的试剂。过低标准的试剂必将导致MP感染的过多诊断。MP抗体定量检测推荐目前国内最广泛使用的PA法，亚型抗体测定有免疫胶体金技术、ELISA、间接免疫荧光试验和化学发光法，可作为补充检测手段。"
+  },
+  {
+    "rule_name": "血清MP-IgG滴度达急性感染参考标准",
+    "head": {
+      "is_negative": false,
+      "name": "诊断参考指标",
+      "arguments": [
+        "X",
+        "MP急性感染",
+        "血清滴度"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标本",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属标本",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体检测结果",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "来源标本",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "Z",
+          "PA法"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体类型",
+        "arguments": [
+          "Z",
+          "MP-IgG"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "滴度值",
+        "arguments": [
+          "Z",
+          "≥1:160"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "血清标本",
+      "Z": "抗体检测结果"
+    },
+    "source_text": "MP感染的实验室诊断，目前选择抗体检测优先于抗原检测，抗原检测法和试剂临床尚未广泛普及。如能获取急性期与恢复期双份血清，抗体检测的价值更大。血清抗体滴度≥1∶160可以作为MP近期感染或急性感染参考标准；恢复期和急性期MP‐IgG抗体滴度呈4倍及以上增高或减低时，可确诊MP感染。免疫胶体金法定性检测MP‐IgM抗体可作为门诊或急诊快速筛查的常用方法，建议选取定性的阳性折点相当于MP‐IgM抗体滴度为1∶160的试剂。过低标准的试剂必将导致MP感染的过多诊断。MP抗体定量检测推荐目前国内最广泛使用的PA法，亚型抗体测定有免疫胶体金技术、ELISA、间接免疫荧光试验和化学发光法，可作为补充检测手段。"
+  },
+  {
+    "rule_name": "双份血清MP-IgG滴度四倍增高确诊MP感染",
+    "head": {
+      "is_negative": false,
+      "name": "确诊诊断",
+      "arguments": [
+        "X",
+        "MP感染"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标本",
+        "arguments": [
+          "Y1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采集时期",
+        "arguments": [
+          "Y1",
+          "急性期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属标本",
+        "arguments": [
+          "Y1",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体检测结果",
+        "arguments": [
+          "Z1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "来源标本",
+        "arguments": [
+          "Z1",
+          "Y1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "Z1",
+          "PA法"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体类型",
+        "arguments": [
+          "Z1",
+          "MP-IgG"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标本",
+        "arguments": [
+          "Y2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采集时期",
+        "arguments": [
+          "Y2",
+          "恢复期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属标本",
+        "arguments": [
+          "Y2",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体检测结果",
+        "arguments": [
+          "Z2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "来源标本",
+        "arguments": [
+          "Z2",
+          "Y2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "Z2",
+          "PA法"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体类型",
+        "arguments": [
+          "Z2",
+          "MP-IgG"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "滴度关系",
+        "arguments": [
+          "Z2",
+          "Z1",
+          "四倍及以上增高"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y1": "急性期血清标本",
+      "Y2": "恢复期血清标本",
+      "Z1": "急性期抗体检测结果",
+      "Z2": "恢复期抗体检测结果"
+    },
+    "source_text": "MP感染的实验室诊断，目前选择抗体检测优先于抗原检测，抗原检测法和试剂临床尚未广泛普及。如能获取急性期与恢复期双份血清，抗体检测的价值更大。血清抗体滴度≥1∶160可以作为MP近期感染或急性感染参考标准；恢复期和急性期MP‐IgG抗体滴度呈4倍及以上增高或减低时，可确诊MP感染。免疫胶体金法定性检测MP‐IgM抗体可作为门诊或急诊快速筛查的常用方法，建议选取定性的阳性折点相当于MP‐IgM抗体滴度为1∶160的试剂。过低标准的试剂必将导致MP感染的过多诊断。MP抗体定量检测推荐目前国内最广泛使用的PA法，亚型抗体测定有免疫胶体金技术、ELISA、间接免疫荧光试验和化学发光法，可作为补充检测手段。"
+  },
+  {
+    "rule_name": "双份血清MP-IgG滴度四倍减低确诊MP感染",
+    "head": {
+      "is_negative": false,
+      "name": "确诊诊断",
+      "arguments": [
+        "X",
+        "MP感染"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标本",
+        "arguments": [
+          "Y1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采集时期",
+        "arguments": [
+          "Y1",
+          "急性期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属标本",
+        "arguments": [
+          "Y1",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体检测结果",
+        "arguments": [
+          "Z1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "来源标本",
+        "arguments": [
+          "Z1",
+          "Y1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "Z1",
+          "PA法"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体类型",
+        "arguments": [
+          "Z1",
+          "MP-IgG"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标本",
+        "arguments": [
+          "Y2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采集时期",
+        "arguments": [
+          "Y2",
+          "恢复期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属标本",
+        "arguments": [
+          "Y2",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体检测结果",
+        "arguments": [
+          "Z2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "来源标本",
+        "arguments": [
+          "Z2",
+          "Y2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "Z2",
+          "PA法"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体类型",
+        "arguments": [
+          "Z2",
+          "MP-IgG"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "滴度关系",
+        "arguments": [
+          "Z2",
+          "Z1",
+          "四倍及以上减低"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y1": "急性期血清标本",
+      "Y2": "恢复期血清标本",
+      "Z1": "急性期抗体检测结果",
+      "Z2": "恢复期抗体检测结果"
+    },
+    "source_text": "MP感染的实验室诊断，目前选择抗体检测优先于抗原检测，抗原检测法和试剂临床尚未广泛普及。如能获取急性期与恢复期双份血清，抗体检测的价值更大。血清抗体滴度≥1∶160可以作为MP近期感染或急性感染参考标准；恢复期和急性期MP‐IgG抗体滴度呈4倍及以上增高或减低时，可确诊MP感染。免疫胶体金法定性检测MP‐IgM抗体可作为门诊或急诊快速筛查的常用方法，建议选取定性的阳性折点相当于MP‐IgM抗体滴度为1∶160的试剂。过低标准的试剂必将导致MP感染的过多诊断。MP抗体定量检测推荐目前国内最广泛使用的PA法，亚型抗体测定有免疫胶体金技术、ELISA、间接免疫荧光试验和化学发光法，可作为补充检测手段。"
+  },
+  {
+    "rule_name": "门诊急诊患者MP-IgM免疫胶体金法快速筛查",
+    "head": {
+      "is_negative": false,
+      "name": "检测方法推荐",
+      "arguments": [
+        "门诊急诊筛查",
+        "免疫胶体金法",
+        "快速"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "就诊场景",
+        "arguments": [
+          "X",
+          "门诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标本",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属标本",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体检测结果",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "来源标本",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "Z",
+          "免疫胶体金法"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗体类型",
+        "arguments": [
+          "Z",
+          "MP-IgM"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "定性结果",
+        "arguments": [
+          "Z",
+          "阳性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "试剂折点标准",
+        "arguments": [
+          "Z",
+          "相当于滴度1:160"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "血清标本",
+      "Z": "抗体检测结果"
+    },
+    "source_text": "MP感染的实验室诊断，目前选择抗体检测优先于抗原检测，抗原检测法和试剂临床尚未广泛普及。如能获取急性期与恢复期双份血清，抗体检测的价值更大。血清抗体滴度≥1∶160可以作为MP近期感染或急性感染参考标准；恢复期和急性期MP‐IgG抗体滴度呈4倍及以上增高或减低时，可确诊MP感染。免疫胶体金法定性检测MP‐IgM抗体可作为门诊或急诊快速筛查的常用方法，建议选取定性的阳性折点相当于MP‐IgM抗体滴度为1∶160的试剂。过低标准的试剂必将导致MP感染的过多诊断。MP抗体定量检测推荐目前国内最广泛使用的PA法，亚型抗体测定有免疫胶体金技术、ELISA、间接免疫荧光试验和化学发光法，可作为补充检测手段。"
+  },
+  {
+    "rule_name": "儿科共识的编写基础与核心目标",
+    "head": {
+      "is_negative": false,
+      "name": "儿科共识",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "基于",
+        "arguments": [
+          "X",
+          "实验室规范"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基于",
+        "arguments": [
+          "X",
+          "临床实践"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有目标",
+        "arguments": [
+          "X",
+          "规范诊断",
+          "核心"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有目标",
+        "arguments": [
+          "X",
+          "促进合理用药",
+          "核心"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识"
+    },
+    "source_text": "遵照国家卫生计生委合理用药专家委员会的专项通知要求，儿科临床和检验学科专家基于实验室规范和临床实践这两个要素，博采各方观点、集思广益并参考相关文献编写成本共识，依据是检测方法的敏感性和特异性，经济实用性和可及性，共识还分层推荐了不同场景下肺炎支原体感染实验室诊断方法之选择。“共识”分成3 个部分：第一部分为MP 感染的临床学若干问题；第二部分是MP 感染的实验室诊断规范；按照这一原则，国家卫生计生委合理用药专家委员会发出关于召开“中国儿童肺炎支原体感染实验室诊断规范及其临床应用专家共识”编写启动会的通知（国卫合药委函〔2019〕5号），并于2019年2 月组织儿科临床专业与检验专业专家启动编写“中国儿童肺炎支原体感染实验室诊断规范和临床实践专家共识（2019年）”（以下简称“共识”），目的是进一步规范肺炎支原体（Mycoplasmapneumoniae，MP）的实验室诊断，促进临床合理用药。"
+  },
+  {
+    "rule_name": "共识编写遵循的管理原则转变",
+    "head": {
+      "is_negative": false,
+      "name": "儿科共识",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "受到指导",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "抗菌药物管理原则",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "描述转变",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "通知",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性",
+        "arguments": [
+          "转变模式",
+          "从行政干预到多学科协作"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识",
+      "Y": "管理原则",
+      "Z": "指导通知一"
+    },
+    "source_text": "遵照国家卫生计生委合理用药专家委员会的专项通知要求，儿科临床和检验学科专家基于实验室规范和临床实践这两个要素，博采各方观点、集思广益并参考相关文献编写成本共识，依据是检测方法的敏感性和特异性，经济实用性和可及性，共识还分层推荐了不同场景下肺炎支原体感染实验室诊断方法之选择。“共识”分成3 个部分：第一部分为MP 感染的临床学若干问题；第二部分是MP 感染的实验室诊断规范；按照这一原则，国家卫生计生委合理用药专家委员会发出关于召开“中国儿童肺炎支原体感染实验室诊断规范及其临床应用专家共识”编写启动会的通知（国卫合药委函〔2019〕5号），并于2019年2 月组织儿科临床专业与检验专业专家启动编写“中国儿童肺炎支原体感染实验室诊断规范和临床实践专家共识（2019年）”（以下简称“共识”），目的是进一步规范肺炎支原体（Mycoplasmapneumoniae，MP）的实验室诊断，促进临床合理用药。"
+  },
+  {
+    "rule_name": "共识由专项通知启动编写",
+    "head": {
+      "is_negative": false,
+      "name": "儿科共识",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "具有属性",
+        "arguments": [
+          "名称",
+          "中国儿童肺炎支原体感染实验室诊断规范及其临床应用专家共识"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "被任务",
+        "arguments": [
+          "W",
+          "编写启动X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "通知",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发出者",
+        "arguments": [
+          "W",
+          "国家卫生计生委合理用药专家委员会"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识",
+      "W": "指导通知二"
+    },
+    "source_text": "遵照国家卫生计生委合理用药专家委员会的专项通知要求，儿科临床和检验学科专家基于实验室规范和临床实践这两个要素，博采各方观点、集思广益并参考相关文献编写成本共识，依据是检测方法的敏感性和特异性，经济实用性和可及性，共识还分层推荐了不同场景下肺炎支原体感染实验室诊断方法之选择。“共识”分成3 个部分：第一部分为MP 感染的临床学若干问题；第二部分是MP 感染的实验室诊断规范；按照这一原则，国家卫生计生委合理用药专家委员会发出关于召开“中国儿童肺炎支原体感染实验室诊断规范及其临床应用专家共识”编写启动会的通知（国卫合药委函〔2019〕5号），并于2019年2 月组织儿科临床专业与检验专业专家启动编写“中国儿童肺炎支原体感染实验室诊断规范和临床实践专家共识（2019年）”（以下简称“共识”），目的是进一步规范肺炎支原体（Mycoplasmapneumoniae，MP）的实验室诊断，促进临床合理用药。"
+  }
+]

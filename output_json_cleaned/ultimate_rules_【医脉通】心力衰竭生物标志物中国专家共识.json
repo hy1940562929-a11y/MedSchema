@@ -1,0 +1,954 @@
+[
+  {
+    "rule_name": "检测MMP水平与抑制剂水平及其比值可用于评估心肌重构及预后指导",
+    "head": {
+      "is_negative": false,
+      "name": "评估应用",
+      "arguments": [
+        "X",
+        "Y",
+        "预后指导"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "心衰患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心肌重构进程",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估关联",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可检测指标",
+        "arguments": [
+          "X",
+          "MMP量化指标"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可检测指标",
+        "arguments": [
+          "X",
+          "MMP抑制剂量化指标"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可检测指标",
+        "arguments": [
+          "X",
+          "MMP与抑制剂比值"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "心衰患者",
+      "Y": "心肌重构进程"
+    },
+    "source_text": "近年来，MMP在评估心肌重构中的应用得到了广泛研究，MMP及其抑制剂的水平以及二者之间的比值被认为与心肌重构的进程存在较大的相关性，对心衰患者的预后有一定的指导价值。"
+  },
+  {
+    "rule_name": "检测MMP水平与抑制剂水平且其比值相关可用于评估心肌重构及预后指导",
+    "head": {
+      "is_negative": false,
+      "name": "评估应用",
+      "arguments": [
+        "X",
+        "Y",
+        "预后指导"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "心衰患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心肌重构进程",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估关联",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可检测指标",
+        "arguments": [
+          "X",
+          "MMP量化指标"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可检测指标",
+        "arguments": [
+          "X",
+          "MMP抑制剂量化指标"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在相关性",
+        "arguments": [
+          "MMP与抑制剂比值",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "心衰患者",
+      "Y": "心肌重构进程"
+    },
+    "source_text": "近年来，MMP在评估心肌重构中的应用得到了广泛研究，MMP及其抑制剂的水平以及二者之间的比值被认为与心肌重构的进程存在较大的相关性，对心衰患者的预后有一定的指导价值。"
+  },
+  {
+    "rule_name": "检测MMP水平且抑制剂水平相关及其比值相关可用于评估心肌重构及预后指导",
+    "head": {
+      "is_negative": false,
+      "name": "评估应用",
+      "arguments": [
+        "X",
+        "Y",
+        "预后指导"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "心衰患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心肌重构进程",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估关联",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可检测指标",
+        "arguments": [
+          "X",
+          "MMP量化指标"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在相关性",
+        "arguments": [
+          "MMP抑制剂量化指标",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在相关性",
+        "arguments": [
+          "MMP与抑制剂比值",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "心衰患者",
+      "Y": "心肌重构进程"
+    },
+    "source_text": "近年来，MMP在评估心肌重构中的应用得到了广泛研究，MMP及其抑制剂的水平以及二者之间的比值被认为与心肌重构的进程存在较大的相关性，对心衰患者的预后有一定的指导价值。"
+  },
+  {
+    "rule_name": "心力衰竭生物标志物核心应用原则",
+    "head": {
+      "is_negative": false,
+      "name": "临床作用",
+      "arguments": [
+        "B",
+        "心力衰竭_诊断"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "心力衰竭患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生物标志物",
+        "arguments": [
+          "B"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用对象",
+        "arguments": [
+          "B",
+          "心力衰竭"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床作用",
+        "arguments": [
+          "B",
+          "心力衰竭_预测"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床作用",
+        "arguments": [
+          "B",
+          "心力衰竭_预后"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床作用",
+        "arguments": [
+          "B",
+          "心力衰竭_治疗指导"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者群体",
+      "B": "生物标志物"
+    },
+    "source_text": "Themorbidity and mortality of heart failure (HF) are increasing with the rise of lifeexpectancy in recent years, which emphasize the early diagnosis and optimal treatment. Biomarkers for HFplay an important role in the prediction, diagnosis, prognosis and treatment guiding of HF. Natriureticpeptide (NP) is the most widely used biomarkers for HF. However, NP is not an ideal biomarker due to lowspecificity. Recently, more biomarkers were found to be valuable on the basis of NP in the evaluation of HF.This consensus summarized the biomarkers for HF according to latest clinical guidelines, expert statementsand clinical trials. It is meant to provide reference in the application ofbiomarkers for HF."
+  },
+  {
+    "rule_name": "利钠肽作为心力衰竭标志物的优势与局限",
+    "head": {
+      "is_negative": false,
+      "name": "临床属性",
+      "arguments": [
+        "NP",
+        "广泛应用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "心力衰竭患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生物标志物",
+        "arguments": [
+          "NP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "类型",
+        "arguments": [
+          "NP",
+          "利钠肽"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用对象",
+        "arguments": [
+          "NP",
+          "心力衰竭"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床属性",
+        "arguments": [
+          "NP",
+          "低特异性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床评估",
+        "arguments": [
+          "临床决策",
+          "非理想"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者群体",
+      "NP": "生物标志物_利钠肽"
+    },
+    "source_text": "Themorbidity and mortality of heart failure (HF) are increasing with the rise of lifeexpectancy in recent years, which emphasize the early diagnosis and optimal treatment. Biomarkers for HFplay an important role in the prediction, diagnosis, prognosis and treatment guiding of HF. Natriureticpeptide (NP) is the most widely used biomarkers for HF. However, NP is not an ideal biomarker due to lowspecificity. Recently, more biomarkers were found to be valuable on the basis of NP in the evaluation of HF.This consensus summarized the biomarkers for HF according to latest clinical guidelines, expert statementsand clinical trials. It is meant to provide reference in the application ofbiomarkers for HF."
+  },
+  {
+    "rule_name": "基于利钠肽联合其他标志物的心力衰竭评估增值",
+    "head": {
+      "is_negative": false,
+      "name": "临床评估",
+      "arguments": [
+        "联合评估策略",
+        "有价值"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "心力衰竭患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生物标志物",
+        "arguments": [
+          "B1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "类型",
+        "arguments": [
+          "B1",
+          "利钠肽"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生物标志物",
+        "arguments": [
+          "B2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "联合基础",
+        "arguments": [
+          "评估策略",
+          "B1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "纳入成分",
+        "arguments": [
+          "评估策略",
+          "B2"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者群体",
+      "B1": "生物标志物_利钠肽",
+      "B2": "生物标志物_其他"
+    },
+    "source_text": "Themorbidity and mortality of heart failure (HF) are increasing with the rise of lifeexpectancy in recent years, which emphasize the early diagnosis and optimal treatment. Biomarkers for HFplay an important role in the prediction, diagnosis, prognosis and treatment guiding of HF. Natriureticpeptide (NP) is the most widely used biomarkers for HF. However, NP is not an ideal biomarker due to lowspecificity. Recently, more biomarkers were found to be valuable on the basis of NP in the evaluation of HF.This consensus summarized the biomarkers for HF according to latest clinical guidelines, expert statementsand clinical trials. It is meant to provide reference in the application ofbiomarkers for HF."
+  },
+  {
+    "rule_name": "年龄增长作为心衰发病的危险因素",
+    "head": {
+      "is_negative": false,
+      "name": "危险因素",
+      "arguments": [
+        "X",
+        "年龄增长"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者群体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "人群属性",
+        "arguments": [
+          "X",
+          "年龄增长"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "心衰"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者群体"
+    },
+    "source_text": "心衰的发病率与年龄呈正相关，50岁以下人口心衰的发病率<1%，80岁以上人口可高达30%。心衰的基础疾病异质性很高，因此，心衰的发生很难预测。过去数十年来，一些研究对心衰预测的标志物进行探讨，结果表明，一些生物标志物在单独使用或联合使用时可以预测心衰的发生，但是，对于射血分数下降的心衰（heart failure with reducedejection fraction，HFrEF）和射血分数保留的心衰（heartfailurewithpreservedejectionfraction，HFpEF），其区分能力有限。1. 心脏负荷标志物和损伤标志物：年龄、身高体重指数（body mass index，BMI），合并高血压、糖尿病、高脂血症、瓣膜病及冠心病等是心衰发病的危险因素，在此基础上，多项大型前瞻性研究证实了NP在预测心衰发生中的作用。在NP的预测能力方面，研究提示BNP / NT‐proBNP优于ANP /NT‐proANP［15］。在心衰病程的早期阶段，NT‐proBNP尤其能发挥重要的预测作用。同时，伴有基础危险因素的患者可出现TnT/TnI表达量升高，应用高敏TnT/TnI方法进行检测时，心肌损伤标志物升高的患者比例出现进一步上升，心肌损伤标志物的动态升高与心衰的发生率呈显著相关性［16‐18］。"
+  },
+  {
+    "rule_name": "合并高血压作为心衰发病的危险因素",
+    "head": {
+      "is_negative": false,
+      "name": "危险因素",
+      "arguments": [
+        "Y",
+        "心衰"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "高血压"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基础疾病",
+        "arguments": [
+          "Y",
+          "心衰"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疾病（心衰）"
+    },
+    "source_text": "心衰的发病率与年龄呈正相关，50岁以下人口心衰的发病率<1%，80岁以上人口可高达30%。心衰的基础疾病异质性很高，因此，心衰的发生很难预测。过去数十年来，一些研究对心衰预测的标志物进行探讨，结果表明，一些生物标志物在单独使用或联合使用时可以预测心衰的发生，但是，对于射血分数下降的心衰（heart failure with reducedejection fraction，HFrEF）和射血分数保留的心衰（heartfailurewithpreservedejectionfraction，HFpEF），其区分能力有限。1. 心脏负荷标志物和损伤标志物：年龄、身高体重指数（body mass index，BMI），合并高血压、糖尿病、高脂血症、瓣膜病及冠心病等是心衰发病的危险因素，在此基础上，多项大型前瞻性研究证实了NP在预测心衰发生中的作用。在NP的预测能力方面，研究提示BNP / NT‐proBNP优于ANP /NT‐proANP［15］。在心衰病程的早期阶段，NT‐proBNP尤其能发挥重要的预测作用。同时，伴有基础危险因素的患者可出现TnT/TnI表达量升高，应用高敏TnT/TnI方法进行检测时，心肌损伤标志物升高的患者比例出现进一步上升，心肌损伤标志物的动态升高与心衰的发生率呈显著相关性［16‐18］。"
+  },
+  {
+    "rule_name": "合并糖尿病作为心衰发病的危险因素",
+    "head": {
+      "is_negative": false,
+      "name": "危险因素",
+      "arguments": [
+        "Y",
+        "心衰"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基础疾病",
+        "arguments": [
+          "Y",
+          "心衰"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疾病（心衰）"
+    },
+    "source_text": "心衰的发病率与年龄呈正相关，50岁以下人口心衰的发病率<1%，80岁以上人口可高达30%。心衰的基础疾病异质性很高，因此，心衰的发生很难预测。过去数十年来，一些研究对心衰预测的标志物进行探讨，结果表明，一些生物标志物在单独使用或联合使用时可以预测心衰的发生，但是，对于射血分数下降的心衰（heart failure with reducedejection fraction，HFrEF）和射血分数保留的心衰（heartfailurewithpreservedejectionfraction，HFpEF），其区分能力有限。1. 心脏负荷标志物和损伤标志物：年龄、身高体重指数（body mass index，BMI），合并高血压、糖尿病、高脂血症、瓣膜病及冠心病等是心衰发病的危险因素，在此基础上，多项大型前瞻性研究证实了NP在预测心衰发生中的作用。在NP的预测能力方面，研究提示BNP / NT‐proBNP优于ANP /NT‐proANP［15］。在心衰病程的早期阶段，NT‐proBNP尤其能发挥重要的预测作用。同时，伴有基础危险因素的患者可出现TnT/TnI表达量升高，应用高敏TnT/TnI方法进行检测时，心肌损伤标志物升高的患者比例出现进一步上升，心肌损伤标志物的动态升高与心衰的发生率呈显著相关性［16‐18］。"
+  },
+  {
+    "rule_name": "HFpEF诊断_基于BNP标准界值",
+    "head": {
+      "is_negative": false,
+      "name": "诊断为HFpEF",
+      "arguments": [
+        "X",
+        "依据生物标志物BNP"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HFpEF患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有心衰症状",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "射血分数未显著降低",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生物标志物水平",
+        "arguments": [
+          "X",
+          "BNP",
+          "达到或超过35-100"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "存在混杂因素",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "心肌负荷标志物：HFpEF患者多表现为心室肌的增厚、心室容量降低和室壁张力的轻度增高。因此，其NP水平较正常人升高，但低于HFrEF患者。目前推荐将BNP ≥35~100 pg/ml或NT‐proBNP ≥125~800 pg/ml（不同指南定义界值存在差异）定为HFpEF的诊断界值［37］。然而，如果同时存在使BNP升高或降低的混杂因素，应对这一界值进行调整，但具体调整幅度尚无定论。其他可能有诊断价值的标志物：包括舒张功能不全标志物、心肌重构标志物、炎症标志物和微小RNA。舒张功能不全标志物：大部分HFpEF患者伴有心室舒张功能障碍。胰岛素样生长因子结合蛋白‐7被证实能够反映心室的舒张功能，研究提示，其水平与心脏彩超测得的E/E′，E/A比值和左房容积指数等指标相关［38‐39］。因此，该标志物可能为HFpEF的诊断提供参考，但目前尚缺乏可靠的临床试验。心肌重构标志物：HFpEF患者常伴有心肌重构和细胞外基质的堆积，因此，心肌重构标志物也能在一定程度上为HFpEF的诊断提供线索，包括胶原代谢产物、MMP等［40‐41］。但目前尚缺乏可靠的界值和证据。炎症标志物：炎症标志物sST2被证实与左室舒张末压有相关性，能够指导HFpEF的诊断［42］，Gal‐3也被证实有一定的诊断价值［43］，尚待进一步研究证实。微小RNA：研究表明，HFpEF患者的血清中，微小RNA29a、1、21和133a可能与心肌重构有关［44］，未来也有可能指导HFpEF的诊断，但目前其快速检测手段尚不成熟。"
+  },
+  {
+    "rule_name": "HFpEF诊断_基于NT-proBNP标准界值",
+    "head": {
+      "is_negative": false,
+      "name": "诊断为HFpEF",
+      "arguments": [
+        "X",
+        "依据生物标志物NT-proBNP"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HFpEF患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有心衰症状",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "射血分数未显著降低",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生物标志物水平",
+        "arguments": [
+          "X",
+          "NT-proBNP",
+          "达到或超过125-800"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "存在混杂因素",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "心肌负荷标志物：HFpEF患者多表现为心室肌的增厚、心室容量降低和室壁张力的轻度增高。因此，其NP水平较正常人升高，但低于HFrEF患者。目前推荐将BNP ≥35~100 pg/ml或NT‐proBNP ≥125~800 pg/ml（不同指南定义界值存在差异）定为HFpEF的诊断界值［37］。然而，如果同时存在使BNP升高或降低的混杂因素，应对这一界值进行调整，但具体调整幅度尚无定论。其他可能有诊断价值的标志物：包括舒张功能不全标志物、心肌重构标志物、炎症标志物和微小RNA。舒张功能不全标志物：大部分HFpEF患者伴有心室舒张功能障碍。胰岛素样生长因子结合蛋白‐7被证实能够反映心室的舒张功能，研究提示，其水平与心脏彩超测得的E/E′，E/A比值和左房容积指数等指标相关［38‐39］。因此，该标志物可能为HFpEF的诊断提供参考，但目前尚缺乏可靠的临床试验。心肌重构标志物：HFpEF患者常伴有心肌重构和细胞外基质的堆积，因此，心肌重构标志物也能在一定程度上为HFpEF的诊断提供线索，包括胶原代谢产物、MMP等［40‐41］。但目前尚缺乏可靠的界值和证据。炎症标志物：炎症标志物sST2被证实与左室舒张末压有相关性，能够指导HFpEF的诊断［42］，Gal‐3也被证实有一定的诊断价值［43］，尚待进一步研究证实。微小RNA：研究表明，HFpEF患者的血清中，微小RNA29a、1、21和133a可能与心肌重构有关［44］，未来也有可能指导HFpEF的诊断，但目前其快速检测手段尚不成熟。"
+  },
+  {
+    "rule_name": "IGFBP-7标志物为HFpEF提供参考价值",
+    "head": {
+      "is_negative": false,
+      "name": "生物标志物参考价值",
+      "arguments": [
+        "胰岛素样生长因子结合蛋白7",
+        "HFpEF诊断",
+        "可能"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HFpEF患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有心衰症状",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "射血分数未显著降低",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴有心室舒张功能障碍",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生物标志物水平",
+        "arguments": [
+          "X",
+          "胰岛素样生长因子结合蛋白7",
+          "与舒张功能指标相关"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "心肌负荷标志物：HFpEF患者多表现为心室肌的增厚、心室容量降低和室壁张力的轻度增高。因此，其NP水平较正常人升高，但低于HFrEF患者。目前推荐将BNP ≥35~100 pg/ml或NT‐proBNP ≥125~800 pg/ml（不同指南定义界值存在差异）定为HFpEF的诊断界值［37］。然而，如果同时存在使BNP升高或降低的混杂因素，应对这一界值进行调整，但具体调整幅度尚无定论。其他可能有诊断价值的标志物：包括舒张功能不全标志物、心肌重构标志物、炎症标志物和微小RNA。舒张功能不全标志物：大部分HFpEF患者伴有心室舒张功能障碍。胰岛素样生长因子结合蛋白‐7被证实能够反映心室的舒张功能，研究提示，其水平与心脏彩超测得的E/E′，E/A比值和左房容积指数等指标相关［38‐39］。因此，该标志物可能为HFpEF的诊断提供参考，但目前尚缺乏可靠的临床试验。心肌重构标志物：HFpEF患者常伴有心肌重构和细胞外基质的堆积，因此，心肌重构标志物也能在一定程度上为HFpEF的诊断提供线索，包括胶原代谢产物、MMP等［40‐41］。但目前尚缺乏可靠的界值和证据。炎症标志物：炎症标志物sST2被证实与左室舒张末压有相关性，能够指导HFpEF的诊断［42］，Gal‐3也被证实有一定的诊断价值［43］，尚待进一步研究证实。微小RNA：研究表明，HFpEF患者的血清中，微小RNA29a、1、21和133a可能与心肌重构有关［44］，未来也有可能指导HFpEF的诊断，但目前其快速检测手段尚不成熟。"
+  },
+  {
+    "rule_name": "组织损伤通过炎症反应产生可入血心衰生物标志物",
+    "head": {
+      "is_negative": false,
+      "name": "可作为心衰标志物",
+      "arguments": [
+        "Y",
+        "潜在"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "组织损伤",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引发",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "自身炎症反应",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含组分",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "炎症因子",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "能够入血",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "组织损伤事件",
+      "Y": "炎症因子",
+      "Z": "炎症反应"
+    },
+    "source_text": "（二）炎症介质及心肌纤维化标志物组织损伤通常可以引发自身炎症反应，炎症反应的组分（包括促炎因子、细胞黏附因子、趋化因子）能够参与应激反应和组织修复过程，但长期的慢性炎症反应同样导致心肌纤维化和心衰的进展。细胞表面受体可以被蛋白酶降解并分泌入血，与其他入血的炎症因子一起可以作为心衰的潜在生物标志物。近些年来，这些生物标志物得到大量研究，已被证明与心衰病程显著相关的标志物包括：C反应蛋白（C reactive protein，CRP）、肿瘤坏死因子α（tumor necrosis factor‐α，TNF‐α）、白介素1（interleukin ‐1，IL‐1）、白介素6（interleukin‐6，IL‐6）等经典炎症因子［8］。此外，一些新型的炎症标志物同时能够直接参与心肌纤维化和心肌重构的病理生理过程，也被证实能够作为心衰生物标志物。生长分化因子15（growth differentiation factor 15，GDF‐15）是一种跨膜蛋白，能够作为细胞损伤和炎症反应的标志物；肿瘤生成抑制因子2（suppression of tumorigenicity2，ST2）是IL‐1家族中的一员，膜结合ST2与IL‐33的结合能够发挥抗心肌肥厚和抗纤维化作用，而可溶性ST2（soluble ST2，sST2）则发挥相反作用［9‐10］；半乳糖凝集素3（glactin‐3，Gal‐3）能够激活巨噬细胞和促进纤维增殖［11］。这些新型的标志物均与心衰病程有显著相关性。"
+  },
+  {
+    "rule_name": "经典炎症因子作为心衰生物标志物",
+    "head": {
+      "is_negative": false,
+      "name": "作为心衰标志物",
+      "arguments": [
+        "Y",
+        "已证实"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "经典炎症因子",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可入血",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "与病程相关",
+        "arguments": [
+          "Y",
+          "心衰"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于集合",
+        "arguments": [
+          "Y",
+          "[CRP, TNFα, IL1, IL6]"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "炎症标志物"
+    },
+    "source_text": "（二）炎症介质及心肌纤维化标志物组织损伤通常可以引发自身炎症反应，炎症反应的组分（包括促炎因子、细胞黏附因子、趋化因子）能够参与应激反应和组织修复过程，但长期的慢性炎症反应同样导致心肌纤维化和心衰的进展。细胞表面受体可以被蛋白酶降解并分泌入血，与其他入血的炎症因子一起可以作为心衰的潜在生物标志物。近些年来，这些生物标志物得到大量研究，已被证明与心衰病程显著相关的标志物包括：C反应蛋白（C reactive protein，CRP）、肿瘤坏死因子α（tumor necrosis factor‐α，TNF‐α）、白介素1（interleukin ‐1，IL‐1）、白介素6（interleukin‐6，IL‐6）等经典炎症因子［8］。此外，一些新型的炎症标志物同时能够直接参与心肌纤维化和心肌重构的病理生理过程，也被证实能够作为心衰生物标志物。生长分化因子15（growth differentiation factor 15，GDF‐15）是一种跨膜蛋白，能够作为细胞损伤和炎症反应的标志物；肿瘤生成抑制因子2（suppression of tumorigenicity2，ST2）是IL‐1家族中的一员，膜结合ST2与IL‐33的结合能够发挥抗心肌肥厚和抗纤维化作用，而可溶性ST2（soluble ST2，sST2）则发挥相反作用［9‐10］；半乳糖凝集素3（glactin‐3，Gal‐3）能够激活巨噬细胞和促进纤维增殖［11］。这些新型的标志物均与心衰病程有显著相关性。"
+  },
+  {
+    "rule_name": "GDF15作为细胞损伤与炎症的心衰生物标志物",
+    "head": {
+      "is_negative": false,
+      "name": "作为心衰标志物",
+      "arguments": [
+        "Y",
+        "新型"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "跨膜蛋白",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "名称是",
+        "arguments": [
+          "Y",
+          "GDF15"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可指示状态",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "复合病理状态",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "涉及过程",
+        "arguments": [
+          "Z",
+          "细胞损伤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "涉及过程",
+        "arguments": [
+          "Z",
+          "炎症反应"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "生物标志物",
+      "Z": "病理状态"
+    },
+    "source_text": "（二）炎症介质及心肌纤维化标志物组织损伤通常可以引发自身炎症反应，炎症反应的组分（包括促炎因子、细胞黏附因子、趋化因子）能够参与应激反应和组织修复过程，但长期的慢性炎症反应同样导致心肌纤维化和心衰的进展。细胞表面受体可以被蛋白酶降解并分泌入血，与其他入血的炎症因子一起可以作为心衰的潜在生物标志物。近些年来，这些生物标志物得到大量研究，已被证明与心衰病程显著相关的标志物包括：C反应蛋白（C reactive protein，CRP）、肿瘤坏死因子α（tumor necrosis factor‐α，TNF‐α）、白介素1（interleukin ‐1，IL‐1）、白介素6（interleukin‐6，IL‐6）等经典炎症因子［8］。此外，一些新型的炎症标志物同时能够直接参与心肌纤维化和心肌重构的病理生理过程，也被证实能够作为心衰生物标志物。生长分化因子15（growth differentiation factor 15，GDF‐15）是一种跨膜蛋白，能够作为细胞损伤和炎症反应的标志物；肿瘤生成抑制因子2（suppression of tumorigenicity2，ST2）是IL‐1家族中的一员，膜结合ST2与IL‐33的结合能够发挥抗心肌肥厚和抗纤维化作用，而可溶性ST2（soluble ST2，sST2）则发挥相反作用［9‐10］；半乳糖凝集素3（glactin‐3，Gal‐3）能够激活巨噬细胞和促进纤维增殖［11］。这些新型的标志物均与心衰病程有显著相关性。"
+  },
+  {
+    "rule_name": "ST2_sST2作为IL1家族相关的心衰生物标志物",
+    "head": {
+      "is_negative": false,
+      "name": "作为心衰标志物",
+      "arguments": [
+        "Y",
+        "新型"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "属于家族",
+        "arguments": [
+          "Y",
+          "IL1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "名称是",
+        "arguments": [
+          "Y",
+          "ST2_sST2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在形式",
+        "arguments": [
+          "Y",
+          "膜结合型"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在形式",
+        "arguments": [
+          "Y",
+          "可溶型"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "功能相反",
+        "arguments": [
+          "膜结合型",
+          "可溶型",
+          "针对心肌肥厚和纤维化"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "生物标志物"
+    },
+    "source_text": "（二）炎症介质及心肌纤维化标志物组织损伤通常可以引发自身炎症反应，炎症反应的组分（包括促炎因子、细胞黏附因子、趋化因子）能够参与应激反应和组织修复过程，但长期的慢性炎症反应同样导致心肌纤维化和心衰的进展。细胞表面受体可以被蛋白酶降解并分泌入血，与其他入血的炎症因子一起可以作为心衰的潜在生物标志物。近些年来，这些生物标志物得到大量研究，已被证明与心衰病程显著相关的标志物包括：C反应蛋白（C reactive protein，CRP）、肿瘤坏死因子α（tumor necrosis factor‐α，TNF‐α）、白介素1（interleukin ‐1，IL‐1）、白介素6（interleukin‐6，IL‐6）等经典炎症因子［8］。此外，一些新型的炎症标志物同时能够直接参与心肌纤维化和心肌重构的病理生理过程，也被证实能够作为心衰生物标志物。生长分化因子15（growth differentiation factor 15，GDF‐15）是一种跨膜蛋白，能够作为细胞损伤和炎症反应的标志物；肿瘤生成抑制因子2（suppression of tumorigenicity2，ST2）是IL‐1家族中的一员，膜结合ST2与IL‐33的结合能够发挥抗心肌肥厚和抗纤维化作用，而可溶性ST2（soluble ST2，sST2）则发挥相反作用［9‐10］；半乳糖凝集素3（glactin‐3，Gal‐3）能够激活巨噬细胞和促进纤维增殖［11］。这些新型的标志物均与心衰病程有显著相关性。"
+  },
+  {
+    "rule_name": "Gal3通过激活巨噬细胞与促纤维化作心衰生物标志物",
+    "head": {
+      "is_negative": false,
+      "name": "作为心衰标志物",
+      "arguments": [
+        "Y",
+        "新型"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "名称是",
+        "arguments": [
+          "Y",
+          "Gal3"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "能够激活",
+        "arguments": [
+          "Y",
+          "巨噬细胞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "能够促进",
+        "arguments": [
+          "Y",
+          "纤维增殖"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "参与过程",
+        "arguments": [
+          "纤维增殖",
+          "心肌纤维化"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "生物标志物"
+    },
+    "source_text": "（二）炎症介质及心肌纤维化标志物组织损伤通常可以引发自身炎症反应，炎症反应的组分（包括促炎因子、细胞黏附因子、趋化因子）能够参与应激反应和组织修复过程，但长期的慢性炎症反应同样导致心肌纤维化和心衰的进展。细胞表面受体可以被蛋白酶降解并分泌入血，与其他入血的炎症因子一起可以作为心衰的潜在生物标志物。近些年来，这些生物标志物得到大量研究，已被证明与心衰病程显著相关的标志物包括：C反应蛋白（C reactive protein，CRP）、肿瘤坏死因子α（tumor necrosis factor‐α，TNF‐α）、白介素1（interleukin ‐1，IL‐1）、白介素6（interleukin‐6，IL‐6）等经典炎症因子［8］。此外，一些新型的炎症标志物同时能够直接参与心肌纤维化和心肌重构的病理生理过程，也被证实能够作为心衰生物标志物。生长分化因子15（growth differentiation factor 15，GDF‐15）是一种跨膜蛋白，能够作为细胞损伤和炎症反应的标志物；肿瘤生成抑制因子2（suppression of tumorigenicity2，ST2）是IL‐1家族中的一员，膜结合ST2与IL‐33的结合能够发挥抗心肌肥厚和抗纤维化作用，而可溶性ST2（soluble ST2，sST2）则发挥相反作用［9‐10］；半乳糖凝集素3（glactin‐3，Gal‐3）能够激活巨噬细胞和促进纤维增殖［11］。这些新型的标志物均与心衰病程有显著相关性。"
+  }
+]

@@ -1,0 +1,573 @@
+[
+  {
+    "rule_name": "良性复发性单纯囊肿乙醇消融治疗指征",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗方案",
+      "arguments": [
+        "Y",
+        "乙醇消融",
+        "合理性高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "性质",
+        "arguments": [
+          "Y",
+          "良性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "结构",
+        "arguments": [
+          "Y",
+          "单纯囊肿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病史",
+        "arguments": [
+          "Y",
+          "复发"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起症状",
+        "arguments": [
+          "Y",
+          "压迫症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受过治疗",
+        "arguments": [
+          "Y",
+          "初始抽吸术"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "高危手术风险",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺结节"
+    },
+    "source_text": "EA can be indicated for the treatment of benign recurrent pure cysts or predominantly cystic nodules causing pressure symptoms or complaints of neck bulging. The efficacy of EA for the management of pure cysts or predominantly cystic nodules has been well documented (24, 28, 50-54). In a completely cystic nodule, EA can achieve a volume reduction of 85–95%. However, in a predominantly cystic nodule, the rate of volume reduction varies from 60% to 90% (24, 28). Results for predominantly cystic nodules with a solid portion less than 20% are satisfactory (55). Simple aspiration is the first treatment option for symptomatic benign pure cysts and predominantly cystic nodules. However, simple aspiration has been shown to have a high recurrence rate of ≤ 58% (19, 56). Therefore, EA is a reasonable approach in patients with recurrent cystic fluid accumulation after initial aspiration."
+  },
+  {
+    "rule_name": "良性复发性以囊性为主结节乙醇消融治疗指征",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗方案",
+      "arguments": [
+        "Y",
+        "乙醇消融",
+        "合理性高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "性质",
+        "arguments": [
+          "Y",
+          "良性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "结构",
+        "arguments": [
+          "Y",
+          "以囊性为主"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病史",
+        "arguments": [
+          "Y",
+          "复发"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起症状",
+        "arguments": [
+          "Y",
+          "压迫症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受过治疗",
+        "arguments": [
+          "Y",
+          "初始抽吸术"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "高危手术风险",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺结节"
+    },
+    "source_text": "EA can be indicated for the treatment of benign recurrent pure cysts or predominantly cystic nodules causing pressure symptoms or complaints of neck bulging. The efficacy of EA for the management of pure cysts or predominantly cystic nodules has been well documented (24, 28, 50-54). In a completely cystic nodule, EA can achieve a volume reduction of 85–95%. However, in a predominantly cystic nodule, the rate of volume reduction varies from 60% to 90% (24, 28). Results for predominantly cystic nodules with a solid portion less than 20% are satisfactory (55). Simple aspiration is the first treatment option for symptomatic benign pure cysts and predominantly cystic nodules. However, simple aspiration has been shown to have a high recurrence rate of ≤ 58% (19, 56). Therefore, EA is a reasonable approach in patients with recurrent cystic fluid accumulation after initial aspiration."
+  },
+  {
+    "rule_name": "无远处转移局部复发性甲状腺癌乙醇消融根治疗法指征",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗方案",
+      "arguments": [
+        "Y",
+        "乙醇消融",
+        "根治性目的"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断",
+        "arguments": [
+          "Y",
+          "复发性甲状腺癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "数量限制",
+        "arguments": [
+          "Y",
+          "少于等于三个"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "远处转移",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术困难",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "拒绝消融治疗",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺结节"
+    },
+    "source_text": "EA can be indicated for the treatment of benign recurrent pure cysts or predominantly cystic nodules causing pressure symptoms or complaints of neck bulging. The efficacy of EA for the management of pure cysts or predominantly cystic nodules has been well documented (24, 28, 50-54). In a completely cystic nodule, EA can achieve a volume reduction of 85–95%. However, in a predominantly cystic nodule, the rate of volume reduction varies from 60% to 90% (24, 28). Results for predominantly cystic nodules with a solid portion less than 20% are satisfactory (55). Simple aspiration is the first treatment option for symptomatic benign pure cysts and predominantly cystic nodules. However, simple aspiration has been shown to have a high recurrence rate of ≤ 58% (19, 56). Therefore, EA is a reasonable approach in patients with recurrent cystic fluid accumulation after initial aspiration."
+  },
+  {
+    "rule_name": "有远处转移局部复发性甲状腺癌乙醇消融姑息疗法指征",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗方案",
+      "arguments": [
+        "Y",
+        "乙醇消融",
+        "姑息性目的"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断",
+        "arguments": [
+          "Y",
+          "复发性甲状腺癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在变化",
+        "arguments": [
+          "Y",
+          "体积增大"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "远处转移",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术困难",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "拒绝消融治疗",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺结节"
+    },
+    "source_text": "EA can be indicated for the treatment of benign recurrent pure cysts or predominantly cystic nodules causing pressure symptoms or complaints of neck bulging. The efficacy of EA for the management of pure cysts or predominantly cystic nodules has been well documented (24, 28, 50-54). In a completely cystic nodule, EA can achieve a volume reduction of 85–95%. However, in a predominantly cystic nodule, the rate of volume reduction varies from 60% to 90% (24, 28). Results for predominantly cystic nodules with a solid portion less than 20% are satisfactory (55). Simple aspiration is the first treatment option for symptomatic benign pure cysts and predominantly cystic nodules. However, simple aspiration has been shown to have a high recurrence rate of ≤ 58% (19, 56). Therefore, EA is a reasonable approach in patients with recurrent cystic fluid accumulation after initial aspiration."
+  },
+  {
+    "rule_name": "复发性单纯囊性结节的乙醇消融指征",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方式推荐",
+      "arguments": [
+        "Y",
+        "乙醇消融"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "结节类型",
+        "arguments": [
+          "Y",
+          "复发性单纯囊性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致症状",
+        "arguments": [
+          "Y",
+          "颈部压迫感或膨出"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "确诊良性方式",
+        "arguments": [
+          "Z",
+          "抽吸细胞学"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用于确诊",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺结节",
+      "Z": "诊断检查结果"
+    },
+    "source_text": "EA can be indicated for the treatment of benign recurrent pure cysts or predominantly cystic nodules causing pressure symptoms or complaints of neck bulging. The efficacy of EA for the management of pure cysts or predominantly cystic nodules has been well documented (24, 28, 50-54). In a completely cystic nodule, EA can achieve a volume reduction of 85–95%. However, in a predominantly cystic nodule, the rate of volume reduction varies from 60% to 90% (24, 28). Results for predominantly cystic nodules with a solid portion less than 20% are satisfactory (55). Simple aspiration is the first treatment option for symptomatic benign pure cysts and predominantly cystic nodules. However, simple aspiration has been shown to have a high recurrence rate of ≤ 58% (19, 56). Therefore, EA is a reasonable approach in patients with recurrent cystic fluid accumulation after initial aspiration. A cytological result obtained from simple aspiration can confirm that the pure cystic or predominantly cystic nodule is benign. In the case of pure cysts, however, cytological results are often nondiagnostic or unsatisfactory, even with repeated cytological examinations. EA can be used to treat recurrent pure cysts, regardless of nondiagnostic results. Meanwhile, in cases of predominantly cystic nodules with typical benign US findings such as a spongiform appearance or intra-cystic comet tail artifact, EA can be performed after at least one benign fine-needle aspiration (FNA) result. In other cases of predominantly cystic nodules with some solid portion, at least two benign FNA results are essential before performing the EA procedure. Recurrence rate of thyroid cysts was reported to decrease to less than 20% after EA (28)."
+  },
+  {
+    "rule_name": "有典型良性超声表现的以囊性为主结节的乙醇消融指征_单次良性FNA",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方式推荐",
+      "arguments": [
+        "Y",
+        "乙醇消融"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "结节类型",
+        "arguments": [
+          "Y",
+          "复发性以囊性为主"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致症状",
+        "arguments": [
+          "Y",
+          "颈部压迫感或膨出"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声特征",
+        "arguments": [
+          "Y",
+          "典型良性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查结果",
+        "arguments": [
+          "Z",
+          "良性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查方法",
+        "arguments": [
+          "Z",
+          "细针穿刺活检"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用于诊断",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查次数",
+        "arguments": [
+          "Z",
+          "至少一次"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺结节",
+      "Z": "诊断检查结果"
+    },
+    "source_text": "EA can be indicated for the treatment of benign recurrent pure cysts or predominantly cystic nodules causing pressure symptoms or complaints of neck bulging. The efficacy of EA for the management of pure cysts or predominantly cystic nodules has been well documented (24, 28, 50-54). In a completely cystic nodule, EA can achieve a volume reduction of 85–95%. However, in a predominantly cystic nodule, the rate of volume reduction varies from 60% to 90% (24, 28). Results for predominantly cystic nodules with a solid portion less than 20% are satisfactory (55). Simple aspiration is the first treatment option for symptomatic benign pure cysts and predominantly cystic nodules. However, simple aspiration has been shown to have a high recurrence rate of ≤ 58% (19, 56). Therefore, EA is a reasonable approach in patients with recurrent cystic fluid accumulation after initial aspiration. A cytological result obtained from simple aspiration can confirm that the pure cystic or predominantly cystic nodule is benign. In the case of pure cysts, however, cytological results are often nondiagnostic or unsatisfactory, even with repeated cytological examinations. EA can be used to treat recurrent pure cysts, regardless of nondiagnostic results. Meanwhile, in cases of predominantly cystic nodules with typical benign US findings such as a spongiform appearance or intra-cystic comet tail artifact, EA can be performed after at least one benign fine-needle aspiration (FNA) result. In other cases of predominantly cystic nodules with some solid portion, at least two benign FNA results are essential before performing the EA procedure. Recurrence rate of thyroid cysts was reported to decrease to less than 20% after EA (28)."
+  },
+  {
+    "rule_name": "无典型良性超声表现的以囊性为主结节的乙醇消融指征_两次良性FNA",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方式推荐",
+      "arguments": [
+        "Y",
+        "乙醇消融"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "结节类型",
+        "arguments": [
+          "Y",
+          "复发性以囊性为主"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致症状",
+        "arguments": [
+          "Y",
+          "颈部压迫感或膨出"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声特征",
+        "arguments": [
+          "Y",
+          "非典型"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查结果",
+        "arguments": [
+          "Z",
+          "良性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查方法",
+        "arguments": [
+          "Z",
+          "细针穿刺活检"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用于诊断",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查次数",
+        "arguments": [
+          "Z",
+          "至少两次"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺结节",
+      "Z": "诊断检查结果"
+    },
+    "source_text": "EA can be indicated for the treatment of benign recurrent pure cysts or predominantly cystic nodules causing pressure symptoms or complaints of neck bulging. The efficacy of EA for the management of pure cysts or predominantly cystic nodules has been well documented (24, 28, 50-54). In a completely cystic nodule, EA can achieve a volume reduction of 85–95%. However, in a predominantly cystic nodule, the rate of volume reduction varies from 60% to 90% (24, 28). Results for predominantly cystic nodules with a solid portion less than 20% are satisfactory (55). Simple aspiration is the first treatment option for symptomatic benign pure cysts and predominantly cystic nodules. However, simple aspiration has been shown to have a high recurrence rate of ≤ 58% (19, 56). Therefore, EA is a reasonable approach in patients with recurrent cystic fluid accumulation after initial aspiration. A cytological result obtained from simple aspiration can confirm that the pure cystic or predominantly cystic nodule is benign. In the case of pure cysts, however, cytological results are often nondiagnostic or unsatisfactory, even with repeated cytological examinations. EA can be used to treat recurrent pure cysts, regardless of nondiagnostic results. Meanwhile, in cases of predominantly cystic nodules with typical benign US findings such as a spongiform appearance or intra-cystic comet tail artifact, EA can be performed after at least one benign fine-needle aspiration (FNA) result. In other cases of predominantly cystic nodules with some solid portion, at least two benign FNA results are essential before performing the EA procedure. Recurrence rate of thyroid cysts was reported to decrease to less than 20% after EA (28)."
+  }
+]

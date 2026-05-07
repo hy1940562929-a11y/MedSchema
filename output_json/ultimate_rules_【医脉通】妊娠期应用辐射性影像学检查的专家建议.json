@@ -1,0 +1,1380 @@
+[
+  {
+    "rule_name": "妊娠期患者对无辐射超声检查易接受",
+    "head": {
+      "is_negative": false,
+      "name": "临床易接受",
+      "arguments": [
+        "X",
+        "超声"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "妊娠期患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查方法",
+        "arguments": [
+          "超声"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "方法属性",
+        "arguments": [
+          "超声",
+          "无辐射"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在检查需求",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "X 射线、超声、CT、核素显像及MRI 等影像学检查是众多急、慢性疾病的重要辅助检查方法之一，妊娠期间也因为各种内、外科疾病或其并发症、合并症需要采用这些影像学检查。由于超声和MRI 无辐射性，在妊娠期间更易被医生和患者接受。但近年来，随着影像学技术的发展、疾病诊疗需求的增加及防护措施的不断改善等原因，X 射线、CT、核素显像等辐射性影像学检查在妊娠期的应用有所增加，这些接受了辐射性影像学检查的孕妇中95% 接受了1 次检查，少数接受了2 次"
+  },
+  {
+    "rule_name": "妊娠期患者对无辐射MRI检查易接受",
+    "head": {
+      "is_negative": false,
+      "name": "临床易接受",
+      "arguments": [
+        "X",
+        "MRI"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "妊娠期患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查方法",
+        "arguments": [
+          "MRI"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "方法属性",
+        "arguments": [
+          "MRI",
+          "无辐射"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在检查需求",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "X 射线、超声、CT、核素显像及MRI 等影像学检查是众多急、慢性疾病的重要辅助检查方法之一，妊娠期间也因为各种内、外科疾病或其并发症、合并症需要采用这些影像学检查。由于超声和MRI 无辐射性，在妊娠期间更易被医生和患者接受。但近年来，随着影像学技术的发展、疾病诊疗需求的增加及防护措施的不断改善等原因，X 射线、CT、核素显像等辐射性影像学检查在妊娠期的应用有所增加，这些接受了辐射性影像学检查的孕妇中95% 接受了1 次检查，少数接受了2 次"
+  },
+  {
+    "rule_name": "接受有辐射影像学检查的妊娠期患者常见单次检查",
+    "head": {
+      "is_negative": false,
+      "name": "检查次数统计",
+      "arguments": [
+        "X",
+        "一次",
+        "常见"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "妊娠期患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受检查",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查属性",
+        "arguments": [
+          "Y",
+          "有辐射"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "影像学检查"
+    },
+    "source_text": "X 射线、超声、CT、核素显像及MRI 等影像学检查是众多急、慢性疾病的重要辅助检查方法之一，妊娠期间也因为各种内、外科疾病或其并发症、合并症需要采用这些影像学检查。由于超声和MRI 无辐射性，在妊娠期间更易被医生和患者接受。但近年来，随着影像学技术的发展、疾病诊疗需求的增加及防护措施的不断改善等原因，X 射线、CT、核素显像等辐射性影像学检查在妊娠期的应用有所增加，这些接受了辐射性影像学检查的孕妇中95% 接受了1 次检查，少数接受了2 次"
+  },
+  {
+    "rule_name": "因担忧先天性异常风险致医生对孕妇应用辐射影像学检查犹豫",
+    "head": {
+      "is_negative": false,
+      "name": "临床决策状态",
+      "arguments": [
+        "X",
+        "应用犹豫"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "临床医生",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "考虑使用",
+        "arguments": [
+          "X",
+          "辐射影像学检查"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对象是患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于患者",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可能增加风险",
+        "arguments": [
+          "辐射影像学检查",
+          "先天性异常",
+          "对Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "临床医生",
+      "Y": "孕妇",
+      "Z": "胎儿"
+    },
+    "source_text": "Confusion about the safety of imaging with radiation exposure, including radiography, CT, and nuclear medicine for pregnant women and their infants results in hesitancy on the part of clinicians in applying this mode of investigation in pregnant women, in view of the possibility of increasing the risk of congenital abnormalities, developmental delay and mental disorders."
+  },
+  {
+    "rule_name": "因担忧发育迟缓风险致医生对孕妇应用辐射影像学检查犹豫",
+    "head": {
+      "is_negative": false,
+      "name": "临床决策状态",
+      "arguments": [
+        "X",
+        "应用犹豫"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "临床医生",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "考虑使用",
+        "arguments": [
+          "X",
+          "辐射影像学检查"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对象是患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于患者",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可能增加风险",
+        "arguments": [
+          "辐射影像学检查",
+          "发育迟缓",
+          "对Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "临床医生",
+      "Y": "孕妇",
+      "Z": "胎儿"
+    },
+    "source_text": "Confusion about the safety of imaging with radiation exposure, including radiography, CT, and nuclear medicine for pregnant women and their infants results in hesitancy on the part of clinicians in applying this mode of investigation in pregnant women, in view of the possibility of increasing the risk of congenital abnormalities, developmental delay and mental disorders."
+  },
+  {
+    "rule_name": "因担忧精神障碍风险致医生对孕妇应用辐射影像学检查犹豫",
+    "head": {
+      "is_negative": false,
+      "name": "临床决策状态",
+      "arguments": [
+        "X",
+        "应用犹豫"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "临床医生",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "考虑使用",
+        "arguments": [
+          "X",
+          "辐射影像学检查"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对象是患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于患者",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可能增加风险",
+        "arguments": [
+          "辐射影像学检查",
+          "精神障碍",
+          "对Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "临床医生",
+      "Y": "孕妇",
+      "Z": "胎儿"
+    },
+    "source_text": "Confusion about the safety of imaging with radiation exposure, including radiography, CT, and nuclear medicine for pregnant women and their infants results in hesitancy on the part of clinicians in applying this mode of investigation in pregnant women, in view of the possibility of increasing the risk of congenital abnormalities, developmental delay and mental disorders."
+  },
+  {
+    "rule_name": "孕妇接受高剂量辐射检查导致胚胎死亡风险",
+    "head": {
+      "is_negative": false,
+      "name": "导致风险",
+      "arguments": [
+        "X",
+        "胚胎死亡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "孕周",
+        "arguments": [
+          "X",
+          "0-2周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行检查",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查辐射剂量",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "辐射剂量值",
+        "arguments": [
+          "Z",
+          "D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险阈值",
+        "arguments": [
+          "0-2周",
+          "50-100"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量超过",
+        "arguments": [
+          "D",
+          "50-100"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Y": "医学检查",
+      "Z": "辐射剂量",
+      "D": "剂量数值"
+    },
+    "source_text": "有研究对21 例行CT 检查同时静脉使用碘对比剂孕妇的新生儿进行随访，CT 检查的平均孕周为23 周，平均分娩孕周为38 周，分娩后36 h 行新生儿甲状腺功能检查均未见异常[13]。理论上，碘对比剂对胎儿甲状腺功能存在潜在影响，但并未在人类研究中得到证实[13]。尽管如此，妊娠期尤其早孕期应尽量避免使用对比剂，仅在权衡利弊认为有额外的诊断价值时才考虑使用。X 射线和CT 主要是为了显示组织或器官的解剖位置关系，但部分病变仅引起如甲状腺、骨和肾脏等组织或器官的功能变化，不会导致明显解剖学改变。此时，可借助核素显像进行辅助诊断，这需要使用到同位素扫描。"
+  },
+  {
+    "rule_name": "早孕期孕妇使用碘对比剂的审慎原则",
+    "head": {
+      "is_negative": false,
+      "name": "不推荐操作",
+      "arguments": [
+        "X",
+        "使用碘对比剂"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处于孕期阶段",
+        "arguments": [
+          "X",
+          "早孕期"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇"
+    },
+    "source_text": "有研究对21 例行CT 检查同时静脉使用碘对比剂孕妇的新生儿进行随访，CT 检查的平均孕周为23 周，平均分娩孕周为38 周，分娩后36 h 行新生儿甲状腺功能检查均未见异常[13]。理论上，碘对比剂对胎儿甲状腺功能存在潜在影响，但并未在人类研究中得到证实[13]。尽管如此，妊娠期尤其早孕期应尽量避免使用对比剂，仅在权衡利弊认为有额外的诊断价值时才考虑使用。X 射线和CT 主要是为了显示组织或器官的解剖位置关系，但部分病变仅引起如甲状腺、骨和肾脏等组织或器官的功能变化，不会导致明显解剖学改变。此时，可借助核素显像进行辅助诊断，这需要使用到同位素扫描。"
+  },
+  {
+    "rule_name": "权衡利弊后考虑对孕妇使用碘对比剂的条件",
+    "head": {
+      "is_negative": false,
+      "name": "可考虑操作",
+      "arguments": [
+        "X",
+        "使用碘对比剂"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床评估",
+        "arguments": [
+          "X",
+          "利弊权衡肯定"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "M": "诊断方法"
+    },
+    "source_text": "有研究对21 例行CT 检查同时静脉使用碘对比剂孕妇的新生儿进行随访，CT 检查的平均孕周为23 周，平均分娩孕周为38 周，分娩后36 h 行新生儿甲状腺功能检查均未见异常[13]。理论上，碘对比剂对胎儿甲状腺功能存在潜在影响，但并未在人类研究中得到证实[13]。尽管如此，妊娠期尤其早孕期应尽量避免使用对比剂，仅在权衡利弊认为有额外的诊断价值时才考虑使用。X 射线和CT 主要是为了显示组织或器官的解剖位置关系，但部分病变仅引起如甲状腺、骨和肾脏等组织或器官的功能变化，不会导致明显解剖学改变。此时，可借助核素显像进行辅助诊断，这需要使用到同位素扫描。"
+  },
+  {
+    "rule_name": "针对功能变化病变推荐核素显像辅助诊断",
+    "head": {
+      "is_negative": false,
+      "name": "推荐诊断方法",
+      "arguments": [
+        "Y",
+        "核素显像"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "特定病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起变化",
+        "arguments": [
+          "特定病变",
+          "功能变化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影响组织",
+        "arguments": [
+          "功能变化",
+          "甲状腺"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "诊断方法"
+    },
+    "source_text": "有研究对21 例行CT 检查同时静脉使用碘对比剂孕妇的新生儿进行随访，CT 检查的平均孕周为23 周，平均分娩孕周为38 周，分娩后36 h 行新生儿甲状腺功能检查均未见异常[13]。理论上，碘对比剂对胎儿甲状腺功能存在潜在影响，但并未在人类研究中得到证实[13]。尽管如此，妊娠期尤其早孕期应尽量避免使用对比剂，仅在权衡利弊认为有额外的诊断价值时才考虑使用。X 射线和CT 主要是为了显示组织或器官的解剖位置关系，但部分病变仅引起如甲状腺、骨和肾脏等组织或器官的功能变化，不会导致明显解剖学改变。此时，可借助核素显像进行辅助诊断，这需要使用到同位素扫描。"
+  },
+  {
+    "rule_name": "孕妇怀疑肺栓塞时建议行X射线检查",
+    "head": {
+      "is_negative": false,
+      "name": "临床建议_妊娠期辐射检查",
+      "arguments": [
+        "X",
+        "X射线检查",
+        "建议行"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似疾病",
+        "arguments": [
+          "X",
+          "肺栓塞"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇患者"
+    },
+    "source_text": "肺栓塞是一种严重威胁患者生命的疾病，在妊娠期间，尽管辐射性影像学检查方法会带来辐射暴露，但考虑到辐射暴露剂量较低和疾病诊疗所需，对怀疑肺栓塞的孕妇建议行X 射线、肺通气- 灌注扫描（ventilation-perfusion scan, VQ）或者肺动脉CT 肺血管造影（CT pulmonary angiography, CTPA）[15-16]；怀疑外伤、脑缺血性病变、小肠梗阻、肺炎等其他疾病时也可以考虑应用辐射性影像学检查[17-19]。同时必须注意，即使孕妇具有X 射线或CT 检查的临床应用指征，也必须遵循医学伦理学基本原理，尊重孕妇及家属的知情同意权，必须在检查前充分告知其目前已知的疾病相关信息、辐射性影像学检查的诊断重要性及潜在的胎儿伤害风险，并签署知情同意书。目前，正值新型冠状病毒肺炎的疫情期间，X 射线或CT 是妊娠合并新型冠状病毒肺炎诊断及判断预后的重要检查手段之一，且CT 优于X 射线[19-20]。所以，具有上述临床指征时，可考虑单次胸部CT 或者X 射线检查，但应注意防止交叉感染。"
+  },
+  {
+    "rule_name": "孕妇怀疑肺栓塞时建议行肺通气灌注扫描",
+    "head": {
+      "is_negative": false,
+      "name": "临床建议_妊娠期辐射检查",
+      "arguments": [
+        "X",
+        "肺通气灌注扫描",
+        "建议行"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似疾病",
+        "arguments": [
+          "X",
+          "肺栓塞"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇患者"
+    },
+    "source_text": "肺栓塞是一种严重威胁患者生命的疾病，在妊娠期间，尽管辐射性影像学检查方法会带来辐射暴露，但考虑到辐射暴露剂量较低和疾病诊疗所需，对怀疑肺栓塞的孕妇建议行X 射线、肺通气- 灌注扫描（ventilation-perfusion scan, VQ）或者肺动脉CT 肺血管造影（CT pulmonary angiography, CTPA）[15-16]；怀疑外伤、脑缺血性病变、小肠梗阻、肺炎等其他疾病时也可以考虑应用辐射性影像学检查[17-19]。同时必须注意，即使孕妇具有X 射线或CT 检查的临床应用指征，也必须遵循医学伦理学基本原理，尊重孕妇及家属的知情同意权，必须在检查前充分告知其目前已知的疾病相关信息、辐射性影像学检查的诊断重要性及潜在的胎儿伤害风险，并签署知情同意书。目前，正值新型冠状病毒肺炎的疫情期间，X 射线或CT 是妊娠合并新型冠状病毒肺炎诊断及判断预后的重要检查手段之一，且CT 优于X 射线[19-20]。所以，具有上述临床指征时，可考虑单次胸部CT 或者X 射线检查，但应注意防止交叉感染。"
+  },
+  {
+    "rule_name": "孕妇怀疑肺栓塞时建议行CT肺动脉造影",
+    "head": {
+      "is_negative": false,
+      "name": "临床建议_妊娠期辐射检查",
+      "arguments": [
+        "X",
+        "CTPA",
+        "建议行"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似疾病",
+        "arguments": [
+          "X",
+          "肺栓塞"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇患者"
+    },
+    "source_text": "肺栓塞是一种严重威胁患者生命的疾病，在妊娠期间，尽管辐射性影像学检查方法会带来辐射暴露，但考虑到辐射暴露剂量较低和疾病诊疗所需，对怀疑肺栓塞的孕妇建议行X 射线、肺通气- 灌注扫描（ventilation-perfusion scan, VQ）或者肺动脉CT 肺血管造影（CT pulmonary angiography, CTPA）[15-16]；怀疑外伤、脑缺血性病变、小肠梗阻、肺炎等其他疾病时也可以考虑应用辐射性影像学检查[17-19]。同时必须注意，即使孕妇具有X 射线或CT 检查的临床应用指征，也必须遵循医学伦理学基本原理，尊重孕妇及家属的知情同意权，必须在检查前充分告知其目前已知的疾病相关信息、辐射性影像学检查的诊断重要性及潜在的胎儿伤害风险，并签署知情同意书。目前，正值新型冠状病毒肺炎的疫情期间，X 射线或CT 是妊娠合并新型冠状病毒肺炎诊断及判断预后的重要检查手段之一，且CT 优于X 射线[19-20]。所以，具有上述临床指征时，可考虑单次胸部CT 或者X 射线检查，但应注意防止交叉感染。"
+  },
+  {
+    "rule_name": "孕妇合并COVID-19时可考虑单次胸部CT检查",
+    "head": {
+      "is_negative": false,
+      "name": "临床建议_妊娠期辐射检查",
+      "arguments": [
+        "X",
+        "单次胸部CT",
+        "可考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "X",
+          "新型冠状病毒肺炎"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇患者"
+    },
+    "source_text": "肺栓塞是一种严重威胁患者生命的疾病，在妊娠期间，尽管辐射性影像学检查方法会带来辐射暴露，但考虑到辐射暴露剂量较低和疾病诊疗所需，对怀疑肺栓塞的孕妇建议行X 射线、肺通气- 灌注扫描（ventilation-perfusion scan, VQ）或者肺动脉CT 肺血管造影（CT pulmonary angiography, CTPA）[15-16]；怀疑外伤、脑缺血性病变、小肠梗阻、肺炎等其他疾病时也可以考虑应用辐射性影像学检查[17-19]。同时必须注意，即使孕妇具有X 射线或CT 检查的临床应用指征，也必须遵循医学伦理学基本原理，尊重孕妇及家属的知情同意权，必须在检查前充分告知其目前已知的疾病相关信息、辐射性影像学检查的诊断重要性及潜在的胎儿伤害风险，并签署知情同意书。目前，正值新型冠状病毒肺炎的疫情期间，X 射线或CT 是妊娠合并新型冠状病毒肺炎诊断及判断预后的重要检查手段之一，且CT 优于X 射线[19-20]。所以，具有上述临床指征时，可考虑单次胸部CT 或者X 射线检查，但应注意防止交叉感染。"
+  },
+  {
+    "rule_name": "孕妇合并COVID-19时可考虑单次胸部X射线检查",
+    "head": {
+      "is_negative": false,
+      "name": "临床建议_妊娠期辐射检查",
+      "arguments": [
+        "X",
+        "单次胸部X射线",
+        "可考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "X",
+          "新型冠状病毒肺炎"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇患者"
+    },
+    "source_text": "肺栓塞是一种严重威胁患者生命的疾病，在妊娠期间，尽管辐射性影像学检查方法会带来辐射暴露，但考虑到辐射暴露剂量较低和疾病诊疗所需，对怀疑肺栓塞的孕妇建议行X 射线、肺通气- 灌注扫描（ventilation-perfusion scan, VQ）或者肺动脉CT 肺血管造影（CT pulmonary angiography, CTPA）[15-16]；怀疑外伤、脑缺血性病变、小肠梗阻、肺炎等其他疾病时也可以考虑应用辐射性影像学检查[17-19]。同时必须注意，即使孕妇具有X 射线或CT 检查的临床应用指征，也必须遵循医学伦理学基本原理，尊重孕妇及家属的知情同意权，必须在检查前充分告知其目前已知的疾病相关信息、辐射性影像学检查的诊断重要性及潜在的胎儿伤害风险，并签署知情同意书。目前，正值新型冠状病毒肺炎的疫情期间，X 射线或CT 是妊娠合并新型冠状病毒肺炎诊断及判断预后的重要检查手段之一，且CT 优于X 射线[19-20]。所以，具有上述临床指征时，可考虑单次胸部CT 或者X 射线检查，但应注意防止交叉感染。"
+  },
+  {
+    "rule_name": "妊娠期辐射检查需综合评估四项关键因素",
+    "head": {
+      "is_negative": false,
+      "name": "需综合评估检查关键因素",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受辐射检查",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查孕周",
+        "arguments": [
+          "Y",
+          "需考虑"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查暴露时长",
+        "arguments": [
+          "Y",
+          "需考虑"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查防护实施",
+        "arguments": [
+          "Y",
+          "需考虑"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查暴露距离",
+        "arguments": [
+          "Y",
+          "需考虑"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Y": "辐射检查过程"
+    },
+    "source_text": "三、妊娠期应用辐射性影像学检查的保护措施为降低近、远期不良结局发生风险，妊娠期使用X 射线、CT 和核素显像检查时需要考虑以下4 个方面内容：孕周、暴露持续时间、是否实施防护以及暴露距离。具体措施是：科学客观告知、合理选择检查方法、正确进行辐射防护以及遵循ALARA 原则。目的是在确保诊疗效果的情况下减轻孕产妇焦虑，降低辐射暴露剂量[21]。尽量避免早孕期使用。为了减少辐射暴露持续时间，需要熟练而准确地定位、合理而个性化的参数设定，告知患者正确配合顺利完成检查。暴露距离方面，主要是注意患者合适的体位，既保证检查时观察到病变区域，也减少孕妇其他部位的暴露，并便于辐射防护。对于孕妇因疾病诊断需要对非盆腔部位和腹部进行检查时，可考虑加用腹部防护装置。最常用的腹部防护装置是铋锑防护和铅防护，通常置于孕妇下腹部、胎儿正前方，防护标准应达到5 mm 铅当量，使用此类防护可以有效减少胎儿暴露辐射剂量；但使用防护措施时，应避免影响检查效果，以免导致重复检查而增加暴露次数[22-24]。"
+  },
+  {
+    "rule_name": "非盆腔腹部检查可加用腹部防护装置",
+    "head": {
+      "is_negative": false,
+      "name": "建议措施",
+      "arguments": [
+        "Y",
+        "加用腹部防护装置"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受诊断性检查",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查目标部位",
+        "arguments": [
+          "Y",
+          "非盆腔"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查目标部位",
+        "arguments": [
+          "Y",
+          "腹部"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "检查目标部位",
+        "arguments": [
+          "Y",
+          "盆腔"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Y": "诊断性检查"
+    },
+    "source_text": "三、妊娠期应用辐射性影像学检查的保护措施为降低近、远期不良结局发生风险，妊娠期使用X 射线、CT 和核素显像检查时需要考虑以下4 个方面内容：孕周、暴露持续时间、是否实施防护以及暴露距离。具体措施是：科学客观告知、合理选择检查方法、正确进行辐射防护以及遵循ALARA 原则。目的是在确保诊疗效果的情况下减轻孕产妇焦虑，降低辐射暴露剂量[21]。尽量避免早孕期使用。为了减少辐射暴露持续时间，需要熟练而准确地定位、合理而个性化的参数设定，告知患者正确配合顺利完成检查。暴露距离方面，主要是注意患者合适的体位，既保证检查时观察到病变区域，也减少孕妇其他部位的暴露，并便于辐射防护。对于孕妇因疾病诊断需要对非盆腔部位和腹部进行检查时，可考虑加用腹部防护装置。最常用的腹部防护装置是铋锑防护和铅防护，通常置于孕妇下腹部、胎儿正前方，防护标准应达到5 mm 铅当量，使用此类防护可以有效减少胎儿暴露辐射剂量；但使用防护措施时，应避免影响检查效果，以免导致重复检查而增加暴露次数[22-24]。"
+  },
+  {
+    "rule_name": "使用符合标准的铅当量腹部防护可有效减少胎儿辐射剂量",
+    "head": {
+      "is_negative": false,
+      "name": "效果",
+      "arguments": [
+        "Z",
+        "减少胎儿辐射剂量",
+        "有效"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受检查",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用防护装置",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防护装置类型",
+        "arguments": [
+          "Z",
+          "铋锑防护"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防护装置铅当量标准",
+        "arguments": [
+          "Z",
+          "5毫米"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防护装置放置部位",
+        "arguments": [
+          "Z",
+          "下腹部胎儿正前方"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Y": "检查",
+      "Z": "腹部防护装置"
+    },
+    "source_text": "三、妊娠期应用辐射性影像学检查的保护措施为降低近、远期不良结局发生风险，妊娠期使用X 射线、CT 和核素显像检查时需要考虑以下4 个方面内容：孕周、暴露持续时间、是否实施防护以及暴露距离。具体措施是：科学客观告知、合理选择检查方法、正确进行辐射防护以及遵循ALARA 原则。目的是在确保诊疗效果的情况下减轻孕产妇焦虑，降低辐射暴露剂量[21]。尽量避免早孕期使用。为了减少辐射暴露持续时间，需要熟练而准确地定位、合理而个性化的参数设定，告知患者正确配合顺利完成检查。暴露距离方面，主要是注意患者合适的体位，既保证检查时观察到病变区域，也减少孕妇其他部位的暴露，并便于辐射防护。对于孕妇因疾病诊断需要对非盆腔部位和腹部进行检查时，可考虑加用腹部防护装置。最常用的腹部防护装置是铋锑防护和铅防护，通常置于孕妇下腹部、胎儿正前方，防护标准应达到5 mm 铅当量，使用此类防护可以有效减少胎儿暴露辐射剂量；但使用防护措施时，应避免影响检查效果，以免导致重复检查而增加暴露次数[22-24]。"
+  },
+  {
+    "rule_name": "使用防护装置不当导致检查效果受影响则增加重复检查风险",
+    "head": {
+      "is_negative": false,
+      "name": "增加风险",
+      "arguments": [
+        "Y",
+        "重复检查"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "接受检查",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用防护装置",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影响效果",
+        "arguments": [
+          "Z",
+          "检查效果",
+          "负面影响"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "检查",
+      "Z": "防护装置"
+    },
+    "source_text": "三、妊娠期应用辐射性影像学检查的保护措施为降低近、远期不良结局发生风险，妊娠期使用X 射线、CT 和核素显像检查时需要考虑以下4 个方面内容：孕周、暴露持续时间、是否实施防护以及暴露距离。具体措施是：科学客观告知、合理选择检查方法、正确进行辐射防护以及遵循ALARA 原则。目的是在确保诊疗效果的情况下减轻孕产妇焦虑，降低辐射暴露剂量[21]。尽量避免早孕期使用。为了减少辐射暴露持续时间，需要熟练而准确地定位、合理而个性化的参数设定，告知患者正确配合顺利完成检查。暴露距离方面，主要是注意患者合适的体位，既保证检查时观察到病变区域，也减少孕妇其他部位的暴露，并便于辐射防护。对于孕妇因疾病诊断需要对非盆腔部位和腹部进行检查时，可考虑加用腹部防护装置。最常用的腹部防护装置是铋锑防护和铅防护，通常置于孕妇下腹部、胎儿正前方，防护标准应达到5 mm 铅当量，使用此类防护可以有效减少胎儿暴露辐射剂量；但使用防护措施时，应避免影响检查效果，以免导致重复检查而增加暴露次数[22-24]。"
+  },
+  {
+    "rule_name": "辐射暴露引致胎儿不良结局风险的基本条件",
+    "head": {
+      "is_negative": false,
+      "name": "存在风险",
+      "arguments": [
+        "不良结局",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "辐射暴露事件",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用对象",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胎儿个体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联暴露孕周",
+        "arguments": [
+          "X",
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联暴露剂量",
+        "arguments": [
+          "X",
+          "D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量不低于",
+        "arguments": [
+          "D",
+          "50mGy"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "辐射暴露事件",
+      "Y": "胎儿个体",
+      "W": "暴露孕周",
+      "D": "暴露剂量"
+    },
+    "source_text": "妊娠期辐射暴露的潜在不良结局风险主要是胚胎死亡以及胎儿生长受限、小头畸形、肿瘤以及远期智力障碍等。既往资料显示，导致不良结局的风险大小和程度取决于胎儿的暴露孕周和暴露剂量[4]。动物实验及回顾性临床资料显示，造成胎儿不良结局的最低辐射暴露剂量通常为50~200 mGy，大剂量的暴露（＞1 Gy，1 Gy=1 000 mGy）才容易导致胚胎死亡，临床上造成生后严重智力障碍的最低暴露剂量是610 mGy[5-6]。"
+  },
+  {
+    "rule_name": "低剂量辐射暴露不导致特定不良结局",
+    "head": {
+      "is_negative": true,
+      "name": "导致后果",
+      "arguments": [
+        "X",
+        "胎儿生长受限"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "辐射暴露事件",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用对象",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胎儿个体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联暴露剂量",
+        "arguments": [
+          "X",
+          "D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量低于",
+        "arguments": [
+          "D",
+          "50mGy"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "辐射暴露事件",
+      "Y": "胎儿个体",
+      "D": "暴露剂量"
+    },
+    "source_text": "妊娠期辐射暴露的潜在不良结局风险主要是胚胎死亡以及胎儿生长受限、小头畸形、肿瘤以及远期智力障碍等。既往资料显示，导致不良结局的风险大小和程度取决于胎儿的暴露孕周和暴露剂量[4]。动物实验及回顾性临床资料显示，造成胎儿不良结局的最低辐射暴露剂量通常为50~200 mGy，大剂量的暴露（＞1 Gy，1 Gy=1 000 mGy）才容易导致胚胎死亡，临床上造成生后严重智力障碍的最低暴露剂量是610 mGy[5-6]。"
+  },
+  {
+    "rule_name": "大剂量辐射暴露易致胚胎死亡",
+    "head": {
+      "is_negative": false,
+      "name": "导致后果",
+      "arguments": [
+        "X",
+        "胚胎死亡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "辐射暴露事件",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用对象",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胎儿个体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联暴露孕周",
+        "arguments": [
+          "X",
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联暴露剂量",
+        "arguments": [
+          "X",
+          "D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量大于",
+        "arguments": [
+          "D",
+          "1Gy"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "辐射暴露事件",
+      "Y": "胎儿个体",
+      "W": "暴露孕周",
+      "D": "暴露剂量"
+    },
+    "source_text": "妊娠期辐射暴露的潜在不良结局风险主要是胚胎死亡以及胎儿生长受限、小头畸形、肿瘤以及远期智力障碍等。既往资料显示，导致不良结局的风险大小和程度取决于胎儿的暴露孕周和暴露剂量[4]。动物实验及回顾性临床资料显示，造成胎儿不良结局的最低辐射暴露剂量通常为50~200 mGy，大剂量的暴露（＞1 Gy，1 Gy=1 000 mGy）才容易导致胚胎死亡，临床上造成生后严重智力障碍的最低暴露剂量是610 mGy[5-6]。"
+  },
+  {
+    "rule_name": "达到特定阈值的辐射暴露引致严重智力障碍",
+    "head": {
+      "is_negative": false,
+      "name": "导致后果",
+      "arguments": [
+        "X",
+        "严重智力障碍"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "辐射暴露事件",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用对象",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胎儿个体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联暴露剂量",
+        "arguments": [
+          "X",
+          "D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量不低于",
+        "arguments": [
+          "D",
+          "610mGy"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "辐射暴露事件",
+      "Y": "胎儿个体",
+      "D": "暴露剂量"
+    },
+    "source_text": "妊娠期辐射暴露的潜在不良结局风险主要是胚胎死亡以及胎儿生长受限、小头畸形、肿瘤以及远期智力障碍等。既往资料显示，导致不良结局的风险大小和程度取决于胎儿的暴露孕周和暴露剂量[4]。动物实验及回顾性临床资料显示，造成胎儿不良结局的最低辐射暴露剂量通常为50~200 mGy，大剂量的暴露（＞1 Gy，1 Gy=1 000 mGy）才容易导致胚胎死亡，临床上造成生后严重智力障碍的最低暴露剂量是610 mGy[5-6]。"
+  },
+  {
+    "rule_name": "高累积辐射暴露后的继续妊娠风险决策指征",
+    "head": {
+      "is_negative": false,
+      "name": "风险决策项目",
+      "arguments": [
+        "Z",
+        "继续妊娠",
+        "综合分析"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于孕期",
+        "arguments": [
+          "X",
+          "孕期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属检查",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致结果",
+        "arguments": [
+          "Y",
+          "累积暴露剂量超过50mGy"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "参考因素",
+        "arguments": [
+          "Z",
+          "孕周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "参考因素",
+        "arguments": [
+          "Z",
+          "胎儿辐射暴露剂量"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "尊重意愿",
+        "arguments": [
+          "Z",
+          "孕妇及家属"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合依据",
+        "arguments": [
+          "Z",
+          "相关法律法规"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Y": "检查",
+      "Z": "风险决策项目"
+    },
+    "source_text": "综上所述，尚无证据表明妊娠期单次X 射线和CT 影像学检查对胎儿存在危害。部分孕妇意外接受了辐射性影像学检查，由于其胎儿辐射暴露剂量远远低于50~100 mGy，不推荐作为终止妊娠的医疗指征[3]。但孕期，尤其是早孕期，因病情需要特殊类型检查或多次检查导致累积暴露剂量超过50~100 mGy 时，可根据孕周及胎儿辐射暴露剂量大小（表2[3,10]）综合分析其风险；同时，是否继续妊娠还需要尊重孕妇及家属意愿，并参考相关法律法规。此外，为提高对病变组织的辨识度，在CT 检查过程中，可能需要使用对比剂。使用对比剂时应考虑孕周、对比剂性质以及使用途径。口服碘对比剂因不被吸收，不会造成实质的伤害，但静脉使用的碘对比剂能够穿过胎盘屏障进入胎儿循环及羊水[11]。动物研究结果显示，孕期使用静脉碘对比剂未见致畸或造成遗传变异[11-12]。有研究对21 例行CT 检查同时静脉使用碘对比剂孕妇的新生儿进行随访，CT 检查的平均孕周为23 周，平均分娩孕周为38 周，分娩后36 h 行新生儿甲状腺功能检查均未见异常[13]。理论上，碘对比剂对胎儿甲状腺功能存在潜在影响，但并未在人类研究中得到证实[13]。"
+  },
+  {
+    "rule_name": "口服碘对比剂在CT检查中的安全性判定",
+    "head": {
+      "is_negative": false,
+      "name": "安全性结论",
+      "arguments": [
+        "W",
+        "无实质伤害"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用物质",
+        "arguments": [
+          "Y",
+          "对比剂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属检查",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对比剂性质",
+        "arguments": [
+          "W",
+          "口服碘对比剂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "物质属性",
+        "arguments": [
+          "W",
+          "不被吸收"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Y": "检查",
+      "W": "对比剂使用事件"
+    },
+    "source_text": "综上所述，尚无证据表明妊娠期单次X 射线和CT 影像学检查对胎儿存在危害。部分孕妇意外接受了辐射性影像学检查，由于其胎儿辐射暴露剂量远远低于50~100 mGy，不推荐作为终止妊娠的医疗指征[3]。但孕期，尤其是早孕期，因病情需要特殊类型检查或多次检查导致累积暴露剂量超过50~100 mGy 时，可根据孕周及胎儿辐射暴露剂量大小（表2[3,10]）综合分析其风险；同时，是否继续妊娠还需要尊重孕妇及家属意愿，并参考相关法律法规。此外，为提高对病变组织的辨识度，在CT 检查过程中，可能需要使用对比剂。使用对比剂时应考虑孕周、对比剂性质以及使用途径。口服碘对比剂因不被吸收，不会造成实质的伤害，但静脉使用的碘对比剂能够穿过胎盘屏障进入胎儿循环及羊水[11]。动物研究结果显示，孕期使用静脉碘对比剂未见致畸或造成遗传变异[11-12]。有研究对21 例行CT 检查同时静脉使用碘对比剂孕妇的新生儿进行随访，CT 检查的平均孕周为23 周，平均分娩孕周为38 周，分娩后36 h 行新生儿甲状腺功能检查均未见异常[13]。理论上，碘对比剂对胎儿甲状腺功能存在潜在影响，但并未在人类研究中得到证实[13]。"
+  },
+  {
+    "rule_name": "静脉碘对比剂潜在影响但动物与人体现有研究未证实危害",
+    "head": {
+      "is_negative": false,
+      "name": "研究结论",
+      "arguments": [
+        "V",
+        "潜在影响未证实"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用物质",
+        "arguments": [
+          "Y",
+          "对比剂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属检查",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对比剂性质",
+        "arguments": [
+          "V",
+          "静脉碘对比剂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "物质属性",
+        "arguments": [
+          "V",
+          "能穿过胎盘屏障"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Y": "检查",
+      "V": "静脉碘对比剂研究事件"
+    },
+    "source_text": "综上所述，尚无证据表明妊娠期单次X 射线和CT 影像学检查对胎儿存在危害。部分孕妇意外接受了辐射性影像学检查，由于其胎儿辐射暴露剂量远远低于50~100 mGy，不推荐作为终止妊娠的医疗指征[3]。但孕期，尤其是早孕期，因病情需要特殊类型检查或多次检查导致累积暴露剂量超过50~100 mGy 时，可根据孕周及胎儿辐射暴露剂量大小（表2[3,10]）综合分析其风险；同时，是否继续妊娠还需要尊重孕妇及家属意愿，并参考相关法律法规。此外，为提高对病变组织的辨识度，在CT 检查过程中，可能需要使用对比剂。使用对比剂时应考虑孕周、对比剂性质以及使用途径。口服碘对比剂因不被吸收，不会造成实质的伤害，但静脉使用的碘对比剂能够穿过胎盘屏障进入胎儿循环及羊水[11]。动物研究结果显示，孕期使用静脉碘对比剂未见致畸或造成遗传变异[11-12]。有研究对21 例行CT 检查同时静脉使用碘对比剂孕妇的新生儿进行随访，CT 检查的平均孕周为23 周，平均分娩孕周为38 周，分娩后36 h 行新生儿甲状腺功能检查均未见异常[13]。理论上，碘对比剂对胎儿甲状腺功能存在潜在影响，但并未在人类研究中得到证实[13]。"
+  }
+]

@@ -1,0 +1,447 @@
+[
+  {
+    "rule_name": "规范化DTC手术的积极综合预后",
+    "head": {
+      "is_negative": false,
+      "name": "预后良好",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "分化型甲状腺癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "外科手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗性质",
+        "arguments": [
+          "X",
+          "规范化"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "甲状腺结节(thyroid nodules) 作为常见疾病，近几年发病率有所升高，其中甲状腺癌(thyroid neoplasm) 占很大部分，引起广泛关注。甲状腺结节与甲状腺癌治疗方案较多，但外科手术治疗属于重要的方式，尤其是分化型甲状腺癌(differentiated thyroid cancer，DTC)，而规范化的手术方案除了可以让患者获取良好的预后与生存率，还能改善患者的术后生活质量，反之若手术方案不规范，则病灶复发风险高，容易增加二次手术率，降低生存率，在经济、生理与心理上也是巨大打击。"
+  },
+  {
+    "rule_name": "不规范化DTC手术的消极综合风险与打击",
+    "head": {
+      "is_negative": false,
+      "name": "病灶复发风险高",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "分化型甲状腺癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "外科手术"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "治疗性质",
+        "arguments": [
+          "X",
+          "规范化"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "甲状腺结节(thyroid nodules) 作为常见疾病，近几年发病率有所升高，其中甲状腺癌(thyroid neoplasm) 占很大部分，引起广泛关注。甲状腺结节与甲状腺癌治疗方案较多，但外科手术治疗属于重要的方式，尤其是分化型甲状腺癌(differentiated thyroid cancer，DTC)，而规范化的手术方案除了可以让患者获取良好的预后与生存率，还能改善患者的术后生活质量，反之若手术方案不规范，则病灶复发风险高，容易增加二次手术率，降低生存率，在经济、生理与心理上也是巨大打击。"
+  },
+  {
+    "rule_name": "恶性结节一般治疗原则为手术",
+    "head": {
+      "is_negative": false,
+      "name": "治疗原则",
+      "arguments": [
+        "Y",
+        "手术治疗",
+        "首选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "恶性",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "极低危恶性结节",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "甲状腺结节"
+    },
+    "source_text": "恶性：恶性结节多需要手术治疗，极低危者，若存在合并症，且有手术高风险，或其他因素无手术指征，则先密切观察，而非手术治疗，因为这类情况下患者预后较好，疾病死亡率不足1%。国外有研究对1 235 例患者实施研究，5 年与10 年肿瘤增大比例依次为5%、8%，证实淋巴结转移比例在1.7% 与3.8%。"
+  },
+  {
+    "rule_name": "极低危恶性结节患者伴有合并症及手术高风险则密切观察",
+    "head": {
+      "is_negative": false,
+      "name": "治疗原则",
+      "arguments": [
+        "Y",
+        "密切观察",
+        "首选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "极低危恶性结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在合并症",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术高风险",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺结节"
+    },
+    "source_text": "恶性：恶性结节多需要手术治疗，极低危者，若存在合并症，且有手术高风险，或其他因素无手术指征，则先密切观察，而非手术治疗，因为这类情况下患者预后较好，疾病死亡率不足1%。国外有研究对1 235 例患者实施研究，5 年与10 年肿瘤增大比例依次为5%、8%，证实淋巴结转移比例在1.7% 与3.8%。"
+  },
+  {
+    "rule_name": "极低危恶性结节患者伴有合并症及无手术指征则密切观察",
+    "head": {
+      "is_negative": false,
+      "name": "治疗原则",
+      "arguments": [
+        "Y",
+        "密切观察",
+        "首选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "极低危恶性结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在合并症",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "其他因素无手术指征",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺结节"
+    },
+    "source_text": "恶性：恶性结节多需要手术治疗，极低危者，若存在合并症，且有手术高风险，或其他因素无手术指征，则先密切观察，而非手术治疗，因为这类情况下患者预后较好，疾病死亡率不足1%。国外有研究对1 235 例患者实施研究，5 年与10 年肿瘤增大比例依次为5%、8%，证实淋巴结转移比例在1.7% 与3.8%。"
+  },
+  {
+    "rule_name": "非进展期淋巴结转移的非侵犯性PTC患者处理方案",
+    "head": {
+      "is_negative": false,
+      "name": "推荐术式",
+      "arguments": [
+        "X",
+        "甲状腺切除",
+        "实施"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病分期",
+        "arguments": [
+          "X",
+          "非进展期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转移情况",
+        "arguments": [
+          "X",
+          "淋巴结转移"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "确诊疾病",
+        "arguments": [
+          "X",
+          "非侵犯性PTC"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "推荐术式",
+        "arguments": [
+          "X",
+          "预防性淋巴结清扫术",
+          "实施"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "(3) 非进展期、淋巴结转移、非侵犯性PTC 患者或者滤泡状癌( 大部分) 患者可实施甲状腺切除，但不予以预防性淋巴结清扫术。(4) 在《新指南》中还明确指出，手术期间均应直视下检查喉返神经情况，并且保护喉上神经外支。手术期间，经神经刺激辨识神经及其功能[12]。和直视下对比，神经刺激不会明显改善受损神经功能。对高危或复杂患者，神经刺激却可减轻喉返神经麻痹，这可进一步研究与探讨。"
+  },
+  {
+    "rule_name": "非进展期淋巴结转移的滤泡状癌患者处理方案",
+    "head": {
+      "is_negative": false,
+      "name": "推荐术式",
+      "arguments": [
+        "X",
+        "甲状腺切除",
+        "实施"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病分期",
+        "arguments": [
+          "X",
+          "非进展期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转移情况",
+        "arguments": [
+          "X",
+          "淋巴结转移"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "确诊疾病",
+        "arguments": [
+          "X",
+          "滤泡状癌"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "推荐术式",
+        "arguments": [
+          "X",
+          "预防性淋巴结清扫术",
+          "实施"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "(3) 非进展期、淋巴结转移、非侵犯性PTC 患者或者滤泡状癌( 大部分) 患者可实施甲状腺切除，但不予以预防性淋巴结清扫术。(4) 在《新指南》中还明确指出，手术期间均应直视下检查喉返神经情况，并且保护喉上神经外支。手术期间，经神经刺激辨识神经及其功能[12]。和直视下对比，神经刺激不会明显改善受损神经功能。对高危或复杂患者，神经刺激却可减轻喉返神经麻痹，这可进一步研究与探讨。"
+  },
+  {
+    "rule_name": "甲状腺手术神经保护标准操作",
+    "head": {
+      "is_negative": false,
+      "name": "手术操作要求",
+      "arguments": [
+        "Y",
+        "检查喉返神经",
+        "直视下"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "手术过程",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Y",
+          "甲状腺相关"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术操作要求",
+        "arguments": [
+          "Y",
+          "保护喉上神经外支",
+          "必须"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术操作要求",
+        "arguments": [
+          "Y",
+          "辨识神经功能",
+          "使用神经刺激"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "手术过程"
+    },
+    "source_text": "(3) 非进展期、淋巴结转移、非侵犯性PTC 患者或者滤泡状癌( 大部分) 患者可实施甲状腺切除，但不予以预防性淋巴结清扫术。(4) 在《新指南》中还明确指出，手术期间均应直视下检查喉返神经情况，并且保护喉上神经外支。手术期间，经神经刺激辨识神经及其功能[12]。和直视下对比，神经刺激不会明显改善受损神经功能。对高危或复杂患者，神经刺激却可减轻喉返神经麻痹，这可进一步研究与探讨。"
+  },
+  {
+    "rule_name": "高危复杂患者术中神经刺激的潜在获益",
+    "head": {
+      "is_negative": false,
+      "name": "操作潜在获益",
+      "arguments": [
+        "Y",
+        "减轻喉返神经麻痹",
+        "可能"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "手术过程",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Y",
+          "甲状腺相关"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术中应用",
+        "arguments": [
+          "Y",
+          "神经刺激"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者状态",
+        "arguments": [
+          "Y",
+          "高危或复杂"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "手术过程"
+    },
+    "source_text": "(3) 非进展期、淋巴结转移、非侵犯性PTC 患者或者滤泡状癌( 大部分) 患者可实施甲状腺切除，但不予以预防性淋巴结清扫术。(4) 在《新指南》中还明确指出，手术期间均应直视下检查喉返神经情况，并且保护喉上神经外支。手术期间，经神经刺激辨识神经及其功能[12]。和直视下对比，神经刺激不会明显改善受损神经功能。对高危或复杂患者，神经刺激却可减轻喉返神经麻痹，这可进一步研究与探讨。"
+  }
+]

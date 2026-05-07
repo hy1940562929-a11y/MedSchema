@@ -1,0 +1,380 @@
+[
+  {
+    "rule_name": "社区获得性肺炎诊断标准_咳嗽咯痰症状加重",
+    "head": {
+      "is_negative": false,
+      "name": "诊断为",
+      "arguments": [
+        "X",
+        "社区获得性肺炎"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "发病于社区环境",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "咳嗽咯痰",
+          "加重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "就诊状态",
+        "arguments": [
+          "X",
+          "入院后潜伏期内"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理改变",
+        "arguments": [
+          "X",
+          "肺实质炎症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "社区获得性肺炎( community-acquired pneumo-nia，CAP)指在医院外罹患的感染性肺实质( 含肺泡壁，即广义上的肺间质)炎症，包括具有明确潜伏期的病原体感染在入院后于潜伏期内发病的肺炎［1］，临床表现为发热、咳嗽、咯痰、气短、胸闷或胸痛等。CAP 是老年人的常见病和多发病，死亡率高。老年CAP 具有呼吸道症状不典型、感染症状不突出、以肺外表现为首发症状等特点，易出现严重并发症，预后差［2 －4］。CAP 多属于中医学的“风温肺热”“咳嗽”等病证范畴。"
+  },
+  {
+    "rule_name": "社区获得性肺炎诊断标准_发热症状",
+    "head": {
+      "is_negative": false,
+      "name": "诊断为",
+      "arguments": [
+        "X",
+        "社区获得性肺炎"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "发病于社区环境",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "发热",
+          "新出现"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "体温阈值",
+        "arguments": [
+          "X",
+          "大于37.3摄氏度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理改变",
+        "arguments": [
+          "X",
+          "肺实质炎症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "社区获得性肺炎( community-acquired pneumo-nia，CAP)指在医院外罹患的感染性肺实质( 含肺泡壁，即广义上的肺间质)炎症，包括具有明确潜伏期的病原体感染在入院后于潜伏期内发病的肺炎［1］，临床表现为发热、咳嗽、咯痰、气短、胸闷或胸痛等。CAP 是老年人的常见病和多发病，死亡率高。老年CAP 具有呼吸道症状不典型、感染症状不突出、以肺外表现为首发症状等特点，易出现严重并发症，预后差［2 －4］。CAP 多属于中医学的“风温肺热”“咳嗽”等病证范畴。"
+  },
+  {
+    "rule_name": "老年社区获得性肺炎患者临床特征",
+    "head": {
+      "is_negative": false,
+      "name": "预后判断",
+      "arguments": [
+        "X",
+        "预后差"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "老年患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "社区获得性肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床特点",
+        "arguments": [
+          "X",
+          "呼吸道症状不典型"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症风险",
+        "arguments": [
+          "X",
+          "高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床特点",
+        "arguments": [
+          "X",
+          "以肺外表现为首发症状"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "社区获得性肺炎( community-acquired pneumo-nia，CAP)指在医院外罹患的感染性肺实质( 含肺泡壁，即广义上的肺间质)炎症，包括具有明确潜伏期的病原体感染在入院后于潜伏期内发病的肺炎［1］，临床表现为发热、咳嗽、咯痰、气短、胸闷或胸痛等。CAP 是老年人的常见病和多发病，死亡率高。老年CAP 具有呼吸道症状不典型、感染症状不突出、以肺外表现为首发症状等特点，易出现严重并发症，预后差［2 －4］。CAP 多属于中医学的“风温肺热”“咳嗽”等病证范畴。"
+  },
+  {
+    "rule_name": "社区获得性肺炎中医病证归属_风温肺热",
+    "head": {
+      "is_negative": false,
+      "name": "中医病证归属",
+      "arguments": [
+        "X",
+        "风温肺热"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "社区获得性肺炎"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "社区获得性肺炎( community-acquired pneumo-nia，CAP)指在医院外罹患的感染性肺实质( 含肺泡壁，即广义上的肺间质)炎症，包括具有明确潜伏期的病原体感染在入院后于潜伏期内发病的肺炎［1］，临床表现为发热、咳嗽、咯痰、气短、胸闷或胸痛等。CAP 是老年人的常见病和多发病，死亡率高。老年CAP 具有呼吸道症状不典型、感染症状不突出、以肺外表现为首发症状等特点，易出现严重并发症，预后差［2 －4］。CAP 多属于中医学的“风温肺热”“咳嗽”等病证范畴。"
+  },
+  {
+    "rule_name": "社区获得性肺炎中医病证归属_咳嗽",
+    "head": {
+      "is_negative": false,
+      "name": "中医病证归属",
+      "arguments": [
+        "X",
+        "咳嗽"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "社区获得性肺炎"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "社区获得性肺炎( community-acquired pneumo-nia，CAP)指在医院外罹患的感染性肺实质( 含肺泡壁，即广义上的肺间质)炎症，包括具有明确潜伏期的病原体感染在入院后于潜伏期内发病的肺炎［1］，临床表现为发热、咳嗽、咯痰、气短、胸闷或胸痛等。CAP 是老年人的常见病和多发病，死亡率高。老年CAP 具有呼吸道症状不典型、感染症状不突出、以肺外表现为首发症状等特点，易出现严重并发症，预后差［2 －4］。CAP 多属于中医学的“风温肺热”“咳嗽”等病证范畴。"
+  },
+  {
+    "rule_name": "满足主要标准一_需机械通气则诊断为重症肺炎",
+    "head": {
+      "is_negative": false,
+      "name": "疾病严重程度诊断",
+      "arguments": [
+        "Y",
+        "重症肺炎",
+        "成立"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病实例",
+        "arguments": [
+          "Y",
+          "社区获得性肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合治疗指征",
+        "arguments": [
+          "Y",
+          "需要气管插管行机械通气治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疾病实例"
+    },
+    "source_text": "重症肺炎诊断标准［1］: 符合下列1 项主要标准或≥3 项次要标准，可诊断为重症肺炎。主要标准:( 1)需要气管插管行机械通气治疗;( 2)脓毒症休克经积极液体复苏后仍需要血管活性药物治疗。次要标准:( 1)呼吸频率≥30 次/min;( 2)氧合指数≤250 mmHg ( 1 mmHg = 0. 133 kPa) ;( 3)多肺叶浸润;( 4)意识障碍和/或定向障碍;( 5)血尿素氮≥7. 14 mmol/L;( 6)收缩压＜90 mmHg 需要积极的液体复苏。"
+  },
+  {
+    "rule_name": "满足主要标准二_脓毒症休克需血管活性药则诊断为重症肺炎",
+    "head": {
+      "is_negative": false,
+      "name": "疾病严重程度诊断",
+      "arguments": [
+        "Y",
+        "重症肺炎",
+        "成立"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病实例",
+        "arguments": [
+          "Y",
+          "社区获得性肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "Y",
+          "脓毒症休克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合治疗指征",
+        "arguments": [
+          "Y",
+          "液体复苏后仍需要血管活性药物治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疾病实例"
+    },
+    "source_text": "重症肺炎诊断标准［1］: 符合下列1 项主要标准或≥3 项次要标准，可诊断为重症肺炎。主要标准:( 1)需要气管插管行机械通气治疗;( 2)脓毒症休克经积极液体复苏后仍需要血管活性药物治疗。次要标准:( 1)呼吸频率≥30 次/min;( 2)氧合指数≤250 mmHg ( 1 mmHg = 0. 133 kPa) ;( 3)多肺叶浸润;( 4)意识障碍和/或定向障碍;( 5)血尿素氮≥7. 14 mmol/L;( 6)收缩压＜90 mmHg 需要积极的液体复苏。"
+  },
+  {
+    "rule_name": "满足三项次要标准则诊断为重症肺炎_示例组合",
+    "head": {
+      "is_negative": false,
+      "name": "疾病严重程度诊断",
+      "arguments": [
+        "Y",
+        "重症肺炎",
+        "成立"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病实例",
+        "arguments": [
+          "Y",
+          "社区获得性肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生命体征指标",
+        "arguments": [
+          "Y",
+          "呼吸频率≥30次每分钟"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "实验室指标",
+        "arguments": [
+          "Y",
+          "氧合指数≤250mmHg"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学表现",
+        "arguments": [
+          "Y",
+          "多肺叶浸润"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疾病实例"
+    },
+    "source_text": "重症肺炎诊断标准［1］: 符合下列1 项主要标准或≥3 项次要标准，可诊断为重症肺炎。主要标准:( 1)需要气管插管行机械通气治疗;( 2)脓毒症休克经积极液体复苏后仍需要血管活性药物治疗。次要标准:( 1)呼吸频率≥30 次/min;( 2)氧合指数≤250 mmHg ( 1 mmHg = 0. 133 kPa) ;( 3)多肺叶浸润;( 4)意识障碍和/或定向障碍;( 5)血尿素氮≥7. 14 mmol/L;( 6)收缩压＜90 mmHg 需要积极的液体复苏。"
+  }
+]

@@ -1,0 +1,732 @@
+[
+  {
+    "rule_name": "SAH患者推荐转运至卒中中心救治",
+    "head": {
+      "is_negative": false,
+      "name": "转运推荐",
+      "arguments": [
+        "X",
+        "卒中中心",
+        "应尽可能"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "SAH患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "救治目的",
+        "arguments": [
+          "X",
+          "降低死亡率"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "SAH患者应尽可能到有丰富诊疗经验的卒中中心救治，可降低患者的死亡率（Ⅱa类推荐，B级证据）。初级卒中中心若诊断为SAH且怀疑合并动脉瘤的患者，Hess-Hunt 3级以上或WFNS Ⅳ～Ⅴ级应积极转运至就近具有手术和（或）介入条件的综合卒中中心进行病因治疗（Ⅱa类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "初级中心SAH动脉瘤患者Hunt-Hess3级以上需转运至综合卒中中心",
+    "head": {
+      "is_negative": false,
+      "name": "转运推荐",
+      "arguments": [
+        "X",
+        "综合卒中中心",
+        "积极"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者位于",
+        "arguments": [
+          "X",
+          "初级卒中中心"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断结果",
+        "arguments": [
+          "X",
+          "SAH"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "怀疑合并",
+        "arguments": [
+          "X",
+          "动脉瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "Hunt-Hess分级",
+        "arguments": [
+          "X",
+          "3级以上"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "条件具备",
+        "arguments": [
+          "综合卒中中心",
+          "手术介入条件"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转运目的",
+        "arguments": [
+          "X",
+          "病因治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "SAH患者应尽可能到有丰富诊疗经验的卒中中心救治，可降低患者的死亡率（Ⅱa类推荐，B级证据）。初级卒中中心若诊断为SAH且怀疑合并动脉瘤的患者，Hess-Hunt 3级以上或WFNS Ⅳ～Ⅴ级应积极转运至就近具有手术和（或）介入条件的综合卒中中心进行病因治疗（Ⅱa类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "初级中心SAH动脉瘤患者WFNS_IV_V级需转运至综合卒中中心",
+    "head": {
+      "is_negative": false,
+      "name": "转运推荐",
+      "arguments": [
+        "X",
+        "综合卒中中心",
+        "积极"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者位于",
+        "arguments": [
+          "X",
+          "初级卒中中心"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断结果",
+        "arguments": [
+          "X",
+          "SAH"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "怀疑合并",
+        "arguments": [
+          "X",
+          "动脉瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "WFNS分级",
+        "arguments": [
+          "X",
+          "IV-V级"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "条件具备",
+        "arguments": [
+          "综合卒中中心",
+          "手术介入条件"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转运目的",
+        "arguments": [
+          "X",
+          "病因治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "SAH患者应尽可能到有丰富诊疗经验的卒中中心救治，可降低患者的死亡率（Ⅱa类推荐，B级证据）。初级卒中中心若诊断为SAH且怀疑合并动脉瘤的患者，Hess-Hunt 3级以上或WFNS Ⅳ～Ⅴ级应积极转运至就近具有手术和（或）介入条件的综合卒中中心进行病因治疗（Ⅱa类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "显著再出血风险患者短期应用氨甲环酸指征",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "氨甲环酸",
+        "短期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "动脉瘤性SAH"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "再出血风险",
+        "arguments": [
+          "X",
+          "显著"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗延迟",
+        "arguments": [
+          "X",
+          "动脉瘤闭塞"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "绝对禁忌证",
+        "arguments": [
+          "X",
+          "抗纤溶药"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "抗纤维蛋白溶解药物虽能降低动脉瘤性表5 Claassen分级级别标准0没有SAH及脑室内出血1轻度SAH，没有双侧侧脑室内出血2轻度SAH，伴有双侧侧脑室内出血3大量SAH，没有双侧侧脑室内出血4大量SAH，伴有双侧侧脑室内出血图2急性期管理流程注：DCI：迟发性脑梗死http://guide.medlive.cn/817中国卒中杂志2019年8月第14卷第8期SAH后再出血的风险，却不能提高患者的总体预后。若患者有显著的再出血风险，又不可避免地需延迟动脉瘤闭塞治疗，且无绝对禁忌证时，可应用氨甲环酸或氨基己酸进行短期治疗（＜72 h），以降低SAH再出血的风险（Ⅱa类推荐，C级证据）。但不推荐适用于已行动脉瘤外科夹闭或介入填塞的患者（Ⅲ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "显著再出血风险患者短期应用氨基己酸指征",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "氨基己酸",
+        "短期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "动脉瘤性SAH"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "再出血风险",
+        "arguments": [
+          "X",
+          "显著"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗延迟",
+        "arguments": [
+          "X",
+          "动脉瘤闭塞"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "绝对禁忌证",
+        "arguments": [
+          "X",
+          "抗纤溶药"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "抗纤维蛋白溶解药物虽能降低动脉瘤性表5 Claassen分级级别标准0没有SAH及脑室内出血1轻度SAH，没有双侧侧脑室内出血2轻度SAH，伴有双侧侧脑室内出血3大量SAH，没有双侧侧脑室内出血4大量SAH，伴有双侧侧脑室内出血图2急性期管理流程注：DCI：迟发性脑梗死http://guide.medlive.cn/817中国卒中杂志2019年8月第14卷第8期SAH后再出血的风险，却不能提高患者的总体预后。若患者有显著的再出血风险，又不可避免地需延迟动脉瘤闭塞治疗，且无绝对禁忌证时，可应用氨甲环酸或氨基己酸进行短期治疗（＜72 h），以降低SAH再出血的风险（Ⅱa类推荐，C级证据）。但不推荐适用于已行动脉瘤外科夹闭或介入填塞的患者（Ⅲ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "已行动脉瘤外科夹闭患者抗纤溶药不推荐",
+    "head": {
+      "is_negative": false,
+      "name": "用药不推荐",
+      "arguments": [
+        "X",
+        "抗纤溶药",
+        "针对再出血"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "动脉瘤性SAH"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "已接受治疗",
+        "arguments": [
+          "X",
+          "动脉瘤外科夹闭"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "抗纤维蛋白溶解药物虽能降低动脉瘤性表5 Claassen分级级别标准0没有SAH及脑室内出血1轻度SAH，没有双侧侧脑室内出血2轻度SAH，伴有双侧侧脑室内出血3大量SAH，没有双侧侧脑室内出血4大量SAH，伴有双侧侧脑室内出血图2急性期管理流程注：DCI：迟发性脑梗死http://guide.medlive.cn/817中国卒中杂志2019年8月第14卷第8期SAH后再出血的风险，却不能提高患者的总体预后。若患者有显著的再出血风险，又不可避免地需延迟动脉瘤闭塞治疗，且无绝对禁忌证时，可应用氨甲环酸或氨基己酸进行短期治疗（＜72 h），以降低SAH再出血的风险（Ⅱa类推荐，C级证据）。但不推荐适用于已行动脉瘤外科夹闭或介入填塞的患者（Ⅲ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "已行动脉瘤介入填塞患者抗纤溶药不推荐",
+    "head": {
+      "is_negative": false,
+      "name": "用药不推荐",
+      "arguments": [
+        "X",
+        "抗纤溶药",
+        "针对再出血"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "动脉瘤性SAH"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "已接受治疗",
+        "arguments": [
+          "X",
+          "动脉瘤介入填塞"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "抗纤维蛋白溶解药物虽能降低动脉瘤性表5 Claassen分级级别标准0没有SAH及脑室内出血1轻度SAH，没有双侧侧脑室内出血2轻度SAH，伴有双侧侧脑室内出血3大量SAH，没有双侧侧脑室内出血4大量SAH，伴有双侧侧脑室内出血图2急性期管理流程注：DCI：迟发性脑梗死http://guide.medlive.cn/817中国卒中杂志2019年8月第14卷第8期SAH后再出血的风险，却不能提高患者的总体预后。若患者有显著的再出血风险，又不可避免地需延迟动脉瘤闭塞治疗，且无绝对禁忌证时，可应用氨甲环酸或氨基己酸进行短期治疗（＜72 h），以降低SAH再出血的风险（Ⅱa类推荐，C级证据）。但不推荐适用于已行动脉瘤外科夹闭或介入填塞的患者（Ⅲ类推荐，C级证据）。"
+  },
+  {
+    "rule_name": "破裂动脉瘤患者需尽早干预以降低再出血风险",
+    "head": {
+      "is_negative": false,
+      "name": "需尽早干预",
+      "arguments": [
+        "Y",
+        "发病72小时内"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动脉瘤",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动脉瘤状态",
+        "arguments": [
+          "Y",
+          "破裂"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "动脉瘤"
+    },
+    "source_text": "对大部分破裂动脉瘤患者，通过介入治疗或开颅手术对动脉瘤进行干预应尽早（发病72 h内），以降低再出血风险（Ⅰ类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "同时适合介入与手术的动脉瘤患者有条件时首选介入治疗",
+    "head": {
+      "is_negative": false,
+      "name": "首选治疗方案",
+      "arguments": [
+        "X",
+        "介入治疗",
+        "针对动脉瘤"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动脉瘤",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "同时适合治疗方式",
+        "arguments": [
+          "Y",
+          "介入治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "同时适合治疗方式",
+        "arguments": [
+          "Y",
+          "开颅手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具备治疗条件",
+        "arguments": [
+          "X",
+          "有条件"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "动脉瘤"
+    },
+    "source_text": "对于同时适合介入治疗和开颅手术的动脉瘤患者，有条件者可首选介入治疗（Ⅰ类推荐，A级证据）。"
+  },
+  {
+    "rule_name": "高龄重症破裂动脉瘤患者首选介入治疗",
+    "head": {
+      "is_negative": false,
+      "name": "首选治疗方案",
+      "arguments": [
+        "X",
+        "介入治疗",
+        "针对动脉瘤"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动脉瘤",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动脉瘤状态",
+        "arguments": [
+          "Y",
+          "破裂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄大于",
+        "arguments": [
+          "X",
+          "70岁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "Hunt-Hess分级",
+        "arguments": [
+          "X",
+          "4-5级"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "动脉瘤"
+    },
+    "source_text": "尤其是年龄＞70岁、Hunt-Hess分级4～5级的患者，首选介入治疗（Ⅱa类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "年轻高压患者动脉瘤累及大脑中或胼周动脉时可开颅手术",
+    "head": {
+      "is_negative": false,
+      "name": "适用治疗方案",
+      "arguments": [
+        "X",
+        "开颅手术",
+        "针对动脉瘤"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动脉瘤",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄属性",
+        "arguments": [
+          "X",
+          "年轻"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床症状",
+        "arguments": [
+          "X",
+          "血肿占位效应明显"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床症状",
+        "arguments": [
+          "X",
+          "颅内高压"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "累及血管",
+        "arguments": [
+          "Y",
+          "大脑中动脉"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "动脉瘤"
+    },
+    "source_text": "对于年轻、血肿占位效应明显且颅内高压的患者，若累及大脑中动脉、胼周动脉，或瘤体发出分支血管的动脉瘤，可开颅手术治疗（Ⅱb类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "年轻高压患者动脉瘤累及大脑中或胼周动脉时可开颅手术_胼周动脉",
+    "head": {
+      "is_negative": false,
+      "name": "适用治疗方案",
+      "arguments": [
+        "X",
+        "开颅手术",
+        "针对动脉瘤"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动脉瘤",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄属性",
+        "arguments": [
+          "X",
+          "年轻"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床症状",
+        "arguments": [
+          "X",
+          "血肿占位效应明显"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床症状",
+        "arguments": [
+          "X",
+          "颅内高压"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "累及血管",
+        "arguments": [
+          "Y",
+          "胼周动脉"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "动脉瘤"
+    },
+    "source_text": "对于年轻、血肿占位效应明显且颅内高压的患者，若累及大脑中动脉、胼周动脉，或瘤体发出分支血管的动脉瘤，可开颅手术治疗（Ⅱb类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "年轻高压患者动脉瘤发出分支血管时可开颅手术",
+    "head": {
+      "is_negative": false,
+      "name": "适用治疗方案",
+      "arguments": [
+        "X",
+        "开颅手术",
+        "针对动脉瘤"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动脉瘤",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄属性",
+        "arguments": [
+          "X",
+          "年轻"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床症状",
+        "arguments": [
+          "X",
+          "血肿占位效应明显"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床症状",
+        "arguments": [
+          "X",
+          "颅内高压"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "解剖特征",
+        "arguments": [
+          "Y",
+          "瘤体发出分支血管"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "动脉瘤"
+    },
+    "source_text": "对于年轻、血肿占位效应明显且颅内高压的患者，若累及大脑中动脉、胼周动脉，或瘤体发出分支血管的动脉瘤，可开颅手术治疗（Ⅱb类推荐，B级证据）。"
+  }
+]

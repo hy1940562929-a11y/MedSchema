@@ -1,0 +1,1493 @@
+[
+  {
+    "rule_name": "低心血管风险糖尿病患者不推荐阿司匹林一级预防",
+    "head": {
+      "is_negative": false,
+      "name": "抗血小板药一级预防推荐",
+      "arguments": [
+        "X",
+        "阿司匹林",
+        "不建议"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属风险等级",
+        "arguments": [
+          "X",
+          "低心血管风险"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗场景",
+        "arguments": [
+          "一级预防"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药对象",
+        "arguments": [
+          "X",
+          "阿司匹林"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病患者"
+    },
+    "source_text": "不建议在低心血管风险的DM患者中使用阿司匹林作为一级预防（Ⅲ）在没有明确禁忌证的情况下，极高/高心血管风险的DM患者可考虑使用阿司匹林（75~100 mg/d）进行一级预防（Ⅱb）对于中度心血管风险的DM患者，不建议使用阿司匹林进行一级预防（Ⅲ）"
+  },
+  {
+    "rule_name": "极高心血管风险糖尿病患者无禁忌可考虑阿司匹林一级预防",
+    "head": {
+      "is_negative": false,
+      "name": "抗血小板药一级预防推荐",
+      "arguments": [
+        "X",
+        "阿司匹林",
+        "可考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属风险等级",
+        "arguments": [
+          "X",
+          "极高心血管风险"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗场景",
+        "arguments": [
+          "一级预防"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药对象",
+        "arguments": [
+          "X",
+          "阿司匹林"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "无明确禁忌证",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病患者"
+    },
+    "source_text": "不建议在低心血管风险的DM患者中使用阿司匹林作为一级预防（Ⅲ）在没有明确禁忌证的情况下，极高/高心血管风险的DM患者可考虑使用阿司匹林（75~100 mg/d）进行一级预防（Ⅱb）对于中度心血管风险的DM患者，不建议使用阿司匹林进行一级预防（Ⅲ）"
+  },
+  {
+    "rule_name": "高心血管风险糖尿病患者无禁忌可考虑阿司匹林一级预防",
+    "head": {
+      "is_negative": false,
+      "name": "抗血小板药一级预防推荐",
+      "arguments": [
+        "X",
+        "阿司匹林",
+        "可考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属风险等级",
+        "arguments": [
+          "X",
+          "高心血管风险"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗场景",
+        "arguments": [
+          "一级预防"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药对象",
+        "arguments": [
+          "X",
+          "阿司匹林"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "无明确禁忌证",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病患者"
+    },
+    "source_text": "不建议在低心血管风险的DM患者中使用阿司匹林作为一级预防（Ⅲ）在没有明确禁忌证的情况下，极高/高心血管风险的DM患者可考虑使用阿司匹林（75~100 mg/d）进行一级预防（Ⅱb）对于中度心血管风险的DM患者，不建议使用阿司匹林进行一级预防（Ⅲ）"
+  },
+  {
+    "rule_name": "中度心血管风险糖尿病患者不推荐阿司匹林一级预防",
+    "head": {
+      "is_negative": false,
+      "name": "抗血小板药一级预防推荐",
+      "arguments": [
+        "X",
+        "阿司匹林",
+        "不建议"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属风险等级",
+        "arguments": [
+          "X",
+          "中度心血管风险"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗场景",
+        "arguments": [
+          "一级预防"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药对象",
+        "arguments": [
+          "X",
+          "阿司匹林"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病患者"
+    },
+    "source_text": "不建议在低心血管风险的DM患者中使用阿司匹林作为一级预防（Ⅲ）在没有明确禁忌证的情况下，极高/高心血管风险的DM患者可考虑使用阿司匹林（75~100 mg/d）进行一级预防（Ⅱb）对于中度心血管风险的DM患者，不建议使用阿司匹林进行一级预防（Ⅲ）"
+  },
+  {
+    "rule_name": "糖尿病患者_肾功能障碍风险_推荐常规评估微量白蛋白尿",
+    "head": {
+      "is_negative": false,
+      "name": "推荐评估",
+      "arguments": [
+        "X",
+        "微量白蛋白尿",
+        "常规"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需进行CVD风险评估",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险类型",
+        "arguments": [
+          "X",
+          "肾功能障碍"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "《2019年指南》推荐通过常规评估微量白蛋白尿，以确定发生肾功能障碍和（或）心血管风险的患者。DM合并高血压病患者或疑似CVD患者需要进行静息心电图检查。对于结构性心脏病或中高风险的CVD患者，可行经胸超声心动图、冠状动脉钙化评分和踝臂指数等。"
+  },
+  {
+    "rule_name": "糖尿病患者_心血管风险_推荐常规评估微量白蛋白尿",
+    "head": {
+      "is_negative": false,
+      "name": "推荐评估",
+      "arguments": [
+        "X",
+        "微量白蛋白尿",
+        "常规"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需进行CVD风险评估",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险类型",
+        "arguments": [
+          "X",
+          "心血管"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "《2019年指南》推荐通过常规评估微量白蛋白尿，以确定发生肾功能障碍和（或）心血管风险的患者。DM合并高血压病患者或疑似CVD患者需要进行静息心电图检查。对于结构性心脏病或中高风险的CVD患者，可行经胸超声心动图、冠状动脉钙化评分和踝臂指数等。"
+  },
+  {
+    "rule_name": "糖尿病合并高血压患者_需静息心电图检查",
+    "head": {
+      "is_negative": false,
+      "name": "医疗检查",
+      "arguments": [
+        "X",
+        "静息心电图",
+        "需要"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需进行CVD风险评估",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并症",
+        "arguments": [
+          "X",
+          "高血压"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "《2019年指南》推荐通过常规评估微量白蛋白尿，以确定发生肾功能障碍和（或）心血管风险的患者。DM合并高血压病患者或疑似CVD患者需要进行静息心电图检查。对于结构性心脏病或中高风险的CVD患者，可行经胸超声心动图、冠状动脉钙化评分和踝臂指数等。"
+  },
+  {
+    "rule_name": "糖尿病疑似CVD患者_需静息心电图检查",
+    "head": {
+      "is_negative": false,
+      "name": "医疗检查",
+      "arguments": [
+        "X",
+        "静息心电图",
+        "需要"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需进行CVD风险评估",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似疾病",
+        "arguments": [
+          "X",
+          "CVD"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "《2019年指南》推荐通过常规评估微量白蛋白尿，以确定发生肾功能障碍和（或）心血管风险的患者。DM合并高血压病患者或疑似CVD患者需要进行静息心电图检查。对于结构性心脏病或中高风险的CVD患者，可行经胸超声心动图、冠状动脉钙化评分和踝臂指数等。"
+  },
+  {
+    "rule_name": "结构性心脏病患者_可行经胸超声心动图检查",
+    "head": {
+      "is_negative": false,
+      "name": "可行检查",
+      "arguments": [
+        "X",
+        "经胸超声心动图"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需进行CVD风险评估",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有结构性心脏病",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "《2019年指南》推荐通过常规评估微量白蛋白尿，以确定发生肾功能障碍和（或）心血管风险的患者。DM合并高血压病患者或疑似CVD患者需要进行静息心电图检查。对于结构性心脏病或中高风险的CVD患者，可行经胸超声心动图、冠状动脉钙化评分和踝臂指数等。"
+  },
+  {
+    "rule_name": "中高危CVD风险患者_可行经胸超声心动图检查",
+    "head": {
+      "is_negative": false,
+      "name": "可行检查",
+      "arguments": [
+        "X",
+        "经胸超声心动图"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需进行CVD风险评估",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "CVD风险评估",
+        "arguments": [
+          "X",
+          "中高危"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "《2019年指南》推荐通过常规评估微量白蛋白尿，以确定发生肾功能障碍和（或）心血管风险的患者。DM合并高血压病患者或疑似CVD患者需要进行静息心电图检查。对于结构性心脏病或中高风险的CVD患者，可行经胸超声心动图、冠状动脉钙化评分和踝臂指数等。"
+  },
+  {
+    "rule_name": "无低血糖的年轻DM患者设定严格HbA1c目标_下限",
+    "head": {
+      "is_negative": false,
+      "name": "血糖控制目标",
+      "arguments": [
+        "X",
+        "HbA1c小于6.0%",
+        "严格"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "DM患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者属性",
+        "arguments": [
+          "X",
+          "年轻"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病程属性",
+        "arguments": [
+          "X",
+          "短"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "CVD"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "明显低血糖"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖化血红蛋白（haemoglobin A1c，HbA1c）＜ 7%（＜53 mmol/mol）可减少微血管并发症，早期开始实施严格的血糖控制，可使20年内心血管风险降低。但HbA1c目标应该个体化，如果无明显的低血糖，对于DM病程短且无CVD证据的年轻患者，HbA1c目标应更为严格［6.0%~6.5%（42~48 mmol/mol）］；对于长期DM和预期寿命有限的老年患者，以及包括低血糖发作在内的多种合并症患者，HbA1c目标可不必太严格［＜8%（64 mmol/mol）或≤9%（75 mmol/mol）］。"
+  },
+  {
+    "rule_name": "无低血糖的年轻DM患者设定严格HbA1c目标_上限",
+    "head": {
+      "is_negative": false,
+      "name": "血糖控制目标",
+      "arguments": [
+        "X",
+        "HbA1c小于6.5%",
+        "严格"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "DM患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者属性",
+        "arguments": [
+          "X",
+          "年轻"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病程属性",
+        "arguments": [
+          "X",
+          "短"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "CVD"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "明显低血糖"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖化血红蛋白（haemoglobin A1c，HbA1c）＜ 7%（＜53 mmol/mol）可减少微血管并发症，早期开始实施严格的血糖控制，可使20年内心血管风险降低。但HbA1c目标应该个体化，如果无明显的低血糖，对于DM病程短且无CVD证据的年轻患者，HbA1c目标应更为严格［6.0%~6.5%（42~48 mmol/mol）］；对于长期DM和预期寿命有限的老年患者，以及包括低血糖发作在内的多种合并症患者，HbA1c目标可不必太严格［＜8%（64 mmol/mol）或≤9%（75 mmol/mol）］。"
+  },
+  {
+    "rule_name": "特定老年DM患者设定宽松HbA1c目标_标准宽松",
+    "head": {
+      "is_negative": false,
+      "name": "血糖控制目标",
+      "arguments": [
+        "X",
+        "HbA1c小于8.0%",
+        "宽松"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "DM患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者属性",
+        "arguments": [
+          "X",
+          "老年"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病程属性",
+        "arguments": [
+          "X",
+          "长期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预期寿命属性",
+        "arguments": [
+          "X",
+          "有限"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "共病情况",
+        "arguments": [
+          "X",
+          "多种合并症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖化血红蛋白（haemoglobin A1c，HbA1c）＜ 7%（＜53 mmol/mol）可减少微血管并发症，早期开始实施严格的血糖控制，可使20年内心血管风险降低。但HbA1c目标应该个体化，如果无明显的低血糖，对于DM病程短且无CVD证据的年轻患者，HbA1c目标应更为严格［6.0%~6.5%（42~48 mmol/mol）］；对于长期DM和预期寿命有限的老年患者，以及包括低血糖发作在内的多种合并症患者，HbA1c目标可不必太严格［＜8%（64 mmol/mol）或≤9%（75 mmol/mol）］。"
+  },
+  {
+    "rule_name": "特定老年DM患者设定宽松HbA1c目标_更宽松",
+    "head": {
+      "is_negative": false,
+      "name": "血糖控制目标",
+      "arguments": [
+        "X",
+        "HbA1c小于等于9.0%",
+        "宽松"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "DM患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者属性",
+        "arguments": [
+          "X",
+          "老年"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病程属性",
+        "arguments": [
+          "X",
+          "长期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预期寿命属性",
+        "arguments": [
+          "X",
+          "有限"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "共病情况",
+        "arguments": [
+          "X",
+          "多种合并症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖化血红蛋白（haemoglobin A1c，HbA1c）＜ 7%（＜53 mmol/mol）可减少微血管并发症，早期开始实施严格的血糖控制，可使20年内心血管风险降低。但HbA1c目标应该个体化，如果无明显的低血糖，对于DM病程短且无CVD证据的年轻患者，HbA1c目标应更为严格［6.0%~6.5%（42~48 mmol/mol）］；对于长期DM和预期寿命有限的老年患者，以及包括低血糖发作在内的多种合并症患者，HbA1c目标可不必太严格［＜8%（64 mmol/mol）或≤9%（75 mmol/mol）］。"
+  },
+  {
+    "rule_name": "T2DM合并CVD患者首选二甲双胍",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "二甲双胍",
+        "首选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "T2DM"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发疾病",
+        "arguments": [
+          "X",
+          "CVD"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "X",
+          "心血管保护"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "近期的心血管试验新证据表明，在CVD或高心血管风险患者中使用降糖药物可以获得心血管保护［8］。长期使用二甲双胍可改善心血管预后。对于CVD或极高/高心血管风险的T2DM患者（有靶器官损伤或几种CVD危险因素），首选二甲双胍，其次推荐使用新型降糖药，如胰高血糖素样肽-1受体激动药和钠-葡萄糖共转运蛋白2抑制药（表3）。"
+  },
+  {
+    "rule_name": "高心血管风险T2DM患者首选二甲双胍",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "二甲双胍",
+        "首选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "T2DM"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高风险患者",
+        "arguments": [
+          "X",
+          "心血管"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "X",
+          "心血管保护"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "近期的心血管试验新证据表明，在CVD或高心血管风险患者中使用降糖药物可以获得心血管保护［8］。长期使用二甲双胍可改善心血管预后。对于CVD或极高/高心血管风险的T2DM患者（有靶器官损伤或几种CVD危险因素），首选二甲双胍，其次推荐使用新型降糖药，如胰高血糖素样肽-1受体激动药和钠-葡萄糖共转运蛋白2抑制药（表3）。"
+  },
+  {
+    "rule_name": "有症状HFrEF合并DM患者ACEI与β阻滞药基础治疗推荐",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "Y",
+        "基础治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "心力衰竭伴射血分数降低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状状态",
+        "arguments": [
+          "X",
+          "有症状"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "ACEI与β阻滞药联合方案"
+    },
+    "source_text": "综上，《2019年指南》更细致、严谨，更贴近临床实践的需求，更新了T2DM治疗的心血管安全性试验，对于高龄老年患者，提出了个性化治疗方案，在寻求获益的同时关注监测相关的不良反应。"
+  },
+  {
+    "rule_name": "ACEI与β阻滞药治疗后仍有症状患者加用MRA推荐",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "Z",
+        "追加治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "心力衰竭伴射血分数降低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前用药",
+        "arguments": [
+          "X",
+          "ACEI与β阻滞药"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状状态",
+        "arguments": [
+          "X",
+          "有症状"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "盐皮质激素受体拮抗剂"
+    },
+    "source_text": "综上，《2019年指南》更细致、严谨，更贴近临床实践的需求，更新了T2DM治疗的心血管安全性试验，对于高龄老年患者，提出了个性化治疗方案，在寻求获益的同时关注监测相关的不良反应。"
+  },
+  {
+    "rule_name": "不耐受ACEI的有症状HFrEF合并DM患者ARB推荐",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "W",
+        "替代治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "心力衰竭伴射血分数降低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状状态",
+        "arguments": [
+          "X",
+          "有症状"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "耐受",
+        "arguments": [
+          "X",
+          "ACEI"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "W": "血管紧张素II受体拮抗剂"
+    },
+    "source_text": "综上，《2019年指南》更细致、严谨，更贴近临床实践的需求，更新了T2DM治疗的心血管安全性试验，对于高龄老年患者，提出了个性化治疗方案，在寻求获益的同时关注监测相关的不良反应。"
+  },
+  {
+    "rule_name": "ACEI及β阻滞药及MRA治疗后仍有症状患者换用沙库巴曲缬沙坦推荐",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "V",
+        "升级治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "心力衰竭伴射血分数降低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前用药",
+        "arguments": [
+          "X",
+          "ACEI"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前用药",
+        "arguments": [
+          "X",
+          "β阻滞药"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前用药",
+        "arguments": [
+          "X",
+          "MRA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状状态",
+        "arguments": [
+          "X",
+          "有症状"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "V": "沙库巴曲缬沙坦"
+    },
+    "source_text": "综上，《2019年指南》更细致、严谨，更贴近临床实践的需求，更新了T2DM治疗的心血管安全性试验，对于高龄老年患者，提出了个性化治疗方案，在寻求获益的同时关注监测相关的不良反应。"
+  },
+  {
+    "rule_name": "高龄老年DM患者需采取个性化治疗并监测不良反应",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方案",
+      "arguments": [
+        "X",
+        "个性化"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性",
+        "arguments": [
+          "X",
+          "高龄老年"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "综上，《2019年指南》更细致、严谨，更贴近临床实践的需求，更新了T2DM治疗的心血管安全性试验，对于高龄老年患者，提出了个性化治疗方案，在寻求获益的同时关注监测相关的不良反应。"
+  },
+  {
+    "rule_name": "术语_ACEI_定义",
+    "head": {
+      "is_negative": false,
+      "name": "定义为",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "术语缩写",
+        "arguments": [
+          "X",
+          "ACEI"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术语全称",
+        "arguments": [
+          "Y",
+          "血管紧张素转换酶抑制药"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "术语缩写实体",
+      "Y": "术语全称实体"
+    },
+    "source_text": "注：ACEI，血管紧张素转换酶抑制药；HFrEF，射血分数下降的心力衰竭；DM，糖尿病；HF，心力衰竭；MRA，盐皮质激素受体拮抗药；ICD，植入式心律转复除颤器；CRT，心脏再同步化治疗；CRT-D，心脏再同步化治疗除颤器；ARB，血管紧张素Ⅱ受体拮抗药； HFpEF，射血分数保留的心力衰竭；HFmrEF，射血分数中间范围的心力衰竭；CABG，冠状动脉旁路移植术；CAD，冠状动脉疾病；"
+  },
+  {
+    "rule_name": "术语_HFrEF_定义",
+    "head": {
+      "is_negative": false,
+      "name": "定义为",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "术语缩写",
+        "arguments": [
+          "X",
+          "HFrEF"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术语全称",
+        "arguments": [
+          "Y",
+          "射血分数下降的心力衰竭"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "术语缩写实体",
+      "Y": "术语全称实体"
+    },
+    "source_text": "注：ACEI，血管紧张素转换酶抑制药；HFrEF，射血分数下降的心力衰竭；DM，糖尿病；HF，心力衰竭；MRA，盐皮质激素受体拮抗药；ICD，植入式心律转复除颤器；CRT，心脏再同步化治疗；CRT-D，心脏再同步化治疗除颤器；ARB，血管紧张素Ⅱ受体拮抗药； HFpEF，射血分数保留的心力衰竭；HFmrEF，射血分数中间范围的心力衰竭；CABG，冠状动脉旁路移植术；CAD，冠状动脉疾病；"
+  },
+  {
+    "rule_name": "术语_DM_定义",
+    "head": {
+      "is_negative": false,
+      "name": "定义为",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "术语缩写",
+        "arguments": [
+          "X",
+          "DM"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术语全称",
+        "arguments": [
+          "Y",
+          "糖尿病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "术语缩写实体",
+      "Y": "术语全称实体"
+    },
+    "source_text": "注：ACEI，血管紧张素转换酶抑制药；HFrEF，射血分数下降的心力衰竭；DM，糖尿病；HF，心力衰竭；MRA，盐皮质激素受体拮抗药；ICD，植入式心律转复除颤器；CRT，心脏再同步化治疗；CRT-D，心脏再同步化治疗除颤器；ARB，血管紧张素Ⅱ受体拮抗药； HFpEF，射血分数保留的心力衰竭；HFmrEF，射血分数中间范围的心力衰竭；CABG，冠状动脉旁路移植术；CAD，冠状动脉疾病；"
+  },
+  {
+    "rule_name": "术语_HF_定义",
+    "head": {
+      "is_negative": false,
+      "name": "定义为",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "术语缩写",
+        "arguments": [
+          "X",
+          "HF"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术语全称",
+        "arguments": [
+          "Y",
+          "心力衰竭"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "术语缩写实体",
+      "Y": "术语全称实体"
+    },
+    "source_text": "注：ACEI，血管紧张素转换酶抑制药；HFrEF，射血分数下降的心力衰竭；DM，糖尿病；HF，心力衰竭；MRA，盐皮质激素受体拮抗药；ICD，植入式心律转复除颤器；CRT，心脏再同步化治疗；CRT-D，心脏再同步化治疗除颤器；ARB，血管紧张素Ⅱ受体拮抗药； HFpEF，射血分数保留的心力衰竭；HFmrEF，射血分数中间范围的心力衰竭；CABG，冠状动脉旁路移植术；CAD，冠状动脉疾病；"
+  },
+  {
+    "rule_name": "术语_MRA_定义",
+    "head": {
+      "is_negative": false,
+      "name": "定义为",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "术语缩写",
+        "arguments": [
+          "X",
+          "MRA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术语全称",
+        "arguments": [
+          "Y",
+          "盐皮质激素受体拮抗药"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "术语缩写实体",
+      "Y": "术语全称实体"
+    },
+    "source_text": "注：ACEI，血管紧张素转换酶抑制药；HFrEF，射血分数下降的心力衰竭；DM，糖尿病；HF，心力衰竭；MRA，盐皮质激素受体拮抗药；ICD，植入式心律转复除颤器；CRT，心脏再同步化治疗；CRT-D，心脏再同步化治疗除颤器；ARB，血管紧张素Ⅱ受体拮抗药； HFpEF，射血分数保留的心力衰竭；HFmrEF，射血分数中间范围的心力衰竭；CABG，冠状动脉旁路移植术；CAD，冠状动脉疾病；"
+  },
+  {
+    "rule_name": "术语_ICD_定义",
+    "head": {
+      "is_negative": false,
+      "name": "定义为",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "术语缩写",
+        "arguments": [
+          "X",
+          "ICD"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术语全称",
+        "arguments": [
+          "Y",
+          "植入式心律转复除颤器"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "术语缩写实体",
+      "Y": "术语全称实体"
+    },
+    "source_text": "注：ACEI，血管紧张素转换酶抑制药；HFrEF，射血分数下降的心力衰竭；DM，糖尿病；HF，心力衰竭；MRA，盐皮质激素受体拮抗药；ICD，植入式心律转复除颤器；CRT，心脏再同步化治疗；CRT-D，心脏再同步化治疗除颤器；ARB，血管紧张素Ⅱ受体拮抗药； HFpEF，射血分数保留的心力衰竭；HFmrEF，射血分数中间范围的心力衰竭；CABG，冠状动脉旁路移植术；CAD，冠状动脉疾病；"
+  },
+  {
+    "rule_name": "术语_CRT_定义",
+    "head": {
+      "is_negative": false,
+      "name": "定义为",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "术语缩写",
+        "arguments": [
+          "X",
+          "CRT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术语全称",
+        "arguments": [
+          "Y",
+          "心脏再同步化治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "术语缩写实体",
+      "Y": "术语全称实体"
+    },
+    "source_text": "注：ACEI，血管紧张素转换酶抑制药；HFrEF，射血分数下降的心力衰竭；DM，糖尿病；HF，心力衰竭；MRA，盐皮质激素受体拮抗药；ICD，植入式心律转复除颤器；CRT，心脏再同步化治疗；CRT-D，心脏再同步化治疗除颤器；ARB，血管紧张素Ⅱ受体拮抗药； HFpEF，射血分数保留的心力衰竭；HFmrEF，射血分数中间范围的心力衰竭；CABG，冠状动脉旁路移植术；CAD，冠状动脉疾病；"
+  },
+  {
+    "rule_name": "术语_CRT-D_定义",
+    "head": {
+      "is_negative": false,
+      "name": "定义为",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "术语缩写",
+        "arguments": [
+          "X",
+          "CRT-D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术语全称",
+        "arguments": [
+          "Y",
+          "心脏再同步化治疗除颤器"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "术语缩写实体",
+      "Y": "术语全称实体"
+    },
+    "source_text": "注：ACEI，血管紧张素转换酶抑制药；HFrEF，射血分数下降的心力衰竭；DM，糖尿病；HF，心力衰竭；MRA，盐皮质激素受体拮抗药；ICD，植入式心律转复除颤器；CRT，心脏再同步化治疗；CRT-D，心脏再同步化治疗除颤器；ARB，血管紧张素Ⅱ受体拮抗药； HFpEF，射血分数保留的心力衰竭；HFmrEF，射血分数中间范围的心力衰竭；CABG，冠状动脉旁路移植术；CAD，冠状动脉疾病；"
+  },
+  {
+    "rule_name": "术语_ARB_定义",
+    "head": {
+      "is_negative": false,
+      "name": "定义为",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "术语缩写",
+        "arguments": [
+          "X",
+          "ARB"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术语全称",
+        "arguments": [
+          "Y",
+          "血管紧张素Ⅱ受体拮抗药"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "术语缩写实体",
+      "Y": "术语全称实体"
+    },
+    "source_text": "注：ACEI，血管紧张素转换酶抑制药；HFrEF，射血分数下降的心力衰竭；DM，糖尿病；HF，心力衰竭；MRA，盐皮质激素受体拮抗药；ICD，植入式心律转复除颤器；CRT，心脏再同步化治疗；CRT-D，心脏再同步化治疗除颤器；ARB，血管紧张素Ⅱ受体拮抗药； HFpEF，射血分数保留的心力衰竭；HFmrEF，射血分数中间范围的心力衰竭；CABG，冠状动脉旁路移植术；CAD，冠状动脉疾病；"
+  },
+  {
+    "rule_name": "术语_HFpEF_定义",
+    "head": {
+      "is_negative": false,
+      "name": "定义为",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "术语缩写",
+        "arguments": [
+          "X",
+          "HFpEF"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术语全称",
+        "arguments": [
+          "Y",
+          "射血分数保留的心力衰竭"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "术语缩写实体",
+      "Y": "术语全称实体"
+    },
+    "source_text": "注：ACEI，血管紧张素转换酶抑制药；HFrEF，射血分数下降的心力衰竭；DM，糖尿病；HF，心力衰竭；MRA，盐皮质激素受体拮抗药；ICD，植入式心律转复除颤器；CRT，心脏再同步化治疗；CRT-D，心脏再同步化治疗除颤器；ARB，血管紧张素Ⅱ受体拮抗药； HFpEF，射血分数保留的心力衰竭；HFmrEF，射血分数中间范围的心力衰竭；CABG，冠状动脉旁路移植术；CAD，冠状动脉疾病；"
+  },
+  {
+    "rule_name": "术语_HFmrEF_定义",
+    "head": {
+      "is_negative": false,
+      "name": "定义为",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "术语缩写",
+        "arguments": [
+          "X",
+          "HFmrEF"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术语全称",
+        "arguments": [
+          "Y",
+          "射血分数中间范围的心力衰竭"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "术语缩写实体",
+      "Y": "术语全称实体"
+    },
+    "source_text": "注：ACEI，血管紧张素转换酶抑制药；HFrEF，射血分数下降的心力衰竭；DM，糖尿病；HF，心力衰竭；MRA，盐皮质激素受体拮抗药；ICD，植入式心律转复除颤器；CRT，心脏再同步化治疗；CRT-D，心脏再同步化治疗除颤器；ARB，血管紧张素Ⅱ受体拮抗药； HFpEF，射血分数保留的心力衰竭；HFmrEF，射血分数中间范围的心力衰竭；CABG，冠状动脉旁路移植术；CAD，冠状动脉疾病；"
+  },
+  {
+    "rule_name": "术语_CABG_定义",
+    "head": {
+      "is_negative": false,
+      "name": "定义为",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "术语缩写",
+        "arguments": [
+          "X",
+          "CABG"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术语全称",
+        "arguments": [
+          "Y",
+          "冠状动脉旁路移植术"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "术语缩写实体",
+      "Y": "术语全称实体"
+    },
+    "source_text": "注：ACEI，血管紧张素转换酶抑制药；HFrEF，射血分数下降的心力衰竭；DM，糖尿病；HF，心力衰竭；MRA，盐皮质激素受体拮抗药；ICD，植入式心律转复除颤器；CRT，心脏再同步化治疗；CRT-D，心脏再同步化治疗除颤器；ARB，血管紧张素Ⅱ受体拮抗药； HFpEF，射血分数保留的心力衰竭；HFmrEF，射血分数中间范围的心力衰竭；CABG，冠状动脉旁路移植术；CAD，冠状动脉疾病；"
+  },
+  {
+    "rule_name": "术语_CAD_定义",
+    "head": {
+      "is_negative": false,
+      "name": "定义为",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "术语缩写",
+        "arguments": [
+          "X",
+          "CAD"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术语全称",
+        "arguments": [
+          "Y",
+          "冠状动脉疾病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "术语缩写实体",
+      "Y": "术语全称实体"
+    },
+    "source_text": "注：ACEI，血管紧张素转换酶抑制药；HFrEF，射血分数下降的心力衰竭；DM，糖尿病；HF，心力衰竭；MRA，盐皮质激素受体拮抗药；ICD，植入式心律转复除颤器；CRT，心脏再同步化治疗；CRT-D，心脏再同步化治疗除颤器；ARB，血管紧张素Ⅱ受体拮抗药； HFpEF，射血分数保留的心力衰竭；HFmrEF，射血分数中间范围的心力衰竭；CABG，冠状动脉旁路移植术；CAD，冠状动脉疾病；"
+  }
+]

@@ -1,0 +1,1364 @@
+[
+  {
+    "rule_name": "糖尿病患者需医师制定个体化运动方案",
+    "head": {
+      "is_negative": false,
+      "name": "接受指导",
+      "arguments": [
+        "X",
+        "个体化运动方案",
+        "医师制定"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症严重程度",
+        "arguments": [
+          "X",
+          "需考虑"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有运动习惯",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有特定体力水平",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（2）运动指导，每天行小腿及足部运动30~60 min，如甩腿、提踵、踝泵、下蹲运动。运动能改善下肢循环，增强心肺功能，加速脂肪分解，增加肌肉的葡萄糖参与，还可能减少胰岛素或降糖药的用量。中国传统运动方式如八段锦 和太极拳等，也是糖尿病人适宜的运动方式。运动方式和运动量的选择应在医师指导下进行，在确保安全的前提下，根据性别、年龄、体型、体力、运动习惯和爱好以及并发症的严重程度制订个体化的运动方案。运动前后要加强血糖监测，以免发生低血糖。"
+  },
+  {
+    "rule_name": "糖尿病患者运动前后需加强血糖监测以避免低血糖",
+    "head": {
+      "is_negative": false,
+      "name": "需加强监测",
+      "arguments": [
+        "X",
+        "血糖",
+        "运动前后"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行活动",
+        "arguments": [
+          "X",
+          "运动"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目的",
+        "arguments": [
+          "X",
+          "避免低血糖"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（2）运动指导，每天行小腿及足部运动30~60 min，如甩腿、提踵、踝泵、下蹲运动。运动能改善下肢循环，增强心肺功能，加速脂肪分解，增加肌肉的葡萄糖参与，还可能减少胰岛素或降糖药的用量。中国传统运动方式如八段锦 和太极拳等，也是糖尿病人适宜的运动方式。运动方式和运动量的选择应在医师指导下进行，在确保安全的前提下，根据性别、年龄、体型、体力、运动习惯和爱好以及并发症的严重程度制订个体化的运动方案。运动前后要加强血糖监测，以免发生低血糖。"
+  },
+  {
+    "rule_name": "2级受累足诊断_尼龙丝法阳性",
+    "head": {
+      "is_negative": false,
+      "name": "2级受累足",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "未丧失保护性感觉",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "尼龙丝测试结果",
+        "arguments": [
+          "X",
+          "10g单丝足底3部位2处无压觉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用诊断系统",
+        "arguments": [
+          "X",
+          "SINBAD"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "受累足"
+    },
+    "source_text": "2 级受累足未丧失保护性感觉，在如下测试中的一项或以上测试为阳性。10 g 尼龙丝法：用一根10 g 单丝在足底3 个部位测试时，有2 个及以上部位没有压觉；或128 Hz 音叉法：128 Hz 的音叉测试踇趾时，无震动感；或踇趾的震动觉阀值大于25（采用半定量技术）。"
+  },
+  {
+    "rule_name": "2级受累足诊断_音叉法阳性",
+    "head": {
+      "is_negative": false,
+      "name": "2级受累足",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "未丧失保护性感觉",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "音叉测试结果",
+        "arguments": [
+          "X",
+          "128Hz音叉踇趾无震动感"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用诊断系统",
+        "arguments": [
+          "X",
+          "SINBAD"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "受累足"
+    },
+    "source_text": "2 级受累足未丧失保护性感觉，在如下测试中的一项或以上测试为阳性。10 g 尼龙丝法：用一根10 g 单丝在足底3 个部位测试时，有2 个及以上部位没有压觉；或128 Hz 音叉法：128 Hz 的音叉测试踇趾时，无震动感；或踇趾的震动觉阀值大于25（采用半定量技术）。"
+  },
+  {
+    "rule_name": "2级受累足诊断_震动觉阈值超标",
+    "head": {
+      "is_negative": false,
+      "name": "2级受累足",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "未丧失保护性感觉",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "震动觉阈值",
+        "arguments": [
+          "X",
+          "踇趾大于25半定量技术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用诊断系统",
+        "arguments": [
+          "X",
+          "SINBAD"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "受累足"
+    },
+    "source_text": "2 级受累足未丧失保护性感觉，在如下测试中的一项或以上测试为阳性。10 g 尼龙丝法：用一根10 g 单丝在足底3 个部位测试时，有2 个及以上部位没有压觉；或128 Hz 音叉法：128 Hz 的音叉测试踇趾时，无震动感；或踇趾的震动觉阀值大于25（采用半定量技术）。"
+  },
+  {
+    "rule_name": "适用于下肢发凉患者的中药穴位贴敷操作要求",
+    "head": {
+      "is_negative": false,
+      "name": "需要贴敷指示",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "下肢发凉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "贴敷操作",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作者",
+        "arguments": [
+          "Z",
+          "专业医护人员"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "后续要求",
+        "arguments": [
+          "Z",
+          "观察皮肤反应"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "贴敷穴位",
+        "arguments": [
+          "Z",
+          "足三里"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "贴敷穴位",
+        "arguments": [
+          "Z",
+          "三阴交"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "贴敷操作"
+    },
+    "source_text": "中药贴敷穴位贴敷通过结合腧穴与药物功效，并充分利用穴—经络—脏腑之间的联系，经皮给药，不仅能够减少药物对胃肠道的刺激，同时也更好的保障了相对血药浓度，适用于有下肢发凉、疼痛等症状患者。配穴组方：足三里、三阴交；操作方法：穴位贴敷药包与沐足药方选药原则一致，将药物磨粉并混合赋形剂搅拌后摊成长宽均为3 cm、厚度为3 mm 药膏并通过棉纸包裹放于三阴交、足三里穴位，每次3 h。必须由专业医护人员操作，观察局部皮肤是否有潮红、瘙痒等不适。"
+  },
+  {
+    "rule_name": "适用于下肢疼痛患者的中药穴位贴敷操作要求",
+    "head": {
+      "is_negative": false,
+      "name": "需要贴敷指示",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "下肢疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "贴敷操作",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作者",
+        "arguments": [
+          "Z",
+          "专业医护人员"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "后续要求",
+        "arguments": [
+          "Z",
+          "观察皮肤反应"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "贴敷穴位",
+        "arguments": [
+          "Z",
+          "足三里"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "贴敷穴位",
+        "arguments": [
+          "Z",
+          "三阴交"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "贴敷操作"
+    },
+    "source_text": "中药贴敷穴位贴敷通过结合腧穴与药物功效，并充分利用穴—经络—脏腑之间的联系，经皮给药，不仅能够减少药物对胃肠道的刺激，同时也更好的保障了相对血药浓度，适用于有下肢发凉、疼痛等症状患者。配穴组方：足三里、三阴交；操作方法：穴位贴敷药包与沐足药方选药原则一致，将药物磨粉并混合赋形剂搅拌后摊成长宽均为3 cm、厚度为3 mm 药膏并通过棉纸包裹放于三阴交、足三里穴位，每次3 h。必须由专业医护人员操作，观察局部皮肤是否有潮红、瘙痒等不适。"
+  },
+  {
+    "rule_name": "足部病症2级CLI分类_依据间接性跛行",
+    "head": {
+      "is_negative": false,
+      "name": "严重肢体缺血分级",
+      "arguments": [
+        "X",
+        "2级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "足部病症",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现症状",
+        "arguments": [
+          "X",
+          "间接性跛行"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "严重肢体缺血",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "足部病症",
+      "Y": "患者"
+    },
+    "source_text": "2 级具有PAD 症状或体征，但无严重肢体缺血（CLI），存在《关于糖尿病足的国际共识》所定义的间接性跛行；或踝肱指数小于0.9，但踝部收缩压大于50 mmHg；或趾肱指数小于0.6，但足趾收缩压大于30 mmHg；或经皮氧分压为30~60 mmHg；或其它检查所发现的异常结果与PAD 一致（但与CLI 不一致）。"
+  },
+  {
+    "rule_name": "足部病症2级CLI分类_依据踝肱指数与踝压",
+    "head": {
+      "is_negative": false,
+      "name": "严重肢体缺血分级",
+      "arguments": [
+        "X",
+        "2级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "足部病症",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "踝肱指数测量",
+        "arguments": [
+          "X",
+          "小于0.9"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "踝部收缩压测量",
+        "arguments": [
+          "X",
+          "大于50mmHg"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "严重肢体缺血",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "足部病症",
+      "Y": "患者"
+    },
+    "source_text": "2 级具有PAD 症状或体征，但无严重肢体缺血（CLI），存在《关于糖尿病足的国际共识》所定义的间接性跛行；或踝肱指数小于0.9，但踝部收缩压大于50 mmHg；或趾肱指数小于0.6，但足趾收缩压大于30 mmHg；或经皮氧分压为30~60 mmHg；或其它检查所发现的异常结果与PAD 一致（但与CLI 不一致）。"
+  },
+  {
+    "rule_name": "足部病症2级CLI分类_依据趾肱指数与趾压",
+    "head": {
+      "is_negative": false,
+      "name": "严重肢体缺血分级",
+      "arguments": [
+        "X",
+        "2级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "足部病症",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "趾肱指数测量",
+        "arguments": [
+          "X",
+          "小于0.6"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足趾收缩压测量",
+        "arguments": [
+          "X",
+          "大于30mmHg"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "严重肢体缺血",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "足部病症",
+      "Y": "患者"
+    },
+    "source_text": "2 级具有PAD 症状或体征，但无严重肢体缺血（CLI），存在《关于糖尿病足的国际共识》所定义的间接性跛行；或踝肱指数小于0.9，但踝部收缩压大于50 mmHg；或趾肱指数小于0.6，但足趾收缩压大于30 mmHg；或经皮氧分压为30~60 mmHg；或其它检查所发现的异常结果与PAD 一致（但与CLI 不一致）。"
+  },
+  {
+    "rule_name": "足部病症2级CLI分类_依据经皮氧分压范围",
+    "head": {
+      "is_negative": false,
+      "name": "严重肢体缺血分级",
+      "arguments": [
+        "X",
+        "2级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "足部病症",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "经皮氧分压测量",
+        "arguments": [
+          "X",
+          "30至60mmHg"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "严重肢体缺血",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "足部病症",
+      "Y": "患者"
+    },
+    "source_text": "2 级具有PAD 症状或体征，但无严重肢体缺血（CLI），存在《关于糖尿病足的国际共识》所定义的间接性跛行；或踝肱指数小于0.9，但踝部收缩压大于50 mmHg；或趾肱指数小于0.6，但足趾收缩压大于30 mmHg；或经皮氧分压为30~60 mmHg；或其它检查所发现的异常结果与PAD 一致（但与CLI 不一致）。"
+  },
+  {
+    "rule_name": "足部病症2级CLI分类_依据其它异常检查结果",
+    "head": {
+      "is_negative": false,
+      "name": "严重肢体缺血分级",
+      "arguments": [
+        "X",
+        "2级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "足部病症",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "其它检查结果",
+        "arguments": [
+          "X",
+          "异常"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "与疾病一致",
+        "arguments": [
+          "X",
+          "PAD"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "与疾病一致",
+        "arguments": [
+          "X",
+          "CLI"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "足部病症",
+      "Y": "患者"
+    },
+    "source_text": "2 级具有PAD 症状或体征，但无严重肢体缺血（CLI），存在《关于糖尿病足的国际共识》所定义的间接性跛行；或踝肱指数小于0.9，但踝部收缩压大于50 mmHg；或趾肱指数小于0.6，但足趾收缩压大于30 mmHg；或经皮氧分压为30~60 mmHg；或其它检查所发现的异常结果与PAD 一致（但与CLI 不一致）。"
+  },
+  {
+    "rule_name": "糖尿病患者新发糖尿病足溃疡年发生率规则",
+    "head": {
+      "is_negative": false,
+      "name": "发生率",
+      "arguments": [
+        "Z",
+        "8.1%",
+        "年新发"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "溃疡病灶",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现于",
+        "arguments": [
+          "Z",
+          "糖尿病足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床阶段",
+        "arguments": [
+          "糖尿病足",
+          "活动期"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "溃疡病灶"
+    },
+    "source_text": "糖尿病在我国有巨大的人口基数，而糖尿病足是糖尿病重要的临床并发症，糖尿病足溃疡是其最常见的临床表现，也是导致糖尿病患者截肢的主要原因。中国糖尿病患者1 年内新发糖尿病足溃疡的发生率为8.1%，愈合的患者1 年内再发溃疡率为31.6%。发达国家60.0% 的新发溃疡与周围动脉病变有关，而在发展中国家，更常见的是神经性溃疡。2004 年，多中心调查显示，我国糖尿病足溃疡以神经缺血性为主，其中合并感染的溃疡占67.9%。"
+  },
+  {
+    "rule_name": "糖尿病足溃疡愈合患者年再发率规则",
+    "head": {
+      "is_negative": false,
+      "name": "再发率",
+      "arguments": [
+        "Z2",
+        "31.6%",
+        "年再发"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "溃疡病灶",
+        "arguments": [
+          "Z2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Z2",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现于",
+        "arguments": [
+          "Z2",
+          "糖尿病足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "既往病史",
+        "arguments": [
+          "X",
+          "糖尿病足溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "愈合状态",
+        "arguments": [
+          "既往溃疡",
+          "已愈合"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z2": "新发溃疡病灶"
+    },
+    "source_text": "糖尿病在我国有巨大的人口基数，而糖尿病足是糖尿病重要的临床并发症，糖尿病足溃疡是其最常见的临床表现，也是导致糖尿病患者截肢的主要原因。中国糖尿病患者1 年内新发糖尿病足溃疡的发生率为8.1%，愈合的患者1 年内再发溃疡率为31.6%。发达国家60.0% 的新发溃疡与周围动脉病变有关，而在发展中国家，更常见的是神经性溃疡。2004 年，多中心调查显示，我国糖尿病足溃疡以神经缺血性为主，其中合并感染的溃疡占67.9%。"
+  },
+  {
+    "rule_name": "共识制定与目的",
+    "head": {
+      "is_negative": false,
+      "name": "制定",
+      "arguments": [
+        "X",
+        "糖尿病足溃疡专家共识"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "存在现状",
+        "arguments": [
+          "糖尿病足溃疡",
+          "低早期诊断率"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在现状",
+        "arguments": [
+          "糖尿病足溃疡",
+          "高死亡率"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组织者",
+        "arguments": [
+          "外周血管疾病专业委员会",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "起草者",
+        "arguments": [
+          "X",
+          "多学科专家"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基于",
+        "arguments": [
+          "X",
+          "当前先进证据"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基于",
+        "arguments": [
+          "X",
+          "专家经验"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指导原则",
+        "arguments": [
+          "X",
+          "中西医结合"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指导原则",
+        "arguments": [
+          "X",
+          "防治并重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指导原则",
+        "arguments": [
+          "X",
+          "内外治结合"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指导原则",
+        "arguments": [
+          "X",
+          "贴近临床"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识"
+    },
+    "source_text": "Abstract: To change the present situation of low early diagnosis rate and high mortality rate of diabetic foot ulcer in China, Peripheral Vascular Disease Professional Committee of Chinese Association of Integrative Medicine organized multidisciplinary experts who devoted to traditional Chinese medicine and Western medicine to draft  the consensus. Based on the current advanced evidence and expert experience, with the guiding principle of “combining methods of traditional and western medicine, paying attention to both prevention and management, containing internal and external therapies, appling to clinical practice”, the consensus is practical, comprehensive and standard. The consensus defined diabetic foot, reviewed interfering factors of the occurrence and prognosis of diabetic foot ulcer, revised the classification of diabetic foot and elaborated the measures to prevent and manage diabetic foot ulcer. The panel was looking forward to give full play to the advantages of the combination of traditional Chinese medicine and Western medicine and carry out the prevention and management suitable for our national conditions, and then, improve the prognosis of patients."
+  },
+  {
+    "rule_name": "共识定义糖尿病足",
+    "head": {
+      "is_negative": false,
+      "name": "定义内容",
+      "arguments": [
+        "X",
+        "糖尿病足"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "制定",
+        "arguments": [
+          "X",
+          "糖尿病足溃疡专家共识"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性",
+        "arguments": [
+          "X",
+          "实用"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性",
+        "arguments": [
+          "X",
+          "全面"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性",
+        "arguments": [
+          "X",
+          "规范"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识"
+    },
+    "source_text": "Abstract: To change the present situation of low early diagnosis rate and high mortality rate of diabetic foot ulcer in China, Peripheral Vascular Disease Professional Committee of Chinese Association of Integrative Medicine organized multidisciplinary experts who devoted to traditional Chinese medicine and Western medicine to draft  the consensus. Based on the current advanced evidence and expert experience, with the guiding principle of “combining methods of traditional and western medicine, paying attention to both prevention and management, containing internal and external therapies, appling to clinical practice”, the consensus is practical, comprehensive and standard. The consensus defined diabetic foot, reviewed interfering factors of the occurrence and prognosis of diabetic foot ulcer, revised the classification of diabetic foot and elaborated the measures to prevent and manage diabetic foot ulcer. The panel was looking forward to give full play to the advantages of the combination of traditional Chinese medicine and Western medicine and carry out the prevention and management suitable for our national conditions, and then, improve the prognosis of patients."
+  },
+  {
+    "rule_name": "共识回顾影响因素",
+    "head": {
+      "is_negative": false,
+      "name": "回顾内容",
+      "arguments": [
+        "X",
+        "糖尿病足溃疡发生与预后影响因素"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "制定",
+        "arguments": [
+          "X",
+          "糖尿病足溃疡专家共识"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性",
+        "arguments": [
+          "X",
+          "实用"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性",
+        "arguments": [
+          "X",
+          "全面"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性",
+        "arguments": [
+          "X",
+          "规范"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识"
+    },
+    "source_text": "Abstract: To change the present situation of low early diagnosis rate and high mortality rate of diabetic foot ulcer in China, Peripheral Vascular Disease Professional Committee of Chinese Association of Integrative Medicine organized multidisciplinary experts who devoted to traditional Chinese medicine and Western medicine to draft  the consensus. Based on the current advanced evidence and expert experience, with the guiding principle of “combining methods of traditional and western medicine, paying attention to both prevention and management, containing internal and external therapies, appling to clinical practice”, the consensus is practical, comprehensive and standard. The consensus defined diabetic foot, reviewed interfering factors of the occurrence and prognosis of diabetic foot ulcer, revised the classification of diabetic foot and elaborated the measures to prevent and manage diabetic foot ulcer. The panel was looking forward to give full play to the advantages of the combination of traditional Chinese medicine and Western medicine and carry out the prevention and management suitable for our national conditions, and then, improve the prognosis of patients."
+  },
+  {
+    "rule_name": "共识修订分类",
+    "head": {
+      "is_negative": false,
+      "name": "修订内容",
+      "arguments": [
+        "X",
+        "糖尿病足分类"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "制定",
+        "arguments": [
+          "X",
+          "糖尿病足溃疡专家共识"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性",
+        "arguments": [
+          "X",
+          "实用"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性",
+        "arguments": [
+          "X",
+          "全面"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性",
+        "arguments": [
+          "X",
+          "规范"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识"
+    },
+    "source_text": "Abstract: To change the present situation of low early diagnosis rate and high mortality rate of diabetic foot ulcer in China, Peripheral Vascular Disease Professional Committee of Chinese Association of Integrative Medicine organized multidisciplinary experts who devoted to traditional Chinese medicine and Western medicine to draft  the consensus. Based on the current advanced evidence and expert experience, with the guiding principle of “combining methods of traditional and western medicine, paying attention to both prevention and management, containing internal and external therapies, appling to clinical practice”, the consensus is practical, comprehensive and standard. The consensus defined diabetic foot, reviewed interfering factors of the occurrence and prognosis of diabetic foot ulcer, revised the classification of diabetic foot and elaborated the measures to prevent and manage diabetic foot ulcer. The panel was looking forward to give full play to the advantages of the combination of traditional Chinese medicine and Western medicine and carry out the prevention and management suitable for our national conditions, and then, improve the prognosis of patients."
+  },
+  {
+    "rule_name": "共识阐述防治措施",
+    "head": {
+      "is_negative": false,
+      "name": "阐述内容",
+      "arguments": [
+        "X",
+        "糖尿病足溃疡防治措施"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "制定",
+        "arguments": [
+          "X",
+          "糖尿病足溃疡专家共识"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性",
+        "arguments": [
+          "X",
+          "实用"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性",
+        "arguments": [
+          "X",
+          "全面"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性",
+        "arguments": [
+          "X",
+          "规范"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识"
+    },
+    "source_text": "Abstract: To change the present situation of low early diagnosis rate and high mortality rate of diabetic foot ulcer in China, Peripheral Vascular Disease Professional Committee of Chinese Association of Integrative Medicine organized multidisciplinary experts who devoted to traditional Chinese medicine and Western medicine to draft  the consensus. Based on the current advanced evidence and expert experience, with the guiding principle of “combining methods of traditional and western medicine, paying attention to both prevention and management, containing internal and external therapies, appling to clinical practice”, the consensus is practical, comprehensive and standard. The consensus defined diabetic foot, reviewed interfering factors of the occurrence and prognosis of diabetic foot ulcer, revised the classification of diabetic foot and elaborated the measures to prevent and manage diabetic foot ulcer. The panel was looking forward to give full play to the advantages of the combination of traditional Chinese medicine and Western medicine and carry out the prevention and management suitable for our national conditions, and then, improve the prognosis of patients."
+  },
+  {
+    "rule_name": "寒凝阻络证患者的中药沐足治疗方案",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗操作",
+      "arguments": [
+        "M",
+        "中药沐足",
+        "针对证型"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "中药沐足操作",
+        "arguments": [
+          "M"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作对象",
+        "arguments": [
+          "M",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "寒凝阻络证",
+        "arguments": [
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用药液",
+        "arguments": [
+          "M",
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "中药煎出液",
+        "arguments": [
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含药材",
+        "arguments": [
+          "H",
+          "温经散寒类"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "功效为",
+        "arguments": [
+          "H",
+          "温经散寒"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用器具",
+        "arguments": [
+          "M",
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足浴器",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "泡洗温度",
+        "arguments": [
+          "M",
+          "低于37摄氏度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "持续时长",
+        "arguments": [
+          "M",
+          "约15分钟"
+        ]
+      }
+    ],
+    "variables": {
+      "M": "中药沐足操作",
+      "P": "患者",
+      "H": "中药药液",
+      "T": "足浴器"
+    },
+    "source_text": "中药沐足以预防为目的，中医理论为指导，运用中药煎出液或中药散剂均匀地与清水混合后，使用一定的器械在特定温度下泡洗双足，在热效应的作用下，加快局部血液循环，促进皮肤毛孔对中药药液的吸收。辨证为寒凝阻络证以温经散寒为主，可选桂枝、细辛、红花、苍术、百部、忍冬藤等；辨证为痰瘀阻络证以化痰祛瘀通络为主，可选乳香、没药、苏木、元胡、路路通、伸筋草等；辨证为湿热阻络证以清热利湿通络为主，可选土茯苓、马齿苋、苦参、黄连等。操作方法：将中药煎出液倒入足浴器内，加入适量水；温度控制在37 ℃以下，受试者将双足放入足浴器内泡洗，需浸泡至踝关节上约10 cm，浸泡时间宜15 min 左右。足浴后用干毛巾擦净并包裹双足，宜饮适量温开水。干预周期视患者症状改善而定；注意宜在专业人员操作下进行，沐足时间不宜过久，以免发生足部烫伤溃破。"
+  },
+  {
+    "rule_name": "痰瘀阻络证患者的中药沐足治疗方案",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗操作",
+      "arguments": [
+        "M",
+        "中药沐足",
+        "针对证型"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "中药沐足操作",
+        "arguments": [
+          "M"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作对象",
+        "arguments": [
+          "M",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "痰瘀阻络证",
+        "arguments": [
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用药液",
+        "arguments": [
+          "M",
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "中药煎出液",
+        "arguments": [
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含药材",
+        "arguments": [
+          "H",
+          "化痰祛瘀类"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "功效为",
+        "arguments": [
+          "H",
+          "化痰祛瘀通络"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用器具",
+        "arguments": [
+          "M",
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足浴器",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "泡洗温度",
+        "arguments": [
+          "M",
+          "低于37摄氏度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "持续时长",
+        "arguments": [
+          "M",
+          "约15分钟"
+        ]
+      }
+    ],
+    "variables": {
+      "M": "中药沐足操作",
+      "P": "患者",
+      "H": "中药药液",
+      "T": "足浴器"
+    },
+    "source_text": "中药沐足以预防为目的，中医理论为指导，运用中药煎出液或中药散剂均匀地与清水混合后，使用一定的器械在特定温度下泡洗双足，在热效应的作用下，加快局部血液循环，促进皮肤毛孔对中药药液的吸收。辨证为寒凝阻络证以温经散寒为主，可选桂枝、细辛、红花、苍术、百部、忍冬藤等；辨证为痰瘀阻络证以化痰祛瘀通络为主，可选乳香、没药、苏木、元胡、路路通、伸筋草等；辨证为湿热阻络证以清热利湿通络为主，可选土茯苓、马齿苋、苦参、黄连等。操作方法：将中药煎出液倒入足浴器内，加入适量水；温度控制在37 ℃以下，受试者将双足放入足浴器内泡洗，需浸泡至踝关节上约10 cm，浸泡时间宜15 min 左右。足浴后用干毛巾擦净并包裹双足，宜饮适量温开水。干预周期视患者症状改善而定；注意宜在专业人员操作下进行，沐足时间不宜过久，以免发生足部烫伤溃破。"
+  },
+  {
+    "rule_name": "湿热阻络证患者的中药沐足治疗方案",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗操作",
+      "arguments": [
+        "M",
+        "中药沐足",
+        "针对证型"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "中药沐足操作",
+        "arguments": [
+          "M"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作对象",
+        "arguments": [
+          "M",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "湿热阻络证",
+        "arguments": [
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用药液",
+        "arguments": [
+          "M",
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "中药煎出液",
+        "arguments": [
+          "H"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含药材",
+        "arguments": [
+          "H",
+          "清热利湿类"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "功效为",
+        "arguments": [
+          "H",
+          "清热利湿通络"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用器具",
+        "arguments": [
+          "M",
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足浴器",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "泡洗温度",
+        "arguments": [
+          "M",
+          "低于37摄氏度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "持续时长",
+        "arguments": [
+          "M",
+          "约15分钟"
+        ]
+      }
+    ],
+    "variables": {
+      "M": "中药沐足操作",
+      "P": "患者",
+      "H": "中药药液",
+      "T": "足浴器"
+    },
+    "source_text": "中药沐足以预防为目的，中医理论为指导，运用中药煎出液或中药散剂均匀地与清水混合后，使用一定的器械在特定温度下泡洗双足，在热效应的作用下，加快局部血液循环，促进皮肤毛孔对中药药液的吸收。辨证为寒凝阻络证以温经散寒为主，可选桂枝、细辛、红花、苍术、百部、忍冬藤等；辨证为痰瘀阻络证以化痰祛瘀通络为主，可选乳香、没药、苏木、元胡、路路通、伸筋草等；辨证为湿热阻络证以清热利湿通络为主，可选土茯苓、马齿苋、苦参、黄连等。操作方法：将中药煎出液倒入足浴器内，加入适量水；温度控制在37 ℃以下，受试者将双足放入足浴器内泡洗，需浸泡至踝关节上约10 cm，浸泡时间宜15 min 左右。足浴后用干毛巾擦净并包裹双足，宜饮适量温开水。干预周期视患者症状改善而定；注意宜在专业人员操作下进行，沐足时间不宜过久，以免发生足部烫伤溃破。"
+  },
+  {
+    "rule_name": "中药沐足时间过久导致足部烫伤溃破风险",
+    "head": {
+      "is_negative": false,
+      "name": "导致风险",
+      "arguments": [
+        "M",
+        "足部烫伤溃破"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "中药沐足操作",
+        "arguments": [
+          "M"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作对象",
+        "arguments": [
+          "M",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "持续时长",
+        "arguments": [
+          "M",
+          "D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "过久",
+        "arguments": [
+          "D"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "专业人员在旁操作",
+        "arguments": [
+          "M"
+        ]
+      }
+    ],
+    "variables": {
+      "M": "中药沐足操作",
+      "P": "患者",
+      "D": "持续时间"
+    },
+    "source_text": "中药沐足以预防为目的，中医理论为指导，运用中药煎出液或中药散剂均匀地与清水混合后，使用一定的器械在特定温度下泡洗双足，在热效应的作用下，加快局部血液循环，促进皮肤毛孔对中药药液的吸收。辨证为寒凝阻络证以温经散寒为主，可选桂枝、细辛、红花、苍术、百部、忍冬藤等；辨证为痰瘀阻络证以化痰祛瘀通络为主，可选乳香、没药、苏木、元胡、路路通、伸筋草等；辨证为湿热阻络证以清热利湿通络为主，可选土茯苓、马齿苋、苦参、黄连等。操作方法：将中药煎出液倒入足浴器内，加入适量水；温度控制在37 ℃以下，受试者将双足放入足浴器内泡洗，需浸泡至踝关节上约10 cm，浸泡时间宜15 min 左右。足浴后用干毛巾擦净并包裹双足，宜饮适量温开水。干预周期视患者症状改善而定；注意宜在专业人员操作下进行，沐足时间不宜过久，以免发生足部烫伤溃破。"
+  }
+]

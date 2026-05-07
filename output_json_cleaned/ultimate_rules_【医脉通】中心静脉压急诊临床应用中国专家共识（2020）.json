@@ -1,0 +1,871 @@
+[
+  {
+    "rule_name": "CO中度下降时通过Frank-Starling机制代偿",
+    "head": {
+      "is_negative": false,
+      "name": "存在代偿机制",
+      "arguments": [
+        "Y",
+        "Frank-Starling"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "存在测量情境",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者处于情境",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "相关生理参数",
+        "arguments": [
+          "Y",
+          "CVP",
+          "CO"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "参数变化幅度",
+        "arguments": [
+          "Y",
+          "CO",
+          "下降10-15%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "启动代偿",
+        "arguments": [
+          "Y",
+          "增加心肌收缩力"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "测量情境"
+    },
+    "source_text": "１．４．２ ＣＶＰ与 ＣＯ变化的相关机制当容量不足时心脏前负荷降低，导致 ＣＯ下降，此时可通过 ＣＶＰ与 ＣＯ变化的相关性判断机体容量状态：若 ＣＯ较基础值下降 １０％～１５％，此时机体可通过 Ｆｒａｎｋ－Ｓｔａｒｌｉｎｇ机制增加心肌收缩力进行代偿；若 ＣＯ进一步下降，则交感神经兴奋及血管收缩等代偿机制激活，反而使 ＣＶＰ升高。此外，动态监测 ＣＶＰ的变化趋势有助于判断容量反应性，指导液体管理。"
+  },
+  {
+    "rule_name": "CO显著下降时激活神经体液代偿致CVP升高",
+    "head": {
+      "is_negative": false,
+      "name": "参数变化方向",
+      "arguments": [
+        "Y",
+        "CVP",
+        "升高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "存在测量情境",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者处于情境",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "相关生理参数",
+        "arguments": [
+          "Y",
+          "CVP",
+          "CO"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "参数变化幅度",
+        "arguments": [
+          "Y",
+          "CO",
+          "进一步下降"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "激活代偿机制",
+        "arguments": [
+          "Y",
+          "交感神经兴奋"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "激活代偿机制",
+        "arguments": [
+          "Y",
+          "血管收缩"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "测量情境"
+    },
+    "source_text": "１．４．２ ＣＶＰ与 ＣＯ变化的相关机制当容量不足时心脏前负荷降低，导致 ＣＯ下降，此时可通过 ＣＶＰ与 ＣＯ变化的相关性判断机体容量状态：若 ＣＯ较基础值下降 １０％～１５％，此时机体可通过 Ｆｒａｎｋ－Ｓｔａｒｌｉｎｇ机制增加心肌收缩力进行代偿；若 ＣＯ进一步下降，则交感神经兴奋及血管收缩等代偿机制激活，反而使 ＣＶＰ升高。此外，动态监测 ＣＶＰ的变化趋势有助于判断容量反应性，指导液体管理。"
+  },
+  {
+    "rule_name": "动态监测CVP趋势可用于判断容量反应性",
+    "head": {
+      "is_negative": false,
+      "name": "测量用途",
+      "arguments": [
+        "Y",
+        "判断容量反应性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "存在测量情境",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者处于情境",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测对象",
+        "arguments": [
+          "Y",
+          "CVP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测模式",
+        "arguments": [
+          "Y",
+          "动态"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "参数状态",
+        "arguments": [
+          "Y",
+          "CVP",
+          "变化趋势"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "测量情境"
+    },
+    "source_text": "１．４．２ ＣＶＰ与 ＣＯ变化的相关机制当容量不足时心脏前负荷降低，导致 ＣＯ下降，此时可通过 ＣＶＰ与 ＣＯ变化的相关性判断机体容量状态：若 ＣＯ较基础值下降 １０％～１５％，此时机体可通过 Ｆｒａｎｋ－Ｓｔａｒｌｉｎｇ机制增加心肌收缩力进行代偿；若 ＣＯ进一步下降，则交感神经兴奋及血管收缩等代偿机制激活，反而使 ＣＶＰ升高。此外，动态监测 ＣＶＰ的变化趋势有助于判断容量反应性，指导液体管理。"
+  },
+  {
+    "rule_name": "动态监测CVP趋势可用于指导液体管理",
+    "head": {
+      "is_negative": false,
+      "name": "测量用途",
+      "arguments": [
+        "Y",
+        "指导液体管理"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "存在测量情境",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者处于情境",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测对象",
+        "arguments": [
+          "Y",
+          "CVP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测模式",
+        "arguments": [
+          "Y",
+          "动态"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "参数状态",
+        "arguments": [
+          "Y",
+          "CVP",
+          "变化趋势"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "测量情境"
+    },
+    "source_text": "１．４．２ ＣＶＰ与 ＣＯ变化的相关机制当容量不足时心脏前负荷降低，导致 ＣＯ下降，此时可通过 ＣＶＰ与 ＣＯ变化的相关性判断机体容量状态：若 ＣＯ较基础值下降 １０％～１５％，此时机体可通过 Ｆｒａｎｋ－Ｓｔａｒｌｉｎｇ机制增加心肌收缩力进行代偿；若 ＣＯ进一步下降，则交感神经兴奋及血管收缩等代偿机制激活，反而使 ＣＶＰ升高。此外，动态监测 ＣＶＰ的变化趋势有助于判断容量反应性，指导液体管理。"
+  },
+  {
+    "rule_name": "重症休克患者低CVP指征推荐容量复苏",
+    "head": {
+      "is_negative": false,
+      "name": "临床干预推荐",
+      "arguments": [
+        "X",
+        "容量复苏",
+        "针对休克"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "重症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病状态",
+        "arguments": [
+          "X",
+          "休克"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "测量指标",
+        "arguments": [
+          "Y",
+          "CVP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "测量数值",
+        "arguments": [
+          "Y",
+          "低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床判断",
+        "arguments": [
+          "Z",
+          "需要容量复苏"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "判断依据",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "判断对象",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "存在禁忌",
+        "arguments": [
+          "X",
+          "明确液体负荷"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "CVP测量",
+      "Z": "临床判断"
+    },
+    "source_text": "１ ＣＶＰhijklmnopPＣＶＰk¦YE§ì：①´¨6©；②lÉÒÁª$·¸（«l¬）；③)*¨¸（«s¬）；④（­）®¯É½。ＣＶＰZ'(、-.ÉÒÁSÉ½¸°9c·ab。ＣＶＰ`À®R±Æ·±í¼²，>Ñ³Æ·h´-.ÉÒÁ¨'(µ¶háâXY［１］。·^，^¸¹>@º»¼»½¾ÚÛ·Æ，Ñ}¶`ÀÉ¿ÀÁs，òÂ¹RÃ ＣＶＰ·ÄÅnÆ¤Ç ÈÙ·ÉÒÁÉÈ；Ê^，òqÇ@ºËKÌìúûpq·xEÙÚÛÆÉ{$:ÍÎ ＣＶＰÂ È013，)X[Æ·,ÏÐÑÒãÂ01；Ó^，í¥áoÆLú+ÔÄÕ·９６３·*!CF+3 ２０２０ ５ ? ４０ ? ５ ＣｈｉｎＪＣｒｉｔＣａｒｅＭａｙ２０２０，Ｖｏｌ４０，Ｎｏ．５Ö×Ø»+ÙÚÉ½ÛÙBÜ·Ý3，ÞßÆàáâãÝäj¨Þ'(q$ÔÄ，¡ÎÔÄ ＣＶＰ。OP：１．ＣＶＰqrst、uvwxyzw,{|}~n。"
+  },
+  {
+    "rule_name": "患者CVP正常或升高时不推荐补液",
+    "head": {
+      "is_negative": false,
+      "name": "临床干预不推荐",
+      "arguments": [
+        "X",
+        "补液",
+        "基于CVP"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "测量指标",
+        "arguments": [
+          "Y",
+          "CVP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "测量数值",
+        "arguments": [
+          "Y",
+          "正常或升高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床判断",
+        "arguments": [
+          "Z",
+          "无需容量复苏"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "判断依据",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "判断对象",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "CVP测量",
+      "Z": "临床判断"
+    },
+    "source_text": "１ ＣＶＰhijklmnopPＣＶＰk¦YE§ì：①´¨6©；②lÉÒÁª$·¸（«l¬）；③)*¨¸（«s¬）；④（­）®¯É½。ＣＶＰZ'(、-.ÉÒÁSÉ½¸°9c·ab。ＣＶＰ`À®R±Æ·±í¼²，>Ñ³Æ·h´-.ÉÒÁ¨'(µ¶háâXY［１］。·^，^¸¹>@º»¼»½¾ÚÛ·Æ，Ñ}¶`ÀÉ¿ÀÁs，òÂ¹RÃ ＣＶＰ·ÄÅnÆ¤Ç ÈÙ·ÉÒÁÉÈ；Ê^，òqÇ@ºËKÌìúûpq·xEÙÚÛÆÉ{$:ÍÎ ＣＶＰÂ È013，)X[Æ·,ÏÐÑÒãÂ01；Ó^，í¥áoÆLú+ÔÄÕ·９６３·*!CF+3 ２０２０ ５ ? ４０ ? ５ ＣｈｉｎＪＣｒｉｔＣａｒｅＭａｙ２０２０，Ｖｏｌ４０，Ｎｏ．５Ö×Ø»+ÙÚÉ½ÛÙBÜ·Ý3，ÞßÆàáâãÝäj¨Þ'(q$ÔÄ，¡ÎÔÄ ＣＶＰ。OP：１．ＣＶＰqrst、uvwxyzw,{|}~n。"
+  },
+  {
+    "rule_name": "低CVP但无容量反应性提示补液可能无效",
+    "head": {
+      "is_negative": false,
+      "name": "治疗有效性结论",
+      "arguments": [
+        "W",
+        "可能无效"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "测量指标",
+        "arguments": [
+          "Y",
+          "CVP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "测量数值",
+        "arguments": [
+          "Y",
+          "低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估项目",
+        "arguments": [
+          "W",
+          "容量反应性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估对象",
+        "arguments": [
+          "W",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估结论",
+        "arguments": [
+          "W",
+          "无"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估参考",
+        "arguments": [
+          "W",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "CVP测量",
+      "W": "容量反应性评估"
+    },
+    "source_text": "１ ＣＶＰhijklmnopPＣＶＰk¦YE§ì：①´¨6©；②lÉÒÁª$·¸（«l¬）；③)*¨¸（«s¬）；④（­）®¯É½。ＣＶＰZ'(、-.ÉÒÁSÉ½¸°9c·ab。ＣＶＰ`À®R±Æ·±í¼²，>Ñ³Æ·h´-.ÉÒÁ¨'(µ¶háâXY［１］。·^，^¸¹>@º»¼»½¾ÚÛ·Æ，Ñ}¶`ÀÉ¿ÀÁs，òÂ¹RÃ ＣＶＰ·ÄÅnÆ¤Ç ÈÙ·ÉÒÁÉÈ；Ê^，òqÇ@ºËKÌìúûpq·xEÙÚÛÆÉ{$:ÍÎ ＣＶＰÂ È013，)X[Æ·,ÏÐÑÒãÂ01；Ó^，í¥áoÆLú+ÔÄÕ·９６３·*!CF+3 ２０２０ ５ ? ４０ ? ５ ＣｈｉｎＪＣｒｉｔＣａｒｅＭａｙ２０２０，Ｖｏｌ４０，Ｎｏ．５Ö×Ø»+ÙÚÉ½ÛÙBÜ·Ý3，ÞßÆàáâãÝäj¨Þ'(q$ÔÄ，¡ÎÔÄ ＣＶＰ。OP：１．ＣＶＰqrst、uvwxyzw,{|}~n。"
+  },
+  {
+    "rule_name": "无容量反应性患者即使CVP低也不推荐补液",
+    "head": {
+      "is_negative": false,
+      "name": "临床干预禁忌",
+      "arguments": [
+        "X",
+        "积极补液",
+        "强"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估项目",
+        "arguments": [
+          "W",
+          "容量反应性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估对象",
+        "arguments": [
+          "W",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估结论",
+        "arguments": [
+          "W",
+          "无"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "测量指标",
+        "arguments": [
+          "Y",
+          "CVP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "测量数值",
+        "arguments": [
+          "Y",
+          "低"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "CVP测量",
+      "W": "容量反应性评估"
+    },
+    "source_text": "１ ＣＶＰhijklmnopPＣＶＰk¦YE§ì：①´¨6©；②lÉÒÁª$·¸（«l¬）；③)*¨¸（«s¬）；④（­）®¯É½。ＣＶＰZ'(、-.ÉÒÁSÉ½¸°9c·ab。ＣＶＰ`À®R±Æ·±í¼²，>Ñ³Æ·h´-.ÉÒÁ¨'(µ¶háâXY［１］。·^，^¸¹>@º»¼»½¾ÚÛ·Æ，Ñ}¶`ÀÉ¿ÀÁs，òÂ¹RÃ ＣＶＰ·ÄÅnÆ¤Ç ÈÙ·ÉÒÁÉÈ；Ê^，òqÇ@ºËKÌìúûpq·xEÙÚÛÆÉ{$:ÍÎ ＣＶＰÂ È013，)X[Æ·,ÏÐÑÒãÂ01；Ó^，í¥áoÆLú+ÔÄÕ·９６３·*!CF+3 ２０２０ ５ ? ４０ ? ５ ＣｈｉｎＪＣｒｉｔＣａｒｅＭａｙ２０２０，Ｖｏｌ４０，Ｎｏ．５Ö×Ø»+ÙÚÉ½ÛÙBÜ·Ý3，ÞßÆàáâãÝäj¨Þ'(q$ÔÄ，¡ÎÔÄ ＣＶＰ。OP：１．ＣＶＰqrst、uvwxyzw,{|}~n。"
+  },
+  {
+    "rule_name": "静态CVP值低提示有液体反应性",
+    "head": {
+      "is_negative": false,
+      "name": "提示有",
+      "arguments": [
+        "X",
+        "液体反应性",
+        "基于指标"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "液体复苏"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标测量",
+        "arguments": [
+          "X",
+          "静态CVP",
+          "值小于6mmHg"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标测量",
+        "arguments": [
+          "X",
+          "静态CVP",
+          "值小于8.16cmH2O"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "1.2.2扩容管理中CVP预测液体反应性的原理Guyton理论是基础[27]，强调静脉回流（VR）取决于MSFP与CVP的差值，其曲线右移时，表示MSFP与CVP差值增加意味着静脉回流阻力下降或CVP降低。实践操作中，常采用“5-2法则”[28]，即输液后 ΔCVP≤2cmH2O，提示有液体反应性；若 ΔCVP≥5cmH2O，则无液体反应性迹象，提示应停止扩容；而 ΔCVP在2～5cmH2O之间时，存在不确定性，需结合其他指标综合评估，动态观察 ΔCVP是否超过5cmH2O。研究表明，上述法则临床应用存在局限性。Hahn等[29]研究发现，在扩容管理前即有液体反应性的患者中，ΔCVP的预测能力显著高于单纯依赖静态CVP预测无反应性患者的能力（48% vs. 9%，P<0.004）；而Cecconi等[30]研究发现，扩容管理中预测有液体反应性时，CVP的基线值较低，预测无液体反应性时CVP基线值较高，但两者均与MSFP无关，结论提示这些规则需谨慎解读：有液体反应性时MSFP—CVP差值与VR/CO变化相关，而无反应性时MSFP—CVP差值的变化主要源于VR变化。1.2.3呼气末正压（PEEP）对CVP评估液体反应性的影响正压通气时，胸腔内压周期性变化导致CVP、VR、SV、CO等血流动力学参数产生呼吸周期变异，因此，在此类患者评估中多采用动态指标如每搏量变异度（SVV）与脉压变异度（PPV）等来预测液体反应性，其准确性更高[31-32]。Geerts等[23]研究发现，PEEP水平变化时CVP的预测液体反应性能力将显著降低；"
+  },
+  {
+    "rule_name": "静态CVP值高提示无液体反应性",
+    "head": {
+      "is_negative": true,
+      "name": "提示无",
+      "arguments": [
+        "X",
+        "液体反应性",
+        "基于指标"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "液体复苏"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标测量",
+        "arguments": [
+          "X",
+          "静态CVP",
+          "值大于15mmHg"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标测量",
+        "arguments": [
+          "X",
+          "静态CVP",
+          "值大于20.39cmH2O"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "1.2.2扩容管理中CVP预测液体反应性的原理Guyton理论是基础[27]，强调静脉回流（VR）取决于MSFP与CVP的差值，其曲线右移时，表示MSFP与CVP差值增加意味着静脉回流阻力下降或CVP降低。实践操作中，常采用“5-2法则”[28]，即输液后 ΔCVP≤2cmH2O，提示有液体反应性；若 ΔCVP≥5cmH2O，则无液体反应性迹象，提示应停止扩容；而 ΔCVP在2～5cmH2O之间时，存在不确定性，需结合其他指标综合评估，动态观察 ΔCVP是否超过5cmH2O。研究表明，上述法则临床应用存在局限性。Hahn等[29]研究发现，在扩容管理前即有液体反应性的患者中，ΔCVP的预测能力显著高于单纯依赖静态CVP预测无反应性患者的能力（48% vs. 9%，P<0.004）；而Cecconi等[30]研究发现，扩容管理中预测有液体反应性时，CVP的基线值较低，预测无液体反应性时CVP基线值较高，但两者均与MSFP无关，结论提示这些规则需谨慎解读：有液体反应性时MSFP—CVP差值与VR/CO变化相关，而无反应性时MSFP—CVP差值的变化主要源于VR变化。1.2.3呼气末正压（PEEP）对CVP评估液体反应性的影响正压通气时，胸腔内压周期性变化导致CVP、VR、SV、CO等血流动力学参数产生呼吸周期变异，因此，在此类患者评估中多采用动态指标如每搏量变异度（SVV）与脉压变异度（PPV）等来预测液体反应性，其准确性更高[31-32]。Geerts等[23]研究发现，PEEP水平变化时CVP的预测液体反应性能力将显著降低；"
+  },
+  {
+    "rule_name": "输液后ΔCVP变化小提示有液体反应性_5-2法则",
+    "head": {
+      "is_negative": false,
+      "name": "提示有",
+      "arguments": [
+        "X",
+        "液体反应性",
+        "基于动态指标"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "液体复苏"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受干预",
+        "arguments": [
+          "X",
+          "快速补液试验"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标变化量",
+        "arguments": [
+          "X",
+          "ΔCVP",
+          "小于等于2cmH2O"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "1.2.2扩容管理中CVP预测液体反应性的原理Guyton理论是基础[27]，强调静脉回流（VR）取决于MSFP与CVP的差值，其曲线右移时，表示MSFP与CVP差值增加意味着静脉回流阻力下降或CVP降低。实践操作中，常采用“5-2法则”[28]，即输液后 ΔCVP≤2cmH2O，提示有液体反应性；若 ΔCVP≥5cmH2O，则无液体反应性迹象，提示应停止扩容；而 ΔCVP在2～5cmH2O之间时，存在不确定性，需结合其他指标综合评估，动态观察 ΔCVP是否超过5cmH2O。研究表明，上述法则临床应用存在局限性。Hahn等[29]研究发现，在扩容管理前即有液体反应性的患者中，ΔCVP的预测能力显著高于单纯依赖静态CVP预测无反应性患者的能力（48% vs. 9%，P<0.004）；而Cecconi等[30]研究发现，扩容管理中预测有液体反应性时，CVP的基线值较低，预测无液体反应性时CVP基线值较高，但两者均与MSFP无关，结论提示这些规则需谨慎解读：有液体反应性时MSFP—CVP差值与VR/CO变化相关，而无反应性时MSFP—CVP差值的变化主要源于VR变化。1.2.3呼气末正压（PEEP）对CVP评估液体反应性的影响正压通气时，胸腔内压周期性变化导致CVP、VR、SV、CO等血流动力学参数产生呼吸周期变异，因此，在此类患者评估中多采用动态指标如每搏量变异度（SVV）与脉压变异度（PPV）等来预测液体反应性，其准确性更高[31-32]。Geerts等[23]研究发现，PEEP水平变化时CVP的预测液体反应性能力将显著降低；"
+  },
+  {
+    "rule_name": "输液后ΔCVP变化大提示无液体反应性_5-2法则",
+    "head": {
+      "is_negative": true,
+      "name": "提示无",
+      "arguments": [
+        "X",
+        "液体反应性",
+        "基于动态指标"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "液体复苏"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受干预",
+        "arguments": [
+          "X",
+          "快速补液试验"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标变化量",
+        "arguments": [
+          "X",
+          "ΔCVP",
+          "大于等于5cmH2O"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "1.2.2扩容管理中CVP预测液体反应性的原理Guyton理论是基础[27]，强调静脉回流（VR）取决于MSFP与CVP的差值，其曲线右移时，表示MSFP与CVP差值增加意味着静脉回流阻力下降或CVP降低。实践操作中，常采用“5-2法则”[28]，即输液后 ΔCVP≤2cmH2O，提示有液体反应性；若 ΔCVP≥5cmH2O，则无液体反应性迹象，提示应停止扩容；而 ΔCVP在2～5cmH2O之间时，存在不确定性，需结合其他指标综合评估，动态观察 ΔCVP是否超过5cmH2O。研究表明，上述法则临床应用存在局限性。Hahn等[29]研究发现，在扩容管理前即有液体反应性的患者中，ΔCVP的预测能力显著高于单纯依赖静态CVP预测无反应性患者的能力（48% vs. 9%，P<0.004）；而Cecconi等[30]研究发现，扩容管理中预测有液体反应性时，CVP的基线值较低，预测无液体反应性时CVP基线值较高，但两者均与MSFP无关，结论提示这些规则需谨慎解读：有液体反应性时MSFP—CVP差值与VR/CO变化相关，而无反应性时MSFP—CVP差值的变化主要源于VR变化。1.2.3呼气末正压（PEEP）对CVP评估液体反应性的影响正压通气时，胸腔内压周期性变化导致CVP、VR、SV、CO等血流动力学参数产生呼吸周期变异，因此，在此类患者评估中多采用动态指标如每搏量变异度（SVV）与脉压变异度（PPV）等来预测液体反应性，其准确性更高[31-32]。Geerts等[23]研究发现，PEEP水平变化时CVP的预测液体反应性能力将显著降低；"
+  },
+  {
+    "rule_name": "ΔCVP处于不确定区间需结合其他评估_5-2法则",
+    "head": {
+      "is_negative": false,
+      "name": "需进一步评估",
+      "arguments": [
+        "X",
+        "液体反应性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "液体复苏"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受干预",
+        "arguments": [
+          "X",
+          "快速补液试验"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标变化量",
+        "arguments": [
+          "X",
+          "ΔCVP",
+          "介于2至5cmH2O之间"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "1.2.2扩容管理中CVP预测液体反应性的原理Guyton理论是基础[27]，强调静脉回流（VR）取决于MSFP与CVP的差值，其曲线右移时，表示MSFP与CVP差值增加意味着静脉回流阻力下降或CVP降低。实践操作中，常采用“5-2法则”[28]，即输液后 ΔCVP≤2cmH2O，提示有液体反应性；若 ΔCVP≥5cmH2O，则无液体反应性迹象，提示应停止扩容；而 ΔCVP在2～5cmH2O之间时，存在不确定性，需结合其他指标综合评估，动态观察 ΔCVP是否超过5cmH2O。研究表明，上述法则临床应用存在局限性。Hahn等[29]研究发现，在扩容管理前即有液体反应性的患者中，ΔCVP的预测能力显著高于单纯依赖静态CVP预测无反应性患者的能力（48% vs. 9%，P<0.004）；而Cecconi等[30]研究发现，扩容管理中预测有液体反应性时，CVP的基线值较低，预测无液体反应性时CVP基线值较高，但两者均与MSFP无关，结论提示这些规则需谨慎解读：有液体反应性时MSFP—CVP差值与VR/CO变化相关，而无反应性时MSFP—CVP差值的变化主要源于VR变化。1.2.3呼气末正压（PEEP）对CVP评估液体反应性的影响正压通气时，胸腔内压周期性变化导致CVP、VR、SV、CO等血流动力学参数产生呼吸周期变异，因此，在此类患者评估中多采用动态指标如每搏量变异度（SVV）与脉压变异度（PPV）等来预测液体反应性，其准确性更高[31-32]。Geerts等[23]研究发现，PEEP水平变化时CVP的预测液体反应性能力将显著降低；"
+  },
+  {
+    "rule_name": "PEEP治疗下CVP评估能力受限需用动态指标",
+    "head": {
+      "is_negative": false,
+      "name": "评估推荐",
+      "arguments": [
+        "Y",
+        "动态指标",
+        "优先于CVP"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "液体复苏"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "机械通气"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "通气参数",
+        "arguments": [
+          "X",
+          "PEEP",
+          "水平变化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估对象",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "液体反应性"
+    },
+    "source_text": "1.2.2扩容管理中CVP预测液体反应性的原理Guyton理论是基础[27]，强调静脉回流（VR）取决于MSFP与CVP的差值，其曲线右移时，表示MSFP与CVP差值增加意味着静脉回流阻力下降或CVP降低。实践操作中，常采用“5-2法则”[28]，即输液后 ΔCVP≤2cmH2O，提示有液体反应性；若 ΔCVP≥5cmH2O，则无液体反应性迹象，提示应停止扩容；而 ΔCVP在2～5cmH2O之间时，存在不确定性，需结合其他指标综合评估，动态观察 ΔCVP是否超过5cmH2O。研究表明，上述法则临床应用存在局限性。Hahn等[29]研究发现，在扩容管理前即有液体反应性的患者中，ΔCVP的预测能力显著高于单纯依赖静态CVP预测无反应性患者的能力（48% vs. 9%，P<0.004）；而Cecconi等[30]研究发现，扩容管理中预测有液体反应性时，CVP的基线值较低，预测无液体反应性时CVP基线值较高，但两者均与MSFP无关，结论提示这些规则需谨慎解读：有液体反应性时MSFP—CVP差值与VR/CO变化相关，而无反应性时MSFP—CVP差值的变化主要源于VR变化。1.2.3呼气末正压（PEEP）对CVP评估液体反应性的影响正压通气时，胸腔内压周期性变化导致CVP、VR、SV、CO等血流动力学参数产生呼吸周期变异，因此，在此类患者评估中多采用动态指标如每搏量变异度（SVV）与脉压变异度（PPV）等来预测液体反应性，其准确性更高[31-32]。Geerts等[23]研究发现，PEEP水平变化时CVP的预测液体反应性能力将显著降低；"
+  }
+]

@@ -1,0 +1,1593 @@
+[
+  {
+    "rule_name": "无DR患者白内障手术时机参照普通患者",
+    "head": {
+      "is_negative": false,
+      "name": "手术时机参照",
+      "arguments": [
+        "X",
+        "普通患者"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于",
+        "arguments": [
+          "Y",
+          "白内障"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于",
+        "arguments": [
+          "Z",
+          "DR"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "白内障",
+      "Z": "DR状态"
+    },
+    "source_text": "白内障的持续发展最终可严重影响视力，多数患者即使出现一定程度眼底病变，白内障摘除手术仍可提升部分视力［10］。对于晶状体混浊程度已影响观察和治疗眼底病变的患者，即使术后视力可能不理想，也须手术处理白内障，为后续诊治眼底病变提供便利。然而，白内障摘除手术存在进一步加剧DR程度的风险［11‑12］，因此应综合考虑白内障和眼底病变两方面的情况，恰当选择白内障摘除手术的时机。结合国际眼科学会2017年《糖尿病眼保健指南》［13］，建议对于尚未出现DR或轻度非增殖期DR（nonproliferative diabetic retinopathy，NPDR）无需治疗的糖尿病患者，白内障摘除手术指征及时机参照普通患者；"
+  },
+  {
+    "rule_name": "轻度NPDR无需治疗患者白内障手术时机参照普通患者",
+    "head": {
+      "is_negative": false,
+      "name": "手术时机参照",
+      "arguments": [
+        "X",
+        "普通患者"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于",
+        "arguments": [
+          "Y",
+          "白内障"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于",
+        "arguments": [
+          "Z",
+          "DR"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "严重程度",
+        "arguments": [
+          "Z",
+          "轻度NPDR"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "无需治疗",
+        "arguments": [
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "白内障",
+      "Z": "DR状态"
+    },
+    "source_text": "白内障的持续发展最终可严重影响视力，多数患者即使出现一定程度眼底病变，白内障摘除手术仍可提升部分视力［10］。对于晶状体混浊程度已影响观察和治疗眼底病变的患者，即使术后视力可能不理想，也须手术处理白内障，为后续诊治眼底病变提供便利。然而，白内障摘除手术存在进一步加剧DR程度的风险［11‑12］，因此应综合考虑白内障和眼底病变两方面的情况，恰当选择白内障摘除手术的时机。结合国际眼科学会2017年《糖尿病眼保健指南》［13］，建议对于尚未出现DR或轻度非增殖期DR（nonproliferative diabetic retinopathy，NPDR）无需治疗的糖尿病患者，白内障摘除手术指征及时机参照普通患者；"
+  },
+  {
+    "rule_name": "血糖控制不佳患者白内障术后黄斑水肿风险",
+    "head": {
+      "is_negative": false,
+      "name": "导致并发症",
+      "arguments": [
+        "X",
+        "黄斑水肿",
+        "术后"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "白内障手术"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "血糖控制良好",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病患者白内障手术需关注全身情况，血糖控制不佳可导致术后黄斑水肿、感染风险增加等并发症。手术时机应选择在血糖相对稳定期，围手术期需加强血糖监测。对于合并糖尿病视网膜病变者，术前应进行充分评估，必要时先行视网膜光凝或抗VEGF治疗。术后需密切随访，警惕后发性白内障、黄斑水肿等并发症的发生。"
+  },
+  {
+    "rule_name": "血糖控制不佳患者白内障术后感染风险",
+    "head": {
+      "is_negative": false,
+      "name": "导致并发症",
+      "arguments": [
+        "X",
+        "感染风险增加",
+        "术后"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "白内障手术"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "血糖控制良好",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病患者白内障手术需关注全身情况，血糖控制不佳可导致术后黄斑水肿、感染风险增加等并发症。手术时机应选择在血糖相对稳定期，围手术期需加强血糖监测。对于合并糖尿病视网膜病变者，术前应进行充分评估，必要时先行视网膜光凝或抗VEGF治疗。术后需密切随访，警惕后发性白内障、黄斑水肿等并发症的发生。"
+  },
+  {
+    "rule_name": "合并糖尿病视网膜病变患者白内障手术术前指征_视网膜光凝",
+    "head": {
+      "is_negative": false,
+      "name": "术前干预指征",
+      "arguments": [
+        "X",
+        "视网膜光凝"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "白内障手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发疾病",
+        "arguments": [
+          "X",
+          "糖尿病视网膜病变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病患者白内障手术需关注全身情况，血糖控制不佳可导致术后黄斑水肿、感染风险增加等并发症。手术时机应选择在血糖相对稳定期，围手术期需加强血糖监测。对于合并糖尿病视网膜病变者，术前应进行充分评估，必要时先行视网膜光凝或抗VEGF治疗。术后需密切随访，警惕后发性白内障、黄斑水肿等并发症的发生。"
+  },
+  {
+    "rule_name": "合并糖尿病视网膜病变患者白内障手术术前指征_抗VEGF",
+    "head": {
+      "is_negative": false,
+      "name": "术前干预指征",
+      "arguments": [
+        "X",
+        "抗VEGF治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "白内障手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发疾病",
+        "arguments": [
+          "X",
+          "糖尿病视网膜病变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病患者白内障手术需关注全身情况，血糖控制不佳可导致术后黄斑水肿、感染风险增加等并发症。手术时机应选择在血糖相对稳定期，围手术期需加强血糖监测。对于合并糖尿病视网膜病变者，术前应进行充分评估，必要时先行视网膜光凝或抗VEGF治疗。术后需密切随访，警惕后发性白内障、黄斑水肿等并发症的发生。"
+  },
+  {
+    "rule_name": "糖尿病患者白内障术后需警惕后发性白内障",
+    "head": {
+      "is_negative": false,
+      "name": "术后需警惕并发症",
+      "arguments": [
+        "X",
+        "后发性白内障"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "白内障手术"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病患者白内障手术需关注全身情况，血糖控制不佳可导致术后黄斑水肿、感染风险增加等并发症。手术时机应选择在血糖相对稳定期，围手术期需加强血糖监测。对于合并糖尿病视网膜病变者，术前应进行充分评估，必要时先行视网膜光凝或抗VEGF治疗。术后需密切随访，警惕后发性白内障、黄斑水肿等并发症的发生。"
+  },
+  {
+    "rule_name": "糖尿病患者白内障术后需警惕黄斑水肿",
+    "head": {
+      "is_negative": false,
+      "name": "术后需警惕并发症",
+      "arguments": [
+        "X",
+        "黄斑水肿"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "白内障手术"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病患者白内障手术需关注全身情况，血糖控制不佳可导致术后黄斑水肿、感染风险增加等并发症。手术时机应选择在血糖相对稳定期，围手术期需加强血糖监测。对于合并糖尿病视网膜病变者，术前应进行充分评估，必要时先行视网膜光凝或抗VEGF治疗。术后需密切随访，警惕后发性白内障、黄斑水肿等并发症的发生。"
+  },
+  {
+    "rule_name": "围手术期血糖控制不良导致术后视网膜病变进展风险",
+    "head": {
+      "is_negative": false,
+      "name": "疾病进展风险",
+      "arguments": [
+        "Z",
+        "高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "白内障手术",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术时间点",
+        "arguments": [
+          "Y",
+          "围手术期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血糖控制状态",
+        "arguments": [
+          "X",
+          "不良",
+          "程度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病视网膜病变",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变分期",
+        "arguments": [
+          "Z",
+          "非增殖期"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "白内障手术",
+      "Z": "糖尿病视网膜病变"
+    },
+    "source_text": "Suto C, Hori S, Kato S, et al. Effect of perioperative glycemiccontrol in progression of diabetic retinopathy and maculopathy[J]. Arch Ophthalmol, 2006, 124(1): 38‑45. DOI: 10. 1001 /archopht. 124. 1. 38.[10]Fong CS, Mitchell P, Rochtchina E, et al. Visual outcomes 12months after phacoemulsification cataract surgery in patientswith diabetes[J]. Acta Ophthalmol, 2012, 90(2): 173‑178.DOI: 10. 1111/j. 1755‑3768. 2009. 01851. x.[11]Jaffe GJ, Burton TC. Progression of nonproliferative diabeticretinopathy following cataract extraction[J]. Arch Ophthalmol,1988, 106(6): 745‑749. DOI: 10. 1001 / archopht. 1988.01060130815029.[12]Hong T, Mitchell P, de Loryn T, et al. Development andprogressionofdiabeticretinopathy12monthsafterphacoemulsification cataract surgery[J]. Ophthalmology, 2009, 116(8): 1510‑1514. DOI: 10. 1016/j. ophtha. 2009. 03. 003."
+  },
+  {
+    "rule_name": "白内障术后12个月内非增殖期糖尿病视网膜病变可能进展",
+    "head": {
+      "is_negative": false,
+      "name": "疾病进展风险",
+      "arguments": [
+        "Z",
+        "高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "白内障手术",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术后时间点",
+        "arguments": [
+          "Y",
+          "12个月内"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病视网膜病变",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变分期",
+        "arguments": [
+          "Z",
+          "非增殖期"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "白内障手术",
+      "Z": "糖尿病视网膜病变"
+    },
+    "source_text": "Suto C, Hori S, Kato S, et al. Effect of perioperative glycemiccontrol in progression of diabetic retinopathy and maculopathy[J]. Arch Ophthalmol, 2006, 124(1): 38‑45. DOI: 10. 1001 /archopht. 124. 1. 38.[10]Fong CS, Mitchell P, Rochtchina E, et al. Visual outcomes 12months after phacoemulsification cataract surgery in patientswith diabetes[J]. Acta Ophthalmol, 2012, 90(2): 173‑178.DOI: 10. 1111/j. 1755‑3768. 2009. 01851. x.[11]Jaffe GJ, Burton TC. Progression of nonproliferative diabeticretinopathy following cataract extraction[J]. Arch Ophthalmol,1988, 106(6): 745‑749. DOI: 10. 1001 / archopht. 1988.01060130815029.[12]Hong T, Mitchell P, de Loryn T, et al. Development andprogressionofdiabeticretinopathy12monthsafterphacoemulsification cataract surgery[J]. Ophthalmology, 2009, 116(8): 1510‑1514. DOI: 10. 1016/j. ophtha. 2009. 03. 003."
+  },
+  {
+    "rule_name": "血糖控制良好患者白内障术后特定时间点视力预后评估",
+    "head": {
+      "is_negative": false,
+      "name": "预后评估",
+      "arguments": [
+        "X",
+        "良好",
+        "可能性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "白内障手术",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术方式",
+        "arguments": [
+          "Y",
+          "超声乳化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术后时间点",
+        "arguments": [
+          "Y",
+          "12个月"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血糖控制状态",
+        "arguments": [
+          "X",
+          "良好",
+          "程度"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "疾病进展风险",
+        "arguments": [
+          "Z",
+          "高"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "白内障手术",
+      "Z": "糖尿病视网膜病变"
+    },
+    "source_text": "Suto C, Hori S, Kato S, et al. Effect of perioperative glycemiccontrol in progression of diabetic retinopathy and maculopathy[J]. Arch Ophthalmol, 2006, 124(1): 38‑45. DOI: 10. 1001 /archopht. 124. 1. 38.[10]Fong CS, Mitchell P, Rochtchina E, et al. Visual outcomes 12months after phacoemulsification cataract surgery in patientswith diabetes[J]. Acta Ophthalmol, 2012, 90(2): 173‑178.DOI: 10. 1111/j. 1755‑3768. 2009. 01851. x.[11]Jaffe GJ, Burton TC. Progression of nonproliferative diabeticretinopathy following cataract extraction[J]. Arch Ophthalmol,1988, 106(6): 745‑749. DOI: 10. 1001 / archopht. 1988.01060130815029.[12]Hong T, Mitchell P, de Loryn T, et al. Development andprogressionofdiabeticretinopathy12monthsafterphacoemulsification cataract surgery[J]. Ophthalmology, 2009, 116(8): 1510‑1514. DOI: 10. 1016/j. ophtha. 2009. 03. 003."
+  },
+  {
+    "rule_name": "糖尿病患者白内障术后黄斑囊样水肿风险增高",
+    "head": {
+      "is_negative": false,
+      "name": "并发症风险更高",
+      "arguments": [
+        "X",
+        "黄斑囊样水肿"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "经历手术",
+        "arguments": [
+          "X",
+          "白内障摘除术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理特征",
+        "arguments": [
+          "X",
+          "炎性反应更强"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "黄斑囊样水肿是白内障摘除手术后视力不佳的常见原因，糖尿病患者由于炎性反应更强，黄斑囊样水肿的发生率较普通患者更高［25‑26］。目前最有效的预防方法是围手术期使用NSAID滴眼液，此类药物作为环氧合酶抑制剂，可阻断前列腺素生成，进而减少毛细血管向周边组织间隙渗液［27‑29］。"
+  },
+  {
+    "rule_name": "围手术期使用NSAID滴眼液预防黄斑囊样水肿机制",
+    "head": {
+      "is_negative": false,
+      "name": "降低风险",
+      "arguments": [
+        "X",
+        "黄斑囊样水肿"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "并发症风险更高",
+        "arguments": [
+          "X",
+          "黄斑囊样水肿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用药物",
+        "arguments": [
+          "X",
+          "a",
+          "围手术期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物类型",
+        "arguments": [
+          "a",
+          "NSAID滴眼液"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "a": "NSAID滴眼液"
+    },
+    "source_text": "黄斑囊样水肿是白内障摘除手术后视力不佳的常见原因，糖尿病患者由于炎性反应更强，黄斑囊样水肿的发生率较普通患者更高［25‑26］。目前最有效的预防方法是围手术期使用NSAID滴眼液，此类药物作为环氧合酶抑制剂，可阻断前列腺素生成，进而减少毛细血管向周边组织间隙渗液［27‑29］。"
+  },
+  {
+    "rule_name": "人工晶状体边缘锐利设计可抑制后发性白内障",
+    "head": {
+      "is_negative": false,
+      "name": "人工晶状体设计特征",
+      "arguments": [
+        "Y",
+        "抑制后发性白内障"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "人工晶状体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有特征",
+        "arguments": [
+          "Y",
+          "光学区边缘锐利"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "人工晶状体"
+    },
+    "source_text": "糖尿病患者为后发性白内障的高发人群，应参考各种因素，选择恰当的人工晶状体。3. 人工晶状体屈光度数的计算：由于黄斑水肿时黄斑区视网膜厚度增加，而A超测量的眼轴为角膜前表面至视网膜内界膜的距离，故而术前发生DME的患者可因眼轴长度测量不准确而导致人工晶状体屈光度数计算出现偏差［44］，所得结果小于实际值。光学生物测量因测量的眼轴为实际眼轴（角膜前表面至视网膜色素上皮层距离），具有较高的准确性。因此，对于术前发生DME的患者，人工晶状体屈光度数的计算应主要参考光学生物测量所得的眼轴结果。六、术后随访糖尿病患者白内障摘除手术后并发症发生率高，眼底病变可能因手术创伤而加重，故术后需对糖尿病患者进行充分的健康教育，务必嘱其按时复查，以免延误治疗。除遵循常规白内障摘除手术随访方案（术后1 d、1周、1个月、3个月）外，建议患者术后半年内每月至少复查1次，根据每次复查的情··339中华眼科杂志2020年5月第56卷第5期Chin J Ophthalmol，May 2020, Vol. 56, No. 5况对随访频率进行调整。若术中出现晶状体后囊膜破裂等并发症，可酌情增加随访次数。随访项目应包括视力、眼压、眼前节情况、眼底常规检查、相干光层析成像术及荧光素眼底血管造影术检查等。术后病情稳定后，参照《糖尿病视网膜病变防治专家共识》［6］和《我国糖尿病视网膜病变临床诊疗指南》［45］按期随访。"
+  },
+  {
+    "rule_name": "人工晶状体后表面高凸设计可抑制后发性白内障",
+    "head": {
+      "is_negative": false,
+      "name": "人工晶状体设计特征",
+      "arguments": [
+        "Y",
+        "抑制后发性白内障"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "人工晶状体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有特征",
+        "arguments": [
+          "Y",
+          "后表面高凸"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "人工晶状体"
+    },
+    "source_text": "糖尿病患者为后发性白内障的高发人群，应参考各种因素，选择恰当的人工晶状体。3. 人工晶状体屈光度数的计算：由于黄斑水肿时黄斑区视网膜厚度增加，而A超测量的眼轴为角膜前表面至视网膜内界膜的距离，故而术前发生DME的患者可因眼轴长度测量不准确而导致人工晶状体屈光度数计算出现偏差［44］，所得结果小于实际值。光学生物测量因测量的眼轴为实际眼轴（角膜前表面至视网膜色素上皮层距离），具有较高的准确性。因此，对于术前发生DME的患者，人工晶状体屈光度数的计算应主要参考光学生物测量所得的眼轴结果。六、术后随访糖尿病患者白内障摘除手术后并发症发生率高，眼底病变可能因手术创伤而加重，故术后需对糖尿病患者进行充分的健康教育，务必嘱其按时复查，以免延误治疗。除遵循常规白内障摘除手术随访方案（术后1 d、1周、1个月、3个月）外，建议患者术后半年内每月至少复查1次，根据每次复查的情··339中华眼科杂志2020年5月第56卷第5期Chin J Ophthalmol，May 2020, Vol. 56, No. 5况对随访频率进行调整。若术中出现晶状体后囊膜破裂等并发症，可酌情增加随访次数。随访项目应包括视力、眼压、眼前节情况、眼底常规检查、相干光层析成像术及荧光素眼底血管造影术检查等。术后病情稳定后，参照《糖尿病视网膜病变防治专家共识》［6］和《我国糖尿病视网膜病变临床诊疗指南》［45］按期随访。"
+  },
+  {
+    "rule_name": "术前患DME患者应参考光学生物测量计算人工晶状体屈光度",
+    "head": {
+      "is_negative": false,
+      "name": "推荐计算方法",
+      "arguments": [
+        "X",
+        "光学生物测量",
+        "主要参考"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病性黄斑水肿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术时机",
+        "arguments": [
+          "X",
+          "术前"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病患者为后发性白内障的高发人群，应参考各种因素，选择恰当的人工晶状体。3. 人工晶状体屈光度数的计算：由于黄斑水肿时黄斑区视网膜厚度增加，而A超测量的眼轴为角膜前表面至视网膜内界膜的距离，故而术前发生DME的患者可因眼轴长度测量不准确而导致人工晶状体屈光度数计算出现偏差［44］，所得结果小于实际值。光学生物测量因测量的眼轴为实际眼轴（角膜前表面至视网膜色素上皮层距离），具有较高的准确性。因此，对于术前发生DME的患者，人工晶状体屈光度数的计算应主要参考光学生物测量所得的眼轴结果。六、术后随访糖尿病患者白内障摘除手术后并发症发生率高，眼底病变可能因手术创伤而加重，故术后需对糖尿病患者进行充分的健康教育，务必嘱其按时复查，以免延误治疗。除遵循常规白内障摘除手术随访方案（术后1 d、1周、1个月、3个月）外，建议患者术后半年内每月至少复查1次，根据每次复查的情··339中华眼科杂志2020年5月第56卷第5期Chin J Ophthalmol，May 2020, Vol. 56, No. 5况对随访频率进行调整。若术中出现晶状体后囊膜破裂等并发症，可酌情增加随访次数。随访项目应包括视力、眼压、眼前节情况、眼底常规检查、相干光层析成像术及荧光素眼底血管造影术检查等。术后病情稳定后，参照《糖尿病视网膜病变防治专家共识》［6］和《我国糖尿病视网膜病变临床诊疗指南》［45］按期随访。"
+  },
+  {
+    "rule_name": "糖尿病患者白内障术后应增加随访频率_常规方案",
+    "head": {
+      "is_negative": false,
+      "name": "推荐随访频率",
+      "arguments": [
+        "X",
+        "增加"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "白内障摘除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术时机",
+        "arguments": [
+          "X",
+          "术后"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病患者为后发性白内障的高发人群，应参考各种因素，选择恰当的人工晶状体。3. 人工晶状体屈光度数的计算：由于黄斑水肿时黄斑区视网膜厚度增加，而A超测量的眼轴为角膜前表面至视网膜内界膜的距离，故而术前发生DME的患者可因眼轴长度测量不准确而导致人工晶状体屈光度数计算出现偏差［44］，所得结果小于实际值。光学生物测量因测量的眼轴为实际眼轴（角膜前表面至视网膜色素上皮层距离），具有较高的准确性。因此，对于术前发生DME的患者，人工晶状体屈光度数的计算应主要参考光学生物测量所得的眼轴结果。六、术后随访糖尿病患者白内障摘除手术后并发症发生率高，眼底病变可能因手术创伤而加重，故术后需对糖尿病患者进行充分的健康教育，务必嘱其按时复查，以免延误治疗。除遵循常规白内障摘除手术随访方案（术后1 d、1周、1个月、3个月）外，建议患者术后半年内每月至少复查1次，根据每次复查的情··339中华眼科杂志2020年5月第56卷第5期Chin J Ophthalmol，May 2020, Vol. 56, No. 5况对随访频率进行调整。若术中出现晶状体后囊膜破裂等并发症，可酌情增加随访次数。随访项目应包括视力、眼压、眼前节情况、眼底常规检查、相干光层析成像术及荧光素眼底血管造影术检查等。术后病情稳定后，参照《糖尿病视网膜病变防治专家共识》［6］和《我国糖尿病视网膜病变临床诊疗指南》［45］按期随访。"
+  },
+  {
+    "rule_name": "糖尿病患者白内障术后应增加随访频率_半年内高频复查",
+    "head": {
+      "is_negative": false,
+      "name": "推荐随访频率",
+      "arguments": [
+        "X",
+        "增加"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "白内障摘除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术时机",
+        "arguments": [
+          "X",
+          "术后"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病患者为后发性白内障的高发人群，应参考各种因素，选择恰当的人工晶状体。3. 人工晶状体屈光度数的计算：由于黄斑水肿时黄斑区视网膜厚度增加，而A超测量的眼轴为角膜前表面至视网膜内界膜的距离，故而术前发生DME的患者可因眼轴长度测量不准确而导致人工晶状体屈光度数计算出现偏差［44］，所得结果小于实际值。光学生物测量因测量的眼轴为实际眼轴（角膜前表面至视网膜色素上皮层距离），具有较高的准确性。因此，对于术前发生DME的患者，人工晶状体屈光度数的计算应主要参考光学生物测量所得的眼轴结果。六、术后随访糖尿病患者白内障摘除手术后并发症发生率高，眼底病变可能因手术创伤而加重，故术后需对糖尿病患者进行充分的健康教育，务必嘱其按时复查，以免延误治疗。除遵循常规白内障摘除手术随访方案（术后1 d、1周、1个月、3个月）外，建议患者术后半年内每月至少复查1次，根据每次复查的情··339中华眼科杂志2020年5月第56卷第5期Chin J Ophthalmol，May 2020, Vol. 56, No. 5况对随访频率进行调整。若术中出现晶状体后囊膜破裂等并发症，可酌情增加随访次数。随访项目应包括视力、眼压、眼前节情况、眼底常规检查、相干光层析成像术及荧光素眼底血管造影术检查等。术后病情稳定后，参照《糖尿病视网膜病变防治专家共识》［6］和《我国糖尿病视网膜病变临床诊疗指南》［45］按期随访。"
+  },
+  {
+    "rule_name": "糖尿病患者白内障手术单焦点人工晶状体选择原则",
+    "head": {
+      "is_negative": false,
+      "name": "选择推荐",
+      "arguments": [
+        "Y",
+        "单焦点",
+        "作为晶状体"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "眼底病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行手术",
+        "arguments": [
+          "Z",
+          "白内障摘除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者对象",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于类型",
+        "arguments": [
+          "Y",
+          "单焦点人工晶状体"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "人工晶状体",
+      "Z": "手术"
+    },
+    "source_text": "五、人工晶状体的选择1. 人工晶状体类型的选择：建议植入单焦点人工晶状体，慎重使用特殊类型人工晶状体（如多焦点、三焦点人工晶状体等）。糖尿病患者由于合并眼底病变，白内障预后视力可能不如普通患者理想，选择人工晶状体应以满足患者基本视觉需求为原则。此外，特殊类型人工晶状体对患者自身眼部条件要求较高。糖尿病患者多合并对比敏感度下降、瞳孔异常、黄斑功能损伤等问题，使用特殊类型人工晶状体无法达到手术预期效果，反而可能出现眩光、对比敏感度进一步下降等不良反应。2. 人工晶状体材质和形态的选择：研究结果表明，植入疏水性人工晶状体者后发性白内障的发生概率明显低于植入亲水性人工晶状体者［23］。这可能是由于疏水性人工晶状体表面黏性大，其光学区与后囊膜紧密黏附，可阻止晶状体上皮细胞向后囊膜迁移，从而降低了后发性白内障的发生率。在人工晶状体的形态方面，光学区边缘锐利、后表面高凸和直角方边设计，均具有抑制后发性白内障的作用［41‑42］。然而，也有研究结果显示，亲水性人工晶状体由于葡萄膜生物相容性更好，故术后能减轻前房的炎性反应［43］。糖尿病患者为后发性白内障的高发人群，应参考各种因素，选择恰当的人工晶状体。"
+  },
+  {
+    "rule_name": "糖尿病患者慎用特殊类型人工晶状体原因_对比敏感度下降",
+    "head": {
+      "is_negative": false,
+      "name": "选择不推荐",
+      "arguments": [
+        "Y",
+        "特殊类型",
+        "针对患者"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "对比敏感度下降"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于类型",
+        "arguments": [
+          "Y",
+          "多焦点或三焦点人工晶状体"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "人工晶状体"
+    },
+    "source_text": "五、人工晶状体的选择1. 人工晶状体类型的选择：建议植入单焦点人工晶状体，慎重使用特殊类型人工晶状体（如多焦点、三焦点人工晶状体等）。糖尿病患者由于合并眼底病变，白内障预后视力可能不如普通患者理想，选择人工晶状体应以满足患者基本视觉需求为原则。此外，特殊类型人工晶状体对患者自身眼部条件要求较高。糖尿病患者多合并对比敏感度下降、瞳孔异常、黄斑功能损伤等问题，使用特殊类型人工晶状体无法达到手术预期效果，反而可能出现眩光、对比敏感度进一步下降等不良反应。2. 人工晶状体材质和形态的选择：研究结果表明，植入疏水性人工晶状体者后发性白内障的发生概率明显低于植入亲水性人工晶状体者［23］。这可能是由于疏水性人工晶状体表面黏性大，其光学区与后囊膜紧密黏附，可阻止晶状体上皮细胞向后囊膜迁移，从而降低了后发性白内障的发生率。在人工晶状体的形态方面，光学区边缘锐利、后表面高凸和直角方边设计，均具有抑制后发性白内障的作用［41‑42］。然而，也有研究结果显示，亲水性人工晶状体由于葡萄膜生物相容性更好，故术后能减轻前房的炎性反应［43］。糖尿病患者为后发性白内障的高发人群，应参考各种因素，选择恰当的人工晶状体。"
+  },
+  {
+    "rule_name": "糖尿病患者慎用特殊类型人工晶状体原因_瞳孔异常",
+    "head": {
+      "is_negative": false,
+      "name": "选择不推荐",
+      "arguments": [
+        "Y",
+        "特殊类型",
+        "针对患者"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "瞳孔异常"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于类型",
+        "arguments": [
+          "Y",
+          "多焦点或三焦点人工晶状体"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "人工晶状体"
+    },
+    "source_text": "五、人工晶状体的选择1. 人工晶状体类型的选择：建议植入单焦点人工晶状体，慎重使用特殊类型人工晶状体（如多焦点、三焦点人工晶状体等）。糖尿病患者由于合并眼底病变，白内障预后视力可能不如普通患者理想，选择人工晶状体应以满足患者基本视觉需求为原则。此外，特殊类型人工晶状体对患者自身眼部条件要求较高。糖尿病患者多合并对比敏感度下降、瞳孔异常、黄斑功能损伤等问题，使用特殊类型人工晶状体无法达到手术预期效果，反而可能出现眩光、对比敏感度进一步下降等不良反应。2. 人工晶状体材质和形态的选择：研究结果表明，植入疏水性人工晶状体者后发性白内障的发生概率明显低于植入亲水性人工晶状体者［23］。这可能是由于疏水性人工晶状体表面黏性大，其光学区与后囊膜紧密黏附，可阻止晶状体上皮细胞向后囊膜迁移，从而降低了后发性白内障的发生率。在人工晶状体的形态方面，光学区边缘锐利、后表面高凸和直角方边设计，均具有抑制后发性白内障的作用［41‑42］。然而，也有研究结果显示，亲水性人工晶状体由于葡萄膜生物相容性更好，故术后能减轻前房的炎性反应［43］。糖尿病患者为后发性白内障的高发人群，应参考各种因素，选择恰当的人工晶状体。"
+  },
+  {
+    "rule_name": "糖尿病患者慎用特殊类型人工晶状体原因_黄斑功能损伤",
+    "head": {
+      "is_negative": false,
+      "name": "选择不推荐",
+      "arguments": [
+        "Y",
+        "特殊类型",
+        "针对患者"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "黄斑功能损伤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于类型",
+        "arguments": [
+          "Y",
+          "多焦点或三焦点人工晶状体"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "人工晶状体"
+    },
+    "source_text": "五、人工晶状体的选择1. 人工晶状体类型的选择：建议植入单焦点人工晶状体，慎重使用特殊类型人工晶状体（如多焦点、三焦点人工晶状体等）。糖尿病患者由于合并眼底病变，白内障预后视力可能不如普通患者理想，选择人工晶状体应以满足患者基本视觉需求为原则。此外，特殊类型人工晶状体对患者自身眼部条件要求较高。糖尿病患者多合并对比敏感度下降、瞳孔异常、黄斑功能损伤等问题，使用特殊类型人工晶状体无法达到手术预期效果，反而可能出现眩光、对比敏感度进一步下降等不良反应。2. 人工晶状体材质和形态的选择：研究结果表明，植入疏水性人工晶状体者后发性白内障的发生概率明显低于植入亲水性人工晶状体者［23］。这可能是由于疏水性人工晶状体表面黏性大，其光学区与后囊膜紧密黏附，可阻止晶状体上皮细胞向后囊膜迁移，从而降低了后发性白内障的发生率。在人工晶状体的形态方面，光学区边缘锐利、后表面高凸和直角方边设计，均具有抑制后发性白内障的作用［41‑42］。然而，也有研究结果显示，亲水性人工晶状体由于葡萄膜生物相容性更好，故术后能减轻前房的炎性反应［43］。糖尿病患者为后发性白内障的高发人群，应参考各种因素，选择恰当的人工晶状体。"
+  },
+  {
+    "rule_name": "疏水性人工晶状体降低糖尿病患者后发性白内障风险的机理与选择",
+    "head": {
+      "is_negative": false,
+      "name": "选择考量",
+      "arguments": [
+        "Y",
+        "疏水性材质",
+        "以降低后发性白内障风险"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于人群",
+        "arguments": [
+          "X",
+          "后发性白内障高发"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有材质",
+        "arguments": [
+          "Y",
+          "疏水性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有属性",
+        "arguments": [
+          "Y",
+          "表面黏性大"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "产生作用",
+        "arguments": [
+          "Y",
+          "阻止晶状体上皮细胞迁移",
+          "机理"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "人工晶状体"
+    },
+    "source_text": "五、人工晶状体的选择1. 人工晶状体类型的选择：建议植入单焦点人工晶状体，慎重使用特殊类型人工晶状体（如多焦点、三焦点人工晶状体等）。糖尿病患者由于合并眼底病变，白内障预后视力可能不如普通患者理想，选择人工晶状体应以满足患者基本视觉需求为原则。此外，特殊类型人工晶状体对患者自身眼部条件要求较高。糖尿病患者多合并对比敏感度下降、瞳孔异常、黄斑功能损伤等问题，使用特殊类型人工晶状体无法达到手术预期效果，反而可能出现眩光、对比敏感度进一步下降等不良反应。2. 人工晶状体材质和形态的选择：研究结果表明，植入疏水性人工晶状体者后发性白内障的发生概率明显低于植入亲水性人工晶状体者［23］。这可能是由于疏水性人工晶状体表面黏性大，其光学区与后囊膜紧密黏附，可阻止晶状体上皮细胞向后囊膜迁移，从而降低了后发性白内障的发生率。在人工晶状体的形态方面，光学区边缘锐利、后表面高凸和直角方边设计，均具有抑制后发性白内障的作用［41‑42］。然而，也有研究结果显示，亲水性人工晶状体由于葡萄膜生物相容性更好，故术后能减轻前房的炎性反应［43］。糖尿病患者为后发性白内障的高发人群，应参考各种因素，选择恰当的人工晶状体。"
+  },
+  {
+    "rule_name": "具有特定形态设计的人工晶状体抑制后发性白内障",
+    "head": {
+      "is_negative": false,
+      "name": "具有作用",
+      "arguments": [
+        "Y",
+        "抑制后发性白内障"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "属于类型",
+        "arguments": [
+          "Y",
+          "人工晶状体"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有设计特征",
+        "arguments": [
+          "Y",
+          "光学区边缘锐利"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有设计特征",
+        "arguments": [
+          "Y",
+          "后表面高凸"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有设计特征",
+        "arguments": [
+          "Y",
+          "直角方边"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "人工晶状体"
+    },
+    "source_text": "五、人工晶状体的选择1. 人工晶状体类型的选择：建议植入单焦点人工晶状体，慎重使用特殊类型人工晶状体（如多焦点、三焦点人工晶状体等）。糖尿病患者由于合并眼底病变，白内障预后视力可能不如普通患者理想，选择人工晶状体应以满足患者基本视觉需求为原则。此外，特殊类型人工晶状体对患者自身眼部条件要求较高。糖尿病患者多合并对比敏感度下降、瞳孔异常、黄斑功能损伤等问题，使用特殊类型人工晶状体无法达到手术预期效果，反而可能出现眩光、对比敏感度进一步下降等不良反应。2. 人工晶状体材质和形态的选择：研究结果表明，植入疏水性人工晶状体者后发性白内障的发生概率明显低于植入亲水性人工晶状体者［23］。这可能是由于疏水性人工晶状体表面黏性大，其光学区与后囊膜紧密黏附，可阻止晶状体上皮细胞向后囊膜迁移，从而降低了后发性白内障的发生率。在人工晶状体的形态方面，光学区边缘锐利、后表面高凸和直角方边设计，均具有抑制后发性白内障的作用［41‑42］。然而，也有研究结果显示，亲水性人工晶状体由于葡萄膜生物相容性更好，故术后能减轻前房的炎性反应［43］。糖尿病患者为后发性白内障的高发人群，应参考各种因素，选择恰当的人工晶状体。"
+  },
+  {
+    "rule_name": "亲水性人工晶状体减轻糖尿病患者术后炎性反应的考量",
+    "head": {
+      "is_negative": false,
+      "name": "选择考量",
+      "arguments": [
+        "Y",
+        "亲水性材质",
+        "以减轻炎性反应"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行手术",
+        "arguments": [
+          "Z",
+          "白内障摘除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者对象",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有材质",
+        "arguments": [
+          "Y",
+          "亲水性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有属性",
+        "arguments": [
+          "Y",
+          "葡萄膜生物相容性好"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "产生效果",
+        "arguments": [
+          "Y",
+          "减轻前房炎性反应"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "人工晶状体",
+      "Z": "手术"
+    },
+    "source_text": "五、人工晶状体的选择1. 人工晶状体类型的选择：建议植入单焦点人工晶状体，慎重使用特殊类型人工晶状体（如多焦点、三焦点人工晶状体等）。糖尿病患者由于合并眼底病变，白内障预后视力可能不如普通患者理想，选择人工晶状体应以满足患者基本视觉需求为原则。此外，特殊类型人工晶状体对患者自身眼部条件要求较高。糖尿病患者多合并对比敏感度下降、瞳孔异常、黄斑功能损伤等问题，使用特殊类型人工晶状体无法达到手术预期效果，反而可能出现眩光、对比敏感度进一步下降等不良反应。2. 人工晶状体材质和形态的选择：研究结果表明，植入疏水性人工晶状体者后发性白内障的发生概率明显低于植入亲水性人工晶状体者［23］。这可能是由于疏水性人工晶状体表面黏性大，其光学区与后囊膜紧密黏附，可阻止晶状体上皮细胞向后囊膜迁移，从而降低了后发性白内障的发生率。在人工晶状体的形态方面，光学区边缘锐利、后表面高凸和直角方边设计，均具有抑制后发性白内障的作用［41‑42］。然而，也有研究结果显示，亲水性人工晶状体由于葡萄膜生物相容性更好，故术后能减轻前房的炎性反应［43］。糖尿病患者为后发性白内障的高发人群，应参考各种因素，选择恰当的人工晶状体。"
+  },
+  {
+    "rule_name": "DR轻症或无DR糖尿病患者白内障手术参照普通指征",
+    "head": {
+      "is_negative": false,
+      "name": "手术指征时机",
+      "arguments": [
+        "X",
+        "参照普通患者",
+        "白内障摘除"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "视网膜病变状态",
+        "arguments": [
+          "X",
+          "无DR或轻度NPDR"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "需要治疗",
+        "arguments": [
+          "X",
+          "视网膜病变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "结合国际眼科学会2017年《糖尿病眼保健指南》［13］，建议对于尚未出现DR或轻度非增殖期DR（nonproliferative diabetic retinopathy，NPDR）无需治疗的糖尿病患者，白内障摘除手术指征及时机参照普通患者；对于晶状体混浊已达中度但仍能窥见眼底，且眼底出现中度NPDR及以上的患者，应先对眼底病变进行处理，若同时伴有糖尿病性黄斑水肿（diabetic macularedema，DME），可先行局灶/格栅样光凝术或抗血管内皮生长因子（vascularendothelial growth factor，VEGF）药物玻璃体腔注射治疗，待眼底情况稳定后再考虑行白内障摘除手术；对于晶状体严重混浊无法观察眼底且眼底成像检查质量较差的患者，应先行白内障摘除手术，术后再对眼底进行评估治疗，若存在DME，则可术前、术中或术后行抗VEGF药物玻璃体腔注射治疗。"
+  },
+  {
+    "rule_name": "中度混浊伴中重度NPDR患者先行眼底治疗路径",
+    "head": {
+      "is_negative": false,
+      "name": "治疗顺序建议",
+      "arguments": [
+        "X",
+        "先眼底后白内障"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "晶状体混浊度",
+        "arguments": [
+          "X",
+          "中度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可窥见眼底",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "眼底病变程度",
+        "arguments": [
+          "X",
+          "中度NPDR及以上"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "结合国际眼科学会2017年《糖尿病眼保健指南》［13］，建议对于尚未出现DR或轻度非增殖期DR（nonproliferative diabetic retinopathy，NPDR）无需治疗的糖尿病患者，白内障摘除手术指征及时机参照普通患者；对于晶状体混浊已达中度但仍能窥见眼底，且眼底出现中度NPDR及以上的患者，应先对眼底病变进行处理，若同时伴有糖尿病性黄斑水肿（diabetic macularedema，DME），可先行局灶/格栅样光凝术或抗血管内皮生长因子（vascularendothelial growth factor，VEGF）药物玻璃体腔注射治疗，待眼底情况稳定后再考虑行白内障摘除手术；对于晶状体严重混浊无法观察眼底且眼底成像检查质量较差的患者，应先行白内障摘除手术，术后再对眼底进行评估治疗，若存在DME，则可术前、术中或术后行抗VEGF药物玻璃体腔注射治疗。"
+  },
+  {
+    "rule_name": "先行眼底治疗路径中伴DME时可选光凝术",
+    "head": {
+      "is_negative": false,
+      "name": "先行治疗",
+      "arguments": [
+        "X",
+        "局灶或格栅样光凝术",
+        "针对DME"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "晶状体混浊度",
+        "arguments": [
+          "X",
+          "中度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "眼底病变程度",
+        "arguments": [
+          "X",
+          "中度NPDR及以上"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "X",
+          "DME"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "结合国际眼科学会2017年《糖尿病眼保健指南》［13］，建议对于尚未出现DR或轻度非增殖期DR（nonproliferative diabetic retinopathy，NPDR）无需治疗的糖尿病患者，白内障摘除手术指征及时机参照普通患者；对于晶状体混浊已达中度但仍能窥见眼底，且眼底出现中度NPDR及以上的患者，应先对眼底病变进行处理，若同时伴有糖尿病性黄斑水肿（diabetic macularedema，DME），可先行局灶/格栅样光凝术或抗血管内皮生长因子（vascularendothelial growth factor，VEGF）药物玻璃体腔注射治疗，待眼底情况稳定后再考虑行白内障摘除手术；对于晶状体严重混浊无法观察眼底且眼底成像检查质量较差的患者，应先行白内障摘除手术，术后再对眼底进行评估治疗，若存在DME，则可术前、术中或术后行抗VEGF药物玻璃体腔注射治疗。"
+  },
+  {
+    "rule_name": "先行眼底治疗路径中伴DME时可选抗VEGF注射",
+    "head": {
+      "is_negative": false,
+      "name": "先行治疗",
+      "arguments": [
+        "X",
+        "抗VEGF玻璃体腔注射",
+        "针对DME"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "晶状体混浊度",
+        "arguments": [
+          "X",
+          "中度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "眼底病变程度",
+        "arguments": [
+          "X",
+          "中度NPDR及以上"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "X",
+          "DME"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "结合国际眼科学会2017年《糖尿病眼保健指南》［13］，建议对于尚未出现DR或轻度非增殖期DR（nonproliferative diabetic retinopathy，NPDR）无需治疗的糖尿病患者，白内障摘除手术指征及时机参照普通患者；对于晶状体混浊已达中度但仍能窥见眼底，且眼底出现中度NPDR及以上的患者，应先对眼底病变进行处理，若同时伴有糖尿病性黄斑水肿（diabetic macularedema，DME），可先行局灶/格栅样光凝术或抗血管内皮生长因子（vascularendothelial growth factor，VEGF）药物玻璃体腔注射治疗，待眼底情况稳定后再考虑行白内障摘除手术；对于晶状体严重混浊无法观察眼底且眼底成像检查质量较差的患者，应先行白内障摘除手术，术后再对眼底进行评估治疗，若存在DME，则可术前、术中或术后行抗VEGF药物玻璃体腔注射治疗。"
+  },
+  {
+    "rule_name": "先行白内障手术路径针对严重混浊无法观察眼底者",
+    "head": {
+      "is_negative": false,
+      "name": "手术顺序建议",
+      "arguments": [
+        "X",
+        "先白内障后眼底"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "晶状体混浊度",
+        "arguments": [
+          "X",
+          "严重"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "可观察眼底",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "眼底成像质量",
+        "arguments": [
+          "X",
+          "较差"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "结合国际眼科学会2017年《糖尿病眼保健指南》［13］，建议对于尚未出现DR或轻度非增殖期DR（nonproliferative diabetic retinopathy，NPDR）无需治疗的糖尿病患者，白内障摘除手术指征及时机参照普通患者；对于晶状体混浊已达中度但仍能窥见眼底，且眼底出现中度NPDR及以上的患者，应先对眼底病变进行处理，若同时伴有糖尿病性黄斑水肿（diabetic macularedema，DME），可先行局灶/格栅样光凝术或抗血管内皮生长因子（vascularendothelial growth factor，VEGF）药物玻璃体腔注射治疗，待眼底情况稳定后再考虑行白内障摘除手术；对于晶状体严重混浊无法观察眼底且眼底成像检查质量较差的患者，应先行白内障摘除手术，术后再对眼底进行评估治疗，若存在DME，则可术前、术中或术后行抗VEGF药物玻璃体腔注射治疗。"
+  },
+  {
+    "rule_name": "先行白内障路径中伴DME时术前可行抗VEGF",
+    "head": {
+      "is_negative": false,
+      "name": "可行治疗",
+      "arguments": [
+        "X",
+        "抗VEGF玻璃体腔注射",
+        "术前"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "晶状体混浊度",
+        "arguments": [
+          "X",
+          "严重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "X",
+          "DME"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术顺序建议",
+        "arguments": [
+          "X",
+          "先白内障后眼底"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "结合国际眼科学会2017年《糖尿病眼保健指南》［13］，建议对于尚未出现DR或轻度非增殖期DR（nonproliferative diabetic retinopathy，NPDR）无需治疗的糖尿病患者，白内障摘除手术指征及时机参照普通患者；对于晶状体混浊已达中度但仍能窥见眼底，且眼底出现中度NPDR及以上的患者，应先对眼底病变进行处理，若同时伴有糖尿病性黄斑水肿（diabetic macularedema，DME），可先行局灶/格栅样光凝术或抗血管内皮生长因子（vascularendothelial growth factor，VEGF）药物玻璃体腔注射治疗，待眼底情况稳定后再考虑行白内障摘除手术；对于晶状体严重混浊无法观察眼底且眼底成像检查质量较差的患者，应先行白内障摘除手术，术后再对眼底进行评估治疗，若存在DME，则可术前、术中或术后行抗VEGF药物玻璃体腔注射治疗。"
+  },
+  {
+    "rule_name": "先行白内障路径中伴DME时术中可行抗VEGF",
+    "head": {
+      "is_negative": false,
+      "name": "可行治疗",
+      "arguments": [
+        "X",
+        "抗VEGF玻璃体腔注射",
+        "术中"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "晶状体混浊度",
+        "arguments": [
+          "X",
+          "严重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "X",
+          "DME"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术顺序建议",
+        "arguments": [
+          "X",
+          "先白内障后眼底"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "结合国际眼科学会2017年《糖尿病眼保健指南》［13］，建议对于尚未出现DR或轻度非增殖期DR（nonproliferative diabetic retinopathy，NPDR）无需治疗的糖尿病患者，白内障摘除手术指征及时机参照普通患者；对于晶状体混浊已达中度但仍能窥见眼底，且眼底出现中度NPDR及以上的患者，应先对眼底病变进行处理，若同时伴有糖尿病性黄斑水肿（diabetic macularedema，DME），可先行局灶/格栅样光凝术或抗血管内皮生长因子（vascularendothelial growth factor，VEGF）药物玻璃体腔注射治疗，待眼底情况稳定后再考虑行白内障摘除手术；对于晶状体严重混浊无法观察眼底且眼底成像检查质量较差的患者，应先行白内障摘除手术，术后再对眼底进行评估治疗，若存在DME，则可术前、术中或术后行抗VEGF药物玻璃体腔注射治疗。"
+  },
+  {
+    "rule_name": "先行白内障路径中伴DME时术后可行抗VEGF",
+    "head": {
+      "is_negative": false,
+      "name": "可行治疗",
+      "arguments": [
+        "X",
+        "抗VEGF玻璃体腔注射",
+        "术后"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "晶状体混浊度",
+        "arguments": [
+          "X",
+          "严重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "X",
+          "DME"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术顺序建议",
+        "arguments": [
+          "X",
+          "先白内障后眼底"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "结合国际眼科学会2017年《糖尿病眼保健指南》［13］，建议对于尚未出现DR或轻度非增殖期DR（nonproliferative diabetic retinopathy，NPDR）无需治疗的糖尿病患者，白内障摘除手术指征及时机参照普通患者；对于晶状体混浊已达中度但仍能窥见眼底，且眼底出现中度NPDR及以上的患者，应先对眼底病变进行处理，若同时伴有糖尿病性黄斑水肿（diabetic macularedema，DME），可先行局灶/格栅样光凝术或抗血管内皮生长因子（vascularendothelial growth factor，VEGF）药物玻璃体腔注射治疗，待眼底情况稳定后再考虑行白内障摘除手术；对于晶状体严重混浊无法观察眼底且眼底成像检查质量较差的患者，应先行白内障摘除手术，术后再对眼底进行评估治疗，若存在DME，则可术前、术中或术后行抗VEGF药物玻璃体腔注射治疗。"
+  }
+]

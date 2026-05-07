@@ -1,0 +1,58 @@
+【原始长篇章】:
+Consider a 6-month trial of levothyroxine for adults under 65 with subclinical hypothyroidism who have:a TSH above the reference range but lower than 10 mlU/litre on 2 separate occasions 3 months apart, andandsymptoms of hypothyroidism.If symptoms do not improve after starting levothyroxine, re-measure TSH and if thelevel remains raised, adjust the dose. If symptoms persist when serum TSH is withinthe reference range, consider stopping levothyroxine and follow the recommendationson monitoring untreated subclinical hypothyroidism and monitoring after stoppingtreatment.
+
+【规则 1】
+规则名: 65岁以下亚临床甲状腺功能减退症患者左甲状腺素6个月试验指征
+逻辑表达: 考虑试验性治疗(X, 左甲状腺素, 6个月) <- 患者年龄组(X, 65岁以下) ^ 患病(X, 亚临床甲状腺功能减退症) ^ TSH指标状态(X, 高于参考范围但低于10) ^ 检测次数条件(X, 3个月内两次) ^ 有症状(X, 甲状腺功能减退)
+变量映射:
+  - X: 患者
+
+【规则 2】
+规则名: 试验治疗症状无改善且TSH持续升高时的剂量调整指征
+逻辑表达: 调整治疗剂量(X, 左甲状腺素) <- 患者年龄组(X, 65岁以下) ^ 患病(X, 亚临床甲状腺功能减退症) ^ 正在接受治疗(X, 左甲状腺素试验) ^ ¬症状改善(X, 左甲状腺素治疗后) ^ 复测结果(X, TSH持续升高)
+变量映射:
+  - X: 患者
+
+【规则 3】
+规则名: 试验治疗症状持续且TSH正常时的停药考虑指征
+逻辑表达: 考虑停止治疗(X, 左甲状腺素) <- 患者年龄组(X, 65岁以下) ^ 患病(X, 亚临床甲状腺功能减退症) ^ 正在接受治疗(X, 左甲状腺素试验) ^ 复测结果(X, TSH处于参考范围内) ^ 症状持续(X, 甲状腺功能减退)
+变量映射:
+  - X: 患者
+
+---
+
+
+【原始长篇章】:
+Thyroid disease: assessment and management (NG145)© NICE 2019. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and-conditions#notice-of-rights).Page 27 of53http://guide.medlive.cn/4 L4 Long-term effectivong-term effectiveness and safety of reness and safety of radioactivadioactive iodinee iodinethertherapapy for hy for hyperthyperthyroidismyroidismWhat is the long-term clinical and cost effectiveness, including safety, of radioactive iodine forhyperthyroidism? In people with subclinical hyperthyroidism, does treatment (for example, withantithyroid drugs or radioiodine) to maintain long-term normal thyroid function improve long-termhealth outcomes (for example, cardiovascular outcomes, mortality, quality of life, osteoporosis andfractures, and neuropsychiatric outcomes such as depression and cognition)? A randomisedcontrolled trial comparing a strategy of long-term treatment to maintain normal thyroid functionwith no treatment. Outcomes should include mortality, cardiovascular events, fractures, andquality of life. Follow-up should be for at least 5 years. Screening for atrial fibrillation andassessment of depression and cognition should be included.
+
+【规则 1】
+规则名: 亚临床甲亢患者长效治疗改善长期健康结局研究设计
+逻辑表达: 推荐疗法(X， 长效治疗， 针对长期结局) <- 亚临床甲亢患者(X) ^ 采用治疗(X, 长效治疗) ^ 实现状态(甲状腺功能， 正常， 长期) ^ 规范随访(研究， 至少5年) ^ 包含筛查(研究， 房颤) ^ 包含评估(研究， 抑郁与认知) ^ 改善指标(心血管事件， 发生率， 重要) ^ 改善指标(骨折， 发生率， 重要) ^ 改善指标(生活健康， 生活质量， 重要) ^ 改善指标(生存， 死亡率， 重要)
+变量映射:
+  - X: 患者
+
+---
+
+
+【原始长篇章】: Consider a 6-month trial of levothyroxine for adults under 65 with subclinical hypothyroidism who have: a TSH above the reference range but lower than 10 mlU/litre on 2 separate occasions 3 months apart, and symptoms of hypothyroidism. If symptoms do not improve after starting levothyroxine, re-measure TSH and if the level remains raised, adjust the dose. If symptoms persist when serum TSH is within the reference range, consider stopping levothyroxine and follow the recommendations on monitoring untreated subclinical hypothyroidism and monitoring after stopping treatment.
+
+【规则 1】
+规则名: 65岁以下亚临床甲减患者启动左甲状腺素试验指征
+逻辑表达: 考虑治疗行动(X， 启动左甲状腺素试验) <- 成人患者(X) ^ 年龄小于(X， 65岁) ^ 患病(X， 亚临床甲状腺功能减退症) ^ TSH测试结果(X， 高于参考范围低于10， 两次间隔三月) ^ 存在症状(X， 甲状腺功能减退)
+变量映射:
+  - X: 患者
+
+【规则 2】
+规则名: 左甲状腺素试验中症状未改善且TSH仍高时的剂量调整
+逻辑表达: 考虑治疗行动(X， 调整左甲状腺素剂量) <- 当前治疗状态(X， 处于左甲状腺素试验中) ^ 症状状态(X， 甲状腺功能减退症状未改善) ^ 最近TSH测试结果(X， 高于参考范围)
+变量映射:
+  - X: 患者
+
+【规则 3】
+规则名: 左甲状腺素试验中症状持续但TSH正常时的停药考虑
+逻辑表达: 考虑治疗行动(X， 停止左甲状腺素) <- 当前治疗状态(X， 处于左甲状腺素试验中) ^ 症状状态(X， 甲状腺功能减退症状持续) ^ 最近TSH测试结果(X， 处于参考范围内)
+变量映射:
+  - X: 患者
+
+---
+

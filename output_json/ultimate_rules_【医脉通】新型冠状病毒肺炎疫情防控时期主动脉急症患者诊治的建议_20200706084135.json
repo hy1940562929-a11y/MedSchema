@@ -1,0 +1,1790 @@
+[
+  {
+    "rule_name": "筛查全阴性患者被判断为暂不考虑COVID19且获二级防护建议",
+    "head": {
+      "is_negative": false,
+      "name": "暂不考虑COVID19患者",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "筛查项目",
+        "arguments": [
+          "Y1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "筛查项目",
+        "arguments": [
+          "Y2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "筛查项目",
+        "arguments": [
+          "Y3"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y1",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y2",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y3",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "筛查结果为",
+        "arguments": [
+          "Y1",
+          "阴性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "筛查结果为",
+        "arguments": [
+          "Y2",
+          "阴性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "筛查结果为",
+        "arguments": [
+          "Y3",
+          "阴性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险判断",
+        "arguments": [
+          "专家组",
+          "X",
+          "暂不考虑"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y1": "流行病学史筛查",
+      "Y2": "临床症状筛查",
+      "Y3": "影像学筛查"
+    },
+    "source_text": "病史和临床症状：记录包括疫区逗留、与确诊COVID-19 患者接触史在内的流行病学史，发热或呼吸道症状，发热门诊就诊史等。可采取书面承诺书的形式，请患者及家属填写上述情况，并承诺遵守疫期的有关法律规章，签字存档。影像学排查：对于考虑主动脉急症的患者，应通过绿色通道尽快完善主动脉增强CT，并完成肺窗口头报告，第一时间判断有无肺炎影像学改变。将患者转运至CT 室过程中，患者全程佩戴口罩，医护人员穿戴临床二级个人防护装备。对于疑似患者，需提前请专家组会诊，检查走专用通道，并严格消毒，必要时医护人员穿戴临床三级个人防护装备。判断COVID-19 的风险度：如上述均为阴性，暂不考虑COVID-19。如有上述涉及的流行病学史、发热或呼吸道症状、肺炎影像学特征表现之一，应第一时间由专家组会诊，判断“暂不考虑COVID-19”或“疑似COVID-19”。暂不考虑COVID-19 者，按照一般流程继续接受常规诊疗，但由于疫期无法完全排除无症状感染，建议诊疗过程常规予以二级防护。疑似COVID-19 者，需在2 h内网络直报，并尽快采集呼吸道标本进行新冠病毒核酸检测。"
+  },
+  {
+    "rule_name": "有流行病学史且被专家组判断为疑似COVID19需紧急上报检测",
+    "head": {
+      "is_negative": false,
+      "name": "疑似COVID19患者",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在流行病学史",
+        "arguments": [
+          "X",
+          "疫区接触史"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险判断",
+        "arguments": [
+          "专家组",
+          "X",
+          "疑似"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "病史和临床症状：记录包括疫区逗留、与确诊COVID-19 患者接触史在内的流行病学史，发热或呼吸道症状，发热门诊就诊史等。可采取书面承诺书的形式，请患者及家属填写上述情况，并承诺遵守疫期的有关法律规章，签字存档。影像学排查：对于考虑主动脉急症的患者，应通过绿色通道尽快完善主动脉增强CT，并完成肺窗口头报告，第一时间判断有无肺炎影像学改变。将患者转运至CT 室过程中，患者全程佩戴口罩，医护人员穿戴临床二级个人防护装备。对于疑似患者，需提前请专家组会诊，检查走专用通道，并严格消毒，必要时医护人员穿戴临床三级个人防护装备。判断COVID-19 的风险度：如上述均为阴性，暂不考虑COVID-19。如有上述涉及的流行病学史、发热或呼吸道症状、肺炎影像学特征表现之一，应第一时间由专家组会诊，判断“暂不考虑COVID-19”或“疑似COVID-19”。暂不考虑COVID-19 者，按照一般流程继续接受常规诊疗，但由于疫期无法完全排除无症状感染，建议诊疗过程常规予以二级防护。疑似COVID-19 者，需在2 h内网络直报，并尽快采集呼吸道标本进行新冠病毒核酸检测。"
+  },
+  {
+    "rule_name": "有发热或呼吸道症状且被专家组判断为疑似COVID19需紧急上报检测",
+    "head": {
+      "is_negative": false,
+      "name": "疑似COVID19患者",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "发热或呼吸道症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险判断",
+        "arguments": [
+          "专家组",
+          "X",
+          "疑似"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "病史和临床症状：记录包括疫区逗留、与确诊COVID-19 患者接触史在内的流行病学史，发热或呼吸道症状，发热门诊就诊史等。可采取书面承诺书的形式，请患者及家属填写上述情况，并承诺遵守疫期的有关法律规章，签字存档。影像学排查：对于考虑主动脉急症的患者，应通过绿色通道尽快完善主动脉增强CT，并完成肺窗口头报告，第一时间判断有无肺炎影像学改变。将患者转运至CT 室过程中，患者全程佩戴口罩，医护人员穿戴临床二级个人防护装备。对于疑似患者，需提前请专家组会诊，检查走专用通道，并严格消毒，必要时医护人员穿戴临床三级个人防护装备。判断COVID-19 的风险度：如上述均为阴性，暂不考虑COVID-19。如有上述涉及的流行病学史、发热或呼吸道症状、肺炎影像学特征表现之一，应第一时间由专家组会诊，判断“暂不考虑COVID-19”或“疑似COVID-19”。暂不考虑COVID-19 者，按照一般流程继续接受常规诊疗，但由于疫期无法完全排除无症状感染，建议诊疗过程常规予以二级防护。疑似COVID-19 者，需在2 h内网络直报，并尽快采集呼吸道标本进行新冠病毒核酸检测。"
+  },
+  {
+    "rule_name": "有肺炎影像学特征且被专家组判断为疑似COVID19需紧急上报检测",
+    "head": {
+      "is_negative": false,
+      "name": "疑似COVID19患者",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查发现",
+        "arguments": [
+          "X",
+          "肺炎影像学特征"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险判断",
+        "arguments": [
+          "专家组",
+          "X",
+          "疑似"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "病史和临床症状：记录包括疫区逗留、与确诊COVID-19 患者接触史在内的流行病学史，发热或呼吸道症状，发热门诊就诊史等。可采取书面承诺书的形式，请患者及家属填写上述情况，并承诺遵守疫期的有关法律规章，签字存档。影像学排查：对于考虑主动脉急症的患者，应通过绿色通道尽快完善主动脉增强CT，并完成肺窗口头报告，第一时间判断有无肺炎影像学改变。将患者转运至CT 室过程中，患者全程佩戴口罩，医护人员穿戴临床二级个人防护装备。对于疑似患者，需提前请专家组会诊，检查走专用通道，并严格消毒，必要时医护人员穿戴临床三级个人防护装备。判断COVID-19 的风险度：如上述均为阴性，暂不考虑COVID-19。如有上述涉及的流行病学史、发热或呼吸道症状、肺炎影像学特征表现之一，应第一时间由专家组会诊，判断“暂不考虑COVID-19”或“疑似COVID-19”。暂不考虑COVID-19 者，按照一般流程继续接受常规诊疗，但由于疫期无法完全排除无症状感染，建议诊疗过程常规予以二级防护。疑似COVID-19 者，需在2 h内网络直报，并尽快采集呼吸道标本进行新冠病毒核酸检测。"
+  },
+  {
+    "rule_name": "疫情期间主动脉急症患者择期手术应适当推迟",
+    "head": {
+      "is_negative": false,
+      "name": "诊疗决策",
+      "arguments": [
+        "Z",
+        "Y",
+        "适当推迟"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主动脉急症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "主动脉疾病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需接受手术",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Y",
+          "择期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "涉及患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "遵循原则",
+        "arguments": [
+          "Z",
+          "防控优先"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属单位",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术",
+      "Z": "医疗单位"
+    },
+    "source_text": "The outbreak of 2019 coronavirus disease (COVID-19) coincides with the winter and spring which have high incidence of aortic emergencies. Aortic emergencies are mostly sudden onset, critical illness and have high mortality, requiring urgent treatment. Under the \"First-level response mechanism for major public health emergencies\", the diagnosis and treatment of patients with aortic emergencies need a new process. How to provide timely treatment for patients with aortic emergencies in this special period, and at the same time to enhance the awareness of medical staff to prevent the spread of the epidemic in the hospital, are major issues currently facing the emergency department/cardiac surgery/vascular surgery and other related departments. This article calls on all medical units to carry out medical practice on the basis of strictly abiding by the rules and regulations of the government and the hospital's infection control department. On the premise of \"prevention and control of epidemic situation is priority, prevention of nosocomial infection is the most important, and conservative treatment is the first choice for confirmed COVID-19 patients\", it advocates the diagnosis and treatment principle of \"appropriate postponement of selective operation, isolation and screening of COVID-19 before deadline operation, and strict protection for emergency surgery\"."
+  },
+  {
+    "rule_name": "疫情期间限期手术前对未明确患者需隔离筛查",
+    "head": {
+      "is_negative": false,
+      "name": "诊疗决策",
+      "arguments": [
+        "Z",
+        "Y",
+        "隔离筛查"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主动脉急症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "主动脉疾病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需接受手术",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Y",
+          "限期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "涉及患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "新冠状态",
+        "arguments": [
+          "X",
+          "未明确"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "遵循原则",
+        "arguments": [
+          "Z",
+          "防控优先"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属单位",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术",
+      "Z": "医疗单位"
+    },
+    "source_text": "The outbreak of 2019 coronavirus disease (COVID-19) coincides with the winter and spring which have high incidence of aortic emergencies. Aortic emergencies are mostly sudden onset, critical illness and have high mortality, requiring urgent treatment. Under the \"First-level response mechanism for major public health emergencies\", the diagnosis and treatment of patients with aortic emergencies need a new process. How to provide timely treatment for patients with aortic emergencies in this special period, and at the same time to enhance the awareness of medical staff to prevent the spread of the epidemic in the hospital, are major issues currently facing the emergency department/cardiac surgery/vascular surgery and other related departments. This article calls on all medical units to carry out medical practice on the basis of strictly abiding by the rules and regulations of the government and the hospital's infection control department. On the premise of \"prevention and control of epidemic situation is priority, prevention of nosocomial infection is the most important, and conservative treatment is the first choice for confirmed COVID-19 patients\", it advocates the diagnosis and treatment principle of \"appropriate postponement of selective operation, isolation and screening of COVID-19 before deadline operation, and strict protection for emergency surgery\"."
+  },
+  {
+    "rule_name": "疫情期间限期手术前对确诊或高风险患者按确诊处理",
+    "head": {
+      "is_negative": false,
+      "name": "诊疗决策",
+      "arguments": [
+        "Z",
+        "Y",
+        "按确诊处理"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主动脉急症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "主动脉疾病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需接受手术",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Y",
+          "限期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "涉及患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "确诊新冠",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "遵循原则",
+        "arguments": [
+          "Z",
+          "防控优先"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属单位",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术",
+      "Z": "医疗单位"
+    },
+    "source_text": "The outbreak of 2019 coronavirus disease (COVID-19) coincides with the winter and spring which have high incidence of aortic emergencies. Aortic emergencies are mostly sudden onset, critical illness and have high mortality, requiring urgent treatment. Under the \"First-level response mechanism for major public health emergencies\", the diagnosis and treatment of patients with aortic emergencies need a new process. How to provide timely treatment for patients with aortic emergencies in this special period, and at the same time to enhance the awareness of medical staff to prevent the spread of the epidemic in the hospital, are major issues currently facing the emergency department/cardiac surgery/vascular surgery and other related departments. This article calls on all medical units to carry out medical practice on the basis of strictly abiding by the rules and regulations of the government and the hospital's infection control department. On the premise of \"prevention and control of epidemic situation is priority, prevention of nosocomial infection is the most important, and conservative treatment is the first choice for confirmed COVID-19 patients\", it advocates the diagnosis and treatment principle of \"appropriate postponement of selective operation, isolation and screening of COVID-19 before deadline operation, and strict protection for emergency surgery\"."
+  },
+  {
+    "rule_name": "疫情期间主动脉急症患者急诊手术需严格防护",
+    "head": {
+      "is_negative": false,
+      "name": "诊疗决策",
+      "arguments": [
+        "Z",
+        "Y",
+        "严格防护下进行"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主动脉急症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "主动脉疾病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需接受手术",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Y",
+          "急诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "涉及患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "遵循原则",
+        "arguments": [
+          "Z",
+          "严格防护"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "遵循原则",
+        "arguments": [
+          "Z",
+          "防控优先"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属单位",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术",
+      "Z": "医疗单位"
+    },
+    "source_text": "The outbreak of 2019 coronavirus disease (COVID-19) coincides with the winter and spring which have high incidence of aortic emergencies. Aortic emergencies are mostly sudden onset, critical illness and have high mortality, requiring urgent treatment. Under the \"First-level response mechanism for major public health emergencies\", the diagnosis and treatment of patients with aortic emergencies need a new process. How to provide timely treatment for patients with aortic emergencies in this special period, and at the same time to enhance the awareness of medical staff to prevent the spread of the epidemic in the hospital, are major issues currently facing the emergency department/cardiac surgery/vascular surgery and other related departments. This article calls on all medical units to carry out medical practice on the basis of strictly abiding by the rules and regulations of the government and the hospital's infection control department. On the premise of \"prevention and control of epidemic situation is priority, prevention of nosocomial infection is the most important, and conservative treatment is the first choice for confirmed COVID-19 patients\", it advocates the diagnosis and treatment principle of \"appropriate postponement of selective operation, isolation and screening of COVID-19 before deadline operation, and strict protection for emergency surgery\"."
+  },
+  {
+    "rule_name": "主动脉急症患者_制定保守治疗方案",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方案建议",
+      "arguments": [
+        "Y",
+        "保守治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主动脉急症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定手术方案",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术指征类型",
+        "arguments": [
+          "Y",
+          "无手术指征"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术方案"
+    },
+    "source_text": "主动脉急症的确诊和治疗方案制定各项检查尤其是主动脉CT 血管造影（CTA）完成后，外科医师结合临床表现，立即判断是否需要手术。一般分为不需急诊手术和需要急诊手术两种情况，不需急诊手术者还可细分为以下三类：（1）无手术指征或无手术条件，保守治疗；（2）需择期手术；（3）需限期手术。须结合是否合并COVID-19 综合制定治疗方案。由于COVID-19 的表现多样[3,5]，如感染者可能无症状且咽拭子核酸检测阴性，无症状感染者也可能成为传染源，因此，在疫情流行期，无疫区直接接触史、无相关临床表现、肺部CT 阴性甚至核酸检测阴性的患者，仍无法完全排除COVID-19 的可能。同时考虑医院为高风险场所，推荐“择期手术适当推迟（减少疫期手术），限期手术术前排查（隔离观察至潜伏期结束），急诊手术严格防护”的治疗原则。"
+  },
+  {
+    "rule_name": "主动脉急症患者_制定择期手术方案_非新冠患者",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方案建议",
+      "arguments": [
+        "Y",
+        "择期手术且适当推迟"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主动脉急症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定手术方案",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术指征类型",
+        "arguments": [
+          "Y",
+          "择期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者状态",
+        "arguments": [
+          "X",
+          "非新冠"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "环境状态",
+        "arguments": [
+          "医院",
+          "高风险"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术方案"
+    },
+    "source_text": "主动脉急症的确诊和治疗方案制定各项检查尤其是主动脉CT 血管造影（CTA）完成后，外科医师结合临床表现，立即判断是否需要手术。一般分为不需急诊手术和需要急诊手术两种情况，不需急诊手术者还可细分为以下三类：（1）无手术指征或无手术条件，保守治疗；（2）需择期手术；（3）需限期手术。须结合是否合并COVID-19 综合制定治疗方案。由于COVID-19 的表现多样[3,5]，如感染者可能无症状且咽拭子核酸检测阴性，无症状感染者也可能成为传染源，因此，在疫情流行期，无疫区直接接触史、无相关临床表现、肺部CT 阴性甚至核酸检测阴性的患者，仍无法完全排除COVID-19 的可能。同时考虑医院为高风险场所，推荐“择期手术适当推迟（减少疫期手术），限期手术术前排查（隔离观察至潜伏期结束），急诊手术严格防护”的治疗原则。"
+  },
+  {
+    "rule_name": "主动脉急症患者_制定限期手术方案_非新冠患者",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方案建议",
+      "arguments": [
+        "Y",
+        "限期手术且术前排查隔离"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主动脉急症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定手术方案",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术指征类型",
+        "arguments": [
+          "Y",
+          "限期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者状态",
+        "arguments": [
+          "X",
+          "非新冠"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "环境状态",
+        "arguments": [
+          "医院",
+          "高风险"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术方案"
+    },
+    "source_text": "主动脉急症的确诊和治疗方案制定各项检查尤其是主动脉CT 血管造影（CTA）完成后，外科医师结合临床表现，立即判断是否需要手术。一般分为不需急诊手术和需要急诊手术两种情况，不需急诊手术者还可细分为以下三类：（1）无手术指征或无手术条件，保守治疗；（2）需择期手术；（3）需限期手术。须结合是否合并COVID-19 综合制定治疗方案。由于COVID-19 的表现多样[3,5]，如感染者可能无症状且咽拭子核酸检测阴性，无症状感染者也可能成为传染源，因此，在疫情流行期，无疫区直接接触史、无相关临床表现、肺部CT 阴性甚至核酸检测阴性的患者，仍无法完全排除COVID-19 的可能。同时考虑医院为高风险场所，推荐“择期手术适当推迟（减少疫期手术），限期手术术前排查（隔离观察至潜伏期结束），急诊手术严格防护”的治疗原则。"
+  },
+  {
+    "rule_name": "主动脉急症患者_制定急诊手术方案_非新冠患者",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方案建议",
+      "arguments": [
+        "Y",
+        "急诊手术且严格防护"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主动脉急症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定手术方案",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术指征类型",
+        "arguments": [
+          "Y",
+          "急诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者状态",
+        "arguments": [
+          "X",
+          "非新冠"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "环境状态",
+        "arguments": [
+          "医院",
+          "高风险"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术方案"
+    },
+    "source_text": "主动脉急症的确诊和治疗方案制定各项检查尤其是主动脉CT 血管造影（CTA）完成后，外科医师结合临床表现，立即判断是否需要手术。一般分为不需急诊手术和需要急诊手术两种情况，不需急诊手术者还可细分为以下三类：（1）无手术指征或无手术条件，保守治疗；（2）需择期手术；（3）需限期手术。须结合是否合并COVID-19 综合制定治疗方案。由于COVID-19 的表现多样[3,5]，如感染者可能无症状且咽拭子核酸检测阴性，无症状感染者也可能成为传染源，因此，在疫情流行期，无疫区直接接触史、无相关临床表现、肺部CT 阴性甚至核酸检测阴性的患者，仍无法完全排除COVID-19 的可能。同时考虑医院为高风险场所，推荐“择期手术适当推迟（减少疫期手术），限期手术术前排查（隔离观察至潜伏期结束），急诊手术严格防护”的治疗原则。"
+  },
+  {
+    "rule_name": "疫情流行期_主动脉急症患者_排除新冠感染状态困难",
+    "head": {
+      "is_negative": false,
+      "name": "确定状态困难",
+      "arguments": [
+        "X",
+        "新冠肺炎"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主动脉急症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疫情时期",
+        "arguments": [
+          "当前",
+          "流行期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "无接触史",
+        "arguments": [
+          "X",
+          "疫区"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床表现",
+        "arguments": [
+          "X",
+          "无相关"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查结果",
+        "arguments": [
+          "X",
+          "肺部CT阴性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测结果",
+        "arguments": [
+          "X",
+          "核酸阴性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "主动脉急症的确诊和治疗方案制定各项检查尤其是主动脉CT 血管造影（CTA）完成后，外科医师结合临床表现，立即判断是否需要手术。一般分为不需急诊手术和需要急诊手术两种情况，不需急诊手术者还可细分为以下三类：（1）无手术指征或无手术条件，保守治疗；（2）需择期手术；（3）需限期手术。须结合是否合并COVID-19 综合制定治疗方案。由于COVID-19 的表现多样[3,5]，如感染者可能无症状且咽拭子核酸检测阴性，无症状感染者也可能成为传染源，因此，在疫情流行期，无疫区直接接触史、无相关临床表现、肺部CT 阴性甚至核酸检测阴性的患者，仍无法完全排除COVID-19 的可能。同时考虑医院为高风险场所，推荐“择期手术适当推迟（减少疫期手术），限期手术术前排查（隔离观察至潜伏期结束），急诊手术严格防护”的治疗原则。"
+  },
+  {
+    "rule_name": "疑似COVID19合并主动脉疾病患者手术限制",
+    "head": {
+      "is_negative": false,
+      "name": "不推荐手术时机",
+      "arguments": [
+        "S",
+        "感染控制前"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似病例",
+        "arguments": [
+          "X",
+          "COVID-19"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "主动脉疾病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需手术",
+        "arguments": [
+          "S",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "手术指征",
+        "arguments": [
+          "S",
+          "抢救生命"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "救治地点",
+        "arguments": [
+          "X",
+          "定点医院"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "状态",
+        "arguments": [
+          "X",
+          "隔离中"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "S": "主动脉手术"
+    },
+    "source_text": "疑似（或确诊）合并COVID-19 的患者：此类患者需在定点医院隔离救治。除需抢救生命外，原则上不宜在感染控制之前施行主动脉手术。为疑似（或确诊）COVID-19 病例行急诊手术前准备时，应尽可能明确诊断，确诊COVID-19 的患者可积极予以中西医结合治疗[3]，恢复至连续两次核酸检测（间隔1 d）转阴，再评估手术时机。此举既能为手术创造条件，减少术后并发症和死亡率，也能有效避免手术室、术后监护室聚集性感染导致医院运转失灵。术前准备过程须严格遵守相关防护规定，严防感染扩散[9-10]。措施包括：（1）医护人员穿戴临床三级个人防护装备。（2）隔离病房在实施标准防护的基础上，采取接触隔离、飞沫隔离和空气隔离等措施。具体包括：进出隔离病房，应当严格执行《医院隔离技术规范》、《医务人员穿脱防护用品的流程》，正确实施手卫生，按照标准流程穿脱防护用品，合适位置悬挂流程图，配置穿衣镜；配备感控人员督导医务人员穿脱防护用品，防止污染；用于诊疗疑似或确诊患者的医疗器具及护理物品专人专用。（3）手术知情同意书尽量由与患者无密切接触史的家属签署；与患者密切接触的家属，应建议其定点医院就诊，在隔离状态下通过视频或语音沟通手术风险，并录像、录音。（4）为疑似（或确诊）患者实施可能产生气溶胶的操作（如气管插管、无创通气、气管切开、插管前手动通气、支气管镜检查、心肺复苏等），防护措施包括：采取空气隔离措施；佩戴医用防护口罩，并进行密闭性能检测；眼部防护（如护目镜或面罩）；穿防体液渗入的长袖隔离衣，戴手套；房间中人数限制在患者所需护理和支持的最低数量。"
+  },
+  {
+    "rule_name": "确诊COVID19患者主动脉手术术前治疗与评估要求",
+    "head": {
+      "is_negative": false,
+      "name": "建议手术时机评估",
+      "arguments": [
+        "S"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "确诊病例",
+        "arguments": [
+          "X",
+          "COVID-19"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "主动脉疾病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需手术",
+        "arguments": [
+          "S",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "中西医结合"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核酸检测结果",
+        "arguments": [
+          "X",
+          "阴性",
+          "第一次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "间隔时间",
+        "arguments": [
+          "第二次检测",
+          "第一次检测",
+          "1天"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核酸检测结果",
+        "arguments": [
+          "X",
+          "阴性",
+          "第二次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "救治地点",
+        "arguments": [
+          "X",
+          "定点医院"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "状态",
+        "arguments": [
+          "X",
+          "隔离中"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "S": "主动脉手术"
+    },
+    "source_text": "疑似（或确诊）合并COVID-19 的患者：此类患者需在定点医院隔离救治。除需抢救生命外，原则上不宜在感染控制之前施行主动脉手术。为疑似（或确诊）COVID-19 病例行急诊手术前准备时，应尽可能明确诊断，确诊COVID-19 的患者可积极予以中西医结合治疗[3]，恢复至连续两次核酸检测（间隔1 d）转阴，再评估手术时机。此举既能为手术创造条件，减少术后并发症和死亡率，也能有效避免手术室、术后监护室聚集性感染导致医院运转失灵。术前准备过程须严格遵守相关防护规定，严防感染扩散[9-10]。措施包括：（1）医护人员穿戴临床三级个人防护装备。（2）隔离病房在实施标准防护的基础上，采取接触隔离、飞沫隔离和空气隔离等措施。具体包括：进出隔离病房，应当严格执行《医院隔离技术规范》、《医务人员穿脱防护用品的流程》，正确实施手卫生，按照标准流程穿脱防护用品，合适位置悬挂流程图，配置穿衣镜；配备感控人员督导医务人员穿脱防护用品，防止污染；用于诊疗疑似或确诊患者的医疗器具及护理物品专人专用。（3）手术知情同意书尽量由与患者无密切接触史的家属签署；与患者密切接触的家属，应建议其定点医院就诊，在隔离状态下通过视频或语音沟通手术风险，并录像、录音。（4）为疑似（或确诊）患者实施可能产生气溶胶的操作（如气管插管、无创通气、气管切开、插管前手动通气、支气管镜检查、心肺复苏等），防护措施包括：采取空气隔离措施；佩戴医用防护口罩，并进行密闭性能检测；眼部防护（如护目镜或面罩）；穿防体液渗入的长袖隔离衣，戴手套；房间中人数限制在患者所需护理和支持的最低数量。"
+  },
+  {
+    "rule_name": "为疑似或确诊COVID19患者操作时医护人员三级防护要求",
+    "head": {
+      "is_negative": false,
+      "name": "要求防护措施",
+      "arguments": [
+        "P",
+        "临床三级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似病例",
+        "arguments": [
+          "X",
+          "COVID-19"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医护操作",
+        "arguments": [
+          "O",
+          "针对患者X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行人员",
+        "arguments": [
+          "O",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医护人员",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "配备防护装备",
+        "arguments": [
+          "Y",
+          "P"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "医护人员",
+      "O": "医疗操作",
+      "P": "个人防护装备"
+    },
+    "source_text": "疑似（或确诊）合并COVID-19 的患者：此类患者需在定点医院隔离救治。除需抢救生命外，原则上不宜在感染控制之前施行主动脉手术。为疑似（或确诊）COVID-19 病例行急诊手术前准备时，应尽可能明确诊断，确诊COVID-19 的患者可积极予以中西医结合治疗[3]，恢复至连续两次核酸检测（间隔1 d）转阴，再评估手术时机。此举既能为手术创造条件，减少术后并发症和死亡率，也能有效避免手术室、术后监护室聚集性感染导致医院运转失灵。术前准备过程须严格遵守相关防护规定，严防感染扩散[9-10]。措施包括：（1）医护人员穿戴临床三级个人防护装备。（2）隔离病房在实施标准防护的基础上，采取接触隔离、飞沫隔离和空气隔离等措施。具体包括：进出隔离病房，应当严格执行《医院隔离技术规范》、《医务人员穿脱防护用品的流程》，正确实施手卫生，按照标准流程穿脱防护用品，合适位置悬挂流程图，配置穿衣镜；配备感控人员督导医务人员穿脱防护用品，防止污染；用于诊疗疑似或确诊患者的医疗器具及护理物品专人专用。（3）手术知情同意书尽量由与患者无密切接触史的家属签署；与患者密切接触的家属，应建议其定点医院就诊，在隔离状态下通过视频或语音沟通手术风险，并录像、录音。（4）为疑似（或确诊）患者实施可能产生气溶胶的操作（如气管插管、无创通气、气管切开、插管前手动通气、支气管镜检查、心肺复苏等），防护措施包括：采取空气隔离措施；佩戴医用防护口罩，并进行密闭性能检测；眼部防护（如护目镜或面罩）；穿防体液渗入的长袖隔离衣，戴手套；房间中人数限制在患者所需护理和支持的最低数量。"
+  },
+  {
+    "rule_name": "疑似或确诊COVID19患者手术知情同意签署建议",
+    "head": {
+      "is_negative": false,
+      "name": "建议签署方式",
+      "arguments": [
+        "F",
+        "远程音视频"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似病例",
+        "arguments": [
+          "X",
+          "COVID-19"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需手术",
+        "arguments": [
+          "S",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "家属",
+        "arguments": [
+          "F"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "密切接触史",
+        "arguments": [
+          "F",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "就诊地点",
+        "arguments": [
+          "F",
+          "定点医院"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "状态",
+        "arguments": [
+          "F",
+          "隔离中"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需签署文件",
+        "arguments": [
+          "S",
+          "知情同意书"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "签署人",
+        "arguments": [
+          "知情同意书",
+          "F"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "S": "手术",
+      "F": "家属"
+    },
+    "source_text": "疑似（或确诊）合并COVID-19 的患者：此类患者需在定点医院隔离救治。除需抢救生命外，原则上不宜在感染控制之前施行主动脉手术。为疑似（或确诊）COVID-19 病例行急诊手术前准备时，应尽可能明确诊断，确诊COVID-19 的患者可积极予以中西医结合治疗[3]，恢复至连续两次核酸检测（间隔1 d）转阴，再评估手术时机。此举既能为手术创造条件，减少术后并发症和死亡率，也能有效避免手术室、术后监护室聚集性感染导致医院运转失灵。术前准备过程须严格遵守相关防护规定，严防感染扩散[9-10]。措施包括：（1）医护人员穿戴临床三级个人防护装备。（2）隔离病房在实施标准防护的基础上，采取接触隔离、飞沫隔离和空气隔离等措施。具体包括：进出隔离病房，应当严格执行《医院隔离技术规范》、《医务人员穿脱防护用品的流程》，正确实施手卫生，按照标准流程穿脱防护用品，合适位置悬挂流程图，配置穿衣镜；配备感控人员督导医务人员穿脱防护用品，防止污染；用于诊疗疑似或确诊患者的医疗器具及护理物品专人专用。（3）手术知情同意书尽量由与患者无密切接触史的家属签署；与患者密切接触的家属，应建议其定点医院就诊，在隔离状态下通过视频或语音沟通手术风险，并录像、录音。（4）为疑似（或确诊）患者实施可能产生气溶胶的操作（如气管插管、无创通气、气管切开、插管前手动通气、支气管镜检查、心肺复苏等），防护措施包括：采取空气隔离措施；佩戴医用防护口罩，并进行密闭性能检测；眼部防护（如护目镜或面罩）；穿防体液渗入的长袖隔离衣，戴手套；房间中人数限制在患者所需护理和支持的最低数量。"
+  },
+  {
+    "rule_name": "对疑似或确诊COVID19患者进行气溶胶操作时的强化防护",
+    "head": {
+      "is_negative": false,
+      "name": "要求强化防护操作",
+      "arguments": [
+        "O"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似病例",
+        "arguments": [
+          "X",
+          "COVID-19"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高风险操作",
+        "arguments": [
+          "O",
+          "产生气溶胶"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对象",
+        "arguments": [
+          "O",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "隔离类型",
+        "arguments": [
+          "操作环境",
+          "空气隔离"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防护要求",
+        "arguments": [
+          "O",
+          "医用防护口罩"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防护要求",
+        "arguments": [
+          "O",
+          "眼部防护"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防护要求",
+        "arguments": [
+          "O",
+          "长袖隔离衣"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防护要求",
+        "arguments": [
+          "O",
+          "手套"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "人数限制",
+        "arguments": [
+          "操作环境",
+          "最低必需"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "O": "医疗操作"
+    },
+    "source_text": "疑似（或确诊）合并COVID-19 的患者：此类患者需在定点医院隔离救治。除需抢救生命外，原则上不宜在感染控制之前施行主动脉手术。为疑似（或确诊）COVID-19 病例行急诊手术前准备时，应尽可能明确诊断，确诊COVID-19 的患者可积极予以中西医结合治疗[3]，恢复至连续两次核酸检测（间隔1 d）转阴，再评估手术时机。此举既能为手术创造条件，减少术后并发症和死亡率，也能有效避免手术室、术后监护室聚集性感染导致医院运转失灵。术前准备过程须严格遵守相关防护规定，严防感染扩散[9-10]。措施包括：（1）医护人员穿戴临床三级个人防护装备。（2）隔离病房在实施标准防护的基础上，采取接触隔离、飞沫隔离和空气隔离等措施。具体包括：进出隔离病房，应当严格执行《医院隔离技术规范》、《医务人员穿脱防护用品的流程》，正确实施手卫生，按照标准流程穿脱防护用品，合适位置悬挂流程图，配置穿衣镜；配备感控人员督导医务人员穿脱防护用品，防止污染；用于诊疗疑似或确诊患者的医疗器具及护理物品专人专用。（3）手术知情同意书尽量由与患者无密切接触史的家属签署；与患者密切接触的家属，应建议其定点医院就诊，在隔离状态下通过视频或语音沟通手术风险，并录像、录音。（4）为疑似（或确诊）患者实施可能产生气溶胶的操作（如气管插管、无创通气、气管切开、插管前手动通气、支气管镜检查、心肺复苏等），防护措施包括：采取空气隔离措施；佩戴医用防护口罩，并进行密闭性能检测；眼部防护（如护目镜或面罩）；穿防体液渗入的长袖隔离衣，戴手套；房间中人数限制在患者所需护理和支持的最低数量。"
+  },
+  {
+    "rule_name": "非COVID19确诊患者的择期主动脉急症处理原则",
+    "head": {
+      "is_negative": false,
+      "name": "治疗原则",
+      "arguments": [
+        "X",
+        "适当推迟",
+        "针对手术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主动脉急症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "X",
+          "择期"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "确诊COVID19患者",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "近期新型冠状病毒肺炎（2019 coronavirus disease，COVID-19）疫情爆发，恰逢主动脉急症高发的冬春时节，而主动脉急症大多起病急骤，病情危重，死亡率高，需紧急处理。在国家“重大突发公共卫生事件一级响应机制”之下，疫期主动脉急症患者的诊疗需制订全新的流程。如何在这一特殊时期增强医护人员的防护和正确救治意识，既让主动脉急症患者获得及时、有效的治疗，又能避免救治期间可能发生的院内疫情传播，是急诊科、心外科、血管外科等相关学科当前面临的重大课题。本文呼吁各医疗单位在严格遵守政府和医院感控部门规章制度的基础上开展医疗实践，在“疫情防控为重，严防院内感染，确诊COVID-19 患者首选保守”的前提下，提倡“择期手术适当推迟，限期手术术前隔离排查，急诊手术严格防护”的诊治原则，同时针对COVID-19 疫期主动脉急症患者的急诊科接诊、病房收治、术前准备、术中防护、术后处理等方面提出了建议。"
+  },
+  {
+    "rule_name": "COVID19确诊患者的主动脉急症保守治疗原则",
+    "head": {
+      "is_negative": false,
+      "name": "治疗原则",
+      "arguments": [
+        "X",
+        "保守治疗",
+        "首选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主动脉急症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "确诊COVID19患者",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "近期新型冠状病毒肺炎（2019 coronavirus disease，COVID-19）疫情爆发，恰逢主动脉急症高发的冬春时节，而主动脉急症大多起病急骤，病情危重，死亡率高，需紧急处理。在国家“重大突发公共卫生事件一级响应机制”之下，疫期主动脉急症患者的诊疗需制订全新的流程。如何在这一特殊时期增强医护人员的防护和正确救治意识，既让主动脉急症患者获得及时、有效的治疗，又能避免救治期间可能发生的院内疫情传播，是急诊科、心外科、血管外科等相关学科当前面临的重大课题。本文呼吁各医疗单位在严格遵守政府和医院感控部门规章制度的基础上开展医疗实践，在“疫情防控为重，严防院内感染，确诊COVID-19 患者首选保守”的前提下，提倡“择期手术适当推迟，限期手术术前隔离排查，急诊手术严格防护”的诊治原则，同时针对COVID-19 疫期主动脉急症患者的急诊科接诊、病房收治、术前准备、术中防护、术后处理等方面提出了建议。"
+  },
+  {
+    "rule_name": "非COVID19确诊患者的限期主动脉急症处理原则",
+    "head": {
+      "is_negative": false,
+      "name": "治疗原则",
+      "arguments": [
+        "X",
+        "术前隔离排查",
+        "针对手术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主动脉急症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "X",
+          "限期"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "确诊COVID19患者",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "近期新型冠状病毒肺炎（2019 coronavirus disease，COVID-19）疫情爆发，恰逢主动脉急症高发的冬春时节，而主动脉急症大多起病急骤，病情危重，死亡率高，需紧急处理。在国家“重大突发公共卫生事件一级响应机制”之下，疫期主动脉急症患者的诊疗需制订全新的流程。如何在这一特殊时期增强医护人员的防护和正确救治意识，既让主动脉急症患者获得及时、有效的治疗，又能避免救治期间可能发生的院内疫情传播，是急诊科、心外科、血管外科等相关学科当前面临的重大课题。本文呼吁各医疗单位在严格遵守政府和医院感控部门规章制度的基础上开展医疗实践，在“疫情防控为重，严防院内感染，确诊COVID-19 患者首选保守”的前提下，提倡“择期手术适当推迟，限期手术术前隔离排查，急诊手术严格防护”的诊治原则，同时针对COVID-19 疫期主动脉急症患者的急诊科接诊、病房收治、术前准备、术中防护、术后处理等方面提出了建议。"
+  },
+  {
+    "rule_name": "COVID19确诊患者的限期主动脉急症保守治疗原则",
+    "head": {
+      "is_negative": false,
+      "name": "治疗原则",
+      "arguments": [
+        "X",
+        "保守治疗",
+        "首选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主动脉急症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "确诊COVID19患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "X",
+          "限期"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "近期新型冠状病毒肺炎（2019 coronavirus disease，COVID-19）疫情爆发，恰逢主动脉急症高发的冬春时节，而主动脉急症大多起病急骤，病情危重，死亡率高，需紧急处理。在国家“重大突发公共卫生事件一级响应机制”之下，疫期主动脉急症患者的诊疗需制订全新的流程。如何在这一特殊时期增强医护人员的防护和正确救治意识，既让主动脉急症患者获得及时、有效的治疗，又能避免救治期间可能发生的院内疫情传播，是急诊科、心外科、血管外科等相关学科当前面临的重大课题。本文呼吁各医疗单位在严格遵守政府和医院感控部门规章制度的基础上开展医疗实践，在“疫情防控为重，严防院内感染，确诊COVID-19 患者首选保守”的前提下，提倡“择期手术适当推迟，限期手术术前隔离排查，急诊手术严格防护”的诊治原则，同时针对COVID-19 疫期主动脉急症患者的急诊科接诊、病房收治、术前准备、术中防护、术后处理等方面提出了建议。"
+  },
+  {
+    "rule_name": "非COVID19确诊患者的急诊主动脉急症处理原则",
+    "head": {
+      "is_negative": false,
+      "name": "治疗原则",
+      "arguments": [
+        "X",
+        "严格防护",
+        "针对手术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主动脉急症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "X",
+          "急诊"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "确诊COVID19患者",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "近期新型冠状病毒肺炎（2019 coronavirus disease，COVID-19）疫情爆发，恰逢主动脉急症高发的冬春时节，而主动脉急症大多起病急骤，病情危重，死亡率高，需紧急处理。在国家“重大突发公共卫生事件一级响应机制”之下，疫期主动脉急症患者的诊疗需制订全新的流程。如何在这一特殊时期增强医护人员的防护和正确救治意识，既让主动脉急症患者获得及时、有效的治疗，又能避免救治期间可能发生的院内疫情传播，是急诊科、心外科、血管外科等相关学科当前面临的重大课题。本文呼吁各医疗单位在严格遵守政府和医院感控部门规章制度的基础上开展医疗实践，在“疫情防控为重，严防院内感染，确诊COVID-19 患者首选保守”的前提下，提倡“择期手术适当推迟，限期手术术前隔离排查，急诊手术严格防护”的诊治原则，同时针对COVID-19 疫期主动脉急症患者的急诊科接诊、病房收治、术前准备、术中防护、术后处理等方面提出了建议。"
+  },
+  {
+    "rule_name": "COVID19确诊患者的急诊主动脉急症保守治疗原则",
+    "head": {
+      "is_negative": false,
+      "name": "治疗原则",
+      "arguments": [
+        "X",
+        "保守治疗",
+        "首选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主动脉急症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "确诊COVID19患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "X",
+          "急诊"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "近期新型冠状病毒肺炎（2019 coronavirus disease，COVID-19）疫情爆发，恰逢主动脉急症高发的冬春时节，而主动脉急症大多起病急骤，病情危重，死亡率高，需紧急处理。在国家“重大突发公共卫生事件一级响应机制”之下，疫期主动脉急症患者的诊疗需制订全新的流程。如何在这一特殊时期增强医护人员的防护和正确救治意识，既让主动脉急症患者获得及时、有效的治疗，又能避免救治期间可能发生的院内疫情传播，是急诊科、心外科、血管外科等相关学科当前面临的重大课题。本文呼吁各医疗单位在严格遵守政府和医院感控部门规章制度的基础上开展医疗实践，在“疫情防控为重，严防院内感染，确诊COVID-19 患者首选保守”的前提下，提倡“择期手术适当推迟，限期手术术前隔离排查，急诊手术严格防护”的诊治原则，同时针对COVID-19 疫期主动脉急症患者的急诊科接诊、病房收治、术前准备、术中防护、术后处理等方面提出了建议。"
+  },
+  {
+    "rule_name": "疫情响应期主动脉急症诊疗需遵循新流程",
+    "head": {
+      "is_negative": false,
+      "name": "遵循诊疗原则",
+      "arguments": [
+        "X",
+        "新流程"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "处于时期",
+        "arguments": [
+          "X",
+          "公共卫生应急一级响应"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接诊患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "Y",
+          "主动脉急症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊疗需求",
+        "arguments": [
+          "Y",
+          "紧急"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "医院/医疗单位",
+      "Y": "患者"
+    },
+    "source_text": "The outbreak of 2019 coronavirus disease (COVID-19) coincides with the winter and spring which have high incidence ofaortic emergencies. Aortic emergencies are mostly sudden onset, critical illness and have high mortality, requiring urgent treatment.Under the \"First-level response mechanism for major public health emergencies\", the diagnosis and treatment of patients with aorticemergencies need a new process. How to provide timely treatment for patients with aortic emergencies in this special period, andat the same time to enhance the awareness of medical staff to prevent the spread of the epidemic in the hospital, are major issuescurrently facing the emergency department/cardiac surgery/vascular surgery and other related departments. This article calls onall medical units to carry out medical practice on the basis of strictly abiding by the rules and regulations of the government andthe hospital's infection control department. On the premise of \"prevention and control of epidemic situation is priority, preventionof nosocomial infection is the most important, and conservative treatment is the first choice for confirmed COVID-19 patients\",it advocates the diagnosis and treatment principle of \"appropriate postponement of selective operation, isolation and screening ofCOVID-19 before deadline operation, and strict protection for emergency surgery\"."
+  },
+  {
+    "rule_name": "疫情期主动脉急症诊疗核心前提",
+    "head": {
+      "is_negative": false,
+      "name": "执行医疗实践",
+      "arguments": [
+        "X",
+        "依据前述前提"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医疗单位",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接诊患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "Y",
+          "主动脉急症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "医院/医疗单位",
+      "Y": "患者"
+    },
+    "source_text": "The outbreak of 2019 coronavirus disease (COVID-19) coincides with the winter and spring which have high incidence ofaortic emergencies. Aortic emergencies are mostly sudden onset, critical illness and have high mortality, requiring urgent treatment.Under the \"First-level response mechanism for major public health emergencies\", the diagnosis and treatment of patients with aorticemergencies need a new process. How to provide timely treatment for patients with aortic emergencies in this special period, andat the same time to enhance the awareness of medical staff to prevent the spread of the epidemic in the hospital, are major issuescurrently facing the emergency department/cardiac surgery/vascular surgery and other related departments. This article calls onall medical units to carry out medical practice on the basis of strictly abiding by the rules and regulations of the government andthe hospital's infection control department. On the premise of \"prevention and control of epidemic situation is priority, preventionof nosocomial infection is the most important, and conservative treatment is the first choice for confirmed COVID-19 patients\",it advocates the diagnosis and treatment principle of \"appropriate postponement of selective operation, isolation and screening ofCOVID-19 before deadline operation, and strict protection for emergency surgery\"."
+  },
+  {
+    "rule_name": "疫情期主动脉急症患者择期手术处理原则",
+    "head": {
+      "is_negative": false,
+      "name": "应用诊疗原则",
+      "arguments": [
+        "X",
+        "适当推迟择期手术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医疗单位",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接诊患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "Y",
+          "主动脉急症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Y",
+          "择期手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "首要原则",
+        "arguments": [
+          "疫情防控",
+          "优先"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "医院/医疗单位",
+      "Y": "患者"
+    },
+    "source_text": "The outbreak of 2019 coronavirus disease (COVID-19) coincides with the winter and spring which have high incidence ofaortic emergencies. Aortic emergencies are mostly sudden onset, critical illness and have high mortality, requiring urgent treatment.Under the \"First-level response mechanism for major public health emergencies\", the diagnosis and treatment of patients with aorticemergencies need a new process. How to provide timely treatment for patients with aortic emergencies in this special period, andat the same time to enhance the awareness of medical staff to prevent the spread of the epidemic in the hospital, are major issuescurrently facing the emergency department/cardiac surgery/vascular surgery and other related departments. This article calls onall medical units to carry out medical practice on the basis of strictly abiding by the rules and regulations of the government andthe hospital's infection control department. On the premise of \"prevention and control of epidemic situation is priority, preventionof nosocomial infection is the most important, and conservative treatment is the first choice for confirmed COVID-19 patients\",it advocates the diagnosis and treatment principle of \"appropriate postponement of selective operation, isolation and screening ofCOVID-19 before deadline operation, and strict protection for emergency surgery\"."
+  },
+  {
+    "rule_name": "疫情期主动脉急症患者限期手术处理原则",
+    "head": {
+      "is_negative": false,
+      "name": "应用诊疗原则",
+      "arguments": [
+        "X",
+        "限期手术前隔离筛查"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医疗单位",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接诊患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "Y",
+          "主动脉急症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Y",
+          "限期手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关键要求",
+        "arguments": [
+          "预防",
+          "院内感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "筛查要求",
+        "arguments": [
+          "Y",
+          "COVID-19检测"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "医院/医疗单位",
+      "Y": "患者"
+    },
+    "source_text": "The outbreak of 2019 coronavirus disease (COVID-19) coincides with the winter and spring which have high incidence ofaortic emergencies. Aortic emergencies are mostly sudden onset, critical illness and have high mortality, requiring urgent treatment.Under the \"First-level response mechanism for major public health emergencies\", the diagnosis and treatment of patients with aorticemergencies need a new process. How to provide timely treatment for patients with aortic emergencies in this special period, andat the same time to enhance the awareness of medical staff to prevent the spread of the epidemic in the hospital, are major issuescurrently facing the emergency department/cardiac surgery/vascular surgery and other related departments. This article calls onall medical units to carry out medical practice on the basis of strictly abiding by the rules and regulations of the government andthe hospital's infection control department. On the premise of \"prevention and control of epidemic situation is priority, preventionof nosocomial infection is the most important, and conservative treatment is the first choice for confirmed COVID-19 patients\",it advocates the diagnosis and treatment principle of \"appropriate postponement of selective operation, isolation and screening ofCOVID-19 before deadline operation, and strict protection for emergency surgery\"."
+  },
+  {
+    "rule_name": "疫情期主动脉急症患者急症手术处理原则",
+    "head": {
+      "is_negative": false,
+      "name": "应用诊疗原则",
+      "arguments": [
+        "X",
+        "急症手术严格防护"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医疗单位",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接诊患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "Y",
+          "主动脉急症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Y",
+          "急症手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊疗需求",
+        "arguments": [
+          "Y",
+          "紧急"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关键要求",
+        "arguments": [
+          "预防",
+          "院内感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "防护级别",
+        "arguments": [
+          "手术",
+          "严格"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "医院/医疗单位",
+      "Y": "患者"
+    },
+    "source_text": "The outbreak of 2019 coronavirus disease (COVID-19) coincides with the winter and spring which have high incidence ofaortic emergencies. Aortic emergencies are mostly sudden onset, critical illness and have high mortality, requiring urgent treatment.Under the \"First-level response mechanism for major public health emergencies\", the diagnosis and treatment of patients with aorticemergencies need a new process. How to provide timely treatment for patients with aortic emergencies in this special period, andat the same time to enhance the awareness of medical staff to prevent the spread of the epidemic in the hospital, are major issuescurrently facing the emergency department/cardiac surgery/vascular surgery and other related departments. This article calls onall medical units to carry out medical practice on the basis of strictly abiding by the rules and regulations of the government andthe hospital's infection control department. On the premise of \"prevention and control of epidemic situation is priority, preventionof nosocomial infection is the most important, and conservative treatment is the first choice for confirmed COVID-19 patients\",it advocates the diagnosis and treatment principle of \"appropriate postponement of selective operation, isolation and screening ofCOVID-19 before deadline operation, and strict protection for emergency surgery\"."
+  }
+]

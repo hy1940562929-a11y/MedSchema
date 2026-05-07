@@ -1,0 +1,1081 @@
+[
+  {
+    "rule_name": "临床问题拟定方法之一_系统查阅",
+    "head": {
+      "is_negative": false,
+      "name": "最终入选",
+      "arguments": [
+        "Y",
+        "指南"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "工作组",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "拟定",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "通过方法",
+        "arguments": [
+          "X",
+          "系统查阅"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用形式",
+        "arguments": [
+          "X",
+          "在线问卷"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "调研反馈",
+        "arguments": [
+          "X",
+          "多轮"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床问题",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "工作组",
+      "Y": "临床问题"
+    },
+    "source_text": "5. 临床问题的遴选和确定：通过系统查阅SLE领域已发表的指南和系统评价，以及对部分风湿科专家的访谈，工作组初步拟定了30个临床问题，以在线问卷的形式对临床问题的重要性进行调研和评分。经过两轮83人次的调研反馈，最终遴选出本指南拟解决的12个临床问题。"
+  },
+  {
+    "rule_name": "临床问题拟定方法之二_专家访谈",
+    "head": {
+      "is_negative": false,
+      "name": "最终入选",
+      "arguments": [
+        "Y",
+        "指南"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "工作组",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "拟定",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "通过方法",
+        "arguments": [
+          "X",
+          "专家访谈"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用形式",
+        "arguments": [
+          "X",
+          "在线问卷"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "调研反馈",
+        "arguments": [
+          "X",
+          "多轮"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床问题",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "工作组",
+      "Y": "临床问题"
+    },
+    "source_text": "5. 临床问题的遴选和确定：通过系统查阅SLE领域已发表的指南和系统评价，以及对部分风湿科专家的访谈，工作组初步拟定了30个临床问题，以在线问卷的形式对临床问题的重要性进行调研和评分。经过两轮83人次的调研反馈，最终遴选出本指南拟解决的12个临床问题。"
+  },
+  {
+    "rule_name": "SLE诊疗指南的基本定义与主题",
+    "head": {
+      "is_negative": false,
+      "name": "指南主题",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "系统性自身免疫病",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病名称",
+        "arguments": [
+          "Y",
+          "SLE"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗复杂",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断复杂",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "2020中国系统性红斑狼疮诊疗指南",
+      "Y": "系统性红斑狼疮"
+    },
+    "source_text": "系统性红斑狼疮（SLE）是一种系统性自身免疫病，其诊断和治疗均很复杂。在我国制订既符合国际指南制订标准又贴近中国临床实践的SLE诊疗指南势在必行。本指南由中华医学会风湿病学分会、国家皮肤与免疫疾病临床医学研究中心、中国系统性红斑狼疮研究协作组联合牵头发起，采用推荐意见分级的评估、制订及评价（GRADE）分级体系和国际实践指南报告标准（RIGHT），就我国一线风湿免疫科医师关注的12个临床问题，给出了较为详细的循证推荐，旨在提高SLE诊疗的科学性，提高以患者为中心的医疗服务质量。"
+  },
+  {
+    "rule_name": "SLE指南在中国的制定必要性与双重背景",
+    "head": {
+      "is_negative": false,
+      "name": "制定必要",
+      "arguments": [
+        "X",
+        "势在必行"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "指南",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指南主题",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定背景",
+        "arguments": [
+          "X",
+          "中国临床实践"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定背景",
+        "arguments": [
+          "X",
+          "国际指南标准"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "2020中国系统性红斑狼疮诊疗指南",
+      "Y": "系统性红斑狼疮"
+    },
+    "source_text": "系统性红斑狼疮（SLE）是一种系统性自身免疫病，其诊断和治疗均很复杂。在我国制订既符合国际指南制订标准又贴近中国临床实践的SLE诊疗指南势在必行。本指南由中华医学会风湿病学分会、国家皮肤与免疫疾病临床医学研究中心、中国系统性红斑狼疮研究协作组联合牵头发起，采用推荐意见分级的评估、制订及评价（GRADE）分级体系和国际实践指南报告标准（RIGHT），就我国一线风湿免疫科医师关注的12个临床问题，给出了较为详细的循证推荐，旨在提高SLE诊疗的科学性，提高以患者为中心的医疗服务质量。"
+  },
+  {
+    "rule_name": "SLE指南的三大核心发起方",
+    "head": {
+      "is_negative": false,
+      "name": "制定方",
+      "arguments": [
+        "X",
+        "Z"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "指南",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发起方",
+        "arguments": [
+          "X",
+          "中华医学会风湿病学分会"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发起方",
+        "arguments": [
+          "X",
+          "国家皮肤与免疫疾病临床医学研究中心"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发起方",
+        "arguments": [
+          "X",
+          "中国系统性红斑狼疮研究协作组"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "2020中国系统性红斑狼疮诊疗指南",
+      "Z": "联合发起方团体"
+    },
+    "source_text": "系统性红斑狼疮（SLE）是一种系统性自身免疫病，其诊断和治疗均很复杂。在我国制订既符合国际指南制订标准又贴近中国临床实践的SLE诊疗指南势在必行。本指南由中华医学会风湿病学分会、国家皮肤与免疫疾病临床医学研究中心、中国系统性红斑狼疮研究协作组联合牵头发起，采用推荐意见分级的评估、制订及评价（GRADE）分级体系和国际实践指南报告标准（RIGHT），就我国一线风湿免疫科医师关注的12个临床问题，给出了较为详细的循证推荐，旨在提高SLE诊疗的科学性，提高以患者为中心的医疗服务质量。"
+  },
+  {
+    "rule_name": "SLE指南采用的方法论体系",
+    "head": {
+      "is_negative": false,
+      "name": "采用方法论",
+      "arguments": [
+        "X",
+        "GRADE分级体系",
+        "用于指南制定"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "指南",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "循证推荐",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "推荐详细程度",
+        "arguments": [
+          "X",
+          "较为详细"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "2020中国系统性红斑狼疮诊疗指南"
+    },
+    "source_text": "系统性红斑狼疮（SLE）是一种系统性自身免疫病，其诊断和治疗均很复杂。在我国制订既符合国际指南制订标准又贴近中国临床实践的SLE诊疗指南势在必行。本指南由中华医学会风湿病学分会、国家皮肤与免疫疾病临床医学研究中心、中国系统性红斑狼疮研究协作组联合牵头发起，采用推荐意见分级的评估、制订及评价（GRADE）分级体系和国际实践指南报告标准（RIGHT），就我国一线风湿免疫科医师关注的12个临床问题，给出了较为详细的循证推荐，旨在提高SLE诊疗的科学性，提高以患者为中心的医疗服务质量。"
+  },
+  {
+    "rule_name": "SLE指南聚焦的临床问题与核心目的",
+    "head": {
+      "is_negative": false,
+      "name": "旨在达成",
+      "arguments": [
+        "X",
+        "提高科学性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "指南",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关注问题",
+        "arguments": [
+          "X",
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "问题数量",
+        "arguments": [
+          "W",
+          "12"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "问题来源",
+        "arguments": [
+          "W",
+          "一线风湿免疫科医师"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "2020中国系统性红斑狼疮诊疗指南",
+      "W": "临床问题集合"
+    },
+    "source_text": "系统性红斑狼疮（SLE）是一种系统性自身免疫病，其诊断和治疗均很复杂。在我国制订既符合国际指南制订标准又贴近中国临床实践的SLE诊疗指南势在必行。本指南由中华医学会风湿病学分会、国家皮肤与免疫疾病临床医学研究中心、中国系统性红斑狼疮研究协作组联合牵头发起，采用推荐意见分级的评估、制订及评价（GRADE）分级体系和国际实践指南报告标准（RIGHT），就我国一线风湿免疫科医师关注的12个临床问题，给出了较为详细的循证推荐，旨在提高SLE诊疗的科学性，提高以患者为中心的医疗服务质量。"
+  },
+  {
+    "rule_name": "使用SLICC标准对疑似SLE患者进行诊断推荐",
+    "head": {
+      "is_negative": false,
+      "name": "诊断推荐",
+      "arguments": [
+        "X",
+        "Y",
+        "采用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疑似SLE患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分类标准",
+        "arguments": [
+          "Y",
+          "2012年SLICC"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疑似患者",
+      "Y": "分类标准"
+    },
+    "source_text": "为进一步提高SLE分类标准的敏感性和特异性，2019年EULAR和ACR基于1997年ACR制定的SLE分类标准，共同推出了2019年EULAR/ACR SLE分类标准，该标准包括1条入围标准、10个方面、18条标准，每条标准均需排除感染、恶性肿瘤、药物等原因所致，既往符合某条标准者亦可计分，在每个方面取最高权重得分计入总分，总分≥10可分类为SLE［33］。针对新标准的验证队列研究显示，2019年EULAR/ACR、2012年SLICC、1997年ACR的SLE分类标准的敏感性分别为96%、97%、83%，特异性分别为93%、84%、93%，2019年EULAR/ACR的SLE分类标准的敏感性与特异性均最优；针对新标准的诊断准确性研究显示，在成人SLE患者中，2019年EULAR/ACR（初始草拟版）、2012年SLICC、1997年ACR的SLE分类标准的敏感性分别为93%、100%、83.0%，特异性分别为73%、75%、82%，显示成人SLE中2012年SLICC分类标准相对最优［33‐34］。基于上述研究结果，本指南推荐使用这两个分类标准对我国SLE患者进行分类。"
+  },
+  {
+    "rule_name": "使用EULARACR标准对疑似SLE患者进行诊断推荐",
+    "head": {
+      "is_negative": false,
+      "name": "诊断推荐",
+      "arguments": [
+        "X",
+        "Y",
+        "采用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疑似SLE患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分类标准",
+        "arguments": [
+          "Y",
+          "2019年EULAR/ACR"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疑似患者",
+      "Y": "分类标准"
+    },
+    "source_text": "为进一步提高SLE分类标准的敏感性和特异性，2019年EULAR和ACR基于1997年ACR制定的SLE分类标准，共同推出了2019年EULAR/ACR SLE分类标准，该标准包括1条入围标准、10个方面、18条标准，每条标准均需排除感染、恶性肿瘤、药物等原因所致，既往符合某条标准者亦可计分，在每个方面取最高权重得分计入总分，总分≥10可分类为SLE［33］。针对新标准的验证队列研究显示，2019年EULAR/ACR、2012年SLICC、1997年ACR的SLE分类标准的敏感性分别为96%、97%、83%，特异性分别为93%、84%、93%，2019年EULAR/ACR的SLE分类标准的敏感性与特异性均最优；针对新标准的诊断准确性研究显示，在成人SLE患者中，2019年EULAR/ACR（初始草拟版）、2012年SLICC、1997年ACR的SLE分类标准的敏感性分别为93%、100%、83.0%，特异性分别为73%、75%、82%，显示成人SLE中2012年SLICC分类标准相对最优［33‐34］。基于上述研究结果，本指南推荐使用这两个分类标准对我国SLE患者进行分类。"
+  },
+  {
+    "rule_name": "非风湿科机构中临床表现不典型患者的会诊建议",
+    "head": {
+      "is_negative": false,
+      "name": "处置建议",
+      "arguments": [
+        "W",
+        "X",
+        "邀请或咨询风湿科医师"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医疗机构",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "设置科室",
+        "arguments": [
+          "W",
+          "风湿免疫科"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似SLE患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床表现",
+        "arguments": [
+          "X",
+          "不典型"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疑似患者",
+      "W": "医疗机构"
+    },
+    "source_text": "为进一步提高SLE分类标准的敏感性和特异性，2019年EULAR和ACR基于1997年ACR制定的SLE分类标准，共同推出了2019年EULAR/ACR SLE分类标准，该标准包括1条入围标准、10个方面、18条标准，每条标准均需排除感染、恶性肿瘤、药物等原因所致，既往符合某条标准者亦可计分，在每个方面取最高权重得分计入总分，总分≥10可分类为SLE［33］。针对新标准的验证队列研究显示，2019年EULAR/ACR、2012年SLICC、1997年ACR的SLE分类标准的敏感性分别为96%、97%、83%，特异性分别为93%、84%、93%，2019年EULAR/ACR的SLE分类标准的敏感性与特异性均最优；针对新标准的诊断准确性研究显示，在成人SLE患者中，2019年EULAR/ACR（初始草拟版）、2012年SLICC、1997年ACR的SLE分类标准的敏感性分别为93%、100%、83.0%，特异性分别为73%、75%、82%，显示成人SLE中2012年SLICC分类标准相对最优［33‐34］。基于上述研究结果，本指南推荐使用这两个分类标准对我国SLE患者进行分类。"
+  },
+  {
+    "rule_name": "非风湿科机构中诊断困难患者的转诊或会诊建议",
+    "head": {
+      "is_negative": false,
+      "name": "处置建议",
+      "arguments": [
+        "W",
+        "X",
+        "转诊或远程会诊"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医疗机构",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "设置科室",
+        "arguments": [
+          "W",
+          "风湿免疫科"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似SLE患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在状态",
+        "arguments": [
+          "X",
+          "诊断有困难"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疑似患者",
+      "W": "医疗机构"
+    },
+    "source_text": "为进一步提高SLE分类标准的敏感性和特异性，2019年EULAR和ACR基于1997年ACR制定的SLE分类标准，共同推出了2019年EULAR/ACR SLE分类标准，该标准包括1条入围标准、10个方面、18条标准，每条标准均需排除感染、恶性肿瘤、药物等原因所致，既往符合某条标准者亦可计分，在每个方面取最高权重得分计入总分，总分≥10可分类为SLE［33］。针对新标准的验证队列研究显示，2019年EULAR/ACR、2012年SLICC、1997年ACR的SLE分类标准的敏感性分别为96%、97%、83%，特异性分别为93%、84%、93%，2019年EULAR/ACR的SLE分类标准的敏感性与特异性均最优；针对新标准的诊断准确性研究显示，在成人SLE患者中，2019年EULAR/ACR（初始草拟版）、2012年SLICC、1997年ACR的SLE分类标准的敏感性分别为93%、100%、83.0%，特异性分别为73%、75%、82%，显示成人SLE中2012年SLICC分类标准相对最优［33‐34］。基于上述研究结果，本指南推荐使用这两个分类标准对我国SLE患者进行分类。"
+  },
+  {
+    "rule_name": "应用EULARACR标准进行SLE分类的条件网络",
+    "head": {
+      "is_negative": false,
+      "name": "分类结果",
+      "arguments": [
+        "X",
+        "SLE"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "分类标准",
+        "arguments": [
+          "Y",
+          "2019年EULAR/ACR"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用于患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含条目",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "满足排除条件",
+        "arguments": [
+          "Z",
+          "感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "满足排除条件",
+        "arguments": [
+          "Z",
+          "恶性肿瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "满足排除条件",
+        "arguments": [
+          "Z",
+          "药物原因"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "历史计分允许",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "计分规则",
+        "arguments": [
+          "Y",
+          "每方面取最高权重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "计算总分",
+        "arguments": [
+          "Y",
+          "X",
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "数值比较",
+        "arguments": [
+          "T",
+          "≥",
+          "10"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "分类标准",
+      "Z": "诊断标准条目",
+      "T": "总分"
+    },
+    "source_text": "为进一步提高SLE分类标准的敏感性和特异性，2019年EULAR和ACR基于1997年ACR制定的SLE分类标准，共同推出了2019年EULAR/ACR SLE分类标准，该标准包括1条入围标准、10个方面、18条标准，每条标准均需排除感染、恶性肿瘤、药物等原因所致，既往符合某条标准者亦可计分，在每个方面取最高权重得分计入总分，总分≥10可分类为SLE［33］。针对新标准的验证队列研究显示，2019年EULAR/ACR、2012年SLICC、1997年ACR的SLE分类标准的敏感性分别为96%、97%、83%，特异性分别为93%、84%、93%，2019年EULAR/ACR的SLE分类标准的敏感性与特异性均最优；针对新标准的诊断准确性研究显示，在成人SLE患者中，2019年EULAR/ACR（初始草拟版）、2012年SLICC、1997年ACR的SLE分类标准的敏感性分别为93%、100%、83.0%，特异性分别为73%、75%、82%，显示成人SLE中2012年SLICC分类标准相对最优［33‐34］。基于上述研究结果，本指南推荐使用这两个分类标准对我国SLE患者进行分类。"
+  },
+  {
+    "rule_name": "证据评价小组使用AMSTAR评估系统评价偏倚风险",
+    "head": {
+      "is_negative": false,
+      "name": "偏倚风险评价",
+      "arguments": [
+        "Y",
+        "完成"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "证据评价小组",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "系统评价",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评价工具",
+        "arguments": [
+          "U",
+          "AMSTAR"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "隶属",
+        "arguments": [
+          "X",
+          "U"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "运用工具",
+        "arguments": [
+          "X",
+          "U",
+          "针对Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "证据评价小组",
+      "Y": "系统评价/Meta分析证据",
+      "U": "AMSTAR评价工具"
+    },
+    "source_text": "7. 证据的评价与分级：证据评价小组运用系统评价偏倚风险评价工具（A Measurement Tool to Assess systematicReviews，AMSTAR）［23］对纳入的系统评价、Meta分析和网状Meta分析进行偏倚风险评价。使用Cochrane偏倚风险评价工具［24］（Risk of Bias，ROB，针对随机对照试验研究）、诊断准确性研究的质量评价工具［25］（Quality Assessment ofDiagnostic Accuracy Studies，QUADAS‐2，针对诊断准确性试验研究）、纽卡斯尔‐渥太华量表［26］（Newcastle‐Ottawa Scale，NOS，针对观察性研究）等对相应类型的原始研究进行方法学质量评价；评价过程由两人独立完成，若存在分歧，则共同讨论或咨询第三方解决。使用推荐意见分级的评估、制订及评价（Grading of Recommendations Assessment，Development and Evaluation，GRADE）方法对证据体和推荐意见进行分级［27‐31］，见表1。8. 推荐意见的形成：专家组基于证据评价小组提供的国内外证据汇总表，同时考虑我国患者的偏好与价值观、干预措施的成本和利弊后，提出了符合我国临床诊疗实践的推荐意见，分别于2019年10月5日和2019年11月8日进行两轮德尔菲推荐意见调查，共收集到98条反馈建议，于2019年11月至2020年1月进行面对面共识和进一步修改。"
+  },
+  {
+    "rule_name": "两人独立评价原始研究后通过共同讨论解决分歧",
+    "head": {
+      "is_negative": false,
+      "name": "方法学质量评价",
+      "arguments": [
+        "Z",
+        "完成"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "评价成员",
+        "arguments": [
+          "M1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评价成员",
+        "arguments": [
+          "M2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "原始研究",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "独立评价",
+        "arguments": [
+          "M1",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "独立评价",
+        "arguments": [
+          "M2",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在分歧",
+        "arguments": [
+          "关于Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "共同讨论",
+        "arguments": [
+          "M1",
+          "M2",
+          "解决分歧"
+        ]
+      }
+    ],
+    "variables": {
+      "M1": "评价成员甲",
+      "M2": "评价成员乙",
+      "Z": "原始研究"
+    },
+    "source_text": "7. 证据的评价与分级：证据评价小组运用系统评价偏倚风险评价工具（A Measurement Tool to Assess systematicReviews，AMSTAR）［23］对纳入的系统评价、Meta分析和网状Meta分析进行偏倚风险评价。使用Cochrane偏倚风险评价工具［24］（Risk of Bias，ROB，针对随机对照试验研究）、诊断准确性研究的质量评价工具［25］（Quality Assessment ofDiagnostic Accuracy Studies，QUADAS‐2，针对诊断准确性试验研究）、纽卡斯尔‐渥太华量表［26］（Newcastle‐Ottawa Scale，NOS，针对观察性研究）等对相应类型的原始研究进行方法学质量评价；评价过程由两人独立完成，若存在分歧，则共同讨论或咨询第三方解决。使用推荐意见分级的评估、制订及评价（Grading of Recommendations Assessment，Development and Evaluation，GRADE）方法对证据体和推荐意见进行分级［27‐31］，见表1。8. 推荐意见的形成：专家组基于证据评价小组提供的国内外证据汇总表，同时考虑我国患者的偏好与价值观、干预措施的成本和利弊后，提出了符合我国临床诊疗实践的推荐意见，分别于2019年10月5日和2019年11月8日进行两轮德尔菲推荐意见调查，共收集到98条反馈建议，于2019年11月至2020年1月进行面对面共识和进一步修改。"
+  },
+  {
+    "rule_name": "两人独立评价原始研究后通过咨询第三方解决分歧",
+    "head": {
+      "is_negative": false,
+      "name": "方法学质量评价",
+      "arguments": [
+        "Z",
+        "完成"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "评价成员",
+        "arguments": [
+          "M1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评价成员",
+        "arguments": [
+          "M2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "原始研究",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "独立评价",
+        "arguments": [
+          "M1",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "独立评价",
+        "arguments": [
+          "M2",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在分歧",
+        "arguments": [
+          "关于Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "咨询第三方",
+        "arguments": [
+          "M1",
+          "M2",
+          "解决分歧"
+        ]
+      }
+    ],
+    "variables": {
+      "M1": "评价成员甲",
+      "M2": "评价成员乙",
+      "Z": "原始研究"
+    },
+    "source_text": "7. 证据的评价与分级：证据评价小组运用系统评价偏倚风险评价工具（A Measurement Tool to Assess systematicReviews，AMSTAR）［23］对纳入的系统评价、Meta分析和网状Meta分析进行偏倚风险评价。使用Cochrane偏倚风险评价工具［24］（Risk of Bias，ROB，针对随机对照试验研究）、诊断准确性研究的质量评价工具［25］（Quality Assessment ofDiagnostic Accuracy Studies，QUADAS‐2，针对诊断准确性试验研究）、纽卡斯尔‐渥太华量表［26］（Newcastle‐Ottawa Scale，NOS，针对观察性研究）等对相应类型的原始研究进行方法学质量评价；评价过程由两人独立完成，若存在分歧，则共同讨论或咨询第三方解决。使用推荐意见分级的评估、制订及评价（Grading of Recommendations Assessment，Development and Evaluation，GRADE）方法对证据体和推荐意见进行分级［27‐31］，见表1。8. 推荐意见的形成：专家组基于证据评价小组提供的国内外证据汇总表，同时考虑我国患者的偏好与价值观、干预措施的成本和利弊后，提出了符合我国临床诊疗实践的推荐意见，分别于2019年10月5日和2019年11月8日进行两轮德尔菲推荐意见调查，共收集到98条反馈建议，于2019年11月至2020年1月进行面对面共识和进一步修改。"
+  },
+  {
+    "rule_name": "使用特定工具对相应类型的原始研究进行方法学质量评价",
+    "head": {
+      "is_negative": false,
+      "name": "方法学质量评价",
+      "arguments": [
+        "Z",
+        "完成"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "证据评价小组",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "原始研究",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评价工具_用于",
+        "arguments": [
+          "U",
+          "Z",
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "隶属",
+        "arguments": [
+          "X",
+          "U"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "运用工具",
+        "arguments": [
+          "X",
+          "U",
+          "针对Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "证据评价小组",
+      "Z": "原始研究",
+      "U": "评价工具（ROB/QUADAS-2/NOS）",
+      "T": "研究类型常量（随机对照试验/诊断准确性试验/观察性研究）"
+    },
+    "source_text": "7. 证据的评价与分级：证据评价小组运用系统评价偏倚风险评价工具（A Measurement Tool to Assess systematicReviews，AMSTAR）［23］对纳入的系统评价、Meta分析和网状Meta分析进行偏倚风险评价。使用Cochrane偏倚风险评价工具［24］（Risk of Bias，ROB，针对随机对照试验研究）、诊断准确性研究的质量评价工具［25］（Quality Assessment ofDiagnostic Accuracy Studies，QUADAS‐2，针对诊断准确性试验研究）、纽卡斯尔‐渥太华量表［26］（Newcastle‐Ottawa Scale，NOS，针对观察性研究）等对相应类型的原始研究进行方法学质量评价；评价过程由两人独立完成，若存在分歧，则共同讨论或咨询第三方解决。使用推荐意见分级的评估、制订及评价（Grading of Recommendations Assessment，Development and Evaluation，GRADE）方法对证据体和推荐意见进行分级［27‐31］，见表1。8. 推荐意见的形成：专家组基于证据评价小组提供的国内外证据汇总表，同时考虑我国患者的偏好与价值观、干预措施的成本和利弊后，提出了符合我国临床诊疗实践的推荐意见，分别于2019年10月5日和2019年11月8日进行两轮德尔菲推荐意见调查，共收集到98条反馈建议，于2019年11月至2020年1月进行面对面共识和进一步修改。"
+  },
+  {
+    "rule_name": "专家组基于证据与考虑因素形成强推荐意见",
+    "head": {
+      "is_negative": false,
+      "name": "推荐意见_形成",
+      "arguments": [
+        "R",
+        "强"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "专家组",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "证据体",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "证据汇总表",
+        "arguments": [
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提供_给",
+        "arguments": [
+          "X",
+          "W",
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基于_提出",
+        "arguments": [
+          "A",
+          "S",
+          "R"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "考虑因素",
+        "arguments": [
+          "A",
+          "患者偏好"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "考虑因素",
+        "arguments": [
+          "A",
+          "成本利弊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行调查",
+        "arguments": [
+          "A",
+          "R",
+          "德尔菲两轮"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "达成共识",
+        "arguments": [
+          "A",
+          "R",
+          "面对面"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "专家组",
+      "W": "证据体",
+      "S": "证据汇总表",
+      "X": "证据评价小组",
+      "R": "推荐意见"
+    },
+    "source_text": "7. 证据的评价与分级：证据评价小组运用系统评价偏倚风险评价工具（A Measurement Tool to Assess systematicReviews，AMSTAR）［23］对纳入的系统评价、Meta分析和网状Meta分析进行偏倚风险评价。使用Cochrane偏倚风险评价工具［24］（Risk of Bias，ROB，针对随机对照试验研究）、诊断准确性研究的质量评价工具［25］（Quality Assessment ofDiagnostic Accuracy Studies，QUADAS‐2，针对诊断准确性试验研究）、纽卡斯尔‐渥太华量表［26］（Newcastle‐Ottawa Scale，NOS，针对观察性研究）等对相应类型的原始研究进行方法学质量评价；评价过程由两人独立完成，若存在分歧，则共同讨论或咨询第三方解决。使用推荐意见分级的评估、制订及评价（Grading of Recommendations Assessment，Development and Evaluation，GRADE）方法对证据体和推荐意见进行分级［27‐31］，见表1。8. 推荐意见的形成：专家组基于证据评价小组提供的国内外证据汇总表，同时考虑我国患者的偏好与价值观、干预措施的成本和利弊后，提出了符合我国临床诊疗实践的推荐意见，分别于2019年10月5日和2019年11月8日进行两轮德尔菲推荐意见调查，共收集到98条反馈建议，于2019年11月至2020年1月进行面对面共识和进一步修改。"
+  },
+  {
+    "rule_name": "专家组基于证据与考虑因素形成弱推荐意见",
+    "head": {
+      "is_negative": false,
+      "name": "推荐意见_形成",
+      "arguments": [
+        "R",
+        "弱"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "专家组",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "证据体",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "证据汇总表",
+        "arguments": [
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提供_给",
+        "arguments": [
+          "X",
+          "W",
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基于_提出",
+        "arguments": [
+          "A",
+          "S",
+          "R"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "考虑因素",
+        "arguments": [
+          "A",
+          "患者偏好"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "考虑因素",
+        "arguments": [
+          "A",
+          "成本利弊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行调查",
+        "arguments": [
+          "A",
+          "R",
+          "德尔菲两轮"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "达成共识",
+        "arguments": [
+          "A",
+          "R",
+          "面对面"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "专家组",
+      "W": "证据体",
+      "S": "证据汇总表",
+      "X": "证据评价小组",
+      "R": "推荐意见"
+    },
+    "source_text": "7. 证据的评价与分级：证据评价小组运用系统评价偏倚风险评价工具（A Measurement Tool to Assess systematicReviews，AMSTAR）［23］对纳入的系统评价、Meta分析和网状Meta分析进行偏倚风险评价。使用Cochrane偏倚风险评价工具［24］（Risk of Bias，ROB，针对随机对照试验研究）、诊断准确性研究的质量评价工具［25］（Quality Assessment ofDiagnostic Accuracy Studies，QUADAS‐2，针对诊断准确性试验研究）、纽卡斯尔‐渥太华量表［26］（Newcastle‐Ottawa Scale，NOS，针对观察性研究）等对相应类型的原始研究进行方法学质量评价；评价过程由两人独立完成，若存在分歧，则共同讨论或咨询第三方解决。使用推荐意见分级的评估、制订及评价（Grading of Recommendations Assessment，Development and Evaluation，GRADE）方法对证据体和推荐意见进行分级［27‐31］，见表1。8. 推荐意见的形成：专家组基于证据评价小组提供的国内外证据汇总表，同时考虑我国患者的偏好与价值观、干预措施的成本和利弊后，提出了符合我国临床诊疗实践的推荐意见，分别于2019年10月5日和2019年11月8日进行两轮德尔菲推荐意见调查，共收集到98条反馈建议，于2019年11月至2020年1月进行面对面共识和进一步修改。"
+  }
+]

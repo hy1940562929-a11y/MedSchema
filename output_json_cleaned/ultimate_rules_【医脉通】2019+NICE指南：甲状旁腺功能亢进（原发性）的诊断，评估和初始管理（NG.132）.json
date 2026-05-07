@@ -1,0 +1,675 @@
+[
+  {
+    "rule_name": "妊娠期原发性甲旁亢患者需由包含特定成员的多学科团队讨论管理",
+    "head": {
+      "is_negative": false,
+      "name": "需讨论管理",
+      "arguments": [
+        "X",
+        "Y",
+        "在专科中心"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "原发性甲状旁腺功能亢进症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处于状态",
+        "arguments": [
+          "X",
+          "怀孕"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "多学科团队",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "团队应包含成员",
+        "arguments": [
+          "Y",
+          "产科医生"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "团队应包含成员",
+        "arguments": [
+          "Y",
+          "原发甲旁亢专家医师"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "团队应包含成员",
+        "arguments": [
+          "Y",
+          "外科医生"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "团队应包含成员",
+        "arguments": [
+          "Y",
+          "助产士"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "团队应包含成员",
+        "arguments": [
+          "Y",
+          "麻醉医师"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "多学科团队"
+    },
+    "source_text": "Care during pregnancy 1.7.2Discuss the management of primary hyperparathyroidism for pregnant women with a MDT in a specialist centre, and refer the woman for specialist care if needed. The MDT should include: an obstetrician a physician with expertise in primary hyperparathyroidism a surgeon a midwife an anaesthetist."
+  },
+  {
+    "rule_name": "高钙血症患者甲状旁腺切除术指征",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗",
+      "arguments": [
+        "X",
+        "甲状旁腺切除术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "原发性甲状旁腺功能亢进症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血钙水平",
+        "arguments": [
+          "X",
+          "高于正常范围",
+          "持续性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超出幅度",
+        "arguments": [
+          "X",
+          "0.25 mmol/litre"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Offer parathyroidectomy to people with primary hyperparathyroidism if they meet one or more of the following criteria: • serum calcium concentration of 0.25 mmol/litre (1 mg/dl) or more above the upper limit of normal range (adjusted for albumin) • renal involvement (for example, creatinine clearance reduced to less than 60 ml/min, renal stones or nephrocalcinosis) • osteoporosis (a T‑score of –2.5 or less at the lumbar spine, femoral neck, total hip or distal radius). If parathyroidectomy is indicated but the person is unable or unwilling to have surgery, consider medical management."
+  },
+  {
+    "rule_name": "肾功能受累患者甲状旁腺切除术指征",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗",
+      "arguments": [
+        "X",
+        "甲状旁腺切除术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "原发性甲状旁腺功能亢进症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肾功能指标",
+        "arguments": [
+          "X",
+          "肌酐清除率"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "数值关系",
+        "arguments": [
+          "肌酐清除率",
+          "低于",
+          "60 ml/min"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Offer parathyroidectomy to people with primary hyperparathyroidism if they meet one or more of the following criteria: • serum calcium concentration of 0.25 mmol/litre (1 mg/dl) or more above the upper limit of normal range (adjusted for albumin) • renal involvement (for example, creatinine clearance reduced to less than 60 ml/min, renal stones or nephrocalcinosis) • osteoporosis (a T‑score of –2.5 or less at the lumbar spine, femoral neck, total hip or distal radius). If parathyroidectomy is indicated but the person is unable or unwilling to have surgery, consider medical management."
+  },
+  {
+    "rule_name": "肾结石患者甲状旁腺切除术指征",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗",
+      "arguments": [
+        "X",
+        "甲状旁腺切除术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "原发性甲状旁腺功能亢进症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发疾病",
+        "arguments": [
+          "X",
+          "肾结石"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Offer parathyroidectomy to people with primary hyperparathyroidism if they meet one or more of the following criteria: • serum calcium concentration of 0.25 mmol/litre (1 mg/dl) or more above the upper limit of normal range (adjusted for albumin) • renal involvement (for example, creatinine clearance reduced to less than 60 ml/min, renal stones or nephrocalcinosis) • osteoporosis (a T‑score of –2.5 or less at the lumbar spine, femoral neck, total hip or distal radius). If parathyroidectomy is indicated but the person is unable or unwilling to have surgery, consider medical management."
+  },
+  {
+    "rule_name": "肾钙质沉着症患者甲状旁腺切除术指征",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗",
+      "arguments": [
+        "X",
+        "甲状旁腺切除术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "原发性甲状旁腺功能亢进症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发疾病",
+        "arguments": [
+          "X",
+          "肾钙质沉着症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Offer parathyroidectomy to people with primary hyperparathyroidism if they meet one or more of the following criteria: • serum calcium concentration of 0.25 mmol/litre (1 mg/dl) or more above the upper limit of normal range (adjusted for albumin) • renal involvement (for example, creatinine clearance reduced to less than 60 ml/min, renal stones or nephrocalcinosis) • osteoporosis (a T‑score of –2.5 or less at the lumbar spine, femoral neck, total hip or distal radius). If parathyroidectomy is indicated but the person is unable or unwilling to have surgery, consider medical management."
+  },
+  {
+    "rule_name": "骨质疏松患者甲状旁腺切除术指征",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗",
+      "arguments": [
+        "X",
+        "甲状旁腺切除术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "原发性甲状旁腺功能亢进症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "骨质疏松"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "骨密度指标",
+        "arguments": [
+          "X",
+          "T值",
+          "≤-2.5"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "测量部位",
+        "arguments": [
+          "X",
+          "腰椎"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Offer parathyroidectomy to people with primary hyperparathyroidism if they meet one or more of the following criteria: • serum calcium concentration of 0.25 mmol/litre (1 mg/dl) or more above the upper limit of normal range (adjusted for albumin) • renal involvement (for example, creatinine clearance reduced to less than 60 ml/min, renal stones or nephrocalcinosis) • osteoporosis (a T‑score of –2.5 or less at the lumbar spine, femoral neck, total hip or distal radius). If parathyroidectomy is indicated but the person is unable or unwilling to have surgery, consider medical management."
+  },
+  {
+    "rule_name": "拒绝手术患者的药物治疗考量",
+    "head": {
+      "is_negative": false,
+      "name": "考虑治疗",
+      "arguments": [
+        "X",
+        "药物管理"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "原发性甲状旁腺功能亢进症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有指征",
+        "arguments": [
+          "X",
+          "甲状旁腺切除术"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "甲状旁腺切除术"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Offer parathyroidectomy to people with primary hyperparathyroidism if they meet one or more of the following criteria: • serum calcium concentration of 0.25 mmol/litre (1 mg/dl) or more above the upper limit of normal range (adjusted for albumin) • renal involvement (for example, creatinine clearance reduced to less than 60 ml/min, renal stones or nephrocalcinosis) • osteoporosis (a T‑score of –2.5 or less at the lumbar spine, femoral neck, total hip or distal radius). If parathyroidectomy is indicated but the person is unable or unwilling to have surgery, consider medical management."
+  },
+  {
+    "rule_name": "未手术患者考虑西那卡塞治疗指征_基于症状与血钙水平",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "西那卡塞",
+        "可考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "原发性甲状旁腺功能亢进症"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "已接受手术",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "高钙血症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清钙指标",
+        "arguments": [
+          "X",
+          "白蛋白校正血钙>=2.85mmol/L"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Calcimimetics. Cinacalcet is the only calcimimetic for which evidence was available. The committee noted that cinacalcet does not directly stop kidney problems or bone loss caused by primary hyperparathyroidism, and that surgery is the only definitive treatment for primary hyperparathyroidism. Based on the evidence and their experience, the committee agreed that treatment with cinacalcet could be considered for the purpose of reducing symptoms and lowering the risk of a hypercalcaemic crisis for people who have not had surgery and those for whom surgery has not been successful. The committee agreed that, in their experience, cinacalcet can improve quality of life for people with symptoms of hypercalcaemia and an albumin-adjusted serum calcium level of 2.85 mmol/litre or above. For people with an albumin-adjusted serum calcium level of 3.0 mmol/litre or above, who are more at risk of hypercalcaemic crises, cinacalcet can both improve quality of life and help to prevent hypercalcaemic crises. The committee agreed that treatment-related changes in serum calcium should be managed by basing initiation and continuation of treatment on albumin-adjusted serum calcium level and symptoms. They also agreed that treatment with cinacalcet should be continued if it produces a decrease in albumin-adjusted serum calcium or an improvement in symptoms, because discontinuation is likely to reverse these improvements. The committee noted that there is no evidence for and little likelihood of benefit from cinacalcet for people with normal calcium levels and no symptoms."
+  },
+  {
+    "rule_name": "手术未成功患者考虑西那卡塞治疗指征_基于症状与血钙水平",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "西那卡塞",
+        "可考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "原发性甲状旁腺功能亢进症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "已接受手术",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术结果",
+        "arguments": [
+          "X",
+          "未成功"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "高钙血症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清钙指标",
+        "arguments": [
+          "X",
+          "白蛋白校正血钙>=2.85mmol/L"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Calcimimetics. Cinacalcet is the only calcimimetic for which evidence was available. The committee noted that cinacalcet does not directly stop kidney problems or bone loss caused by primary hyperparathyroidism, and that surgery is the only definitive treatment for primary hyperparathyroidism. Based on the evidence and their experience, the committee agreed that treatment with cinacalcet could be considered for the purpose of reducing symptoms and lowering the risk of a hypercalcaemic crisis for people who have not had surgery and those for whom surgery has not been successful. The committee agreed that, in their experience, cinacalcet can improve quality of life for people with symptoms of hypercalcaemia and an albumin-adjusted serum calcium level of 2.85 mmol/litre or above. For people with an albumin-adjusted serum calcium level of 3.0 mmol/litre or above, who are more at risk of hypercalcaemic crises, cinacalcet can both improve quality of life and help to prevent hypercalcaemic crises. The committee agreed that treatment-related changes in serum calcium should be managed by basing initiation and continuation of treatment on albumin-adjusted serum calcium level and symptoms. They also agreed that treatment with cinacalcet should be continued if it produces a decrease in albumin-adjusted serum calcium or an improvement in symptoms, because discontinuation is likely to reverse these improvements. The committee noted that there is no evidence for and little likelihood of benefit from cinacalcet for people with normal calcium levels and no symptoms."
+  },
+  {
+    "rule_name": "高钙危象风险患者西那卡塞治疗指征",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "西那卡塞",
+        "可考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "原发性甲状旁腺功能亢进症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清钙指标",
+        "arguments": [
+          "X",
+          "白蛋白校正血钙>=3.0mmol/L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在风险",
+        "arguments": [
+          "X",
+          "高钙危象"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Calcimimetics. Cinacalcet is the only calcimimetic for which evidence was available. The committee noted that cinacalcet does not directly stop kidney problems or bone loss caused by primary hyperparathyroidism, and that surgery is the only definitive treatment for primary hyperparathyroidism. Based on the evidence and their experience, the committee agreed that treatment with cinacalcet could be considered for the purpose of reducing symptoms and lowering the risk of a hypercalcaemic crisis for people who have not had surgery and those for whom surgery has not been successful. The committee agreed that, in their experience, cinacalcet can improve quality of life for people with symptoms of hypercalcaemia and an albumin-adjusted serum calcium level of 2.85 mmol/litre or above. For people with an albumin-adjusted serum calcium level of 3.0 mmol/litre or above, who are more at risk of hypercalcaemic crises, cinacalcet can both improve quality of life and help to prevent hypercalcaemic crises. The committee agreed that treatment-related changes in serum calcium should be managed by basing initiation and continuation of treatment on albumin-adjusted serum calcium level and symptoms. They also agreed that treatment with cinacalcet should be continued if it produces a decrease in albumin-adjusted serum calcium or an improvement in symptoms, because discontinuation is likely to reverse these improvements. The committee noted that there is no evidence for and little likelihood of benefit from cinacalcet for people with normal calcium levels and no symptoms."
+  },
+  {
+    "rule_name": "西那卡塞治疗有效应继续_基于血钙下降",
+    "head": {
+      "is_negative": false,
+      "name": "应继续治疗",
+      "arguments": [
+        "Y",
+        "西那卡塞"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "治疗方案",
+        "arguments": [
+          "Y",
+          "西那卡塞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药导致结果",
+        "arguments": [
+          "Y",
+          "血清钙水平下降"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "治疗方案"
+    },
+    "source_text": "Calcimimetics. Cinacalcet is the only calcimimetic for which evidence was available. The committee noted that cinacalcet does not directly stop kidney problems or bone loss caused by primary hyperparathyroidism, and that surgery is the only definitive treatment for primary hyperparathyroidism. Based on the evidence and their experience, the committee agreed that treatment with cinacalcet could be considered for the purpose of reducing symptoms and lowering the risk of a hypercalcaemic crisis for people who have not had surgery and those for whom surgery has not been successful. The committee agreed that, in their experience, cinacalcet can improve quality of life for people with symptoms of hypercalcaemia and an albumin-adjusted serum calcium level of 2.85 mmol/litre or above. For people with an albumin-adjusted serum calcium level of 3.0 mmol/litre or above, who are more at risk of hypercalcaemic crises, cinacalcet can both improve quality of life and help to prevent hypercalcaemic crises. The committee agreed that treatment-related changes in serum calcium should be managed by basing initiation and continuation of treatment on albumin-adjusted serum calcium level and symptoms. They also agreed that treatment with cinacalcet should be continued if it produces a decrease in albumin-adjusted serum calcium or an improvement in symptoms, because discontinuation is likely to reverse these improvements. The committee noted that there is no evidence for and little likelihood of benefit from cinacalcet for people with normal calcium levels and no symptoms."
+  },
+  {
+    "rule_name": "西那卡塞治疗有效应继续_基于症状改善",
+    "head": {
+      "is_negative": false,
+      "name": "应继续治疗",
+      "arguments": [
+        "Y",
+        "西那卡塞"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "治疗方案",
+        "arguments": [
+          "Y",
+          "西那卡塞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药导致结果",
+        "arguments": [
+          "Y",
+          "高钙血症症状改善"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "治疗方案"
+    },
+    "source_text": "Calcimimetics. Cinacalcet is the only calcimimetic for which evidence was available. The committee noted that cinacalcet does not directly stop kidney problems or bone loss caused by primary hyperparathyroidism, and that surgery is the only definitive treatment for primary hyperparathyroidism. Based on the evidence and their experience, the committee agreed that treatment with cinacalcet could be considered for the purpose of reducing symptoms and lowering the risk of a hypercalcaemic crisis for people who have not had surgery and those for whom surgery has not been successful. The committee agreed that, in their experience, cinacalcet can improve quality of life for people with symptoms of hypercalcaemia and an albumin-adjusted serum calcium level of 2.85 mmol/litre or above. For people with an albumin-adjusted serum calcium level of 3.0 mmol/litre or above, who are more at risk of hypercalcaemic crises, cinacalcet can both improve quality of life and help to prevent hypercalcaemic crises. The committee agreed that treatment-related changes in serum calcium should be managed by basing initiation and continuation of treatment on albumin-adjusted serum calcium level and symptoms. They also agreed that treatment with cinacalcet should be continued if it produces a decrease in albumin-adjusted serum calcium or an improvement in symptoms, because discontinuation is likely to reverse these improvements. The committee noted that there is no evidence for and little likelihood of benefit from cinacalcet for people with normal calcium levels and no symptoms."
+  },
+  {
+    "rule_name": "正常钙水平无症状患者西那卡塞无获益指征",
+    "head": {
+      "is_negative": false,
+      "name": "用药无获益",
+      "arguments": [
+        "X",
+        "西那卡塞"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "原发性甲状旁腺功能亢进症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清钙指标",
+        "arguments": [
+          "X",
+          "白蛋白校正血钙正常"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "高钙血症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Calcimimetics. Cinacalcet is the only calcimimetic for which evidence was available. The committee noted that cinacalcet does not directly stop kidney problems or bone loss caused by primary hyperparathyroidism, and that surgery is the only definitive treatment for primary hyperparathyroidism. Based on the evidence and their experience, the committee agreed that treatment with cinacalcet could be considered for the purpose of reducing symptoms and lowering the risk of a hypercalcaemic crisis for people who have not had surgery and those for whom surgery has not been successful. The committee agreed that, in their experience, cinacalcet can improve quality of life for people with symptoms of hypercalcaemia and an albumin-adjusted serum calcium level of 2.85 mmol/litre or above. For people with an albumin-adjusted serum calcium level of 3.0 mmol/litre or above, who are more at risk of hypercalcaemic crises, cinacalcet can both improve quality of life and help to prevent hypercalcaemic crises. The committee agreed that treatment-related changes in serum calcium should be managed by basing initiation and continuation of treatment on albumin-adjusted serum calcium level and symptoms. They also agreed that treatment with cinacalcet should be continued if it produces a decrease in albumin-adjusted serum calcium or an improvement in symptoms, because discontinuation is likely to reverse these improvements. The committee noted that there is no evidence for and little likelihood of benefit from cinacalcet for people with normal calcium levels and no symptoms."
+  }
+]

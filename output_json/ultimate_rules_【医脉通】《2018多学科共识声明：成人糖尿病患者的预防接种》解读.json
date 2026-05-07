@@ -1,0 +1,1674 @@
+[
+  {
+    "rule_name": "意大利共识声明涵盖糖尿病患者感染机制与多类疫苗接种",
+    "head": {
+      "is_negative": false,
+      "name": "共识声明涵盖内容",
+      "arguments": [
+        "Z",
+        "感染易感机制"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "共识声明",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发布主体",
+        "arguments": [
+          "Z",
+          "意大利"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标人群",
+        "arguments": [
+          "Z",
+          "成人糖尿病患者"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "内容类型",
+        "arguments": [
+          "Z",
+          "多学科"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "共识声明涵盖内容",
+        "arguments": [
+          "Z",
+          "疫苗接种建议"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "共识声明"
+    },
+    "source_text": "This consensus statement describes the mechanism of predisposition to infection in adults with diabetes, as well as the significance and frequency of flu vaccination, pneumococcal vaccination, anti-herpes zoster vaccination, meningococcal vaccination, and anti-diphteria-tetanus-pertussis vaccination. It highlights the important role of diabetes-treating physicians and general practitioners in supervising adults with diabetes for vaccination. There are still no corresponding clinical guidelines or consensus in China up to now, but due to the increasing number of patients with diabetes and the heavy burden of health economics, here this paper tries to interpret this consensus statement issued by Italy to provide references for the formulation of vaccination policy and clinical management for infectious diseases of adult diabetics in China."
+  },
+  {
+    "rule_name": "共识声明包含对糖尿病患者流感疫苗接种建议",
+    "head": {
+      "is_negative": false,
+      "name": "包含具体建议",
+      "arguments": [
+        "Z",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "共识声明",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标人群",
+        "arguments": [
+          "Z",
+          "成人糖尿病患者"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疫苗接种建议",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对疾病",
+        "arguments": [
+          "Y",
+          "流感"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "共识声明",
+      "Y": "疫苗接种建议"
+    },
+    "source_text": "This consensus statement describes the mechanism of predisposition to infection in adults with diabetes, as well as the significance and frequency of flu vaccination, pneumococcal vaccination, anti-herpes zoster vaccination, meningococcal vaccination, and anti-diphteria-tetanus-pertussis vaccination. It highlights the important role of diabetes-treating physicians and general practitioners in supervising adults with diabetes for vaccination. There are still no corresponding clinical guidelines or consensus in China up to now, but due to the increasing number of patients with diabetes and the heavy burden of health economics, here this paper tries to interpret this consensus statement issued by Italy to provide references for the formulation of vaccination policy and clinical management for infectious diseases of adult diabetics in China."
+  },
+  {
+    "rule_name": "共识声明包含对糖尿病患者肺炎球菌疫苗接种建议",
+    "head": {
+      "is_negative": false,
+      "name": "包含具体建议",
+      "arguments": [
+        "Z",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "共识声明",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标人群",
+        "arguments": [
+          "Z",
+          "成人糖尿病患者"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疫苗接种建议",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对疾病",
+        "arguments": [
+          "Y",
+          "肺炎球菌感染"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "共识声明",
+      "Y": "疫苗接种建议"
+    },
+    "source_text": "This consensus statement describes the mechanism of predisposition to infection in adults with diabetes, as well as the significance and frequency of flu vaccination, pneumococcal vaccination, anti-herpes zoster vaccination, meningococcal vaccination, and anti-diphteria-tetanus-pertussis vaccination. It highlights the important role of diabetes-treating physicians and general practitioners in supervising adults with diabetes for vaccination. There are still no corresponding clinical guidelines or consensus in China up to now, but due to the increasing number of patients with diabetes and the heavy burden of health economics, here this paper tries to interpret this consensus statement issued by Italy to provide references for the formulation of vaccination policy and clinical management for infectious diseases of adult diabetics in China."
+  },
+  {
+    "rule_name": "共识声明强调糖尿病治疗医师与全科医生的疫苗接种监督角色",
+    "head": {
+      "is_negative": false,
+      "name": "强调角色",
+      "arguments": [
+        "Z",
+        "监督接种"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "共识声明",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标人群",
+        "arguments": [
+          "Z",
+          "成人糖尿病患者"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "承担角色者",
+        "arguments": [
+          "W1",
+          "糖尿病治疗医师"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "承担角色者",
+        "arguments": [
+          "W2",
+          "全科医生"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "角色目标",
+        "arguments": [
+          "监督接种",
+          "成人糖尿病患者"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "角色行为",
+        "arguments": [
+          "监督接种",
+          "疫苗接种"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "共识声明",
+      "W1": "医生群体",
+      "W2": "医生群体"
+    },
+    "source_text": "This consensus statement describes the mechanism of predisposition to infection in adults with diabetes, as well as the significance and frequency of flu vaccination, pneumococcal vaccination, anti-herpes zoster vaccination, meningococcal vaccination, and anti-diphteria-tetanus-pertussis vaccination. It highlights the important role of diabetes-treating physicians and general practitioners in supervising adults with diabetes for vaccination. There are still no corresponding clinical guidelines or consensus in China up to now, but due to the increasing number of patients with diabetes and the heavy burden of health economics, here this paper tries to interpret this consensus statement issued by Italy to provide references for the formulation of vaccination policy and clinical management for infectious diseases of adult diabetics in China."
+  },
+  {
+    "rule_name": "高血糖导致多系统功能障碍并增加传染病风险",
+    "head": {
+      "is_negative": false,
+      "name": "增加风险",
+      "arguments": [
+        "X",
+        "传染性疾病",
+        "发生与死亡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处于状态",
+        "arguments": [
+          "X",
+          "高血糖"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起生理变化",
+        "arguments": [
+          "高血糖",
+          "氧化应激增加"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起生理变化",
+        "arguments": [
+          "高血糖",
+          "血管病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起生理变化",
+        "arguments": [
+          "高血糖",
+          "神经病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "损害功能",
+        "arguments": [
+          "氧化应激增加",
+          "中性粒细胞功能"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病患者"
+    },
+    "source_text": "糖尿病可以增加传染性疾病的发生和死亡风险。例如糖尿病患者更容易感染流感病毒和肺炎球菌。一旦糖尿病患者患上呼吸系统感染，其死于与感染相关的并发症的可能性会增加1 倍［3］。糖尿病相关感染的病理生理机制在20 世纪70 年代就已经被许多学者研究并通过论文阐述。1977 年，CASEY 等［4］对67 例未感染的糖尿病患者和71 例年龄匹配的非糖尿病患者的淋巴细胞对金黄色葡萄球菌抗原的反应进行检测发现，包括代谢控制良好的糖尿病患者在内的糖尿病患者对葡萄球菌抗原的反应显著降低（P<0.05），并表明糖尿病患者对葡萄球菌抗原的反应受损，这一缺陷似乎是在于淋巴细胞本身而不是在于血清因子。糖尿病患者免疫保护非特异性因子的体液和细胞机制受到抑制［5］，嗜中性粒细胞作为一线防御细胞，其功能活性的降低亦与糖尿病感染的高易感性和严重程度密切相关［6］。高血糖可以导致自由基生成增加，增加氧化应激和抗氧化防御功能受损被认为是糖尿病并发症发生和疾病进展的诱因［7］。2011 年ONORATI 等［8］在一项内皮细胞活化对2 型糖尿病心脏手术后感染和炎症并发症的影响的研究中发现，与非糖尿病患者相比，糖尿病患者对体外循环具有较高的内皮活性和较低的抗炎反应，糖尿病患者感染与炎症并发症与内皮细胞活化水平升高、抗炎细胞因子分泌降低相关。而糖尿病本身所致的高血糖状态，对血管、神经、胃肠道蠕动的影响等均可影响患者整体免疫水平，增加传染性疾病的发生和死亡风险。2018 版意大利指南中对糖尿病相关感染的病理生理学研究进行了总结：T 淋巴细胞反应下降，嗜中性粒细胞功能下降，体液免疫失调，抗氧化系统抑制，血管病变，神经病变，炎性细胞因子分泌降低，糖尿，胃肠道蠕动功能障碍，大量的医疗干预，高血糖增加感染微生物毒力及多形核白细胞凋亡，均可能是糖尿病患者传染病的易患机制。"
+  },
+  {
+    "rule_name": "糖尿病免疫缺陷导致传染病高易感性",
+    "head": {
+      "is_negative": false,
+      "name": "增加易感性",
+      "arguments": [
+        "X",
+        "传染病",
+        "高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "功能受损",
+        "arguments": [
+          "免疫系统",
+          "T淋巴细胞反应下降"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "功能受损",
+        "arguments": [
+          "免疫系统",
+          "中性粒细胞功能下降"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "功能受损",
+        "arguments": [
+          "免疫系统",
+          "体液免疫失调"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属主体",
+        "arguments": [
+          "免疫系统",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病患者"
+    },
+    "source_text": "糖尿病可以增加传染性疾病的发生和死亡风险。例如糖尿病患者更容易感染流感病毒和肺炎球菌。一旦糖尿病患者患上呼吸系统感染，其死于与感染相关的并发症的可能性会增加1 倍［3］。糖尿病相关感染的病理生理机制在20 世纪70 年代就已经被许多学者研究并通过论文阐述。1977 年，CASEY 等［4］对67 例未感染的糖尿病患者和71 例年龄匹配的非糖尿病患者的淋巴细胞对金黄色葡萄球菌抗原的反应进行检测发现，包括代谢控制良好的糖尿病患者在内的糖尿病患者对葡萄球菌抗原的反应显著降低（P<0.05），并表明糖尿病患者对葡萄球菌抗原的反应受损，这一缺陷似乎是在于淋巴细胞本身而不是在于血清因子。糖尿病患者免疫保护非特异性因子的体液和细胞机制受到抑制［5］，嗜中性粒细胞作为一线防御细胞，其功能活性的降低亦与糖尿病感染的高易感性和严重程度密切相关［6］。高血糖可以导致自由基生成增加，增加氧化应激和抗氧化防御功能受损被认为是糖尿病并发症发生和疾病进展的诱因［7］。2011 年ONORATI 等［8］在一项内皮细胞活化对2 型糖尿病心脏手术后感染和炎症并发症的影响的研究中发现，与非糖尿病患者相比，糖尿病患者对体外循环具有较高的内皮活性和较低的抗炎反应，糖尿病患者感染与炎症并发症与内皮细胞活化水平升高、抗炎细胞因子分泌降低相关。而糖尿病本身所致的高血糖状态，对血管、神经、胃肠道蠕动的影响等均可影响患者整体免疫水平，增加传染性疾病的发生和死亡风险。2018 版意大利指南中对糖尿病相关感染的病理生理学研究进行了总结：T 淋巴细胞反应下降，嗜中性粒细胞功能下降，体液免疫失调，抗氧化系统抑制，血管病变，神经病变，炎性细胞因子分泌降低，糖尿，胃肠道蠕动功能障碍，大量的医疗干预，高血糖增加感染微生物毒力及多形核白细胞凋亡，均可能是糖尿病患者传染病的易患机制。"
+  },
+  {
+    "rule_name": "糖尿病患者术后内皮活化与抗炎反应缺陷导致感染并发症",
+    "head": {
+      "is_negative": false,
+      "name": "增加并发症风险",
+      "arguments": [
+        "X",
+        "感染与炎症",
+        "术后"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "2型糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "经历医疗干预",
+        "arguments": [
+          "X",
+          "心脏手术与体外循环"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "呈现特征",
+        "arguments": [
+          "机体反应",
+          "内皮活性升高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "呈现特征",
+        "arguments": [
+          "机体反应",
+          "抗炎反应降低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属主体",
+        "arguments": [
+          "机体反应",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "2型糖尿病患者"
+    },
+    "source_text": "糖尿病可以增加传染性疾病的发生和死亡风险。例如糖尿病患者更容易感染流感病毒和肺炎球菌。一旦糖尿病患者患上呼吸系统感染，其死于与感染相关的并发症的可能性会增加1 倍［3］。糖尿病相关感染的病理生理机制在20 世纪70 年代就已经被许多学者研究并通过论文阐述。1977 年，CASEY 等［4］对67 例未感染的糖尿病患者和71 例年龄匹配的非糖尿病患者的淋巴细胞对金黄色葡萄球菌抗原的反应进行检测发现，包括代谢控制良好的糖尿病患者在内的糖尿病患者对葡萄球菌抗原的反应显著降低（P<0.05），并表明糖尿病患者对葡萄球菌抗原的反应受损，这一缺陷似乎是在于淋巴细胞本身而不是在于血清因子。糖尿病患者免疫保护非特异性因子的体液和细胞机制受到抑制［5］，嗜中性粒细胞作为一线防御细胞，其功能活性的降低亦与糖尿病感染的高易感性和严重程度密切相关［6］。高血糖可以导致自由基生成增加，增加氧化应激和抗氧化防御功能受损被认为是糖尿病并发症发生和疾病进展的诱因［7］。2011 年ONORATI 等［8］在一项内皮细胞活化对2 型糖尿病心脏手术后感染和炎症并发症的影响的研究中发现，与非糖尿病患者相比，糖尿病患者对体外循环具有较高的内皮活性和较低的抗炎反应，糖尿病患者感染与炎症并发症与内皮细胞活化水平升高、抗炎细胞因子分泌降低相关。而糖尿病本身所致的高血糖状态，对血管、神经、胃肠道蠕动的影响等均可影响患者整体免疫水平，增加传染性疾病的发生和死亡风险。2018 版意大利指南中对糖尿病相关感染的病理生理学研究进行了总结：T 淋巴细胞反应下降，嗜中性粒细胞功能下降，体液免疫失调，抗氧化系统抑制，血管病变，神经病变，炎性细胞因子分泌降低，糖尿，胃肠道蠕动功能障碍，大量的医疗干预，高血糖增加感染微生物毒力及多形核白细胞凋亡，均可能是糖尿病患者传染病的易患机制。"
+  },
+  {
+    "rule_name": "糖尿病患者常规接种肺炎球菌疫苗基础推荐",
+    "head": {
+      "is_negative": false,
+      "name": "接种推荐",
+      "arguments": [
+        "X",
+        "肺炎球菌疫苗",
+        "常规"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病患者的肺炎球菌感染糖尿病患者侵袭性肺炎球菌病的风险高于非糖尿病患者，糖尿病患者应考虑进行常规肺炎球菌免疫接种［18］。2018 版意大利指南指出，世界卫生组织的51 个欧洲国家中，与肺炎有关的费用超过100 亿欧元，与住院有关的费用每年为60 亿欧元。由于糖尿病患者肺炎球菌相关感染的临床和经济负担较高，通过接种肺炎球菌疫苗来预防这些高危人群的肺炎球菌感染相关负担的关键作用已被广泛认识，并且接受肺炎球菌疫苗接种的糖尿病患者与接受该疫苗的血糖正常个体的安全性相似。2018 版意大利指南推荐糖尿病患者（1 型或2 型）接种肺炎球菌相关感染疫苗，且糖尿病患者一生中至少应接种一次肺炎球菌疫苗，并对>64 岁、5 年前接种过的个体进行再次接种；且意大利卫生当局建议肺炎疫苗接种或与流感疫苗同时接种，或不同时接种，流感疫苗则相反，应在一年中的任何季节接种，两种疫苗接种覆盖率均应在75% 以上，并强调全科医生建议糖尿病患者接种肺炎球菌疫苗，以及患者对疫苗相关安全性的关注分别是糖尿病患者坚持接种疫苗的主要促进和限制因素。"
+  },
+  {
+    "rule_name": "高龄糖尿病患者再次接种肺炎球菌疫苗推荐",
+    "head": {
+      "is_negative": false,
+      "name": "再次接种推荐",
+      "arguments": [
+        "X",
+        "肺炎球菌疫苗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄大于",
+        "arguments": [
+          "X",
+          "64岁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有接种史",
+        "arguments": [
+          "X",
+          "肺炎球菌疫苗"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "接种记录",
+        "arguments": [
+          "X",
+          "肺炎球菌疫苗",
+          "5年内"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病患者的肺炎球菌感染糖尿病患者侵袭性肺炎球菌病的风险高于非糖尿病患者，糖尿病患者应考虑进行常规肺炎球菌免疫接种［18］。2018 版意大利指南指出，世界卫生组织的51 个欧洲国家中，与肺炎有关的费用超过100 亿欧元，与住院有关的费用每年为60 亿欧元。由于糖尿病患者肺炎球菌相关感染的临床和经济负担较高，通过接种肺炎球菌疫苗来预防这些高危人群的肺炎球菌感染相关负担的关键作用已被广泛认识，并且接受肺炎球菌疫苗接种的糖尿病患者与接受该疫苗的血糖正常个体的安全性相似。2018 版意大利指南推荐糖尿病患者（1 型或2 型）接种肺炎球菌相关感染疫苗，且糖尿病患者一生中至少应接种一次肺炎球菌疫苗，并对>64 岁、5 年前接种过的个体进行再次接种；且意大利卫生当局建议肺炎疫苗接种或与流感疫苗同时接种，或不同时接种，流感疫苗则相反，应在一年中的任何季节接种，两种疫苗接种覆盖率均应在75% 以上，并强调全科医生建议糖尿病患者接种肺炎球菌疫苗，以及患者对疫苗相关安全性的关注分别是糖尿病患者坚持接种疫苗的主要促进和限制因素。"
+  },
+  {
+    "rule_name": "接种间隔满5年的糖尿病患者再次接种推荐",
+    "head": {
+      "is_negative": false,
+      "name": "再次接种推荐",
+      "arguments": [
+        "X",
+        "肺炎球菌疫苗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有接种史",
+        "arguments": [
+          "X",
+          "肺炎球菌疫苗"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "接种记录",
+        "arguments": [
+          "X",
+          "肺炎球菌疫苗",
+          "5年内"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病患者的肺炎球菌感染糖尿病患者侵袭性肺炎球菌病的风险高于非糖尿病患者，糖尿病患者应考虑进行常规肺炎球菌免疫接种［18］。2018 版意大利指南指出，世界卫生组织的51 个欧洲国家中，与肺炎有关的费用超过100 亿欧元，与住院有关的费用每年为60 亿欧元。由于糖尿病患者肺炎球菌相关感染的临床和经济负担较高，通过接种肺炎球菌疫苗来预防这些高危人群的肺炎球菌感染相关负担的关键作用已被广泛认识，并且接受肺炎球菌疫苗接种的糖尿病患者与接受该疫苗的血糖正常个体的安全性相似。2018 版意大利指南推荐糖尿病患者（1 型或2 型）接种肺炎球菌相关感染疫苗，且糖尿病患者一生中至少应接种一次肺炎球菌疫苗，并对>64 岁、5 年前接种过的个体进行再次接种；且意大利卫生当局建议肺炎疫苗接种或与流感疫苗同时接种，或不同时接种，流感疫苗则相反，应在一年中的任何季节接种，两种疫苗接种覆盖率均应在75% 以上，并强调全科医生建议糖尿病患者接种肺炎球菌疫苗，以及患者对疫苗相关安全性的关注分别是糖尿病患者坚持接种疫苗的主要促进和限制因素。"
+  },
+  {
+    "rule_name": "建议糖尿病患者同时接种肺炎与流感疫苗",
+    "head": {
+      "is_negative": false,
+      "name": "接种方式建议",
+      "arguments": [
+        "X",
+        "同时接种"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接种推荐",
+        "arguments": [
+          "X",
+          "肺炎球菌疫苗",
+          "常规"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接种推荐",
+        "arguments": [
+          "X",
+          "流感疫苗",
+          "季节性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病患者的肺炎球菌感染糖尿病患者侵袭性肺炎球菌病的风险高于非糖尿病患者，糖尿病患者应考虑进行常规肺炎球菌免疫接种［18］。2018 版意大利指南指出，世界卫生组织的51 个欧洲国家中，与肺炎有关的费用超过100 亿欧元，与住院有关的费用每年为60 亿欧元。由于糖尿病患者肺炎球菌相关感染的临床和经济负担较高，通过接种肺炎球菌疫苗来预防这些高危人群的肺炎球菌感染相关负担的关键作用已被广泛认识，并且接受肺炎球菌疫苗接种的糖尿病患者与接受该疫苗的血糖正常个体的安全性相似。2018 版意大利指南推荐糖尿病患者（1 型或2 型）接种肺炎球菌相关感染疫苗，且糖尿病患者一生中至少应接种一次肺炎球菌疫苗，并对>64 岁、5 年前接种过的个体进行再次接种；且意大利卫生当局建议肺炎疫苗接种或与流感疫苗同时接种，或不同时接种，流感疫苗则相反，应在一年中的任何季节接种，两种疫苗接种覆盖率均应在75% 以上，并强调全科医生建议糖尿病患者接种肺炎球菌疫苗，以及患者对疫苗相关安全性的关注分别是糖尿病患者坚持接种疫苗的主要促进和限制因素。"
+  },
+  {
+    "rule_name": "全科医生建议是患者接种疫苗的促进因素",
+    "head": {
+      "is_negative": false,
+      "name": "促进因素",
+      "arguments": [
+        "接种依从性",
+        "全科医生建议"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "行为主体",
+        "arguments": [
+          "全科医生",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "给出建议",
+        "arguments": [
+          "Y",
+          "X",
+          "接种肺炎球菌疫苗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "全科医生"
+    },
+    "source_text": "糖尿病患者的肺炎球菌感染糖尿病患者侵袭性肺炎球菌病的风险高于非糖尿病患者，糖尿病患者应考虑进行常规肺炎球菌免疫接种［18］。2018 版意大利指南指出，世界卫生组织的51 个欧洲国家中，与肺炎有关的费用超过100 亿欧元，与住院有关的费用每年为60 亿欧元。由于糖尿病患者肺炎球菌相关感染的临床和经济负担较高，通过接种肺炎球菌疫苗来预防这些高危人群的肺炎球菌感染相关负担的关键作用已被广泛认识，并且接受肺炎球菌疫苗接种的糖尿病患者与接受该疫苗的血糖正常个体的安全性相似。2018 版意大利指南推荐糖尿病患者（1 型或2 型）接种肺炎球菌相关感染疫苗，且糖尿病患者一生中至少应接种一次肺炎球菌疫苗，并对>64 岁、5 年前接种过的个体进行再次接种；且意大利卫生当局建议肺炎疫苗接种或与流感疫苗同时接种，或不同时接种，流感疫苗则相反，应在一年中的任何季节接种，两种疫苗接种覆盖率均应在75% 以上，并强调全科医生建议糖尿病患者接种肺炎球菌疫苗，以及患者对疫苗相关安全性的关注分别是糖尿病患者坚持接种疫苗的主要促进和限制因素。"
+  },
+  {
+    "rule_name": "患者关注安全性是接种疫苗的限制因素",
+    "head": {
+      "is_negative": false,
+      "name": "限制因素",
+      "arguments": [
+        "接种依从性",
+        "安全性担忧"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有关注点",
+        "arguments": [
+          "X",
+          "疫苗安全性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病患者的肺炎球菌感染糖尿病患者侵袭性肺炎球菌病的风险高于非糖尿病患者，糖尿病患者应考虑进行常规肺炎球菌免疫接种［18］。2018 版意大利指南指出，世界卫生组织的51 个欧洲国家中，与肺炎有关的费用超过100 亿欧元，与住院有关的费用每年为60 亿欧元。由于糖尿病患者肺炎球菌相关感染的临床和经济负担较高，通过接种肺炎球菌疫苗来预防这些高危人群的肺炎球菌感染相关负担的关键作用已被广泛认识，并且接受肺炎球菌疫苗接种的糖尿病患者与接受该疫苗的血糖正常个体的安全性相似。2018 版意大利指南推荐糖尿病患者（1 型或2 型）接种肺炎球菌相关感染疫苗，且糖尿病患者一生中至少应接种一次肺炎球菌疫苗，并对>64 岁、5 年前接种过的个体进行再次接种；且意大利卫生当局建议肺炎疫苗接种或与流感疫苗同时接种，或不同时接种，流感疫苗则相反，应在一年中的任何季节接种，两种疫苗接种覆盖率均应在75% 以上，并强调全科医生建议糖尿病患者接种肺炎球菌疫苗，以及患者对疫苗相关安全性的关注分别是糖尿病患者坚持接种疫苗的主要促进和限制因素。"
+  },
+  {
+    "rule_name": "糖尿病慢性并发症导致多重负担",
+    "head": {
+      "is_negative": false,
+      "name": "带来负担",
+      "arguments": [
+        "Y",
+        "社会经济医疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "公共卫生问题",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症",
+        "arguments": [
+          "Y",
+          "糖尿病慢性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致增加",
+        "arguments": [
+          "X",
+          "发病率和死亡率"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归因于",
+        "arguments": [
+          "发病率和死亡率增加",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病患者群体",
+      "Y": "糖尿病慢性并发症"
+    },
+    "source_text": "糖尿病是世界范围内的公共卫生问题之一，糖尿病慢性并发症所导致的发病率和死亡率增加，已经给社会、经济和医疗带来了巨大的负担。虽然有关糖尿病管理方面有许多指南出台，但对于成人糖尿病患者多种疫苗的预防接种，既往还没有共识/ 指南全面提及过。2018 年意大利卫生、预防医学和公共卫生协会联合意大利医学糖尿病专家协会、意大利全科医生联合会、意大利糖尿病学会、意大利全科医学社团和初级保健学会共同发表了成人糖尿病患者的预防接种的多学科共识声明，即《2018 多学科共识声明：成人糖尿病患者的预防接种》。这篇共识声明阐述了成人糖尿病患者易患感染的机制，以及流感疫苗、肺炎球菌疫苗、抗带状疱疹病毒疫苗、脑膜炎球菌疫苗，白喉- 破伤风- 百日咳三联疫苗等疫苗接种的意义和接种频率，并强调了糖尿病医师及全科医师在督导成人糖尿病患者进行疫苗接种的重要作用。我国尚缺乏相应的临床指南或共识，但由于糖尿病患者越来越多，带来的卫生经济学负担越来越重，本文就意大利发表的这篇共识声明要点进行解读，旨在为我国成人糖尿病感染性疾病的预防接种政策制定及临床工作提供参考。"
+  },
+  {
+    "rule_name": "多学科共识声明针对成人糖尿病患者疫苗接种空白",
+    "head": {
+      "is_negative": false,
+      "name": "发表声明",
+      "arguments": [
+        "Z",
+        "意大利协会联合体"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者群体",
+        "arguments": [
+          "X",
+          "成人糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺乏共识",
+        "arguments": [
+          "X",
+          "疫苗预防接种全面"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对声明",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "阐述内容",
+        "arguments": [
+          "Z",
+          "易患感染机制"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "阐述内容",
+        "arguments": [
+          "Z",
+          "流感疫苗意义和频率"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "强调角色",
+        "arguments": [
+          "Z",
+          "糖尿病医师"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "强调角色",
+        "arguments": [
+          "Z",
+          "全科医师"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "成人糖尿病患者群体",
+      "Z": "《2018 多学科共识声明：成人糖尿病患者的预防接种》"
+    },
+    "source_text": "糖尿病是世界范围内的公共卫生问题之一，糖尿病慢性并发症所导致的发病率和死亡率增加，已经给社会、经济和医疗带来了巨大的负担。虽然有关糖尿病管理方面有许多指南出台，但对于成人糖尿病患者多种疫苗的预防接种，既往还没有共识/ 指南全面提及过。2018 年意大利卫生、预防医学和公共卫生协会联合意大利医学糖尿病专家协会、意大利全科医生联合会、意大利糖尿病学会、意大利全科医学社团和初级保健学会共同发表了成人糖尿病患者的预防接种的多学科共识声明，即《2018 多学科共识声明：成人糖尿病患者的预防接种》。这篇共识声明阐述了成人糖尿病患者易患感染的机制，以及流感疫苗、肺炎球菌疫苗、抗带状疱疹病毒疫苗、脑膜炎球菌疫苗，白喉- 破伤风- 百日咳三联疫苗等疫苗接种的意义和接种频率，并强调了糖尿病医师及全科医师在督导成人糖尿病患者进行疫苗接种的重要作用。我国尚缺乏相应的临床指南或共识，但由于糖尿病患者越来越多，带来的卫生经济学负担越来越重，本文就意大利发表的这篇共识声明要点进行解读，旨在为我国成人糖尿病感染性疾病的预防接种政策制定及临床工作提供参考。"
+  },
+  {
+    "rule_name": "我国情境下解读他国共识以提供参考",
+    "head": {
+      "is_negative": false,
+      "name": "旨在提供",
+      "arguments": [
+        "本文",
+        "政策临床参考",
+        "W"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医疗情境",
+        "arguments": [
+          "W",
+          "我国"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者群体",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺乏指南",
+        "arguments": [
+          "W",
+          "针对X的疫苗预防接种"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者增多",
+        "arguments": [
+          "X",
+          "在W中"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "负担加重",
+        "arguments": [
+          "卫生经济学负担",
+          "在W中"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "解读文本",
+        "arguments": [
+          "本文",
+          "共识声明要点"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "来源",
+        "arguments": [
+          "共识声明要点",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "W": "我国医疗情境",
+      "X": "糖尿病患者群体",
+      "Z": "《2018 多学科共识声明：成人糖尿病患者的预防接种》",
+      "本文": "《2018 多学科共识声明：成人糖尿病患者的预防接种》解读"
+    },
+    "source_text": "糖尿病是世界范围内的公共卫生问题之一，糖尿病慢性并发症所导致的发病率和死亡率增加，已经给社会、经济和医疗带来了巨大的负担。虽然有关糖尿病管理方面有许多指南出台，但对于成人糖尿病患者多种疫苗的预防接种，既往还没有共识/ 指南全面提及过。2018 年意大利卫生、预防医学和公共卫生协会联合意大利医学糖尿病专家协会、意大利全科医生联合会、意大利糖尿病学会、意大利全科医学社团和初级保健学会共同发表了成人糖尿病患者的预防接种的多学科共识声明，即《2018 多学科共识声明：成人糖尿病患者的预防接种》。这篇共识声明阐述了成人糖尿病患者易患感染的机制，以及流感疫苗、肺炎球菌疫苗、抗带状疱疹病毒疫苗、脑膜炎球菌疫苗，白喉- 破伤风- 百日咳三联疫苗等疫苗接种的意义和接种频率，并强调了糖尿病医师及全科医师在督导成人糖尿病患者进行疫苗接种的重要作用。我国尚缺乏相应的临床指南或共识，但由于糖尿病患者越来越多，带来的卫生经济学负担越来越重，本文就意大利发表的这篇共识声明要点进行解读，旨在为我国成人糖尿病感染性疾病的预防接种政策制定及临床工作提供参考。"
+  },
+  {
+    "rule_name": "流感疫苗通过保护心肌改善糖尿病患者心血管结局",
+    "head": {
+      "is_negative": false,
+      "name": "改善结局",
+      "arguments": [
+        "X",
+        "心血管"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接种疫苗",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "流感疫苗",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "保护作用",
+        "arguments": [
+          "Y",
+          "Z",
+          "直接"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心肌组织有害影响",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起原因",
+        "arguments": [
+          "Z",
+          "流感病毒"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "流感疫苗",
+      "Z": "心肌组织有害影响"
+    },
+    "source_text": "流感病毒每年都会引起感染流行，是全世界人类下呼吸道疾病的主要原因。流感病毒长期以来被认为与糖尿病患者较高的发病率和死亡率有关。2018 版意大利指南提出流感疫苗对流感病毒引起的心肌组织有害影响（直接或间接）的保护作用可解释糖尿病患者心血管结局的改善。这一假设可能得到流感疫苗在高心血管事件风险患者急性心肌梗死发生的二级预防中的显著有效性的支持，这与已有的心血管事件预防干预措施如戒烟、抗高血压药物、他汀类药物报道相似［10］。接种疫苗是预防这类患者感染流感病毒的有效工具［11］，且长期免疫原性与年龄和预防接种效价有关，与糖尿病状态无关［12］。老年糖尿病患者接种流感疫苗还可降低发病率、致残率、住院率、重症监护病房（ICU）住院率、保健费用和死亡率等［2，13-14］。尽管有明显的流感负担和疫苗接种效益，但疫苗覆盖率在65 岁以上糖尿病患者中较低，在工作年龄糖尿病患者中则很低［15］。而拒绝接种的主要因素中，收入是主要预测因素，认知和知识是主要障碍，例如不完全相信接种疫苗的好处，害怕并发症和打针［3，16］。2018 版意大利指南提出，糖尿病治疗医师和全科医师的建议是促进糖尿病患者坚持接种流感疫苗的主要因素，尤其全科医师，不仅要实施流感疫苗注射，还要积极促进糖尿病患者/ 公民对季节性流感疫苗的坚持。"
+  },
+  {
+    "rule_name": "流感疫苗保护心肌间接改善糖尿病患者心血管结局",
+    "head": {
+      "is_negative": false,
+      "name": "改善结局",
+      "arguments": [
+        "X",
+        "心血管"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接种疫苗",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "流感疫苗",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "保护作用",
+        "arguments": [
+          "Y",
+          "Z",
+          "间接"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心肌组织有害影响",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起原因",
+        "arguments": [
+          "Z",
+          "流感病毒"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "流感疫苗",
+      "Z": "心肌组织有害影响"
+    },
+    "source_text": "流感病毒每年都会引起感染流行，是全世界人类下呼吸道疾病的主要原因。流感病毒长期以来被认为与糖尿病患者较高的发病率和死亡率有关。2018 版意大利指南提出流感疫苗对流感病毒引起的心肌组织有害影响（直接或间接）的保护作用可解释糖尿病患者心血管结局的改善。这一假设可能得到流感疫苗在高心血管事件风险患者急性心肌梗死发生的二级预防中的显著有效性的支持，这与已有的心血管事件预防干预措施如戒烟、抗高血压药物、他汀类药物报道相似［10］。接种疫苗是预防这类患者感染流感病毒的有效工具［11］，且长期免疫原性与年龄和预防接种效价有关，与糖尿病状态无关［12］。老年糖尿病患者接种流感疫苗还可降低发病率、致残率、住院率、重症监护病房（ICU）住院率、保健费用和死亡率等［2，13-14］。尽管有明显的流感负担和疫苗接种效益，但疫苗覆盖率在65 岁以上糖尿病患者中较低，在工作年龄糖尿病患者中则很低［15］。而拒绝接种的主要因素中，收入是主要预测因素，认知和知识是主要障碍，例如不完全相信接种疫苗的好处，害怕并发症和打针［3，16］。2018 版意大利指南提出，糖尿病治疗医师和全科医师的建议是促进糖尿病患者坚持接种流感疫苗的主要因素，尤其全科医师，不仅要实施流感疫苗注射，还要积极促进糖尿病患者/ 公民对季节性流感疫苗的坚持。"
+  },
+  {
+    "rule_name": "接种疫苗长期免疫原性的决定因素",
+    "head": {
+      "is_negative": false,
+      "name": "决定因素",
+      "arguments": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "接种疫苗",
+        "arguments": [
+          "P",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "流感疫苗",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "免疫原性",
+        "arguments": [
+          "X",
+          "长期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联因素",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者年龄",
+        "arguments": [
+          "P",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疫苗效价",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "P": "患者",
+      "Y": "流感疫苗",
+      "X": "免疫原性属性",
+      "Z": "特定值或水平"
+    },
+    "source_text": "流感病毒每年都会引起感染流行，是全世界人类下呼吸道疾病的主要原因。流感病毒长期以来被认为与糖尿病患者较高的发病率和死亡率有关。2018 版意大利指南提出流感疫苗对流感病毒引起的心肌组织有害影响（直接或间接）的保护作用可解释糖尿病患者心血管结局的改善。这一假设可能得到流感疫苗在高心血管事件风险患者急性心肌梗死发生的二级预防中的显著有效性的支持，这与已有的心血管事件预防干预措施如戒烟、抗高血压药物、他汀类药物报道相似［10］。接种疫苗是预防这类患者感染流感病毒的有效工具［11］，且长期免疫原性与年龄和预防接种效价有关，与糖尿病状态无关［12］。老年糖尿病患者接种流感疫苗还可降低发病率、致残率、住院率、重症监护病房（ICU）住院率、保健费用和死亡率等［2，13-14］。尽管有明显的流感负担和疫苗接种效益，但疫苗覆盖率在65 岁以上糖尿病患者中较低，在工作年龄糖尿病患者中则很低［15］。而拒绝接种的主要因素中，收入是主要预测因素，认知和知识是主要障碍，例如不完全相信接种疫苗的好处，害怕并发症和打针［3，16］。2018 版意大利指南提出，糖尿病治疗医师和全科医师的建议是促进糖尿病患者坚持接种流感疫苗的主要因素，尤其全科医师，不仅要实施流感疫苗注射，还要积极促进糖尿病患者/ 公民对季节性流感疫苗的坚持。"
+  },
+  {
+    "rule_name": "老年糖尿病患者接种流感疫苗的多重获益",
+    "head": {
+      "is_negative": false,
+      "name": "获得多重获益",
+      "arguments": [
+        "X",
+        "B"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "老年患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接种疫苗",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "流感疫苗",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "获益类别",
+        "arguments": [
+          "B",
+          "降低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体获益",
+        "arguments": [
+          "B",
+          "发病率"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体获益",
+        "arguments": [
+          "B",
+          "致残率"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体获益",
+        "arguments": [
+          "B",
+          "住院率"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体获益",
+        "arguments": [
+          "B",
+          "ICU住院率"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体获益",
+        "arguments": [
+          "B",
+          "保健费用"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体获益",
+        "arguments": [
+          "B",
+          "死亡率"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "流感疫苗",
+      "B": "获益集合"
+    },
+    "source_text": "流感病毒每年都会引起感染流行，是全世界人类下呼吸道疾病的主要原因。流感病毒长期以来被认为与糖尿病患者较高的发病率和死亡率有关。2018 版意大利指南提出流感疫苗对流感病毒引起的心肌组织有害影响（直接或间接）的保护作用可解释糖尿病患者心血管结局的改善。这一假设可能得到流感疫苗在高心血管事件风险患者急性心肌梗死发生的二级预防中的显著有效性的支持，这与已有的心血管事件预防干预措施如戒烟、抗高血压药物、他汀类药物报道相似［10］。接种疫苗是预防这类患者感染流感病毒的有效工具［11］，且长期免疫原性与年龄和预防接种效价有关，与糖尿病状态无关［12］。老年糖尿病患者接种流感疫苗还可降低发病率、致残率、住院率、重症监护病房（ICU）住院率、保健费用和死亡率等［2，13-14］。尽管有明显的流感负担和疫苗接种效益，但疫苗覆盖率在65 岁以上糖尿病患者中较低，在工作年龄糖尿病患者中则很低［15］。而拒绝接种的主要因素中，收入是主要预测因素，认知和知识是主要障碍，例如不完全相信接种疫苗的好处，害怕并发症和打针［3，16］。2018 版意大利指南提出，糖尿病治疗医师和全科医师的建议是促进糖尿病患者坚持接种流感疫苗的主要因素，尤其全科医师，不仅要实施流感疫苗注射，还要积极促进糖尿病患者/ 公民对季节性流感疫苗的坚持。"
+  },
+  {
+    "rule_name": "糖尿病患者流感疫苗覆盖率低的多重障碍因素",
+    "head": {
+      "is_negative": false,
+      "name": "覆盖率低",
+      "arguments": [
+        "X",
+        "流感疫苗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "低收入",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "完全相信接种好处",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "了解疫苗益处",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "了解疫苗安全性",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "害怕并发症",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "害怕打针",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "流感病毒每年都会引起感染流行，是全世界人类下呼吸道疾病的主要原因。流感病毒长期以来被认为与糖尿病患者较高的发病率和死亡率有关。2018 版意大利指南提出流感疫苗对流感病毒引起的心肌组织有害影响（直接或间接）的保护作用可解释糖尿病患者心血管结局的改善。这一假设可能得到流感疫苗在高心血管事件风险患者急性心肌梗死发生的二级预防中的显著有效性的支持，这与已有的心血管事件预防干预措施如戒烟、抗高血压药物、他汀类药物报道相似［10］。接种疫苗是预防这类患者感染流感病毒的有效工具［11］，且长期免疫原性与年龄和预防接种效价有关，与糖尿病状态无关［12］。老年糖尿病患者接种流感疫苗还可降低发病率、致残率、住院率、重症监护病房（ICU）住院率、保健费用和死亡率等［2，13-14］。尽管有明显的流感负担和疫苗接种效益，但疫苗覆盖率在65 岁以上糖尿病患者中较低，在工作年龄糖尿病患者中则很低［15］。而拒绝接种的主要因素中，收入是主要预测因素，认知和知识是主要障碍，例如不完全相信接种疫苗的好处，害怕并发症和打针［3，16］。2018 版意大利指南提出，糖尿病治疗医师和全科医师的建议是促进糖尿病患者坚持接种流感疫苗的主要因素，尤其全科医师，不仅要实施流感疫苗注射，还要积极促进糖尿病患者/ 公民对季节性流感疫苗的坚持。"
+  },
+  {
+    "rule_name": "医师建议促进糖尿病患者坚持接种流感疫苗",
+    "head": {
+      "is_negative": false,
+      "name": "坚持接种",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提出建议",
+        "arguments": [
+          "D",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病治疗医师",
+        "arguments": [
+          "D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提出建议",
+        "arguments": [
+          "G",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "全科医师",
+        "arguments": [
+          "G"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "建议内容",
+        "arguments": [
+          "D",
+          "接种流感疫苗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "建议内容",
+        "arguments": [
+          "G",
+          "接种流感疫苗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "流感疫苗",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "流感疫苗",
+      "D": "糖尿病治疗医师",
+      "G": "全科医师"
+    },
+    "source_text": "流感病毒每年都会引起感染流行，是全世界人类下呼吸道疾病的主要原因。流感病毒长期以来被认为与糖尿病患者较高的发病率和死亡率有关。2018 版意大利指南提出流感疫苗对流感病毒引起的心肌组织有害影响（直接或间接）的保护作用可解释糖尿病患者心血管结局的改善。这一假设可能得到流感疫苗在高心血管事件风险患者急性心肌梗死发生的二级预防中的显著有效性的支持，这与已有的心血管事件预防干预措施如戒烟、抗高血压药物、他汀类药物报道相似［10］。接种疫苗是预防这类患者感染流感病毒的有效工具［11］，且长期免疫原性与年龄和预防接种效价有关，与糖尿病状态无关［12］。老年糖尿病患者接种流感疫苗还可降低发病率、致残率、住院率、重症监护病房（ICU）住院率、保健费用和死亡率等［2，13-14］。尽管有明显的流感负担和疫苗接种效益，但疫苗覆盖率在65 岁以上糖尿病患者中较低，在工作年龄糖尿病患者中则很低［15］。而拒绝接种的主要因素中，收入是主要预测因素，认知和知识是主要障碍，例如不完全相信接种疫苗的好处，害怕并发症和打针［3，16］。2018 版意大利指南提出，糖尿病治疗医师和全科医师的建议是促进糖尿病患者坚持接种流感疫苗的主要因素，尤其全科医师，不仅要实施流感疫苗注射，还要积极促进糖尿病患者/ 公民对季节性流感疫苗的坚持。"
+  },
+  {
+    "rule_name": "全科医生有义务推广国家疫苗日历所列疫苗",
+    "head": {
+      "is_negative": false,
+      "name": "医生行为义务",
+      "arguments": [
+        "A",
+        "B",
+        "推广"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "全科医生",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "列入国家日历",
+        "arguments": [
+          "B"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "医生",
+      "B": "疫苗"
+    },
+    "source_text": "2018 版意大利指南指出，积极推广列入意大利卫生部批准的国家疫苗日历的疫苗接种，是每个医生的义务（意大利卫生部通告）。全科医生应系统地向糖尿病患者提供流感疫苗接种，同时在流感流行期间，为糖尿病患者接种肺炎球菌疫苗（如果可能的话）。全科医生就流感和肺炎球菌疫苗接种对糖尿病患者提供系统的咨询服务，并随时评估抗破伤风疫苗接种的覆盖率，以及提供抗带状疱疹疫苗接种的建议。此外，评估1 型糖尿病成人接种脑膜炎球菌疫苗的覆盖率。糖尿病治疗医师和全科医生在收集患者病史的过程中，应在病历中系统评估和报告糖尿病患者接种抗流感、抗肺炎球菌、抗白百破、抗带状疱疹、抗脑膜炎球菌（1 型糖尿病患者）等疫苗的情况。由糖尿病治疗医师提供系统的疫苗接种咨询，并在门诊相关文件或医院出院相关信件（提供给糖尿病患者）中报告患者接受上述疫苗的建议。糖尿病治疗医师应参加由相关科学学会组织的教育活动，针对成人糖尿病患者接种疫苗的主题，以提高其对这一问题的认识。"
+  },
+  {
+    "rule_name": "全科医生系统提供流感疫苗给糖尿病患者",
+    "head": {
+      "is_negative": false,
+      "name": "提供疫苗接种",
+      "arguments": [
+        "A",
+        "B",
+        "流感疫苗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "全科医生",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "B"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "全科医生",
+      "B": "糖尿病患者"
+    },
+    "source_text": "2018 版意大利指南指出，积极推广列入意大利卫生部批准的国家疫苗日历的疫苗接种，是每个医生的义务（意大利卫生部通告）。全科医生应系统地向糖尿病患者提供流感疫苗接种，同时在流感流行期间，为糖尿病患者接种肺炎球菌疫苗（如果可能的话）。全科医生就流感和肺炎球菌疫苗接种对糖尿病患者提供系统的咨询服务，并随时评估抗破伤风疫苗接种的覆盖率，以及提供抗带状疱疹疫苗接种的建议。此外，评估1 型糖尿病成人接种脑膜炎球菌疫苗的覆盖率。糖尿病治疗医师和全科医生在收集患者病史的过程中，应在病历中系统评估和报告糖尿病患者接种抗流感、抗肺炎球菌、抗白百破、抗带状疱疹、抗脑膜炎球菌（1 型糖尿病患者）等疫苗的情况。由糖尿病治疗医师提供系统的疫苗接种咨询，并在门诊相关文件或医院出院相关信件（提供给糖尿病患者）中报告患者接受上述疫苗的建议。糖尿病治疗医师应参加由相关科学学会组织的教育活动，针对成人糖尿病患者接种疫苗的主题，以提高其对这一问题的认识。"
+  },
+  {
+    "rule_name": "流感流行期间全科医生为糖尿病患者接种肺炎球菌疫苗",
+    "head": {
+      "is_negative": false,
+      "name": "执行接种",
+      "arguments": [
+        "A",
+        "B",
+        "肺炎球菌疫苗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "全科医生",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "B"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "流行病时期",
+        "arguments": [
+          "流感流行"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "全科医生",
+      "B": "糖尿病患者"
+    },
+    "source_text": "2018 版意大利指南指出，积极推广列入意大利卫生部批准的国家疫苗日历的疫苗接种，是每个医生的义务（意大利卫生部通告）。全科医生应系统地向糖尿病患者提供流感疫苗接种，同时在流感流行期间，为糖尿病患者接种肺炎球菌疫苗（如果可能的话）。全科医生就流感和肺炎球菌疫苗接种对糖尿病患者提供系统的咨询服务，并随时评估抗破伤风疫苗接种的覆盖率，以及提供抗带状疱疹疫苗接种的建议。此外，评估1 型糖尿病成人接种脑膜炎球菌疫苗的覆盖率。糖尿病治疗医师和全科医生在收集患者病史的过程中，应在病历中系统评估和报告糖尿病患者接种抗流感、抗肺炎球菌、抗白百破、抗带状疱疹、抗脑膜炎球菌（1 型糖尿病患者）等疫苗的情况。由糖尿病治疗医师提供系统的疫苗接种咨询，并在门诊相关文件或医院出院相关信件（提供给糖尿病患者）中报告患者接受上述疫苗的建议。糖尿病治疗医师应参加由相关科学学会组织的教育活动，针对成人糖尿病患者接种疫苗的主题，以提高其对这一问题的认识。"
+  },
+  {
+    "rule_name": "全科医生系统咨询糖尿病患者流感和肺炎球菌疫苗",
+    "head": {
+      "is_negative": false,
+      "name": "提供咨询服务",
+      "arguments": [
+        "A",
+        "B",
+        "系统"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "全科医生",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "B"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "全科医生",
+      "B": "糖尿病患者"
+    },
+    "source_text": "2018 版意大利指南指出，积极推广列入意大利卫生部批准的国家疫苗日历的疫苗接种，是每个医生的义务（意大利卫生部通告）。全科医生应系统地向糖尿病患者提供流感疫苗接种，同时在流感流行期间，为糖尿病患者接种肺炎球菌疫苗（如果可能的话）。全科医生就流感和肺炎球菌疫苗接种对糖尿病患者提供系统的咨询服务，并随时评估抗破伤风疫苗接种的覆盖率，以及提供抗带状疱疹疫苗接种的建议。此外，评估1 型糖尿病成人接种脑膜炎球菌疫苗的覆盖率。糖尿病治疗医师和全科医生在收集患者病史的过程中，应在病历中系统评估和报告糖尿病患者接种抗流感、抗肺炎球菌、抗白百破、抗带状疱疹、抗脑膜炎球菌（1 型糖尿病患者）等疫苗的情况。由糖尿病治疗医师提供系统的疫苗接种咨询，并在门诊相关文件或医院出院相关信件（提供给糖尿病患者）中报告患者接受上述疫苗的建议。糖尿病治疗医师应参加由相关科学学会组织的教育活动，针对成人糖尿病患者接种疫苗的主题，以提高其对这一问题的认识。"
+  },
+  {
+    "rule_name": "全科医生评估糖尿病患者破伤风疫苗覆盖率",
+    "head": {
+      "is_negative": false,
+      "name": "评估覆盖情况",
+      "arguments": [
+        "A",
+        "B",
+        "破伤风疫苗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "全科医生",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "B"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "全科医生",
+      "B": "糖尿病患者"
+    },
+    "source_text": "2018 版意大利指南指出，积极推广列入意大利卫生部批准的国家疫苗日历的疫苗接种，是每个医生的义务（意大利卫生部通告）。全科医生应系统地向糖尿病患者提供流感疫苗接种，同时在流感流行期间，为糖尿病患者接种肺炎球菌疫苗（如果可能的话）。全科医生就流感和肺炎球菌疫苗接种对糖尿病患者提供系统的咨询服务，并随时评估抗破伤风疫苗接种的覆盖率，以及提供抗带状疱疹疫苗接种的建议。此外，评估1 型糖尿病成人接种脑膜炎球菌疫苗的覆盖率。糖尿病治疗医师和全科医生在收集患者病史的过程中，应在病历中系统评估和报告糖尿病患者接种抗流感、抗肺炎球菌、抗白百破、抗带状疱疹、抗脑膜炎球菌（1 型糖尿病患者）等疫苗的情况。由糖尿病治疗医师提供系统的疫苗接种咨询，并在门诊相关文件或医院出院相关信件（提供给糖尿病患者）中报告患者接受上述疫苗的建议。糖尿病治疗医师应参加由相关科学学会组织的教育活动，针对成人糖尿病患者接种疫苗的主题，以提高其对这一问题的认识。"
+  },
+  {
+    "rule_name": "全科医生提供糖尿病患者带状疱疹疫苗建议",
+    "head": {
+      "is_negative": false,
+      "name": "提供医疗建议",
+      "arguments": [
+        "A",
+        "B",
+        "带状疱疹疫苗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "全科医生",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "B"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "全科医生",
+      "B": "糖尿病患者"
+    },
+    "source_text": "2018 版意大利指南指出，积极推广列入意大利卫生部批准的国家疫苗日历的疫苗接种，是每个医生的义务（意大利卫生部通告）。全科医生应系统地向糖尿病患者提供流感疫苗接种，同时在流感流行期间，为糖尿病患者接种肺炎球菌疫苗（如果可能的话）。全科医生就流感和肺炎球菌疫苗接种对糖尿病患者提供系统的咨询服务，并随时评估抗破伤风疫苗接种的覆盖率，以及提供抗带状疱疹疫苗接种的建议。此外，评估1 型糖尿病成人接种脑膜炎球菌疫苗的覆盖率。糖尿病治疗医师和全科医生在收集患者病史的过程中，应在病历中系统评估和报告糖尿病患者接种抗流感、抗肺炎球菌、抗白百破、抗带状疱疹、抗脑膜炎球菌（1 型糖尿病患者）等疫苗的情况。由糖尿病治疗医师提供系统的疫苗接种咨询，并在门诊相关文件或医院出院相关信件（提供给糖尿病患者）中报告患者接受上述疫苗的建议。糖尿病治疗医师应参加由相关科学学会组织的教育活动，针对成人糖尿病患者接种疫苗的主题，以提高其对这一问题的认识。"
+  },
+  {
+    "rule_name": "全科医生评估1型糖尿病患者脑膜炎球菌疫苗覆盖率",
+    "head": {
+      "is_negative": false,
+      "name": "评估覆盖情况",
+      "arguments": [
+        "A",
+        "B",
+        "脑膜炎球菌疫苗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "全科医生",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "1型糖尿病患者",
+        "arguments": [
+          "B"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "全科医生",
+      "B": "1型糖尿病患者"
+    },
+    "source_text": "2018 版意大利指南指出，积极推广列入意大利卫生部批准的国家疫苗日历的疫苗接种，是每个医生的义务（意大利卫生部通告）。全科医生应系统地向糖尿病患者提供流感疫苗接种，同时在流感流行期间，为糖尿病患者接种肺炎球菌疫苗（如果可能的话）。全科医生就流感和肺炎球菌疫苗接种对糖尿病患者提供系统的咨询服务，并随时评估抗破伤风疫苗接种的覆盖率，以及提供抗带状疱疹疫苗接种的建议。此外，评估1 型糖尿病成人接种脑膜炎球菌疫苗的覆盖率。糖尿病治疗医师和全科医生在收集患者病史的过程中，应在病历中系统评估和报告糖尿病患者接种抗流感、抗肺炎球菌、抗白百破、抗带状疱疹、抗脑膜炎球菌（1 型糖尿病患者）等疫苗的情况。由糖尿病治疗医师提供系统的疫苗接种咨询，并在门诊相关文件或医院出院相关信件（提供给糖尿病患者）中报告患者接受上述疫苗的建议。糖尿病治疗医师应参加由相关科学学会组织的教育活动，针对成人糖尿病患者接种疫苗的主题，以提高其对这一问题的认识。"
+  },
+  {
+    "rule_name": "糖尿病治疗医师在病历中记录糖尿病患者流感疫苗接种情况",
+    "head": {
+      "is_negative": false,
+      "name": "记录医疗信息",
+      "arguments": [
+        "A",
+        "B",
+        "病历",
+        "流感疫苗报告"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病治疗医师",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "B"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "糖尿病治疗医师",
+      "B": "糖尿病患者"
+    },
+    "source_text": "2018 版意大利指南指出，积极推广列入意大利卫生部批准的国家疫苗日历的疫苗接种，是每个医生的义务（意大利卫生部通告）。全科医生应系统地向糖尿病患者提供流感疫苗接种，同时在流感流行期间，为糖尿病患者接种肺炎球菌疫苗（如果可能的话）。全科医生就流感和肺炎球菌疫苗接种对糖尿病患者提供系统的咨询服务，并随时评估抗破伤风疫苗接种的覆盖率，以及提供抗带状疱疹疫苗接种的建议。此外，评估1 型糖尿病成人接种脑膜炎球菌疫苗的覆盖率。糖尿病治疗医师和全科医生在收集患者病史的过程中，应在病历中系统评估和报告糖尿病患者接种抗流感、抗肺炎球菌、抗白百破、抗带状疱疹、抗脑膜炎球菌（1 型糖尿病患者）等疫苗的情况。由糖尿病治疗医师提供系统的疫苗接种咨询，并在门诊相关文件或医院出院相关信件（提供给糖尿病患者）中报告患者接受上述疫苗的建议。糖尿病治疗医师应参加由相关科学学会组织的教育活动，针对成人糖尿病患者接种疫苗的主题，以提高其对这一问题的认识。"
+  },
+  {
+    "rule_name": "糖尿病治疗医师为糖尿病患者提供系统疫苗接种咨询",
+    "head": {
+      "is_negative": false,
+      "name": "提供咨询服务",
+      "arguments": [
+        "A",
+        "B",
+        "系统"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病治疗医师",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "B"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "糖尿病治疗医师",
+      "B": "糖尿病患者"
+    },
+    "source_text": "2018 版意大利指南指出，积极推广列入意大利卫生部批准的国家疫苗日历的疫苗接种，是每个医生的义务（意大利卫生部通告）。全科医生应系统地向糖尿病患者提供流感疫苗接种，同时在流感流行期间，为糖尿病患者接种肺炎球菌疫苗（如果可能的话）。全科医生就流感和肺炎球菌疫苗接种对糖尿病患者提供系统的咨询服务，并随时评估抗破伤风疫苗接种的覆盖率，以及提供抗带状疱疹疫苗接种的建议。此外，评估1 型糖尿病成人接种脑膜炎球菌疫苗的覆盖率。糖尿病治疗医师和全科医生在收集患者病史的过程中，应在病历中系统评估和报告糖尿病患者接种抗流感、抗肺炎球菌、抗白百破、抗带状疱疹、抗脑膜炎球菌（1 型糖尿病患者）等疫苗的情况。由糖尿病治疗医师提供系统的疫苗接种咨询，并在门诊相关文件或医院出院相关信件（提供给糖尿病患者）中报告患者接受上述疫苗的建议。糖尿病治疗医师应参加由相关科学学会组织的教育活动，针对成人糖尿病患者接种疫苗的主题，以提高其对这一问题的认识。"
+  },
+  {
+    "rule_name": "糖尿病治疗医师在门诊文件中报告对糖尿病患者的疫苗建议",
+    "head": {
+      "is_negative": false,
+      "name": "记录医疗信息",
+      "arguments": [
+        "A",
+        "B",
+        "门诊文件",
+        "疫苗建议报告"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病治疗医师",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "B"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "糖尿病治疗医师",
+      "B": "糖尿病患者"
+    },
+    "source_text": "2018 版意大利指南指出，积极推广列入意大利卫生部批准的国家疫苗日历的疫苗接种，是每个医生的义务（意大利卫生部通告）。全科医生应系统地向糖尿病患者提供流感疫苗接种，同时在流感流行期间，为糖尿病患者接种肺炎球菌疫苗（如果可能的话）。全科医生就流感和肺炎球菌疫苗接种对糖尿病患者提供系统的咨询服务，并随时评估抗破伤风疫苗接种的覆盖率，以及提供抗带状疱疹疫苗接种的建议。此外，评估1 型糖尿病成人接种脑膜炎球菌疫苗的覆盖率。糖尿病治疗医师和全科医生在收集患者病史的过程中，应在病历中系统评估和报告糖尿病患者接种抗流感、抗肺炎球菌、抗白百破、抗带状疱疹、抗脑膜炎球菌（1 型糖尿病患者）等疫苗的情况。由糖尿病治疗医师提供系统的疫苗接种咨询，并在门诊相关文件或医院出院相关信件（提供给糖尿病患者）中报告患者接受上述疫苗的建议。糖尿病治疗医师应参加由相关科学学会组织的教育活动，针对成人糖尿病患者接种疫苗的主题，以提高其对这一问题的认识。"
+  },
+  {
+    "rule_name": "糖尿病治疗医师参加提高疫苗接种认识的教育活动",
+    "head": {
+      "is_negative": false,
+      "name": "参加活动",
+      "arguments": [
+        "A",
+        "C"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病治疗医师",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "教育活动",
+        "arguments": [
+          "C"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "糖尿病治疗医师",
+      "C": "教育活动"
+    },
+    "source_text": "2018 版意大利指南指出，积极推广列入意大利卫生部批准的国家疫苗日历的疫苗接种，是每个医生的义务（意大利卫生部通告）。全科医生应系统地向糖尿病患者提供流感疫苗接种，同时在流感流行期间，为糖尿病患者接种肺炎球菌疫苗（如果可能的话）。全科医生就流感和肺炎球菌疫苗接种对糖尿病患者提供系统的咨询服务，并随时评估抗破伤风疫苗接种的覆盖率，以及提供抗带状疱疹疫苗接种的建议。此外，评估1 型糖尿病成人接种脑膜炎球菌疫苗的覆盖率。糖尿病治疗医师和全科医生在收集患者病史的过程中，应在病历中系统评估和报告糖尿病患者接种抗流感、抗肺炎球菌、抗白百破、抗带状疱疹、抗脑膜炎球菌（1 型糖尿病患者）等疫苗的情况。由糖尿病治疗医师提供系统的疫苗接种咨询，并在门诊相关文件或医院出院相关信件（提供给糖尿病患者）中报告患者接受上述疫苗的建议。糖尿病治疗医师应参加由相关科学学会组织的教育活动，针对成人糖尿病患者接种疫苗的主题，以提高其对这一问题的认识。"
+  }
+]

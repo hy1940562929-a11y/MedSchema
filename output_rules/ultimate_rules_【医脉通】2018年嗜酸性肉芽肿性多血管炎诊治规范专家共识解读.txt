@@ -1,0 +1,245 @@
+【原始长篇章】:
+Interpretation of expert consensus on diagnosis and treatment of eosinophilic granulomatous polyvasculitis in 2018.  LIN Yan-feng, ZHANG Ying-xiu, FU Chao-li, LIN Mei-shun, CHEN Jia-mei, ZHANG Bei-ping, LIU Tian-wen. First Affiliated Hospital of Guangzhou Medical University, Guangzhou Institute of Respiratory Health, National Clinical Research Center for Respiratory Disease, State Key Laboratory Disease, Guangzhou 510120, ChinaCorresponding author: ZHANG Qing-ling, E-mail: zqling68@hotmail.comAbstract: According to the different organs involved in patients, the concept of localized Eosinophilic granulomatous polyvasculitis (EGPA) was first proposed by consensus in 2018, which provides a basis for the early diagnosis and treatment of EGPA. The prognosis of patients with EGPA is related to the initial treatment. The treatment of EGPA depends on the severity of the disease, the organs involved and whether the disease is active or not. The overall treatment plan is divided into two stages: induction remission and maintenance therapy. Induced remission therapy mainly includes hormones and/or immunosuppressive agents (e.g. cyclophosphamide). After remission, azathioprine or methotrexate is recommended for maintenance therapy. In 2015, the global consensus of EGPA diagnostic and therapeutic experts recommended that the duration of treatment should be at least 24 months after remission. In combination with the latest international progress, the first Expert Consensus on Diagnosis and Treatment of EGPA in China 2018 consensus introduced the application of Bio-Targeting drugs in EGPA.
+
+【规则 1】
+规则名: EGPA患者维持治疗_推荐硫唑嘌呤
+逻辑表达: 维持期用药推荐(X, Y, 标准推荐) <- 患病(X, 嗜酸性肉芽肿性多血管炎) ^ 治疗阶段(X, 病情达缓解后) ^ 疾病活动性(X, 非活动期) ^ 可选药物(Y, 硫唑嘌呤) ^ 药物用途(Y, 维持治疗)
+变量映射:
+  - X: 患者
+  - Y: 药物（硫唑嘌呤）
+
+【规则 2】
+规则名: EGPA患者维持治疗_推荐甲氨蝶呤
+逻辑表达: 维持期用药推荐(X, Y, 标准推荐) <- 患病(X, 嗜酸性肉芽肿性多血管炎) ^ 治疗阶段(X, 病情达缓解后) ^ 疾病活动性(X, 非活动期) ^ 可选药物(Y, 甲氨蝶呤) ^ 药物用途(Y, 维持治疗)
+变量映射:
+  - X: 患者
+  - Y: 药物（甲氨蝶呤）
+
+【规则 3】
+规则名: 维持治疗持续时长推荐
+逻辑表达: 治疗时长要求(X, Y, 至少24个月) <- 患病(X, 嗜酸性肉芽肿性多血管炎) ^ 治疗阶段(X, 病情达缓解后) ^ 维持期用药推荐(X, Y, 标准推荐)
+变量映射:
+  - X: 患者
+  - Y: 维持期治疗药物
+
+【规则 4】
+规则名: EGPA治疗决策依赖因素
+逻辑表达: 治疗方案依赖(X, 病情严重度) <- 患病(X, 嗜酸性肉芽肿性多血管炎) ^ 治疗方案依赖(X, 受累器官) ^ 治疗方案依赖(X, 疾病活动性)
+变量映射:
+  - X: 患者
+
+【规则 5】
+规则名: 引入生物靶向治疗的条件依据
+逻辑表达: 治疗策略更新(共识, 引入生物靶向药物) <- 医学共识(共识, 2018年EGPA诊疗中国专家共识) ^ 基于进展(共识, 最新国际进展) ^ ¬传统治疗完全适用(当前疗法, 对所有EGPA患者)
+变量映射:
+  - 共识: 医学共识文档
+
+---
+
+
+【原始长篇章】:
+满足1990 年美国风湿病学会制定的6 条标准中的至少4 条，且仅有肺部和呼吸系统受累( 包括耳鼻喉)的EGPA 患者，称为局限型EGPA。若满足1990 年美国风湿病学会制定的6 条标准中的至少4 条，有至少2 个及以上器官受累者，则为全身型EGPA。局限型EGPA 可以转化为全身型EGPA。
+
+【规则 1】
+规则名: 满足4条标准且仅肺部受累者为局限型EGPA
+逻辑表达: 分型(X, 局限型EGPA) <- EGPA患者(X) ^ 满足标准数(X, 4) ^ 仅有肺部呼吸系统受累(X)
+变量映射:
+  - X: 患者
+
+【规则 2】
+规则名: 满足5条标准且仅肺部受累者为局限型EGPA
+逻辑表达: 分型(X, 局限型EGPA) <- EGPA患者(X) ^ 满足标准数(X, 5) ^ 仅有肺部呼吸系统受累(X)
+变量映射:
+  - X: 患者
+
+【规则 3】
+规则名: 满足6条标准且仅肺部受累者为局限型EGPA
+逻辑表达: 分型(X, 局限型EGPA) <- EGPA患者(X) ^ 满足标准数(X, 6) ^ 仅有肺部呼吸系统受累(X)
+变量映射:
+  - X: 患者
+
+【规则 4】
+规则名: 满足4条标准且2个器官受累者为全身型EGPA
+逻辑表达: 分型(X, 全身型EGPA) <- EGPA患者(X) ^ 满足标准数(X, 4) ^ 器官受累数(X, 2)
+变量映射:
+  - X: 患者
+
+【规则 5】
+规则名: 满足4条标准且3个器官受累者为全身型EGPA
+逻辑表达: 分型(X, 全身型EGPA) <- EGPA患者(X) ^ 满足标准数(X, 4) ^ 器官受累数(X, 3)
+变量映射:
+  - X: 患者
+
+【规则 6】
+规则名: 满足4条标准且4个器官受累者为全身型EGPA
+逻辑表达: 分型(X, 全身型EGPA) <- EGPA患者(X) ^ 满足标准数(X, 4) ^ 器官受累数(X, 4)
+变量映射:
+  - X: 患者
+
+【规则 7】
+规则名: 满足4条标准且5个器官受累者为全身型EGPA
+逻辑表达: 分型(X, 全身型EGPA) <- EGPA患者(X) ^ 满足标准数(X, 4) ^ 器官受累数(X, 5)
+变量映射:
+  - X: 患者
+
+【规则 8】
+规则名: 满足4条标准且6个器官受累者为全身型EGPA
+逻辑表达: 分型(X, 全身型EGPA) <- EGPA患者(X) ^ 满足标准数(X, 4) ^ 器官受累数(X, 6)
+变量映射:
+  - X: 患者
+
+【规则 9】
+规则名: 满足5条标准且2个器官受累者为全身型EGPA
+逻辑表达: 分型(X, 全身型EGPA) <- EGPA患者(X) ^ 满足标准数(X, 5) ^ 器官受累数(X, 2)
+变量映射:
+  - X: 患者
+
+【规则 10】
+规则名: 满足6条标准且2个器官受累者为全身型EGPA
+逻辑表达: 分型(X, 全身型EGPA) <- EGPA患者(X) ^ 满足标准数(X, 6) ^ 器官受累数(X, 2)
+变量映射:
+  - X: 患者
+
+【规则 11】
+规则名: 局限型EGPA可转化
+逻辑表达: 可转化为(X, 全身型EGPA) <- 分型(X, 局限型EGPA)
+变量映射:
+  - X: 患者
+
+---
+
+
+【原始长篇章】: Abstract: According to the different organs involved in patients, the concept of localized Eosinophilic granulomatous polyvasculitis (EGPA) was first proposed by consensus in 2018, which provides a basis for the early diagnosis and treatment of EGPA. The prognosis of patients with EGPA is related to the initial treatment. The treatment of EGPA depends on the severity of the disease, the organs involved and whether the disease is active or not. The overall treatment plan is divided into two stages: induction remission and maintenance therapy. Induced remission therapy mainly includes hormones and/or immunosuppressive agents (e.g. cyclophosphamide). After remission, azathioprine or methotrexate is recommended for maintenance therapy. In 2015, the global consensus of EGPA diagnostic and therapeutic experts recommended that the duration of treatment should be at least 24 months after remission. In combination with the latest international progress, the first Expert Consensus on Diagnosis and Treatment of EGPA in China 2018 consensus introduced the application of Bio-Targeting drugs in EGPA.
+
+【规则 1】
+规则名: EGPA治疗决策依据_取决于疾病状态与器官
+逻辑表达: 治疗依赖于(X, Y, Z) <- 患病(X, EGPA) ^ 疾病严重程度(Y, X) ^ 受累器官(Z, X) ^ 疾病活动性(是, X)
+变量映射:
+  - X: 患者
+  - Y: 疾病严重程度
+  - Z: 受累器官
+
+【规则 2】
+规则名: EGPA诱导缓解阶段_激素治疗方案
+逻辑表达: 阶段治疗方案(X, 激素, 诱导缓解) <- 患病(X, EGPA) ^ 治疗阶段(X, 诱导缓解) ^ 属于治疗类别(激素, 诱导缓解治疗) ^ 治疗目标(X, 诱导缓解)
+变量映射:
+  - X: 患者
+
+【规则 3】
+规则名: EGPA诱导缓解阶段_免疫抑制剂方案_环磷酰胺
+逻辑表达: 阶段治疗方案(X, 环磷酰胺, 诱导缓解) <- 患病(X, EGPA) ^ 治疗阶段(X, 诱导缓解) ^ 属于治疗类别(环磷酰胺, 免疫抑制剂) ^ 治疗目标(X, 诱导缓解)
+变量映射:
+  - X: 患者
+
+【规则 4】
+规则名: EGPA维持治疗阶段_推荐硫唑嘌呤方案
+逻辑表达: 阶段治疗方案(X, 硫唑嘌呤, 维持治疗) <- 患病(X, EGPA) ^ 治疗阶段(X, 维持治疗) ^ 处于状态(X, 缓解后) ^ 治疗目标(X, 维持缓解)
+变量映射:
+  - X: 患者
+
+【规则 5】
+规则名: EGPA维持治疗阶段_推荐甲氨蝶呤方案
+逻辑表达: 阶段治疗方案(X, 甲氨蝶呤, 维持治疗) <- 患病(X, EGPA) ^ 治疗阶段(X, 维持治疗) ^ 处于状态(X, 缓解后) ^ 治疗目标(X, 维持缓解)
+变量映射:
+  - X: 患者
+
+【规则 6】
+规则名: 2015共识_EGPA治疗持续时间建议
+逻辑表达: 治疗持续时间建议(X, 至少24个月) <- 患病(X, EGPA) ^ 依据共识(X, 2015全球专家共识) ^ 处于状态(X, 缓解后) ^ 治疗阶段(X, 维持治疗)
+变量映射:
+  - X: 患者
+
+【规则 7】
+规则名: 2018中国共识_引入生物靶向药物治疗EGPA
+逻辑表达: 引入治疗方案(Z, 生物靶向药物, EGPA) <- 患病(X, EGPA) ^ 依据共识(X, 2018中国专家共识) ^ 药物类别(生物靶向药物, Z) ^ 共识来源(2018中国专家共识, Z)
+变量映射:
+  - X: 患者
+  - Z: 治疗方案
+
+---
+
+
+【原始长篇章】: 外周血EOS增多是EGPA的特征之一，可出现于病程的任何阶段。2018 共识特别提出要注意的是长期口服激素( 包括含有激素的中药复方) 可影响外周血EOS 的实际水平。仔细询问病史，尤其是了解发病时或治疗前的血EOS 比例，有助于早期发现EGPA。此外，诱导痰或支气管肺泡灌洗液(BALF) 中EOS 明显增高也是重要特征之一，EGPA 患者BALF 中EOS 的比例可高达25% 以上。ANCA 的检测必须同时采用间接免疫荧光法(IIF) 和酶联免疫吸附测定法(ELISA)两种方法。ANCA 阴性时不能排除EGPA 的可能性。
+
+【规则 1】
+规则名: 根据治疗前外周血EOS增多诊断EGPA
+逻辑表达: 疾病诊断(X, EGPA) <- EGPA疑似患者(X) ^ 检测样本(Y1) ^ 检测类型(Y1, 外周血) ^ 采集时机(Y1, 治疗前) ^ 来自患者(Y1, X) ^ 检测结果(Y1, EOS比例, 增高)
+变量映射:
+  - X: 患者
+  - Y1: 检测样本
+
+【规则 2】
+规则名: 根据未受激素影响的外周血EOS增多诊断EGPA
+逻辑表达: 疾病诊断(X, EGPA) <- EGPA疑似患者(X) ^ 检测样本(Y1) ^ 检测类型(Y1, 外周血) ^ 来自患者(Y1, X) ^ 检测结果(Y1, EOS比例, 增高) ^ ¬治疗史(X, 口服激素)
+变量映射:
+  - X: 患者
+  - Y1: 检测样本
+
+【规则 3】
+规则名: 根据诱导痰EOS明显增高诊断EGPA
+逻辑表达: 疾病诊断(X, EGPA) <- EGPA疑似患者(X) ^ 检测样本(Y2) ^ 检测类型(Y2, 诱导痰) ^ 来自患者(Y2, X) ^ 检测结果(Y2, EOS比例, 明显增高)
+变量映射:
+  - X: 患者
+  - Y2: 检测样本
+
+【规则 4】
+规则名: 根据BALF中EOS明显增高诊断EGPA
+逻辑表达: 疾病诊断(X, EGPA) <- EGPA疑似患者(X) ^ 检测样本(Y2) ^ 检测类型(Y2, 支气管肺泡灌洗液) ^ 来自患者(Y2, X) ^ 检测结果(Y2, EOS比例, 明显增高)
+变量映射:
+  - X: 患者
+  - Y2: 检测样本
+
+【规则 5】
+规则名: ANCA阳性时的EGPA诊断支持依据
+逻辑表达: 诊断支持依据(X, ANCA阳性) <- EGPA疑似患者(X) ^ 检测项目(Z, ANCA) ^ 针对患者(Z, X) ^ 检测方法(Z, 间接免疫荧光法) ^ 检测方法(Z, 酶联免疫吸附法) ^ 检测结果(Z, 状态, 阳性)
+变量映射:
+  - X: 患者
+  - Z: 检测项目
+
+【规则 6】
+规则名: ANCA阴性不能排除EGPA
+逻辑表达: 诊断结论(X, 不能排除EGPA) <- EGPA疑似患者(X) ^ 检测项目(Z, ANCA) ^ 针对患者(Z, X) ^ 检测方法(Z, 间接免疫荧光法) ^ 检测方法(Z, 酶联免疫吸附法) ^ 检测结果(Z, 状态, 阴性)
+变量映射:
+  - X: 患者
+  - Z: 检测项目
+
+---
+
+
+【原始长篇章】:EGPA 一旦确诊，需详细评估呼吸系统、肾、心脏、胃 肠道和( 或) 外周神经等多器官受累情况。制定治疗方案前要先进行5 因子评分以评估是否存在预后不良的因素。5 因子评分：0 分：EGPA 患者可使用激素控制症状；≥1 分：建议激素和免疫抑制剂联合治疗。总体治疗方案分为诱导缓解和维持治疗2 个阶段。诱导缓解治疗方案主要包括激素和( 或) 免疫抑制剂( 如环磷酰胺)；病情达到缓解后，维持治疗推荐使用硫唑嘌呤或甲氨蝶呤。
+
+【规则 1】
+规则名: EGPA患者_5因子评分0分_激素治疗建议
+逻辑表达: 治疗建议(X, 激素控制) <- EGPA患者(X) ^ 评估行为(X, 多器官受累) ^ 评分行为(X, S) ^ 评分结果(S, 0分)
+变量映射:
+  - X: 患者
+  - S: 5因子评分
+
+【规则 2】
+规则名: EGPA患者_5因子评分大于等于1分_联合治疗建议
+逻辑表达: 治疗建议(X, 激素和免疫抑制剂联合治疗) <- EGPA患者(X) ^ 评估行为(X, 多器官受累) ^ 评分行为(X, S) ^ 评分结果(S, 大于等于1分)
+变量映射:
+  - X: 患者
+  - S: 5因子评分
+
+【规则 3】
+规则名: EGPA患者_评分≥1分_启动诱导缓解治疗
+逻辑表达: 启动治疗阶段(X, 诱导缓解) <- EGPA患者(X) ^ 评估行为(X, 多器官受累) ^ 评分行为(X, S) ^ 评分结果(S, 大于等于1分)
+变量映射:
+  - X: 患者
+  - S: 5因子评分
+
+【规则 4】
+规则名: EGPA患者_达到缓解_维持治疗推荐硫唑嘌呤
+逻辑表达: 治疗推荐(X, 硫唑嘌呤, 用于维持治疗) <- EGPA患者(X) ^ 达到缓解(X)
+变量映射:
+  - X: 患者
+
+【规则 5】
+规则名: EGPA患者_达到缓解_维持治疗推荐甲氨蝶呤
+逻辑表达: 治疗推荐(X, 甲氨蝶呤, 用于维持治疗) <- EGPA患者(X) ^ 达到缓解(X)
+变量映射:
+  - X: 患者
+
+---
+

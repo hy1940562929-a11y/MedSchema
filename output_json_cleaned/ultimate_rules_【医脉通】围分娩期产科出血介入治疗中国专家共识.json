@@ -1,0 +1,2210 @@
+[
+  {
+    "rule_name": "行动脉球囊预置术患者的术前体格检查项目",
+    "head": {
+      "is_negative": false,
+      "name": "术前检查项目",
+      "arguments": [
+        "X",
+        "记录下肢软组织张力活动情况"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "将接受手术",
+        "arguments": [
+          "X",
+          "介入性动脉球囊预置术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术前检查项目",
+        "arguments": [
+          "X",
+          "记录双下肢皮肤颜色温度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术前检查项目",
+        "arguments": [
+          "X",
+          "测量下肢周径"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "术前准备[5-8]1. 体格检查观察并记录双下肢皮肤颜色、温度，测量下肢周径。检查并记录下肢软组织张力、活动情况，作为术后对比依据，以便及时发现术后并发症。2. 影像学检查术前行超声或磁共振了解双下肢血管情况、胎盘位置、植入状况，确定子宫切口位置。对于拟行腹主动脉、髂总动脉或髂内动脉阻断的患者，应超声或磁共振测量相应血管内径并确定球囊放置定位标志，准确选择球囊直径。"
+  },
+  {
+    "rule_name": "行动脉阻断术患者的术前影像检查目的_超声路径",
+    "head": {
+      "is_negative": false,
+      "name": "影像检查目的",
+      "arguments": [
+        "Z",
+        "为球囊直径选择提供依据"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "将接受手术",
+        "arguments": [
+          "X",
+          "动脉球囊阻断术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Y",
+          "腹主动脉髂总动脉或髂内动脉阻断"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术前执行检查",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查方法",
+        "arguments": [
+          "Z",
+          "超声"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查目的",
+        "arguments": [
+          "Z",
+          "测量相应血管内径"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查目的",
+        "arguments": [
+          "Z",
+          "确定球囊放置定位标志"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术",
+      "Z": "检查操作"
+    },
+    "source_text": "术前准备[5-8]1. 体格检查观察并记录双下肢皮肤颜色、温度，测量下肢周径。检查并记录下肢软组织张力、活动情况，作为术后对比依据，以便及时发现术后并发症。2. 影像学检查术前行超声或磁共振了解双下肢血管情况、胎盘位置、植入状况，确定子宫切口位置。对于拟行腹主动脉、髂总动脉或髂内动脉阻断的患者，应超声或磁共振测量相应血管内径并确定球囊放置定位标志，准确选择球囊直径。"
+  },
+  {
+    "rule_name": "行动脉阻断术患者的术前影像检查目的_磁共振路径",
+    "head": {
+      "is_negative": false,
+      "name": "影像检查目的",
+      "arguments": [
+        "Z",
+        "为球囊直径选择提供依据"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "将接受手术",
+        "arguments": [
+          "X",
+          "动脉球囊阻断术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Y",
+          "腹主动脉髂总动脉或髂内动脉阻断"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术前执行检查",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查方法",
+        "arguments": [
+          "Z",
+          "磁共振"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查目的",
+        "arguments": [
+          "Z",
+          "测量相应血管内径"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查目的",
+        "arguments": [
+          "Z",
+          "确定球囊放置定位标志"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术",
+      "Z": "检查操作"
+    },
+    "source_text": "术前准备[5-8]1. 体格检查观察并记录双下肢皮肤颜色、温度，测量下肢周径。检查并记录下肢软组织张力、活动情况，作为术后对比依据，以便及时发现术后并发症。2. 影像学检查术前行超声或磁共振了解双下肢血管情况、胎盘位置、植入状况，确定子宫切口位置。对于拟行腹主动脉、髂总动脉或髂内动脉阻断的患者，应超声或磁共振测量相应血管内径并确定球囊放置定位标志，准确选择球囊直径。"
+  },
+  {
+    "rule_name": "非动脉阻断术患者的术前影像检查目的",
+    "head": {
+      "is_negative": false,
+      "name": "影像检查目的",
+      "arguments": [
+        "Z",
+        "确定子宫切口位置"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "将接受手术",
+        "arguments": [
+          "X",
+          "介入性动脉球囊预置术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "手术类型",
+        "arguments": [
+          "Y",
+          "动脉球囊阻断术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术前执行检查",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查目的",
+        "arguments": [
+          "Z",
+          "了解双下肢血管情况"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查目的",
+        "arguments": [
+          "Z",
+          "了解胎盘位置植入状况"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术",
+      "Z": "检查操作"
+    },
+    "source_text": "术前准备[5-8]1. 体格检查观察并记录双下肢皮肤颜色、温度，测量下肢周径。检查并记录下肢软组织张力、活动情况，作为术后对比依据，以便及时发现术后并发症。2. 影像学检查术前行超声或磁共振了解双下肢血管情况、胎盘位置、植入状况，确定子宫切口位置。对于拟行腹主动脉、髂总动脉或髂内动脉阻断的患者，应超声或磁共振测量相应血管内径并确定球囊放置定位标志，准确选择球囊直径。"
+  },
+  {
+    "rule_name": "腹主动脉球囊阻断基本操作流程",
+    "head": {
+      "is_negative": false,
+      "name": "实施操作",
+      "arguments": [
+        "Z",
+        "腹主动脉球囊阻断",
+        "术中"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "手术患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用医疗设备",
+        "arguments": [
+          "Y",
+          "腹主动脉球囊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属设备",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行操作",
+        "arguments": [
+          "Z",
+          "充盈球囊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作对象",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用液体",
+        "arguments": [
+          "Z",
+          "生理盐水"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作目的",
+        "arguments": [
+          "Z",
+          "阻断腹主动脉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术后监测项目",
+        "arguments": [
+          "M1",
+          "双足趾血氧"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测结果",
+        "arguments": [
+          "M1",
+          "降至零"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术后监测项目",
+        "arguments": [
+          "M2",
+          "足背动脉搏动"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测结果",
+        "arguments": [
+          "M2",
+          "消失"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "腹主动脉球囊",
+      "Z": "手术操作",
+      "M1": "监测项实例1",
+      "M2": "监测项实例2"
+    },
+    "source_text": "（3）娩（剖）出胎儿后，立即用生理盐水充盈球囊阻断腹主动脉，并监测球囊阻断效果，使双足趾血氧逐渐降为0，血氧饱和度曲线呈平直状态，足背动脉搏动消失。产科医生同时剥离胎盘，根据术中胎盘剥离情况选择球囊充盈时间，每次充盈时间不超过15 min，必要时彻底释放球囊1 min，再次充盈球囊，总充盈时间不超过45 min。"
+  },
+  {
+    "rule_name": "腹主动脉球囊阻断术中时间控制规则",
+    "head": {
+      "is_negative": false,
+      "name": "符合操作规范",
+      "arguments": [
+        "Z",
+        "腹主动脉球囊阻断"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "手术操作",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作类型",
+        "arguments": [
+          "Z",
+          "充盈球囊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "单次充盈时间限制",
+        "arguments": [
+          "Y",
+          "15分钟"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "遵守时间限制",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "总充盈时间限制",
+        "arguments": [
+          "Y",
+          "45分钟"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "遵守累计时间限制",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "手术操作",
+      "Y": "腹主动脉球囊"
+    },
+    "source_text": "（3）娩（剖）出胎儿后，立即用生理盐水充盈球囊阻断腹主动脉，并监测球囊阻断效果，使双足趾血氧逐渐降为0，血氧饱和度曲线呈平直状态，足背动脉搏动消失。产科医生同时剥离胎盘，根据术中胎盘剥离情况选择球囊充盈时间，每次充盈时间不超过15 min，必要时彻底释放球囊1 min，再次充盈球囊，总充盈时间不超过45 min。"
+  },
+  {
+    "rule_name": "腹主动脉球囊阻断伴随胎盘剥离操作",
+    "head": {
+      "is_negative": false,
+      "name": "并发手术操作",
+      "arguments": [
+        "Z1",
+        "Z2"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "主要手术操作",
+        "arguments": [
+          "Z1",
+          "腹主动脉球囊阻断"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发手术操作",
+        "arguments": [
+          "Z2",
+          "剥离胎盘"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作对象",
+        "arguments": [
+          "Z2",
+          "胎盘"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行时机",
+        "arguments": [
+          "Z1",
+          "Z2",
+          "同时"
+        ]
+      }
+    ],
+    "variables": {
+      "Z1": "手术操作实例1",
+      "Z2": "手术操作实例2"
+    },
+    "source_text": "（3）娩（剖）出胎儿后，立即用生理盐水充盈球囊阻断腹主动脉，并监测球囊阻断效果，使双足趾血氧逐渐降为0，血氧饱和度曲线呈平直状态，足背动脉搏动消失。产科医生同时剥离胎盘，根据术中胎盘剥离情况选择球囊充盈时间，每次充盈时间不超过15 min，必要时彻底释放球囊1 min，再次充盈球囊，总充盈时间不超过45 min。"
+  },
+  {
+    "rule_name": "复杂剖宫产术中使用腹主动脉球囊适应症",
+    "head": {
+      "is_negative": false,
+      "name": "启用医疗设备",
+      "arguments": [
+        "Y",
+        "腹主动脉球囊",
+        "预防出血"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "手术患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "剖宫产术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在风险",
+        "arguments": [
+          "X",
+          "术中大出血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗设备",
+        "arguments": [
+          "Y",
+          "腹主动脉球囊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "设备预置时机",
+        "arguments": [
+          "Y",
+          "娩出胎儿后立即"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "腹主动脉球囊"
+    },
+    "source_text": "（3）娩（剖）出胎儿后，立即用生理盐水充盈球囊阻断腹主动脉，并监测球囊阻断效果，使双足趾血氧逐渐降为0，血氧饱和度曲线呈平直状态，足背动脉搏动消失。产科医生同时剥离胎盘，根据术中胎盘剥离情况选择球囊充盈时间，每次充盈时间不超过15 min，必要时彻底释放球囊1 min，再次充盈球囊，总充盈时间不超过45 min。"
+  },
+  {
+    "rule_name": "介入性动脉球囊预置术推荐指征_胎盘粘连",
+    "head": {
+      "is_negative": false,
+      "name": "指征强度",
+      "arguments": [
+        "Y",
+        "推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胎盘植入性疾病",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体疾病",
+        "arguments": [
+          "X",
+          "胎盘粘连"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用手术",
+        "arguments": [
+          "Y",
+          "介入性动脉球囊预置术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术"
+    },
+    "source_text": "一、介入性动脉球囊预置术（一）适应证[2-9]1. 胎盘植入性疾病（胎盘粘连、胎盘植入、胎盘穿透性植入等）；2. 有剖宫产史的前置胎盘；3. 切口妊娠、中央型前置胎盘；4. 已有宫内或阴道出血的患者。"
+  },
+  {
+    "rule_name": "介入性动脉球囊预置术推荐指征_胎盘植入",
+    "head": {
+      "is_negative": false,
+      "name": "指征强度",
+      "arguments": [
+        "Y",
+        "推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胎盘植入性疾病",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体疾病",
+        "arguments": [
+          "X",
+          "胎盘植入"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用手术",
+        "arguments": [
+          "Y",
+          "介入性动脉球囊预置术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术"
+    },
+    "source_text": "一、介入性动脉球囊预置术（一）适应证[2-9]1. 胎盘植入性疾病（胎盘粘连、胎盘植入、胎盘穿透性植入等）；2. 有剖宫产史的前置胎盘；3. 切口妊娠、中央型前置胎盘；4. 已有宫内或阴道出血的患者。"
+  },
+  {
+    "rule_name": "介入性动脉球囊预置术推荐指征_胎盘穿透性植入",
+    "head": {
+      "is_negative": false,
+      "name": "指征强度",
+      "arguments": [
+        "Y",
+        "推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胎盘植入性疾病",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体疾病",
+        "arguments": [
+          "X",
+          "胎盘穿透性植入"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用手术",
+        "arguments": [
+          "Y",
+          "介入性动脉球囊预置术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术"
+    },
+    "source_text": "一、介入性动脉球囊预置术（一）适应证[2-9]1. 胎盘植入性疾病（胎盘粘连、胎盘植入、胎盘穿透性植入等）；2. 有剖宫产史的前置胎盘；3. 切口妊娠、中央型前置胎盘；4. 已有宫内或阴道出血的患者。"
+  },
+  {
+    "rule_name": "介入性动脉球囊预置术推荐指征_有剖宫产史的前置胎盘",
+    "head": {
+      "is_negative": false,
+      "name": "指征强度",
+      "arguments": [
+        "Y",
+        "推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "前置胎盘"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "既往病史",
+        "arguments": [
+          "X",
+          "剖宫产"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用手术",
+        "arguments": [
+          "Y",
+          "介入性动脉球囊预置术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术"
+    },
+    "source_text": "一、介入性动脉球囊预置术（一）适应证[2-9]1. 胎盘植入性疾病（胎盘粘连、胎盘植入、胎盘穿透性植入等）；2. 有剖宫产史的前置胎盘；3. 切口妊娠、中央型前置胎盘；4. 已有宫内或阴道出血的患者。"
+  },
+  {
+    "rule_name": "介入性动脉球囊预置术推荐指征_切口妊娠",
+    "head": {
+      "is_negative": false,
+      "name": "指征强度",
+      "arguments": [
+        "Y",
+        "推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "切口妊娠"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用手术",
+        "arguments": [
+          "Y",
+          "介入性动脉球囊预置术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术"
+    },
+    "source_text": "一、介入性动脉球囊预置术（一）适应证[2-9]1. 胎盘植入性疾病（胎盘粘连、胎盘植入、胎盘穿透性植入等）；2. 有剖宫产史的前置胎盘；3. 切口妊娠、中央型前置胎盘；4. 已有宫内或阴道出血的患者。"
+  },
+  {
+    "rule_name": "介入性动脉球囊预置术推荐指征_中央型前置胎盘",
+    "head": {
+      "is_negative": false,
+      "name": "指征强度",
+      "arguments": [
+        "Y",
+        "推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "前置胎盘"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理分型",
+        "arguments": [
+          "X",
+          "中央型"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用手术",
+        "arguments": [
+          "Y",
+          "介入性动脉球囊预置术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术"
+    },
+    "source_text": "一、介入性动脉球囊预置术（一）适应证[2-9]1. 胎盘植入性疾病（胎盘粘连、胎盘植入、胎盘穿透性植入等）；2. 有剖宫产史的前置胎盘；3. 切口妊娠、中央型前置胎盘；4. 已有宫内或阴道出血的患者。"
+  },
+  {
+    "rule_name": "介入性动脉球囊预置术推荐指征_已有阴道出血",
+    "head": {
+      "is_negative": false,
+      "name": "指征强度",
+      "arguments": [
+        "Y",
+        "推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "已有症状",
+        "arguments": [
+          "X",
+          "阴道出血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用手术",
+        "arguments": [
+          "Y",
+          "介入性动脉球囊预置术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术"
+    },
+    "source_text": "一、介入性动脉球囊预置术（一）适应证[2-9]1. 胎盘植入性疾病（胎盘粘连、胎盘植入、胎盘穿透性植入等）；2. 有剖宫产史的前置胎盘；3. 切口妊娠、中央型前置胎盘；4. 已有宫内或阴道出血的患者。"
+  },
+  {
+    "rule_name": "无出血之瘢痕妊娠患者适应介入性动脉栓塞术",
+    "head": {
+      "is_negative": false,
+      "name": "手术适应证",
+      "arguments": [
+        "X",
+        "介入性动脉栓塞术",
+        "存在"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "确诊病症",
+        "arguments": [
+          "X",
+          "瘢痕妊娠"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "当前症状",
+        "arguments": [
+          "X",
+          "出血"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "值得注意的是，出血速度也是反映病情轻重的重要指标。重症产后出血情况包括：出血速度>150 ml/min；3 h内出血量超过总血容量的50％；24 h内出血量超过全身总血容量。（三）介入性动脉栓塞术1. 适应证[15]（1）伴有或不伴有出血的瘢痕妊娠；（2）具有前置胎盘或胎盘植入的引产前的预栓塞；（3）经保守治疗无效的各种难治性产后出血（包括子宫收缩乏力、产道损伤和胎盘因素等），孕http://guide.medlive.cn/4中华介入放射学电子杂志2020年2月第8卷第1期Chin J Inter Rad (Electronic Edition), Feb 2020, Vol.8. No.1"
+  },
+  {
+    "rule_name": "有出血之瘢痕妊娠患者适应介入性动脉栓塞术",
+    "head": {
+      "is_negative": false,
+      "name": "手术适应证",
+      "arguments": [
+        "X",
+        "介入性动脉栓塞术",
+        "存在"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "确诊病症",
+        "arguments": [
+          "X",
+          "瘢痕妊娠"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前症状",
+        "arguments": [
+          "X",
+          "出血"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "值得注意的是，出血速度也是反映病情轻重的重要指标。重症产后出血情况包括：出血速度>150 ml/min；3 h内出血量超过总血容量的50％；24 h内出血量超过全身总血容量。（三）介入性动脉栓塞术1. 适应证[15]（1）伴有或不伴有出血的瘢痕妊娠；（2）具有前置胎盘或胎盘植入的引产前的预栓塞；（3）经保守治疗无效的各种难治性产后出血（包括子宫收缩乏力、产道损伤和胎盘因素等），孕http://guide.medlive.cn/4中华介入放射学电子杂志2020年2月第8卷第1期Chin J Inter Rad (Electronic Edition), Feb 2020, Vol.8. No.1"
+  },
+  {
+    "rule_name": "引产前前置胎盘患者适应介入性动脉栓塞预栓塞",
+    "head": {
+      "is_negative": false,
+      "name": "手术适应证",
+      "arguments": [
+        "X",
+        "介入性动脉栓塞术",
+        "作为预栓塞"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "确诊病症",
+        "arguments": [
+          "X",
+          "前置胎盘"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗计划",
+        "arguments": [
+          "X",
+          "引产"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "值得注意的是，出血速度也是反映病情轻重的重要指标。重症产后出血情况包括：出血速度>150 ml/min；3 h内出血量超过总血容量的50％；24 h内出血量超过全身总血容量。（三）介入性动脉栓塞术1. 适应证[15]（1）伴有或不伴有出血的瘢痕妊娠；（2）具有前置胎盘或胎盘植入的引产前的预栓塞；（3）经保守治疗无效的各种难治性产后出血（包括子宫收缩乏力、产道损伤和胎盘因素等），孕http://guide.medlive.cn/4中华介入放射学电子杂志2020年2月第8卷第1期Chin J Inter Rad (Electronic Edition), Feb 2020, Vol.8. No.1"
+  },
+  {
+    "rule_name": "引产前胎盘植入患者适应介入性动脉栓塞预栓塞",
+    "head": {
+      "is_negative": false,
+      "name": "手术适应证",
+      "arguments": [
+        "X",
+        "介入性动脉栓塞术",
+        "作为预栓塞"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "确诊病症",
+        "arguments": [
+          "X",
+          "胎盘植入"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗计划",
+        "arguments": [
+          "X",
+          "引产"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "值得注意的是，出血速度也是反映病情轻重的重要指标。重症产后出血情况包括：出血速度>150 ml/min；3 h内出血量超过总血容量的50％；24 h内出血量超过全身总血容量。（三）介入性动脉栓塞术1. 适应证[15]（1）伴有或不伴有出血的瘢痕妊娠；（2）具有前置胎盘或胎盘植入的引产前的预栓塞；（3）经保守治疗无效的各种难治性产后出血（包括子宫收缩乏力、产道损伤和胎盘因素等），孕http://guide.medlive.cn/4中华介入放射学电子杂志2020年2月第8卷第1期Chin J Inter Rad (Electronic Edition), Feb 2020, Vol.8. No.1"
+  },
+  {
+    "rule_name": "治疗无效之产后出血子宫乏力患者适应介入性动脉栓塞术",
+    "head": {
+      "is_negative": false,
+      "name": "手术适应证",
+      "arguments": [
+        "X",
+        "介入性动脉栓塞术",
+        "存在"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "经历事件",
+        "arguments": [
+          "X",
+          "产后出血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出血原因",
+        "arguments": [
+          "X",
+          "子宫收缩乏力"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗响应",
+        "arguments": [
+          "X",
+          "保守治疗",
+          "无效"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "值得注意的是，出血速度也是反映病情轻重的重要指标。重症产后出血情况包括：出血速度>150 ml/min；3 h内出血量超过总血容量的50％；24 h内出血量超过全身总血容量。（三）介入性动脉栓塞术1. 适应证[15]（1）伴有或不伴有出血的瘢痕妊娠；（2）具有前置胎盘或胎盘植入的引产前的预栓塞；（3）经保守治疗无效的各种难治性产后出血（包括子宫收缩乏力、产道损伤和胎盘因素等），孕http://guide.medlive.cn/4中华介入放射学电子杂志2020年2月第8卷第1期Chin J Inter Rad (Electronic Edition), Feb 2020, Vol.8. No.1"
+  },
+  {
+    "rule_name": "治疗无效之产后出血产道损伤患者适应介入性动脉栓塞术",
+    "head": {
+      "is_negative": false,
+      "name": "手术适应证",
+      "arguments": [
+        "X",
+        "介入性动脉栓塞术",
+        "存在"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "经历事件",
+        "arguments": [
+          "X",
+          "产后出血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出血原因",
+        "arguments": [
+          "X",
+          "产道损伤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗响应",
+        "arguments": [
+          "X",
+          "保守治疗",
+          "无效"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "值得注意的是，出血速度也是反映病情轻重的重要指标。重症产后出血情况包括：出血速度>150 ml/min；3 h内出血量超过总血容量的50％；24 h内出血量超过全身总血容量。（三）介入性动脉栓塞术1. 适应证[15]（1）伴有或不伴有出血的瘢痕妊娠；（2）具有前置胎盘或胎盘植入的引产前的预栓塞；（3）经保守治疗无效的各种难治性产后出血（包括子宫收缩乏力、产道损伤和胎盘因素等），孕http://guide.medlive.cn/4中华介入放射学电子杂志2020年2月第8卷第1期Chin J Inter Rad (Electronic Edition), Feb 2020, Vol.8. No.1"
+  },
+  {
+    "rule_name": "治疗无效之产后出血胎盘因素患者适应介入性动脉栓塞术",
+    "head": {
+      "is_negative": false,
+      "name": "手术适应证",
+      "arguments": [
+        "X",
+        "介入性动脉栓塞术",
+        "存在"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "经历事件",
+        "arguments": [
+          "X",
+          "产后出血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出血原因",
+        "arguments": [
+          "X",
+          "胎盘因素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗响应",
+        "arguments": [
+          "X",
+          "保守治疗",
+          "无效"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "值得注意的是，出血速度也是反映病情轻重的重要指标。重症产后出血情况包括：出血速度>150 ml/min；3 h内出血量超过总血容量的50％；24 h内出血量超过全身总血容量。（三）介入性动脉栓塞术1. 适应证[15]（1）伴有或不伴有出血的瘢痕妊娠；（2）具有前置胎盘或胎盘植入的引产前的预栓塞；（3）经保守治疗无效的各种难治性产后出血（包括子宫收缩乏力、产道损伤和胎盘因素等），孕http://guide.medlive.cn/4中华介入放射学电子杂志2020年2月第8卷第1期Chin J Inter Rad (Electronic Edition), Feb 2020, Vol.8. No.1"
+  },
+  {
+    "rule_name": "判定为重症产后出血之指标一",
+    "head": {
+      "is_negative": false,
+      "name": "病情严重程度",
+      "arguments": [
+        "Y",
+        "重症"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "指标属性",
+        "arguments": [
+          "Y",
+          "出血速度大于150ml每分钟"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "产后出血事件"
+    },
+    "source_text": "值得注意的是，出血速度也是反映病情轻重的重要指标。重症产后出血情况包括：出血速度>150 ml/min；3 h内出血量超过总血容量的50％；24 h内出血量超过全身总血容量。（三）介入性动脉栓塞术1. 适应证[15]（1）伴有或不伴有出血的瘢痕妊娠；（2）具有前置胎盘或胎盘植入的引产前的预栓塞；（3）经保守治疗无效的各种难治性产后出血（包括子宫收缩乏力、产道损伤和胎盘因素等），孕http://guide.medlive.cn/4中华介入放射学电子杂志2020年2月第8卷第1期Chin J Inter Rad (Electronic Edition), Feb 2020, Vol.8. No.1"
+  },
+  {
+    "rule_name": "判定为重症产后出血之指标二",
+    "head": {
+      "is_negative": false,
+      "name": "病情严重程度",
+      "arguments": [
+        "Y",
+        "重症"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "指标属性",
+        "arguments": [
+          "Y",
+          "三小时内失血量超总血容量50%"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "产后出血事件"
+    },
+    "source_text": "值得注意的是，出血速度也是反映病情轻重的重要指标。重症产后出血情况包括：出血速度>150 ml/min；3 h内出血量超过总血容量的50％；24 h内出血量超过全身总血容量。（三）介入性动脉栓塞术1. 适应证[15]（1）伴有或不伴有出血的瘢痕妊娠；（2）具有前置胎盘或胎盘植入的引产前的预栓塞；（3）经保守治疗无效的各种难治性产后出血（包括子宫收缩乏力、产道损伤和胎盘因素等），孕http://guide.medlive.cn/4中华介入放射学电子杂志2020年2月第8卷第1期Chin J Inter Rad (Electronic Edition), Feb 2020, Vol.8. No.1"
+  },
+  {
+    "rule_name": "判定为重症产后出血之指标三",
+    "head": {
+      "is_negative": false,
+      "name": "病情严重程度",
+      "arguments": [
+        "Y",
+        "重症"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "指标属性",
+        "arguments": [
+          "Y",
+          "二十四小时内失血量超全身总血容量"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "产后出血事件"
+    },
+    "source_text": "值得注意的是，出血速度也是反映病情轻重的重要指标。重症产后出血情况包括：出血速度>150 ml/min；3 h内出血量超过总血容量的50％；24 h内出血量超过全身总血容量。（三）介入性动脉栓塞术1. 适应证[15]（1）伴有或不伴有出血的瘢痕妊娠；（2）具有前置胎盘或胎盘植入的引产前的预栓塞；（3）经保守治疗无效的各种难治性产后出血（包括子宫收缩乏力、产道损伤和胎盘因素等），孕http://guide.medlive.cn/4中华介入放射学电子杂志2020年2月第8卷第1期Chin J Inter Rad (Electronic Edition), Feb 2020, Vol.8. No.1"
+  },
+  {
+    "rule_name": "产后出血患者常规介入手术操作流程",
+    "head": {
+      "is_negative": false,
+      "name": "手术步骤",
+      "arguments": [
+        "Y",
+        "操作完成"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "产后出血患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "介入手术过程",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采取体位",
+        "arguments": [
+          "Y",
+          "仰卧位"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "涉及区域",
+        "arguments": [
+          "Y",
+          "双侧腹股沟区"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行步骤",
+        "arguments": [
+          "Y",
+          "消毒铺巾"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用技术",
+        "arguments": [
+          "Y",
+          "Seldinger技术穿刺股动脉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "建立通道",
+        "arguments": [
+          "Y",
+          "置入肝素化血管鞘"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "介入手术过程"
+    },
+    "source_text": "患者取仰卧位，双侧腹股沟区皮肤消毒后铺巾，采用Seldinger技术经皮穿刺右（左）侧股动脉，置入血管鞘，鞘内肝素化。选择5F RUC或Cobra导管，先后选择进入左、右髂内动脉进行DSA检查，初步判定子宫动脉解剖位置、出血部位和出血的动脉分支后，根据DSA造影结果选择髂内动脉或子宫动脉栓塞。行髂内动脉栓塞应选择尽量靠近子宫动脉开口处，避开臀上动脉，以减少并发症；行子宫动脉栓塞术时应将导管超选择插入子宫动脉主干，注射少量造影剂无反流或少量反流为宜。行髂内动脉远端插管或超选择送入子宫动脉起始部位，当子宫动脉血流速度减缓至完全停滞时视为栓塞成功。造影复查显示子宫动脉出血停止、保留部分子宫动脉主干。采用成袢技术插入对侧血管后同法操作。透视下, 确认成功解袢后退出导管和血管鞘, 对穿刺点压迫止血并加压包扎。对于胎盘植入性出血患者，栓塞前可先给予甲氨蝶呤（methotrexate，MTX）注射液注入，MTX用量根据植入胎盘体积和患者体表面积确定，25～50 mg/m2，单次注入剂量<100 mg，根据优势供血情况分配药物，两侧子宫动脉缓慢注入，其他步骤同前。"
+  },
+  {
+    "rule_name": "基于DSA结果选择髂内动脉栓塞",
+    "head": {
+      "is_negative": false,
+      "name": "栓塞目标选择",
+      "arguments": [
+        "Y",
+        "髂内动脉",
+        "根据造影"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "介入手术过程",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用导管",
+        "arguments": [
+          "Y",
+          "5F_RUC或Cobra导管"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "完成检查",
+        "arguments": [
+          "Y",
+          "双侧髂内动脉DSA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "判定结果",
+        "arguments": [
+          "Y",
+          "明确出血分支"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "DSA造影指示",
+        "arguments": [
+          "Y",
+          "选择髂内动脉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术目标",
+        "arguments": [
+          "Y",
+          "避开臀上动脉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术目标",
+        "arguments": [
+          "Y",
+          "靠近子宫动脉开口"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "介入手术过程"
+    },
+    "source_text": "患者取仰卧位，双侧腹股沟区皮肤消毒后铺巾，采用Seldinger技术经皮穿刺右（左）侧股动脉，置入血管鞘，鞘内肝素化。选择5F RUC或Cobra导管，先后选择进入左、右髂内动脉进行DSA检查，初步判定子宫动脉解剖位置、出血部位和出血的动脉分支后，根据DSA造影结果选择髂内动脉或子宫动脉栓塞。行髂内动脉栓塞应选择尽量靠近子宫动脉开口处，避开臀上动脉，以减少并发症；行子宫动脉栓塞术时应将导管超选择插入子宫动脉主干，注射少量造影剂无反流或少量反流为宜。行髂内动脉远端插管或超选择送入子宫动脉起始部位，当子宫动脉血流速度减缓至完全停滞时视为栓塞成功。造影复查显示子宫动脉出血停止、保留部分子宫动脉主干。采用成袢技术插入对侧血管后同法操作。透视下, 确认成功解袢后退出导管和血管鞘, 对穿刺点压迫止血并加压包扎。对于胎盘植入性出血患者，栓塞前可先给予甲氨蝶呤（methotrexate，MTX）注射液注入，MTX用量根据植入胎盘体积和患者体表面积确定，25～50 mg/m2，单次注入剂量<100 mg，根据优势供血情况分配药物，两侧子宫动脉缓慢注入，其他步骤同前。"
+  },
+  {
+    "rule_name": "基于DSA结果选择子宫动脉栓塞",
+    "head": {
+      "is_negative": false,
+      "name": "栓塞目标选择",
+      "arguments": [
+        "Y",
+        "子宫动脉",
+        "根据造影"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "介入手术过程",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用导管",
+        "arguments": [
+          "Y",
+          "5F_RUC或Cobra导管"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "完成检查",
+        "arguments": [
+          "Y",
+          "双侧髂内动脉DSA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "判定结果",
+        "arguments": [
+          "Y",
+          "明确出血分支"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "DSA造影指示",
+        "arguments": [
+          "Y",
+          "选择子宫动脉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作要求",
+        "arguments": [
+          "Y",
+          "导管超选择插入子宫动脉主干"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作要求",
+        "arguments": [
+          "Y",
+          "造影剂无反流或少量反流"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "介入手术过程"
+    },
+    "source_text": "患者取仰卧位，双侧腹股沟区皮肤消毒后铺巾，采用Seldinger技术经皮穿刺右（左）侧股动脉，置入血管鞘，鞘内肝素化。选择5F RUC或Cobra导管，先后选择进入左、右髂内动脉进行DSA检查，初步判定子宫动脉解剖位置、出血部位和出血的动脉分支后，根据DSA造影结果选择髂内动脉或子宫动脉栓塞。行髂内动脉栓塞应选择尽量靠近子宫动脉开口处，避开臀上动脉，以减少并发症；行子宫动脉栓塞术时应将导管超选择插入子宫动脉主干，注射少量造影剂无反流或少量反流为宜。行髂内动脉远端插管或超选择送入子宫动脉起始部位，当子宫动脉血流速度减缓至完全停滞时视为栓塞成功。造影复查显示子宫动脉出血停止、保留部分子宫动脉主干。采用成袢技术插入对侧血管后同法操作。透视下, 确认成功解袢后退出导管和血管鞘, 对穿刺点压迫止血并加压包扎。对于胎盘植入性出血患者，栓塞前可先给予甲氨蝶呤（methotrexate，MTX）注射液注入，MTX用量根据植入胎盘体积和患者体表面积确定，25～50 mg/m2，单次注入剂量<100 mg，根据优势供血情况分配药物，两侧子宫动脉缓慢注入，其他步骤同前。"
+  },
+  {
+    "rule_name": "子宫动脉栓塞成功标准",
+    "head": {
+      "is_negative": false,
+      "name": "栓塞结果判定",
+      "arguments": [
+        "Y",
+        "成功"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "介入手术过程",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "栓塞目标选择",
+        "arguments": [
+          "Y",
+          "子宫动脉",
+          "根据造影"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作状态",
+        "arguments": [
+          "Y",
+          "子宫动脉血流减缓至停滞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "造影复查结果",
+        "arguments": [
+          "Y",
+          "子宫动脉出血停止"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "造影复查结果",
+        "arguments": [
+          "Y",
+          "保留部分子宫动脉主干"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "介入手术过程"
+    },
+    "source_text": "患者取仰卧位，双侧腹股沟区皮肤消毒后铺巾，采用Seldinger技术经皮穿刺右（左）侧股动脉，置入血管鞘，鞘内肝素化。选择5F RUC或Cobra导管，先后选择进入左、右髂内动脉进行DSA检查，初步判定子宫动脉解剖位置、出血部位和出血的动脉分支后，根据DSA造影结果选择髂内动脉或子宫动脉栓塞。行髂内动脉栓塞应选择尽量靠近子宫动脉开口处，避开臀上动脉，以减少并发症；行子宫动脉栓塞术时应将导管超选择插入子宫动脉主干，注射少量造影剂无反流或少量反流为宜。行髂内动脉远端插管或超选择送入子宫动脉起始部位，当子宫动脉血流速度减缓至完全停滞时视为栓塞成功。造影复查显示子宫动脉出血停止、保留部分子宫动脉主干。采用成袢技术插入对侧血管后同法操作。透视下, 确认成功解袢后退出导管和血管鞘, 对穿刺点压迫止血并加压包扎。对于胎盘植入性出血患者，栓塞前可先给予甲氨蝶呤（methotrexate，MTX）注射液注入，MTX用量根据植入胎盘体积和患者体表面积确定，25～50 mg/m2，单次注入剂量<100 mg，根据优势供血情况分配药物，两侧子宫动脉缓慢注入，其他步骤同前。"
+  },
+  {
+    "rule_name": "胎盘植入出血患者栓塞前按低剂量范围给药",
+    "head": {
+      "is_negative": false,
+      "name": "栓塞前给药",
+      "arguments": [
+        "Y",
+        "W",
+        "根据体积与体表面积"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "胎盘植入性出血患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "介入手术过程",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用药物",
+        "arguments": [
+          "W",
+          "甲氨蝶呤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物用量依据",
+        "arguments": [
+          "W",
+          "植入胎盘体积"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物用量依据",
+        "arguments": [
+          "W",
+          "患者体表面积"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "单位剂量范围",
+        "arguments": [
+          "W",
+          "25_mg每平方米"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "单次剂量上限",
+        "arguments": [
+          "W",
+          "小于100_mg"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "给药方式",
+        "arguments": [
+          "W",
+          "两侧子宫动脉缓慢注入"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "介入手术过程",
+      "W": "药物（甲氨蝶呤）"
+    },
+    "source_text": "患者取仰卧位，双侧腹股沟区皮肤消毒后铺巾，采用Seldinger技术经皮穿刺右（左）侧股动脉，置入血管鞘，鞘内肝素化。选择5F RUC或Cobra导管，先后选择进入左、右髂内动脉进行DSA检查，初步判定子宫动脉解剖位置、出血部位和出血的动脉分支后，根据DSA造影结果选择髂内动脉或子宫动脉栓塞。行髂内动脉栓塞应选择尽量靠近子宫动脉开口处，避开臀上动脉，以减少并发症；行子宫动脉栓塞术时应将导管超选择插入子宫动脉主干，注射少量造影剂无反流或少量反流为宜。行髂内动脉远端插管或超选择送入子宫动脉起始部位，当子宫动脉血流速度减缓至完全停滞时视为栓塞成功。造影复查显示子宫动脉出血停止、保留部分子宫动脉主干。采用成袢技术插入对侧血管后同法操作。透视下, 确认成功解袢后退出导管和血管鞘, 对穿刺点压迫止血并加压包扎。对于胎盘植入性出血患者，栓塞前可先给予甲氨蝶呤（methotrexate，MTX）注射液注入，MTX用量根据植入胎盘体积和患者体表面积确定，25～50 mg/m2，单次注入剂量<100 mg，根据优势供血情况分配药物，两侧子宫动脉缓慢注入，其他步骤同前。"
+  },
+  {
+    "rule_name": "胎盘植入出血患者栓塞前按高剂量范围给药",
+    "head": {
+      "is_negative": false,
+      "name": "栓塞前给药",
+      "arguments": [
+        "Y",
+        "W",
+        "根据体积与体表面积"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "胎盘植入性出血患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "介入手术过程",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用药物",
+        "arguments": [
+          "W",
+          "甲氨蝶呤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物用量依据",
+        "arguments": [
+          "W",
+          "植入胎盘体积"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物用量依据",
+        "arguments": [
+          "W",
+          "患者体表面积"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "单位剂量范围",
+        "arguments": [
+          "W",
+          "50_mg每平方米"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "单次剂量上限",
+        "arguments": [
+          "W",
+          "小于100_mg"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "给药方式",
+        "arguments": [
+          "W",
+          "两侧子宫动脉缓慢注入"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "介入手术过程",
+      "W": "药物（甲氨蝶呤）"
+    },
+    "source_text": "患者取仰卧位，双侧腹股沟区皮肤消毒后铺巾，采用Seldinger技术经皮穿刺右（左）侧股动脉，置入血管鞘，鞘内肝素化。选择5F RUC或Cobra导管，先后选择进入左、右髂内动脉进行DSA检查，初步判定子宫动脉解剖位置、出血部位和出血的动脉分支后，根据DSA造影结果选择髂内动脉或子宫动脉栓塞。行髂内动脉栓塞应选择尽量靠近子宫动脉开口处，避开臀上动脉，以减少并发症；行子宫动脉栓塞术时应将导管超选择插入子宫动脉主干，注射少量造影剂无反流或少量反流为宜。行髂内动脉远端插管或超选择送入子宫动脉起始部位，当子宫动脉血流速度减缓至完全停滞时视为栓塞成功。造影复查显示子宫动脉出血停止、保留部分子宫动脉主干。采用成袢技术插入对侧血管后同法操作。透视下, 确认成功解袢后退出导管和血管鞘, 对穿刺点压迫止血并加压包扎。对于胎盘植入性出血患者，栓塞前可先给予甲氨蝶呤（methotrexate，MTX）注射液注入，MTX用量根据植入胎盘体积和患者体表面积确定，25～50 mg/m2，单次注入剂量<100 mg，根据优势供血情况分配药物，两侧子宫动脉缓慢注入，其他步骤同前。"
+  },
+  {
+    "rule_name": "术后子宫内膜坏死致月经过少判定",
+    "head": {
+      "is_negative": false,
+      "name": "并发症",
+      "arguments": [
+        "Y",
+        "月经过少"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "子宫动脉栓塞术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理后果",
+        "arguments": [
+          "X",
+          "子宫动脉血管网栓塞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理后果",
+        "arguments": [
+          "X",
+          "子宫内膜部分坏死"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床表现",
+        "arguments": [
+          "Y",
+          "月经量明显减少"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查结果",
+        "arguments": [
+          "X",
+          "性激素检查未见明显异常"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "临床表现"
+    },
+    "source_text": "（4）月经过少：术后部分患者因子宫动脉血管网栓塞而出现子宫内膜部分坏死，可出现月经量明显减少，性激素检查未见明显异常，此部分患者如无生育要求，可予观察，无需处理。"
+  },
+  {
+    "rule_name": "无生育要求月经过少患者的观察处理建议",
+    "head": {
+      "is_negative": false,
+      "name": "处理建议",
+      "arguments": [
+        "X",
+        "观察"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症",
+        "arguments": [
+          "Y",
+          "月经过少"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "生育要求",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "临床表现"
+    },
+    "source_text": "（4）月经过少：术后部分患者因子宫动脉血管网栓塞而出现子宫内膜部分坏死，可出现月经量明显减少，性激素检查未见明显异常，此部分患者如无生育要求，可予观察，无需处理。"
+  },
+  {
+    "rule_name": "子宫动脉栓塞术的远期并发症_闭经",
+    "head": {
+      "is_negative": false,
+      "name": "远期并发症",
+      "arguments": [
+        "Z",
+        "闭经"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "子宫动脉栓塞术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症",
+        "arguments": [
+          "Z",
+          "闭经"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "并发症"
+    },
+    "source_text": "（5）闭经：为子宫动脉栓塞的远期并发症，分为卵巢性闭经及子宫性闭经。卵巢性闭经主要是供血于卵巢的动脉如子宫动脉卵巢支或卵巢动脉血流阻断而导致卵巢缺血坏死，卵巢功能衰竭而出现闭经，需长期口服激素类药物维持体内激素的水平。子宫性闭经为子宫内膜缺血坏死，内膜生长受损而导致，不影响激素分泌，可予观察，但患者无法生育。"
+  },
+  {
+    "rule_name": "卵巢性闭经由子宫动脉卵巢支阻断导致",
+    "head": {
+      "is_negative": false,
+      "name": "并发症子类",
+      "arguments": [
+        "Z",
+        "卵巢性闭经"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "远期并发症",
+        "arguments": [
+          "Z",
+          "闭经"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动脉",
+        "arguments": [
+          "W1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "供血关系",
+        "arguments": [
+          "W1",
+          "卵巢"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "类型",
+        "arguments": [
+          "W1",
+          "子宫动脉卵巢支"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理后果",
+        "arguments": [
+          "X",
+          "血流阻断(W1)"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理后果",
+        "arguments": [
+          "X",
+          "卵巢缺血坏死"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理后果",
+        "arguments": [
+          "X",
+          "卵巢功能衰竭"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "并发症",
+      "W1": "动脉"
+    },
+    "source_text": "（5）闭经：为子宫动脉栓塞的远期并发症，分为卵巢性闭经及子宫性闭经。卵巢性闭经主要是供血于卵巢的动脉如子宫动脉卵巢支或卵巢动脉血流阻断而导致卵巢缺血坏死，卵巢功能衰竭而出现闭经，需长期口服激素类药物维持体内激素的水平。"
+  },
+  {
+    "rule_name": "卵巢性闭经由卵巢动脉阻断导致",
+    "head": {
+      "is_negative": false,
+      "name": "并发症子类",
+      "arguments": [
+        "Z",
+        "卵巢性闭经"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "远期并发症",
+        "arguments": [
+          "Z",
+          "闭经"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动脉",
+        "arguments": [
+          "W2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "供血关系",
+        "arguments": [
+          "W2",
+          "卵巢"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "类型",
+        "arguments": [
+          "W2",
+          "卵巢动脉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理后果",
+        "arguments": [
+          "X",
+          "血流阻断(W2)"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理后果",
+        "arguments": [
+          "X",
+          "卵巢缺血坏死"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理后果",
+        "arguments": [
+          "X",
+          "卵巢功能衰竭"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "并发症",
+      "W2": "动脉"
+    },
+    "source_text": "（5）闭经：为子宫动脉栓塞的远期并发症，分为卵巢性闭经及子宫性闭经。卵巢性闭经主要是供血于卵巢的动脉如子宫动脉卵巢支或卵巢动脉血流阻断而导致卵巢缺血坏死，卵巢功能衰竭而出现闭经，需长期口服激素类药物维持体内激素的水平。"
+  },
+  {
+    "rule_name": "卵巢性闭经的长期激素治疗与子宫性闭经的观察及生育影响",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方案",
+      "arguments": [
+        "Z",
+        "长期口服激素类药物"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "并发症子类",
+        "arguments": [
+          "Z",
+          "卵巢性闭经"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "并发症"
+    },
+    "source_text": "（5）闭经：为子宫动脉栓塞的远期并发症，分为卵巢性闭经及子宫性闭经。卵巢性闭经主要是供血于卵巢的动脉如子宫动脉卵巢支或卵巢动脉血流阻断而导致卵巢缺血坏死，卵巢功能衰竭而出现闭经，需长期口服激素类药物维持体内激素的水平。子宫性闭经为子宫内膜缺血坏死，内膜生长受损而导致，不影响激素分泌，可予观察，但患者无法生育。"
+  },
+  {
+    "rule_name": "子宫性闭经的判定",
+    "head": {
+      "is_negative": false,
+      "name": "并发症子类",
+      "arguments": [
+        "Z",
+        "子宫性闭经"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "远期并发症",
+        "arguments": [
+          "Z",
+          "闭经"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理后果",
+        "arguments": [
+          "X",
+          "子宫内膜缺血坏死"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理后果",
+        "arguments": [
+          "X",
+          "内膜生长受损"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "病理后果",
+        "arguments": [
+          "X",
+          "影响激素分泌"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "并发症"
+    },
+    "source_text": "（5）闭经：为子宫动脉栓塞的远期并发症，分为卵巢性闭经及子宫性闭经。卵巢性闭经主要是供血于卵巢的动脉如子宫动脉卵巢支或卵巢动脉血流阻断而导致卵巢缺血坏死，卵巢功能衰竭而出现闭经，需长期口服激素类药物维持体内激素的水平。子宫性闭经为子宫内膜缺血坏死，内膜生长受损而导致，不影响激素分泌，可予观察，但患者无法生育。"
+  },
+  {
+    "rule_name": "子宫性闭经的观察处理与生育能力丧失",
+    "head": {
+      "is_negative": false,
+      "name": "处理建议",
+      "arguments": [
+        "X",
+        "观察"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症子类",
+        "arguments": [
+          "Z",
+          "子宫性闭经"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "不良后果",
+        "arguments": [
+          "X",
+          "无法生育"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "并发症"
+    },
+    "source_text": "（5）闭经：为子宫动脉栓塞的远期并发症，分为卵巢性闭经及子宫性闭经。卵巢性闭经主要是供血于卵巢的动脉如子宫动脉卵巢支或卵巢动脉血流阻断而导致卵巢缺血坏死，卵巢功能衰竭而出现闭经，需长期口服激素类药物维持体内激素的水平。子宫性闭经为子宫内膜缺血坏死，内膜生长受损而导致，不影响激素分泌，可予观察，但患者无法生育。"
+  }
+]

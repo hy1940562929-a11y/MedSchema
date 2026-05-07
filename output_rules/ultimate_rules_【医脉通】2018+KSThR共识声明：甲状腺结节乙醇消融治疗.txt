@@ -1,0 +1,114 @@
+【原始长篇章】:
+EA can be indicated for the treatment of benign recurrent pure cysts or predominantly cystic nodules causing pressure symptoms or complaints of neck bulging. The efficacy of EA for the management of pure cysts or predominantly cystic nodules has been well documented (24, 28, 50-54). In a completely cystic nodule, EA can achieve a volume reduction of 85–95%. However, in a predominantly cystic nodule, the rate of volume reduction varies from 60% to 90% (24, 28). Results for predominantly cystic nodules with a solid portion less than 20% are satisfactory (55). Simple aspiration is the first treatment option for symptomatic benign pure cysts and predominantly cystic nodules. However, simple aspiration has been shown to have a high recurrence rate of ≤ 58% (19, 56). Therefore, EA is a reasonable approach in patients with recurrent cystic fluid accumulation after initial aspiration. A cytological result obtained from simple aspiration can confirm that the pure cystic or predominantly cystic nodule is benign. In the case of pure cysts, however, cytological results are often nondiagnostic or unsatisfactory, even with repeated cytological examinations. EA can be used to treat recurrent pure cysts, regardless of nondiagnostic results. Meanwhile, in cases of predominantly cystic nodules with typical benign US findings such as a spongiform appearance or intra-cystic comet tail artifact, EA can be performed after at least one benign fine-needle aspiration (FNA) result. In other cases of predominantly cystic nodules with some solid portion, at least two benign FNA results are essential before performing the EA procedure. Recurrence rate of thyroid cysts was reported to decrease to less than 20% after EA (28).
+
+【规则 1】
+规则名: 复发性单纯囊性结节的乙醇消融指征
+逻辑表达: 治疗方式推荐(Y, 乙醇消融) <- 患者(X) ^ 甲状腺结节(Y) ^ 归属患者(Y, X) ^ 结节类型(Y, 复发性单纯囊性) ^ 导致症状(Y, 颈部压迫感或膨出) ^ 确诊良性方式(Z, 抽吸细胞学) ^ 用于确诊(Z, Y)
+变量映射: 
+  - X: 患者
+  - Y: 甲状腺结节
+  - Z: 诊断检查结果
+
+【规则 2】
+规则名: 有典型良性超声表现的以囊性为主结节的乙醇消融指征_单次良性FNA
+逻辑表达: 治疗方式推荐(Y, 乙醇消融) <- 患者(X) ^ 甲状腺结节(Y) ^ 归属患者(Y, X) ^ 结节类型(Y, 复发性以囊性为主) ^ 导致症状(Y, 颈部压迫感或膨出) ^ 超声特征(Y, 典型良性) ^ 检查结果(Z, 良性) ^ 检查方法(Z, 细针穿刺活检) ^ 用于诊断(Z, Y) ^ 检查次数(Z, 至少一次)
+变量映射: 
+  - X: 患者
+  - Y: 甲状腺结节
+  - Z: 诊断检查结果
+
+【规则 3】
+规则名: 无典型良性超声表现的以囊性为主结节的乙醇消融指征_两次良性FNA
+逻辑表达: 治疗方式推荐(Y, 乙醇消融) <- 患者(X) ^ 甲状腺结节(Y) ^ 归属患者(Y, X) ^ 结节类型(Y, 复发性以囊性为主) ^ 导致症状(Y, 颈部压迫感或膨出) ^ 超声特征(Y, 非典型) ^ 检查结果(Z, 良性) ^ 检查方法(Z, 细针穿刺活检) ^ 用于诊断(Z, Y) ^ 检查次数(Z, 至少两次)
+变量映射: 
+  - X: 患者
+  - Y: 甲状腺结节
+  - Z: 诊断检查结果
+
+【规则 4】
+规则名: 乙醇消融对特定类型良性结节疗效支持
+逻辑表达: 治疗方式疗效(Y, 乙醇消融, 明确) <- 甲状腺结节(Y) ^ 结节类型(Y, 单纯囊性) ^ 体积缩小率(Y, 85-95) ^ 结节类型(W, 以囊性为主) ^ 体积缩小率(W, 60-90) ^ 成分比例(W, 实性成分小于20) ^ 疗效结果(W, 满意)
+变量映射: 
+  - Y: 甲状腺结节
+  - W: 甲状腺结节
+
+---
+
+
+【原始长篇章】:
+Procedures are generally performed on an outpatient basis. A 16–20 G needle, 10–25 mL syringe, and 95-99% ethanol are necessary for the procedure. There are some differences depending on the operator, but the general method is as follows.The patient is placed in a supine position on the bed with mild neck extension. After skin sterilization, local anesthetic (1–2% lidocaine) is usually injected at the skin puncture site. Depending on the viscosity of the contents in the cyst, a single 16–20 G needle is inserted into the center of the cystic area under US guidance. A trans-isthmic approach route is recommended to prevent a change in the position of the needle tip and ethanol leakage when the patient swallows or talks (Fig. 1). As much internal fluid is aspirated as possible and residual debris or colloids are removed by saline irrigation. High viscosity fluid of colloid cysts may be difficult to aspirate. Several studies on the evacuation of viscous cystic thyroid nodules have used normal saline irrigation to decrease viscosity, repeated ethanol injection into the nodules with an interval period, a large-bore needle, or even a large pigtail catheter connected to a suction pump (89-93). Then, the operator slowly injects an appropriate amount of 95–99% ethanol into the cystic space. The amount of ethanol injected depends on the amount of aspirated material in the nodule; approximately 50% of the aspirate volume is usually injected. Total retention amount of ethanol is empirically recommended not to exceed 10 mL, even for large-sized nodules (19, 28, 51, 56, 94). However, if injected ethanol is to be removed after the procedure, a larger amount of ethanol can be used. A sufficient consensus has not yet been established regarding the total amount of ethanol to use for injection. The exact ethanol amount should be tailored according to the size and internal content of the lesion, the opinion of the operator during the procedure, and patient compliance. An ethanol retention time of 2 minutes was found to be sufficient by Kim et al. (95), because ethanol reacts rapidly with cells. However, there is no consensus on whether ethanol should be re-aspirated or not after the procedure. Several studies have suggested that a short retention (at least 2 minutes) and complete removal of ethanol is preferable because longer ethanol retention times may increase patient inconvenience and complications due to possible leakage of ethanol (95, 96). This also has the advantage that the patient’s satisfaction is high, because the size of the nodule is reduced immediately after the procedure. Kim et al. (53) reported that there was no difference in complication or success rated between groups in which ethanol was not aspirated or aspirated after injection. Therefore, ethanol injection with or without aspiration may be used depending on the operator’s preference.If the patient complains of pain during injection, the operator should stop the injection and check for perithyroidal leakage. Perithyroidal leakage is less likely if the needle tip is well located at the center of the lesion and excessive ethanol is not injected. If excessive amounts of ethanol are used, it may be helpful to re-aspirate the injected ethanol for pain relief. When the procedure is finished, quickly pull out the needle and lightly compress the puncture site for 5–10 minutes.
+
+【规则 1】
+规则名: 良性甲状腺囊肿乙醇消融标准操作流程
+逻辑表达: 执行操作(Z， 标准流程) <- 患者(X) ^ 良性甲状腺结节(Y) ^ 治疗方案(Y， 乙醇消融) ^ 接受治疗(Y， Z) ^ 涉及患者(Z， X) ^ 操作环境(Z， 门诊) ^ 患者体位(X， 仰卧位伴颈部轻度伸展) ^ 采用技术(Z， 超声引导) ^ 穿刺路径(Z， 经峡部入路) ^ 进行步骤(Z， 抽吸囊液) ^ 进行步骤(Z， 注射乙醇)
+变量映射:
+  - X: 患者
+  - Y: 良性甲状腺结节
+  - Z: 乙醇消融操作
+
+【规则 2】
+规则名: 采用乙醇抽吸的良性结节消融操作
+逻辑表达: 推荐方式(Z， 抽吸乙醇) <- 患者(X) ^ 良性甲状腺结节(Y) ^ 接受治疗(Y， Z) ^ 涉及患者(Z， X) ^ 操作属性(Z， 乙醇保留时间短) ^ 操作目标(Z， 减少并发症风险) ^ 操作目标(Z， 提高患者满意度)
+变量映射:
+  - X: 患者
+  - Y: 良性甲状腺结节
+  - Z: 乙醇消融操作
+
+【规则 3】
+规则名: 不采用乙醇抽吸的良性结节消融操作
+逻辑表达: 推荐方式(Z， 保留乙醇) <- 患者(X) ^ 良性甲状腺结节(Y) ^ 接受治疗(Y， Z) ^ 涉及患者(Z， X) ^ 取决于因素(Z， 操作者偏好)
+变量映射:
+  - X: 患者
+  - Y: 良性甲状腺结节
+  - Z: 乙醇消融操作
+
+【规则 4】
+规则名: 乙醇注射期间患者疼痛的应对措施
+逻辑表达: 应采取动作(操作者， 停止注射并检查渗漏) <- 患者(X) ^ 良性甲状腺结节(Y) ^ 乙醇消融操作(Z) ^ 接受治疗(Y， Z) ^ 涉及患者(Z， X) ^ 事件发生于(Z， 注射期间) ^ 报告症状(X， 疼痛)
+变量映射:
+  - X: 患者
+  - Y: 良性甲状腺结节
+  - Z: 乙醇消融操作
+
+【规则 5】
+规则名: 减少甲状腺周围渗漏风险的条件
+逻辑表达: 风险较低(Z， 甲状腺周围渗漏) <- 良性甲状腺结节(Y) ^ 乙醇消融操作(Z) ^ 接受治疗(Y， Z) ^ 针尖位置(Z， 病灶中心) ^ ¬事件属性(Z， 注射乙醇过量)
+变量映射:
+  - Y: 良性甲状腺结节
+  - Z: 乙醇消融操作
+
+---
+
+
+【原始长篇章】: EA can be indicated for the treatment of benign recurrent pure cysts or predominantly cystic nodules causing pressure symptoms or complaints of neck bulging. The efficacy of EA for the management of pure cysts or predominantly cystic nodules has been well documented (24, 28, 50-54). In a completely cystic nodule, EA can achieve a volume reduction of 85–95%. However, in a predominantly cystic nodule, the rate of volume reduction varies from 60% to 90% (24, 28). Results for predominantly cystic nodules with a solid portion less than 20% are satisfactory (55). Simple aspiration is the first treatment option for symptomatic benign pure cysts and predominantly cystic nodules. However, simple aspiration has been shown to have a high recurrence rate of ≤ 58% (19, 56). Therefore, EA is a reasonable approach in patients with recurrent cystic fluid accumulation after initial aspiration.
+
+【规则 1】
+规则名: 良性复发性单纯囊肿乙醇消融治疗指征
+逻辑表达: 推荐治疗方案(Y, 乙醇消融, 合理性高) <- 甲状腺结节(Y) ^ 性质(Y, 良性) ^ 结构(Y, 单纯囊肿) ^ 病史(Y, 复发) ^ 引起症状(Y, 压迫症状) ^ 归属患者(Y, X) ^ 接受过治疗(Y, 初始抽吸术) ^ ¬高危手术风险(X)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+
+【规则 2】
+规则名: 良性复发性以囊性为主结节乙醇消融治疗指征
+逻辑表达: 推荐治疗方案(Y, 乙醇消融, 合理性高) <- 甲状腺结节(Y) ^ 性质(Y, 良性) ^ 结构(Y, 以囊性为主) ^ 病史(Y, 复发) ^ 引起症状(Y, 压迫症状) ^ 归属患者(Y, X) ^ 接受过治疗(Y, 初始抽吸术) ^ ¬高危手术风险(X)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+
+【规则 3】
+规则名: 无远处转移局部复发性甲状腺癌乙醇消融根治疗法指征
+逻辑表达: 推荐治疗方案(Y, 乙醇消融, 根治性目的) <- 甲状腺结节(Y) ^ 诊断(Y, 复发性甲状腺癌) ^ 数量限制(Y, 少于等于三个) ^ ¬远处转移(X) ^ 归属患者(Y, X) ^ 手术困难(X) ^ ¬拒绝消融治疗(X)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+
+【规则 4】
+规则名: 有远处转移局部复发性甲状腺癌乙醇消融姑息疗法指征
+逻辑表达: 推荐治疗方案(Y, 乙醇消融, 姑息性目的) <- 甲状腺结节(Y) ^ 诊断(Y, 复发性甲状腺癌) ^ 存在变化(Y, 体积增大) ^ 远处转移(X) ^ 归属患者(Y, X) ^ 手术困难(X) ^ ¬拒绝消融治疗(X)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+
+---
+

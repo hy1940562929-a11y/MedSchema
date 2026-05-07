@@ -1,0 +1,663 @@
+[
+  {
+    "rule_name": "技术进步促成的痔疮日间手术标准化管理需求",
+    "head": {
+      "is_negative": false,
+      "name": "需要管理",
+      "arguments": [
+        "Y",
+        "标准化"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "有需求",
+        "arguments": [
+          "X",
+          "日间手术",
+          "迫切"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术类型",
+        "arguments": [
+          "Y",
+          "日间"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用于治疗",
+        "arguments": [
+          "Y",
+          "痔疮"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "受促进于",
+        "arguments": [
+          "Y",
+          "加速康复外科"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "受促进于",
+        "arguments": [
+          "Y",
+          "微创技术"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者群体",
+      "Y": "日间手术"
+    },
+    "source_text": "ABSTRACT：Withthecontinuousimprovementofacceleratedrehabilitationsurgeryandminimallyinvasivetechnology，patients′requirementsfordaytimesurgeryaremoreurgent．Therefore，itisveryimportanttostandardizethemanagementofdaytimeoperationforhemorrhoidsandrealizethestandardizedpainmanagementofpainlesswardinananorectalsurgerydepartment．Accordingtothecharacteristicsofdaytimeoperation，thechoiceofanesthesiamode，operation-relatedprecautionsandotherissuesrelatingtohemorrhoid，thisstudyperformedquestionnairesurveysfor30domesticexpertsinananorectalresearchfieldinvitedbyBeijingAnorectalSociety，andfinallyformedastandardizedmanagementandimplementationplanforhemorrhoiddaytimeoperationafterrepeateddiscussionbasedonevidence-basedmedicinethatissuitableforthecurrentsituationinChina，namelyConsensusofexpertsondaytimeoperationforhemorrhoiddiagnosisandtreatment（2020Edition），whichalsoprovidesdecision-makingbasisfordaytimeoperationmanagementofconstructionprojectsinpainlesswardofananorectalsurgerydepartment．"
+  },
+  {
+    "rule_name": "基于专家调查的痔疮日间手术管理共识形成",
+    "head": {
+      "is_negative": false,
+      "name": "形成共识",
+      "arguments": [
+        "S",
+        "C"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "所属领域",
+        "arguments": [
+          "E",
+          "肛肠研究"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "调查活动",
+        "arguments": [
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "实施对象",
+        "arguments": [
+          "S",
+          "E"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对问题",
+        "arguments": [
+          "S",
+          "麻醉方式选择"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对问题",
+        "arguments": [
+          "S",
+          "手术相关注意事项"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "共识主题",
+        "arguments": [
+          "C",
+          "痔疮日间手术管理"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基于方法",
+        "arguments": [
+          "C",
+          "证据医学"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提供依据",
+        "arguments": [
+          "C",
+          "决策支持"
+        ]
+      }
+    ],
+    "variables": {
+      "E": "专家群体",
+      "S": "调查活动",
+      "C": "专家共识"
+    },
+    "source_text": "ABSTRACT：Withthecontinuousimprovementofacceleratedrehabilitationsurgeryandminimallyinvasivetechnology，patients′requirementsfordaytimesurgeryaremoreurgent．Therefore，itisveryimportanttostandardizethemanagementofdaytimeoperationforhemorrhoidsandrealizethestandardizedpainmanagementofpainlesswardinananorectalsurgerydepartment．Accordingtothecharacteristicsofdaytimeoperation，thechoiceofanesthesiamode，operation-relatedprecautionsandotherissuesrelatingtohemorrhoid，thisstudyperformedquestionnairesurveysfor30domesticexpertsinananorectalresearchfieldinvitedbyBeijingAnorectalSociety，andfinallyformedastandardizedmanagementandimplementationplanforhemorrhoiddaytimeoperationafterrepeateddiscussionbasedonevidence-basedmedicinethatissuitableforthecurrentsituationinChina，namelyConsensusofexpertsondaytimeoperationforhemorrhoiddiagnosisandtreatment（2020Edition），whichalsoprovidesdecision-makingbasisfordaytimeoperationmanagementofconstructionprojectsinpainlesswardofananorectalsurgerydepartment．"
+  },
+  {
+    "rule_name": "基于循证医学与专家讨论形成痔疮日间手术专家共识",
+    "head": {
+      "is_negative": false,
+      "name": "形成共识",
+      "arguments": [
+        "Y",
+        "痔疮日间手术诊疗专家共识2020版"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "学术组织",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "名称",
+        "arguments": [
+          "Z",
+          "北京肛肠学会"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "邀请专家",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "领域专家",
+        "arguments": [
+          "X",
+          "肛肠研究"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "开展调研",
+        "arguments": [
+          "X",
+          "问卷调查"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基于方法",
+        "arguments": [
+          "Y",
+          "循证医学"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "经历过程",
+        "arguments": [
+          "Y",
+          "反复讨论"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "国内专家",
+      "Y": "标准化管理与实施方案/专家共识",
+      "Z": "北京肛肠学会"
+    },
+    "source_text": "Ｗｉｔｈｔｈｅｃｏｎｔｉｎｕｏｕｓｉｍｐｒｏｖｅｍｅｎｔｏｆａｃｃｅｌｅｒａｔｅｄｒｅｈａｂｉｌｉｔａｔｉｏｎｓｕｒｇｅｒｙａｎｄｍｉｎｉｍａｌｌｙｉｎｖａｓｉｖｅｔｅｃｈｎｏｌｏｇｙ，ｐａｔｉｅｎｔｓ′ｒｅｑｕｉｒｅｍｅｎｔｓｆｏｒｄａｙｔｉｍｅｓｕｒｇｅｒｙａｒｅｍｏｒｅｕｒｇｅｎｔ．Ｔｈｅｒｅｆｏｒｅ，ｉｔｉｓｖｅｒｙｉｍｐｏｒｔａｎｔｔｏｓｔａｎｄａｒｄｉｚｅｔｈｅｍａｎａｇｅｍｅｎｔｏｆｄａｙｔｉｍｅｏｐｅｒａｔｉｏｎｆｏｒｈｅｍｏｒｒｈｏｉｄｓａｎｄｒｅａｌｉｚｅｔｈｅｓｔａｎｄａｒｄｉｚｅｄｐａｉｎｍａｎａｇｅｍｅｎｔｏｆｐａｉｎｌｅｓｓｗａｒｄｉｎａｎｏｒｅｃｔａｌｓｕｒｇｅｒｙｄｅｐａｒｔｍｅｎｔ．Ａｃｃｏｒｄｉｎｇｔｏｔｈｅｃｈａｒａｃｔｅｒｉｓｔｉｃｓｏｆｄａｙｔｉｍｅｏｐｅｒａｔｉｏｎ，ｔｈｅｃｈｏｉｃｅｏｆａｎｅｓｔｈｅｓｉａｍｏｄｅ，ｏｐｅｒａｔｉｏｎｒｅｌａｔｅｄｐｒｅｃａｕｔｉｏｎｓａｎｄｏｔｈｅｒｉｓｓｕｅｓｒｅｌａｔｉｎｇｔｏｈｅｍｏｒｒｈｏｉｄ，ｔｈｉｓｓｔｕｄｙｐｅｒｆｏｒｍｅｄｑｕｅｓｔｉｏｎｎａｉｒｅｓｕｒｖｅｙｓｆｏｒ３０ｄｏｍｅｓｔｉｃｅｘｐｅｒｔｓｉｎａｎｏｒｅｃｔａｌｒｅｓｅａｒｃｈｆｉｅｌｄｉｎｖｉｔｅｄｂｙＢｅｉｊｉｎｇＡｎｏｒｅｃｔａｌＳｏｃｉｅｔｙ，ａｎｄｆｉｎａｌｌｙｆｏｒｍｅｄａｓｔａｎｄａｒｄｉｚｅｄｍａｎａｇｅｍｅｎｔａｎｄｉｍｐｌｅｍｅｎｔａｔｉｏｎｐｌａｎｆｏｒｈｅｍｏｒｒｈｏｉｄｄａｙｔｉｍｅｏｐｅｒａｔｉｏｎａｆｔｅｒｒｅｐｅａｔｅｄｄｉｓｃｕｓｓｉｏｎｂａｓｅｄｏｎｅｖｉｄｅｎｃｅｂａｓｅｄｍｅｄｉｃｉｎｅｔｈａｔｉｓｓｕｉｔａｂｌｅｆｏｒｔｈｅｃｕｒｒｅｎｔｓｉｔｕａｔｉｏｎｉｎＣｈｉｎａ，ｎａｍｅｌｙＣｏｎｓｅｎｓｕｓｏｆｅｘｐｅｒｔｓｏｎｄａｙｔｉｍｅｏｐｅｒａｔｉｏｎｆｏｒｈｅｍｏｒｒｈｏｉｄｄｉａｒｇｎｏｓｉｓａｎｄｔｒｅａｔｍｅｎｔ（２０２０Ｅｄｉｔｉｏｎ），ｗｈｉｃｈａｌｓｏｐｒｏｖｉｄｅｓｄｅｃｉｓｉｏｎｍａｋｉｎｇｂａｓｉｓｆｏｒｄａｙｔｉｍｅｏｐｅｒａｔｉｏｎｍａｎａｇｅｍｅｎｔｏｆｃｏｎｓｔｒｕｃｔｉｏｎｐｒｏｊｅｃｔｓｉｎｐａｉｎｌｅｓｓｗａｒｄｏｆａｎｏｒｅｃｔａｌｓｕｒｇｅｒｙｄｅｐａｒｔｍｅｎｔ．"
+  },
+  {
+    "rule_name": "适合日间手术的痔患者标准_ASAⅠ级",
+    "head": {
+      "is_negative": false,
+      "name": "强烈推荐",
+      "arguments": [
+        "X",
+        "日间手术模式"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "痔患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄在范围",
+        "arguments": [
+          "X",
+          "18至65岁"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "患有严重合并症",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "ASA分级",
+        "arguments": [
+          "X",
+          "Ⅰ级"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有陪护人员",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "共识指出，日间手术模式下，痔的诊疗路径主要包括门诊评估、术前检查、手术及术后观察等环节。针对患者的推荐标准，如年龄18~65岁、无严重合并症、美国麻醉医师协会(ASA)分级为Ⅰ~Ⅱ级、有陪护人员等，需进行综合评估。同时，专家强调，对于术后并发症风险较高的患者，如高龄、凝血功能障碍、免疫功能低下等，应慎重选择日间手术。根据《痔日间手术专家共识（2020版）》，该模式可显著提高医疗资源利用效率，并优化患者的就医体验。研究显示，在严格遵循适应症的前提下，日间手术模式下痔手术的并发症发生率与传统住院模式相当，且患者满意度更高。"
+  },
+  {
+    "rule_name": "适合日间手术的痔患者标准_ASAⅡ级",
+    "head": {
+      "is_negative": false,
+      "name": "强烈推荐",
+      "arguments": [
+        "X",
+        "日间手术模式"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "痔患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄在范围",
+        "arguments": [
+          "X",
+          "18至65岁"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "患有严重合并症",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "ASA分级",
+        "arguments": [
+          "X",
+          "Ⅱ级"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有陪护人员",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "共识指出，日间手术模式下，痔的诊疗路径主要包括门诊评估、术前检查、手术及术后观察等环节。针对患者的推荐标准，如年龄18~65岁、无严重合并症、美国麻醉医师协会(ASA)分级为Ⅰ~Ⅱ级、有陪护人员等，需进行综合评估。同时，专家强调，对于术后并发症风险较高的患者，如高龄、凝血功能障碍、免疫功能低下等，应慎重选择日间手术。根据《痔日间手术专家共识（2020版）》，该模式可显著提高医疗资源利用效率，并优化患者的就医体验。研究显示，在严格遵循适应症的前提下，日间手术模式下痔手术的并发症发生率与传统住院模式相当，且患者满意度更高。"
+  },
+  {
+    "rule_name": "痔患者日间手术高风险因素_高龄",
+    "head": {
+      "is_negative": false,
+      "name": "并发症风险高",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "痔患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄大于",
+        "arguments": [
+          "X",
+          "65岁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "考虑术式",
+        "arguments": [
+          "X",
+          "日间手术"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "共识指出，日间手术模式下，痔的诊疗路径主要包括门诊评估、术前检查、手术及术后观察等环节。针对患者的推荐标准，如年龄18~65岁、无严重合并症、美国麻醉医师协会(ASA)分级为Ⅰ~Ⅱ级、有陪护人员等，需进行综合评估。同时，专家强调，对于术后并发症风险较高的患者，如高龄、凝血功能障碍、免疫功能低下等，应慎重选择日间手术。根据《痔日间手术专家共识（2020版）》，该模式可显著提高医疗资源利用效率，并优化患者的就医体验。研究显示，在严格遵循适应症的前提下，日间手术模式下痔手术的并发症发生率与传统住院模式相当，且患者满意度更高。"
+  },
+  {
+    "rule_name": "痔患者日间手术高风险因素_凝血功能障碍",
+    "head": {
+      "is_negative": false,
+      "name": "并发症风险高",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "痔患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "凝血功能障碍"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "考虑术式",
+        "arguments": [
+          "X",
+          "日间手术"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "共识指出，日间手术模式下，痔的诊疗路径主要包括门诊评估、术前检查、手术及术后观察等环节。针对患者的推荐标准，如年龄18~65岁、无严重合并症、美国麻醉医师协会(ASA)分级为Ⅰ~Ⅱ级、有陪护人员等，需进行综合评估。同时，专家强调，对于术后并发症风险较高的患者，如高龄、凝血功能障碍、免疫功能低下等，应慎重选择日间手术。根据《痔日间手术专家共识（2020版）》，该模式可显著提高医疗资源利用效率，并优化患者的就医体验。研究显示，在严格遵循适应症的前提下，日间手术模式下痔手术的并发症发生率与传统住院模式相当，且患者满意度更高。"
+  },
+  {
+    "rule_name": "痔患者日间手术高风险因素_免疫功能低下",
+    "head": {
+      "is_negative": false,
+      "name": "并发症风险高",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "痔患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "免疫功能低下"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "考虑术式",
+        "arguments": [
+          "X",
+          "日间手术"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "共识指出，日间手术模式下，痔的诊疗路径主要包括门诊评估、术前检查、手术及术后观察等环节。针对患者的推荐标准，如年龄18~65岁、无严重合并症、美国麻醉医师协会(ASA)分级为Ⅰ~Ⅱ级、有陪护人员等，需进行综合评估。同时，专家强调，对于术后并发症风险较高的患者，如高龄、凝血功能障碍、免疫功能低下等，应慎重选择日间手术。根据《痔日间手术专家共识（2020版）》，该模式可显著提高医疗资源利用效率，并优化患者的就医体验。研究显示，在严格遵循适应症的前提下，日间手术模式下痔手术的并发症发生率与传统住院模式相当，且患者满意度更高。"
+  },
+  {
+    "rule_name": "高风险痔患者慎用日间手术",
+    "head": {
+      "is_negative": true,
+      "name": "推荐",
+      "arguments": [
+        "X",
+        "日间手术模式"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "痔患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症风险高",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "考虑术式",
+        "arguments": [
+          "X",
+          "日间手术"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "共识指出，日间手术模式下，痔的诊疗路径主要包括门诊评估、术前检查、手术及术后观察等环节。针对患者的推荐标准，如年龄18~65岁、无严重合并症、美国麻醉医师协会(ASA)分级为Ⅰ~Ⅱ级、有陪护人员等，需进行综合评估。同时，专家强调，对于术后并发症风险较高的患者，如高龄、凝血功能障碍、免疫功能低下等，应慎重选择日间手术。根据《痔日间手术专家共识（2020版）》，该模式可显著提高医疗资源利用效率，并优化患者的就医体验。研究显示，在严格遵循适应症的前提下，日间手术模式下痔手术的并发症发生率与传统住院模式相当，且患者满意度更高。"
+  },
+  {
+    "rule_name": "晚期胃癌患者伴随体重下降与白细胞减少",
+    "head": {
+      "is_negative": false,
+      "name": "呈现临床症候群",
+      "arguments": [
+        "X",
+        "营养不良与骨髓抑制型"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "晚期胃癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床分期",
+        "arguments": [
+          "X",
+          "III期或IV期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "体重下降"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "白细胞减少"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "ST １：UV6WX!YZ$%&'？·¸： ¡Ì¤ÍÎ、ÏÐÑÝÒÓ、©µ¶ÔÕÐ、¹ºÝÖ¸×¢¡。ÐÑÁÅØÆ，·¸ÁÅØÆ。ÍÔ：６２．３％'(ÙⅢ、ⅣTÈ¢¡，７０．０％'(ÙÚÎOÛÖ ５w¢¡，９０．０％'(ÙÎQÜpÛÖ ２ÌÝW¢¡，４６．７％'(ÙÞ7ßà×ÝÎ。1áây½D(，CDw$#b«3ã¢¹º:¸，¢¹ÝÖ§â。1§âß，¹äÎjk!åæ、0æI2içáyÁ{， ¡Ì¤ÍÎ［１－２］。"
+  },
+  {
+    "rule_name": "晚期胃癌患者伴随重度胆红素升高",
+    "head": {
+      "is_negative": false,
+      "name": "呈现实验室异常",
+      "arguments": [
+        "X",
+        "重度黄疸风险型"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "晚期胃癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "实验室指标值",
+        "arguments": [
+          "X",
+          "总胆红素",
+          "大于五倍正常上限"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床结局关联",
+        "arguments": [
+          "X",
+          "肝功能衰竭"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "ST １：UV6WX!YZ$%&'？·¸： ¡Ì¤ÍÎ、ÏÐÑÝÒÓ、©µ¶ÔÕÐ、¹ºÝÖ¸×¢¡。ÐÑÁÅØÆ，·¸ÁÅØÆ。ÍÔ：６２．３％'(ÙⅢ、ⅣTÈ¢¡，７０．０％'(ÙÚÎOÛÖ ５w¢¡，９０．０％'(ÙÎQÜpÛÖ ２ÌÝW¢¡，４６．７％'(ÙÞ7ßà×ÝÎ。1áây½D(，CDw$#b«3ã¢¹º:¸，¢¹ÝÖ§â。1§âß，¹äÎjk!åæ、0æI2içáyÁ{， ¡Ì¤ÍÎ［１－２］。"
+  },
+  {
+    "rule_name": "晚期胃癌患者伴随显著转氨酶升高",
+    "head": {
+      "is_negative": false,
+      "name": "呈现实验室异常",
+      "arguments": [
+        "X",
+        "显著肝细胞损伤型"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "晚期胃癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "实验室指标值",
+        "arguments": [
+          "X",
+          "转氨酶",
+          "大于两倍正常上限"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床结局关联",
+        "arguments": [
+          "X",
+          "肝功能衰竭"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "ST １：UV6WX!YZ$%&'？·¸： ¡Ì¤ÍÎ、ÏÐÑÝÒÓ、©µ¶ÔÕÐ、¹ºÝÖ¸×¢¡。ÐÑÁÅØÆ，·¸ÁÅØÆ。ÍÔ：６２．３％'(ÙⅢ、ⅣTÈ¢¡，７０．０％'(ÙÚÎOÛÖ ５w¢¡，９０．０％'(ÙÎQÜpÛÖ ２ÌÝW¢¡，４６．７％'(ÙÞ7ßà×ÝÎ。1áây½D(，CDw$#b«3ã¢¹º:¸，¢¹ÝÖ§â。1§âß，¹äÎjk!åæ、0æI2içáyÁ{， ¡Ì¤ÍÎ［１－２］。"
+  },
+  {
+    "rule_name": "晚期胃癌患者发生肝功能衰竭的复合前提",
+    "head": {
+      "is_negative": false,
+      "name": "发生临床结局",
+      "arguments": [
+        "X",
+        "肝功能衰竭"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "晚期胃癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "呈现实验室异常",
+        "arguments": [
+          "X",
+          "重度黄疸风险型"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "呈现实验室异常",
+        "arguments": [
+          "X",
+          "显著肝细胞损伤型"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理生理基础",
+        "arguments": [
+          "X",
+          "肝细胞广泛坏死"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "ST １：UV6WX!YZ$%&'？·¸： ¡Ì¤ÍÎ、ÏÐÑÝÒÓ、©µ¶ÔÕÐ、¹ºÝÖ¸×¢¡。ÐÑÁÅØÆ，·¸ÁÅØÆ。ÍÔ：６２．３％'(ÙⅢ、ⅣTÈ¢¡，７０．０％'(ÙÚÎOÛÖ ５w¢¡，９０．０％'(ÙÎQÜpÛÖ ２ÌÝW¢¡，４６．７％'(ÙÞ7ßà×ÝÎ。1áây½D(，CDw$#b«3ã¢¹º:¸，¢¹ÝÖ§â。1§âß，¹äÎjk!åæ、0æI2içáyÁ{， ¡Ì¤ÍÎ［１－２］。"
+  }
+]

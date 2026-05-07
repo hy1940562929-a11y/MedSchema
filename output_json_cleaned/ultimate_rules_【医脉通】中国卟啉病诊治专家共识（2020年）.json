@@ -1,0 +1,1660 @@
+[
+  {
+    "rule_name": "未确诊严重急性发作的高危性",
+    "head": {
+      "is_negative": false,
+      "name": "高死亡风险",
+      "arguments": [
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "急性卟啉病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病发作",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "严重程度",
+        "arguments": [
+          "Y",
+          "危及生命"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断状态",
+        "arguments": [
+          "X",
+          "未确诊"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发作特征",
+        "arguments": [
+          "Y",
+          "症状未能解释"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疾病发作事件"
+    },
+    "source_text": "大部分急性卟啉病患者长期结局良好，急性发作通常可恢复，但某些患者可能反复发作，严重的急性卟啉病发作可能危及生命，尤其在未确诊、未能解释症状的患者中更严重。如能及时诊断、快速控制急性发作以及预防减少发作，可以改善患者预后，尤其是血红素治疗可进一步降低严重的急性肝卟啉病的死亡率。急性卟啉病的潜在长期并发症包括肾功能受损、肝功能异常和肝细胞肝癌。"
+  },
+  {
+    "rule_name": "综合干预改善急性卟啉病预后",
+    "head": {
+      "is_negative": false,
+      "name": "预后改善",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "急性卟啉病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "X",
+          "及时诊断",
+          "可实施"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "X",
+          "快速控制急性发作",
+          "可实施"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "X",
+          "预防减少发作",
+          "可实施"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗措施",
+        "arguments": [
+          "X",
+          "血红素"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "大部分急性卟啉病患者长期结局良好，急性发作通常可恢复，但某些患者可能反复发作，严重的急性卟啉病发作可能危及生命，尤其在未确诊、未能解释症状的患者中更严重。如能及时诊断、快速控制急性发作以及预防减少发作，可以改善患者预后，尤其是血红素治疗可进一步降低严重的急性肝卟啉病的死亡率。急性卟啉病的潜在长期并发症包括肾功能受损、肝功能异常和肝细胞肝癌。"
+  },
+  {
+    "rule_name": "急性卟啉病长期并发症_肾功能受损",
+    "head": {
+      "is_negative": false,
+      "name": "长期并发症",
+      "arguments": [
+        "X",
+        "肾功能受损"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "急性卟啉病患者",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "大部分急性卟啉病患者长期结局良好，急性发作通常可恢复，但某些患者可能反复发作，严重的急性卟啉病发作可能危及生命，尤其在未确诊、未能解释症状的患者中更严重。如能及时诊断、快速控制急性发作以及预防减少发作，可以改善患者预后，尤其是血红素治疗可进一步降低严重的急性肝卟啉病的死亡率。急性卟啉病的潜在长期并发症包括肾功能受损、肝功能异常和肝细胞肝癌。"
+  },
+  {
+    "rule_name": "急性卟啉病长期并发症_肝功能异常",
+    "head": {
+      "is_negative": false,
+      "name": "长期并发症",
+      "arguments": [
+        "X",
+        "肝功能异常"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "急性卟啉病患者",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "大部分急性卟啉病患者长期结局良好，急性发作通常可恢复，但某些患者可能反复发作，严重的急性卟啉病发作可能危及生命，尤其在未确诊、未能解释症状的患者中更严重。如能及时诊断、快速控制急性发作以及预防减少发作，可以改善患者预后，尤其是血红素治疗可进一步降低严重的急性肝卟啉病的死亡率。急性卟啉病的潜在长期并发症包括肾功能受损、肝功能异常和肝细胞肝癌。"
+  },
+  {
+    "rule_name": "急性卟啉病长期并发症_肝细胞肝癌",
+    "head": {
+      "is_negative": false,
+      "name": "长期并发症",
+      "arguments": [
+        "X",
+        "肝细胞肝癌"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "急性卟啉病患者",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "大部分急性卟啉病患者长期结局良好，急性发作通常可恢复，但某些患者可能反复发作，严重的急性卟啉病发作可能危及生命，尤其在未确诊、未能解释症状的患者中更严重。如能及时诊断、快速控制急性发作以及预防减少发作，可以改善患者预后，尤其是血红素治疗可进一步降低严重的急性肝卟啉病的死亡率。急性卟啉病的潜在长期并发症包括肾功能受损、肝功能异常和肝细胞肝癌。"
+  },
+  {
+    "rule_name": "卟啉病病因与核心病理",
+    "head": {
+      "is_negative": false,
+      "name": "代谢性疾病",
+      "arguments": [
+        "X",
+        "卟啉病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "酶活性缺乏",
+        "arguments": [
+          "X",
+          "血红素生物合成途径"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "X",
+          "浓度升高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "蓄积",
+        "arguments": [
+          "浓度升高",
+          "组织"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "造成",
+        "arguments": [
+          "蓄积",
+          "细胞损伤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "生理状态"
+    },
+    "source_text": "卟啉病（Porphyria）是由于血红素生物合成途径中的酶活性缺乏，引起卟啉或其前体［如δ⁃氨基乙酰丙酸（delta⁃aminolevulinic acid，δ⁃ALA）和卟胆原（porphobilinogen，PBG）］浓度异常升高，并在组织中蓄积，造成细胞损伤而引起的一类代谢性疾病。"
+  },
+  {
+    "rule_name": "血红素合成路径_初始反应",
+    "head": {
+      "is_negative": false,
+      "name": "催化合成",
+      "arguments": [
+        "ALAS",
+        "δ⁃ALA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "底物",
+        "arguments": [
+          "反应",
+          "甘氨酸"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "底物",
+        "arguments": [
+          "反应",
+          "琥珀酰辅酶A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "酶",
+        "arguments": [
+          "反应",
+          "ALAS"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "产物",
+        "arguments": [
+          "反应",
+          "δ⁃ALA"
+        ]
+      }
+    ],
+    "variables": {
+      "ALAS": "酶实体",
+      "反应": "化学反应事件"
+    },
+    "source_text": "血红素的合成经过一系列酶促反应：甘氨酸与琥珀酰辅酶A在5⁃氨基乙酰丙酸合成酶（ALAS）作用下合成δ⁃ALA，经ALA脱水酶催化形成PBG。"
+  },
+  {
+    "rule_name": "血红素合成路径_后续反应链",
+    "head": {
+      "is_negative": false,
+      "name": "合成血红素",
+      "arguments": [
+        "路径"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "催化转化",
+        "arguments": [
+          "ALA脱水酶",
+          "δ⁃ALA",
+          "PBG"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "催化合成",
+        "arguments": [
+          "HMBS与尿卟啉原合成酶",
+          "PBG",
+          "尿卟啉原"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转化",
+        "arguments": [
+          "尿卟啉原",
+          "粪卟啉原"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转化",
+        "arguments": [
+          "粪卟啉原",
+          "原卟啉原Ⅸ"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "形成",
+        "arguments": [
+          "原卟啉原Ⅸ",
+          "原卟啉Ⅸ"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "催化结合",
+        "arguments": [
+          "亚铁螯合酶",
+          "原卟啉Ⅸ",
+          "二价铁",
+          "血红素"
+        ]
+      }
+    ],
+    "variables": {
+      "路径": "合成过程"
+    },
+    "source_text": "多数PBG在羟甲基胆素合成酶（HMBS）和尿卟啉原合成酶作用下合成尿卟啉原，再转化为粪卟啉原、原卟啉原Ⅸ，形成原卟啉Ⅸ，在亚铁螯合酶催化下与二价铁结合成血红素。"
+  },
+  {
+    "rule_name": "X连锁原卟啉病遗传与生化机制",
+    "head": {
+      "is_negative": false,
+      "name": "疾病实体",
+      "arguments": [
+        "XLPP",
+        "卟啉病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "基因定位",
+        "arguments": [
+          "ALAS2",
+          "X染色体"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "编码酶",
+        "arguments": [
+          "ALAS2",
+          "ALAS"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "突变类型",
+        "arguments": [
+          "ALAS2",
+          "功能获得性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "遗传方式",
+        "arguments": [
+          "XLPP",
+          "X连锁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "突变",
+          "XLPP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生化表现",
+        "arguments": [
+          "XLPP",
+          "原卟啉增加"
+        ]
+      }
+    ],
+    "variables": {
+      "XLPP": "疾病实体",
+      "ALAS2": "基因实体"
+    },
+    "source_text": "（1）X连锁原卟啉病（XLPP）：ALAS2基因位于X染色体，编码血红素生物合成途径的初始酶，ALAS2基因功能获得性突变引起XLPP，又称为X⁃连锁红细胞生成性原卟啉病（XLEPP），遗传方式为X⁃连锁遗传。患者红细胞中原卟啉生成增加，锌原卟啉增加。"
+  },
+  {
+    "rule_name": "皮肤活检的鉴别诊断作用与常见镜下表现",
+    "head": {
+      "is_negative": false,
+      "name": "皮肤活检样本",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "具有病理表现",
+        "arguments": [
+          "X",
+          "毛虫小体"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有染色特征",
+        "arguments": [
+          "X",
+          "PAS血管周围沉积"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用于鉴别诊断",
+        "arguments": [
+          "X",
+          "其他光敏性皮肤病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用于鉴别诊断",
+        "arguments": [
+          "X",
+          "其他大疱性皮肤病"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "用于确诊",
+        "arguments": [
+          "X",
+          "卟啉病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "皮肤活检样本"
+    },
+    "source_text": "4.组织活检：（1）皮肤活检：皮肤活检不能用于确诊卟啉病，但有助于与其他光敏性或大疱性皮肤病鉴别。显微镜下可见表皮内“毛虫小体”，部分发疱性卟啉症可见表皮下乏炎症性裂隙性大疱形成。PAS染色可见血管周围嗜伊红物质沉积。（2）肝脏活检：如果出现肝功能异常，应该评估并治疗引起肝病的其他原因。"
+  },
+  {
+    "rule_name": "发疱性卟啉症患者的皮肤活检特殊表现",
+    "head": {
+      "is_negative": false,
+      "name": "可见病理表现",
+      "arguments": [
+        "X",
+        "表皮下乏炎症性裂隙性大疱"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "皮肤活检样本",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "Y",
+          "卟啉症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病亚型",
+        "arguments": [
+          "Y",
+          "发疱性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "皮肤活检样本",
+      "Y": "患者"
+    },
+    "source_text": "4.组织活检：（1）皮肤活检：皮肤活检不能用于确诊卟啉病，但有助于与其他光敏性或大疱性皮肤病鉴别。显微镜下可见表皮内“毛虫小体”，部分发疱性卟啉症可见表皮下乏炎症性裂隙性大疱形成。PAS染色可见血管周围嗜伊红物质沉积。（2）肝脏活检：如果出现肝功能异常，应该评估并治疗引起肝病的其他原因。"
+  },
+  {
+    "rule_name": "肝功能异常患者的肝脏活检评估要求",
+    "head": {
+      "is_negative": false,
+      "name": "需评估病因",
+      "arguments": [
+        "Z",
+        "其他肝病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "肝脏活检样本",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出现症状",
+        "arguments": [
+          "Y",
+          "肝功能异常"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需采取行动",
+        "arguments": [
+          "Z",
+          "治疗其他肝病"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "患者",
+      "Z": "肝脏活检样本"
+    },
+    "source_text": "4.组织活检：（1）皮肤活检：皮肤活检不能用于确诊卟啉病，但有助于与其他光敏性或大疱性皮肤病鉴别。显微镜下可见表皮内“毛虫小体”，部分发疱性卟啉症可见表皮下乏炎症性裂隙性大疱形成。PAS染色可见血管周围嗜伊红物质沉积。（2）肝脏活检：如果出现肝功能异常，应该评估并治疗引起肝病的其他原因。"
+  },
+  {
+    "rule_name": "先天性红细胞生成性卟啉病_CEP_致病逻辑",
+    "head": {
+      "is_negative": false,
+      "name": "患病",
+      "arguments": [
+        "X",
+        "先天性红细胞生成性卟啉病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "致病基因突变",
+        "arguments": [
+          "X",
+          "UROS基因"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "X",
+          "尿卟啉原Ⅲ合成酶活性降低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "X",
+          "尿卟啉Ⅰ及粪卟啉Ⅰ积聚"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "X",
+          "皮肤光敏"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "X",
+          "溶血性贫血"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（4）先天性红细胞生成性卟啉病（CEP）：在血红素生物合成途径中，尿卟啉原Ⅲ合成酶（UROS）催化HMB转化为环化四吡咯尿卟啉原Ⅲ。UROS基因突变导致酶活性降低，引起尿卟啉Ⅰ及粪卟啉Ⅰ积聚，为常染色体隐性遗传。主要表现为皮肤光敏（慢性发疱性病变）和溶血性贫血。因牙齿、骨骼及尿液中含有过量的卟啉，通常呈红色或棕色，当暴露在紫外线下时可发出荧光。"
+  },
+  {
+    "rule_name": "家族性PCT_致病与皮肤表现逻辑",
+    "head": {
+      "is_negative": false,
+      "name": "患病",
+      "arguments": [
+        "X",
+        "迟发性皮肤卟啉病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "致病因素",
+        "arguments": [
+          "X",
+          "肝脏尿卟啉原脱羧酶活性降低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "X",
+          "尿卟啉原及高度羧基化卟啉肝脏蓄积"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出现在",
+        "arguments": [
+          "X",
+          "血浆和尿液"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "X",
+          "手背及阳光暴露区慢性水疱性皮肤损害"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病时期",
+        "arguments": [
+          "X",
+          "中晚年"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（5）家族性/散发性PCT：肝脏尿卟啉原脱羧酶（UROD）是血红素生物合成途径中的第5个酶，催化尿卟啉原发生脱羧反应生成粪卟啉原。肝脏UROD活性降低引起PCT，大量尿卟啉原和高度羧基化的卟啉在肝脏中蓄积，并出现在血浆和尿液中。PCT是最常见的人类卟啉病，通常在中年或晚年发病，患者表现为手背和其他阳光暴露区慢性水疱性皮肤损害；肝功能异常，肝活检镜下可见肝细胞内针状结晶的卟啉。"
+  },
+  {
+    "rule_name": "肝红细胞生成性卟啉病_HEP_致病与临床表现逻辑",
+    "head": {
+      "is_negative": false,
+      "name": "患病",
+      "arguments": [
+        "X",
+        "肝红细胞生成性卟啉病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "遗传形式",
+        "arguments": [
+          "X",
+          "家族型PCT纯合或复合杂合"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致病因素",
+        "arguments": [
+          "X",
+          "肝脏尿卟啉原脱羧酶活性显著降低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "X",
+          "慢性皮肤光敏性水疱"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "X",
+          "轻度贫血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病时期",
+        "arguments": [
+          "X",
+          "儿童期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病罕见性",
+        "arguments": [
+          "X",
+          "非常罕见"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "肝红细胞生成性卟啉病（HEP）是家族型PCT的纯合性或复合杂合性形式，由肝脏UROD活性显著降低所致，非常罕见，通常于儿童期发病，主要表现为慢性皮肤光敏性水疱，轻度贫血常见，可能伴有肝脾肿大。"
+  },
+  {
+    "rule_name": "遗传性粪卟啉病_HCP_致病与临床表现逻辑",
+    "head": {
+      "is_negative": false,
+      "name": "患病",
+      "arguments": [
+        "X",
+        "遗传性粪卟啉病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "致病基因突变",
+        "arguments": [
+          "X",
+          "CPOX基因"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "遗传方式",
+        "arguments": [
+          "X",
+          "杂合突变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "X",
+          "粪卟啉原氧化酶活性缺陷"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "X",
+          "急性神经内脏症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "X",
+          "起疱性皮肤损害"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（6）HCP：线粒体酶粪卟啉原氧化酶（CPOX）是血红素生物合成途径的第6个酶，催化粪卟啉原Ⅲ氧化脱羧为原卟啉原Ⅸ，CPOX基因的杂合突变导致酶活性缺陷引起HCP。临床表现为急性神经内脏症状和起疱性皮肤损害。"
+  },
+  {
+    "rule_name": "变异性卟啉病_VP_致病与皮肤表现逻辑",
+    "head": {
+      "is_negative": false,
+      "name": "患病",
+      "arguments": [
+        "X",
+        "变异性卟啉病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "致病基因突变",
+        "arguments": [
+          "X",
+          "PPOX基因"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "遗传方式",
+        "arguments": [
+          "X",
+          "常染色体显性遗传"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "X",
+          "原卟啉原氧化酶活性降低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "X",
+          "原卟啉原Ⅸ肝细胞内蓄积"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "X",
+          "光暴露区皮肤慢性起疱性皮损"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（7）VP：由原卟啉原氧化酶（PPOX）基因杂合突变导致的常染色体显性遗传病。PPOX基因编码血红素生物合成途径中的第7个酶，将原卟啉原Ⅸ氧化成原卟啉Ⅸ。酶活性降低导致原卟啉原Ⅸ蓄积于肝细胞内。以光暴露区皮肤慢性起疱性皮损和（或）急性神经内脏损害为特征。"
+  },
+  {
+    "rule_name": "变异性卟啉病_VP_致病与神经内脏表现逻辑",
+    "head": {
+      "is_negative": false,
+      "name": "患病",
+      "arguments": [
+        "X",
+        "变异性卟啉病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "致病基因突变",
+        "arguments": [
+          "X",
+          "PPOX基因"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "遗传方式",
+        "arguments": [
+          "X",
+          "常染色体显性遗传"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "X",
+          "原卟啉原氧化酶活性降低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引起",
+        "arguments": [
+          "X",
+          "原卟啉原Ⅸ肝细胞内蓄积"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "X",
+          "急性神经内脏损害"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（7）VP：由原卟啉原氧化酶（PPOX）基因杂合突变导致的常染色体显性遗传病。PPOX基因编码血红素生物合成途径中的第7个酶，将原卟啉原Ⅸ氧化成原卟啉Ⅸ。酶活性降低导致原卟啉原Ⅸ蓄积于肝细胞内。以光暴露区皮肤慢性起疱性皮损和（或）急性神经内脏损害为特征。"
+  },
+  {
+    "rule_name": "红细胞生成性原卟啉病_EPP_致病与主要症状逻辑",
+    "head": {
+      "is_negative": false,
+      "name": "患病",
+      "arguments": [
+        "X",
+        "红细胞生成性原卟啉病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "致病因素",
+        "arguments": [
+          "X",
+          "亚铁螯合酶缺乏"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "遗传方式",
+        "arguments": [
+          "X",
+          "常染色体显性遗传"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "X",
+          "光暴露后皮肤疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "X",
+          "光暴露后皮肤灼热感"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（8）EPP：亚铁螯合酶（FECH）在血红素形成的最终阶段将铁插入原卟啉Ⅸ环，FECH酶缺乏导致EPP，为常染色体显性遗传［5］。光暴露后皮肤疼痛和灼热感是EPP的主要症状。"
+  },
+  {
+    "rule_name": "EPP导致急性非发疱性皮肤光敏的机制",
+    "head": {
+      "is_negative": false,
+      "name": "主要症状",
+      "arguments": [
+        "X",
+        "急性非发疱性皮肤光敏"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "X",
+          "EPP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "酶缺乏",
+        "arguments": [
+          "X",
+          "FECH"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "物质积聚",
+        "arguments": [
+          "X",
+          "原卟啉Ⅸ",
+          "红细胞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "物质积聚",
+        "arguments": [
+          "X",
+          "原卟啉Ⅸ",
+          "血浆"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "EPP发病状态"
+    },
+    "source_text": "FECH缺乏影响骨髓红细胞前体细胞（有核红细胞和网织红细胞）中血红素的合成和锌原卟啉的形成，原卟啉在红细胞和血浆中积聚，引起烧灼感、偶伴疼痛性、非发疱性光敏反应，日晒后急性发病。原卟啉大量聚集在肝脏，可导致肝细胞和胆管细胞损伤，甚至出现严重肝功能衰竭。"
+  },
+  {
+    "rule_name": "EPP导致肝细胞和胆管细胞损伤的机制",
+    "head": {
+      "is_negative": false,
+      "name": "肝细胞损伤",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "X",
+          "EPP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "酶缺乏",
+        "arguments": [
+          "X",
+          "FECH"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "物质积聚",
+        "arguments": [
+          "X",
+          "原卟啉Ⅸ",
+          "肝脏"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胆管细胞损伤",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "EPP发病状态"
+    },
+    "source_text": "FECH缺乏影响骨髓红细胞前体细胞（有核红细胞和网织红细胞）中血红素的合成和锌原卟啉的形成，原卟啉在红细胞和血浆中积聚，引起烧灼感、偶伴疼痛性、非发疱性光敏反应，日晒后急性发病。原卟啉大量聚集在肝脏，可导致肝细胞和胆管细胞损伤，甚至出现严重肝功能衰竭。"
+  },
+  {
+    "rule_name": "神经症状型卟啉病发作期首选氯高铁血红素治疗",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "静脉输注氯高铁血红素",
+        "首选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "神经症状型卟啉病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病阶段",
+        "arguments": [
+          "X",
+          "急性发作期"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "2.神经症状型卟啉病：在发作期主要以支持治疗为主，维持体液平衡和纠正电解质紊乱，特别是低钠血症和低镁血症，缓解腹痛，改善精神症状及神经症状，输注氯高铁血红素以及补充葡萄糖以抑制ALA合成酶（ALAS1）。（1）静脉输注氯高铁血红素治疗：急性卟啉病发作的首选治疗，抑制ALAS1减少血红素前体及其副产物的累积，快速降低血浆和尿液PBG和ALA。及时给药通常能在4~5 d内迅速缓解发作。给药方案是使用25% 人白蛋白复溶，中心静脉导管给予3~4 mg/kg，1次/d，连用4 d。如果在4 d内未观察到完全缓解，可延长治疗时间。可安全用于妊娠期。多次治疗后可能发生铁过载。某些患者一周使用1次或2次氯高铁血红素能有效预防频繁的非周期性卟啉病发作。"
+  },
+  {
+    "rule_name": "妊娠期神经症状型卟啉病发作安全使用氯高铁血红素",
+    "head": {
+      "is_negative": false,
+      "name": "用药安全性",
+      "arguments": [
+        "X",
+        "静脉输注氯高铁血红素",
+        "安全"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "神经症状型卟啉病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病阶段",
+        "arguments": [
+          "X",
+          "急性发作期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生理状态",
+        "arguments": [
+          "X",
+          "妊娠期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗推荐",
+        "arguments": [
+          "X",
+          "静脉输注氯高铁血红素",
+          "首选"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "2.神经症状型卟啉病：在发作期主要以支持治疗为主，维持体液平衡和纠正电解质紊乱，特别是低钠血症和低镁血症，缓解腹痛，改善精神症状及神经症状，输注氯高铁血红素以及补充葡萄糖以抑制ALA合成酶（ALAS1）。（1）静脉输注氯高铁血红素治疗：急性卟啉病发作的首选治疗，抑制ALAS1减少血红素前体及其副产物的累积，快速降低血浆和尿液PBG和ALA。及时给药通常能在4~5 d内迅速缓解发作。给药方案是使用25% 人白蛋白复溶，中心静脉导管给予3~4 mg/kg，1次/d，连用4 d。如果在4 d内未观察到完全缓解，可延长治疗时间。可安全用于妊娠期。多次治疗后可能发生铁过载。某些患者一周使用1次或2次氯高铁血红素能有效预防频繁的非周期性卟啉病发作。"
+  },
+  {
+    "rule_name": "无法获得血红素时的发作期碳水化合物负荷替代治疗",
+    "head": {
+      "is_negative": false,
+      "name": "替代治疗",
+      "arguments": [
+        "X",
+        "碳水化合物负荷治疗",
+        "针对无法获得血红素"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "神经症状型卟啉病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病阶段",
+        "arguments": [
+          "X",
+          "急性发作期"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "资源可用性",
+        "arguments": [
+          "X",
+          "氯高铁血红素"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "2.神经症状型卟啉病：在发作期主要以支持治疗为主，维持体液平衡和纠正电解质紊乱，特别是低钠血症和低镁血症，缓解腹痛，改善精神症状及神经症状，输注氯高铁血红素以及补充葡萄糖以抑制ALA合成酶（ALAS1）。（2）碳水化合物负荷治疗：若不能获得血红素，则应给予葡萄糖进行碳水化合物负荷治疗。葡萄糖和其他碳水化合物可减少过氧化物酶体增殖物活化受体γ共激活因子1α（PGC1⁃α），介导肝脏ALAS1下调，减少卟啉前体的排泄。口服或静脉给予葡萄糖，剂量为300~400 g/d。低钠血症为AIP常见临床表现，需注意静脉给予葡萄糖时可能导致总液体摄入量增加，进一步加重低钠血症。"
+  },
+  {
+    "rule_name": "AIP患者静脉葡萄糖治疗需警示低钠血症风险",
+    "head": {
+      "is_negative": false,
+      "name": "治疗风险警示",
+      "arguments": [
+        "X",
+        "静脉给予葡萄糖",
+        "加重低钠血症"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病亚型",
+        "arguments": [
+          "X",
+          "急性间歇性卟啉病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "X",
+          "低钠血症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "静脉给予葡萄糖"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "2.神经症状型卟啉病：在发作期主要以支持治疗为主，维持体液平衡和纠正电解质紊乱，特别是低钠血症和低镁血症，缓解腹痛，改善精神症状及神经症状，输注氯高铁血红素以及补充葡萄糖以抑制ALA合成酶（ALAS1）。（2）碳水化合物负荷治疗：若不能获得血红素，则应给予葡萄糖进行碳水化合物负荷治疗。葡萄糖和其他碳水化合物可减少过氧化物酶体增殖物活化受体γ共激活因子1α（PGC1⁃α），介导肝脏ALAS1下调，减少卟啉前体的排泄。口服或静脉给予葡萄糖，剂量为300~400 g/d。低钠血症为AIP常见临床表现，需注意静脉给予葡萄糖时可能导致总液体摄入量增加，进一步加重低钠血症。"
+  },
+  {
+    "rule_name": "卟啉病发作期轻度疼痛的对乙酰氨基酚治疗",
+    "head": {
+      "is_negative": false,
+      "name": "对症用药推荐",
+      "arguments": [
+        "X",
+        "对乙酰氨基酚",
+        "针对轻度疼痛"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "神经症状型卟啉病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病阶段",
+        "arguments": [
+          "X",
+          "急性发作期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状类型",
+        "arguments": [
+          "Y",
+          "疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状程度",
+        "arguments": [
+          "Y",
+          "轻度"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疼痛症状"
+    },
+    "source_text": "2.神经症状型卟啉病：在发作期主要以支持治疗为主，维持体液平衡和纠正电解质紊乱，特别是低钠血症和低镁血症，缓解腹痛，改善精神症状及神经症状，输注氯高铁血红素以及补充葡萄糖以抑制ALA合成酶（ALAS1）。（3）疼痛控制：治疗轻度疼痛可采用对乙酰氨基酚，严重疼痛需采用阿片类镇痛药，例如吗啡、氢吗啡酮或芬太尼。哌替啶有引起癫痫发作的风险，不推荐使用。"
+  },
+  {
+    "rule_name": "卟啉病发作期严重疼痛的阿片类镇痛药治疗",
+    "head": {
+      "is_negative": false,
+      "name": "对症用药推荐",
+      "arguments": [
+        "X",
+        "阿片类镇痛药",
+        "针对严重疼痛"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "神经症状型卟啉病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病阶段",
+        "arguments": [
+          "X",
+          "急性发作期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状类型",
+        "arguments": [
+          "Y",
+          "疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状程度",
+        "arguments": [
+          "Y",
+          "严重"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疼痛症状"
+    },
+    "source_text": "2.神经症状型卟啉病：在发作期主要以支持治疗为主，维持体液平衡和纠正电解质紊乱，特别是低钠血症和低镁血症，缓解腹痛，改善精神症状及神经症状，输注氯高铁血红素以及补充葡萄糖以抑制ALA合成酶（ALAS1）。（3）疼痛控制：治疗轻度疼痛可采用对乙酰氨基酚，严重疼痛需采用阿片类镇痛药，例如吗啡、氢吗啡酮或芬太尼。哌替啶有引起癫痫发作的风险，不推荐使用。"
+  },
+  {
+    "rule_name": "卟啉病发作期疼痛禁用哌替啶",
+    "head": {
+      "is_negative": false,
+      "name": "用药禁忌",
+      "arguments": [
+        "X",
+        "哌替啶",
+        "禁止"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "神经症状型卟啉病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病阶段",
+        "arguments": [
+          "X",
+          "急性发作期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状类型",
+        "arguments": [
+          "Y",
+          "疼痛"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疼痛症状"
+    },
+    "source_text": "2.神经症状型卟啉病：在发作期主要以支持治疗为主，维持体液平衡和纠正电解质紊乱，特别是低钠血症和低镁血症，缓解腹痛，改善精神症状及神经症状，输注氯高铁血红素以及补充葡萄糖以抑制ALA合成酶（ALAS1）。（3）疼痛控制：治疗轻度疼痛可采用对乙酰氨基酚，严重疼痛需采用阿片类镇痛药，例如吗啡、氢吗啡酮或芬太尼。哌替啶有引起癫痫发作的风险，不推荐使用。"
+  },
+  {
+    "rule_name": "依赖尿卟啉测定导致EPP或XLPP诊断延误风险",
+    "head": {
+      "is_negative": false,
+      "name": "风险",
+      "arguments": [
+        "X",
+        "诊断延误",
+        "高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "X",
+          "EPP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生化指标",
+        "arguments": [
+          "X",
+          "尿卟啉水平",
+          "正常"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断方法",
+        "arguments": [
+          "Y",
+          "尿卟啉测定",
+          "依赖"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用诊断",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "检测项目",
+        "arguments": [
+          "X",
+          "红细胞原卟啉"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "诊断方法"
+    },
+    "source_text": "尿卟啉测定：急性卟啉病发作时尿卟啉增加。EPP和XLPP的尿卟啉水平不升高，因为原卟啉仅通过肝脏排泄，其尿PBG和ALA也正常，如果不检测红细胞原卟啉，可能导致诊断延误。尿卟啉升高也可见于非卟啉病，如肝病、铅中毒、饮酒、其他药物摄入或毒素所致。"
+  },
+  {
+    "rule_name": "依赖尿卟啉测定导致XLPP诊断延误风险",
+    "head": {
+      "is_negative": false,
+      "name": "风险",
+      "arguments": [
+        "X",
+        "诊断延误",
+        "高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "X",
+          "XLPP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生化指标",
+        "arguments": [
+          "X",
+          "尿卟啉水平",
+          "正常"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断方法",
+        "arguments": [
+          "Y",
+          "尿卟啉测定",
+          "依赖"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用诊断",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "检测项目",
+        "arguments": [
+          "X",
+          "红细胞原卟啉"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "诊断方法"
+    },
+    "source_text": "尿卟啉测定：急性卟啉病发作时尿卟啉增加。EPP和XLPP的尿卟啉水平不升高，因为原卟啉仅通过肝脏排泄，其尿PBG和ALA也正常，如果不检测红细胞原卟啉，可能导致诊断延误。尿卟啉升高也可见于非卟啉病，如肝病、铅中毒、饮酒、其他药物摄入或毒素所致。"
+  },
+  {
+    "rule_name": "非卟啉病因致尿卟啉升高可能误诊为卟啉病",
+    "head": {
+      "is_negative": false,
+      "name": "诊断风险",
+      "arguments": [
+        "X",
+        "误诊为卟啉病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "X",
+          "非卟啉病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发疾病",
+        "arguments": [
+          "X",
+          "肝病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生化指标",
+        "arguments": [
+          "X",
+          "尿卟啉水平",
+          "升高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断方法",
+        "arguments": [
+          "Z",
+          "尿卟啉测定",
+          "依赖"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用诊断",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "诊断方法"
+    },
+    "source_text": "尿卟啉测定：急性卟啉病发作时尿卟啉增加。EPP和XLPP的尿卟啉水平不升高，因为原卟啉仅通过肝脏排泄，其尿PBG和ALA也正常，如果不检测红细胞原卟啉，可能导致诊断延误。尿卟啉升高也可见于非卟啉病，如肝病、铅中毒、饮酒、其他药物摄入或毒素所致。"
+  },
+  {
+    "rule_name": "铅中毒致尿卟啉升高可能误诊为卟啉病",
+    "head": {
+      "is_negative": false,
+      "name": "诊断风险",
+      "arguments": [
+        "X",
+        "误诊为卟啉病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "X",
+          "非卟啉病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病因",
+        "arguments": [
+          "X",
+          "铅中毒"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生化指标",
+        "arguments": [
+          "X",
+          "尿卟啉水平",
+          "升高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断方法",
+        "arguments": [
+          "Z",
+          "尿卟啉测定",
+          "依赖"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用诊断",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "诊断方法"
+    },
+    "source_text": "尿卟啉测定：急性卟啉病发作时尿卟啉增加。EPP和XLPP的尿卟啉水平不升高，因为原卟啉仅通过肝脏排泄，其尿PBG和ALA也正常，如果不检测红细胞原卟啉，可能导致诊断延误。尿卟啉升高也可见于非卟啉病，如肝病、铅中毒、饮酒、其他药物摄入或毒素所致。"
+  }
+]

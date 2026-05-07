@@ -1,0 +1,1589 @@
+[
+  {
+    "rule_name": "不推荐对合并脓毒症的腹腔感染病人使用免疫球蛋白_基于证据与成本",
+    "head": {
+      "is_negative": false,
+      "name": "治疗不推荐",
+      "arguments": [
+        "X",
+        "免疫球蛋白",
+        "常规"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "腹腔感染病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脓毒症患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方案",
+        "arguments": [
+          "Y",
+          "免疫球蛋白"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "价格昂贵",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人",
+      "Y": "免疫球蛋白治疗"
+    },
+    "source_text": "8.3免疫调理推荐意见：对于合并脓毒症的腹腔感染病人，不推荐使用免疫球蛋白（低质量证据，条件推荐）。IAI 等导致的脓毒症其发病过程中不仅存在持续的炎症反应，亦存在免疫抑制。因此，在感染源控制、抗生素治疗和脏器支持的基础上，对机体进行免疫调理具有临床应用前景。对纳入1496例脓毒症病人的13项RCT研究进行Meta分析，由于存在一定的异质性，排除可能导致偏倚的6篇文献，发现给予免疫球蛋白不能降低病人总体病死率（RR：0.99，95%CI：0.84-1.16，P=0.87），也不能降低28 d 病死率（RR：0.65，95%CI：0.42-1.0，P=0.05），ICU 住院时间方面也未见差异（MD：-0.58，95%CI：-2.23-1.08）。目前的循证医学证据尚不支持给予成人脓毒症病人常规应用免疫球蛋白。而且免疫球蛋白制剂价格昂贵，不适合临床常规使用。因此，本指南制定专家组决定不推荐在成人脓毒症治疗中应用免疫球蛋白。"
+  },
+  {
+    "rule_name": "MSAP病情稳定且可延迟手术患者推荐晚期手术时机",
+    "head": {
+      "is_negative": false,
+      "name": "推荐手术时机",
+      "arguments": [
+        "X",
+        "晚期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "MSAP患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病情稳定",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "能够延迟手术",
+        "arguments": [
+          "X",
+          "晚期"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "RR：0.19，95%CI：0.06-0.47）和MODS发生率（RR: 0.43，95%CI：0.20-0.76；RR：0.18，95%CI：0.06-0.46），但无论早期还是晚期的开腹手术引流，在病死率和MODS 发生率中并未显示优势。证据质量为极低。（2）手术方式方面，内科非手术治疗、微创手术引流和开腹手术引流三者之间的MODS 发生率差异无统计学意义，但是微创手术引流可显著降低病死率（pair −wise RR：0.50，95% CI：0.21- 0.81；network RR：0.36，95%CI：0.16-0.64）。进一步比较经皮穿刺引流、内镜下引流和小切口引流等不同的微创手术引流方式对预后的影响，由于比较的文献较少，并未发现差异有统计学意义的降低病死率或者MODS发生率的干预方式［41］。证据质量为中等。本指南制定专家组结合循证医学证据和临床实践认为，若MSAP 病人病情稳定，能够延迟到晚期进行手术治疗，则预后更好。手术方式应遵循阶梯治疗原则，按非手术治疗、微创引流和开腹手术逐次递增。"
+  },
+  {
+    "rule_name": "MSAP病情稳定且可延迟手术患者推荐微创手术方式",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗方案",
+      "arguments": [
+        "X",
+        "微创手术引流"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "MSAP患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病情稳定",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "能够延迟手术",
+        "arguments": [
+          "X",
+          "晚期"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "RR：0.19，95%CI：0.06-0.47）和MODS发生率（RR: 0.43，95%CI：0.20-0.76；RR：0.18，95%CI：0.06-0.46），但无论早期还是晚期的开腹手术引流，在病死率和MODS 发生率中并未显示优势。证据质量为极低。（2）手术方式方面，内科非手术治疗、微创手术引流和开腹手术引流三者之间的MODS 发生率差异无统计学意义，但是微创手术引流可显著降低病死率（pair −wise RR：0.50，95% CI：0.21- 0.81；network RR：0.36，95%CI：0.16-0.64）。进一步比较经皮穿刺引流、内镜下引流和小切口引流等不同的微创手术引流方式对预后的影响，由于比较的文献较少，并未发现差异有统计学意义的降低病死率或者MODS发生率的干预方式［41］。证据质量为中等。本指南制定专家组结合循证医学证据和临床实践认为，若MSAP 病人病情稳定，能够延迟到晚期进行手术治疗，则预后更好。手术方式应遵循阶梯治疗原则，按非手术治疗、微创引流和开腹手术逐次递增。"
+  },
+  {
+    "rule_name": "使用NRS2002评估腹腔感染病人营养状况",
+    "head": {
+      "is_negative": false,
+      "name": "推荐操作",
+      "arguments": [
+        "X",
+        "使用NRS2002评估",
+        "营养状况"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腹腔感染"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "7营养治疗推荐意见：（1）推荐使用营养风险筛查量表2002（nutritional risk screening 2002，NRS2002）或危重病人营养风险量表（nutrition risk in critically ill，NUTRIC）评价腹腔感染病人的营养状况（BPS）。"
+  },
+  {
+    "rule_name": "使用NUTRIC评估腹腔感染病人营养状况",
+    "head": {
+      "is_negative": false,
+      "name": "推荐操作",
+      "arguments": [
+        "X",
+        "使用NUTRIC评估",
+        "营养状况"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腹腔感染"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "7营养治疗推荐意见：（1）推荐使用营养风险筛查量表2002（nutritional risk screening 2002，NRS2002）或危重病人营养风险量表（nutrition risk in critically ill，NUTRIC）评价腹腔感染病人的营养状况（BPS）。"
+  },
+  {
+    "rule_name": "存在营养不良风险的腹腔感染病人强烈推荐肠内营养",
+    "head": {
+      "is_negative": false,
+      "name": "营养治疗推荐",
+      "arguments": [
+        "X",
+        "肠内营养",
+        "强烈"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腹腔感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在风险",
+        "arguments": [
+          "X",
+          "营养不良"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "（2）腹腔感染病人若存在营养不良风险，推荐使用肠内或肠外营养对其进行营养治疗，以改善其预后（极低质量证据，强烈推荐）。"
+  },
+  {
+    "rule_name": "存在营养不良风险的腹腔感染病人强烈推荐肠外营养",
+    "head": {
+      "is_negative": false,
+      "name": "营养治疗推荐",
+      "arguments": [
+        "X",
+        "肠外营养",
+        "强烈"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腹腔感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在风险",
+        "arguments": [
+          "X",
+          "营养不良"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "（2）腹腔感染病人若存在营养不良风险，推荐使用肠内或肠外营养对其进行营养治疗，以改善其预后（极低质量证据，强烈推荐）。"
+  },
+  {
+    "rule_name": "可胃肠喂养腹腔感染病人早期强烈推荐肠内营养",
+    "head": {
+      "is_negative": false,
+      "name": "营养治疗推荐",
+      "arguments": [
+        "X",
+        "肠内营养",
+        "强烈"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腹腔感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "喂养能力",
+        "arguments": [
+          "X",
+          "可胃肠喂养"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时机要求",
+        "arguments": [
+          "X",
+          "24至72小时内"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "（3）对能够进行胃肠喂养的腹腔感染病人，应考虑在早期（24~72 h内）给予肠内营养治疗（中等或极低质量证据，强烈推荐）。"
+  },
+  {
+    "rule_name": "无法胃肠喂养腹腔感染病人尽早强烈推荐肠外营养",
+    "head": {
+      "is_negative": false,
+      "name": "营养治疗推荐",
+      "arguments": [
+        "X",
+        "肠外营养",
+        "强烈"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腹腔感染"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "喂养能力",
+        "arguments": [
+          "X",
+          "可胃肠喂养"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "（3）对无法进行胃肠喂养或胃肠喂养不耐受的腹腔感染病人，应尽早给予肠外营养治疗（极低质量证据，强烈推荐）。"
+  },
+  {
+    "rule_name": "胃肠喂养不耐受腹腔感染病人尽早强烈推荐肠外营养",
+    "head": {
+      "is_negative": false,
+      "name": "营养治疗推荐",
+      "arguments": [
+        "X",
+        "肠外营养",
+        "强烈"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腹腔感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在状态",
+        "arguments": [
+          "X",
+          "胃肠喂养不耐受"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "（3）对无法进行胃肠喂养或胃肠喂养不耐受的腹腔感染病人，应尽早给予肠外营养治疗（极低质量证据，强烈推荐）。"
+  },
+  {
+    "rule_name": "肠内营养能量不足腹腔感染病人条件推荐联合肠外营养",
+    "head": {
+      "is_negative": false,
+      "name": "营养治疗推荐",
+      "arguments": [
+        "X",
+        "联合肠外营养",
+        "条件"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腹腔感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前治疗",
+        "arguments": [
+          "X",
+          "肠内营养"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "能量达标",
+        "arguments": [
+          "X",
+          "目标供给"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "（3）若单纯给予肠内营养无法达到目标能量供给，可联合肠外营养进行治疗（低或极低质量证据，条件推荐）。"
+  },
+  {
+    "rule_name": "重度腹腔感染病人肠内营养初始低热量条件推荐",
+    "head": {
+      "is_negative": false,
+      "name": "热量给予推荐",
+      "arguments": [
+        "X",
+        "初始",
+        "20至25_kcal每kg每天"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腹腔感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病程度",
+        "arguments": [
+          "X",
+          "重度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前治疗",
+        "arguments": [
+          "X",
+          "肠内营养"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "（4）对重度腹腔感染病人进行肠内营养治疗时，建议初始给予的非蛋白热量为83.6~104.5 kJ/（kg·d）［20~25 kcal/（kg·d），1 cal=4.18 J］，在病人可耐受前提下逐步恢复至正常需要量(低/中等质量证据，条件推荐)。"
+  },
+  {
+    "rule_name": "重度腹腔感染无法肠内营养初始低热量肠外营养BPS推荐",
+    "head": {
+      "is_negative": false,
+      "name": "营养治疗推荐",
+      "arguments": [
+        "X",
+        "低热量肠外营养",
+        "BPS"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腹腔感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病程度",
+        "arguments": [
+          "X",
+          "重度"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "治疗可行",
+        "arguments": [
+          "X",
+          "肠内营养"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "（4）若无法实施肠内营养，可先给予低热量肠外营养（≤20 kcal/（kg·d）），随后需要根据病人的耐受性，实施肠内营养并增加肠内营养的量（BPS）。"
+  },
+  {
+    "rule_name": "轻中度腹腔感染肠外营养蛋白质给予条件推荐",
+    "head": {
+      "is_negative": false,
+      "name": "蛋白质给予推荐",
+      "arguments": [
+        "X",
+        "1.5_g每kg每天",
+        "条件"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腹腔感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病程度",
+        "arguments": [
+          "X",
+          "轻中度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前治疗",
+        "arguments": [
+          "X",
+          "肠外营养"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "（5）对轻中度腹腔感染病人进行肠外营养治疗时，蛋白质给予量建议为1.5 g/（kg·d）(极低质量证据，条件推荐)。"
+  },
+  {
+    "rule_name": "CRRT剂量亚组分析_低剂量35对比高剂量35_存活率未提高",
+    "head": {
+      "is_negative": false,
+      "name": "比较干预效果",
+      "arguments": [
+        "X",
+        "Y",
+        "低剂量阈值A",
+        "高剂量阈值B",
+        "存活率未显著提高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "研究",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脓毒症病人群体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "35 mL/(kg·h)",
+          "低剂量阈值A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "大于35 mL/(kg·h)",
+          "高剂量阈值B"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "一项Meta分析研究",
+      "Y": "被研究的脓毒症或脓毒症休克病人群体"
+    },
+    "source_text": "关于不同剂量的CRRT 对脓毒症的疗效，共纳入11篇RCT 研究，6 篇为英文，5 篇为中文。目前公认的高剂量CRRT 为不低于35 mL/（kg·h），入选的研究设定的高剂量、低剂量各不相同，因此，本Meta分析对不同剂量的CRRT行亚组分析，分别为≤35 mL/（kg · h）组vs. ＞35mL/（kg·h）组，35 mL/（kg·h）组vs. ＞35 mL/（kg·h）组，≤40mL/（kg·h）组vs. ＞40 mL/（kg·h）组，≤50 mL/（kg·h）组vs.＞50 mL/（kg·h）组，50 mL/（kg·h）组vs.＞50 mL/（kg·h）组，共5个亚组。Meta分析显示，相对于低剂量CRRT，高剂量CRRT不能显著提高脓毒症或脓毒症休克病人的存活率（RR：0.78，95%CI：0.47-1.29；RR：0.86，95%CI：0.69-1.06；RR：0.96，95%CI：0.84-1.08；RR：0.94，95%CI：0.84-1.05；RR：0.89，95%CI：0.47-1.08），证据质量为中等。"
+  },
+  {
+    "rule_name": "CRRT剂量亚组分析_剂量35对比高剂量35_存活率未提高",
+    "head": {
+      "is_negative": false,
+      "name": "比较干预效果",
+      "arguments": [
+        "X",
+        "Y",
+        "剂量阈值A",
+        "高剂量阈值B",
+        "存活率未显著提高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "研究",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脓毒症病人群体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "35 mL/(kg·h)",
+          "剂量阈值A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "大于35 mL/(kg·h)",
+          "高剂量阈值B"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "一项Meta分析研究",
+      "Y": "被研究的脓毒症或脓毒症休克病人群体"
+    },
+    "source_text": "关于不同剂量的CRRT 对脓毒症的疗效，共纳入11篇RCT 研究，6 篇为英文，5 篇为中文。目前公认的高剂量CRRT 为不低于35 mL/（kg·h），入选的研究设定的高剂量、低剂量各不相同，因此，本Meta分析对不同剂量的CRRT行亚组分析，分别为≤35 mL/（kg · h）组vs. ＞35mL/（kg·h）组，35 mL/（kg·h）组vs. ＞35 mL/（kg·h）组，≤40mL/（kg·h）组vs. ＞40 mL/（kg·h）组，≤50 mL/（kg·h）组vs.＞50 mL/（kg·h）组，50 mL/（kg·h）组vs.＞50 mL/（kg·h）组，共5个亚组。Meta分析显示，相对于低剂量CRRT，高剂量CRRT不能显著提高脓毒症或脓毒症休克病人的存活率（RR：0.78，95%CI：0.47-1.29；RR：0.86，95%CI：0.69-1.06；RR：0.96，95%CI：0.84-1.08；RR：0.94，95%CI：0.84-1.05；RR：0.89，95%CI：0.47-1.08），证据质量为中等。"
+  },
+  {
+    "rule_name": "CRRT剂量亚组分析_低剂量40对比高剂量40_存活率未提高",
+    "head": {
+      "is_negative": false,
+      "name": "比较干预效果",
+      "arguments": [
+        "X",
+        "Y",
+        "低剂量阈值C",
+        "高剂量阈值D",
+        "存活率未显著提高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "研究",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脓毒症病人群体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "小于等于40 mL/(kg·h)",
+          "低剂量阈值C"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "大于40 mL/(kg·h)",
+          "高剂量阈值D"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "一项Meta分析研究",
+      "Y": "被研究的脓毒症或脓毒症休克病人群体"
+    },
+    "source_text": "关于不同剂量的CRRT 对脓毒症的疗效，共纳入11篇RCT 研究，6 篇为英文，5 篇为中文。目前公认的高剂量CRRT 为不低于35 mL/（kg·h），入选的研究设定的高剂量、低剂量各不相同，因此，本Meta分析对不同剂量的CRRT行亚组分析，分别为≤35 mL/（kg · h）组vs. ＞35mL/（kg·h）组，35 mL/（kg·h）组vs. ＞35 mL/（kg·h）组，≤40mL/（kg·h）组vs. ＞40 mL/（kg·h）组，≤50 mL/（kg·h）组vs.＞50 mL/（kg·h）组，50 mL/（kg·h）组vs.＞50 mL/（kg·h）组，共5个亚组。Meta分析显示，相对于低剂量CRRT，高剂量CRRT不能显著提高脓毒症或脓毒症休克病人的存活率（RR：0.78，95%CI：0.47-1.29；RR：0.86，95%CI：0.69-1.06；RR：0.96，95%CI：0.84-1.08；RR：0.94，95%CI：0.84-1.05；RR：0.89，95%CI：0.47-1.08），证据质量为中等。"
+  },
+  {
+    "rule_name": "CRRT剂量亚组分析_低剂量50对比高剂量50_存活率未提高",
+    "head": {
+      "is_negative": false,
+      "name": "比较干预效果",
+      "arguments": [
+        "X",
+        "Y",
+        "低剂量阈值E",
+        "高剂量阈值F",
+        "存活率未显著提高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "研究",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脓毒症病人群体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "小于等于50 mL/(kg·h)",
+          "低剂量阈值E"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "大于50 mL/(kg·h)",
+          "高剂量阈值F"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "一项Meta分析研究",
+      "Y": "被研究的脓毒症或脓毒症休克病人群体"
+    },
+    "source_text": "关于不同剂量的CRRT 对脓毒症的疗效，共纳入11篇RCT 研究，6 篇为英文，5 篇为中文。目前公认的高剂量CRRT 为不低于35 mL/（kg·h），入选的研究设定的高剂量、低剂量各不相同，因此，本Meta分析对不同剂量的CRRT行亚组分析，分别为≤35 mL/（kg · h）组vs. ＞35mL/（kg·h）组，35 mL/（kg·h）组vs. ＞35 mL/（kg·h）组，≤40mL/（kg·h）组vs. ＞40 mL/（kg·h）组，≤50 mL/（kg·h）组vs.＞50 mL/（kg·h）组，50 mL/（kg·h）组vs.＞50 mL/（kg·h）组，共5个亚组。Meta分析显示，相对于低剂量CRRT，高剂量CRRT不能显著提高脓毒症或脓毒症休克病人的存活率（RR：0.78，95%CI：0.47-1.29；RR：0.86，95%CI：0.69-1.06；RR：0.96，95%CI：0.84-1.08；RR：0.94，95%CI：0.84-1.05；RR：0.89，95%CI：0.47-1.08），证据质量为中等。"
+  },
+  {
+    "rule_name": "CRRT剂量亚组分析_剂量50对比高剂量50_存活率未提高",
+    "head": {
+      "is_negative": false,
+      "name": "比较干预效果",
+      "arguments": [
+        "X",
+        "Y",
+        "剂量阈值G",
+        "高剂量阈值H",
+        "存活率未显著提高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "研究",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脓毒症病人群体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "50 mL/(kg·h)",
+          "剂量阈值G"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "大于50 mL/(kg·h)",
+          "高剂量阈值H"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "一项Meta分析研究",
+      "Y": "被研究的脓毒症或脓毒症休克病人群体"
+    },
+    "source_text": "关于不同剂量的CRRT 对脓毒症的疗效，共纳入11篇RCT 研究，6 篇为英文，5 篇为中文。目前公认的高剂量CRRT 为不低于35 mL/（kg·h），入选的研究设定的高剂量、低剂量各不相同，因此，本Meta分析对不同剂量的CRRT行亚组分析，分别为≤35 mL/（kg · h）组vs. ＞35mL/（kg·h）组，35 mL/（kg·h）组vs. ＞35 mL/（kg·h）组，≤40mL/（kg·h）组vs. ＞40 mL/（kg·h）组，≤50 mL/（kg·h）组vs.＞50 mL/（kg·h）组，50 mL/（kg·h）组vs.＞50 mL/（kg·h）组，共5个亚组。Meta分析显示，相对于低剂量CRRT，高剂量CRRT不能显著提高脓毒症或脓毒症休克病人的存活率（RR：0.78，95%CI：0.47-1.29；RR：0.86，95%CI：0.69-1.06；RR：0.96，95%CI：0.84-1.08；RR：0.94，95%CI：0.84-1.05；RR：0.89，95%CI：0.47-1.08），证据质量为中等。"
+  },
+  {
+    "rule_name": "临床疑似阑尾炎且超声诊断模糊时推荐CT",
+    "head": {
+      "is_negative": false,
+      "name": "推荐诊断方法",
+      "arguments": [
+        "X",
+        "CT",
+        "强烈"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似疾病",
+        "arguments": [
+          "X",
+          "急性阑尾炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行诊断活动",
+        "arguments": [
+          "Y",
+          "超声",
+          "针对X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断结果",
+        "arguments": [
+          "Y",
+          "模糊"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "诊断活动"
+    },
+    "source_text": "共14项研究对比超声、CT对急性阑尾炎的诊断，应用Meta-Disc 随机效应模型（由于存在显著异质性）进行诊断性Meta 分析。发现CT 诊断急性阑尾炎的敏感度0.917（95% CI：0.904- 0.929）、特异度0.944（95% CI：0.932-0.955）、AUC 0.9813。而超声诊断急性阑尾炎的敏感度0.867（95%CI：0.854-0.880）、特异度0.924（95%CI：0.912-0.924）、AUC 0.9567。考虑到CT的辐射以及对资源的占用要高于超声，本指南制定专家组推荐急性阑尾炎的诊断首选超声，尤其是青少年病人以及孕妇。若超声诊断模糊或阴性而临床疑似阑尾炎则推荐CT，对无辐射禁忌或超声不可获得，也推荐首选CT用于急性阑尾炎的诊断。"
+  },
+  {
+    "rule_name": "临床疑似阑尾炎且超声诊断阴性时推荐CT",
+    "head": {
+      "is_negative": false,
+      "name": "推荐诊断方法",
+      "arguments": [
+        "X",
+        "CT",
+        "强烈"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似疾病",
+        "arguments": [
+          "X",
+          "急性阑尾炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行诊断活动",
+        "arguments": [
+          "Y",
+          "超声",
+          "针对X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断结果",
+        "arguments": [
+          "Y",
+          "阴性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "诊断活动"
+    },
+    "source_text": "共14项研究对比超声、CT对急性阑尾炎的诊断，应用Meta-Disc 随机效应模型（由于存在显著异质性）进行诊断性Meta 分析。发现CT 诊断急性阑尾炎的敏感度0.917（95% CI：0.904- 0.929）、特异度0.944（95% CI：0.932-0.955）、AUC 0.9813。而超声诊断急性阑尾炎的敏感度0.867（95%CI：0.854-0.880）、特异度0.924（95%CI：0.912-0.924）、AUC 0.9567。考虑到CT的辐射以及对资源的占用要高于超声，本指南制定专家组推荐急性阑尾炎的诊断首选超声，尤其是青少年病人以及孕妇。若超声诊断模糊或阴性而临床疑似阑尾炎则推荐CT，对无辐射禁忌或超声不可获得，也推荐首选CT用于急性阑尾炎的诊断。"
+  },
+  {
+    "rule_name": "无辐射禁忌且临床疑似阑尾炎时首选CT",
+    "head": {
+      "is_negative": false,
+      "name": "推荐诊断方法",
+      "arguments": [
+        "X",
+        "CT",
+        "首选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似疾病",
+        "arguments": [
+          "X",
+          "急性阑尾炎"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "存在禁忌证",
+        "arguments": [
+          "X",
+          "辐射暴露"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "共14项研究对比超声、CT对急性阑尾炎的诊断，应用Meta-Disc 随机效应模型（由于存在显著异质性）进行诊断性Meta 分析。发现CT 诊断急性阑尾炎的敏感度0.917（95% CI：0.904- 0.929）、特异度0.944（95% CI：0.932-0.955）、AUC 0.9813。而超声诊断急性阑尾炎的敏感度0.867（95%CI：0.854-0.880）、特异度0.924（95%CI：0.912-0.924）、AUC 0.9567。考虑到CT的辐射以及对资源的占用要高于超声，本指南制定专家组推荐急性阑尾炎的诊断首选超声，尤其是青少年病人以及孕妇。若超声诊断模糊或阴性而临床疑似阑尾炎则推荐CT，对无辐射禁忌或超声不可获得，也推荐首选CT用于急性阑尾炎的诊断。"
+  },
+  {
+    "rule_name": "超声不可获得且临床疑似阑尾炎时首选CT",
+    "head": {
+      "is_negative": false,
+      "name": "推荐诊断方法",
+      "arguments": [
+        "X",
+        "CT",
+        "首选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似疾病",
+        "arguments": [
+          "X",
+          "急性阑尾炎"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "诊断方法可获得",
+        "arguments": [
+          "超声"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "共14项研究对比超声、CT对急性阑尾炎的诊断，应用Meta-Disc 随机效应模型（由于存在显著异质性）进行诊断性Meta 分析。发现CT 诊断急性阑尾炎的敏感度0.917（95% CI：0.904- 0.929）、特异度0.944（95% CI：0.932-0.955）、AUC 0.9813。而超声诊断急性阑尾炎的敏感度0.867（95%CI：0.854-0.880）、特异度0.924（95%CI：0.912-0.924）、AUC 0.9567。考虑到CT的辐射以及对资源的占用要高于超声，本指南制定专家组推荐急性阑尾炎的诊断首选超声，尤其是青少年病人以及孕妇。若超声诊断模糊或阴性而临床疑似阑尾炎则推荐CT，对无辐射禁忌或超声不可获得，也推荐首选CT用于急性阑尾炎的诊断。"
+  },
+  {
+    "rule_name": "考虑到辐射与资源占用对青少年患者首选超声诊断阑尾炎",
+    "head": {
+      "is_negative": false,
+      "name": "推荐诊断方法",
+      "arguments": [
+        "X",
+        "超声",
+        "首选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似疾病",
+        "arguments": [
+          "X",
+          "急性阑尾炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者类型",
+        "arguments": [
+          "X",
+          "青少年"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "共14项研究对比超声、CT对急性阑尾炎的诊断，应用Meta-Disc 随机效应模型（由于存在显著异质性）进行诊断性Meta 分析。发现CT 诊断急性阑尾炎的敏感度0.917（95% CI：0.904- 0.929）、特异度0.944（95% CI：0.932-0.955）、AUC 0.9813。而超声诊断急性阑尾炎的敏感度0.867（95%CI：0.854-0.880）、特异度0.924（95%CI：0.912-0.924）、AUC 0.9567。考虑到CT的辐射以及对资源的占用要高于超声，本指南制定专家组推荐急性阑尾炎的诊断首选超声，尤其是青少年病人以及孕妇。若超声诊断模糊或阴性而临床疑似阑尾炎则推荐CT，对无辐射禁忌或超声不可获得，也推荐首选CT用于急性阑尾炎的诊断。"
+  },
+  {
+    "rule_name": "考虑到辐射与资源占用对孕妇患者首选超声诊断阑尾炎",
+    "head": {
+      "is_negative": false,
+      "name": "推荐诊断方法",
+      "arguments": [
+        "X",
+        "超声",
+        "首选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似疾病",
+        "arguments": [
+          "X",
+          "急性阑尾炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者类型",
+        "arguments": [
+          "X",
+          "孕妇"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "共14项研究对比超声、CT对急性阑尾炎的诊断，应用Meta-Disc 随机效应模型（由于存在显著异质性）进行诊断性Meta 分析。发现CT 诊断急性阑尾炎的敏感度0.917（95% CI：0.904- 0.929）、特异度0.944（95% CI：0.932-0.955）、AUC 0.9813。而超声诊断急性阑尾炎的敏感度0.867（95%CI：0.854-0.880）、特异度0.924（95%CI：0.912-0.924）、AUC 0.9567。考虑到CT的辐射以及对资源的占用要高于超声，本指南制定专家组推荐急性阑尾炎的诊断首选超声，尤其是青少年病人以及孕妇。若超声诊断模糊或阴性而临床疑似阑尾炎则推荐CT，对无辐射禁忌或超声不可获得，也推荐首选CT用于急性阑尾炎的诊断。"
+  },
+  {
+    "rule_name": "早期微创手术引流降低SAP病死率",
+    "head": {
+      "is_negative": false,
+      "name": "手术效果",
+      "arguments": [
+        "Y",
+        "降低病死率",
+        "显著"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "重症急性胰腺炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术干预措施",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术时机",
+        "arguments": [
+          "Y",
+          "早期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术方式",
+        "arguments": [
+          "Y",
+          "微创手术引流"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术干预措施"
+    },
+    "source_text": "急性胰腺炎按严重程度可以分为3 级：轻度急性胰腺炎（mild acute pancreatitis，MAP）、中度重症急性胰腺炎（moderately severe acute pancreatitis，MSAP）和重症急性胰腺炎（severe acute pancreatitis，SAP），其中MSAP 和SAP预后最差。SAP 的治疗方式从上世纪80 年代主张早期积极手术进展到现在的个体化逐步治疗的尝试，主要的手术方式可分为微创手术引流和开腹手术引流，其中微创手术引流包括B 超或CT 导向下经皮穿刺引流、内镜引流和小切口引流；开腹手术引流包括经腹或经腹膜后途径的胰腺坏死组织清除并置管引流。有研究显示早期开腹手术引流并不能降低SAP病死率，而经皮穿刺引流、内镜引流和微创引流更有效［39-40］。本指南制定专家组入选13 项RCT 研究探讨SAP 的手术时机与方式。（1）手术时机方面，将不同时机的微创手术引流和开腹手术引流效果与非手术治疗进行比较后排序，网状分析结果发现无论是早期还是晚期的微创手术引流，均可以降低病死率（RR：0.43，95%CI：0.21-0.78；RR：0.19，95%CI：0.06-0.47）和MODS发生率（RR: 0.43，95%CI：0.20-0.76；RR：0.18，95%CI：0.06-0.46），但无论早期还是晚期的开腹手术引流，在病死率和MODS 发生率中并未显示优势。证据质量为极低。"
+  },
+  {
+    "rule_name": "晚期微创手术引流降低SAP病死率",
+    "head": {
+      "is_negative": false,
+      "name": "手术效果",
+      "arguments": [
+        "Y",
+        "降低病死率",
+        "显著"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "重症急性胰腺炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术干预措施",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术时机",
+        "arguments": [
+          "Y",
+          "晚期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术方式",
+        "arguments": [
+          "Y",
+          "微创手术引流"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术干预措施"
+    },
+    "source_text": "急性胰腺炎按严重程度可以分为3 级：轻度急性胰腺炎（mild acute pancreatitis，MAP）、中度重症急性胰腺炎（moderately severe acute pancreatitis，MSAP）和重症急性胰腺炎（severe acute pancreatitis，SAP），其中MSAP 和SAP预后最差。SAP 的治疗方式从上世纪80 年代主张早期积极手术进展到现在的个体化逐步治疗的尝试，主要的手术方式可分为微创手术引流和开腹手术引流，其中微创手术引流包括B 超或CT 导向下经皮穿刺引流、内镜引流和小切口引流；开腹手术引流包括经腹或经腹膜后途径的胰腺坏死组织清除并置管引流。有研究显示早期开腹手术引流并不能降低SAP病死率，而经皮穿刺引流、内镜引流和微创引流更有效［39-40］。本指南制定专家组入选13 项RCT 研究探讨SAP 的手术时机与方式。（1）手术时机方面，将不同时机的微创手术引流和开腹手术引流效果与非手术治疗进行比较后排序，网状分析结果发现无论是早期还是晚期的微创手术引流，均可以降低病死率（RR：0.43，95%CI：0.21-0.78；RR：0.19，95%CI：0.06-0.47）和MODS发生率（RR: 0.43，95%CI：0.20-0.76；RR：0.18，95%CI：0.06-0.46），但无论早期还是晚期的开腹手术引流，在病死率和MODS 发生率中并未显示优势。证据质量为极低。"
+  },
+  {
+    "rule_name": "早期微创手术引流降低SAP_MODS发生率",
+    "head": {
+      "is_negative": false,
+      "name": "手术效果",
+      "arguments": [
+        "Y",
+        "降低MODS发生率",
+        "显著"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "重症急性胰腺炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术干预措施",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术时机",
+        "arguments": [
+          "Y",
+          "早期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术方式",
+        "arguments": [
+          "Y",
+          "微创手术引流"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术干预措施"
+    },
+    "source_text": "急性胰腺炎按严重程度可以分为3 级：轻度急性胰腺炎（mild acute pancreatitis，MAP）、中度重症急性胰腺炎（moderately severe acute pancreatitis，MSAP）和重症急性胰腺炎（severe acute pancreatitis，SAP），其中MSAP 和SAP预后最差。SAP 的治疗方式从上世纪80 年代主张早期积极手术进展到现在的个体化逐步治疗的尝试，主要的手术方式可分为微创手术引流和开腹手术引流，其中微创手术引流包括B 超或CT 导向下经皮穿刺引流、内镜引流和小切口引流；开腹手术引流包括经腹或经腹膜后途径的胰腺坏死组织清除并置管引流。有研究显示早期开腹手术引流并不能降低SAP病死率，而经皮穿刺引流、内镜引流和微创引流更有效［39-40］。本指南制定专家组入选13 项RCT 研究探讨SAP 的手术时机与方式。（1）手术时机方面，将不同时机的微创手术引流和开腹手术引流效果与非手术治疗进行比较后排序，网状分析结果发现无论是早期还是晚期的微创手术引流，均可以降低病死率（RR：0.43，95%CI：0.21-0.78；RR：0.19，95%CI：0.06-0.47）和MODS发生率（RR: 0.43，95%CI：0.20-0.76；RR：0.18，95%CI：0.06-0.46），但无论早期还是晚期的开腹手术引流，在病死率和MODS 发生率中并未显示优势。证据质量为极低。"
+  },
+  {
+    "rule_name": "晚期微创手术引流降低SAP_MODS发生率",
+    "head": {
+      "is_negative": false,
+      "name": "手术效果",
+      "arguments": [
+        "Y",
+        "降低MODS发生率",
+        "显著"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "重症急性胰腺炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术干预措施",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术时机",
+        "arguments": [
+          "Y",
+          "晚期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术方式",
+        "arguments": [
+          "Y",
+          "微创手术引流"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "应用于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "手术干预措施"
+    },
+    "source_text": "急性胰腺炎按严重程度可以分为3 级：轻度急性胰腺炎（mild acute pancreatitis，MAP）、中度重症急性胰腺炎（moderately severe acute pancreatitis，MSAP）和重症急性胰腺炎（severe acute pancreatitis，SAP），其中MSAP 和SAP预后最差。SAP 的治疗方式从上世纪80 年代主张早期积极手术进展到现在的个体化逐步治疗的尝试，主要的手术方式可分为微创手术引流和开腹手术引流，其中微创手术引流包括B 超或CT 导向下经皮穿刺引流、内镜引流和小切口引流；开腹手术引流包括经腹或经腹膜后途径的胰腺坏死组织清除并置管引流。有研究显示早期开腹手术引流并不能降低SAP病死率，而经皮穿刺引流、内镜引流和微创引流更有效［39-40］。本指南制定专家组入选13 项RCT 研究探讨SAP 的手术时机与方式。（1）手术时机方面，将不同时机的微创手术引流和开腹手术引流效果与非手术治疗进行比较后排序，网状分析结果发现无论是早期还是晚期的微创手术引流，均可以降低病死率（RR：0.43，95%CI：0.21-0.78；RR：0.19，95%CI：0.06-0.47）和MODS发生率（RR: 0.43，95%CI：0.20-0.76；RR：0.18，95%CI：0.06-0.46），但无论早期还是晚期的开腹手术引流，在病死率和MODS 发生率中并未显示优势。证据质量为极低。"
+  },
+  {
+    "rule_name": "脓毒症患者可考虑在常规治疗基础上加用CRRT",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方式",
+      "arguments": [
+        "X",
+        "CRRT",
+        "加用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "脓毒症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗场景",
+        "arguments": [
+          "X",
+          "常规治疗基础上"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "CRRT 又称为连续性血液净化治疗，即通过体外循环不断地除去血液中物质的技术方法的统称。其最基本的物理原理是通过滤过、吸附和超滤，滤除机体的毒物、药物及各种生物因子。CRRT 可用于MODS、急性肾功能衰竭（acute kidney injury，AKI）等多种疾病的治疗［38］。鉴于CRRT能清除机体过高的炎性因子及维护体液平衡，CRRT亦被应用于脓毒症，但对脓毒症的治疗疗效尚存争议。对IAI 合并的脓毒症，CRRT 的应用亦存在争议。由于CRRT治疗IAI合并的脓毒症文献有限，本部分包括CRRT治疗各种病因导致的脓毒症。关于CRRT治疗脓毒症的疗效共纳入18篇RCT研究，7篇为英文，11篇为中文。在这些研究中，相比常规治疗和常规治疗加用CRRT 治疗脓毒症的疗效，主要评价指标为病死率及ICU 住院时间。Meta 分析结果发现，相对于单纯常规治疗，在常规治疗的基础上行CRRT 明显降低总病死率（RR：0.59，95%CI：0.46-0.71）和28 d 病死率（RR：0.56，95%CI：0.45-0.70），同时ICU 住院时间也显著缩短（MD：-4.13，95%CI：-6.27- -1.99）。另外，针对脓毒症伴有急性肾损伤的亚组分析发现，相对常规治疗，CRRT能降低脓毒症伴有急性肾损伤病人的病死率（RR：0.35，95%CI：0.22-0.54），证据质量为中等。关于不同剂量的CRRT 对脓毒症的疗效，共纳入11篇RCT 研究，6 篇为英文，5 篇为中文。"
+  },
+  {
+    "rule_name": "脓毒症患者可采用高剂量CRRT治疗",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方式",
+      "arguments": [
+        "X",
+        "CRRT",
+        "高剂量"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "脓毒症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "CRRT 又称为连续性血液净化治疗，即通过体外循环不断地除去血液中物质的技术方法的统称。其最基本的物理原理是通过滤过、吸附和超滤，滤除机体的毒物、药物及各种生物因子。CRRT 可用于MODS、急性肾功能衰竭（acute kidney injury，AKI）等多种疾病的治疗［38］。鉴于CRRT能清除机体过高的炎性因子及维护体液平衡，CRRT亦被应用于脓毒症，但对脓毒症的治疗疗效尚存争议。对IAI 合并的脓毒症，CRRT 的应用亦存在争议。由于CRRT治疗IAI合并的脓毒症文献有限，本部分包括CRRT治疗各种病因导致的脓毒症。关于CRRT治疗脓毒症的疗效共纳入18篇RCT研究，7篇为英文，11篇为中文。在这些研究中，相比常规治疗和常规治疗加用CRRT 治疗脓毒症的疗效，主要评价指标为病死率及ICU 住院时间。Meta 分析结果发现，相对于单纯常规治疗，在常规治疗的基础上行CRRT 明显降低总病死率（RR：0.59，95%CI：0.46-0.71）和28 d 病死率（RR：0.56，95%CI：0.45-0.70），同时ICU 住院时间也显著缩短（MD：-4.13，95%CI：-6.27- -1.99）。另外，针对脓毒症伴有急性肾损伤的亚组分析发现，相对常规治疗，CRRT能降低脓毒症伴有急性肾损伤病人的病死率（RR：0.35，95%CI：0.22-0.54），证据质量为中等。关于不同剂量的CRRT 对脓毒症的疗效，共纳入11篇RCT 研究，6 篇为英文，5 篇为中文。"
+  },
+  {
+    "rule_name": "脓毒症患者可采用常规低剂量CRRT治疗",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方式",
+      "arguments": [
+        "X",
+        "CRRT",
+        "常规低剂量"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "脓毒症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "CRRT 又称为连续性血液净化治疗，即通过体外循环不断地除去血液中物质的技术方法的统称。其最基本的物理原理是通过滤过、吸附和超滤，滤除机体的毒物、药物及各种生物因子。CRRT 可用于MODS、急性肾功能衰竭（acute kidney injury，AKI）等多种疾病的治疗［38］。鉴于CRRT能清除机体过高的炎性因子及维护体液平衡，CRRT亦被应用于脓毒症，但对脓毒症的治疗疗效尚存争议。对IAI 合并的脓毒症，CRRT 的应用亦存在争议。由于CRRT治疗IAI合并的脓毒症文献有限，本部分包括CRRT治疗各种病因导致的脓毒症。关于CRRT治疗脓毒症的疗效共纳入18篇RCT研究，7篇为英文，11篇为中文。在这些研究中，相比常规治疗和常规治疗加用CRRT 治疗脓毒症的疗效，主要评价指标为病死率及ICU 住院时间。Meta 分析结果发现，相对于单纯常规治疗，在常规治疗的基础上行CRRT 明显降低总病死率（RR：0.59，95%CI：0.46-0.71）和28 d 病死率（RR：0.56，95%CI：0.45-0.70），同时ICU 住院时间也显著缩短（MD：-4.13，95%CI：-6.27- -1.99）。另外，针对脓毒症伴有急性肾损伤的亚组分析发现，相对常规治疗，CRRT能降低脓毒症伴有急性肾损伤病人的病死率（RR：0.35，95%CI：0.22-0.54），证据质量为中等。关于不同剂量的CRRT 对脓毒症的疗效，共纳入11篇RCT 研究，6 篇为英文，5 篇为中文。"
+  },
+  {
+    "rule_name": "在常规治疗基础上行CRRT可降低脓毒症患者总病死率",
+    "head": {
+      "is_negative": false,
+      "name": "治疗效果",
+      "arguments": [
+        "X",
+        "降低总病死率"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "脓毒症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方式",
+        "arguments": [
+          "X",
+          "CRRT",
+          "在常规治疗基础上行"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "CRRT 又称为连续性血液净化治疗，即通过体外循环不断地除去血液中物质的技术方法的统称。其最基本的物理原理是通过滤过、吸附和超滤，滤除机体的毒物、药物及各种生物因子。CRRT 可用于MODS、急性肾功能衰竭（acute kidney injury，AKI）等多种疾病的治疗［38］。鉴于CRRT能清除机体过高的炎性因子及维护体液平衡，CRRT亦被应用于脓毒症，但对脓毒症的治疗疗效尚存争议。对IAI 合并的脓毒症，CRRT 的应用亦存在争议。由于CRRT治疗IAI合并的脓毒症文献有限，本部分包括CRRT治疗各种病因导致的脓毒症。关于CRRT治疗脓毒症的疗效共纳入18篇RCT研究，7篇为英文，11篇为中文。在这些研究中，相比常规治疗和常规治疗加用CRRT 治疗脓毒症的疗效，主要评价指标为病死率及ICU 住院时间。Meta 分析结果发现，相对于单纯常规治疗，在常规治疗的基础上行CRRT 明显降低总病死率（RR：0.59，95%CI：0.46-0.71）和28 d 病死率（RR：0.56，95%CI：0.45-0.70），同时ICU 住院时间也显著缩短（MD：-4.13，95%CI：-6.27- -1.99）。另外，针对脓毒症伴有急性肾损伤的亚组分析发现，相对常规治疗，CRRT能降低脓毒症伴有急性肾损伤病人的病死率（RR：0.35，95%CI：0.22-0.54），证据质量为中等。关于不同剂量的CRRT 对脓毒症的疗效，共纳入11篇RCT 研究，6 篇为英文，5 篇为中文。"
+  },
+  {
+    "rule_name": "在常规治疗基础上行CRRT可降低脓毒症患者28天病死率",
+    "head": {
+      "is_negative": false,
+      "name": "治疗效果",
+      "arguments": [
+        "X",
+        "降低28天病死率"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "脓毒症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方式",
+        "arguments": [
+          "X",
+          "CRRT",
+          "在常规治疗基础上行"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "CRRT 又称为连续性血液净化治疗，即通过体外循环不断地除去血液中物质的技术方法的统称。其最基本的物理原理是通过滤过、吸附和超滤，滤除机体的毒物、药物及各种生物因子。CRRT 可用于MODS、急性肾功能衰竭（acute kidney injury，AKI）等多种疾病的治疗［38］。鉴于CRRT能清除机体过高的炎性因子及维护体液平衡，CRRT亦被应用于脓毒症，但对脓毒症的治疗疗效尚存争议。对IAI 合并的脓毒症，CRRT 的应用亦存在争议。由于CRRT治疗IAI合并的脓毒症文献有限，本部分包括CRRT治疗各种病因导致的脓毒症。关于CRRT治疗脓毒症的疗效共纳入18篇RCT研究，7篇为英文，11篇为中文。在这些研究中，相比常规治疗和常规治疗加用CRRT 治疗脓毒症的疗效，主要评价指标为病死率及ICU 住院时间。Meta 分析结果发现，相对于单纯常规治疗，在常规治疗的基础上行CRRT 明显降低总病死率（RR：0.59，95%CI：0.46-0.71）和28 d 病死率（RR：0.56，95%CI：0.45-0.70），同时ICU 住院时间也显著缩短（MD：-4.13，95%CI：-6.27- -1.99）。另外，针对脓毒症伴有急性肾损伤的亚组分析发现，相对常规治疗，CRRT能降低脓毒症伴有急性肾损伤病人的病死率（RR：0.35，95%CI：0.22-0.54），证据质量为中等。关于不同剂量的CRRT 对脓毒症的疗效，共纳入11篇RCT 研究，6 篇为英文，5 篇为中文。"
+  },
+  {
+    "rule_name": "在常规治疗基础上行CRRT可缩短脓毒症患者ICU住院时间",
+    "head": {
+      "is_negative": false,
+      "name": "治疗效果",
+      "arguments": [
+        "X",
+        "缩短ICU住院时间"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "脓毒症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方式",
+        "arguments": [
+          "X",
+          "CRRT",
+          "在常规治疗基础上行"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "CRRT 又称为连续性血液净化治疗，即通过体外循环不断地除去血液中物质的技术方法的统称。其最基本的物理原理是通过滤过、吸附和超滤，滤除机体的毒物、药物及各种生物因子。CRRT 可用于MODS、急性肾功能衰竭（acute kidney injury，AKI）等多种疾病的治疗［38］。鉴于CRRT能清除机体过高的炎性因子及维护体液平衡，CRRT亦被应用于脓毒症，但对脓毒症的治疗疗效尚存争议。对IAI 合并的脓毒症，CRRT 的应用亦存在争议。由于CRRT治疗IAI合并的脓毒症文献有限，本部分包括CRRT治疗各种病因导致的脓毒症。关于CRRT治疗脓毒症的疗效共纳入18篇RCT研究，7篇为英文，11篇为中文。在这些研究中，相比常规治疗和常规治疗加用CRRT 治疗脓毒症的疗效，主要评价指标为病死率及ICU 住院时间。Meta 分析结果发现，相对于单纯常规治疗，在常规治疗的基础上行CRRT 明显降低总病死率（RR：0.59，95%CI：0.46-0.71）和28 d 病死率（RR：0.56，95%CI：0.45-0.70），同时ICU 住院时间也显著缩短（MD：-4.13，95%CI：-6.27- -1.99）。另外，针对脓毒症伴有急性肾损伤的亚组分析发现，相对常规治疗，CRRT能降低脓毒症伴有急性肾损伤病人的病死率（RR：0.35，95%CI：0.22-0.54），证据质量为中等。关于不同剂量的CRRT 对脓毒症的疗效，共纳入11篇RCT 研究，6 篇为英文，5 篇为中文。"
+  },
+  {
+    "rule_name": "CRRT可降低伴有急性肾损伤的脓毒症患者病死率",
+    "head": {
+      "is_negative": false,
+      "name": "治疗效果",
+      "arguments": [
+        "X",
+        "降低病死率"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "脓毒症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发疾病",
+        "arguments": [
+          "X",
+          "急性肾损伤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方式",
+        "arguments": [
+          "X",
+          "CRRT",
+          "应用"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "CRRT 又称为连续性血液净化治疗，即通过体外循环不断地除去血液中物质的技术方法的统称。其最基本的物理原理是通过滤过、吸附和超滤，滤除机体的毒物、药物及各种生物因子。CRRT 可用于MODS、急性肾功能衰竭（acute kidney injury，AKI）等多种疾病的治疗［38］。鉴于CRRT能清除机体过高的炎性因子及维护体液平衡，CRRT亦被应用于脓毒症，但对脓毒症的治疗疗效尚存争议。对IAI 合并的脓毒症，CRRT 的应用亦存在争议。由于CRRT治疗IAI合并的脓毒症文献有限，本部分包括CRRT治疗各种病因导致的脓毒症。关于CRRT治疗脓毒症的疗效共纳入18篇RCT研究，7篇为英文，11篇为中文。在这些研究中，相比常规治疗和常规治疗加用CRRT 治疗脓毒症的疗效，主要评价指标为病死率及ICU 住院时间。Meta 分析结果发现，相对于单纯常规治疗，在常规治疗的基础上行CRRT 明显降低总病死率（RR：0.59，95%CI：0.46-0.71）和28 d 病死率（RR：0.56，95%CI：0.45-0.70），同时ICU 住院时间也显著缩短（MD：-4.13，95%CI：-6.27- -1.99）。另外，针对脓毒症伴有急性肾损伤的亚组分析发现，相对常规治疗，CRRT能降低脓毒症伴有急性肾损伤病人的病死率（RR：0.35，95%CI：0.22-0.54），证据质量为中等。关于不同剂量的CRRT 对脓毒症的疗效，共纳入11篇RCT 研究，6 篇为英文，5 篇为中文。"
+  }
+]

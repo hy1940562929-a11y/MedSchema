@@ -1,0 +1,1079 @@
+[
+  {
+    "rule_name": "糖尿病足患者未合并CVD的低密度脂蛋白控制目标",
+    "head": {
+      "is_negative": false,
+      "name": "血脂控制目标",
+      "arguments": [
+        "X",
+        "低密度脂蛋白",
+        "<2.6 mmol/L"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "合并疾病",
+        "arguments": [
+          "X",
+          "CVD"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "2.4血脂低密度脂蛋白控制目标视患者是否合并冠状动脉粥样硬化性心脏病(cardiovascular disease，CVD)有相应调整，未合并CVD患者目标为<2.6 mmol/L(约100 mg/dL)，合并CVD患者控制目标应更加严苛，为< 1.8 mmol/L(约70 mg/dL)。高密度脂蛋白控制目标在性别稍有不同，男性患者控制目标为>1.0 mmol/L( 约40 mg/dL)，女性患者目标为>1.3 mmol/L(约50 mg/dL)。甘油三酯应<1.7 mmol/L(约150 mg/dL)。"
+  },
+  {
+    "rule_name": "糖尿病足患者合并CVD的低密度脂蛋白控制目标",
+    "head": {
+      "is_negative": false,
+      "name": "血脂控制目标",
+      "arguments": [
+        "X",
+        "低密度脂蛋白",
+        "<1.8 mmol/L"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "X",
+          "CVD"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "2.4血脂低密度脂蛋白控制目标视患者是否合并冠状动脉粥样硬化性心脏病(cardiovascular disease，CVD)有相应调整，未合并CVD患者目标为<2.6 mmol/L(约100 mg/dL)，合并CVD患者控制目标应更加严苛，为< 1.8 mmol/L(约70 mg/dL)。高密度脂蛋白控制目标在性别稍有不同，男性患者控制目标为>1.0 mmol/L( 约40 mg/dL)，女性患者目标为>1.3 mmol/L(约50 mg/dL)。甘油三酯应<1.7 mmol/L(约150 mg/dL)。"
+  },
+  {
+    "rule_name": "男性糖尿病足患者的高密度脂蛋白控制目标",
+    "head": {
+      "is_negative": false,
+      "name": "血脂控制目标",
+      "arguments": [
+        "X",
+        "高密度脂蛋白",
+        ">1.0 mmol/L"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "性别",
+        "arguments": [
+          "X",
+          "男性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "2.4血脂低密度脂蛋白控制目标视患者是否合并冠状动脉粥样硬化性心脏病(cardiovascular disease，CVD)有相应调整，未合并CVD患者目标为<2.6 mmol/L(约100 mg/dL)，合并CVD患者控制目标应更加严苛，为< 1.8 mmol/L(约70 mg/dL)。高密度脂蛋白控制目标在性别稍有不同，男性患者控制目标为>1.0 mmol/L( 约40 mg/dL)，女性患者目标为>1.3 mmol/L(约50 mg/dL)。甘油三酯应<1.7 mmol/L(约150 mg/dL)。"
+  },
+  {
+    "rule_name": "女性糖尿病足患者的高密度脂蛋白控制目标",
+    "head": {
+      "is_negative": false,
+      "name": "血脂控制目标",
+      "arguments": [
+        "X",
+        "高密度脂蛋白",
+        ">1.3 mmol/L"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "性别",
+        "arguments": [
+          "X",
+          "女性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "2.4血脂低密度脂蛋白控制目标视患者是否合并冠状动脉粥样硬化性心脏病(cardiovascular disease，CVD)有相应调整，未合并CVD患者目标为<2.6 mmol/L(约100 mg/dL)，合并CVD患者控制目标应更加严苛，为< 1.8 mmol/L(约70 mg/dL)。高密度脂蛋白控制目标在性别稍有不同，男性患者控制目标为>1.0 mmol/L( 约40 mg/dL)，女性患者目标为>1.3 mmol/L(约50 mg/dL)。甘油三酯应<1.7 mmol/L(约150 mg/dL)。"
+  },
+  {
+    "rule_name": "糖尿病足患者的甘油三酯控制目标",
+    "head": {
+      "is_negative": false,
+      "name": "血脂控制目标",
+      "arguments": [
+        "X",
+        "甘油三酯",
+        "<1.7 mmol/L"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足患者",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "2.4血脂低密度脂蛋白控制目标视患者是否合并冠状动脉粥样硬化性心脏病(cardiovascular disease，CVD)有相应调整，未合并CVD患者目标为<2.6 mmol/L(约100 mg/dL)，合并CVD患者控制目标应更加严苛，为< 1.8 mmol/L(约70 mg/dL)。高密度脂蛋白控制目标在性别稍有不同，男性患者控制目标为>1.0 mmol/L( 约40 mg/dL)，女性患者目标为>1.3 mmol/L(约50 mg/dL)。甘油三酯应<1.7 mmol/L(约150 mg/dL)。"
+  },
+  {
+    "rule_name": "糖尿病足患者进行科学营养评估",
+    "head": {
+      "is_negative": false,
+      "name": "应执行",
+      "arguments": [
+        "X",
+        "Y",
+        "科学营养评估"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "营养评估工具",
+        "arguments": [
+          "Y",
+          "患者主观整体评估"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "营养评估工具",
+        "arguments": [
+          "Y",
+          "微营养评估"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估目的",
+        "arguments": [
+          "Y",
+          "提出治疗目标"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "营养评估"
+    },
+    "source_text": "Diabetic Foot Group, Committee of Peripheral Vascular Disease, China Society of Integrated Traditional Chinese and Western Medicine Abstract BACKGROUND: Diabetic foot is most serious and costly chronic complication of diabetes mellitus. Multidisciplinary comprehensive treatment should be advocated for its treatment. Among them, medical nutrition treatment should be paid enough attention. OBJECTIVE: By putting forward medical nutrition treatment suggestions, guiding clinical workers in the process of practice, scientific nutrition assessment and effective intervention, diabetic foot patients can benefit significantly through scientific medical nutrition treatment. METHODS: By referring to relevant international and domestic guidelines and literature, this paper puts forward suggestions for medical nutritional treatment on the evaluation of nutritional assessment scale, the purpose of nutritional therapy, dietary choice, energy requirements, macronutrient and micronutrient recommendations, follow-up and parenteral nutrition support for critical patients. 糖尿病足病患者应用患者主观整体评估患者主观整体评估及微营养评估，提出医学营养治疗目标推荐在各类饮食方式的基础上，经临床营养师指导，制定个体化饮食方案要求：制定个体化能量平衡计划；特异性补充微量营养素应对糖尿病足病患者进行科学营养评估以及有效的营养干预"
+  },
+  {
+    "rule_name": "基于评估目标制定个体化饮食方案",
+    "head": {
+      "is_negative": false,
+      "name": "应制定",
+      "arguments": [
+        "Z",
+        "个体化饮食方案"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估目标",
+        "arguments": [
+          "Y",
+          "医学营养治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指导者",
+        "arguments": [
+          "Z",
+          "临床营养师"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "方案基础",
+        "arguments": [
+          "Z",
+          "各类饮食方式"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "营养评估与目标",
+      "Z": "饮食方案"
+    },
+    "source_text": "Diabetic Foot Group, Committee of Peripheral Vascular Disease, China Society of Integrated Traditional Chinese and Western Medicine Abstract BACKGROUND: Diabetic foot is most serious and costly chronic complication of diabetes mellitus. Multidisciplinary comprehensive treatment should be advocated for its treatment. Among them, medical nutrition treatment should be paid enough attention. OBJECTIVE: By putting forward medical nutrition treatment suggestions, guiding clinical workers in the process of practice, scientific nutrition assessment and effective intervention, diabetic foot patients can benefit significantly through scientific medical nutrition treatment. METHODS: By referring to relevant international and domestic guidelines and literature, this paper puts forward suggestions for medical nutritional treatment on the evaluation of nutritional assessment scale, the purpose of nutritional therapy, dietary choice, energy requirements, macronutrient and micronutrient recommendations, follow-up and parenteral nutrition support for critical patients. 糖尿病足病患者应用患者主观整体评估患者主观整体评估及微营养评估，提出医学营养治疗目标推荐在各类饮食方式的基础上，经临床营养师指导，制定个体化饮食方案要求：制定个体化能量平衡计划；特异性补充微量营养素应对糖尿病足病患者进行科学营养评估以及有效的营养干预"
+  },
+  {
+    "rule_name": "个体化饮食方案需满足能量与微量营养素要求",
+    "head": {
+      "is_negative": false,
+      "name": "需满足",
+      "arguments": [
+        "Z",
+        "能量与营养素要求"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "个体化饮食方案",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组成部分",
+        "arguments": [
+          "Z",
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组成部分",
+        "arguments": [
+          "Z",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "计划类型",
+        "arguments": [
+          "W",
+          "个体化能量平衡计划"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "补充类型",
+        "arguments": [
+          "P",
+          "特异性微量营养素"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "饮食方案",
+      "W": "能量平衡计划",
+      "P": "微量营养素补充计划"
+    },
+    "source_text": "Diabetic Foot Group, Committee of Peripheral Vascular Disease, China Society of Integrated Traditional Chinese and Western Medicine Abstract BACKGROUND: Diabetic foot is most serious and costly chronic complication of diabetes mellitus. Multidisciplinary comprehensive treatment should be advocated for its treatment. Among them, medical nutrition treatment should be paid enough attention. OBJECTIVE: By putting forward medical nutrition treatment suggestions, guiding clinical workers in the process of practice, scientific nutrition assessment and effective intervention, diabetic foot patients can benefit significantly through scientific medical nutrition treatment. METHODS: By referring to relevant international and domestic guidelines and literature, this paper puts forward suggestions for medical nutritional treatment on the evaluation of nutritional assessment scale, the purpose of nutritional therapy, dietary choice, energy requirements, macronutrient and micronutrient recommendations, follow-up and parenteral nutrition support for critical patients. 糖尿病足病患者应用患者主观整体评估患者主观整体评估及微营养评估，提出医学营养治疗目标推荐在各类饮食方式的基础上，经临床营养师指导，制定个体化饮食方案要求：制定个体化能量平衡计划；特异性补充微量营养素应对糖尿病足病患者进行科学营养评估以及有效的营养干预"
+  },
+  {
+    "rule_name": "糖尿病足病作为糖尿病严重并发症的定义",
+    "head": {
+      "is_negative": false,
+      "name": "慢性并发症",
+      "arguments": [
+        "X",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "严重程度",
+        "arguments": [
+          "Y",
+          "最高级"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗费用",
+        "arguments": [
+          "Y",
+          "最高级"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可导致",
+        "arguments": [
+          "Y",
+          "截肢"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可导致",
+        "arguments": [
+          "Y",
+          "死亡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部病变",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病因",
+        "arguments": [
+          "Y",
+          "神经异常"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病因",
+        "arguments": [
+          "Y",
+          "血管病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病患者",
+      "Y": "糖尿病足病"
+    },
+    "source_text": "糖尿病足病是指糖尿病患者因下肢远端神经异常和不同程度的血管病变导致的足部感染、溃疡和(或)深层组织破坏，是糖尿病最严重和治疗费用最高的慢性并发症之一，重者可以导致截肢和死亡[1]。在全球范围内，糖尿病足患病率超过6%；中国糖尿病足平均患病率为5.7%[2]。在国内50岁以上糖尿病患者中，足部溃疡年新发病率为8.1%，治愈后年再发病率为31.6%[3]。关于此病的治疗，应倡导在由临床营养师、糖尿病专家、骨科和/或血管外科医师、造口伤口治疗师、足部矫形师及足病治疗师等组成的学科交叉的糖尿病足治疗中心[4-5]，进行包括生活方式干预、血糖控制、各种外科治疗[6]、创面管理等在内的多学科联合治疗方式。其中，生活方式干预作为糖尿病及其足病治疗的主要手段之一，在血糖控制的过程中，应作为口服药物治疗、胰岛素注射治疗及减重手术治疗的基础，并贯彻治疗过程全程[1]。除在患者可耐受范围内增加运动量，生活方式干预的另一重要组成部分，就是营养治疗，包括对患者一般营养情况进行科学评估，根据评估结果制定相应营养治疗计划，对患者实施情况监督及指导。对于因足部或其他部位创面限制体能锻炼的这一大类糖尿病患者而言，营养治疗就显得更加重要。难以愈合的创面同时还伴有持续且大量的血浆渗出及蛋白质丢失[4-5，7]，创面组织甚至全身炎症反应应答机制亢进，此类患者甚至需要更为积极的蛋白质及其他供能物质补充[8]，此时如何科学有效的提供相应营养支持，也是临床工作者非常关心的问题。有研究发现，在糖尿病足病Wagner 0-5级患者中，有超过60%患者合并不同程度的营养不良或营养失调[ 患者主观整体评估(patient-generated global assessment，PG-SGA)B级或C级][9]。"
+  },
+  {
+    "rule_name": "糖尿病足病治疗需在多学科中心进行",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗方式",
+      "arguments": [
+        "X",
+        "Z",
+        "倡导"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "多学科治疗中心",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组成人员",
+        "arguments": [
+          "Z",
+          "临床营养师"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组成人员",
+        "arguments": [
+          "Z",
+          "糖尿病专家"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组成人员",
+        "arguments": [
+          "Z",
+          "外科医师"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组成人员",
+        "arguments": [
+          "Z",
+          "伤口治疗师"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病足患者",
+      "Z": "多学科糖尿病足治疗中心"
+    },
+    "source_text": "糖尿病足病是指糖尿病患者因下肢远端神经异常和不同程度的血管病变导致的足部感染、溃疡和(或)深层组织破坏，是糖尿病最严重和治疗费用最高的慢性并发症之一，重者可以导致截肢和死亡[1]。在全球范围内，糖尿病足患病率超过6%；中国糖尿病足平均患病率为5.7%[2]。在国内50岁以上糖尿病患者中，足部溃疡年新发病率为8.1%，治愈后年再发病率为31.6%[3]。关于此病的治疗，应倡导在由临床营养师、糖尿病专家、骨科和/或血管外科医师、造口伤口治疗师、足部矫形师及足病治疗师等组成的学科交叉的糖尿病足治疗中心[4-5]，进行包括生活方式干预、血糖控制、各种外科治疗[6]、创面管理等在内的多学科联合治疗方式。其中，生活方式干预作为糖尿病及其足病治疗的主要手段之一，在血糖控制的过程中，应作为口服药物治疗、胰岛素注射治疗及减重手术治疗的基础，并贯彻治疗过程全程[1]。除在患者可耐受范围内增加运动量，生活方式干预的另一重要组成部分，就是营养治疗，包括对患者一般营养情况进行科学评估，根据评估结果制定相应营养治疗计划，对患者实施情况监督及指导。对于因足部或其他部位创面限制体能锻炼的这一大类糖尿病患者而言，营养治疗就显得更加重要。难以愈合的创面同时还伴有持续且大量的血浆渗出及蛋白质丢失[4-5，7]，创面组织甚至全身炎症反应应答机制亢进，此类患者甚至需要更为积极的蛋白质及其他供能物质补充[8]，此时如何科学有效的提供相应营养支持，也是临床工作者非常关心的问题。有研究发现，在糖尿病足病Wagner 0-5级患者中，有超过60%患者合并不同程度的营养不良或营养失调[ 患者主观整体评估(patient-generated global assessment，PG-SGA)B级或C级][9]。"
+  },
+  {
+    "rule_name": "生活方式干预是糖尿病及足病治疗的基础手段",
+    "head": {
+      "is_negative": false,
+      "name": "为基础治疗",
+      "arguments": [
+        "X",
+        "A"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有并发症",
+        "arguments": [
+          "X",
+          "糖尿病足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗手段",
+        "arguments": [
+          "A",
+          "生活方式干预"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "A",
+          "血糖控制"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "贯彻全程",
+        "arguments": [
+          "X",
+          "A"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病患者",
+      "A": "生活方式干预"
+    },
+    "source_text": "糖尿病足病是指糖尿病患者因下肢远端神经异常和不同程度的血管病变导致的足部感染、溃疡和(或)深层组织破坏，是糖尿病最严重和治疗费用最高的慢性并发症之一，重者可以导致截肢和死亡[1]。在全球范围内，糖尿病足患病率超过6%；中国糖尿病足平均患病率为5.7%[2]。在国内50岁以上糖尿病患者中，足部溃疡年新发病率为8.1%，治愈后年再发病率为31.6%[3]。关于此病的治疗，应倡导在由临床营养师、糖尿病专家、骨科和/或血管外科医师、造口伤口治疗师、足部矫形师及足病治疗师等组成的学科交叉的糖尿病足治疗中心[4-5]，进行包括生活方式干预、血糖控制、各种外科治疗[6]、创面管理等在内的多学科联合治疗方式。其中，生活方式干预作为糖尿病及其足病治疗的主要手段之一，在血糖控制的过程中，应作为口服药物治疗、胰岛素注射治疗及减重手术治疗的基础，并贯彻治疗过程全程[1]。除在患者可耐受范围内增加运动量，生活方式干预的另一重要组成部分，就是营养治疗，包括对患者一般营养情况进行科学评估，根据评估结果制定相应营养治疗计划，对患者实施情况监督及指导。对于因足部或其他部位创面限制体能锻炼的这一大类糖尿病患者而言，营养治疗就显得更加重要。难以愈合的创面同时还伴有持续且大量的血浆渗出及蛋白质丢失[4-5，7]，创面组织甚至全身炎症反应应答机制亢进，此类患者甚至需要更为积极的蛋白质及其他供能物质补充[8]，此时如何科学有效的提供相应营养支持，也是临床工作者非常关心的问题。有研究发现，在糖尿病足病Wagner 0-5级患者中，有超过60%患者合并不同程度的营养不良或营养失调[ 患者主观整体评估(patient-generated global assessment，PG-SGA)B级或C级][9]。"
+  },
+  {
+    "rule_name": "存在限制锻炼创面的糖尿病患者需要强化营养治疗",
+    "head": {
+      "is_negative": false,
+      "name": "需强化营养支持",
+      "arguments": [
+        "X",
+        "积极"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在创面",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "限制活动",
+        "arguments": [
+          "Y",
+          "体能锻炼"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴有症状",
+        "arguments": [
+          "Y",
+          "血浆渗出"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴有症状",
+        "arguments": [
+          "Y",
+          "蛋白质丢失"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "全身状态",
+        "arguments": [
+          "X",
+          "炎症反应亢进"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病患者",
+      "Y": "创面"
+    },
+    "source_text": "糖尿病足病是指糖尿病患者因下肢远端神经异常和不同程度的血管病变导致的足部感染、溃疡和(或)深层组织破坏，是糖尿病最严重和治疗费用最高的慢性并发症之一，重者可以导致截肢和死亡[1]。在全球范围内，糖尿病足患病率超过6%；中国糖尿病足平均患病率为5.7%[2]。在国内50岁以上糖尿病患者中，足部溃疡年新发病率为8.1%，治愈后年再发病率为31.6%[3]。关于此病的治疗，应倡导在由临床营养师、糖尿病专家、骨科和/或血管外科医师、造口伤口治疗师、足部矫形师及足病治疗师等组成的学科交叉的糖尿病足治疗中心[4-5]，进行包括生活方式干预、血糖控制、各种外科治疗[6]、创面管理等在内的多学科联合治疗方式。其中，生活方式干预作为糖尿病及其足病治疗的主要手段之一，在血糖控制的过程中，应作为口服药物治疗、胰岛素注射治疗及减重手术治疗的基础，并贯彻治疗过程全程[1]。除在患者可耐受范围内增加运动量，生活方式干预的另一重要组成部分，就是营养治疗，包括对患者一般营养情况进行科学评估，根据评估结果制定相应营养治疗计划，对患者实施情况监督及指导。对于因足部或其他部位创面限制体能锻炼的这一大类糖尿病患者而言，营养治疗就显得更加重要。难以愈合的创面同时还伴有持续且大量的血浆渗出及蛋白质丢失[4-5，7]，创面组织甚至全身炎症反应应答机制亢进，此类患者甚至需要更为积极的蛋白质及其他供能物质补充[8]，此时如何科学有效的提供相应营养支持，也是临床工作者非常关心的问题。有研究发现，在糖尿病足病Wagner 0-5级患者中，有超过60%患者合并不同程度的营养不良或营养失调[ 患者主观整体评估(patient-generated global assessment，PG-SGA)B级或C级][9]。"
+  },
+  {
+    "rule_name": "符合地中海饮食特征之饮食计划定义",
+    "head": {
+      "is_negative": false,
+      "name": "符合地中海饮食",
+      "arguments": [
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "饮食计划",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "饮食模式",
+        "arguments": [
+          "Y",
+          "以植物为主"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要脂肪来源",
+        "arguments": [
+          "Y",
+          "橄榄油"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "允许食品",
+        "arguments": [
+          "Y",
+          "鱼及海洋水产"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "奶制品摄入量",
+        "arguments": [
+          "Y",
+          "少至中量"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "每周鸡蛋摄入限制",
+        "arguments": [
+          "Y",
+          "少于4个"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "红肉摄入量",
+        "arguments": [
+          "Y",
+          "尽量减少"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "允许食品",
+        "arguments": [
+          "Y",
+          "糖或蜂蜜"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "饮食计划"
+    },
+    "source_text": "3.1地中海饮食强调食物来源以植物(蔬菜、豆类、坚果、水果、全麦食物)为主，可食用鱼及各类海洋水产；以橄榄油作为主要脂肪来源；伴少/中量奶制品(如，酸奶及奶酪)；特别强调每周食用<4个鸡蛋；尽量减少红肉摄入；可饮用少/中量红酒；几乎不食用糖或蜂蜜。"
+  },
+  {
+    "rule_name": "符合素食饮食特征之饮食计划定义",
+    "head": {
+      "is_negative": false,
+      "name": "符合素食饮食",
+      "arguments": [
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "饮食计划",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "饮食模式",
+        "arguments": [
+          "Y",
+          "排除肉类"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "允许食品",
+        "arguments": [
+          "Y",
+          "蛋及奶制品"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "饮食计划"
+    },
+    "source_text": "3.2素/纯素饮食素/纯素饮食者可食用除肉类来源的一切食物，其区别在于素食者可食用包含蛋及奶制品等动物性来源产品，而纯素食者不可。"
+  },
+  {
+    "rule_name": "符合纯素饮食特征之饮食计划定义",
+    "head": {
+      "is_negative": false,
+      "name": "符合纯素饮食",
+      "arguments": [
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "饮食计划",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "饮食模式",
+        "arguments": [
+          "Y",
+          "排除肉类"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "允许食品",
+        "arguments": [
+          "Y",
+          "蛋及奶制品"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "饮食计划"
+    },
+    "source_text": "3.2素/纯素饮食素/纯素饮食者可食用除肉类来源的一切食物，其区别在于素食者可食用包含蛋及奶制品等动物性来源产品，而纯素食者不可。"
+  },
+  {
+    "rule_name": "符合低脂饮食特征之饮食计划定义",
+    "head": {
+      "is_negative": false,
+      "name": "符合低脂饮食",
+      "arguments": [
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "饮食计划",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "强调食品类型",
+        "arguments": [
+          "Y",
+          "蔬菜水果淀粉类"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "强调食品类型",
+        "arguments": [
+          "Y",
+          "优质蛋白与豆类"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "强调食品类型",
+        "arguments": [
+          "Y",
+          "低脂奶制品"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "总脂肪摄入占比",
+        "arguments": [
+          "Y",
+          "小于等于百分之30"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "饱和脂肪摄入占比",
+        "arguments": [
+          "Y",
+          "小于等于百分之10"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "饮食计划"
+    },
+    "source_text": "3.3低脂饮食强调食用蔬菜、水果、淀粉类食物(如面包、苏打饼干、意大利面、全麦食物及淀粉类蔬菜)，摄入优质蛋白来源蛋白质(包含豆类)，和低脂奶制品。总脂肪摄入≤30%总能量摄入，其中饱和脂肪酸摄入≤10%。"
+  },
+  {
+    "rule_name": "符合极低脂饮食特征之饮食计划定义_高碳水模式",
+    "head": {
+      "is_negative": false,
+      "name": "符合极低脂饮食",
+      "arguments": [
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "饮食计划",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合低脂饮食",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "强调食品类型",
+        "arguments": [
+          "Y",
+          "高纤维蔬菜豆类水果全麦"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "碳水化合物摄入占比",
+        "arguments": [
+          "Y",
+          "百分之70至77"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脂肪摄入占比",
+        "arguments": [
+          "Y",
+          "百分之10"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "蛋白质摄入占比",
+        "arguments": [
+          "Y",
+          "百分之13至20"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要蛋白来源",
+        "arguments": [
+          "Y",
+          "脱脂奶制品鱼类植物蛋白"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "饮食计划"
+    },
+    "source_text": "3.4极低脂饮食在低脂饮食基础上，强调以富含膳食纤维的蔬菜、豆类、水果、全麦食物等，相对摄取高碳水化合物占总能量70%-77%(含30-60 g膳食纤维)，不仅减少烹调油，食物选用脱脂奶制品、鱼类及蛋白取代红肉，限总热量10%为脂肪及13%-20%为蛋白质。"
+  },
+  {
+    "rule_name": "符合低碳饮食特征之饮食计划定义_蔬菜脂肪蛋白源",
+    "head": {
+      "is_negative": false,
+      "name": "符合低碳饮食",
+      "arguments": [
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "饮食计划",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "强调食品类型",
+        "arguments": [
+          "Y",
+          "低碳水化合物蔬菜"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脂肪主要来源",
+        "arguments": [
+          "Y",
+          "动物产品与特定油脂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "蛋白质主要来源",
+        "arguments": [
+          "Y",
+          "肉类家禽鱼类蛋奶酪坚果"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "允许食品",
+        "arguments": [
+          "Y",
+          "莓类水果非淀粉蔬菜"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "饮食计划"
+    },
+    "source_text": "3.5低碳饮食强调食用低碳水化合物蔬菜(如西蓝花、花椰菜、黄瓜、卷心菜及其他)；脂肪以动物产品、食用油、黄油及牛油果提供；蛋白质应来源于肉类、家禽类、鱼类、贝壳类、蛋、奶酪、坚果及植物果实；可包含莓类水果及绝大多数非淀粉类蔬菜。避免食用富含淀粉或糖类食物，如意大利面、米饭、土豆、面包及甜食。虽然关于“低”碳饮食中碳水化合物含量低至几何，尚无统一意见，但普遍认为碳水化合物摄入占总能量摄入的26%-45%，即可称为低碳饮食。"
+  },
+  {
+    "rule_name": "符合低碳饮食特征之饮食计划定义_碳水限制与禁忌",
+    "head": {
+      "is_negative": false,
+      "name": "符合低碳饮食",
+      "arguments": [
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "饮食计划",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "禁止食品类型",
+        "arguments": [
+          "Y",
+          "富含淀粉或糖类食物"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "碳水化合物摄入占比",
+        "arguments": [
+          "Y",
+          "百分之26至45"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "饮食计划"
+    },
+    "source_text": "3.5低碳饮食强调食用低碳水化合物蔬菜(如西蓝花、花椰菜、黄瓜、卷心菜及其他)；脂肪以动物产品、食用油、黄油及牛油果提供；蛋白质应来源于肉类、家禽类、鱼类、贝壳类、蛋、奶酪、坚果及植物果实；可包含莓类水果及绝大多数非淀粉类蔬菜。避免食用富含淀粉或糖类食物，如意大利面、米饭、土豆、面包及甜食。虽然关于“低”碳饮食中碳水化合物含量低至几何，尚无统一意见，但普遍认为碳水化合物摄入占总能量摄入的26%-45%，即可称为低碳饮食。"
+  },
+  {
+    "rule_name": "符合极低碳饮食特征之饮食计划定义",
+    "head": {
+      "is_negative": false,
+      "name": "符合极低碳饮食",
+      "arguments": [
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "饮食计划",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合低碳饮食",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对碳水化合物限制",
+        "arguments": [
+          "Y",
+          "更为严苛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脂肪摄入占比",
+        "arguments": [
+          "Y",
+          "超过百分之50"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "饮食计划"
+    },
+    "source_text": "3.6极低碳饮食与低碳饮食类似，但对含碳水化合物食物的限制更为严苛。脂肪摄入成为总能量摄入的主要占比部分，超过50%。"
+  },
+  {
+    "rule_name": "各类饮食计划有效应用之通用前提",
+    "head": {
+      "is_negative": false,
+      "name": "饮食计划有效",
+      "arguments": [
+        "Y",
+        "对患者X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者采纳饮食计划",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行监督模式",
+        "arguments": [
+          "Y",
+          "专业营养师指导或DSME后自我监督"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "配套监测指标",
+        "arguments": [
+          "Y",
+          "肝肾功能"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "饮食计划"
+    },
+    "source_text": "3.1地中海饮食强调食物来源以植物(蔬菜、豆类、坚果、水果、全麦食物)为主，可食用鱼及各类海洋水产；以橄榄油作为主要脂肪来源；伴少/中量奶制品(如，酸奶及奶酪)；特别强调每周食用<4个鸡蛋；尽量减少红肉摄入；可饮用少/中量红酒；几乎不食用糖或蜂蜜。 3.2素/纯素饮食素/纯素饮食者可食用除肉类来源的一切食物，其区别在于素食者可食用包含蛋及奶制品等动物性来源产品，而纯素食者不可。 3.3低脂饮食强调食用蔬菜、水果、淀粉类食物(如面包、苏打饼干、意大利面、全麦食物及淀粉类蔬菜)，摄入优质蛋白来源蛋白质(包含豆类)，和低脂奶制品。总脂肪摄入≤30%总能量摄入，其中饱和脂肪酸摄入≤10%。 3.4极低脂饮食在低脂饮食基础上，强调以富含膳食纤维的蔬菜、豆类、水果、全麦食物等，相对摄取高碳水化合物占总能量70%-77%(含30-60 g膳食纤维)，不仅减少烹调油，食物选用脱脂奶制品、鱼类及蛋白取代红肉，限总热量10%为脂肪及13%-20%为蛋白质。 3.5低碳饮食强调食用低碳水化合物蔬菜(如西蓝花、花椰菜、黄瓜、卷心菜及其他)；脂肪以动物产品、食用油、黄油及牛油果提供；蛋白质应来源于肉类、家禽类、鱼类、贝壳类、蛋、奶酪、坚果及植物果实；可包含莓类水果及绝大多数非淀粉类蔬菜。避免食用富含淀粉或糖类食物，如意大利面、米饭、土豆、面包及甜食。虽然关于“低”碳饮食中碳水化合物含量低至几何，尚无统一意见，但普遍认为碳水化合物摄入占总能量摄入的26%-45%，即可称为低碳饮食。 3.6极低碳饮食与低碳饮食类似，但对含碳水化合物食物的限制更为严苛。脂肪摄入成为总能量摄入的主要占比部分，超过50%。"
+  }
+]

@@ -1,0 +1,208 @@
+【原始长篇章】:
+其中，上海地区的患病率最高（7.57%），已接近发达国家水平，有20 万~30 万哮喘患儿。哮喘的治疗目标是达到并维持哮喘控制，其规范化控制治疗需要持续较长时间，有些患儿可能需要数年之久。哮喘的防治仅依靠三级医院及专科医院的力量是非常有限的，由于哮喘诊疗技术相对容易掌握，治疗方案较为成熟，危及生命的严重事件发生率较
+
+【规则 1】
+规则名: 上海地区儿童哮喘高患病率状况
+逻辑表达: 地区患病率(上海, 哮喘, 接近发达国家水平) ^ 患儿数量(上海, 二十至三十万) <- 上海地区(上海) ^ 疾病(哮喘) ^ 患病主体(哮喘, 儿童)
+变量映射:
+  - 上海: 地区
+  - 哮喘: 疾病
+
+【规则 2】
+规则名: 哮喘治疗的长期控制目标
+逻辑表达: 治疗性质(Y, 长期规范化) ^ 治疗时长部分个案(Y, 数年) <- 疾病(X) ^ 治疗目标(X, 哮喘控制, 达到并维持) ^ 治疗方案(Y) ^ 针对疾病(Y, X)
+变量映射:
+  - X: 疾病
+  - Y: 治疗方案
+
+【规则 3】
+规则名: 哮喘防治依赖非单一层级医疗机构
+逻辑表达: 防治力量来源(Z, 非仅限三级专科医院) <- 疾病(X) ^ 防治任务(Z) ^ 针对疾病(Z, X) ^ 诊疗技术特征(X, 相对易掌握) ^ 治疗方案特征(X, 较为成熟) ^ 严重事件发生率特征(X, 较低)
+变量映射:
+  - X: 疾病
+  - Z: 防治任务
+
+---
+
+
+【原始长篇章】: This suggestions is divided into seven parts：early screening of children's asthma，detection of children's asthma pulmonary function，recognition of children's allergic symptoms and detection of allergens，assessment tool of asthma control based on grass-roots hospital，treatment strategy of children's asthma in grass-roots hospital，recommended scheme of children's asthma maintenance period treatment and two-way referral standard and process.Based on the treatment goal of children's asthma，the whole process of diagnosis and treatment is improved combing，focusing on the “key points”，especially according to the “treatment time axis” to develop the corresponding treatment plan，can maximize the standardization and normalization of management，in order to provide a reference for the chronic disease management in primary medical and health institutions.
+【规则 1】
+规则名: 基于目标与关键点梳理后制定治疗方案
+逻辑表达: 制定方案(Z, X, 相应) <- 儿童哮喘患者(X) ^ 诊疗过程(Y) ^ 治疗方案(Z) ^ 依据目标改进梳理(Y, X, 儿童哮喘的治疗目标) ^ 聚焦(Y, 关键点) ^ 依据(Y, 治疗时间轴)
+变量映射:
+  - X: 患者
+  - Y: 诊疗过程
+  - Z: 治疗方案
+【规则 2】
+规则名: 依据时间轴制定方案可实现规范化管理
+逻辑表达: 可实现管理效果(X, 最大化规范化和常态化) <- 儿童哮喘患者(X) ^ 诊疗过程(Y) ^ 治疗方案(Z) ^ 依据目标改进梳理(Y, X, 儿童哮喘的治疗目标) ^ 聚焦(Y, 关键点) ^ 依据(Y, 治疗时间轴) ^ 制定方案(Z, X, 相应)
+变量映射:
+  - X: 患者
+  - Y: 诊疗过程
+  - Z: 治疗方案
+【规则 3】
+规则名: 为基层机构慢病管理提供参考
+逻辑表达: 提供参考给(W, 慢性病管理) <- 儿童哮喘患者(X) ^ 诊疗过程(Y) ^ 治疗方案(Z) ^ 基层医疗卫生机构(W) ^ 依据目标改进梳理(Y, X, 儿童哮喘的治疗目标) ^ 聚焦(Y, 关键点) ^ 依据(Y, 治疗时间轴) ^ 制定方案(Z, X, 相应) ^ 可实现管理效果(X, 最大化规范化和常态化)
+变量映射:
+  - X: 患者
+  - Y: 诊疗过程
+  - Z: 治疗方案
+  - W: 基层医疗卫生机构
+
+---
+
+
+【原始长篇章】:Asthma is the most common chronic respiratory inflammatory disease in childhood.As long as we grasp the indications of acute and chronic treatment and referral，primary medical and health institutions should be the best platform for asthma prevention and treatment.This suggestions refers to the recent domestic and foreign relevant industry standards，research data and management guidelines，and publishes more specific understanding and interpretation of clinical diagnosis and treatment strategies for children's bronchial asthma，and puts forward more operational requirements and programs for clinical practice.This suggestions is divided into seven parts：early screening of children's asthma，detection of children's asthma pulmonary function，recognition of children's allergic symptoms and detection of allergens，assessment tool of asthma control based on grass-roots hospital，treatment strategy of children's asthma in grass-roots hospital，recommended scheme of children's asthma maintenance period treatment and two-way referral standard and process.Based on the treatment goal of children's asthma，the whole process of diagnosis and treatment is improved combing，focusing on the "key points"，especially according to the "treatment time axis" to develop the corresponding treatment plan，can maximize the standardization and normalization of management，in order to provide a reference for the chronic disease management in primary medical and health institutions.
+
+【规则 1】
+规则名: 基层医疗机构成为儿童哮喘最佳防治平台的条件
+逻辑表达: 适宜平台(X, 儿童哮喘防治, 最佳) <- 医疗机构(X, 基层) ^ 掌握(X, 急性治疗指征) ^ 掌握(X, 慢性治疗指征) ^ 掌握(X, 转诊指征) ^ 管理目标(Y, 儿童哮喘) ^ 致力于(X, Y)
+变量映射:
+  - X: 医疗机构
+  - Y: 疾病管理
+
+【规则 2】
+规则名: 基于治疗时间轴制定方案以实现儿童哮喘规范化管理
+逻辑表达: 制定方案(Y, Z, 对应) <- 治疗目标(Z, 儿童哮喘) ^ 梳理过程(W, 儿童哮喘诊疗) ^ 基于(W, Z) ^ 聚焦关键点(W) ^ 时间轴(T, 治疗) ^ 依据(W, T) ^ 疾病管理方案(Y) ^ 实现效果(Y, 管理规范化最大化) ^ 实现效果(Y, 管理常态化最大化)
+变量映射:
+  - Y: 疾病管理方案
+  - Z: 治疗目标
+  - W: 诊疗过程梳理
+  - T: 时间轴
+
+---
+
+
+【原始长篇章】:典型的临床症状是诊断哮喘的首要线索，这些症状包括暴露于各种刺激所诱发的反复发作的咳嗽、喘息、气促或胸闷，刺激包括呼吸道感染、刺激物（寒冷、烟草烟雾）、变应原（螨虫、花粉、宠物皮毛）、运动，尤其在夜间或凌晨出现症状，同时肺部听诊可闻及哮鸣音。个人的特应性病史（如变应性鼻炎、湿疹或吸入/ 食入变应原过敏）、变异性疾病或哮喘家族史、严重过敏史有助于哮喘的确诊［6-7］。考虑到哮喘症状的非特异性，并且可能在许多情况下导致喘息的发生，因此鉴别诊断尤为重要，包括引起儿童喘息的常见疾病以及罕见严重的儿童疾病［7］。
+
+【规则 1】
+规则名: 基于临床表现与听诊的哮喘诊断线索
+逻辑表达: 临床诊断线索(X, 哮喘) <- 临床表现(X, Y) ^ 症状诱发(Y, 刺激, 包括呼吸道感染等) ^ 发作时间特征(Y, 夜间或凌晨) ^ 听诊体征(X, 哮鸣音) ^ 特征归属(Y, X)
+变量映射:
+  - X: 患者
+  - Y: 临床表现
+
+【规则 2】
+规则名: 结合变异性疾病史的哮喘确诊支持
+逻辑表达: 诊断支持(X, 哮喘, 辅助确诊) <- 临床诊断线索(X, 哮喘) ^ 病史特征(X, 变异性疾病) ^ 存在辅助确诊因素(X, 阳性)
+变量映射:
+  - X: 患者
+
+【规则 3】
+规则名: 结合哮喘家族史的哮喘确诊支持
+逻辑表达: 诊断支持(X, 哮喘, 辅助确诊) <- 临床诊断线索(X, 哮喘) ^ 家族史(X, 哮喘) ^ 存在辅助确诊因素(X, 阳性)
+变量映射:
+  - X: 患者
+
+【规则 4】
+规则名: 排他性诊断支持哮喘
+逻辑表达: 诊断支持(X, 哮喘, 排他性) <- 临床诊断线索(X, 哮喘) ^ 需要鉴别诊断(X, 喘息性疾病) ^ ¬患病(X, 其他喘息性疾病)
+变量映射:
+  - X: 患者
+
+---
+
+
+【原始长篇章】:由于早产造成的支气管肺发育不良、先天气道畸形/ 狭窄/ 软化、免疫缺陷导致的反复呼吸道感染和气道异物均会引起反复喘息，对于婴幼儿，尤其对1 岁之内的儿童诊断哮喘时，需要十分地慎重，一定与其他喘息性疾病相鉴别；对于这部分儿童，建议在上级医院进行相关评估，明确诊断后再转诊到基层医疗卫生机构进行规范化治疗。
+【规则 1】
+规则名: 早产致支气管肺发育不良婴幼儿反复喘息的评估与转诊路径
+逻辑表达: 转诊建议(X, 基层医疗卫生机构, 明确诊断后) <- 婴幼儿(X) ^ 年龄小于1岁(X) ^ 病因(X, 早产) ^ 患病(X, 支气管肺发育不良) ^ 症状(X, 反复喘息) ^ 需要鉴别诊断(X) ^ 建议评估机构(X, 上级医院
+
+---
+
+
+【原始长篇章】:（1）目前诊断哮喘的主要线索是典型的临床症状，包括反复发作的喘息、咳嗽、气促、胸闷，其中又以反复多次的喘息作为疾病的主要特征，并不是完全依靠肺功能检查和过敏原检查；（2）哮喘诊断的关键线索是喘息发作的频次和严重程度，以及支气管扩张剂（雾化或口服）或抗哮喘药物的治疗有效性；（3）过去1 年中喘息≥3 次，或在过去的2~3 年中平均每年喘息≥2 次，其中至少有1 次因为喘息发作需要急诊/ 吸氧/ 全身使用糖皮质激素/ 住院，可作为哮喘诊断的重要参考依据；（4）哮喘急性发作时应有典型的哮鸣音体征，由不同医院、不同医师记录到相同的体征时价值最大；
+
+【规则 1】
+规则名: 基于反复喘息症状的哮喘诊断依据
+逻辑表达: 构成诊断依据(X, 哮喘) <- 患者(X) ^ 症状表现(X, 喘息) ^ 症状性质(喘息, 反复发作) ^ 属于类型(喘息, 典型临床症状)
+变量映射:
+  - X: 患者
+
+【规则 2】
+规则名: 基于反复咳嗽症状的哮喘诊断依据
+逻辑表达: 构成诊断依据(X, 哮喘) <- 患者(X) ^ 症状表现(X, 咳嗽) ^ 症状性质(咳嗽, 反复发作) ^ 属于类型(咳嗽, 典型临床症状)
+变量映射:
+  - X: 患者
+
+【规则 3】
+规则名: 基于反复气促症状的哮喘诊断依据
+逻辑表达: 构成诊断依据(X, 哮喘) <- 患者(X) ^ 症状表现(X, 气促) ^ 症状性质(气促, 反复发作) ^ 属于类型(气促, 典型临床症状)
+变量映射:
+  - X: 患者
+
+【规则 4】
+规则名: 基于反复胸闷症状的哮喘诊断依据
+逻辑表达: 构成诊断依据(X, 哮喘) <- 患者(X) ^ 症状表现(X, 胸闷) ^ 症状性质(胸闷, 反复发作) ^ 属于类型(胸闷, 典型临床症状)
+变量映射:
+  - X: 患者
+
+【规则 5】
+规则名: 基于高频次喘息发作且支气管扩张剂治疗有效的哮喘诊断依据
+逻辑表达: 构成诊断依据(X, 哮喘) <- 患者(X) ^ 发作事件(Z) ^ 归属于(Z, X) ^ 发作性质(Z, 高频次) ^ 对药物反应(X, 支气管扩张剂, 有效)
+变量映射:
+  - X: 患者
+  - Z: 喘息发作事件
+
+【规则 6】
+规则名: 基于高严重度喘息发作且支气管扩张剂治疗有效的哮喘诊断依据
+逻辑表达: 构成诊断依据(X, 哮喘) <- 患者(X) ^ 发作事件(Z) ^ 归属于(Z, X) ^ 发作性质(Z, 高严重度) ^ 对药物反应(X, 支气管扩张剂, 有效)
+变量映射:
+  - X: 患者
+  - Z: 喘息发作事件
+
+【规则 7】
+规则名: 基于高频次喘息发作且抗哮喘药物治疗有效的哮喘诊断依据
+逻辑表达: 构成诊断依据(X, 哮喘) <- 患者(X) ^ 发作事件(Z) ^ 归属于(Z, X) ^ 发作性质(Z, 高频次) ^ 对药物反应(X, 抗哮喘药物, 有效)
+变量映射:
+  - X: 患者
+  - Z: 喘息发作事件
+
+【规则 8】
+规则名: 基于高严重度喘息发作且抗哮喘药物治疗有效的哮喘诊断依据
+逻辑表达: 构成诊断依据(X, 哮喘) <- 患者(X) ^ 发作事件(Z) ^ 归属于(Z, X) ^ 发作性质(Z, 高严重度) ^ 对药物反应(X, 抗哮喘药物, 有效)
+变量映射:
+  - X: 患者
+  - Z: 喘息发作事件
+
+【规则 9】
+规则名: 基于过去1年喘息≥3次且发作需急诊的哮喘诊断依据
+逻辑表达: 构成诊断依据(X, 哮喘) <- 患者(X) ^ 在周期内发作频次(X, 过去1年, ≥3次) ^ 发作事件(Z) ^ 归属于(Z, X) ^ 导致干预(Z, 需要急诊)
+变量映射:
+  - X: 患者
+  - Z: 特定喘息发作事件
+
+【规则 10】
+规则名: 基于过去1年喘息≥3次且发作需吸氧的哮喘诊断依据
+逻辑表达: 构成诊断依据(X, 哮喘) <- 患者(X) ^ 在周期内发作频次(X, 过去1年, ≥3次) ^ 发作事件(Z) ^ 归属于(Z, X) ^ 导致干预(Z, 需要吸氧)
+变量映射:
+  - X: 患者
+  - Z: 特定喘息发作事件
+
+【规则 11】
+规则名: 基于过去1年喘息≥3次且发作需全身使用糖皮质激素的哮喘诊断依据
+逻辑表达: 构成诊断依据(X, 哮喘) <- 患者(X) ^ 在周期内发作频次(X, 过去1年, ≥3次) ^ 发作事件(Z) ^ 归属于(Z, X) ^ 导致干预(Z, 全身使用糖皮质激素)
+变量映射:
+  - X: 患者
+  - Z: 特定喘息发作事件
+
+【规则 12】
+规则名: 基于过去1年喘息≥3次且发作需住院的哮喘诊断依据
+逻辑表达: 构成诊断依据(X, 哮喘) <- 患者(X) ^ 在周期内发作频次(X, 过去1年, ≥3次) ^ 发作事件(Z) ^ 归属于(Z, X) ^ 导致干预(Z, 需要住院)
+变量映射:
+  - X: 患者
+  - Z: 特定喘息发作事件
+
+【规则 13】
+规则名: 基于过去2-3年年均喘息≥2次且发作需急诊的哮喘诊断依据
+逻辑表达: 构成诊断依据(X, 哮喘) <- 患者(X) ^ 在周期内发作频次(X, 过去2-3年, 年均≥2次) ^ 发作事件(Z) ^ 归属于(Z, X) ^ 导致干预(Z, 需要急诊)
+变量映射:
+  - X: 患者
+  - Z: 特定喘息发作事件
+
+【规则 14】
+规则名: 基于过去2-3年年均喘息≥2次且发作需吸氧的哮喘诊断依据
+逻辑表达: 构成诊断依据(X, 哮喘) <- 患者(X) ^ 在周期内发作频次(X, 过去2-3年, 年均≥2次) ^ 发作事件(Z) ^ 归属于(Z, X) ^ 导致干预(Z, 需要吸氧
+
+---
+

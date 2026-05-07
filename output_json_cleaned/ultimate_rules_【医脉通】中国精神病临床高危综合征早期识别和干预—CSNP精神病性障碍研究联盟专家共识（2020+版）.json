@@ -1,0 +1,1753 @@
+[
+  {
+    "rule_name": "CHR个体发病风险预测标准流程",
+    "head": {
+      "is_negative": false,
+      "name": "获得风险评估解释与建议",
+      "arguments": [
+        "X",
+        "Z"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "CHR个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床医生",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险预测模型",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需要预测变量",
+        "arguments": [
+          "Y",
+          "a"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "完成评估检测",
+        "arguments": [
+          "X",
+          "Y",
+          "严格按照"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "专业人员",
+        "arguments": [
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CHR个体",
+      "Y": "风险预测模型",
+      "Z": "临床医生/专业人员",
+      "a": "预测变量"
+    },
+    "source_text": "建议4：对CHR人群进行发病风险预测是国际上常见方法，建议临床医生采用科学合理的风险预测模型，需要风险预测的CHR个体严格按照预测模型需要的预测变量完成相应评估或检测，并由专业人员对风险评估结果给出合理解释和相应建议。专家赞成率：95.7% [22/23]"
+  },
+  {
+    "rule_name": "精神病性障碍早期识别与防控重要性凸显的多重依据",
+    "head": {
+      "is_negative": false,
+      "name": "重要性凸显",
+      "arguments": [
+        "早期识别与发病风险防控",
+        "精神病性障碍患者群体",
+        "高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者数量",
+        "arguments": [
+          "精神病性障碍",
+          "近1000万"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病情特征",
+        "arguments": [
+          "精神病性障碍",
+          "迁延难愈"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病情特征",
+        "arguments": [
+          "精神病性障碍",
+          "功能受损严重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "起病年龄",
+        "arguments": [
+          "精神病性障碍",
+          "青壮年"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致负担",
+        "arguments": [
+          "精神病性障碍",
+          "沉重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗特征",
+        "arguments": [
+          "精神病性障碍",
+          "有效率低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗特征",
+        "arguments": [
+          "精神病性障碍",
+          "复发率高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗特征",
+        "arguments": [
+          "精神病性障碍",
+          "并发症多"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对措施",
+        "arguments": [
+          "早期识别与发病风险防控",
+          "精神病性障碍"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病群体",
+        "arguments": [
+          "精神病性障碍患者群体",
+          "精神病性障碍"
+        ]
+      }
+    ],
+    "variables": {
+      "早期识别与发病风险防控": "干预措施",
+      "精神病性障碍患者群体": "患者群体",
+      "精神病性障碍": "疾病实体"
+    },
+    "source_text": "我国精神分裂症等精神病性障碍患者近1000万[1]，患者病情迁延难愈、功能受损严重。精神病性障碍患者常青壮年起病，给个人、家庭及社会带来沉重负担，而且该病具有治疗有效率低、复发率高、并发症多等特点，进一步凸显对这一群体进行病前早期识别和发病风险防控的重要性。"
+  },
+  {
+    "rule_name": "经颅磁刺激研究深入后适合部分CHR人群",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方式适用",
+      "arguments": [
+        "X",
+        "神经调控经颅磁刺激"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "人群类型",
+        "arguments": [
+          "X",
+          "CHR"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "认知功能受损",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "是高风险人群",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "无过度治疗风险",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CHR个体"
+    },
+    "source_text": "其他有希望的早期干预方式，如神经调控经颅磁刺激和直流电刺激、正念冥想治疗、家庭聚焦治疗（family-focused therapy, FFT）、生活综合干预、瑜伽和有氧运动等，都可能随着研究的深入而适合部分CHR人群应用。"
+  },
+  {
+    "rule_name": "直流电刺激研究深入后适合部分CHR人群",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方式适用",
+      "arguments": [
+        "X",
+        "直流电刺激"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "人群类型",
+        "arguments": [
+          "X",
+          "CHR"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "认知功能受损",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "是高风险人群",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "无过度治疗风险",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CHR个体"
+    },
+    "source_text": "其他有希望的早期干预方式，如神经调控经颅磁刺激和直流电刺激、正念冥想治疗、家庭聚焦治疗（family-focused therapy, FFT）、生活综合干预、瑜伽和有氧运动等，都可能随着研究的深入而适合部分CHR人群应用。"
+  },
+  {
+    "rule_name": "正念冥想研究深入后适合部分CHR人群",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方式适用",
+      "arguments": [
+        "X",
+        "正念冥想治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "人群类型",
+        "arguments": [
+          "X",
+          "CHR"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "认知功能受损",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "是高风险人群",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "无过度治疗风险",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CHR个体"
+    },
+    "source_text": "其他有希望的早期干预方式，如神经调控经颅磁刺激和直流电刺激、正念冥想治疗、家庭聚焦治疗（family-focused therapy, FFT）、生活综合干预、瑜伽和有氧运动等，都可能随着研究的深入而适合部分CHR人群应用。"
+  },
+  {
+    "rule_name": "家庭聚焦治疗研究深入后适合部分CHR人群",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方式适用",
+      "arguments": [
+        "X",
+        "家庭聚焦治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "人群类型",
+        "arguments": [
+          "X",
+          "CHR"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "认知功能受损",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "是高风险人群",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "无过度治疗风险",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CHR个体"
+    },
+    "source_text": "其他有希望的早期干预方式，如神经调控经颅磁刺激和直流电刺激、正念冥想治疗、家庭聚焦治疗（family-focused therapy, FFT）、生活综合干预、瑜伽和有氧运动等，都可能随着研究的深入而适合部分CHR人群应用。"
+  },
+  {
+    "rule_name": "生活综合干预研究深入后适合部分CHR人群",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方式适用",
+      "arguments": [
+        "X",
+        "生活综合干预"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "人群类型",
+        "arguments": [
+          "X",
+          "CHR"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "认知功能受损",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "是高风险人群",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "无过度治疗风险",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CHR个体"
+    },
+    "source_text": "其他有希望的早期干预方式，如神经调控经颅磁刺激和直流电刺激、正念冥想治疗、家庭聚焦治疗（family-focused therapy, FFT）、生活综合干预、瑜伽和有氧运动等，都可能随着研究的深入而适合部分CHR人群应用。"
+  },
+  {
+    "rule_name": "瑜伽有氧运动研究深入后适合部分CHR人群",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方式适用",
+      "arguments": [
+        "X",
+        "瑜伽和有氧运动"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "人群类型",
+        "arguments": [
+          "X",
+          "CHR"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "认知功能受损",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "是高风险人群",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "无过度治疗风险",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CHR个体"
+    },
+    "source_text": "其他有希望的早期干预方式，如神经调控经颅磁刺激和直流电刺激、正念冥想治疗、家庭聚焦治疗（family-focused therapy, FFT）、生活综合干预、瑜伽和有氧运动等，都可能随着研究的深入而适合部分CHR人群应用。"
+  },
+  {
+    "rule_name": "轻微阳性症状综合征诊断标准_时间条件_出现于过去1年",
+    "head": {
+      "is_negative": false,
+      "name": "患者类型",
+      "arguments": [
+        "X",
+        "轻微阳性症状综合征"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "症状类型",
+        "arguments": [
+          "Y",
+          "轻微阳性症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属症状",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状时间条件",
+        "arguments": [
+          "Y",
+          "出现在过去1年内"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状频率",
+        "arguments": [
+          "Y",
+          "平均至少每周1次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状影响",
+        "arguments": [
+          "Y",
+          "对日常造成困扰"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状自知力",
+        "arguments": [
+          "Y",
+          "保有自知力"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "症状"
+    },
+    "source_text": "是指在不长一段时间内（多指定为1年内，或者最近1年内轻微阳性症状严重程度比1年前有进行性加重）出现轻微阳性症状，如幻觉、怪异思维，但程度比精神病性症状轻，主要体现在对这些异常体验和思维具有较完整的现实检验能力，有自知力。（Ⅰ，A）操作标准：患者轻微阳性症状出现在过去1年内（或者症状严重程度在最近1年有显著加重），轻微阳性症状对患者日常造成困扰，但未达到精神病性严重程度（即对症状保有自知力），轻微阳性症状出现频率在过去的1个月中必须平均至少每周1次。（Ⅰ，A）"
+  },
+  {
+    "rule_name": "轻微阳性症状综合征诊断标准_时间条件_最近1年显著加重",
+    "head": {
+      "is_negative": false,
+      "name": "患者类型",
+      "arguments": [
+        "X",
+        "轻微阳性症状综合征"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "症状类型",
+        "arguments": [
+          "Y",
+          "轻微阳性症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属症状",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状时间条件",
+        "arguments": [
+          "Y",
+          "最近1年显著加重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状频率",
+        "arguments": [
+          "Y",
+          "平均至少每周1次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状影响",
+        "arguments": [
+          "Y",
+          "对日常造成困扰"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状自知力",
+        "arguments": [
+          "Y",
+          "保有自知力"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "症状"
+    },
+    "source_text": "是指在不长一段时间内（多指定为1年内，或者最近1年内轻微阳性症状严重程度比1年前有进行性加重）出现轻微阳性症状，如幻觉、怪异思维，但程度比精神病性症状轻，主要体现在对这些异常体验和思维具有较完整的现实检验能力，有自知力。（Ⅰ，A）操作标准：患者轻微阳性症状出现在过去1年内（或者症状严重程度在最近1年有显著加重），轻微阳性症状对患者日常造成困扰，但未达到精神病性严重程度（即对症状保有自知力），轻微阳性症状出现频率在过去的1个月中必须平均至少每周1次。（Ⅰ，A）"
+  },
+  {
+    "rule_name": "符合CHR时间条件检验_症状早于其它障碍",
+    "head": {
+      "is_negative": false,
+      "name": "符合检验标准",
+      "arguments": [
+        "评估对象",
+        "时间检验"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "临床评估",
+        "arguments": [
+          "评估对象"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "评估对象",
+          "CHR症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "评估对象",
+          "其它精神障碍症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状出现时序",
+        "arguments": [
+          "CHR症状",
+          "早于",
+          "其它精神障碍症状"
+        ]
+      }
+    ],
+    "variables": {
+      "评估对象": "被评估的个体或病例",
+      "CHR症状": "CHR相关临床表现",
+      "其它精神障碍症状": "非精神病性障碍的临床表现"
+    },
+    "source_text": "CHR早期识别，需要注意排除或仔细考虑两种情况来明确与其它精神障碍之间界限，简称“双检验”。（Ⅱ，B）检验一：时间检验。由于CHR本身是带有时间条件的概念，在诊断时，一定要强调时间顺序。如果CHR症状在其它精神障碍之前出现，或者在其它精神障碍完全缓解之后出现（例如，既往有抑郁发作，目前无明显情绪症状，但出现明显的弱化阳性症状），则认为其符合时间条件。如果是与其它精神障碍同时出现（伴随症状），则需要进行第二个检验来明确是否符合标准。检验二：解释检验。目的是区分该症状更具有精神病性障碍的特征，还是更具有其它精神障碍特征。如果该症状可以更好地应用其它障碍进行解释，则不符合CHR的特征。例如，抑郁发作患者出现牵连观念，觉得周围人对他/她有大量负性评价，评价与其情绪状态明显相关，则不应将这种牵连观念作为CHR的轻微症状来评价。必要时应针对该症状进行纵向随访观察，动态评价检验。"
+  },
+  {
+    "rule_name": "符合CHR时间条件检验_其它障碍缓解后出现症状",
+    "head": {
+      "is_negative": false,
+      "name": "符合检验标准",
+      "arguments": [
+        "评估对象",
+        "时间检验"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "临床评估",
+        "arguments": [
+          "评估对象"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "评估对象",
+          "CHR症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "评估对象",
+          "其它精神障碍症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "既往发作",
+        "arguments": [
+          "评估对象",
+          "其它精神障碍"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缓解状态",
+        "arguments": [
+          "其它精神障碍",
+          "完全"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "当前存在",
+        "arguments": [
+          "评估对象",
+          "该障碍核心症状"
+        ]
+      }
+    ],
+    "variables": {
+      "评估对象": "被评估的个体或病例",
+      "CHR症状": "CHR相关临床表现",
+      "其它精神障碍症状": "非精神病性障碍的临床表现",
+      "其它精神障碍": "特定的精神障碍类型（如抑郁发作）"
+    },
+    "source_text": "CHR早期识别，需要注意排除或仔细考虑两种情况来明确与其它精神障碍之间界限，简称“双检验”。（Ⅱ，B）检验一：时间检验。由于CHR本身是带有时间条件的概念，在诊断时，一定要强调时间顺序。如果CHR症状在其它精神障碍之前出现，或者在其它精神障碍完全缓解之后出现（例如，既往有抑郁发作，目前无明显情绪症状，但出现明显的弱化阳性症状），则认为其符合时间条件。如果是与其它精神障碍同时出现（伴随症状），则需要进行第二个检验来明确是否符合标准。检验二：解释检验。目的是区分该症状更具有精神病性障碍的特征，还是更具有其它精神障碍特征。如果该症状可以更好地应用其它障碍进行解释，则不符合CHR的特征。例如，抑郁发作患者出现牵连观念，觉得周围人对他/她有大量负性评价，评价与其情绪状态明显相关，则不应将这种牵连观念作为CHR的轻微症状来评价。必要时应针对该症状进行纵向随访观察，动态评价检验。"
+  },
+  {
+    "rule_name": "触发第二检验条件_症状同时出现",
+    "head": {
+      "is_negative": false,
+      "name": "需执行检验",
+      "arguments": [
+        "评估对象",
+        "解释检验"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "临床评估",
+        "arguments": [
+          "评估对象"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "评估对象",
+          "CHR症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "评估对象",
+          "其它精神障碍症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状出现时序",
+        "arguments": [
+          "CHR症状",
+          "同时",
+          "其它精神障碍症状"
+        ]
+      }
+    ],
+    "variables": {
+      "评估对象": "被评估的个体或病例",
+      "CHR症状": "CHR相关临床表现",
+      "其它精神障碍症状": "非精神病性障碍的临床表现"
+    },
+    "source_text": "CHR早期识别，需要注意排除或仔细考虑两种情况来明确与其它精神障碍之间界限，简称“双检验”。（Ⅱ，B）检验一：时间检验。由于CHR本身是带有时间条件的概念，在诊断时，一定要强调时间顺序。如果CHR症状在其它精神障碍之前出现，或者在其它精神障碍完全缓解之后出现（例如，既往有抑郁发作，目前无明显情绪症状，但出现明显的弱化阳性症状），则认为其符合时间条件。如果是与其它精神障碍同时出现（伴随症状），则需要进行第二个检验来明确是否符合标准。检验二：解释检验。目的是区分该症状更具有精神病性障碍的特征，还是更具有其它精神障碍特征。如果该症状可以更好地应用其它障碍进行解释，则不符合CHR的特征。例如，抑郁发作患者出现牵连观念，觉得周围人对他/她有大量负性评价，评价与其情绪状态明显相关，则不应将这种牵连观念作为CHR的轻微症状来评价。必要时应针对该症状进行纵向随访观察，动态评价检验。"
+  },
+  {
+    "rule_name": "不符合CHR特征_症状由其它障碍更好解释_抑郁牵连观念示例",
+    "head": {
+      "is_negative": true,
+      "name": "符合特征",
+      "arguments": [
+        "症状表现",
+        "CHR"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "临床评估",
+        "arguments": [
+          "评估对象"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "评估对象",
+          "牵连观念"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前诊断",
+        "arguments": [
+          "评估对象",
+          "抑郁发作"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联性",
+        "arguments": [
+          "牵连观念内容",
+          "高度相关",
+          "负性情绪状态"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "解释模型",
+        "arguments": [
+          "其它障碍",
+          "抑郁发作",
+          "更优",
+          "症状表现"
+        ]
+      }
+    ],
+    "variables": {
+      "评估对象": "被评估的个体或病例",
+      "症状表现": "具体的临床表现（如牵连观念）",
+      "牵连观念内容": "具体的观念内容描述",
+      "负性情绪状态": "患者的情绪状态",
+      "其它障碍": "特定的精神障碍类型（此处为抑郁发作）"
+    },
+    "source_text": "CHR早期识别，需要注意排除或仔细考虑两种情况来明确与其它精神障碍之间界限，简称“双检验”。（Ⅱ，B）检验一：时间检验。由于CHR本身是带有时间条件的概念，在诊断时，一定要强调时间顺序。如果CHR症状在其它精神障碍之前出现，或者在其它精神障碍完全缓解之后出现（例如，既往有抑郁发作，目前无明显情绪症状，但出现明显的弱化阳性症状），则认为其符合时间条件。如果是与其它精神障碍同时出现（伴随症状），则需要进行第二个检验来明确是否符合标准。检验二：解释检验。目的是区分该症状更具有精神病性障碍的特征，还是更具有其它精神障碍特征。如果该症状可以更好地应用其它障碍进行解释，则不符合CHR的特征。例如，抑郁发作患者出现牵连观念，觉得周围人对他/她有大量负性评价，评价与其情绪状态明显相关，则不应将这种牵连观念作为CHR的轻微症状来评价。必要时应针对该症状进行纵向随访观察，动态评价检验。"
+  },
+  {
+    "rule_name": "CHR个体干预效果多维度评估要求",
+    "head": {
+      "is_negative": false,
+      "name": "应执行多维度评估",
+      "arguments": [
+        "Y",
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "chr个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床医生",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "负责评估",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关注变化",
+        "arguments": [
+          "Y",
+          "症状动态"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关注变化",
+        "arguments": [
+          "Y",
+          "功能"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关注指标",
+        "arguments": [
+          "Y",
+          "认知"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关注指标",
+        "arguments": [
+          "Y",
+          "生命质量"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估基于主观评价",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CHR个体",
+      "Y": "临床医生"
+    },
+    "source_text": "问题6：如何评价早期干预效果？转化为首次精神病发作是CHR研究中最常用结局指标。仅仅关注精神病性症状严重程度变化，有局限性。对CHR个体而言，越来越多研究支持功能水平和症状严重程度在早期同等重要。建议6：建议临床医生在评估干预效果时，要重视症状动态变化，也要在早期关注患者功能变化，从症状、认知、生命质量等基于个体，尤其是基于个体主观评价的多维度指标评价干预效果，并针对现阶段问题及时调整干预内容。"
+  },
+  {
+    "rule_name": "基于北美队列数据的CHR转化风险预测模型",
+    "head": {
+      "is_negative": false,
+      "name": "开发团队",
+      "arguments": [
+        "CANNON等",
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "预测模型",
+        "arguments": [
+          "X",
+          "CHR转化风险",
+          "专有"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基于数据",
+        "arguments": [
+          "X",
+          "北美CHR队列"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "公开形式",
+        "arguments": [
+          "X",
+          "网络产品"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "公开地址",
+        "arguments": [
+          "X",
+          "http://riskcalc.org:3838/napls/"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "风险预测模型"
+    },
+    "source_text": "8临床研究动态由于CHR最终转化为精神病性障碍的比例不足1/3，因此寻找更能反映疾病的素质标记并在早期具有预警价值的临床工具成为该领域研究的共同目标。CANNON等[35]根据北美地区的CHR队列数据开发了一款预测模型，预测CHR者2年内发病的准确率为71%，并将这款产品在网络上公开（http://riskcalc.org:3838/napls/）。虽然该预测器具有很好的应用潜力，但在中国人群中应用的准确性仅为63%[11]。国内SHARP项目组自主开发了一款以手机APP形式服务于临床工作的风险预测器，临床医生可根据高危者临床特征和认知水平进行精神病发病风险预测，预测准度达到78%[36]。另外，生物学标记也有可能进一步纳入风险预测和干预指导中[37]，国内有研究正在利用脑电信号和烟酸皮肤反应等方法来研发可预测精神病发作的产品。此外，针对CHR早期干预的临床试验也在进行中，2019年上海SHARP项目组启动DROPS（Decreasing Risk of Psychosis by Sulforaphane）研究[38]，该项目将对萝卜硫素降低精神病风险的作用进行RCT研究，相应结果将为早期营养补充提供更多可能的选择。另一项关于CHR抗精神病药物使用的真实世界研究也在进行中[39]。"
+  },
+  {
+    "rule_name": "国内SHARP项目组开发的手机APP临床预测工具",
+    "head": {
+      "is_negative": false,
+      "name": "开发团队",
+      "arguments": [
+        "国内SHARP项目组",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "预测模型",
+        "arguments": [
+          "Y",
+          "精神病发病风险",
+          "专有"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "开发形式",
+        "arguments": [
+          "Y",
+          "手机APP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "服务于",
+        "arguments": [
+          "Y",
+          "临床工作"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用者",
+        "arguments": [
+          "Y",
+          "临床医生"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预测依据",
+        "arguments": [
+          "Y",
+          "高危者临床特征与认知水平"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "风险预测器"
+    },
+    "source_text": "8临床研究动态由于CHR最终转化为精神病性障碍的比例不足1/3，因此寻找更能反映疾病的素质标记并在早期具有预警价值的临床工具成为该领域研究的共同目标。CANNON等[35]根据北美地区的CHR队列数据开发了一款预测模型，预测CHR者2年内发病的准确率为71%，并将这款产品在网络上公开（http://riskcalc.org:3838/napls/）。虽然该预测器具有很好的应用潜力，但在中国人群中应用的准确性仅为63%[11]。国内SHARP项目组自主开发了一款以手机APP形式服务于临床工作的风险预测器，临床医生可根据高危者临床特征和认知水平进行精神病发病风险预测，预测准度达到78%[36]。另外，生物学标记也有可能进一步纳入风险预测和干预指导中[37]，国内有研究正在利用脑电信号和烟酸皮肤反应等方法来研发可预测精神病发作的产品。此外，针对CHR早期干预的临床试验也在进行中，2019年上海SHARP项目组启动DROPS（Decreasing Risk of Psychosis by Sulforaphane）研究[38]，该项目将对萝卜硫素降低精神病风险的作用进行RCT研究，相应结果将为早期营养补充提供更多可能的选择。另一项关于CHR抗精神病药物使用的真实世界研究也在进行中[39]。"
+  },
+  {
+    "rule_name": "国内研究利用生物学标记研发精神病预测产品",
+    "head": {
+      "is_negative": false,
+      "name": "研究类型",
+      "arguments": [
+        "Z",
+        "生物学标记研究"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "研发项目",
+        "arguments": [
+          "Z",
+          "精神病发作预测产品"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研发方法",
+        "arguments": [
+          "Z",
+          "利用脑电信号"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研发方法",
+        "arguments": [
+          "Z",
+          "利用烟酸皮肤反应"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标",
+        "arguments": [
+          "Z",
+          "纳入风险预测与干预指导"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "研发项目"
+    },
+    "source_text": "8临床研究动态由于CHR最终转化为精神病性障碍的比例不足1/3，因此寻找更能反映疾病的素质标记并在早期具有预警价值的临床工具成为该领域研究的共同目标。CANNON等[35]根据北美地区的CHR队列数据开发了一款预测模型，预测CHR者2年内发病的准确率为71%，并将这款产品在网络上公开（http://riskcalc.org:3838/napls/）。虽然该预测器具有很好的应用潜力，但在中国人群中应用的准确性仅为63%[11]。国内SHARP项目组自主开发了一款以手机APP形式服务于临床工作的风险预测器，临床医生可根据高危者临床特征和认知水平进行精神病发病风险预测，预测准度达到78%[36]。另外，生物学标记也有可能进一步纳入风险预测和干预指导中[37]，国内有研究正在利用脑电信号和烟酸皮肤反应等方法来研发可预测精神病发作的产品。此外，针对CHR早期干预的临床试验也在进行中，2019年上海SHARP项目组启动DROPS（Decreasing Risk of Psychosis by Sulforaphane）研究[38]，该项目将对萝卜硫素降低精神病风险的作用进行RCT研究，相应结果将为早期营养补充提供更多可能的选择。另一项关于CHR抗精神病药物使用的真实世界研究也在进行中[39]。"
+  },
+  {
+    "rule_name": "上海SHARP项目组启动萝卜硫素降低精神病风险的RCT研究",
+    "head": {
+      "is_negative": false,
+      "name": "研究领域",
+      "arguments": [
+        "W",
+        "CHR早期干预"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "临床试验",
+        "arguments": [
+          "W",
+          "DROPS研究"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究启动时间",
+        "arguments": [
+          "W",
+          "2019年"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究地点",
+        "arguments": [
+          "W",
+          "上海"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发起团队",
+        "arguments": [
+          "W",
+          "上海SHARP项目组"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究对象",
+        "arguments": [
+          "W",
+          "早期营养补充"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干预措施",
+        "arguments": [
+          "W",
+          "萝卜硫素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究目的",
+        "arguments": [
+          "W",
+          "降低精神病风险"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究设计",
+        "arguments": [
+          "W",
+          "RCT"
+        ]
+      }
+    ],
+    "variables": {
+      "W": "临床试验"
+    },
+    "source_text": "8临床研究动态由于CHR最终转化为精神病性障碍的比例不足1/3，因此寻找更能反映疾病的素质标记并在早期具有预警价值的临床工具成为该领域研究的共同目标。CANNON等[35]根据北美地区的CHR队列数据开发了一款预测模型，预测CHR者2年内发病的准确率为71%，并将这款产品在网络上公开（http://riskcalc.org:3838/napls/）。虽然该预测器具有很好的应用潜力，但在中国人群中应用的准确性仅为63%[11]。国内SHARP项目组自主开发了一款以手机APP形式服务于临床工作的风险预测器，临床医生可根据高危者临床特征和认知水平进行精神病发病风险预测，预测准度达到78%[36]。另外，生物学标记也有可能进一步纳入风险预测和干预指导中[37]，国内有研究正在利用脑电信号和烟酸皮肤反应等方法来研发可预测精神病发作的产品。此外，针对CHR早期干预的临床试验也在进行中，2019年上海SHARP项目组启动DROPS（Decreasing Risk of Psychosis by Sulforaphane）研究[38]，该项目将对萝卜硫素降低精神病风险的作用进行RCT研究，相应结果将为早期营养补充提供更多可能的选择。另一项关于CHR抗精神病药物使用的真实世界研究也在进行中[39]。"
+  },
+  {
+    "rule_name": "针对CHR人群抗精神病药物使用的真实世界研究",
+    "head": {
+      "is_negative": false,
+      "name": "研究领域",
+      "arguments": [
+        "V",
+        "CHR早期干预"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "临床试验",
+        "arguments": [
+          "V",
+          "抗精神病药物使用研究"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究性质",
+        "arguments": [
+          "V",
+          "真实世界研究"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "研究对象群体",
+        "arguments": [
+          "V",
+          "CHR人群"
+        ]
+      }
+    ],
+    "variables": {
+      "V": "临床试验"
+    },
+    "source_text": "8临床研究动态由于CHR最终转化为精神病性障碍的比例不足1/3，因此寻找更能反映疾病的素质标记并在早期具有预警价值的临床工具成为该领域研究的共同目标。CANNON等[35]根据北美地区的CHR队列数据开发了一款预测模型，预测CHR者2年内发病的准确率为71%，并将这款产品在网络上公开（http://riskcalc.org:3838/napls/）。虽然该预测器具有很好的应用潜力，但在中国人群中应用的准确性仅为63%[11]。国内SHARP项目组自主开发了一款以手机APP形式服务于临床工作的风险预测器，临床医生可根据高危者临床特征和认知水平进行精神病发病风险预测，预测准度达到78%[36]。另外，生物学标记也有可能进一步纳入风险预测和干预指导中[37]，国内有研究正在利用脑电信号和烟酸皮肤反应等方法来研发可预测精神病发作的产品。此外，针对CHR早期干预的临床试验也在进行中，2019年上海SHARP项目组启动DROPS（Decreasing Risk of Psychosis by Sulforaphane）研究[38]，该项目将对萝卜硫素降低精神病风险的作用进行RCT研究，相应结果将为早期营养补充提供更多可能的选择。另一项关于CHR抗精神病药物使用的真实世界研究也在进行中[39]。"
+  },
+  {
+    "rule_name": "描述CHR向精神病发作的基本转化路径",
+    "head": {
+      "is_negative": false,
+      "name": "转化发生",
+      "arguments": [
+        "X",
+        "首次精神病发作"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "chR_个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处于状态",
+        "arguments": [
+          "X",
+          "高危状态"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CHR个体"
+    },
+    "source_text": "5风险因素与转归CHR转化，是从高危状态转化为首次精神病发作状态。在全球范围内，早期研究报道2~3年时间内CHR临床转化率多为30%左右[9-10]（I，A）。中国CHR队列项目从2011年正式在上海启动，取名为“上海精神病高危队列（ShangHai At Risk forPsychosis，SHARP）”项目[11]。SHARP项目中，2011年入组的CHR人群2年精神病转化率为29.1%，2013年入组的CHR人群2年转化率为27.5%[12]，与欧美国家数据基本一致。（Ⅱ，B）CHR转化比例不足1/3，进一步探索其危险因素将有助于早期预警和指导干预。在人口学特征上，CHR年龄越小，转化风险越大，男性转化风险略高于女性（II，B）。临床特征方面，一般功能受损（一般总体功能量表评分越低），阳性症状中思维内容异常和猜疑被害症状、阴性症状显著，精神病前驱症状未治疗期长，未来2~3年精神病转化风险高[13-15]。（Ⅱ，B）认知功能方面，与健康对照相比，CHR在几乎所有认知维度均存在受损，其中，视觉学习和处理速度以及社会认知功能有显著预测临床转化作用[16-17]（II，B）。"
+  },
+  {
+    "rule_name": "人口学特征中年龄与性别共同预示高转化风险",
+    "head": {
+      "is_negative": false,
+      "name": "转化风险",
+      "arguments": [
+        "X",
+        "高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "chR_个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄特征",
+        "arguments": [
+          "X",
+          "小"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "性别",
+        "arguments": [
+          "X",
+          "男性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CHR个体"
+    },
+    "source_text": "5风险因素与转归CHR转化，是从高危状态转化为首次精神病发作状态。在全球范围内，早期研究报道2~3年时间内CHR临床转化率多为30%左右[9-10]（I，A）。中国CHR队列项目从2011年正式在上海启动，取名为“上海精神病高危队列（ShangHai At Risk forPsychosis，SHARP）”项目[11]。SHARP项目中，2011年入组的CHR人群2年精神病转化率为29.1%，2013年入组的CHR人群2年转化率为27.5%[12]，与欧美国家数据基本一致。（Ⅱ，B）CHR转化比例不足1/3，进一步探索其危险因素将有助于早期预警和指导干预。在人口学特征上，CHR年龄越小，转化风险越大，男性转化风险略高于女性（II，B）。临床特征方面，一般功能受损（一般总体功能量表评分越低），阳性症状中思维内容异常和猜疑被害症状、阴性症状显著，精神病前驱症状未治疗期长，未来2~3年精神病转化风险高[13-15]。（Ⅱ，B）认知功能方面，与健康对照相比，CHR在几乎所有认知维度均存在受损，其中，视觉学习和处理速度以及社会认知功能有显著预测临床转化作用[16-17]（II，B）。"
+  },
+  {
+    "rule_name": "一般功能受损与特定阳性症状共同预示高转化风险",
+    "head": {
+      "is_negative": false,
+      "name": "转化风险",
+      "arguments": [
+        "X",
+        "高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "chR_个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在特征",
+        "arguments": [
+          "X",
+          "一般功能受损"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "思维内容异常"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "猜疑被害症状"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CHR个体"
+    },
+    "source_text": "5风险因素与转归CHR转化，是从高危状态转化为首次精神病发作状态。在全球范围内，早期研究报道2~3年时间内CHR临床转化率多为30%左右[9-10]（I，A）。中国CHR队列项目从2011年正式在上海启动，取名为“上海精神病高危队列（ShangHai At Risk forPsychosis，SHARP）”项目[11]。SHARP项目中，2011年入组的CHR人群2年精神病转化率为29.1%，2013年入组的CHR人群2年转化率为27.5%[12]，与欧美国家数据基本一致。（Ⅱ，B）CHR转化比例不足1/3，进一步探索其危险因素将有助于早期预警和指导干预。在人口学特征上，CHR年龄越小，转化风险越大，男性转化风险略高于女性（II，B）。临床特征方面，一般功能受损（一般总体功能量表评分越低），阳性症状中思维内容异常和猜疑被害症状、阴性症状显著，精神病前驱症状未治疗期长，未来2~3年精神病转化风险高[13-15]。（Ⅱ，B）认知功能方面，与健康对照相比，CHR在几乎所有认知维度均存在受损，其中，视觉学习和处理速度以及社会认知功能有显著预测临床转化作用[16-17]（II，B）。"
+  },
+  {
+    "rule_name": "阴性症状显著与长未治疗期共同预示高转化风险",
+    "head": {
+      "is_negative": false,
+      "name": "转化风险",
+      "arguments": [
+        "X",
+        "高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "chR_个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在特征",
+        "arguments": [
+          "X",
+          "阴性症状显著"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在特征",
+        "arguments": [
+          "X",
+          "精神病前驱症状未治疗期长"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CHR个体"
+    },
+    "source_text": "5风险因素与转归CHR转化，是从高危状态转化为首次精神病发作状态。在全球范围内，早期研究报道2~3年时间内CHR临床转化率多为30%左右[9-10]（I，A）。中国CHR队列项目从2011年正式在上海启动，取名为“上海精神病高危队列（ShangHai At Risk forPsychosis，SHARP）”项目[11]。SHARP项目中，2011年入组的CHR人群2年精神病转化率为29.1%，2013年入组的CHR人群2年转化率为27.5%[12]，与欧美国家数据基本一致。（Ⅱ，B）CHR转化比例不足1/3，进一步探索其危险因素将有助于早期预警和指导干预。在人口学特征上，CHR年龄越小，转化风险越大，男性转化风险略高于女性（II，B）。临床特征方面，一般功能受损（一般总体功能量表评分越低），阳性症状中思维内容异常和猜疑被害症状、阴性症状显著，精神病前驱症状未治疗期长，未来2~3年精神病转化风险高[13-15]。（Ⅱ，B）认知功能方面，与健康对照相比，CHR在几乎所有认知维度均存在受损，其中，视觉学习和处理速度以及社会认知功能有显著预测临床转化作用[16-17]（II，B）。"
+  },
+  {
+    "rule_name": "视觉学习与处理速度受损预示临床转化",
+    "head": {
+      "is_negative": false,
+      "name": "转化风险",
+      "arguments": [
+        "X",
+        "高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "chR_个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在认知维度受损",
+        "arguments": [
+          "X",
+          "所有维度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在特定认知受损",
+        "arguments": [
+          "X",
+          "视觉学习和处理速度"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CHR个体"
+    },
+    "source_text": "5风险因素与转归CHR转化，是从高危状态转化为首次精神病发作状态。在全球范围内，早期研究报道2~3年时间内CHR临床转化率多为30%左右[9-10]（I，A）。中国CHR队列项目从2011年正式在上海启动，取名为“上海精神病高危队列（ShangHai At Risk forPsychosis，SHARP）”项目[11]。SHARP项目中，2011年入组的CHR人群2年精神病转化率为29.1%，2013年入组的CHR人群2年转化率为27.5%[12]，与欧美国家数据基本一致。（Ⅱ，B）CHR转化比例不足1/3，进一步探索其危险因素将有助于早期预警和指导干预。在人口学特征上，CHR年龄越小，转化风险越大，男性转化风险略高于女性（II，B）。临床特征方面，一般功能受损（一般总体功能量表评分越低），阳性症状中思维内容异常和猜疑被害症状、阴性症状显著，精神病前驱症状未治疗期长，未来2~3年精神病转化风险高[13-15]。（Ⅱ，B）认知功能方面，与健康对照相比，CHR在几乎所有认知维度均存在受损，其中，视觉学习和处理速度以及社会认知功能有显著预测临床转化作用[16-17]（II，B）。"
+  },
+  {
+    "rule_name": "社会认知功能受损预示临床转化",
+    "head": {
+      "is_negative": false,
+      "name": "转化风险",
+      "arguments": [
+        "X",
+        "高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "chR_个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在认知维度受损",
+        "arguments": [
+          "X",
+          "所有维度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在特定认知受损",
+        "arguments": [
+          "X",
+          "社会认知功能"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CHR个体"
+    },
+    "source_text": "5风险因素与转归CHR转化，是从高危状态转化为首次精神病发作状态。在全球范围内，早期研究报道2~3年时间内CHR临床转化率多为30%左右[9-10]（I，A）。中国CHR队列项目从2011年正式在上海启动，取名为“上海精神病高危队列（ShangHai At Risk forPsychosis，SHARP）”项目[11]。SHARP项目中，2011年入组的CHR人群2年精神病转化率为29.1%，2013年入组的CHR人群2年转化率为27.5%[12]，与欧美国家数据基本一致。（Ⅱ，B）CHR转化比例不足1/3，进一步探索其危险因素将有助于早期预警和指导干预。在人口学特征上，CHR年龄越小，转化风险越大，男性转化风险略高于女性（II，B）。临床特征方面，一般功能受损（一般总体功能量表评分越低），阳性症状中思维内容异常和猜疑被害症状、阴性症状显著，精神病前驱症状未治疗期长，未来2~3年精神病转化风险高[13-15]。（Ⅱ，B）认知功能方面，与健康对照相比，CHR在几乎所有认知维度均存在受损，其中，视觉学习和处理速度以及社会认知功能有显著预测临床转化作用[16-17]（II，B）。"
+  },
+  {
+    "rule_name": "存在轻微妄想症状者试用轻微精神病综合征诊断",
+    "head": {
+      "is_negative": false,
+      "name": "诊断建议",
+      "arguments": [
+        "X",
+        "轻微精神病综合征",
+        "试用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "现实检验能力",
+        "arguments": [
+          "X",
+          "相对完整"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "妄想"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状严重程度",
+        "arguments": [
+          "X",
+          "轻微"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状频率符合标准",
+        "arguments": [
+          "X",
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状出现时间符合标准",
+        "arguments": [
+          "X",
+          "B"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状导致临床关注",
+        "arguments": [
+          "X",
+          "C"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "症状可被其他精神障碍解释",
+        "arguments": [
+          "X",
+          "D"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "归因于物质效应或其他疾病",
+        "arguments": [
+          "X",
+          "D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "既往无精神病性障碍",
+        "arguments": [
+          "X",
+          "E"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用评估工具",
+        "arguments": [
+          "X",
+          "结构化访谈"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估人员资质",
+        "arguments": [
+          "X",
+          "规范化培训"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "目前诊断标准系统中，与CHR关系最密切的是《精神障碍诊断与统计手册第5版》（Diagnosticand Statistical Manual of Mental Disorders, 5th Edi-tion, DSM-5）轻微精神病综合征。诊断标准如下。妄想、幻觉和言语紊乱至少一种症状以轻微形式存在，患者有相对完整的现实检验能力，症状严重程度或频率如下：A. 症状必须在过去1个月内每周至少出现一次。B. 症状必须在过去1年中开始出现或加重。C. 症状导致的痛苦或功能损害程度足以引起临床关注。D. 症状无法通过其他精神障碍更好地解释，包括具有精神病特征的抑郁障碍或双相障碍，不能归因于某种物质的生理效应或其他医学疾病。E. 既往从未符合任何精神病性障碍标准。建议2：试用“轻微精神病综合征”进行临床诊断，按照CHR概念标准结合结构化访谈工具，开展标准化评估，评估人员需接受评估工具使用的规范化培训，提高识别准确性和规范性。"
+  },
+  {
+    "rule_name": "存在轻微幻觉症状者试用轻微精神病综合征诊断",
+    "head": {
+      "is_negative": false,
+      "name": "诊断建议",
+      "arguments": [
+        "X",
+        "轻微精神病综合征",
+        "试用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "现实检验能力",
+        "arguments": [
+          "X",
+          "相对完整"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "幻觉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状严重程度",
+        "arguments": [
+          "X",
+          "轻微"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状频率符合标准",
+        "arguments": [
+          "X",
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状出现时间符合标准",
+        "arguments": [
+          "X",
+          "B"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状导致临床关注",
+        "arguments": [
+          "X",
+          "C"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "症状可被其他精神障碍解释",
+        "arguments": [
+          "X",
+          "D"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "归因于物质效应或其他疾病",
+        "arguments": [
+          "X",
+          "D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "既往无精神病性障碍",
+        "arguments": [
+          "X",
+          "E"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用评估工具",
+        "arguments": [
+          "X",
+          "结构化访谈"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估人员资质",
+        "arguments": [
+          "X",
+          "规范化培训"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "目前诊断标准系统中，与CHR关系最密切的是《精神障碍诊断与统计手册第5版》（Diagnosticand Statistical Manual of Mental Disorders, 5th Edi-tion, DSM-5）轻微精神病综合征。诊断标准如下。妄想、幻觉和言语紊乱至少一种症状以轻微形式存在，患者有相对完整的现实检验能力，症状严重程度或频率如下：A. 症状必须在过去1个月内每周至少出现一次。B. 症状必须在过去1年中开始出现或加重。C. 症状导致的痛苦或功能损害程度足以引起临床关注。D. 症状无法通过其他精神障碍更好地解释，包括具有精神病特征的抑郁障碍或双相障碍，不能归因于某种物质的生理效应或其他医学疾病。E. 既往从未符合任何精神病性障碍标准。建议2：试用“轻微精神病综合征”进行临床诊断，按照CHR概念标准结合结构化访谈工具，开展标准化评估，评估人员需接受评估工具使用的规范化培训，提高识别准确性和规范性。"
+  },
+  {
+    "rule_name": "存在轻微言语紊乱症状者试用轻微精神病综合征诊断",
+    "head": {
+      "is_negative": false,
+      "name": "诊断建议",
+      "arguments": [
+        "X",
+        "轻微精神病综合征",
+        "试用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "现实检验能力",
+        "arguments": [
+          "X",
+          "相对完整"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "言语紊乱"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状严重程度",
+        "arguments": [
+          "X",
+          "轻微"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状频率符合标准",
+        "arguments": [
+          "X",
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状出现时间符合标准",
+        "arguments": [
+          "X",
+          "B"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状导致临床关注",
+        "arguments": [
+          "X",
+          "C"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "症状可被其他精神障碍解释",
+        "arguments": [
+          "X",
+          "D"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "归因于物质效应或其他疾病",
+        "arguments": [
+          "X",
+          "D"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "既往无精神病性障碍",
+        "arguments": [
+          "X",
+          "E"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用评估工具",
+        "arguments": [
+          "X",
+          "结构化访谈"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估人员资质",
+        "arguments": [
+          "X",
+          "规范化培训"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "目前诊断标准系统中，与CHR关系最密切的是《精神障碍诊断与统计手册第5版》（Diagnosticand Statistical Manual of Mental Disorders, 5th Edi-tion, DSM-5）轻微精神病综合征。诊断标准如下。妄想、幻觉和言语紊乱至少一种症状以轻微形式存在，患者有相对完整的现实检验能力，症状严重程度或频率如下：A. 症状必须在过去1个月内每周至少出现一次。B. 症状必须在过去1年中开始出现或加重。C. 症状导致的痛苦或功能损害程度足以引起临床关注。D. 症状无法通过其他精神障碍更好地解释，包括具有精神病特征的抑郁障碍或双相障碍，不能归因于某种物质的生理效应或其他医学疾病。E. 既往从未符合任何精神病性障碍标准。建议2：试用“轻微精神病综合征”进行临床诊断，按照CHR概念标准结合结构化访谈工具，开展标准化评估，评估人员需接受评估工具使用的规范化培训，提高识别准确性和规范性。"
+  }
+]

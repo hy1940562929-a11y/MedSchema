@@ -1,0 +1,988 @@
+[
+  {
+    "rule_name": "原发性肺结核鉴别诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "诊断结果",
+      "arguments": [
+        "X",
+        "原发性肺结核",
+        "需考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似肺结核患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在临床表现",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学表现",
+        "arguments": [
+          "X",
+          "纵膈淋巴结肿大"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学表现",
+        "arguments": [
+          "X",
+          "肺门淋巴结肿大"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学表现",
+        "arguments": [
+          "X",
+          "隆突下淋巴结肿大"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.肺结核。包括原发性肺结核、继发性肺结核以及结核性胸膜炎。根据临床表现以及影像学有无纵膈、肺门以及隆突下淋巴结肿大鉴别原发性肺结核；根据临床表现以及影像学有无空洞和支气管播散病灶鉴别继发性肺结核；根据临床表现、胸水检查以及影像学有无肺结核表现和肺实变鉴别结核性胸膜炎。"
+  },
+  {
+    "rule_name": "继发性肺结核鉴别诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "诊断结果",
+      "arguments": [
+        "X",
+        "继发性肺结核",
+        "需考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似肺结核患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在临床表现",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学表现",
+        "arguments": [
+          "X",
+          "空洞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学表现",
+        "arguments": [
+          "X",
+          "支气管播散病灶"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.肺结核。包括原发性肺结核、继发性肺结核以及结核性胸膜炎。根据临床表现以及影像学有无纵膈、肺门以及隆突下淋巴结肿大鉴别原发性肺结核；根据临床表现以及影像学有无空洞和支气管播散病灶鉴别继发性肺结核；根据临床表现、胸水检查以及影像学有无肺结核表现和肺实变鉴别结核性胸膜炎。"
+  },
+  {
+    "rule_name": "结核性胸膜炎鉴别诊断依据",
+    "head": {
+      "is_negative": false,
+      "name": "诊断结果",
+      "arguments": [
+        "X",
+        "结核性胸膜炎",
+        "需考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疑似肺结核患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在临床表现",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "胸水检查阳性",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学表现",
+        "arguments": [
+          "X",
+          "肺结核征象"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学表现",
+        "arguments": [
+          "X",
+          "肺实变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.肺结核。包括原发性肺结核、继发性肺结核以及结核性胸膜炎。根据临床表现以及影像学有无纵膈、肺门以及隆突下淋巴结肿大鉴别原发性肺结核；根据临床表现以及影像学有无空洞和支气管播散病灶鉴别继发性肺结核；根据临床表现、胸水检查以及影像学有无肺结核表现和肺实变鉴别结核性胸膜炎。"
+  },
+  {
+    "rule_name": "重症CAP后遗症导致儿童慢性气道疾病与生命质量下降",
+    "head": {
+      "is_negative": false,
+      "name": "导致慢性病",
+      "arguments": [
+        "X",
+        "慢性气道疾病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肺炎事件",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "重症难治性支原体肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于类型",
+        "arguments": [
+          "Y",
+          "社区获得性肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "后遗症",
+        "arguments": [
+          "Y",
+          "气道闭塞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "慢性病后果",
+        "arguments": [
+          "气道闭塞",
+          "慢性气道疾病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影响属性",
+        "arguments": [
+          "X",
+          "生命质量降低"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿",
+      "Y": "肺炎事件"
+    },
+    "source_text": "世界卫生组织资料显示，2016 年肺炎造成92 万5 岁以下儿童死亡，其中98%来自发展中国家。肺炎也是当前我国5 岁以下儿童死亡的主要原因之一，其中绝大部分儿童肺炎为社区获得性肺炎（Community Acquired Pneumonia ,CAP）。社区获得性肺炎中的重症难治性支原体肺炎和腺病毒肺炎等遗留的气道闭塞，是造成儿童患慢性气道疾病、影响生命质量的重要原因。近年来，我国CAP 诊疗水平有了长足进步，但在一些地方、一些医疗机构还存在抗生素应用不尽合理、检查方法选择缺乏针对性等问题。鉴于此，国家卫生健康委、国家中医药局组织各相关学科专家，结合我国国情，制定了《儿童社区获得性肺炎诊疗规范（2019 年版）》，进一步提高诊疗规范化水平，重点聚焦重症CAP 的诊断和高危因素识别，经验性和目标治疗等，以期降低病死率和后遗症发生率。"
+  },
+  {
+    "rule_name": "5岁以下儿童CAP构成重要死亡原因",
+    "head": {
+      "is_negative": false,
+      "name": "重要死亡原因",
+      "arguments": [
+        "X",
+        "肺炎"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄组",
+        "arguments": [
+          "X",
+          "5岁以下"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "社区获得性肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要死亡原因",
+        "arguments": [
+          "肺炎",
+          "当前中国"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "社区获得性肺炎",
+          "绝大部分儿童肺炎"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "世界卫生组织资料显示，2016 年肺炎造成92 万5 岁以下儿童死亡，其中98%来自发展中国家。肺炎也是当前我国5 岁以下儿童死亡的主要原因之一，其中绝大部分儿童肺炎为社区获得性肺炎（Community Acquired Pneumonia ,CAP）。社区获得性肺炎中的重症难治性支原体肺炎和腺病毒肺炎等遗留的气道闭塞，是造成儿童患慢性气道疾病、影响生命质量的重要原因。近年来，我国CAP 诊疗水平有了长足进步，但在一些地方、一些医疗机构还存在抗生素应用不尽合理、检查方法选择缺乏针对性等问题。鉴于此，国家卫生健康委、国家中医药局组织各相关学科专家，结合我国国情，制定了《儿童社区获得性肺炎诊疗规范（2019 年版）》，进一步提高诊疗规范化水平，重点聚焦重症CAP 的诊断和高危因素识别，经验性和目标治疗等，以期降低病死率和后遗症发生率。"
+  },
+  {
+    "rule_name": "制定CAP诊疗规范旨在通过聚焦重症诊疗降低风险",
+    "head": {
+      "is_negative": false,
+      "name": "规范目的",
+      "arguments": [
+        "Z",
+        "降低病死率和后遗症发生率"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "诊疗规范",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对疾病",
+        "arguments": [
+          "Z",
+          "社区获得性肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定背景",
+        "arguments": [
+          "Z",
+          "诊疗现状存在问题"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含措施",
+        "arguments": [
+          "Z",
+          "聚焦重症诊断和高危因素识别"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含措施",
+        "arguments": [
+          "Z",
+          "经验性和目标治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预期效果",
+        "arguments": [
+          "该措施组合",
+          "提高诊疗规范化水平"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "《儿童社区获得性肺炎诊疗规范（2019年版）》"
+    },
+    "source_text": "世界卫生组织资料显示，2016 年肺炎造成92 万5 岁以下儿童死亡，其中98%来自发展中国家。肺炎也是当前我国5 岁以下儿童死亡的主要原因之一，其中绝大部分儿童肺炎为社区获得性肺炎（Community Acquired Pneumonia ,CAP）。社区获得性肺炎中的重症难治性支原体肺炎和腺病毒肺炎等遗留的气道闭塞，是造成儿童患慢性气道疾病、影响生命质量的重要原因。近年来，我国CAP 诊疗水平有了长足进步，但在一些地方、一些医疗机构还存在抗生素应用不尽合理、检查方法选择缺乏针对性等问题。鉴于此，国家卫生健康委、国家中医药局组织各相关学科专家，结合我国国情，制定了《儿童社区获得性肺炎诊疗规范（2019 年版）》，进一步提高诊疗规范化水平，重点聚焦重症CAP 的诊断和高危因素识别，经验性和目标治疗等，以期降低病死率和后遗症发生率。"
+  },
+  {
+    "rule_name": "非婴儿患儿轻症肺炎支原体肺炎的阿奇霉素口服首选方案",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "阿奇霉素",
+        "首选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "轻症肺炎支原体肺炎",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "婴儿",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "大环内酯类抗菌药物包括第1 代红霉素，第2 代阿奇霉素、克拉霉素、罗红霉素。首选阿奇霉素：10 http://guide.medlive.cn/mg/(kg·d)，qd，轻症3 天为1 个疗程，重症可连用5～7 天，2—3天后可重复第2 个疗程；但婴儿使用阿奇霉素，尤其是静脉制剂要慎重。红霉素：20～30mg/(kg·d)，疗程10～14 天，严重者可适当延长。停药依据临床症状、影像学表现以及炎性指标决定，不宜以肺部实变完全吸收、抗体阴性或MP-DNA 转阴作为停药指征。 （２）非大环内酯类抗菌药物。四环素类、氟喹诺酮类药物对MP 有强大抑菌活性与临床疗效。四环素类包括多西环素、米诺环素(美满霉素)等，因可能导致牙齿发黄或牙釉质发育不良等不良反应，应用于8 岁以上患儿。氟喹诺酮类抗生素可用于已经明确的重症难治性支原体肺炎，因可能对骨骼发育产生不良影响，18 岁以下儿童使用受到限制，使用此类药物应进行风险/利益分析。"
+  },
+  {
+    "rule_name": "非婴儿患儿重症肺炎支原体肺炎的阿奇霉素静脉使用方案",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "阿奇霉素",
+        "可选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "重症难治性肺炎支原体肺炎",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "婴儿",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "大环内酯类抗菌药物包括第1 代红霉素，第2 代阿奇霉素、克拉霉素、罗红霉素。首选阿奇霉素：10 http://guide.medlive.cn/mg/(kg·d)，qd，轻症3 天为1 个疗程，重症可连用5～7 天，2—3天后可重复第2 个疗程；但婴儿使用阿奇霉素，尤其是静脉制剂要慎重。红霉素：20～30mg/(kg·d)，疗程10～14 天，严重者可适当延长。停药依据临床症状、影像学表现以及炎性指标决定，不宜以肺部实变完全吸收、抗体阴性或MP-DNA 转阴作为停药指征。 （２）非大环内酯类抗菌药物。四环素类、氟喹诺酮类药物对MP 有强大抑菌活性与临床疗效。四环素类包括多西环素、米诺环素(美满霉素)等，因可能导致牙齿发黄或牙釉质发育不良等不良反应，应用于8 岁以上患儿。氟喹诺酮类抗生素可用于已经明确的重症难治性支原体肺炎，因可能对骨骼发育产生不良影响，18 岁以下儿童使用受到限制，使用此类药物应进行风险/利益分析。"
+  },
+  {
+    "rule_name": "患儿肺炎支原体肺炎的红霉素治疗方案",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "红霉素",
+        "可选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "肺炎支原体肺炎"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "大环内酯类抗菌药物包括第1 代红霉素，第2 代阿奇霉素、克拉霉素、罗红霉素。首选阿奇霉素：10 http://guide.medlive.cn/mg/(kg·d)，qd，轻症3 天为1 个疗程，重症可连用5～7 天，2—3天后可重复第2 个疗程；但婴儿使用阿奇霉素，尤其是静脉制剂要慎重。红霉素：20～30mg/(kg·d)，疗程10～14 天，严重者可适当延长。停药依据临床症状、影像学表现以及炎性指标决定，不宜以肺部实变完全吸收、抗体阴性或MP-DNA 转阴作为停药指征。 （２）非大环内酯类抗菌药物。四环素类、氟喹诺酮类药物对MP 有强大抑菌活性与临床疗效。四环素类包括多西环素、米诺环素(美满霉素)等，因可能导致牙齿发黄或牙釉质发育不良等不良反应，应用于8 岁以上患儿。氟喹诺酮类抗生素可用于已经明确的重症难治性支原体肺炎，因可能对骨骼发育产生不良影响，18 岁以下儿童使用受到限制，使用此类药物应进行风险/利益分析。"
+  },
+  {
+    "rule_name": "大于8岁患儿肺炎支原体肺炎的四环素类药物使用条件",
+    "head": {
+      "is_negative": false,
+      "name": "可用药物类别",
+      "arguments": [
+        "X",
+        "四环素类"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "肺炎支原体肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄大于",
+        "arguments": [
+          "X",
+          "8岁"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "大环内酯类抗菌药物包括第1 代红霉素，第2 代阿奇霉素、克拉霉素、罗红霉素。首选阿奇霉素：10 http://guide.medlive.cn/mg/(kg·d)，qd，轻症3 天为1 个疗程，重症可连用5～7 天，2—3天后可重复第2 个疗程；但婴儿使用阿奇霉素，尤其是静脉制剂要慎重。红霉素：20～30mg/(kg·d)，疗程10～14 天，严重者可适当延长。停药依据临床症状、影像学表现以及炎性指标决定，不宜以肺部实变完全吸收、抗体阴性或MP-DNA 转阴作为停药指征。 （２）非大环内酯类抗菌药物。四环素类、氟喹诺酮类药物对MP 有强大抑菌活性与临床疗效。四环素类包括多西环素、米诺环素(美满霉素)等，因可能导致牙齿发黄或牙釉质发育不良等不良反应，应用于8 岁以上患儿。氟喹诺酮类抗生素可用于已经明确的重症难治性支原体肺炎，因可能对骨骼发育产生不良影响，18 岁以下儿童使用受到限制，使用此类药物应进行风险/利益分析。"
+  },
+  {
+    "rule_name": "重症难治性支原体肺炎患儿的氟喹诺酮类药物限制使用条件",
+    "head": {
+      "is_negative": false,
+      "name": "可用药物类别",
+      "arguments": [
+        "X",
+        "氟喹诺酮类"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "重症难治性肺炎支原体肺炎",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "年龄大于等于",
+        "arguments": [
+          "X",
+          "18岁"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "大环内酯类抗菌药物包括第1 代红霉素，第2 代阿奇霉素、克拉霉素、罗红霉素。首选阿奇霉素：10 http://guide.medlive.cn/mg/(kg·d)，qd，轻症3 天为1 个疗程，重症可连用5～7 天，2—3天后可重复第2 个疗程；但婴儿使用阿奇霉素，尤其是静脉制剂要慎重。红霉素：20～30mg/(kg·d)，疗程10～14 天，严重者可适当延长。停药依据临床症状、影像学表现以及炎性指标决定，不宜以肺部实变完全吸收、抗体阴性或MP-DNA 转阴作为停药指征。 （２）非大环内酯类抗菌药物。四环素类、氟喹诺酮类药物对MP 有强大抑菌活性与临床疗效。四环素类包括多西环素、米诺环素(美满霉素)等，因可能导致牙齿发黄或牙釉质发育不良等不良反应，应用于8 岁以上患儿。氟喹诺酮类抗生素可用于已经明确的重症难治性支原体肺炎，因可能对骨骼发育产生不良影响，18 岁以下儿童使用受到限制，使用此类药物应进行风险/利益分析。"
+  },
+  {
+    "rule_name": "ECMO考虑指征_基于P/F值",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "ECMO",
+        "可考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "重症肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发",
+        "arguments": [
+          "X",
+          "急性呼吸窘迫综合征"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗反应",
+        "arguments": [
+          "X",
+          "机械通气",
+          "无改善"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "氧合指标",
+        "arguments": [
+          "X",
+          "P/F",
+          "<60-80mmHg"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心功能状态",
+        "arguments": [
+          "X",
+          "尚好"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "重症肺炎合并急性呼吸窘迫综合征经机械通气等治疗无改善，可考虑体外膜肺（extracorporeal membrane oxygenation, ECMO）治疗。ECMO 指征： 1.动脉血氧分压／吸入氧浓度(P/F)<60-80mmHg； 2.氧合指数。OI>40（OI=平均气道压(cmH2O)×FiO2(%)×100÷PaO2(mmHg)）。 3.高平均气道压（cmH2O）。常频通气：>20-25，高频振荡通气：>30。 4.有医源性压力肺损伤证据。 5.持续性呼吸性酸中毒（pH<7.1）。 注：如心功能尚好，选用静脉-静脉模式ECMO，尽量在机械通气后7 天内实行。"
+  },
+  {
+    "rule_name": "ECMO考虑指征_基于OI值",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "ECMO",
+        "可考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "重症肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发",
+        "arguments": [
+          "X",
+          "急性呼吸窘迫综合征"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗反应",
+        "arguments": [
+          "X",
+          "机械通气",
+          "无改善"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "氧合指数",
+        "arguments": [
+          "X",
+          ">40"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心功能状态",
+        "arguments": [
+          "X",
+          "尚好"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "重症肺炎合并急性呼吸窘迫综合征经机械通气等治疗无改善，可考虑体外膜肺（extracorporeal membrane oxygenation, ECMO）治疗。ECMO 指征： 1.动脉血氧分压／吸入氧浓度(P/F)<60-80mmHg； 2.氧合指数。OI>40（OI=平均气道压(cmH2O)×FiO2(%)×100÷PaO2(mmHg)）。 3.高平均气道压（cmH2O）。常频通气：>20-25，高频振荡通气：>30。 4.有医源性压力肺损伤证据。 5.持续性呼吸性酸中毒（pH<7.1）。 注：如心功能尚好，选用静脉-静脉模式ECMO，尽量在机械通气后7 天内实行。"
+  },
+  {
+    "rule_name": "ECMO考虑指征_基于高气道压_常频通气",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "ECMO",
+        "可考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "重症肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发",
+        "arguments": [
+          "X",
+          "急性呼吸窘迫综合征"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗反应",
+        "arguments": [
+          "X",
+          "机械通气",
+          "无改善"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "通气模式",
+        "arguments": [
+          "X",
+          "常频通气"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "气道压条件",
+        "arguments": [
+          "X",
+          "常频通气",
+          ">20-25cmH2O"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心功能状态",
+        "arguments": [
+          "X",
+          "尚好"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "重症肺炎合并急性呼吸窘迫综合征经机械通气等治疗无改善，可考虑体外膜肺（extracorporeal membrane oxygenation, ECMO）治疗。ECMO 指征： 1.动脉血氧分压／吸入氧浓度(P/F)<60-80mmHg； 2.氧合指数。OI>40（OI=平均气道压(cmH2O)×FiO2(%)×100÷PaO2(mmHg)）。 3.高平均气道压（cmH2O）。常频通气：>20-25，高频振荡通气：>30。 4.有医源性压力肺损伤证据。 5.持续性呼吸性酸中毒（pH<7.1）。 注：如心功能尚好，选用静脉-静脉模式ECMO，尽量在机械通气后7 天内实行。"
+  },
+  {
+    "rule_name": "ECMO考虑指征_基于高气道压_高频振荡通气",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "ECMO",
+        "可考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "重症肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发",
+        "arguments": [
+          "X",
+          "急性呼吸窘迫综合征"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗反应",
+        "arguments": [
+          "X",
+          "机械通气",
+          "无改善"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "通气模式",
+        "arguments": [
+          "X",
+          "高频振荡通气"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "气道压条件",
+        "arguments": [
+          "X",
+          "高频振荡通气",
+          ">30cmH2O"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心功能状态",
+        "arguments": [
+          "X",
+          "尚好"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "重症肺炎合并急性呼吸窘迫综合征经机械通气等治疗无改善，可考虑体外膜肺（extracorporeal membrane oxygenation, ECMO）治疗。ECMO 指征： 1.动脉血氧分压／吸入氧浓度(P/F)<60-80mmHg； 2.氧合指数。OI>40（OI=平均气道压(cmH2O)×FiO2(%)×100÷PaO2(mmHg)）。 3.高平均气道压（cmH2O）。常频通气：>20-25，高频振荡通气：>30。 4.有医源性压力肺损伤证据。 5.持续性呼吸性酸中毒（pH<7.1）。 注：如心功能尚好，选用静脉-静脉模式ECMO，尽量在机械通气后7 天内实行。"
+  },
+  {
+    "rule_name": "ECMO考虑指征_基于压力肺损伤证据",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "ECMO",
+        "可考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "重症肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发",
+        "arguments": [
+          "X",
+          "急性呼吸窘迫综合征"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗反应",
+        "arguments": [
+          "X",
+          "机械通气",
+          "无改善"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在证据",
+        "arguments": [
+          "X",
+          "医源性压力肺损伤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心功能状态",
+        "arguments": [
+          "X",
+          "尚好"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "重症肺炎合并急性呼吸窘迫综合征经机械通气等治疗无改善，可考虑体外膜肺（extracorporeal membrane oxygenation, ECMO）治疗。ECMO 指征： 1.动脉血氧分压／吸入氧浓度(P/F)<60-80mmHg； 2.氧合指数。OI>40（OI=平均气道压(cmH2O)×FiO2(%)×100÷PaO2(mmHg)）。 3.高平均气道压（cmH2O）。常频通气：>20-25，高频振荡通气：>30。 4.有医源性压力肺损伤证据。 5.持续性呼吸性酸中毒（pH<7.1）。 注：如心功能尚好，选用静脉-静脉模式ECMO，尽量在机械通气后7 天内实行。"
+  },
+  {
+    "rule_name": "ECMO考虑指征_基于呼吸性酸中毒",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "ECMO",
+        "可考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "重症肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发",
+        "arguments": [
+          "X",
+          "急性呼吸窘迫综合征"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗反应",
+        "arguments": [
+          "X",
+          "机械通气",
+          "无改善"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "酸碱状态",
+        "arguments": [
+          "X",
+          "pH",
+          "<7.1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "心功能状态",
+        "arguments": [
+          "X",
+          "尚好"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "重症肺炎合并急性呼吸窘迫综合征经机械通气等治疗无改善，可考虑体外膜肺（extracorporeal membrane oxygenation, ECMO）治疗。ECMO 指征： 1.动脉血氧分压／吸入氧浓度(P/F)<60-80mmHg； 2.氧合指数。OI>40（OI=平均气道压(cmH2O)×FiO2(%)×100÷PaO2(mmHg)）。 3.高平均气道压（cmH2O）。常频通气：>20-25，高频振荡通气：>30。 4.有医源性压力肺损伤证据。 5.持续性呼吸性酸中毒（pH<7.1）。 注：如心功能尚好，选用静脉-静脉模式ECMO，尽量在机械通气后7 天内实行。"
+  }
+]

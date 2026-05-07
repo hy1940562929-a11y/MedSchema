@@ -1,0 +1,1559 @@
+[
+  {
+    "rule_name": "EGPA患者_5因子评分0分_激素治疗建议",
+    "head": {
+      "is_negative": false,
+      "name": "治疗建议",
+      "arguments": [
+        "X",
+        "激素控制"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估行为",
+        "arguments": [
+          "X",
+          "多器官受累"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评分行为",
+        "arguments": [
+          "X",
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评分结果",
+        "arguments": [
+          "S",
+          "0分"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "S": "5因子评分"
+    },
+    "source_text": "EGPA一旦确诊，需详细评估呼吸系统、肾、心脏、胃肠道和( 或) 外周神经等多器官受累情况。制定治疗方案前要先进行5因子评分以评估是否存在预后不良的因素。5因子评分：0分：EGPA患者可使用激素控制症状；≥1分：建议激素和免疫抑制剂联合治疗。总体治疗方案分为诱导缓解和维持治疗2个阶段。诱导缓解治疗方案主要包括激素和( 或) 免疫抑制剂( 如环磷酰胺)；病情达到缓解后，维持治疗推荐使用硫唑嘌呤或甲氨蝶呤。"
+  },
+  {
+    "rule_name": "EGPA患者_5因子评分大于等于1分_联合治疗建议",
+    "head": {
+      "is_negative": false,
+      "name": "治疗建议",
+      "arguments": [
+        "X",
+        "激素和免疫抑制剂联合治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估行为",
+        "arguments": [
+          "X",
+          "多器官受累"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评分行为",
+        "arguments": [
+          "X",
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评分结果",
+        "arguments": [
+          "S",
+          "大于等于1分"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "S": "5因子评分"
+    },
+    "source_text": "EGPA一旦确诊，需详细评估呼吸系统、肾、心脏、胃肠道和( 或) 外周神经等多器官受累情况。制定治疗方案前要先进行5因子评分以评估是否存在预后不良的因素。5因子评分：0分：EGPA患者可使用激素控制症状；≥1分：建议激素和免疫抑制剂联合治疗。总体治疗方案分为诱导缓解和维持治疗2个阶段。诱导缓解治疗方案主要包括激素和( 或) 免疫抑制剂( 如环磷酰胺)；病情达到缓解后，维持治疗推荐使用硫唑嘌呤或甲氨蝶呤。"
+  },
+  {
+    "rule_name": "EGPA患者_评分≥1分_启动诱导缓解治疗",
+    "head": {
+      "is_negative": false,
+      "name": "启动治疗阶段",
+      "arguments": [
+        "X",
+        "诱导缓解"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估行为",
+        "arguments": [
+          "X",
+          "多器官受累"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评分行为",
+        "arguments": [
+          "X",
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评分结果",
+        "arguments": [
+          "S",
+          "大于等于1分"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "S": "5因子评分"
+    },
+    "source_text": "EGPA一旦确诊，需详细评估呼吸系统、肾、心脏、胃肠道和( 或) 外周神经等多器官受累情况。制定治疗方案前要先进行5因子评分以评估是否存在预后不良的因素。5因子评分：0分：EGPA患者可使用激素控制症状；≥1分：建议激素和免疫抑制剂联合治疗。总体治疗方案分为诱导缓解和维持治疗2个阶段。诱导缓解治疗方案主要包括激素和( 或) 免疫抑制剂( 如环磷酰胺)；病情达到缓解后，维持治疗推荐使用硫唑嘌呤或甲氨蝶呤。"
+  },
+  {
+    "rule_name": "EGPA患者_达到缓解_维持治疗推荐硫唑嘌呤",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "硫唑嘌呤",
+        "用于维持治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "达到缓解",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "EGPA一旦确诊，需详细评估呼吸系统、肾、心脏、胃肠道和( 或) 外周神经等多器官受累情况。制定治疗方案前要先进行5因子评分以评估是否存在预后不良的因素。5因子评分：0分：EGPA患者可使用激素控制症状；≥1分：建议激素和免疫抑制剂联合治疗。总体治疗方案分为诱导缓解和维持治疗2个阶段。诱导缓解治疗方案主要包括激素和( 或) 免疫抑制剂( 如环磷酰胺)；病情达到缓解后，维持治疗推荐使用硫唑嘌呤或甲氨蝶呤。"
+  },
+  {
+    "rule_name": "EGPA患者_达到缓解_维持治疗推荐甲氨蝶呤",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "甲氨蝶呤",
+        "用于维持治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "达到缓解",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "EGPA一旦确诊，需详细评估呼吸系统、肾、心脏、胃肠道和( 或) 外周神经等多器官受累情况。制定治疗方案前要先进行5因子评分以评估是否存在预后不良的因素。5因子评分：0分：EGPA患者可使用激素控制症状；≥1分：建议激素和免疫抑制剂联合治疗。总体治疗方案分为诱导缓解和维持治疗2个阶段。诱导缓解治疗方案主要包括激素和( 或) 免疫抑制剂( 如环磷酰胺)；病情达到缓解后，维持治疗推荐使用硫唑嘌呤或甲氨蝶呤。"
+  },
+  {
+    "rule_name": "根据治疗前外周血EOS增多诊断EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "疾病诊断",
+      "arguments": [
+        "X",
+        "EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA疑似患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测样本",
+        "arguments": [
+          "Y1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测类型",
+        "arguments": [
+          "Y1",
+          "外周血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采集时机",
+        "arguments": [
+          "Y1",
+          "治疗前"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "来自患者",
+        "arguments": [
+          "Y1",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测结果",
+        "arguments": [
+          "Y1",
+          "EOS比例",
+          "增高"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y1": "检测样本"
+    },
+    "source_text": "外周血EOS增多是EGPA的特征之一，可出现于病程的任何阶段。2018共识特别提出要注意的是长期口服激素( 包括含有激素的中药复方) 可影响外周血EOS的实际水平。仔细询问病史，尤其是了解发病时或治疗前的血EOS比例，有助于早期发现EGPA。此外，诱导痰或支气管肺泡灌洗液(BALF) 中EOS明显增高也是重要特征之一，EGPA患者BALF中EOS的比例可高达25% 以上。ANCA的检测必须同时采用间接免疫荧光法(IIF) 和酶联免疫吸附测定法(ELISA)两种方法。ANCA阴性时不能排除EGPA的可能性。"
+  },
+  {
+    "rule_name": "根据未受激素影响的外周血EOS增多诊断EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "疾病诊断",
+      "arguments": [
+        "X",
+        "EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA疑似患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测样本",
+        "arguments": [
+          "Y1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测类型",
+        "arguments": [
+          "Y1",
+          "外周血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "来自患者",
+        "arguments": [
+          "Y1",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测结果",
+        "arguments": [
+          "Y1",
+          "EOS比例",
+          "增高"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "治疗史",
+        "arguments": [
+          "X",
+          "口服激素"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y1": "检测样本"
+    },
+    "source_text": "外周血EOS增多是EGPA的特征之一，可出现于病程的任何阶段。2018共识特别提出要注意的是长期口服激素( 包括含有激素的中药复方) 可影响外周血EOS的实际水平。仔细询问病史，尤其是了解发病时或治疗前的血EOS比例，有助于早期发现EGPA。此外，诱导痰或支气管肺泡灌洗液(BALF) 中EOS明显增高也是重要特征之一，EGPA患者BALF中EOS的比例可高达25% 以上。ANCA的检测必须同时采用间接免疫荧光法(IIF) 和酶联免疫吸附测定法(ELISA)两种方法。ANCA阴性时不能排除EGPA的可能性。"
+  },
+  {
+    "rule_name": "根据诱导痰EOS明显增高诊断EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "疾病诊断",
+      "arguments": [
+        "X",
+        "EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA疑似患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测样本",
+        "arguments": [
+          "Y2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测类型",
+        "arguments": [
+          "Y2",
+          "诱导痰"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "来自患者",
+        "arguments": [
+          "Y2",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测结果",
+        "arguments": [
+          "Y2",
+          "EOS比例",
+          "明显增高"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y2": "检测样本"
+    },
+    "source_text": "外周血EOS增多是EGPA的特征之一，可出现于病程的任何阶段。2018共识特别提出要注意的是长期口服激素( 包括含有激素的中药复方) 可影响外周血EOS的实际水平。仔细询问病史，尤其是了解发病时或治疗前的血EOS比例，有助于早期发现EGPA。此外，诱导痰或支气管肺泡灌洗液(BALF) 中EOS明显增高也是重要特征之一，EGPA患者BALF中EOS的比例可高达25% 以上。ANCA的检测必须同时采用间接免疫荧光法(IIF) 和酶联免疫吸附测定法(ELISA)两种方法。ANCA阴性时不能排除EGPA的可能性。"
+  },
+  {
+    "rule_name": "根据BALF中EOS明显增高诊断EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "疾病诊断",
+      "arguments": [
+        "X",
+        "EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA疑似患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测样本",
+        "arguments": [
+          "Y2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测类型",
+        "arguments": [
+          "Y2",
+          "支气管肺泡灌洗液"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "来自患者",
+        "arguments": [
+          "Y2",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测结果",
+        "arguments": [
+          "Y2",
+          "EOS比例",
+          "明显增高"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y2": "检测样本"
+    },
+    "source_text": "外周血EOS增多是EGPA的特征之一，可出现于病程的任何阶段。2018共识特别提出要注意的是长期口服激素( 包括含有激素的中药复方) 可影响外周血EOS的实际水平。仔细询问病史，尤其是了解发病时或治疗前的血EOS比例，有助于早期发现EGPA。此外，诱导痰或支气管肺泡灌洗液(BALF) 中EOS明显增高也是重要特征之一，EGPA患者BALF中EOS的比例可高达25% 以上。ANCA的检测必须同时采用间接免疫荧光法(IIF) 和酶联免疫吸附测定法(ELISA)两种方法。ANCA阴性时不能排除EGPA的可能性。"
+  },
+  {
+    "rule_name": "ANCA阳性时的EGPA诊断支持依据",
+    "head": {
+      "is_negative": false,
+      "name": "诊断支持依据",
+      "arguments": [
+        "X",
+        "ANCA阳性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA疑似患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测项目",
+        "arguments": [
+          "Z",
+          "ANCA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对患者",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "Z",
+          "间接免疫荧光法"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "Z",
+          "酶联免疫吸附法"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测结果",
+        "arguments": [
+          "Z",
+          "状态",
+          "阳性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "检测项目"
+    },
+    "source_text": "外周血EOS增多是EGPA的特征之一，可出现于病程的任何阶段。2018共识特别提出要注意的是长期口服激素( 包括含有激素的中药复方) 可影响外周血EOS的实际水平。仔细询问病史，尤其是了解发病时或治疗前的血EOS比例，有助于早期发现EGPA。此外，诱导痰或支气管肺泡灌洗液(BALF) 中EOS明显增高也是重要特征之一，EGPA患者BALF中EOS的比例可高达25% 以上。ANCA的检测必须同时采用间接免疫荧光法(IIF) 和酶联免疫吸附测定法(ELISA)两种方法。ANCA阴性时不能排除EGPA的可能性。"
+  },
+  {
+    "rule_name": "ANCA阴性不能排除EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "诊断结论",
+      "arguments": [
+        "X",
+        "不能排除EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA疑似患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测项目",
+        "arguments": [
+          "Z",
+          "ANCA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对患者",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "Z",
+          "间接免疫荧光法"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "Z",
+          "酶联免疫吸附法"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测结果",
+        "arguments": [
+          "Z",
+          "状态",
+          "阴性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "检测项目"
+    },
+    "source_text": "外周血EOS增多是EGPA的特征之一，可出现于病程的任何阶段。2018共识特别提出要注意的是长期口服激素( 包括含有激素的中药复方) 可影响外周血EOS的实际水平。仔细询问病史，尤其是了解发病时或治疗前的血EOS比例，有助于早期发现EGPA。此外，诱导痰或支气管肺泡灌洗液(BALF) 中EOS明显增高也是重要特征之一，EGPA患者BALF中EOS的比例可高达25% 以上。ANCA的检测必须同时采用间接免疫荧光法(IIF) 和酶联免疫吸附测定法(ELISA)两种方法。ANCA阴性时不能排除EGPA的可能性。"
+  },
+  {
+    "rule_name": "EGPA患者维持治疗_推荐硫唑嘌呤",
+    "head": {
+      "is_negative": false,
+      "name": "维持期用药推荐",
+      "arguments": [
+        "X",
+        "Y",
+        "标准推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "嗜酸性肉芽肿性多血管炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗阶段",
+        "arguments": [
+          "X",
+          "病情达缓解后"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病活动性",
+        "arguments": [
+          "X",
+          "非活动期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可选药物",
+        "arguments": [
+          "Y",
+          "硫唑嘌呤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物用途",
+        "arguments": [
+          "Y",
+          "维持治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "药物（硫唑嘌呤）"
+    },
+    "source_text": "Interpretation of expert consensus on diagnosis and treatment of eosinophilic granulomatous polyvasculitis in 2018. LIN Yan-feng, ZHANG Ying-xiu, FU Chao-li, LIN Mei-shun, CHEN Jia-mei, ZHANG Bei-ping, LIU Tian-wen. First Affiliated Hospital of Guangzhou Medical University, Guangzhou Institute of Respiratory Health, National Clinical Research Center for Respiratory Disease, State Key Laboratory Disease, Guangzhou 510120, ChinaCorresponding author: ZHANG Qing-ling, E-mail: zqling68@hotmail.comAbstract: According to the different organs involved in patients, the concept of localized Eosinophilic granulomatous polyvasculitis (EGPA) was first proposed by consensus in 2018, which provides a basis for the early diagnosis and treatment of EGPA. The prognosis of patients with EGPA is related to the initial treatment. The treatment of EGPA depends on the severity of the disease, the organs involved and whether the disease is active or not. The overall treatment plan is divided into two stages: induction remission and maintenance therapy. Induced remission therapy mainly includes hormones and/or immunosuppressive agents (e.g. cyclophosphamide). After remission, azathioprine or methotrexate is recommended for maintenance therapy. In 2015, the global consensus of EGPA diagnostic and therapeutic experts recommended that the duration of treatment should be at least 24 months after remission. In combination with the latest international progress, the first Expert Consensus on Diagnosis and Treatment of EGPA in China 2018 consensus introduced the application of Bio-Targeting drugs in EGPA."
+  },
+  {
+    "rule_name": "EGPA患者维持治疗_推荐甲氨蝶呤",
+    "head": {
+      "is_negative": false,
+      "name": "维持期用药推荐",
+      "arguments": [
+        "X",
+        "Y",
+        "标准推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "嗜酸性肉芽肿性多血管炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗阶段",
+        "arguments": [
+          "X",
+          "病情达缓解后"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病活动性",
+        "arguments": [
+          "X",
+          "非活动期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可选药物",
+        "arguments": [
+          "Y",
+          "甲氨蝶呤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物用途",
+        "arguments": [
+          "Y",
+          "维持治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "药物（甲氨蝶呤）"
+    },
+    "source_text": "Interpretation of expert consensus on diagnosis and treatment of eosinophilic granulomatous polyvasculitis in 2018. LIN Yan-feng, ZHANG Ying-xiu, FU Chao-li, LIN Mei-shun, CHEN Jia-mei, ZHANG Bei-ping, LIU Tian-wen. First Affiliated Hospital of Guangzhou Medical University, Guangzhou Institute of Respiratory Health, National Clinical Research Center for Respiratory Disease, State Key Laboratory Disease, Guangzhou 510120, ChinaCorresponding author: ZHANG Qing-ling, E-mail: zqling68@hotmail.comAbstract: According to the different organs involved in patients, the concept of localized Eosinophilic granulomatous polyvasculitis (EGPA) was first proposed by consensus in 2018, which provides a basis for the early diagnosis and treatment of EGPA. The prognosis of patients with EGPA is related to the initial treatment. The treatment of EGPA depends on the severity of the disease, the organs involved and whether the disease is active or not. The overall treatment plan is divided into two stages: induction remission and maintenance therapy. Induced remission therapy mainly includes hormones and/or immunosuppressive agents (e.g. cyclophosphamide). After remission, azathioprine or methotrexate is recommended for maintenance therapy. In 2015, the global consensus of EGPA diagnostic and therapeutic experts recommended that the duration of treatment should be at least 24 months after remission. In combination with the latest international progress, the first Expert Consensus on Diagnosis and Treatment of EGPA in China 2018 consensus introduced the application of Bio-Targeting drugs in EGPA."
+  },
+  {
+    "rule_name": "维持治疗持续时长推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗时长要求",
+      "arguments": [
+        "X",
+        "Y",
+        "至少24个月"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "嗜酸性肉芽肿性多血管炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗阶段",
+        "arguments": [
+          "X",
+          "病情达缓解后"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "维持期用药推荐",
+        "arguments": [
+          "X",
+          "Y",
+          "标准推荐"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "维持期治疗药物"
+    },
+    "source_text": "Interpretation of expert consensus on diagnosis and treatment of eosinophilic granulomatous polyvasculitis in 2018. LIN Yan-feng, ZHANG Ying-xiu, FU Chao-li, LIN Mei-shun, CHEN Jia-mei, ZHANG Bei-ping, LIU Tian-wen. First Affiliated Hospital of Guangzhou Medical University, Guangzhou Institute of Respiratory Health, National Clinical Research Center for Respiratory Disease, State Key Laboratory Disease, Guangzhou 510120, ChinaCorresponding author: ZHANG Qing-ling, E-mail: zqling68@hotmail.comAbstract: According to the different organs involved in patients, the concept of localized Eosinophilic granulomatous polyvasculitis (EGPA) was first proposed by consensus in 2018, which provides a basis for the early diagnosis and treatment of EGPA. The prognosis of patients with EGPA is related to the initial treatment. The treatment of EGPA depends on the severity of the disease, the organs involved and whether the disease is active or not. The overall treatment plan is divided into two stages: induction remission and maintenance therapy. Induced remission therapy mainly includes hormones and/or immunosuppressive agents (e.g. cyclophosphamide). After remission, azathioprine or methotrexate is recommended for maintenance therapy. In 2015, the global consensus of EGPA diagnostic and therapeutic experts recommended that the duration of treatment should be at least 24 months after remission. In combination with the latest international progress, the first Expert Consensus on Diagnosis and Treatment of EGPA in China 2018 consensus introduced the application of Bio-Targeting drugs in EGPA."
+  },
+  {
+    "rule_name": "EGPA治疗决策依赖因素",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方案依赖",
+      "arguments": [
+        "X",
+        "病情严重度"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "嗜酸性肉芽肿性多血管炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方案依赖",
+        "arguments": [
+          "X",
+          "受累器官"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方案依赖",
+        "arguments": [
+          "X",
+          "疾病活动性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Interpretation of expert consensus on diagnosis and treatment of eosinophilic granulomatous polyvasculitis in 2018. LIN Yan-feng, ZHANG Ying-xiu, FU Chao-li, LIN Mei-shun, CHEN Jia-mei, ZHANG Bei-ping, LIU Tian-wen. First Affiliated Hospital of Guangzhou Medical University, Guangzhou Institute of Respiratory Health, National Clinical Research Center for Respiratory Disease, State Key Laboratory Disease, Guangzhou 510120, ChinaCorresponding author: ZHANG Qing-ling, E-mail: zqling68@hotmail.comAbstract: According to the different organs involved in patients, the concept of localized Eosinophilic granulomatous polyvasculitis (EGPA) was first proposed by consensus in 2018, which provides a basis for the early diagnosis and treatment of EGPA. The prognosis of patients with EGPA is related to the initial treatment. The treatment of EGPA depends on the severity of the disease, the organs involved and whether the disease is active or not. The overall treatment plan is divided into two stages: induction remission and maintenance therapy. Induced remission therapy mainly includes hormones and/or immunosuppressive agents (e.g. cyclophosphamide). After remission, azathioprine or methotrexate is recommended for maintenance therapy. In 2015, the global consensus of EGPA diagnostic and therapeutic experts recommended that the duration of treatment should be at least 24 months after remission. In combination with the latest international progress, the first Expert Consensus on Diagnosis and Treatment of EGPA in China 2018 consensus introduced the application of Bio-Targeting drugs in EGPA."
+  },
+  {
+    "rule_name": "引入生物靶向治疗的条件依据",
+    "head": {
+      "is_negative": false,
+      "name": "治疗策略更新",
+      "arguments": [
+        "共识",
+        "引入生物靶向药物"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医学共识",
+        "arguments": [
+          "共识",
+          "2018年EGPA诊疗中国专家共识"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基于进展",
+        "arguments": [
+          "共识",
+          "最新国际进展"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "传统治疗完全适用",
+        "arguments": [
+          "当前疗法",
+          "对所有EGPA患者"
+        ]
+      }
+    ],
+    "variables": {
+      "共识": "医学共识文档"
+    },
+    "source_text": "Interpretation of expert consensus on diagnosis and treatment of eosinophilic granulomatous polyvasculitis in 2018. LIN Yan-feng, ZHANG Ying-xiu, FU Chao-li, LIN Mei-shun, CHEN Jia-mei, ZHANG Bei-ping, LIU Tian-wen. First Affiliated Hospital of Guangzhou Medical University, Guangzhou Institute of Respiratory Health, National Clinical Research Center for Respiratory Disease, State Key Laboratory Disease, Guangzhou 510120, ChinaCorresponding author: ZHANG Qing-ling, E-mail: zqling68@hotmail.comAbstract: According to the different organs involved in patients, the concept of localized Eosinophilic granulomatous polyvasculitis (EGPA) was first proposed by consensus in 2018, which provides a basis for the early diagnosis and treatment of EGPA. The prognosis of patients with EGPA is related to the initial treatment. The treatment of EGPA depends on the severity of the disease, the organs involved and whether the disease is active or not. The overall treatment plan is divided into two stages: induction remission and maintenance therapy. Induced remission therapy mainly includes hormones and/or immunosuppressive agents (e.g. cyclophosphamide). After remission, azathioprine or methotrexate is recommended for maintenance therapy. In 2015, the global consensus of EGPA diagnostic and therapeutic experts recommended that the duration of treatment should be at least 24 months after remission. In combination with the latest international progress, the first Expert Consensus on Diagnosis and Treatment of EGPA in China 2018 consensus introduced the application of Bio-Targeting drugs in EGPA."
+  },
+  {
+    "rule_name": "EGPA治疗决策依据_取决于疾病状态与器官",
+    "head": {
+      "is_negative": false,
+      "name": "治疗依赖于",
+      "arguments": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "EGPA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病严重程度",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "受累器官",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病活动性",
+        "arguments": [
+          "是",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疾病严重程度",
+      "Z": "受累器官"
+    },
+    "source_text": "Abstract: According to the different organs involved in patients, the concept of localized Eosinophilic granulomatous polyvasculitis (EGPA) was first proposed by consensus in 2018, which provides a basis for the early diagnosis and treatment of EGPA. The prognosis of patients with EGPA is related to the initial treatment. The treatment of EGPA depends on the severity of the disease, the organs involved and whether the disease is active or not. The overall treatment plan is divided into two stages: induction remission and maintenance therapy. Induced remission therapy mainly includes hormones and/or immunosuppressive agents (e.g. cyclophosphamide). After remission, azathioprine or methotrexate is recommended for maintenance therapy. In 2015, the global consensus of EGPA diagnostic and therapeutic experts recommended that the duration of treatment should be at least 24 months after remission. In combination with the latest international progress, the first Expert Consensus on Diagnosis and Treatment of EGPA in China 2018 consensus introduced the application of Bio-Targeting drugs in EGPA."
+  },
+  {
+    "rule_name": "EGPA诱导缓解阶段_激素治疗方案",
+    "head": {
+      "is_negative": false,
+      "name": "阶段治疗方案",
+      "arguments": [
+        "X",
+        "激素",
+        "诱导缓解"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "EGPA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗阶段",
+        "arguments": [
+          "X",
+          "诱导缓解"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "X",
+          "诱导缓解"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Abstract: According to the different organs involved in patients, the concept of localized Eosinophilic granulomatous polyvasculitis (EGPA) was first proposed by consensus in 2018, which provides a basis for the early diagnosis and treatment of EGPA. The prognosis of patients with EGPA is related to the initial treatment. The treatment of EGPA depends on the severity of the disease, the organs involved and whether the disease is active or not. The overall treatment plan is divided into two stages: induction remission and maintenance therapy. Induced remission therapy mainly includes hormones and/or immunosuppressive agents (e.g. cyclophosphamide). After remission, azathioprine or methotrexate is recommended for maintenance therapy. In 2015, the global consensus of EGPA diagnostic and therapeutic experts recommended that the duration of treatment should be at least 24 months after remission. In combination with the latest international progress, the first Expert Consensus on Diagnosis and Treatment of EGPA in China 2018 consensus introduced the application of Bio-Targeting drugs in EGPA."
+  },
+  {
+    "rule_name": "EGPA诱导缓解阶段_免疫抑制剂方案_环磷酰胺",
+    "head": {
+      "is_negative": false,
+      "name": "阶段治疗方案",
+      "arguments": [
+        "X",
+        "环磷酰胺",
+        "诱导缓解"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "EGPA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗阶段",
+        "arguments": [
+          "X",
+          "诱导缓解"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "X",
+          "诱导缓解"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Abstract: According to the different organs involved in patients, the concept of localized Eosinophilic granulomatous polyvasculitis (EGPA) was first proposed by consensus in 2018, which provides a basis for the early diagnosis and treatment of EGPA. The prognosis of patients with EGPA is related to the initial treatment. The treatment of EGPA depends on the severity of the disease, the organs involved and whether the disease is active or not. The overall treatment plan is divided into two stages: induction remission and maintenance therapy. Induced remission therapy mainly includes hormones and/or immunosuppressive agents (e.g. cyclophosphamide). After remission, azathioprine or methotrexate is recommended for maintenance therapy. In 2015, the global consensus of EGPA diagnostic and therapeutic experts recommended that the duration of treatment should be at least 24 months after remission. In combination with the latest international progress, the first Expert Consensus on Diagnosis and Treatment of EGPA in China 2018 consensus introduced the application of Bio-Targeting drugs in EGPA."
+  },
+  {
+    "rule_name": "EGPA维持治疗阶段_推荐硫唑嘌呤方案",
+    "head": {
+      "is_negative": false,
+      "name": "阶段治疗方案",
+      "arguments": [
+        "X",
+        "硫唑嘌呤",
+        "维持治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "EGPA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗阶段",
+        "arguments": [
+          "X",
+          "维持治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处于状态",
+        "arguments": [
+          "X",
+          "缓解后"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "X",
+          "维持缓解"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Abstract: According to the different organs involved in patients, the concept of localized Eosinophilic granulomatous polyvasculitis (EGPA) was first proposed by consensus in 2018, which provides a basis for the early diagnosis and treatment of EGPA. The prognosis of patients with EGPA is related to the initial treatment. The treatment of EGPA depends on the severity of the disease, the organs involved and whether the disease is active or not. The overall treatment plan is divided into two stages: induction remission and maintenance therapy. Induced remission therapy mainly includes hormones and/or immunosuppressive agents (e.g. cyclophosphamide). After remission, azathioprine or methotrexate is recommended for maintenance therapy. In 2015, the global consensus of EGPA diagnostic and therapeutic experts recommended that the duration of treatment should be at least 24 months after remission. In combination with the latest international progress, the first Expert Consensus on Diagnosis and Treatment of EGPA in China 2018 consensus introduced the application of Bio-Targeting drugs in EGPA."
+  },
+  {
+    "rule_name": "EGPA维持治疗阶段_推荐甲氨蝶呤方案",
+    "head": {
+      "is_negative": false,
+      "name": "阶段治疗方案",
+      "arguments": [
+        "X",
+        "甲氨蝶呤",
+        "维持治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "EGPA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗阶段",
+        "arguments": [
+          "X",
+          "维持治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处于状态",
+        "arguments": [
+          "X",
+          "缓解后"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "X",
+          "维持缓解"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Abstract: According to the different organs involved in patients, the concept of localized Eosinophilic granulomatous polyvasculitis (EGPA) was first proposed by consensus in 2018, which provides a basis for the early diagnosis and treatment of EGPA. The prognosis of patients with EGPA is related to the initial treatment. The treatment of EGPA depends on the severity of the disease, the organs involved and whether the disease is active or not. The overall treatment plan is divided into two stages: induction remission and maintenance therapy. Induced remission therapy mainly includes hormones and/or immunosuppressive agents (e.g. cyclophosphamide). After remission, azathioprine or methotrexate is recommended for maintenance therapy. In 2015, the global consensus of EGPA diagnostic and therapeutic experts recommended that the duration of treatment should be at least 24 months after remission. In combination with the latest international progress, the first Expert Consensus on Diagnosis and Treatment of EGPA in China 2018 consensus introduced the application of Bio-Targeting drugs in EGPA."
+  },
+  {
+    "rule_name": "2015共识_EGPA治疗持续时间建议",
+    "head": {
+      "is_negative": false,
+      "name": "治疗持续时间建议",
+      "arguments": [
+        "X",
+        "至少24个月"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "EGPA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处于状态",
+        "arguments": [
+          "X",
+          "缓解后"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗阶段",
+        "arguments": [
+          "X",
+          "维持治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Abstract: According to the different organs involved in patients, the concept of localized Eosinophilic granulomatous polyvasculitis (EGPA) was first proposed by consensus in 2018, which provides a basis for the early diagnosis and treatment of EGPA. The prognosis of patients with EGPA is related to the initial treatment. The treatment of EGPA depends on the severity of the disease, the organs involved and whether the disease is active or not. The overall treatment plan is divided into two stages: induction remission and maintenance therapy. Induced remission therapy mainly includes hormones and/or immunosuppressive agents (e.g. cyclophosphamide). After remission, azathioprine or methotrexate is recommended for maintenance therapy. In 2015, the global consensus of EGPA diagnostic and therapeutic experts recommended that the duration of treatment should be at least 24 months after remission. In combination with the latest international progress, the first Expert Consensus on Diagnosis and Treatment of EGPA in China 2018 consensus introduced the application of Bio-Targeting drugs in EGPA."
+  },
+  {
+    "rule_name": "2018中国共识_引入生物靶向药物治疗EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "引入治疗方案",
+      "arguments": [
+        "Z",
+        "生物靶向药物",
+        "EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "EGPA"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "治疗方案"
+    },
+    "source_text": "Abstract: According to the different organs involved in patients, the concept of localized Eosinophilic granulomatous polyvasculitis (EGPA) was first proposed by consensus in 2018, which provides a basis for the early diagnosis and treatment of EGPA. The prognosis of patients with EGPA is related to the initial treatment. The treatment of EGPA depends on the severity of the disease, the organs involved and whether the disease is active or not. The overall treatment plan is divided into two stages: induction remission and maintenance therapy. Induced remission therapy mainly includes hormones and/or immunosuppressive agents (e.g. cyclophosphamide). After remission, azathioprine or methotrexate is recommended for maintenance therapy. In 2015, the global consensus of EGPA diagnostic and therapeutic experts recommended that the duration of treatment should be at least 24 months after remission. In combination with the latest international progress, the first Expert Consensus on Diagnosis and Treatment of EGPA in China 2018 consensus introduced the application of Bio-Targeting drugs in EGPA."
+  },
+  {
+    "rule_name": "满足4条标准且仅肺部受累者为局限型EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "分型",
+      "arguments": [
+        "X",
+        "局限型EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "满足标准数",
+        "arguments": [
+          "X",
+          "4"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "仅有肺部呼吸系统受累",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "满足1990年美国风湿病学会制定的6条标准中的至少4条，且仅有肺部和呼吸系统受累( 包括耳鼻喉)的EGPA患者，称为局限型EGPA。若满足1990年美国风湿病学会制定的6条标准中的至少4条，有至少2个及以上器官受累者，则为全身型EGPA。局限型EGPA可以转化为全身型EGPA。"
+  },
+  {
+    "rule_name": "满足5条标准且仅肺部受累者为局限型EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "分型",
+      "arguments": [
+        "X",
+        "局限型EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "满足标准数",
+        "arguments": [
+          "X",
+          "5"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "仅有肺部呼吸系统受累",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "满足1990年美国风湿病学会制定的6条标准中的至少4条，且仅有肺部和呼吸系统受累( 包括耳鼻喉)的EGPA患者，称为局限型EGPA。若满足1990年美国风湿病学会制定的6条标准中的至少4条，有至少2个及以上器官受累者，则为全身型EGPA。局限型EGPA可以转化为全身型EGPA。"
+  },
+  {
+    "rule_name": "满足6条标准且仅肺部受累者为局限型EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "分型",
+      "arguments": [
+        "X",
+        "局限型EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "满足标准数",
+        "arguments": [
+          "X",
+          "6"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "仅有肺部呼吸系统受累",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "满足1990年美国风湿病学会制定的6条标准中的至少4条，且仅有肺部和呼吸系统受累( 包括耳鼻喉)的EGPA患者，称为局限型EGPA。若满足1990年美国风湿病学会制定的6条标准中的至少4条，有至少2个及以上器官受累者，则为全身型EGPA。局限型EGPA可以转化为全身型EGPA。"
+  },
+  {
+    "rule_name": "满足4条标准且2个器官受累者为全身型EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "分型",
+      "arguments": [
+        "X",
+        "全身型EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "满足标准数",
+        "arguments": [
+          "X",
+          "4"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "器官受累数",
+        "arguments": [
+          "X",
+          "2"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "满足1990年美国风湿病学会制定的6条标准中的至少4条，且仅有肺部和呼吸系统受累( 包括耳鼻喉)的EGPA患者，称为局限型EGPA。若满足1990年美国风湿病学会制定的6条标准中的至少4条，有至少2个及以上器官受累者，则为全身型EGPA。局限型EGPA可以转化为全身型EGPA。"
+  },
+  {
+    "rule_name": "满足4条标准且3个器官受累者为全身型EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "分型",
+      "arguments": [
+        "X",
+        "全身型EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "满足标准数",
+        "arguments": [
+          "X",
+          "4"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "器官受累数",
+        "arguments": [
+          "X",
+          "3"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "满足1990年美国风湿病学会制定的6条标准中的至少4条，且仅有肺部和呼吸系统受累( 包括耳鼻喉)的EGPA患者，称为局限型EGPA。若满足1990年美国风湿病学会制定的6条标准中的至少4条，有至少2个及以上器官受累者，则为全身型EGPA。局限型EGPA可以转化为全身型EGPA。"
+  },
+  {
+    "rule_name": "满足4条标准且4个器官受累者为全身型EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "分型",
+      "arguments": [
+        "X",
+        "全身型EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "满足标准数",
+        "arguments": [
+          "X",
+          "4"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "器官受累数",
+        "arguments": [
+          "X",
+          "4"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "满足1990年美国风湿病学会制定的6条标准中的至少4条，且仅有肺部和呼吸系统受累( 包括耳鼻喉)的EGPA患者，称为局限型EGPA。若满足1990年美国风湿病学会制定的6条标准中的至少4条，有至少2个及以上器官受累者，则为全身型EGPA。局限型EGPA可以转化为全身型EGPA。"
+  },
+  {
+    "rule_name": "满足4条标准且5个器官受累者为全身型EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "分型",
+      "arguments": [
+        "X",
+        "全身型EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "满足标准数",
+        "arguments": [
+          "X",
+          "4"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "器官受累数",
+        "arguments": [
+          "X",
+          "5"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "满足1990年美国风湿病学会制定的6条标准中的至少4条，且仅有肺部和呼吸系统受累( 包括耳鼻喉)的EGPA患者，称为局限型EGPA。若满足1990年美国风湿病学会制定的6条标准中的至少4条，有至少2个及以上器官受累者，则为全身型EGPA。局限型EGPA可以转化为全身型EGPA。"
+  },
+  {
+    "rule_name": "满足4条标准且6个器官受累者为全身型EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "分型",
+      "arguments": [
+        "X",
+        "全身型EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "满足标准数",
+        "arguments": [
+          "X",
+          "4"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "器官受累数",
+        "arguments": [
+          "X",
+          "6"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "满足1990年美国风湿病学会制定的6条标准中的至少4条，且仅有肺部和呼吸系统受累( 包括耳鼻喉)的EGPA患者，称为局限型EGPA。若满足1990年美国风湿病学会制定的6条标准中的至少4条，有至少2个及以上器官受累者，则为全身型EGPA。局限型EGPA可以转化为全身型EGPA。"
+  },
+  {
+    "rule_name": "满足5条标准且2个器官受累者为全身型EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "分型",
+      "arguments": [
+        "X",
+        "全身型EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "满足标准数",
+        "arguments": [
+          "X",
+          "5"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "器官受累数",
+        "arguments": [
+          "X",
+          "2"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "满足1990年美国风湿病学会制定的6条标准中的至少4条，且仅有肺部和呼吸系统受累( 包括耳鼻喉)的EGPA患者，称为局限型EGPA。若满足1990年美国风湿病学会制定的6条标准中的至少4条，有至少2个及以上器官受累者，则为全身型EGPA。局限型EGPA可以转化为全身型EGPA。"
+  },
+  {
+    "rule_name": "满足6条标准且2个器官受累者为全身型EGPA",
+    "head": {
+      "is_negative": false,
+      "name": "分型",
+      "arguments": [
+        "X",
+        "全身型EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "EGPA患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "满足标准数",
+        "arguments": [
+          "X",
+          "6"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "器官受累数",
+        "arguments": [
+          "X",
+          "2"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "满足1990年美国风湿病学会制定的6条标准中的至少4条，且仅有肺部和呼吸系统受累( 包括耳鼻喉)的EGPA患者，称为局限型EGPA。若满足1990年美国风湿病学会制定的6条标准中的至少4条，有至少2个及以上器官受累者，则为全身型EGPA。局限型EGPA可以转化为全身型EGPA。"
+  },
+  {
+    "rule_name": "局限型EGPA可转化",
+    "head": {
+      "is_negative": false,
+      "name": "可转化为",
+      "arguments": [
+        "X",
+        "全身型EGPA"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "分型",
+        "arguments": [
+          "X",
+          "局限型EGPA"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "满足1990年美国风湿病学会制定的6条标准中的至少4条，且仅有肺部和呼吸系统受累( 包括耳鼻喉)的EGPA患者，称为局限型EGPA。若满足1990年美国风湿病学会制定的6条标准中的至少4条，有至少2个及以上器官受累者，则为全身型EGPA。局限型EGPA可以转化为全身型EGPA。"
+  }
+]

@@ -1,0 +1,1958 @@
+[
+  {
+    "rule_name": "糖尿病足有效预防与早期综合治疗的多重获益规则",
+    "head": {
+      "is_negative": false,
+      "name": "降低发生率",
+      "arguments": [
+        "心脑血管事件",
+        "X",
+        "有效预防治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "降低发生率",
+        "arguments": [
+          "截肢",
+          "X",
+          "有效预防治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "降低发生率",
+        "arguments": [
+          "死亡",
+          "X",
+          "有效预防治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "改善指标",
+        "arguments": [
+          "预后",
+          "X",
+          "有效预防治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "改善指标",
+        "arguments": [
+          "生活质量",
+          "X",
+          "有效预防治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有风险",
+        "arguments": [
+          "Y",
+          "高危足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "涉及状态",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受早期筛查治疗",
+        "arguments": [
+          "Y",
+          "感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受早期筛查治疗",
+        "arguments": [
+          "Y",
+          "溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受早期筛查治疗",
+        "arguments": [
+          "Y",
+          "外周血管疾病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "Y",
+          "早期综合治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病患者",
+      "Y": "糖尿病足状况"
+    },
+    "source_text": "In May 2019，the International Diabetic Foot Working Group ( IWGDF) updated and is-sued guidelines for the prevention and management of diabetic foot disease．This guide puts forward somesuggestions for the diagnosis，treatment and effective prevention of diabetic foot: the prevention of diabeticfoot should start with high-risk foot，early screening and treatment of diabetic foot infection，foot ulcer andperipheral vascular disease and early comprehensive treatment．Effective prevention and early treatment canreduce the incidence of cardiovascular and cerebrovascular events in patients with diabetes，reduce the am-putation rate and mortality，and improve the prognosis and quality of life of patients．"
+  },
+  {
+    "rule_name": "早期干预降低糖尿病患者心脑血管事件发生率",
+    "head": {
+      "is_negative": false,
+      "name": "降低发生率",
+      "arguments": [
+        "X",
+        "心血管与脑血管事件"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "糖尿病足病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "早期筛查与治疗",
+        "arguments": [
+          "X",
+          "针对并发症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "早期综合治疗",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "糖尿病足病"
+    },
+    "source_text": "In May 2019，the International Diabetic Foot Working Group ( IWGDF) updated and issued guidelines for the prevention and management of diabetic foot disease．This guide puts forward some suggestions for the diagnosis，treatment and effective prevention of diabetic foot: the prevention of diabetic foot should start with high-risk foot，early screening and treatment of diabetic foot infection，foot ulcer and peripheral vascular disease and early comprehensive treatment．Effective prevention and early treatment can reduce the incidence of cardiovascular and cerebrovascular events in patients with diabetes，reduce the amputation rate and mortality，and improve the prognosis and quality of life of patients．"
+  },
+  {
+    "rule_name": "早期干预降低糖尿病患者截肢率",
+    "head": {
+      "is_negative": false,
+      "name": "降低发生率",
+      "arguments": [
+        "X",
+        "截肢"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "糖尿病足病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "早期筛查与治疗",
+        "arguments": [
+          "X",
+          "针对并发症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "早期综合治疗",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "糖尿病足病"
+    },
+    "source_text": "In May 2019，the International Diabetic Foot Working Group ( IWGDF) updated and issued guidelines for the prevention and management of diabetic foot disease．This guide puts forward some suggestions for the diagnosis，treatment and effective prevention of diabetic foot: the prevention of diabetic foot should start with high-risk foot，early screening and treatment of diabetic foot infection，foot ulcer and peripheral vascular disease and early comprehensive treatment．Effective prevention and early treatment can reduce the incidence of cardiovascular and cerebrovascular events in patients with diabetes，reduce the amputation rate and mortality，and improve the prognosis and quality of life of patients．"
+  },
+  {
+    "rule_name": "早期干预降低糖尿病患者死亡率",
+    "head": {
+      "is_negative": false,
+      "name": "降低发生率",
+      "arguments": [
+        "X",
+        "死亡"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "糖尿病足病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "早期筛查与治疗",
+        "arguments": [
+          "X",
+          "针对并发症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "早期综合治疗",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "糖尿病足病"
+    },
+    "source_text": "In May 2019，the International Diabetic Foot Working Group ( IWGDF) updated and issued guidelines for the prevention and management of diabetic foot disease．This guide puts forward some suggestions for the diagnosis，treatment and effective prevention of diabetic foot: the prevention of diabetic foot should start with high-risk foot，early screening and treatment of diabetic foot infection，foot ulcer and peripheral vascular disease and early comprehensive treatment．Effective prevention and early treatment can reduce the incidence of cardiovascular and cerebrovascular events in patients with diabetes，reduce the amputation rate and mortality，and improve the prognosis and quality of life of patients．"
+  },
+  {
+    "rule_name": "早期干预改善糖尿病患者预后",
+    "head": {
+      "is_negative": false,
+      "name": "改善指标",
+      "arguments": [
+        "X",
+        "预后"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "糖尿病足病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "早期筛查与治疗",
+        "arguments": [
+          "X",
+          "针对并发症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "早期综合治疗",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "糖尿病足病"
+    },
+    "source_text": "In May 2019，the International Diabetic Foot Working Group ( IWGDF) updated and issued guidelines for the prevention and management of diabetic foot disease．This guide puts forward some suggestions for the diagnosis，treatment and effective prevention of diabetic foot: the prevention of diabetic foot should start with high-risk foot，early screening and treatment of diabetic foot infection，foot ulcer and peripheral vascular disease and early comprehensive treatment．Effective prevention and early treatment can reduce the incidence of cardiovascular and cerebrovascular events in patients with diabetes，reduce the amputation rate and mortality，and improve the prognosis and quality of life of patients．"
+  },
+  {
+    "rule_name": "早期干预改善糖尿病患者生活质量",
+    "head": {
+      "is_negative": false,
+      "name": "改善指标",
+      "arguments": [
+        "X",
+        "生活质量"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "糖尿病足病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "早期筛查与治疗",
+        "arguments": [
+          "X",
+          "针对并发症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "早期综合治疗",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "糖尿病足病"
+    },
+    "source_text": "In May 2019，the International Diabetic Foot Working Group ( IWGDF) updated and issued guidelines for the prevention and management of diabetic foot disease．This guide puts forward some suggestions for the diagnosis，treatment and effective prevention of diabetic foot: the prevention of diabetic foot should start with high-risk foot，early screening and treatment of diabetic foot infection，foot ulcer and peripheral vascular disease and early comprehensive treatment．Effective prevention and early treatment can reduce the incidence of cardiovascular and cerebrovascular events in patients with diabetes，reduce the amputation rate and mortality，and improve the prognosis and quality of life of patients．"
+  },
+  {
+    "rule_name": "糖尿病足感染患者可选青霉素治疗",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "青霉素",
+        "可选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病足感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致病病原体",
+        "arguments": [
+          "X",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物敏感",
+        "arguments": [
+          "P",
+          "青霉素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "感染严重程度",
+        "arguments": [
+          "X",
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "不良事件风险可接受",
+        "arguments": [
+          "X",
+          "青霉素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "相互作用风险低",
+        "arguments": [
+          "X",
+          "青霉素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物可用",
+        "arguments": [
+          "青霉素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "成本可接受",
+        "arguments": [
+          "X",
+          "青霉素"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "P": "致病病原体",
+      "S": "感染严重程度"
+    },
+    "source_text": "用抗生素治疗糖尿病足感染患者。在已发表的随机对照试验中，抗生素被证实有效，并且适合于个别患者。可考虑的药物包括: 青霉素、头孢菌素、碳青霉烯类、甲硝唑( 与其他抗生素联合使用［s］) 、克林霉素、利奈唑胺、达普霉素、氟喹诺酮类或万古霉素，但不包括替格霉素。根据可能或已证实的致病病原体及其抗生素敏感性，选择治疗糖尿病足感染的抗生素制剂; 感染的临床严重程度; 已被证实的糖尿病足感染药物治疗有效的证据; 不良事件的风险，包括对共生菌群的附带损害; 药物相互作用的可能性; 药物的可用性;财务成本。"
+  },
+  {
+    "rule_name": "糖尿病足感染患者可选头孢菌素治疗",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "头孢菌素",
+        "可选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病足感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致病病原体",
+        "arguments": [
+          "X",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物敏感",
+        "arguments": [
+          "P",
+          "头孢菌素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "感染严重程度",
+        "arguments": [
+          "X",
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "不良事件风险可接受",
+        "arguments": [
+          "X",
+          "头孢菌素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "相互作用风险低",
+        "arguments": [
+          "X",
+          "头孢菌素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物可用",
+        "arguments": [
+          "头孢菌素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "成本可接受",
+        "arguments": [
+          "X",
+          "头孢菌素"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "P": "致病病原体",
+      "S": "感染严重程度"
+    },
+    "source_text": "用抗生素治疗糖尿病足感染患者。在已发表的随机对照试验中，抗生素被证实有效，并且适合于个别患者。可考虑的药物包括: 青霉素、头孢菌素、碳青霉烯类、甲硝唑( 与其他抗生素联合使用［s］) 、克林霉素、利奈唑胺、达普霉素、氟喹诺酮类或万古霉素，但不包括替格霉素。根据可能或已证实的致病病原体及其抗生素敏感性，选择治疗糖尿病足感染的抗生素制剂; 感染的临床严重程度; 已被证实的糖尿病足感染药物治疗有效的证据; 不良事件的风险，包括对共生菌群的附带损害; 药物相互作用的可能性; 药物的可用性;财务成本。"
+  },
+  {
+    "rule_name": "糖尿病足感染患者可选碳青霉烯类治疗",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "碳青霉烯类",
+        "可选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病足感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致病病原体",
+        "arguments": [
+          "X",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物敏感",
+        "arguments": [
+          "P",
+          "碳青霉烯类"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "感染严重程度",
+        "arguments": [
+          "X",
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "不良事件风险可接受",
+        "arguments": [
+          "X",
+          "碳青霉烯类"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "相互作用风险低",
+        "arguments": [
+          "X",
+          "碳青霉烯类"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物可用",
+        "arguments": [
+          "碳青霉烯类"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "成本可接受",
+        "arguments": [
+          "X",
+          "碳青霉烯类"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "P": "致病病原体",
+      "S": "感染严重程度"
+    },
+    "source_text": "用抗生素治疗糖尿病足感染患者。在已发表的随机对照试验中，抗生素被证实有效，并且适合于个别患者。可考虑的药物包括: 青霉素、头孢菌素、碳青霉烯类、甲硝唑( 与其他抗生素联合使用［s］) 、克林霉素、利奈唑胺、达普霉素、氟喹诺酮类或万古霉素，但不包括替格霉素。根据可能或已证实的致病病原体及其抗生素敏感性，选择治疗糖尿病足感染的抗生素制剂; 感染的临床严重程度; 已被证实的糖尿病足感染药物治疗有效的证据; 不良事件的风险，包括对共生菌群的附带损害; 药物相互作用的可能性; 药物的可用性;财务成本。"
+  },
+  {
+    "rule_name": "糖尿病患者年度PAD标准诊断建议",
+    "head": {
+      "is_negative": false,
+      "name": "诊断建议",
+      "arguments": [
+        "X",
+        "检查PAD",
+        "标准"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "频率",
+        "arguments": [
+          "检查PAD",
+          "每年"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含步骤",
+        "arguments": [
+          "检查PAD",
+          "询问病史"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "包含步骤",
+        "arguments": [
+          "检查PAD",
+          "触诊足动脉"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "根据调查显示，在中高收入国家，高达50% 的糖尿病和足部溃疡患者合并有潜在的外周动脉疾病( PAD) ，PAD在低收入国家则可能更为常见。在糖尿病足溃疡( DFU) 患者中尽早发现PAD是很重要的，因为PAD的存在增加了溃疡、感染和截肢的风险，同时也增加了心血管疾病和总体死亡率的风险［3］。需要截肢的糖尿病、PAD和足部溃疡患者的预后比许多常见的癌症要差，高达50% 的患者将存活＜5年。因此，《国际糖尿病足工作组对足部溃疡和糖尿病患者周围动脉疾病的诊断、预后和治疗的指导作用指南》强调，糖尿病患者应该每年接受检查以明确是否存在PAD，而PAD的诊断建议包括:⑴糖尿病患者每年应进行一次关于PAD的检查，至少需要询问病史并触及足部动脉。除了足部动脉搏动消失，股动脉血管杂音和静脉充盈时间减慢也提示患者患有PAD。在近期的系统评价中指出，PAD的症状和体征，如跛行、动脉搏动消失和低的ABI，可以作为将会发生足部溃疡的预测因子。此外，有PAD的患者心血管事件的风险也会增加，医务人员有必要向患者解释; ⑵临床检查: 通过询问相关病史和足脉触诊诊断所有糖尿病和足部溃疡患者是否存在外周动脉疾病; ⑶由于临床检查指标不能完全作为诊断糖尿病和足部溃疡患者是否患PAD的标准，因此需结合踝部收缩压和踝肱指数( ABI) 或足趾收缩压和趾肱指数( TBI) 。虽然指南中指出，糖尿病足溃疡合并PAD的患者没有特异性的症状和体征，但以下床旁检测可以帮助患者增加溃疡愈合可能性( 以下任意一种检测，能至少增加患者25% 的溃疡愈合可能性) : 皮肤灌注压≥40 mmHg( 1 mmHg = 0. 133 kPa) ，足趾压≥30 mmHg，经皮氧分压( TcPO2) ≥25 mmHg。这说明，糖尿病足溃疡与下肢血液灌注密切相关。"
+  },
+  {
+    "rule_name": "皮肤灌注压达标增加PAD患者溃疡愈合可能性",
+    "head": {
+      "is_negative": false,
+      "name": "增加愈合可能性",
+      "arguments": [
+        "X",
+        "溃疡",
+        "至少25%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "PAD"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发疾病",
+        "arguments": [
+          "X",
+          "糖尿病足溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "床旁检测指标",
+        "arguments": [
+          "X",
+          "皮肤灌注压≥40mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "根据调查显示，在中高收入国家，高达50% 的糖尿病和足部溃疡患者合并有潜在的外周动脉疾病( PAD) ，PAD在低收入国家则可能更为常见。在糖尿病足溃疡( DFU) 患者中尽早发现PAD是很重要的，因为PAD的存在增加了溃疡、感染和截肢的风险，同时也增加了心血管疾病和总体死亡率的风险［3］。需要截肢的糖尿病、PAD和足部溃疡患者的预后比许多常见的癌症要差，高达50% 的患者将存活＜5年。因此，《国际糖尿病足工作组对足部溃疡和糖尿病患者周围动脉疾病的诊断、预后和治疗的指导作用指南》强调，糖尿病患者应该每年接受检查以明确是否存在PAD，而PAD的诊断建议包括:⑴糖尿病患者每年应进行一次关于PAD的检查，至少需要询问病史并触及足部动脉。除了足部动脉搏动消失，股动脉血管杂音和静脉充盈时间减慢也提示患者患有PAD。在近期的系统评价中指出，PAD的症状和体征，如跛行、动脉搏动消失和低的ABI，可以作为将会发生足部溃疡的预测因子。此外，有PAD的患者心血管事件的风险也会增加，医务人员有必要向患者解释; ⑵临床检查: 通过询问相关病史和足脉触诊诊断所有糖尿病和足部溃疡患者是否存在外周动脉疾病; ⑶由于临床检查指标不能完全作为诊断糖尿病和足部溃疡患者是否患PAD的标准，因此需结合踝部收缩压和踝肱指数( ABI) 或足趾收缩压和趾肱指数( TBI) 。虽然指南中指出，糖尿病足溃疡合并PAD的患者没有特异性的症状和体征，但以下床旁检测可以帮助患者增加溃疡愈合可能性( 以下任意一种检测，能至少增加患者25% 的溃疡愈合可能性) : 皮肤灌注压≥40 mmHg( 1 mmHg = 0. 133 kPa) ，足趾压≥30 mmHg，经皮氧分压( TcPO2) ≥25 mmHg。这说明，糖尿病足溃疡与下肢血液灌注密切相关。"
+  },
+  {
+    "rule_name": "足趾压达标增加PAD患者溃疡愈合可能性",
+    "head": {
+      "is_negative": false,
+      "name": "增加愈合可能性",
+      "arguments": [
+        "X",
+        "溃疡",
+        "至少25%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "PAD"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发疾病",
+        "arguments": [
+          "X",
+          "糖尿病足溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "床旁检测指标",
+        "arguments": [
+          "X",
+          "足趾压≥30mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "根据调查显示，在中高收入国家，高达50% 的糖尿病和足部溃疡患者合并有潜在的外周动脉疾病( PAD) ，PAD在低收入国家则可能更为常见。在糖尿病足溃疡( DFU) 患者中尽早发现PAD是很重要的，因为PAD的存在增加了溃疡、感染和截肢的风险，同时也增加了心血管疾病和总体死亡率的风险［3］。需要截肢的糖尿病、PAD和足部溃疡患者的预后比许多常见的癌症要差，高达50% 的患者将存活＜5年。因此，《国际糖尿病足工作组对足部溃疡和糖尿病患者周围动脉疾病的诊断、预后和治疗的指导作用指南》强调，糖尿病患者应该每年接受检查以明确是否存在PAD，而PAD的诊断建议包括:⑴糖尿病患者每年应进行一次关于PAD的检查，至少需要询问病史并触及足部动脉。除了足部动脉搏动消失，股动脉血管杂音和静脉充盈时间减慢也提示患者患有PAD。在近期的系统评价中指出，PAD的症状和体征，如跛行、动脉搏动消失和低的ABI，可以作为将会发生足部溃疡的预测因子。此外，有PAD的患者心血管事件的风险也会增加，医务人员有必要向患者解释; ⑵临床检查: 通过询问相关病史和足脉触诊诊断所有糖尿病和足部溃疡患者是否存在外周动脉疾病; ⑶由于临床检查指标不能完全作为诊断糖尿病和足部溃疡患者是否患PAD的标准，因此需结合踝部收缩压和踝肱指数( ABI) 或足趾收缩压和趾肱指数( TBI) 。虽然指南中指出，糖尿病足溃疡合并PAD的患者没有特异性的症状和体征，但以下床旁检测可以帮助患者增加溃疡愈合可能性( 以下任意一种检测，能至少增加患者25% 的溃疡愈合可能性) : 皮肤灌注压≥40 mmHg( 1 mmHg = 0. 133 kPa) ，足趾压≥30 mmHg，经皮氧分压( TcPO2) ≥25 mmHg。这说明，糖尿病足溃疡与下肢血液灌注密切相关。"
+  },
+  {
+    "rule_name": "经皮氧分压达标增加PAD患者溃疡愈合可能性",
+    "head": {
+      "is_negative": false,
+      "name": "增加愈合可能性",
+      "arguments": [
+        "X",
+        "溃疡",
+        "至少25%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "PAD"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发疾病",
+        "arguments": [
+          "X",
+          "糖尿病足溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "床旁检测指标",
+        "arguments": [
+          "X",
+          "经皮氧分压≥25mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "根据调查显示，在中高收入国家，高达50% 的糖尿病和足部溃疡患者合并有潜在的外周动脉疾病( PAD) ，PAD在低收入国家则可能更为常见。在糖尿病足溃疡( DFU) 患者中尽早发现PAD是很重要的，因为PAD的存在增加了溃疡、感染和截肢的风险，同时也增加了心血管疾病和总体死亡率的风险［3］。需要截肢的糖尿病、PAD和足部溃疡患者的预后比许多常见的癌症要差，高达50% 的患者将存活＜5年。因此，《国际糖尿病足工作组对足部溃疡和糖尿病患者周围动脉疾病的诊断、预后和治疗的指导作用指南》强调，糖尿病患者应该每年接受检查以明确是否存在PAD，而PAD的诊断建议包括:⑴糖尿病患者每年应进行一次关于PAD的检查，至少需要询问病史并触及足部动脉。除了足部动脉搏动消失，股动脉血管杂音和静脉充盈时间减慢也提示患者患有PAD。在近期的系统评价中指出，PAD的症状和体征，如跛行、动脉搏动消失和低的ABI，可以作为将会发生足部溃疡的预测因子。此外，有PAD的患者心血管事件的风险也会增加，医务人员有必要向患者解释; ⑵临床检查: 通过询问相关病史和足脉触诊诊断所有糖尿病和足部溃疡患者是否存在外周动脉疾病; ⑶由于临床检查指标不能完全作为诊断糖尿病和足部溃疡患者是否患PAD的标准，因此需结合踝部收缩压和踝肱指数( ABI) 或足趾收缩压和趾肱指数( TBI) 。虽然指南中指出，糖尿病足溃疡合并PAD的患者没有特异性的症状和体征，但以下床旁检测可以帮助患者增加溃疡愈合可能性( 以下任意一种检测，能至少增加患者25% 的溃疡愈合可能性) : 皮肤灌注压≥40 mmHg( 1 mmHg = 0. 133 kPa) ，足趾压≥30 mmHg，经皮氧分压( TcPO2) ≥25 mmHg。这说明，糖尿病足溃疡与下肢血液灌注密切相关。"
+  },
+  {
+    "rule_name": "全面动脉评估是选择合适治疗方案的前提",
+    "head": {
+      "is_negative": false,
+      "name": "选择治疗方案",
+      "arguments": [
+        "X",
+        "Y",
+        "最为合适"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行评估",
+        "arguments": [
+          "Z",
+          "下肢动脉循环",
+          "全面"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估对象",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足部溃疡病灶",
+      "Z": "评估行为"
+    },
+    "source_text": "评估血管病变的各种检查，从简单的触诊( 如触及足背动脉、胫后动脉搏动及皮温) ，到下肢彩色多普勒超声、CT血管成像、MＲ血管成像或腔内数字减影成像，都可以提供有价值的下肢血管的解剖学信息。需强调的是，整个下肢动脉循环都需要评估，膝下及足背动脉评估要尤其详细。只有全面评估下肢动脉的病变，才能为糖尿病足溃疡的患者选择最为合适的治疗方案，并科学地判断其预后。"
+  },
+  {
+    "rule_name": "血管重建的直接血流恢复目标",
+    "head": {
+      "is_negative": false,
+      "name": "手术目标",
+      "arguments": [
+        "W",
+        "恢复直接血流"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行手术",
+        "arguments": [
+          "W",
+          "血管重建术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术对象",
+        "arguments": [
+          "W",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "供应动脉",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术靶标",
+        "arguments": [
+          "W",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足部溃疡病灶",
+      "Z": "足部动脉",
+      "W": "血管重建手术"
+    },
+    "source_text": "对糖尿病足溃疡患者进行血管重建时，指南中指出，其目标是恢复至少一条足动脉的直接血流，最好是供应溃疡解剖区域的动脉。手术结束后，通过客观的灌注测量来评价其有效性。先前建议重建血管应达到最低皮肤灌注压力40 mmHg，足趾压力＞30 mmHg或TcPO2 ＞25 mmHg，才能被认为是有效的。然而，指南中指出，现在建议血管重建术的目的应该是改善足部的灌注，这将根据患者个人的不同而有所不同。"
+  },
+  {
+    "rule_name": "先前有效性标准_皮肤灌注压力",
+    "head": {
+      "is_negative": false,
+      "name": "手术有效性",
+      "arguments": [
+        "W",
+        "有效"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行手术",
+        "arguments": [
+          "W",
+          "血管重建术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术对象",
+        "arguments": [
+          "W",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术后测量值",
+        "arguments": [
+          "W",
+          "皮肤灌注压力",
+          "达到40mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足部溃疡病灶",
+      "W": "血管重建手术"
+    },
+    "source_text": "对糖尿病足溃疡患者进行血管重建时，指南中指出，其目标是恢复至少一条足动脉的直接血流，最好是供应溃疡解剖区域的动脉。手术结束后，通过客观的灌注测量来评价其有效性。先前建议重建血管应达到最低皮肤灌注压力40 mmHg，足趾压力＞30 mmHg或TcPO2 ＞25 mmHg，才能被认为是有效的。然而，指南中指出，现在建议血管重建术的目的应该是改善足部的灌注，这将根据患者个人的不同而有所不同。"
+  },
+  {
+    "rule_name": "先前有效性标准_足趾压力",
+    "head": {
+      "is_negative": false,
+      "name": "手术有效性",
+      "arguments": [
+        "W",
+        "有效"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行手术",
+        "arguments": [
+          "W",
+          "血管重建术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术对象",
+        "arguments": [
+          "W",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术后测量值",
+        "arguments": [
+          "W",
+          "足趾压力",
+          "高于30mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足部溃疡病灶",
+      "W": "血管重建手术"
+    },
+    "source_text": "对糖尿病足溃疡患者进行血管重建时，指南中指出，其目标是恢复至少一条足动脉的直接血流，最好是供应溃疡解剖区域的动脉。手术结束后，通过客观的灌注测量来评价其有效性。先前建议重建血管应达到最低皮肤灌注压力40 mmHg，足趾压力＞30 mmHg或TcPO2 ＞25 mmHg，才能被认为是有效的。然而，指南中指出，现在建议血管重建术的目的应该是改善足部的灌注，这将根据患者个人的不同而有所不同。"
+  },
+  {
+    "rule_name": "先前有效性标准_TcPO2",
+    "head": {
+      "is_negative": false,
+      "name": "手术有效性",
+      "arguments": [
+        "W",
+        "有效"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行手术",
+        "arguments": [
+          "W",
+          "血管重建术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术对象",
+        "arguments": [
+          "W",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术后测量值",
+        "arguments": [
+          "W",
+          "TcPO2",
+          "高于25mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足部溃疡病灶",
+      "W": "血管重建手术"
+    },
+    "source_text": "对糖尿病足溃疡患者进行血管重建时，指南中指出，其目标是恢复至少一条足动脉的直接血流，最好是供应溃疡解剖区域的动脉。手术结束后，通过客观的灌注测量来评价其有效性。先前建议重建血管应达到最低皮肤灌注压力40 mmHg，足趾压力＞30 mmHg或TcPO2 ＞25 mmHg，才能被认为是有效的。然而，指南中指出，现在建议血管重建术的目的应该是改善足部的灌注，这将根据患者个人的不同而有所不同。"
+  },
+  {
+    "rule_name": "当前血管重建的个体化灌注改善目标",
+    "head": {
+      "is_negative": false,
+      "name": "手术目标",
+      "arguments": [
+        "W",
+        "改善足部灌注"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行手术",
+        "arguments": [
+          "W",
+          "血管重建术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术对象",
+        "arguments": [
+          "W",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需个体化评估",
+        "arguments": [
+          "W",
+          "灌注改善程度"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足部溃疡病灶",
+      "W": "血管重建手术"
+    },
+    "source_text": "对糖尿病足溃疡患者进行血管重建时，指南中指出，其目标是恢复至少一条足动脉的直接血流，最好是供应溃疡解剖区域的动脉。手术结束后，通过客观的灌注测量来评价其有效性。先前建议重建血管应达到最低皮肤灌注压力40 mmHg，足趾压力＞30 mmHg或TcPO2 ＞25 mmHg，才能被认为是有效的。然而，指南中指出，现在建议血管重建术的目的应该是改善足部的灌注，这将根据患者个人的不同而有所不同。"
+  },
+  {
+    "rule_name": "多学科团队选择治疗方案的综合考量因素",
+    "head": {
+      "is_negative": false,
+      "name": "决策主体",
+      "arguments": [
+        "T",
+        "多学科团队"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "外周动脉疾病",
+        "arguments": [
+          "X",
+          "特定程度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "自体静脉状况",
+        "arguments": [
+          "X",
+          "特定情况"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并并发症",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗机构经验水平",
+        "arguments": [
+          "L",
+          "特定水平"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联机构",
+        "arguments": [
+          "X",
+          "L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "决策行为",
+        "arguments": [
+          "T",
+          "选择治疗方案"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "决策对象",
+        "arguments": [
+          "T",
+          "W"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "T": "多学科团队",
+      "W": "治疗方案",
+      "L": "医疗机构"
+    },
+    "source_text": "具体选择哪种方案应该是多学科的团队根据患者PAD的程度、自体静脉的情况、患者的并发症，以及当地的经验水平等因素综合考虑。"
+  },
+  {
+    "rule_name": "缺血性足溃疡患者的心血管风险管理_措施包A",
+    "head": {
+      "is_negative": false,
+      "name": "应接受管理",
+      "arguments": [
+        "X",
+        "心血管危险因素"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺血性足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "管理措施包含",
+        "arguments": [
+          "M",
+          "戒烟"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "管理措施包含",
+        "arguments": [
+          "M",
+          "降压"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "管理措施包含",
+        "arguments": [
+          "M",
+          "处方他汀"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "管理措施包含",
+        "arguments": [
+          "M",
+          "处方阿司匹林"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足部溃疡病灶",
+      "M": "综合管理方案"
+    },
+    "source_text": "指南强调，所有糖尿病和缺血性足溃疡的患者应该接受积极的心血管危险因素管理，包括戒烟、降压和处方他汀类药物以及小剂量阿司匹林或氯吡格雷。"
+  },
+  {
+    "rule_name": "缺血性足溃疡患者的心血管风险管理_措施包B",
+    "head": {
+      "is_negative": false,
+      "name": "应接受管理",
+      "arguments": [
+        "X",
+        "心血管危险因素"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺血性足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "管理措施包含",
+        "arguments": [
+          "M",
+          "戒烟"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "管理措施包含",
+        "arguments": [
+          "M",
+          "降压"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "管理措施包含",
+        "arguments": [
+          "M",
+          "处方他汀"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "管理措施包含",
+        "arguments": [
+          "M",
+          "处方氯吡格雷"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足部溃疡病灶",
+      "M": "综合管理方案"
+    },
+    "source_text": "指南强调，所有糖尿病和缺血性足溃疡的患者应该接受积极的心血管危险因素管理，包括戒烟、降压和处方他汀类药物以及小剂量阿司匹林或氯吡格雷。"
+  },
+  {
+    "rule_name": "糖尿病足溃疡患者踝部压力异常需紧急血管评估",
+    "head": {
+      "is_negative": false,
+      "name": "血管成像推荐",
+      "arguments": [
+        "X",
+        "紧急"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病足溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血管指标",
+        "arguments": [
+          "X",
+          "踝部压力低于50mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "这说明，糖尿病足溃疡与下肢血液灌注密切相关。对于糖尿病足溃疡且踝部压力＜50 mmHg、ABI ＜0. 5、足趾压力＜30 mmHg或TcPO2 ＜25 mmHg的患者，应·3031·中国医师杂志2019年9月第21卷第9期Journal of Chinese Physician，September 2019，Vol．21，No．9http://guide.medlive.cn/始终考虑紧急血管成像和血管再通手术。如果患者在进行4 ～6周的充分治疗后，溃疡仍没有得到改善，这时不再考虑床旁检测的结果，而应进行血管再通手术治疗。临床上来看，下肢血流灌注不仅关系到足部溃疡的愈合与否，还关系到截肢平面的判断［4］。指南建议使用伤口/感染/足部感染( WIFI)分类系统来划分糖尿病足溃疡和周围动脉疾病患者的截肢风险和血运重建益处。见表1。"
+  },
+  {
+    "rule_name": "糖尿病足溃疡患者ABI异常需紧急血管评估",
+    "head": {
+      "is_negative": false,
+      "name": "血管成像推荐",
+      "arguments": [
+        "X",
+        "紧急"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病足溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血管指标",
+        "arguments": [
+          "X",
+          "ABI低于0.5"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "这说明，糖尿病足溃疡与下肢血液灌注密切相关。对于糖尿病足溃疡且踝部压力＜50 mmHg、ABI ＜0. 5、足趾压力＜30 mmHg或TcPO2 ＜25 mmHg的患者，应·3031·中国医师杂志2019年9月第21卷第9期Journal of Chinese Physician，September 2019，Vol．21，No．9http://guide.medlive.cn/始终考虑紧急血管成像和血管再通手术。如果患者在进行4 ～6周的充分治疗后，溃疡仍没有得到改善，这时不再考虑床旁检测的结果，而应进行血管再通手术治疗。临床上来看，下肢血流灌注不仅关系到足部溃疡的愈合与否，还关系到截肢平面的判断［4］。指南建议使用伤口/感染/足部感染( WIFI)分类系统来划分糖尿病足溃疡和周围动脉疾病患者的截肢风险和血运重建益处。见表1。"
+  },
+  {
+    "rule_name": "糖尿病足溃疡患者足趾压力异常需紧急血管评估",
+    "head": {
+      "is_negative": false,
+      "name": "血管成像推荐",
+      "arguments": [
+        "X",
+        "紧急"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病足溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血管指标",
+        "arguments": [
+          "X",
+          "足趾压力低于30mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "这说明，糖尿病足溃疡与下肢血液灌注密切相关。对于糖尿病足溃疡且踝部压力＜50 mmHg、ABI ＜0. 5、足趾压力＜30 mmHg或TcPO2 ＜25 mmHg的患者，应·3031·中国医师杂志2019年9月第21卷第9期Journal of Chinese Physician，September 2019，Vol．21，No．9http://guide.medlive.cn/始终考虑紧急血管成像和血管再通手术。如果患者在进行4 ～6周的充分治疗后，溃疡仍没有得到改善，这时不再考虑床旁检测的结果，而应进行血管再通手术治疗。临床上来看，下肢血流灌注不仅关系到足部溃疡的愈合与否，还关系到截肢平面的判断［4］。指南建议使用伤口/感染/足部感染( WIFI)分类系统来划分糖尿病足溃疡和周围动脉疾病患者的截肢风险和血运重建益处。见表1。"
+  },
+  {
+    "rule_name": "糖尿病足溃疡患者TcPO2异常需紧急血管评估",
+    "head": {
+      "is_negative": false,
+      "name": "血管成像推荐",
+      "arguments": [
+        "X",
+        "紧急"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病足溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血管指标",
+        "arguments": [
+          "X",
+          "TcPO2低于25mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "这说明，糖尿病足溃疡与下肢血液灌注密切相关。对于糖尿病足溃疡且踝部压力＜50 mmHg、ABI ＜0. 5、足趾压力＜30 mmHg或TcPO2 ＜25 mmHg的患者，应·3031·中国医师杂志2019年9月第21卷第9期Journal of Chinese Physician，September 2019，Vol．21，No．9http://guide.medlive.cn/始终考虑紧急血管成像和血管再通手术。如果患者在进行4 ～6周的充分治疗后，溃疡仍没有得到改善，这时不再考虑床旁检测的结果，而应进行血管再通手术治疗。临床上来看，下肢血流灌注不仅关系到足部溃疡的愈合与否，还关系到截肢平面的判断［4］。指南建议使用伤口/感染/足部感染( WIFI)分类系统来划分糖尿病足溃疡和周围动脉疾病患者的截肢风险和血运重建益处。见表1。"
+  },
+  {
+    "rule_name": "足溃疡经充分治疗未改善需血管再通手术",
+    "head": {
+      "is_negative": false,
+      "name": "血管再通推荐",
+      "arguments": [
+        "X",
+        "必要"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "糖尿病足溃疡"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "充分治疗4至6周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗结果",
+        "arguments": [
+          "糖尿病足溃疡",
+          "未改善"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "这说明，糖尿病足溃疡与下肢血液灌注密切相关。对于糖尿病足溃疡且踝部压力＜50 mmHg、ABI ＜0. 5、足趾压力＜30 mmHg或TcPO2 ＜25 mmHg的患者，应·3031·中国医师杂志2019年9月第21卷第9期Journal of Chinese Physician，September 2019，Vol．21，No．9http://guide.medlive.cn/始终考虑紧急血管成像和血管再通手术。如果患者在进行4 ～6周的充分治疗后，溃疡仍没有得到改善，这时不再考虑床旁检测的结果，而应进行血管再通手术治疗。临床上来看，下肢血流灌注不仅关系到足部溃疡的愈合与否，还关系到截肢平面的判断［4］。指南建议使用伤口/感染/足部感染( WIFI)分类系统来划分糖尿病足溃疡和周围动脉疾病患者的截肢风险和血运重建益处。见表1。"
+  },
+  {
+    "rule_name": "因截肢史判定高危足患者并需加强教育",
+    "head": {
+      "is_negative": false,
+      "name": "判定为",
+      "arguments": [
+        "X",
+        "高危足患者",
+        "因截肢史"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "截肢史",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病足的预防首先是在糖尿病患者中筛查患足部溃疡的高危因素，这些因素包括: 糖尿病足部溃疡/下肢截肢史、跛行史、外周神经病变、足部畸形。针对存在这些因素的患者及其家属加强教育管理，通过校正这些危险因素，使患者患糖尿病足的风险得到控制，达到预防效果。其次是对高危糖尿病足患者检查的频率要高于没有危险因素的患者。其目的是尽早发现危险因素及病变程度，为患者提供恰当的预防糖尿病足的措施，阻止或延缓病情的进展。检查包括: 早期诊断并处理胼胝; 对足部感染的早诊断、早治疗; 鼓励保护性感觉缺失的患者无论室内还是室外都要穿着合适的鞋袜等。"
+  },
+  {
+    "rule_name": "因跛行史判定高危足患者并需加强教育",
+    "head": {
+      "is_negative": false,
+      "name": "判定为",
+      "arguments": [
+        "X",
+        "高危足患者",
+        "因跛行史"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "跛行史",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病足的预防首先是在糖尿病患者中筛查患足部溃疡的高危因素，这些因素包括: 糖尿病足部溃疡/下肢截肢史、跛行史、外周神经病变、足部畸形。针对存在这些因素的患者及其家属加强教育管理，通过校正这些危险因素，使患者患糖尿病足的风险得到控制，达到预防效果。其次是对高危糖尿病足患者检查的频率要高于没有危险因素的患者。其目的是尽早发现危险因素及病变程度，为患者提供恰当的预防糖尿病足的措施，阻止或延缓病情的进展。检查包括: 早期诊断并处理胼胝; 对足部感染的早诊断、早治疗; 鼓励保护性感觉缺失的患者无论室内还是室外都要穿着合适的鞋袜等。"
+  },
+  {
+    "rule_name": "因外周神经病变判定高危足患者并需加强教育",
+    "head": {
+      "is_negative": false,
+      "name": "判定为",
+      "arguments": [
+        "X",
+        "高危足患者",
+        "因外周神经病变"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "外周神经病变",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病足的预防首先是在糖尿病患者中筛查患足部溃疡的高危因素，这些因素包括: 糖尿病足部溃疡/下肢截肢史、跛行史、外周神经病变、足部畸形。针对存在这些因素的患者及其家属加强教育管理，通过校正这些危险因素，使患者患糖尿病足的风险得到控制，达到预防效果。其次是对高危糖尿病足患者检查的频率要高于没有危险因素的患者。其目的是尽早发现危险因素及病变程度，为患者提供恰当的预防糖尿病足的措施，阻止或延缓病情的进展。检查包括: 早期诊断并处理胼胝; 对足部感染的早诊断、早治疗; 鼓励保护性感觉缺失的患者无论室内还是室外都要穿着合适的鞋袜等。"
+  },
+  {
+    "rule_name": "因足部畸形判定高危足患者并需加强教育",
+    "head": {
+      "is_negative": false,
+      "name": "判定为",
+      "arguments": [
+        "X",
+        "高危足患者",
+        "因足部畸形"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部畸形",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病足的预防首先是在糖尿病患者中筛查患足部溃疡的高危因素，这些因素包括: 糖尿病足部溃疡/下肢截肢史、跛行史、外周神经病变、足部畸形。针对存在这些因素的患者及其家属加强教育管理，通过校正这些危险因素，使患者患糖尿病足的风险得到控制，达到预防效果。其次是对高危糖尿病足患者检查的频率要高于没有危险因素的患者。其目的是尽早发现危险因素及病变程度，为患者提供恰当的预防糖尿病足的措施，阻止或延缓病情的进展。检查包括: 早期诊断并处理胼胝; 对足部感染的早诊断、早治疗; 鼓励保护性感觉缺失的患者无论室内还是室外都要穿着合适的鞋袜等。"
+  },
+  {
+    "rule_name": "因截肢史的高危足患者需高频检查",
+    "head": {
+      "is_negative": false,
+      "name": "需高频足部检查",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "截肢史",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "判定为",
+        "arguments": [
+          "X",
+          "高危足患者",
+          "因截肢史"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病足的预防首先是在糖尿病患者中筛查患足部溃疡的高危因素，这些因素包括: 糖尿病足部溃疡/下肢截肢史、跛行史、外周神经病变、足部畸形。针对存在这些因素的患者及其家属加强教育管理，通过校正这些危险因素，使患者患糖尿病足的风险得到控制，达到预防效果。其次是对高危糖尿病足患者检查的频率要高于没有危险因素的患者。其目的是尽早发现危险因素及病变程度，为患者提供恰当的预防糖尿病足的措施，阻止或延缓病情的进展。检查包括: 早期诊断并处理胼胝; 对足部感染的早诊断、早治疗; 鼓励保护性感觉缺失的患者无论室内还是室外都要穿着合适的鞋袜等。"
+  },
+  {
+    "rule_name": "因跛行史的高危足患者需高频检查",
+    "head": {
+      "is_negative": false,
+      "name": "需高频足部检查",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "跛行史",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "判定为",
+        "arguments": [
+          "X",
+          "高危足患者",
+          "因跛行史"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病足的预防首先是在糖尿病患者中筛查患足部溃疡的高危因素，这些因素包括: 糖尿病足部溃疡/下肢截肢史、跛行史、外周神经病变、足部畸形。针对存在这些因素的患者及其家属加强教育管理，通过校正这些危险因素，使患者患糖尿病足的风险得到控制，达到预防效果。其次是对高危糖尿病足患者检查的频率要高于没有危险因素的患者。其目的是尽早发现危险因素及病变程度，为患者提供恰当的预防糖尿病足的措施，阻止或延缓病情的进展。检查包括: 早期诊断并处理胼胝; 对足部感染的早诊断、早治疗; 鼓励保护性感觉缺失的患者无论室内还是室外都要穿着合适的鞋袜等。"
+  },
+  {
+    "rule_name": "因外周神经病变的高危足患者需高频检查",
+    "head": {
+      "is_negative": false,
+      "name": "需高频足部检查",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "外周神经病变",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "判定为",
+        "arguments": [
+          "X",
+          "高危足患者",
+          "因外周神经病变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病足的预防首先是在糖尿病患者中筛查患足部溃疡的高危因素，这些因素包括: 糖尿病足部溃疡/下肢截肢史、跛行史、外周神经病变、足部畸形。针对存在这些因素的患者及其家属加强教育管理，通过校正这些危险因素，使患者患糖尿病足的风险得到控制，达到预防效果。其次是对高危糖尿病足患者检查的频率要高于没有危险因素的患者。其目的是尽早发现危险因素及病变程度，为患者提供恰当的预防糖尿病足的措施，阻止或延缓病情的进展。检查包括: 早期诊断并处理胼胝; 对足部感染的早诊断、早治疗; 鼓励保护性感觉缺失的患者无论室内还是室外都要穿着合适的鞋袜等。"
+  },
+  {
+    "rule_name": "因足部畸形的高危足患者需高频检查",
+    "head": {
+      "is_negative": false,
+      "name": "需高频足部检查",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部畸形",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "判定为",
+        "arguments": [
+          "X",
+          "高危足患者",
+          "因足部畸形"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "糖尿病足的预防首先是在糖尿病患者中筛查患足部溃疡的高危因素，这些因素包括: 糖尿病足部溃疡/下肢截肢史、跛行史、外周神经病变、足部畸形。针对存在这些因素的患者及其家属加强教育管理，通过校正这些危险因素，使患者患糖尿病足的风险得到控制，达到预防效果。其次是对高危糖尿病足患者检查的频率要高于没有危险因素的患者。其目的是尽早发现危险因素及病变程度，为患者提供恰当的预防糖尿病足的措施，阻止或延缓病情的进展。检查包括: 早期诊断并处理胼胝; 对足部感染的早诊断、早治疗; 鼓励保护性感觉缺失的患者无论室内还是室外都要穿着合适的鞋袜等。"
+  }
+]

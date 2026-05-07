@@ -1,0 +1,1338 @@
+[
+  {
+    "rule_name": "合并过敏性鼻炎之特应性皮炎患者的系统性疾病属性",
+    "head": {
+      "is_negative": false,
+      "name": "系统性疾病",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "特应性皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "慢性皮肤病",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "复发性皮肤病",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "炎症性皮肤病",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "X",
+          "过敏性鼻炎"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "特应性皮炎（atopic dermatitis，AD）是一种慢性、复发性、炎症性皮肤病。由于患者常合并过敏性鼻炎、哮喘等其他特应性疾病，故被认为是一种系统性疾病。AD患者往往有剧烈瘙痒，严重影响生活质量。"
+  },
+  {
+    "rule_name": "合并哮喘之特应性皮炎患者的系统性疾病属性",
+    "head": {
+      "is_negative": false,
+      "name": "系统性疾病",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "特应性皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "慢性皮肤病",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "复发性皮肤病",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "炎症性皮肤病",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "X",
+          "哮喘"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "特应性皮炎（atopic dermatitis，AD）是一种慢性、复发性、炎症性皮肤病。由于患者常合并过敏性鼻炎、哮喘等其他特应性疾病，故被认为是一种系统性疾病。AD患者往往有剧烈瘙痒，严重影响生活质量。"
+  },
+  {
+    "rule_name": "特应性皮炎患者因剧烈瘙痒导致生活质量严重受损",
+    "head": {
+      "is_negative": false,
+      "name": "生活质量严重受损",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "特应性皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "慢性皮肤病",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "复发性皮肤病",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "炎症性皮肤病",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剧烈瘙痒",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "特应性皮炎（atopic dermatitis，AD）是一种慢性、复发性、炎症性皮肤病。由于患者常合并过敏性鼻炎、哮喘等其他特应性疾病，故被认为是一种系统性疾病。AD患者往往有剧烈瘙痒，严重影响生活质量。"
+  },
+  {
+    "rule_name": "张建中标准诊断AD_依据个人史",
+    "head": {
+      "is_negative": false,
+      "name": "确诊为AD",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现类型",
+        "arguments": [
+          "Y",
+          "对称性湿疹"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "持续时间",
+        "arguments": [
+          "Y",
+          "超过6个月"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特应性个人史",
+        "arguments": [
+          "X",
+          "存在"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "皮损表现"
+    },
+    "source_text": "张建中等［33］提出的中国AD诊断标准：①病程超过6个月的对称性湿疹；②特应性个人史和/或家族史（包括湿疹、过敏性鼻炎、哮喘、过敏性结膜炎等）；③血清总IgE升高和/或外周血嗜酸性粒细胞升高和/或过敏原特异性IgE阳性（过敏原特异性IgE检测2级或2级以上阳性）。符合第1条，另外加第2条或第3条中的任何1条即可诊断AD。此标准在诊断青少年和成人AD方面敏感性高于Hanifin⁃Rajka标准和Williams标准。"
+  },
+  {
+    "rule_name": "张建中标准诊断AD_依据家族史",
+    "head": {
+      "is_negative": false,
+      "name": "确诊为AD",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现类型",
+        "arguments": [
+          "Y",
+          "对称性湿疹"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "持续时间",
+        "arguments": [
+          "Y",
+          "超过6个月"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特应性家族史",
+        "arguments": [
+          "X",
+          "存在"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "皮损表现"
+    },
+    "source_text": "张建中等［33］提出的中国AD诊断标准：①病程超过6个月的对称性湿疹；②特应性个人史和/或家族史（包括湿疹、过敏性鼻炎、哮喘、过敏性结膜炎等）；③血清总IgE升高和/或外周血嗜酸性粒细胞升高和/或过敏原特异性IgE阳性（过敏原特异性IgE检测2级或2级以上阳性）。符合第1条，另外加第2条或第3条中的任何1条即可诊断AD。此标准在诊断青少年和成人AD方面敏感性高于Hanifin⁃Rajka标准和Williams标准。"
+  },
+  {
+    "rule_name": "张建中标准诊断AD_依据总IgE升高",
+    "head": {
+      "is_negative": false,
+      "name": "确诊为AD",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现类型",
+        "arguments": [
+          "Y",
+          "对称性湿疹"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "持续时间",
+        "arguments": [
+          "Y",
+          "超过6个月"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测结果",
+        "arguments": [
+          "X",
+          "血清总IgE",
+          "升高"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "皮损表现"
+    },
+    "source_text": "张建中等［33］提出的中国AD诊断标准：①病程超过6个月的对称性湿疹；②特应性个人史和/或家族史（包括湿疹、过敏性鼻炎、哮喘、过敏性结膜炎等）；③血清总IgE升高和/或外周血嗜酸性粒细胞升高和/或过敏原特异性IgE阳性（过敏原特异性IgE检测2级或2级以上阳性）。符合第1条，另外加第2条或第3条中的任何1条即可诊断AD。此标准在诊断青少年和成人AD方面敏感性高于Hanifin⁃Rajka标准和Williams标准。"
+  },
+  {
+    "rule_name": "张建中标准诊断AD_依据嗜酸粒细胞升高",
+    "head": {
+      "is_negative": false,
+      "name": "确诊为AD",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现类型",
+        "arguments": [
+          "Y",
+          "对称性湿疹"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "持续时间",
+        "arguments": [
+          "Y",
+          "超过6个月"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测结果",
+        "arguments": [
+          "X",
+          "外周血嗜酸性粒细胞计数",
+          "升高"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "皮损表现"
+    },
+    "source_text": "张建中等［33］提出的中国AD诊断标准：①病程超过6个月的对称性湿疹；②特应性个人史和/或家族史（包括湿疹、过敏性鼻炎、哮喘、过敏性结膜炎等）；③血清总IgE升高和/或外周血嗜酸性粒细胞升高和/或过敏原特异性IgE阳性（过敏原特异性IgE检测2级或2级以上阳性）。符合第1条，另外加第2条或第3条中的任何1条即可诊断AD。此标准在诊断青少年和成人AD方面敏感性高于Hanifin⁃Rajka标准和Williams标准。"
+  },
+  {
+    "rule_name": "张建中标准诊断AD_依据过敏原特异性IgE阳性",
+    "head": {
+      "is_negative": false,
+      "name": "确诊为AD",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现类型",
+        "arguments": [
+          "Y",
+          "对称性湿疹"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "持续时间",
+        "arguments": [
+          "Y",
+          "超过6个月"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测结果",
+        "arguments": [
+          "X",
+          "过敏原特异性IgE",
+          "阳性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "皮损表现"
+    },
+    "source_text": "张建中等［33］提出的中国AD诊断标准：①病程超过6个月的对称性湿疹；②特应性个人史和/或家族史（包括湿疹、过敏性鼻炎、哮喘、过敏性结膜炎等）；③血清总IgE升高和/或外周血嗜酸性粒细胞升高和/或过敏原特异性IgE阳性（过敏原特异性IgE检测2级或2级以上阳性）。符合第1条，另外加第2条或第3条中的任何1条即可诊断AD。此标准在诊断青少年和成人AD方面敏感性高于Hanifin⁃Rajka标准和Williams标准。"
+  },
+  {
+    "rule_name": "医生对特应性皮炎患者进行初始疾病管理与教育",
+    "head": {
+      "is_negative": false,
+      "name": "执行医疗活动",
+      "arguments": [
+        "X",
+        "Y",
+        "Z",
+        "疾病管理"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医生",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Z",
+          "特应性皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病属性",
+        "arguments": [
+          "Z",
+          "慢性复发性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需建立关系",
+        "arguments": [
+          "X",
+          "Y",
+          "良好医患关系"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行医疗活动",
+        "arguments": [
+          "X",
+          "Y",
+          "Z",
+          "患者教育"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗行为内容",
+        "arguments": [
+          "X",
+          "说明疾病性质"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗行为内容",
+        "arguments": [
+          "X",
+          "分析寻找病因"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗行为对象",
+        "arguments": [
+          "分析寻找病因",
+          "诱发加重因素"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "医生",
+      "Y": "患者",
+      "Z": "疾病（特应性皮炎）"
+    },
+    "source_text": "疾病管理与患者教育由于本病是慢性复发性疾病，需要长期治疗，应建立起良好的医患关系，通过对疾病全程管理获得最佳疗效。患者教育十分重要，医生应向患者和家属说明本病的性质、临床特点和注意事项。同时应与患者及家属详细分析寻找其发病病因和诱发加重因素（包括非特异性诱发因素，以及特异性过敏原诱发因素等），告知其回避策略。应对患者的病史、病程、皮损面积和严重程度等进行综合评估，确定治疗方案，力争在短期内控制疾病。医生还应向患者解释药物使用的方法，可期望疗效和可能的不良反应等。在随访过程中，医生应当仔细观察患者的病情变化，及时调整治疗方案，并通过维持治疗，尽可能长期控制症状，减少复发［35］。"
+  },
+  {
+    "rule_name": "医生基于综合评估为特应性皮炎患者确定治疗方案",
+    "head": {
+      "is_negative": false,
+      "name": "生成医疗方案",
+      "arguments": [
+        "X",
+        "W"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医生",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Z",
+          "特应性皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估对象",
+        "arguments": [
+          "综合评估",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估项目",
+        "arguments": [
+          "综合评估",
+          "病史"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估项目",
+        "arguments": [
+          "综合评估",
+          "病程"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估项目",
+        "arguments": [
+          "综合评估",
+          "皮损面积"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估项目",
+        "arguments": [
+          "综合评估",
+          "皮损严重程度"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "医生",
+      "Y": "患者",
+      "Z": "疾病（特应性皮炎）",
+      "W": "治疗方案"
+    },
+    "source_text": "疾病管理与患者教育由于本病是慢性复发性疾病，需要长期治疗，应建立起良好的医患关系，通过对疾病全程管理获得最佳疗效。患者教育十分重要，医生应向患者和家属说明本病的性质、临床特点和注意事项。同时应与患者及家属详细分析寻找其发病病因和诱发加重因素（包括非特异性诱发因素，以及特异性过敏原诱发因素等），告知其回避策略。应对患者的病史、病程、皮损面积和严重程度等进行综合评估，确定治疗方案，力争在短期内控制疾病。医生还应向患者解释药物使用的方法，可期望疗效和可能的不良反应等。在随访过程中，医生应当仔细观察患者的病情变化，及时调整治疗方案，并通过维持治疗，尽可能长期控制症状，减少复发［35］。"
+  },
+  {
+    "rule_name": "医生在随访中调整特应性皮炎患者的治疗方案以控制复发",
+    "head": {
+      "is_negative": false,
+      "name": "调整医疗方案",
+      "arguments": [
+        "X",
+        "W"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医生",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Z",
+          "特应性皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "持有方案",
+        "arguments": [
+          "Y",
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗阶段",
+        "arguments": [
+          "持有方案",
+          "维持治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行医疗活动",
+        "arguments": [
+          "X",
+          "Y",
+          "Z",
+          "随访观察"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "观察目标",
+        "arguments": [
+          "随访观察",
+          "病情变化"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "医生",
+      "Y": "患者",
+      "Z": "疾病（特应性皮炎）",
+      "W": "治疗方案"
+    },
+    "source_text": "疾病管理与患者教育由于本病是慢性复发性疾病，需要长期治疗，应建立起良好的医患关系，通过对疾病全程管理获得最佳疗效。患者教育十分重要，医生应向患者和家属说明本病的性质、临床特点和注意事项。同时应与患者及家属详细分析寻找其发病病因和诱发加重因素（包括非特异性诱发因素，以及特异性过敏原诱发因素等），告知其回避策略。应对患者的病史、病程、皮损面积和严重程度等进行综合评估，确定治疗方案，力争在短期内控制疾病。医生还应向患者解释药物使用的方法，可期望疗效和可能的不良反应等。在随访过程中，医生应当仔细观察患者的病情变化，及时调整治疗方案，并通过维持治疗，尽可能长期控制症状，减少复发［35］。"
+  },
+  {
+    "rule_name": "病情严重急性期AD患者短期应用糖皮质激素",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "糖皮质激素",
+        "短期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "特应性皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病分期",
+        "arguments": [
+          "X",
+          "急性发作期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病严重程度",
+        "arguments": [
+          "X",
+          "严重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药推荐剂量",
+        "arguments": [
+          "X",
+          "糖皮质激素",
+          "0.5mg·kg-1·d-1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预期动作",
+        "arguments": [
+          "X",
+          "病情好转后减量停药"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "系统应用糖皮质激素：原则上尽量不用或少用此类药物。对病情严重、其他药物难以控制的急性发作期患者可短期应用，2014版美国AD治疗指84中华皮肤科杂志2020年2月第53卷第2期Chin J Dermatol, February 2020, Vol. 53, No. 2南推荐用药剂量为0.5 ~ 1.0 mg·kg-1·d-1［59］，但考虑到我国的实际用药情况，推荐剂量0.5 mg·kg-1·d-1（以甲泼尼松龙计），病情好转后及时减量停药，对于较顽固病例，可先用糖皮质激素治疗，之后逐渐过渡到免疫抑制剂或紫外线疗法。应避免长期应用，以防止或减少不良反应的发生［57］。"
+  },
+  {
+    "rule_name": "其他药难控急性期AD患者短期应用糖皮质激素",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "糖皮质激素",
+        "短期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "特应性皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病分期",
+        "arguments": [
+          "X",
+          "急性发作期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物治疗史",
+        "arguments": [
+          "X",
+          "其他药物难以控制"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药推荐剂量",
+        "arguments": [
+          "X",
+          "糖皮质激素",
+          "0.5mg·kg-1·d-1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预期动作",
+        "arguments": [
+          "X",
+          "病情好转后减量停药"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "系统应用糖皮质激素：原则上尽量不用或少用此类药物。对病情严重、其他药物难以控制的急性发作期患者可短期应用，2014版美国AD治疗指84中华皮肤科杂志2020年2月第53卷第2期Chin J Dermatol, February 2020, Vol. 53, No. 2南推荐用药剂量为0.5 ~ 1.0 mg·kg-1·d-1［59］，但考虑到我国的实际用药情况，推荐剂量0.5 mg·kg-1·d-1（以甲泼尼松龙计），病情好转后及时减量停药，对于较顽固病例，可先用糖皮质激素治疗，之后逐渐过渡到免疫抑制剂或紫外线疗法。应避免长期应用，以防止或减少不良反应的发生［57］。"
+  },
+  {
+    "rule_name": "特应性皮炎患者于婴儿期发病",
+    "head": {
+      "is_negative": false,
+      "name": "发病年龄",
+      "arguments": [
+        "X",
+        "特应性皮炎",
+        "婴儿期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "特应性皮炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属疾病",
+        "arguments": [
+          "特应性皮炎",
+          "慢性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病阶段",
+        "arguments": [
+          "特应性皮炎",
+          "婴儿期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核心特征",
+        "arguments": [
+          "特应性皮炎",
+          "皮肤干燥"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核心特征",
+        "arguments": [
+          "特应性皮炎",
+          "慢性湿疹样皮损"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核心特征",
+        "arguments": [
+          "特应性皮炎",
+          "明显瘙痒"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "本病通常初发于婴儿期，1岁前发病者约占全部患者的50%，但近来发现，晚发患者并不少见。该病呈慢性经过，临床表现多种多样，最基本的特征是皮肤干燥、慢性湿疹样皮损和明显瘙痒。我国儿童AD患者病情严重度大多为轻度（74.6%），其次为中度（23.96%），重度较少（1.44%）［6］。根据在不同年龄段的表现，分为婴儿期（出生至2岁）、儿童期（> 2 ~ 12岁）、青少年与成人期（> 12 ~ 60岁）和老年期（> 60岁）四个阶段。婴儿期：皮损多分布于两颊、额部和头皮，皮疹以急性湿疹表现为主，后逐渐蔓延至四肢伸侧；儿童期：多由婴儿期演变而来，也可不经过婴儿期而发生，多发生于面颈、肘窝、腘窝和小腿伸侧，以亚急性和慢性皮损为主要表现，皮疹往往干燥肥厚，有明显苔藓样变；"
+  },
+  {
+    "rule_name": "特应性皮炎患者发病情况为晚发",
+    "head": {
+      "is_negative": false,
+      "name": "发病情况",
+      "arguments": [
+        "X",
+        "特应性皮炎",
+        "晚发"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "特应性皮炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属疾病",
+        "arguments": [
+          "特应性皮炎",
+          "慢性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核心特征",
+        "arguments": [
+          "特应性皮炎",
+          "皮肤干燥"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核心特征",
+        "arguments": [
+          "特应性皮炎",
+          "慢性湿疹样皮损"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核心特征",
+        "arguments": [
+          "特应性皮炎",
+          "明显瘙痒"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "本病通常初发于婴儿期，1岁前发病者约占全部患者的50%，但近来发现，晚发患者并不少见。该病呈慢性经过，临床表现多种多样，最基本的特征是皮肤干燥、慢性湿疹样皮损和明显瘙痒。我国儿童AD患者病情严重度大多为轻度（74.6%），其次为中度（23.96%），重度较少（1.44%）［6］。根据在不同年龄段的表现，分为婴儿期（出生至2岁）、儿童期（> 2 ~ 12岁）、青少年与成人期（> 12 ~ 60岁）和老年期（> 60岁）四个阶段。婴儿期：皮损多分布于两颊、额部和头皮，皮疹以急性湿疹表现为主，后逐渐蔓延至四肢伸侧；儿童期：多由婴儿期演变而来，也可不经过婴儿期而发生，多发生于面颈、肘窝、腘窝和小腿伸侧，以亚急性和慢性皮损为主要表现，皮疹往往干燥肥厚，有明显苔藓样变；"
+  },
+  {
+    "rule_name": "儿童特应性皮炎患者病情严重度分级为轻度",
+    "head": {
+      "is_negative": false,
+      "name": "病情严重度",
+      "arguments": [
+        "X",
+        "特应性皮炎",
+        "轻度"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "特应性皮炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄阶段",
+        "arguments": [
+          "X",
+          "儿童期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属疾病",
+        "arguments": [
+          "特应性皮炎",
+          "慢性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核心特征",
+        "arguments": [
+          "特应性皮炎",
+          "皮肤干燥"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核心特征",
+        "arguments": [
+          "特应性皮炎",
+          "慢性湿疹样皮损"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核心特征",
+        "arguments": [
+          "特应性皮炎",
+          "明显瘙痒"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "本病通常初发于婴儿期，1岁前发病者约占全部患者的50%，但近来发现，晚发患者并不少见。该病呈慢性经过，临床表现多种多样，最基本的特征是皮肤干燥、慢性湿疹样皮损和明显瘙痒。我国儿童AD患者病情严重度大多为轻度（74.6%），其次为中度（23.96%），重度较少（1.44%）［6］。根据在不同年龄段的表现，分为婴儿期（出生至2岁）、儿童期（> 2 ~ 12岁）、青少年与成人期（> 12 ~ 60岁）和老年期（> 60岁）四个阶段。婴儿期：皮损多分布于两颊、额部和头皮，皮疹以急性湿疹表现为主，后逐渐蔓延至四肢伸侧；儿童期：多由婴儿期演变而来，也可不经过婴儿期而发生，多发生于面颈、肘窝、腘窝和小腿伸侧，以亚急性和慢性皮损为主要表现，皮疹往往干燥肥厚，有明显苔藓样变；"
+  },
+  {
+    "rule_name": "婴儿期特应性皮炎皮损分布与特征",
+    "head": {
+      "is_negative": false,
+      "name": "分布部位",
+      "arguments": [
+        "Y",
+        "两颊"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "特应性皮炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病年龄",
+        "arguments": [
+          "X",
+          "特应性皮炎",
+          "婴儿期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "皮损",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属疾病",
+        "arguments": [
+          "Y",
+          "特应性皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分布部位",
+        "arguments": [
+          "Y",
+          "额部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分布部位",
+        "arguments": [
+          "Y",
+          "头皮"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "皮损类型",
+        "arguments": [
+          "Y",
+          "急性湿疹"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "蔓延趋势",
+        "arguments": [
+          "Y",
+          "四肢伸侧"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "皮损"
+    },
+    "source_text": "本病通常初发于婴儿期，1岁前发病者约占全部患者的50%，但近来发现，晚发患者并不少见。该病呈慢性经过，临床表现多种多样，最基本的特征是皮肤干燥、慢性湿疹样皮损和明显瘙痒。我国儿童AD患者病情严重度大多为轻度（74.6%），其次为中度（23.96%），重度较少（1.44%）［6］。根据在不同年龄段的表现，分为婴儿期（出生至2岁）、儿童期（> 2 ~ 12岁）、青少年与成人期（> 12 ~ 60岁）和老年期（> 60岁）四个阶段。婴儿期：皮损多分布于两颊、额部和头皮，皮疹以急性湿疹表现为主，后逐渐蔓延至四肢伸侧；儿童期：多由婴儿期演变而来，也可不经过婴儿期而发生，多发生于面颈、肘窝、腘窝和小腿伸侧，以亚急性和慢性皮损为主要表现，皮疹往往干燥肥厚，有明显苔藓样变；"
+  },
+  {
+    "rule_name": "儿童期特应性皮炎皮损由婴儿期演变",
+    "head": {
+      "is_negative": false,
+      "name": "分布部位",
+      "arguments": [
+        "Y",
+        "面颈"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "特应性皮炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄阶段",
+        "arguments": [
+          "X",
+          "儿童期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "皮损",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属疾病",
+        "arguments": [
+          "Y",
+          "特应性皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "前序阶段",
+        "arguments": [
+          "Y",
+          "婴儿期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分布部位",
+        "arguments": [
+          "Y",
+          "肘窝"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分布部位",
+        "arguments": [
+          "Y",
+          "腘窝"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分布部位",
+        "arguments": [
+          "Y",
+          "小腿伸侧"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "皮损类型",
+        "arguments": [
+          "Y",
+          "亚急性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "皮损特征",
+        "arguments": [
+          "Y",
+          "干燥肥厚"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "皮损特征",
+        "arguments": [
+          "Y",
+          "苔藓样变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "皮损"
+    },
+    "source_text": "本病通常初发于婴儿期，1岁前发病者约占全部患者的50%，但近来发现，晚发患者并不少见。该病呈慢性经过，临床表现多种多样，最基本的特征是皮肤干燥、慢性湿疹样皮损和明显瘙痒。我国儿童AD患者病情严重度大多为轻度（74.6%），其次为中度（23.96%），重度较少（1.44%）［6］。根据在不同年龄段的表现，分为婴儿期（出生至2岁）、儿童期（> 2 ~ 12岁）、青少年与成人期（> 12 ~ 60岁）和老年期（> 60岁）四个阶段。婴儿期：皮损多分布于两颊、额部和头皮，皮疹以急性湿疹表现为主，后逐渐蔓延至四肢伸侧；儿童期：多由婴儿期演变而来，也可不经过婴儿期而发生，多发生于面颈、肘窝、腘窝和小腿伸侧，以亚急性和慢性皮损为主要表现，皮疹往往干燥肥厚，有明显苔藓样变；"
+  },
+  {
+    "rule_name": "儿童期特应性皮炎皮损直接发生",
+    "head": {
+      "is_negative": false,
+      "name": "分布部位",
+      "arguments": [
+        "Y",
+        "面颈"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "特应性皮炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄阶段",
+        "arguments": [
+          "X",
+          "儿童期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "皮损",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属疾病",
+        "arguments": [
+          "Y",
+          "特应性皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病情况",
+        "arguments": [
+          "Y",
+          "特应性皮炎",
+          "直接发生"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分布部位",
+        "arguments": [
+          "Y",
+          "肘窝"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分布部位",
+        "arguments": [
+          "Y",
+          "腘窝"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分布部位",
+        "arguments": [
+          "Y",
+          "小腿伸侧"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "皮损类型",
+        "arguments": [
+          "Y",
+          "慢性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "皮损特征",
+        "arguments": [
+          "Y",
+          "干燥肥厚"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "皮损特征",
+        "arguments": [
+          "Y",
+          "苔藓样变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "皮损"
+    },
+    "source_text": "本病通常初发于婴儿期，1岁前发病者约占全部患者的50%，但近来发现，晚发患者并不少见。该病呈慢性经过，临床表现多种多样，最基本的特征是皮肤干燥、慢性湿疹样皮损和明显瘙痒。我国儿童AD患者病情严重度大多为轻度（74.6%），其次为中度（23.96%），重度较少（1.44%）［6］。根据在不同年龄段的表现，分为婴儿期（出生至2岁）、儿童期（> 2 ~ 12岁）、青少年与成人期（> 12 ~ 60岁）和老年期（> 60岁）四个阶段。婴儿期：皮损多分布于两颊、额部和头皮，皮疹以急性湿疹表现为主，后逐渐蔓延至四肢伸侧；儿童期：多由婴儿期演变而来，也可不经过婴儿期而发生，多发生于面颈、肘窝、腘窝和小腿伸侧，以亚急性和慢性皮损为主要表现，皮疹往往干燥肥厚，有明显苔藓样变；"
+  }
+]

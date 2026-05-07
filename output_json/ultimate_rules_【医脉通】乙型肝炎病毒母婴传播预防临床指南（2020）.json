@@ -1,0 +1,1252 @@
+[
+  {
+    "rule_name": "病毒水平检测指示高病毒载量",
+    "head": {
+      "is_negative": false,
+      "name": "高病毒载量",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行检测",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测数值",
+        "arguments": [
+          "Y",
+          "大于阈值",
+          "2×10^5 kIU/L"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Y": "病毒水平检测"
+    },
+    "source_text": "HBV DNA 定量检测：荧光实时定量PCR 技术检测外周血HBV DNA水平，即病毒水平，可反映病毒复制是否活跃。通常认为HBV DNA>2×105kIU/L（即IU/ml），病毒复制活跃，称高病毒水平，也称高病毒载量。孕妇HBsAg阳性，就存在病毒复制，有传染性。"
+  },
+  {
+    "rule_name": "HBsAg阳性指示病毒复制与传染性",
+    "head": {
+      "is_negative": false,
+      "name": "有传染性",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "HBsAg阳性",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇"
+    },
+    "source_text": "HBV DNA 定量检测：荧光实时定量PCR 技术检测外周血HBV DNA水平，即病毒水平，可反映病毒复制是否活跃。通常认为HBV DNA>2×105kIU/L（即IU/ml），病毒复制活跃，称高病毒水平，也称高病毒载量。孕妇HBsAg阳性，就存在病毒复制，有传染性。"
+  },
+  {
+    "rule_name": "小三阳孕妇的病毒复制与载量特征",
+    "head": {
+      "is_negative": false,
+      "name": "病毒复制状态",
+      "arguments": [
+        "X",
+        "不活跃"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清学指标",
+        "arguments": [
+          "X",
+          "HBsAg阳性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清学指标",
+        "arguments": [
+          "X",
+          "HBeAg阴性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇"
+    },
+    "source_text": "5. 乙肝血清学指标与HBV DNA 水平的关系：HBsAg 阳性和（或）HBeAg 阴性（俗称“小三阳”）孕妇，病毒复制不活跃，HBV DNA中位水平<103 kIU/L（即IU/ml），>2×105 kIU/L（即IU/ml）的比例约1%；HBsAg和HBeAg双阳性（俗称“大三阳”）孕妇，病毒复制活跃，中位HBV DNA 的水平为107~108 kIU/L（即IU/ml），>2×105 kIU/L（即IU/ml）者的比例约90%［2⁃3］。因此，HBeAg 阳性者传染性强，易发生母婴传播。无条件行定量检测HBV DNA时，如HBeAg阳性，则可视为高病毒水平。"
+  },
+  {
+    "rule_name": "大三阳孕妇的病毒复制活跃与高传染性",
+    "head": {
+      "is_negative": false,
+      "name": "病毒复制状态",
+      "arguments": [
+        "X",
+        "活跃"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清学指标",
+        "arguments": [
+          "X",
+          "HBsAg阳性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清学指标",
+        "arguments": [
+          "X",
+          "HBeAg阳性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇"
+    },
+    "source_text": "5. 乙肝血清学指标与HBV DNA 水平的关系：HBsAg 阳性和（或）HBeAg 阴性（俗称“小三阳”）孕妇，病毒复制不活跃，HBV DNA中位水平<103 kIU/L（即IU/ml），>2×105 kIU/L（即IU/ml）的比例约1%；HBsAg和HBeAg双阳性（俗称“大三阳”）孕妇，病毒复制活跃，中位HBV DNA 的水平为107~108 kIU/L（即IU/ml），>2×105 kIU/L（即IU/ml）者的比例约90%［2⁃3］。因此，HBeAg 阳性者传染性强，易发生母婴传播。无条件行定量检测HBV DNA时，如HBeAg阳性，则可视为高病毒水平。"
+  },
+  {
+    "rule_name": "无条件检测时依据HBeAg阳性推定高病毒水平",
+    "head": {
+      "is_negative": false,
+      "name": "视为",
+      "arguments": [
+        "X",
+        "高病毒水平",
+        "无条件检测时"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测条件",
+        "arguments": [
+          "X",
+          "无条件定量检测HBV DNA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清学指标",
+        "arguments": [
+          "X",
+          "HBeAg阳性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇"
+    },
+    "source_text": "5. 乙肝血清学指标与HBV DNA 水平的关系：HBsAg 阳性和（或）HBeAg 阴性（俗称“小三阳”）孕妇，病毒复制不活跃，HBV DNA中位水平<103 kIU/L（即IU/ml），>2×105 kIU/L（即IU/ml）的比例约1%；HBsAg和HBeAg双阳性（俗称“大三阳”）孕妇，病毒复制活跃，中位HBV DNA 的水平为107~108 kIU/L（即IU/ml），>2×105 kIU/L（即IU/ml）者的比例约90%［2⁃3］。因此，HBeAg 阳性者传染性强，易发生母婴传播。无条件行定量检测HBV DNA时，如HBeAg阳性，则可视为高病毒水平。"
+  },
+  {
+    "rule_name": "基于前瞻性研究的_HBV_DNA高载量孕妇_妊娠晚期抗病毒推荐",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "抗病毒药物",
+        "妊娠晚期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病毒指标",
+        "arguments": [
+          "X",
+          "HBV_DNA_大于_106kIU_L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "妊娠阶段",
+        "arguments": [
+          "X",
+          "28_32周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "新生儿干预",
+        "arguments": [
+          "正规免疫预防"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇"
+    },
+    "source_text": "多项前瞻性临床研究表明，对HBV DNA水平>106kIU/L（即IU/ml）或HBeAg阳性孕妇妊娠晚期（妊娠28~32 周）开始服用抗病毒药物，使孕妇分娩时病毒水平降低，同时新生儿正规免疫接种预防，几乎可完全阻断HBV 母婴传播［13⁃19］。"
+  },
+  {
+    "rule_name": "基于前瞻性研究的_HBeAg阳性孕妇_妊娠晚期抗病毒推荐",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "抗病毒药物",
+        "妊娠晚期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清学标志",
+        "arguments": [
+          "X",
+          "HBeAg_阳性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "妊娠阶段",
+        "arguments": [
+          "X",
+          "28_32周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "新生儿干预",
+        "arguments": [
+          "正规免疫预防"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇"
+    },
+    "source_text": "多项前瞻性临床研究表明，对HBV DNA水平>106kIU/L（即IU/ml）或HBeAg阳性孕妇妊娠晚期（妊娠28~32 周）开始服用抗病毒药物，使孕妇分娩时病毒水平降低，同时新生儿正规免疫接种预防，几乎可完全阻断HBV 母婴传播［13⁃19］。"
+  },
+  {
+    "rule_name": "本指南推荐_口服抗病毒药阈值_HBV_DNA_大于_2E5",
+    "head": {
+      "is_negative": false,
+      "name": "用药指征",
+      "arguments": [
+        "X",
+        "口服抗病毒药物",
+        "推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病毒指标",
+        "arguments": [
+          "X",
+          "HBV_DNA_大于_2E5_kIU_L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测条件",
+        "arguments": [
+          "综合考虑国产试剂"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇"
+    },
+    "source_text": "目前尚无引起母婴传播的母体病毒水平的确切阈值，在查阅国内外相关资料［3，6，13⁃26］的基础上，结合国产试剂检测结果综合考虑，本指南推荐以HBV DNA水平>2×105 kIU/L（即IU/ml）为口服抗病毒药物预防母婴传播的阈值。"
+  },
+  {
+    "rule_name": "无需口服抗病毒药_当_HBV_DNA_低载量_且_新生儿正规预防",
+    "head": {
+      "is_negative": true,
+      "name": "用药指征",
+      "arguments": [
+        "X",
+        "口服抗病毒药物",
+        "推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病毒指标",
+        "arguments": [
+          "X",
+          "HBV_DNA_小于等于_2E5_kIU_L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "新生儿干预",
+        "arguments": [
+          "正规免疫预防"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇"
+    },
+    "source_text": "研究证明，HBV DNA水平≤106 kIU/L（即IU/ml）的孕妇的新生儿经及时、正规的免疫预防后，几乎不发生母婴传播［3，6，9，25⁃26］。因此，将HBV DNA>2×105 kIU/L 作为口服抗病毒药物预防母婴传播的阈值是保守的，对HBV DNA≤2×105 kIU/L（即IU/ml）孕妇无需口服抗病毒药物。"
+  },
+  {
+    "rule_name": "无HBV_DNA检测地区_以_HBeAg阳性_为用药指征",
+    "head": {
+      "is_negative": false,
+      "name": "用药指征",
+      "arguments": [
+        "X",
+        "口服抗病毒药物",
+        "推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "地区条件",
+        "arguments": [
+          "常规HBV_DNA检测"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清学标志",
+        "arguments": [
+          "X",
+          "HBeAg_阳性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇"
+    },
+    "source_text": "对不常规开展HBV DNA 定量检测的地区，建议以HBeAg 阳性作为口服抗病毒药物的指征，以预防母婴传播。因HBeAg阳性孕妇中，HBV DNA>2×105 kIU/L（即IU/ml）的比例约90%［2⁃3］。"
+  },
+  {
+    "rule_name": "HBeAg阴性孕妇_无需常规检测与服药",
+    "head": {
+      "is_negative": true,
+      "name": "用药指征",
+      "arguments": [
+        "X",
+        "口服抗病毒药物",
+        "推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清学标志",
+        "arguments": [
+          "X",
+          "HBeAg_阴性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "新生儿干预",
+        "arguments": [
+          "正规免疫预防"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇"
+    },
+    "source_text": "HBeAg阴性孕妇的中位HBV DNA水平<103 kIU/L（即IU/ml）［2⁃3］，新生儿经正规预防后，几乎无感染［3⁃5，9，25⁃28］，因此，HBeAg阴性孕妇，无需常规定量检测HBV DNA，也无需服用抗病毒药物。"
+  },
+  {
+    "rule_name": "服用抗病毒药物孕妇发生早产后需密切观察并随访子代",
+    "head": {
+      "is_negative": false,
+      "name": "需密切观察",
+      "arguments": [
+        "X",
+        "妊娠和分娩结局"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "服用抗病毒药物",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "妊娠期",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生事件",
+        "arguments": [
+          "X",
+          "早产"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有子代",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Z": "子代"
+    },
+    "source_text": "但妊娠期服用这些抗病毒药物，早产、低出生体重、严重出生缺陷（先天性巨结肠、先天性胆道闭锁、缺耳）、脑瘫、肌肉运动系统发育障碍、死胎等不良事件的发生概率高于对照组［13⁃14，17，28⁃33］，尽管差异没有统计学意义，但提示抗病毒药物对胎儿的安全性需要进一步研究。因此，服用抗病毒药物的孕妇，必须密切观察妊娠和分娩结局，并随访其子代至少至1 岁，观察有无严重不良事件。"
+  },
+  {
+    "rule_name": "服用抗病毒药物孕妇发生低出生体重后需密切观察并随访子代",
+    "head": {
+      "is_negative": false,
+      "name": "需密切观察",
+      "arguments": [
+        "X",
+        "妊娠和分娩结局"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "服用抗病毒药物",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "妊娠期",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生事件",
+        "arguments": [
+          "X",
+          "低出生体重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有子代",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Z": "子代"
+    },
+    "source_text": "但妊娠期服用这些抗病毒药物，早产、低出生体重、严重出生缺陷（先天性巨结肠、先天性胆道闭锁、缺耳）、脑瘫、肌肉运动系统发育障碍、死胎等不良事件的发生概率高于对照组［13⁃14，17，28⁃33］，尽管差异没有统计学意义，但提示抗病毒药物对胎儿的安全性需要进一步研究。因此，服用抗病毒药物的孕妇，必须密切观察妊娠和分娩结局，并随访其子代至少至1 岁，观察有无严重不良事件。"
+  },
+  {
+    "rule_name": "服用抗病毒药物孕妇发生严重出生缺陷后需密切观察并随访子代",
+    "head": {
+      "is_negative": false,
+      "name": "需密切观察",
+      "arguments": [
+        "X",
+        "妊娠和分娩结局"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "服用抗病毒药物",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "妊娠期",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生事件",
+        "arguments": [
+          "X",
+          "严重出生缺陷"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有子代",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Z": "子代"
+    },
+    "source_text": "但妊娠期服用这些抗病毒药物，早产、低出生体重、严重出生缺陷（先天性巨结肠、先天性胆道闭锁、缺耳）、脑瘫、肌肉运动系统发育障碍、死胎等不良事件的发生概率高于对照组［13⁃14，17，28⁃33］，尽管差异没有统计学意义，但提示抗病毒药物对胎儿的安全性需要进一步研究。因此，服用抗病毒药物的孕妇，必须密切观察妊娠和分娩结局，并随访其子代至少至1 岁，观察有无严重不良事件。"
+  },
+  {
+    "rule_name": "服用抗病毒药物孕妇发生脑瘫后需密切观察并随访子代",
+    "head": {
+      "is_negative": false,
+      "name": "需密切观察",
+      "arguments": [
+        "X",
+        "妊娠和分娩结局"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "服用抗病毒药物",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "妊娠期",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生事件",
+        "arguments": [
+          "X",
+          "脑瘫"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有子代",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Z": "子代"
+    },
+    "source_text": "但妊娠期服用这些抗病毒药物，早产、低出生体重、严重出生缺陷（先天性巨结肠、先天性胆道闭锁、缺耳）、脑瘫、肌肉运动系统发育障碍、死胎等不良事件的发生概率高于对照组［13⁃14，17，28⁃33］，尽管差异没有统计学意义，但提示抗病毒药物对胎儿的安全性需要进一步研究。因此，服用抗病毒药物的孕妇，必须密切观察妊娠和分娩结局，并随访其子代至少至1 岁，观察有无严重不良事件。"
+  },
+  {
+    "rule_name": "服用抗病毒药物孕妇发生肌肉运动系统发育障碍后需密切观察并随访子代",
+    "head": {
+      "is_negative": false,
+      "name": "需密切观察",
+      "arguments": [
+        "X",
+        "妊娠和分娩结局"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "服用抗病毒药物",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "妊娠期",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生事件",
+        "arguments": [
+          "X",
+          "肌肉运动系统发育障碍"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有子代",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Z": "子代"
+    },
+    "source_text": "但妊娠期服用这些抗病毒药物，早产、低出生体重、严重出生缺陷（先天性巨结肠、先天性胆道闭锁、缺耳）、脑瘫、肌肉运动系统发育障碍、死胎等不良事件的发生概率高于对照组［13⁃14，17，28⁃33］，尽管差异没有统计学意义，但提示抗病毒药物对胎儿的安全性需要进一步研究。因此，服用抗病毒药物的孕妇，必须密切观察妊娠和分娩结局，并随访其子代至少至1 岁，观察有无严重不良事件。"
+  },
+  {
+    "rule_name": "服用抗病毒药物孕妇发生死胎后需密切观察并随访子代",
+    "head": {
+      "is_negative": false,
+      "name": "需密切观察",
+      "arguments": [
+        "X",
+        "妊娠和分娩结局"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "服用抗病毒药物",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "妊娠期",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生事件",
+        "arguments": [
+          "X",
+          "死胎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "有子代",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Z": "子代"
+    },
+    "source_text": "但妊娠期服用这些抗病毒药物，早产、低出生体重、严重出生缺陷（先天性巨结肠、先天性胆道闭锁、缺耳）、脑瘫、肌肉运动系统发育障碍、死胎等不良事件的发生概率高于对照组［13⁃14，17，28⁃33］，尽管差异没有统计学意义，但提示抗病毒药物对胎儿的安全性需要进一步研究。因此，服用抗病毒药物的孕妇，必须密切观察妊娠和分娩结局，并随访其子代至少至1 岁，观察有无严重不良事件。"
+  },
+  {
+    "rule_name": "首次肝功正常的妊娠期HBV感染者常规复查方案",
+    "head": {
+      "is_negative": false,
+      "name": "处理方案",
+      "arguments": [
+        "X",
+        "定期复查肝功能",
+        "每2至3个月"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "妊娠妇女",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "慢性HBV感染者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "首次肝功能检查结果",
+        "arguments": [
+          "X",
+          "正常"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前状态",
+        "arguments": [
+          "X",
+          "无肝炎症状"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "慢性HBV感染妇女妊娠后，须定期复查肝功能，尤其在妊娠早期和妊娠晚期。首次检测肝功能正常者，无肝炎症状时，每2~3 个月复查1次。如丙氨酸转氨酶（ALT）水平升高但不超过正常值2 倍（<100 U/L）、无症状、无胆红素升高者，无需治疗，但需休息，间隔1~2周复查。如ALT水平升高超过正常值2 倍（≥100 U/L），但无胆红素升高、无症状者，无需治疗，但需休息，间隔3~5 d复查；如ALT水平升高超过正常值2倍（≥100 U/L），且有肝炎症状或胆红素升高，需请感染科或肝病科医师会诊，必要时（ALT水平>400 U/L）住院治疗。"
+  },
+  {
+    "rule_name": "ALT轻度升高无症状者休息与短期复查方案",
+    "head": {
+      "is_negative": false,
+      "name": "处理方案",
+      "arguments": [
+        "X",
+        "定期复查ALT",
+        "间隔1至2周"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "妊娠妇女",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "慢性HBV感染者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肝功能指标",
+        "arguments": [
+          "X",
+          "ALT低于100U/L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前状态",
+        "arguments": [
+          "X",
+          "无肝炎症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前状态",
+        "arguments": [
+          "X",
+          "无胆红素升高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处理方案",
+        "arguments": [
+          "X",
+          "休息",
+          "常规"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "慢性HBV感染妇女妊娠后，须定期复查肝功能，尤其在妊娠早期和妊娠晚期。首次检测肝功能正常者，无肝炎症状时，每2~3 个月复查1次。如丙氨酸转氨酶（ALT）水平升高但不超过正常值2 倍（<100 U/L）、无症状、无胆红素升高者，无需治疗，但需休息，间隔1~2周复查。如ALT水平升高超过正常值2 倍（≥100 U/L），但无胆红素升高、无症状者，无需治疗，但需休息，间隔3~5 d复查；如ALT水平升高超过正常值2倍（≥100 U/L），且有肝炎症状或胆红素升高，需请感染科或肝病科医师会诊，必要时（ALT水平>400 U/L）住院治疗。"
+  },
+  {
+    "rule_name": "ALT显著升高但无症状者休息与密集复查方案",
+    "head": {
+      "is_negative": false,
+      "name": "处理方案",
+      "arguments": [
+        "X",
+        "定期复查ALT",
+        "间隔3至5天"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "妊娠妇女",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "慢性HBV感染者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肝功能指标",
+        "arguments": [
+          "X",
+          "ALT高于等于100U/L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前状态",
+        "arguments": [
+          "X",
+          "无肝炎症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前状态",
+        "arguments": [
+          "X",
+          "无胆红素升高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "处理方案",
+        "arguments": [
+          "X",
+          "休息",
+          "常规"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "慢性HBV感染妇女妊娠后，须定期复查肝功能，尤其在妊娠早期和妊娠晚期。首次检测肝功能正常者，无肝炎症状时，每2~3 个月复查1次。如丙氨酸转氨酶（ALT）水平升高但不超过正常值2 倍（<100 U/L）、无症状、无胆红素升高者，无需治疗，但需休息，间隔1~2周复查。如ALT水平升高超过正常值2 倍（≥100 U/L），但无胆红素升高、无症状者，无需治疗，但需休息，间隔3~5 d复查；如ALT水平升高超过正常值2倍（≥100 U/L），且有肝炎症状或胆红素升高，需请感染科或肝病科医师会诊，必要时（ALT水平>400 U/L）住院治疗。"
+  },
+  {
+    "rule_name": "ALT显著升高且伴有肝炎症状的会诊指征",
+    "head": {
+      "is_negative": false,
+      "name": "医疗干预",
+      "arguments": [
+        "X",
+        "请求感染科或肝病科会诊",
+        "必要"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "妊娠妇女",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "慢性HBV感染者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肝功能指标",
+        "arguments": [
+          "X",
+          "ALT高于等于100U/L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前状态",
+        "arguments": [
+          "X",
+          "存在肝炎症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肝功能指标",
+        "arguments": [
+          "X",
+          "ALT高于400U/L"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "慢性HBV感染妇女妊娠后，须定期复查肝功能，尤其在妊娠早期和妊娠晚期。首次检测肝功能正常者，无肝炎症状时，每2~3 个月复查1次。如丙氨酸转氨酶（ALT）水平升高但不超过正常值2 倍（<100 U/L）、无症状、无胆红素升高者，无需治疗，但需休息，间隔1~2周复查。如ALT水平升高超过正常值2 倍（≥100 U/L），但无胆红素升高、无症状者，无需治疗，但需休息，间隔3~5 d复查；如ALT水平升高超过正常值2倍（≥100 U/L），且有肝炎症状或胆红素升高，需请感染科或肝病科医师会诊，必要时（ALT水平>400 U/L）住院治疗。"
+  },
+  {
+    "rule_name": "ALT显著升高且伴有胆红素升高的会诊指征",
+    "head": {
+      "is_negative": false,
+      "name": "医疗干预",
+      "arguments": [
+        "X",
+        "请求感染科或肝病科会诊",
+        "必要"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "妊娠妇女",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "慢性HBV感染者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肝功能指标",
+        "arguments": [
+          "X",
+          "ALT高于等于100U/L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前状态",
+        "arguments": [
+          "X",
+          "存在胆红素升高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肝功能指标",
+        "arguments": [
+          "X",
+          "ALT高于400U/L"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "慢性HBV感染妇女妊娠后，须定期复查肝功能，尤其在妊娠早期和妊娠晚期。首次检测肝功能正常者，无肝炎症状时，每2~3 个月复查1次。如丙氨酸转氨酶（ALT）水平升高但不超过正常值2 倍（<100 U/L）、无症状、无胆红素升高者，无需治疗，但需休息，间隔1~2周复查。如ALT水平升高超过正常值2 倍（≥100 U/L），但无胆红素升高、无症状者，无需治疗，但需休息，间隔3~5 d复查；如ALT水平升高超过正常值2倍（≥100 U/L），且有肝炎症状或胆红素升高，需请感染科或肝病科医师会诊，必要时（ALT水平>400 U/L）住院治疗。"
+  },
+  {
+    "rule_name": "高病毒载量孕妇从孕28至32周开始服药并联合免疫可完全阻断传播",
+    "head": {
+      "is_negative": false,
+      "name": "阻断效果",
+      "arguments": [
+        "母婴传播",
+        "完全"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "高病毒载量孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "服用抗病毒药物",
+        "arguments": [
+          "X",
+          "起始于孕28至32周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "新生儿",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "联合干预",
+        "arguments": [
+          "Y",
+          "免疫预防"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Y": "新生儿"
+    },
+    "source_text": "研究显示，妊娠28~32周开始服用抗病毒药物，同时新生儿联合免疫预防，几乎能完全阻断母婴传播［13⁃19］。因此，本指南推荐高病毒载量孕妇从妊娠28~32 周开始服用抗病毒药物；但不推荐在妊娠28 周前开始用药，更无需从妊娠24周开始服药。从经济和安全的角度出发，在确保不发生母婴传播的前提下，妊娠期使用抗病毒药物的时间越短越好。孕妇HBV DNA 水平≤106 kIU/L（即IU/ml），新生儿免疫预防后几乎无母婴传播。因此，可研究使孕妇病毒水平降至≤106 kIU/L（即IU/ml）所需用抗病毒药物的最短时间，在此基础上探索合适的服用抗病毒药物的开始时间。研究显示，妊娠30~32周开始服用抗病毒药物，其子代几乎无母婴传播［16⁃17］。在妊娠28~32周开始服用抗病毒药物的研究中，部分孕妇是从妊娠32 周才开始用药［13，15，19］，其子代几乎未发生母婴传播，因此值得研究妊娠32~33周开始服药的预防效果。"
+  },
+  {
+    "rule_name": "高病毒载量孕妇从孕30至32周开始服药并联合免疫几乎无传播",
+    "head": {
+      "is_negative": false,
+      "name": "阻断效果",
+      "arguments": [
+        "母婴传播",
+        "几乎无"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "高病毒载量孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "服用抗病毒药物",
+        "arguments": [
+          "X",
+          "起始于孕30至32周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "新生儿",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "联合干预",
+        "arguments": [
+          "Y",
+          "免疫预防"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Y": "新生儿"
+    },
+    "source_text": "研究显示，妊娠28~32周开始服用抗病毒药物，同时新生儿联合免疫预防，几乎能完全阻断母婴传播［13⁃19］。因此，本指南推荐高病毒载量孕妇从妊娠28~32 周开始服用抗病毒药物；但不推荐在妊娠28 周前开始用药，更无需从妊娠24周开始服药。从经济和安全的角度出发，在确保不发生母婴传播的前提下，妊娠期使用抗病毒药物的时间越短越好。孕妇HBV DNA 水平≤106 kIU/L（即IU/ml），新生儿免疫预防后几乎无母婴传播。因此，可研究使孕妇病毒水平降至≤106 kIU/L（即IU/ml）所需用抗病毒药物的最短时间，在此基础上探索合适的服用抗病毒药物的开始时间。研究显示，妊娠30~32周开始服用抗病毒药物，其子代几乎无母婴传播［16⁃17］。在妊娠28~32周开始服用抗病毒药物的研究中，部分孕妇是从妊娠32 周才开始用药［13，15，19］，其子代几乎未发生母婴传播，因此值得研究妊娠32~33周开始服药的预防效果。"
+  },
+  {
+    "rule_name": "部分高病毒载量孕妇从孕32周开始服药并联合免疫几乎无传播",
+    "head": {
+      "is_negative": false,
+      "name": "阻断效果",
+      "arguments": [
+        "母婴传播",
+        "几乎无"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "高病毒载量孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "服用抗病毒药物",
+        "arguments": [
+          "X",
+          "起始于孕32周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "新生儿",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "联合干预",
+        "arguments": [
+          "Y",
+          "免疫预防"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Y": "新生儿"
+    },
+    "source_text": "研究显示，妊娠28~32周开始服用抗病毒药物，同时新生儿联合免疫预防，几乎能完全阻断母婴传播［13⁃19］。因此，本指南推荐高病毒载量孕妇从妊娠28~32 周开始服用抗病毒药物；但不推荐在妊娠28 周前开始用药，更无需从妊娠24周开始服药。从经济和安全的角度出发，在确保不发生母婴传播的前提下，妊娠期使用抗病毒药物的时间越短越好。孕妇HBV DNA 水平≤106 kIU/L（即IU/ml），新生儿免疫预防后几乎无母婴传播。因此，可研究使孕妇病毒水平降至≤106 kIU/L（即IU/ml）所需用抗病毒药物的最短时间，在此基础上探索合适的服用抗病毒药物的开始时间。研究显示，妊娠30~32周开始服用抗病毒药物，其子代几乎无母婴传播［16⁃17］。在妊娠28~32周开始服用抗病毒药物的研究中，部分孕妇是从妊娠32 周才开始用药［13，15，19］，其子代几乎未发生母婴传播，因此值得研究妊娠32~33周开始服药的预防效果。"
+  },
+  {
+    "rule_name": "值得研究高病毒载量孕妇从孕32至33周开始服药的预防效果",
+    "head": {
+      "is_negative": false,
+      "name": "值得研究",
+      "arguments": [
+        "用药起始时机",
+        "孕32至33周"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "高病毒载量孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病毒水平降至阈值",
+        "arguments": [
+          "X",
+          "≤106_kIU/L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "新生儿",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "联合干预",
+        "arguments": [
+          "Y",
+          "免疫预防"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "孕妇",
+      "Y": "新生儿"
+    },
+    "source_text": "研究显示，妊娠28~32周开始服用抗病毒药物，同时新生儿联合免疫预防，几乎能完全阻断母婴传播［13⁃19］。因此，本指南推荐高病毒载量孕妇从妊娠28~32 周开始服用抗病毒药物；但不推荐在妊娠28 周前开始用药，更无需从妊娠24周开始服药。从经济和安全的角度出发，在确保不发生母婴传播的前提下，妊娠期使用抗病毒药物的时间越短越好。孕妇HBV DNA 水平≤106 kIU/L（即IU/ml），新生儿免疫预防后几乎无母婴传播。因此，可研究使孕妇病毒水平降至≤106 kIU/L（即IU/ml）所需用抗病毒药物的最短时间，在此基础上探索合适的服用抗病毒药物的开始时间。研究显示，妊娠30~32周开始服用抗病毒药物，其子代几乎无母婴传播［16⁃17］。在妊娠28~32周开始服用抗病毒药物的研究中，部分孕妇是从妊娠32 周才开始用药［13，15，19］，其子代几乎未发生母婴传播，因此值得研究妊娠32~33周开始服药的预防效果。"
+  }
+]

@@ -1,0 +1,1891 @@
+[
+  {
+    "rule_name": "因差异存在故需规范化慢性疼痛管理",
+    "head": {
+      "is_negative": false,
+      "name": "需求",
+      "arguments": [
+        "Y",
+        "规范化"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "涉及系统",
+        "arguments": [
+          "Y",
+          "肌肉骨骼"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛类型",
+        "arguments": [
+          "Y",
+          "慢性"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "慢性疼痛管理"
+    },
+    "source_text": "肌肉骨骼系统慢性疼痛是临床最常见的慢性疼痛。目前，国内外医师对慢性疼痛的认识、临床实践环境、镇痛药物种类/使用经验/了解程度、医保药品收录均有差异，故有效、规范化的慢性疼痛管理显得尤为必要。因此，亟待制定完善的、基于生物-心理-社会医学等因素的跨学科慢性疼痛管理共识，提高广大医务人员对慢性疼痛的认识与重视、规范指导慢性疼痛的管理，提高医疗质量、降低医疗成本，消除患者感觉、情感、认知和社会维度的痛苦体验，在治疗患者原发疾病的同时，改善患者的心理需求和社会功能需求。"
+  },
+  {
+    "rule_name": "为规范化管理需制定跨学科共识",
+    "head": {
+      "is_negative": false,
+      "name": "需要制定共识",
+      "arguments": [
+        "X",
+        "针对管理Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "需求",
+        "arguments": [
+          "Y",
+          "规范化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基于因素",
+        "arguments": [
+          "X",
+          "生物-心理-社会医学"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "共识性质",
+        "arguments": [
+          "X",
+          "跨学科"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识制定活动",
+      "Y": "慢性疼痛管理"
+    },
+    "source_text": "肌肉骨骼系统慢性疼痛是临床最常见的慢性疼痛。目前，国内外医师对慢性疼痛的认识、临床实践环境、镇痛药物种类/使用经验/了解程度、医保药品收录均有差异，故有效、规范化的慢性疼痛管理显得尤为必要。因此，亟待制定完善的、基于生物-心理-社会医学等因素的跨学科慢性疼痛管理共识，提高广大医务人员对慢性疼痛的认识与重视、规范指导慢性疼痛的管理，提高医疗质量、降低医疗成本，消除患者感觉、情感、认知和社会维度的痛苦体验，在治疗患者原发疾病的同时，改善患者的心理需求和社会功能需求。"
+  },
+  {
+    "rule_name": "制定共识可达成多重积极目标",
+    "head": {
+      "is_negative": false,
+      "name": "达成目标",
+      "arguments": [
+        "X",
+        "多重积极"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "需要制定共识",
+        "arguments": [
+          "X",
+          "针对管理Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提高对象",
+        "arguments": [
+          "Z",
+          "认识与重视"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "规范指导对象",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识制定活动",
+      "Y": "慢性疼痛管理",
+      "Z": "医务人员群体",
+      "W": "患者群体"
+    },
+    "source_text": "肌肉骨骼系统慢性疼痛是临床最常见的慢性疼痛。目前，国内外医师对慢性疼痛的认识、临床实践环境、镇痛药物种类/使用经验/了解程度、医保药品收录均有差异，故有效、规范化的慢性疼痛管理显得尤为必要。因此，亟待制定完善的、基于生物-心理-社会医学等因素的跨学科慢性疼痛管理共识，提高广大医务人员对慢性疼痛的认识与重视、规范指导慢性疼痛的管理，提高医疗质量、降低医疗成本，消除患者感觉、情感、认知和社会维度的痛苦体验，在治疗患者原发疾病的同时，改善患者的心理需求和社会功能需求。"
+  },
+  {
+    "rule_name": "制定慢性疼痛跨学科管理共识的动因",
+    "head": {
+      "is_negative": false,
+      "name": "应制定",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "共识文件",
+        "arguments": [
+          "X",
+          "慢性疼痛管理"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动因基于",
+        "arguments": [
+          "X",
+          "国内外理解差异"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动因基于",
+        "arguments": [
+          "X",
+          "临床环境差异"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动因基于",
+        "arguments": [
+          "X",
+          "药物类型使用差异"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "动因基于",
+        "arguments": [
+          "X",
+          "地区医保覆盖差异"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识文件"
+    },
+    "source_text": "Chronic pain in the musculoskeletal system is the most common form of clinical chronic pain. Effective and stan⁃dardized chronic pain management is particularly necessary because of the differences in the understanding of chronic pain of doctors at home and abroad, clinical practice environments, types and use of analgesic drugs, and drugs covered by medical insurance in different regions of China. Therefore, it is urgent to make a comprehensive consensus on interdisciplinary chronic pain management based on biological psychological social medicine and other factors, to improve the awareness and attention of medical staffs on chronic pain, to standardize and guide the management of chronic pain, to improve medical quality and reduce medical costs, to eliminate the painful experience of the patient's sensory, emotional, cognitive and social dimensions, and to improve the patient's psychological needs and social function requirements while treating the patient's primary diseases."
+  },
+  {
+    "rule_name": "执行慢性疼痛共识的多重临床目标",
+    "head": {
+      "is_negative": false,
+      "name": "执行具有目标",
+      "arguments": [
+        "X",
+        "提高医疗质量"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "管理实践",
+        "arguments": [
+          "X",
+          "慢性疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行具有目标",
+        "arguments": [
+          "X",
+          "提高医护认知"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行具有目标",
+        "arguments": [
+          "X",
+          "规范指导管理"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行具有目标",
+        "arguments": [
+          "X",
+          "降低医疗成本"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗主要疾病",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "消除痛苦体验",
+        "arguments": [
+          "Y",
+          "多维度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "改善需求",
+        "arguments": [
+          "Y",
+          "心理社会"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "管理实践",
+      "Y": "患者群体"
+    },
+    "source_text": "Chronic pain in the musculoskeletal system is the most common form of clinical chronic pain. Effective and stan⁃dardized chronic pain management is particularly necessary because of the differences in the understanding of chronic pain of doctors at home and abroad, clinical practice environments, types and use of analgesic drugs, and drugs covered by medical insurance in different regions of China. Therefore, it is urgent to make a comprehensive consensus on interdisciplinary chronic pain management based on biological psychological social medicine and other factors, to improve the awareness and attention of medical staffs on chronic pain, to standardize and guide the management of chronic pain, to improve medical quality and reduce medical costs, to eliminate the painful experience of the patient's sensory, emotional, cognitive and social dimensions, and to improve the patient's psychological needs and social function requirements while treating the patient's primary diseases."
+  },
+  {
+    "rule_name": "形成慢性疼痛共识的方法学基础",
+    "head": {
+      "is_negative": false,
+      "name": "共识文件",
+      "arguments": [
+        "X",
+        "慢性疼痛管理"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "基于",
+        "arguments": [
+          "X",
+          "生物心理社会医学"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "方法学流程",
+        "arguments": [
+          "X",
+          "文献循证"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "方法学流程",
+        "arguments": [
+          "X",
+          "反复讨论"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "方法学流程",
+        "arguments": [
+          "X",
+          "修订完善"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识文件"
+    },
+    "source_text": "Chronic pain in the musculoskeletal system is the most common form of clinical chronic pain. Effective and stan⁃dardized chronic pain management is particularly necessary because of the differences in the understanding of chronic pain of doctors at home and abroad, clinical practice environments, types and use of analgesic drugs, and drugs covered by medical insurance in different regions of China. Therefore, it is urgent to make a comprehensive consensus on interdisciplinary chronic pain management based on biological psychological social medicine and other factors, to improve the awareness and attention of medical staffs on chronic pain, to standardize and guide the management of chronic pain, to improve medical quality and reduce medical costs, to eliminate the painful experience of the patient's sensory, emotional, cognitive and social dimensions, and to improve the patient's psychological needs and social function requirements while treating the patient's primary diseases."
+  },
+  {
+    "rule_name": "急性疼痛史特征促进慢性疼痛形成_背痛受限",
+    "head": {
+      "is_negative": false,
+      "name": "促使发展成慢性疼痛",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "急性疼痛史",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "Y",
+          "背痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴随症状",
+        "arguments": [
+          "Y",
+          "腰部前屈受限"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经系统检查异常",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "急性疼痛事件"
+    },
+    "source_text": "在询问病史的同时需要特别关注可促使发展成慢性疼痛的急性疼痛史的特征：①背痛伴腰部前屈受限；②神经系统检查异常；③非局限性疼痛；④隐匿性起病；⑤放射至下肢的背痛。同时还需要仔细查询患者病史中可导致慢性疼痛形成的因素：①女性；②外伤或慢性疼痛个人史、家族史；③共患情感障碍或心理困扰；④缺乏社会支持；⑤对工作不满意；⑥使用尼古丁；⑦遗传因素，会增加偏头痛和纤维肌痛的易感性；⑧高危职业，如医护专业人员、重体力劳动者、汽车修理工等。"
+  },
+  {
+    "rule_name": "急性疼痛史特征促进慢性疼痛形成_非局限性痛",
+    "head": {
+      "is_negative": false,
+      "name": "促使发展成慢性疼痛",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "急性疼痛史",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛性质",
+        "arguments": [
+          "Y",
+          "非局限性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "起病方式",
+        "arguments": [
+          "Y",
+          "隐匿性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经系统检查异常",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "急性疼痛事件"
+    },
+    "source_text": "在询问病史的同时需要特别关注可促使发展成慢性疼痛的急性疼痛史的特征：①背痛伴腰部前屈受限；②神经系统检查异常；③非局限性疼痛；④隐匿性起病；⑤放射至下肢的背痛。同时还需要仔细查询患者病史中可导致慢性疼痛形成的因素：①女性；②外伤或慢性疼痛个人史、家族史；③共患情感障碍或心理困扰；④缺乏社会支持；⑤对工作不满意；⑥使用尼古丁；⑦遗传因素，会增加偏头痛和纤维肌痛的易感性；⑧高危职业，如医护专业人员、重体力劳动者、汽车修理工等。"
+  },
+  {
+    "rule_name": "急性疼痛史特征促进慢性疼痛形成_放射痛",
+    "head": {
+      "is_negative": false,
+      "name": "促使发展成慢性疼痛",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "急性疼痛史",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "Y",
+          "背痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "放射部位",
+        "arguments": [
+          "Y",
+          "下肢"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "神经系统检查异常",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "急性疼痛事件"
+    },
+    "source_text": "在询问病史的同时需要特别关注可促使发展成慢性疼痛的急性疼痛史的特征：①背痛伴腰部前屈受限；②神经系统检查异常；③非局限性疼痛；④隐匿性起病；⑤放射至下肢的背痛。同时还需要仔细查询患者病史中可导致慢性疼痛形成的因素：①女性；②外伤或慢性疼痛个人史、家族史；③共患情感障碍或心理困扰；④缺乏社会支持；⑤对工作不满意；⑥使用尼古丁；⑦遗传因素，会增加偏头痛和纤维肌痛的易感性；⑧高危职业，如医护专业人员、重体力劳动者、汽车修理工等。"
+  },
+  {
+    "rule_name": "患者慢性疼痛形成危险因素_女性与心理共病",
+    "head": {
+      "is_negative": false,
+      "name": "导致慢性疼痛形成",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "性别",
+        "arguments": [
+          "X",
+          "女性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "共患疾病",
+        "arguments": [
+          "X",
+          "情感障碍"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "缺乏社会支持",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用尼古丁",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "在询问病史的同时需要特别关注可促使发展成慢性疼痛的急性疼痛史的特征：①背痛伴腰部前屈受限；②神经系统检查异常；③非局限性疼痛；④隐匿性起病；⑤放射至下肢的背痛。同时还需要仔细查询患者病史中可导致慢性疼痛形成的因素：①女性；②外伤或慢性疼痛个人史、家族史；③共患情感障碍或心理困扰；④缺乏社会支持；⑤对工作不满意；⑥使用尼古丁；⑦遗传因素，会增加偏头痛和纤维肌痛的易感性；⑧高危职业，如医护专业人员、重体力劳动者、汽车修理工等。"
+  },
+  {
+    "rule_name": "患者慢性疼痛形成危险因素_职业与个人史",
+    "head": {
+      "is_negative": false,
+      "name": "导致慢性疼痛形成",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "从事职业",
+        "arguments": [
+          "X",
+          "高危职业"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "外伤史",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对工作不满意",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "使用尼古丁",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "在询问病史的同时需要特别关注可促使发展成慢性疼痛的急性疼痛史的特征：①背痛伴腰部前屈受限；②神经系统检查异常；③非局限性疼痛；④隐匿性起病；⑤放射至下肢的背痛。同时还需要仔细查询患者病史中可导致慢性疼痛形成的因素：①女性；②外伤或慢性疼痛个人史、家族史；③共患情感障碍或心理困扰；④缺乏社会支持；⑤对工作不满意；⑥使用尼古丁；⑦遗传因素，会增加偏头痛和纤维肌痛的易感性；⑧高危职业，如医护专业人员、重体力劳动者、汽车修理工等。"
+  },
+  {
+    "rule_name": "基于文献与循证原则制定共识达成条件",
+    "head": {
+      "is_negative": false,
+      "name": "达成共识",
+      "arguments": [
+        "Y",
+        "慢性肌肉骨骼疼痛管理"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "共识制定活动",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定依据",
+        "arguments": [
+          "X",
+          "查阅文献"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定依据",
+        "arguments": [
+          "X",
+          "遵循循证医学原则"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "成果类型",
+        "arguments": [
+          "Y",
+          "共识"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "产生成果",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识制定活动",
+      "Y": "达成的共识"
+    },
+    "source_text": "By consulting the literatures and following the principles of evidence-based medicine, after repeated discussions and communication revisions, a consensus has been reached on the management of chronic pain in the musculoskeletal system as a reference for orthopaedic surgeons in clinic."
+  },
+  {
+    "rule_name": "经反复讨论与修订的共识制定活动",
+    "head": {
+      "is_negative": false,
+      "name": "共识制定活动",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "活动过程包含",
+        "arguments": [
+          "X",
+          "反复讨论"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "活动过程包含",
+        "arguments": [
+          "X",
+          "交流修订"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "成果类型",
+        "arguments": [
+          "Y",
+          "共识"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "产生成果",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识制定活动",
+      "Y": "达成的共识"
+    },
+    "source_text": "By consulting the literatures and following the principles of evidence-based medicine, after repeated discussions and communication revisions, a consensus has been reached on the management of chronic pain in the musculoskeletal system as a reference for orthopaedic surgeons in clinic."
+  },
+  {
+    "rule_name": "肌肉骨骼疼痛管理共识的临床参考目的_参考国际经验",
+    "head": {
+      "is_negative": false,
+      "name": "共识目的",
+      "arguments": [
+        "Y",
+        "临床参考"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "共识内容",
+        "arguments": [
+          "Y",
+          "慢性肌肉骨骼疼痛管理"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "共识制定活动",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "产生成果",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定参考",
+        "arguments": [
+          "X",
+          "国际经验"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "参考用户",
+        "arguments": [
+          "Z",
+          "骨科医生"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "服务对象",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识制定活动",
+      "Y": "达成的共识",
+      "Z": "骨科医生"
+    },
+    "source_text": "By consulting the literatures and following the principles of evidence-based medicine, after repeated discussions and communication revisions, a consensus has been reached on the management of chronic pain in the musculoskeletal system as a reference for orthopaedic surgeons in clinic."
+  },
+  {
+    "rule_name": "肌肉骨骼疼痛管理共识的临床参考目的_基于中国国情",
+    "head": {
+      "is_negative": false,
+      "name": "共识目的",
+      "arguments": [
+        "Y",
+        "临床参考"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "共识内容",
+        "arguments": [
+          "Y",
+          "慢性肌肉骨骼疼痛管理"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "共识制定活动",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "产生成果",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "制定参考",
+        "arguments": [
+          "X",
+          "中国国情"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "参考用户",
+        "arguments": [
+          "Z",
+          "骨科医生"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "服务对象",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "共识制定活动",
+      "Y": "达成的共识",
+      "Z": "骨科医生"
+    },
+    "source_text": "By consulting the literatures and following the principles of evidence-based medicine, after repeated discussions and communication revisions, a consensus has been reached on the management of chronic pain in the musculoskeletal system as a reference for orthopaedic surgeons in clinic."
+  },
+  {
+    "rule_name": "临床共识对医生工作的指导作用",
+    "head": {
+      "is_negative": false,
+      "name": "工作指导",
+      "arguments": [
+        "Y",
+        "Z",
+        "临床实践"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "共识目的",
+        "arguments": [
+          "Y",
+          "临床参考"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "参考用户",
+        "arguments": [
+          "Z",
+          "骨科医生"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "服务对象",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "达成的共识",
+      "Z": "骨科医生"
+    },
+    "source_text": "By consulting the literatures and following the principles of evidence-based medicine, after repeated discussions and communication revisions, a consensus has been reached on the management of chronic pain in the musculoskeletal system as a reference for orthopaedic surgeons in clinic."
+  },
+  {
+    "rule_name": "临床共识对医疗质量的改善作用",
+    "head": {
+      "is_negative": false,
+      "name": "工作指导",
+      "arguments": [
+        "Y",
+        "Z",
+        "改善医疗质量"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "共识目的",
+        "arguments": [
+          "Y",
+          "临床参考"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "参考用户",
+        "arguments": [
+          "Z",
+          "骨科医生"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "服务对象",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "达成的共识",
+      "Z": "骨科医生"
+    },
+    "source_text": "By consulting the literatures and following the principles of evidence-based medicine, after repeated discussions and communication revisions, a consensus has been reached on the management of chronic pain in the musculoskeletal system as a reference for orthopaedic surgeons in clinic."
+  },
+  {
+    "rule_name": "临床共识对医疗成本的降低作用",
+    "head": {
+      "is_negative": false,
+      "name": "工作指导",
+      "arguments": [
+        "Y",
+        "Z",
+        "降低医疗成本"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "共识目的",
+        "arguments": [
+          "Y",
+          "临床参考"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "参考用户",
+        "arguments": [
+          "Z",
+          "骨科医生"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "服务对象",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "达成的共识",
+      "Z": "骨科医生"
+    },
+    "source_text": "By consulting the literatures and following the principles of evidence-based medicine, after repeated discussions and communication revisions, a consensus has been reached on the management of chronic pain in the musculoskeletal system as a reference for orthopaedic surgeons in clinic."
+  },
+  {
+    "rule_name": "肌肉骨骼系统慢性疼痛引发多系统功能紊乱网络",
+    "head": {
+      "is_negative": false,
+      "name": "免疫系统受损",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "肌肉骨骼系统慢性疼痛患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "X",
+          "自主神经系统功能紊乱"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引发",
+        "arguments": [
+          "自主神经系统功能紊乱",
+          "心理障碍"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "X",
+          "消化系统功能紊乱"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引发",
+        "arguments": [
+          "消化系统功能紊乱",
+          "食欲下降"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引发",
+        "arguments": [
+          "消化系统功能紊乱",
+          "逐渐消瘦"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "X",
+          "多系统功能紊乱"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "由...导致",
+        "arguments": [
+          "多系统功能紊乱",
+          "免疫系统受损",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "肌肉骨骼系统慢性疼痛是一种患病率高、疼痛持续时间长的疾病。长期受疼痛困扰会严重影响患者的健康和生活质量，不仅给患者带来极大的痛苦，还会导致人体各器官系统的功能紊乱。首先，肌肉骨骼系统慢性疼痛会导致自主神经系统功能紊乱及心理障碍，如睡眠障碍、抑郁、焦虑、情绪紧张、心慌易汗等；其次，会导致消化系统功能紊乱，造成患者食欲下降、恶心呕吐、逐渐消瘦，进一步发展导致循环系统、内分泌系统以及免疫系统等多系统、多器官的功能紊乱，最终使免疫系统受损、增加恶性疾病发生概率。此外，肌肉骨骼系统长期慢性疼痛可导致肢体活动受限、血小板黏附功能增强、纤溶功能增加，从而导致血液高凝、血栓形成风险增高，严重影响患者的生活质量。肌肉骨骼系统慢性疼痛不仅给患者自身带来长期严重的危害，同时给患者带来长期的经济负担。治疗慢性疼痛需要花费大量的医疗资源，给社会造成巨大损失。因此，有人把慢性疼痛比喻为一种“不死的癌症”。"
+  },
+  {
+    "rule_name": "肌肉骨骼系统慢性疼痛导致血液高凝与血栓风险增高",
+    "head": {
+      "is_negative": false,
+      "name": "血栓风险增高",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "肌肉骨骼系统慢性疼痛患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "X",
+          "肢体活动受限"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "X",
+          "血小板黏附功能增强"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "X",
+          "纤溶功能增加"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "肢体活动受限",
+          "血液高凝"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "血小板黏附功能增强",
+          "血液高凝"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "纤溶功能增加",
+          "血液高凝"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "血液高凝",
+          "血栓风险增高"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "肌肉骨骼系统慢性疼痛是一种患病率高、疼痛持续时间长的疾病。长期受疼痛困扰会严重影响患者的健康和生活质量，不仅给患者带来极大的痛苦，还会导致人体各器官系统的功能紊乱。首先，肌肉骨骼系统慢性疼痛会导致自主神经系统功能紊乱及心理障碍，如睡眠障碍、抑郁、焦虑、情绪紧张、心慌易汗等；其次，会导致消化系统功能紊乱，造成患者食欲下降、恶心呕吐、逐渐消瘦，进一步发展导致循环系统、内分泌系统以及免疫系统等多系统、多器官的功能紊乱，最终使免疫系统受损、增加恶性疾病发生概率。此外，肌肉骨骼系统长期慢性疼痛可导致肢体活动受限、血小板黏附功能增强、纤溶功能增加，从而导致血液高凝、血栓形成风险增高，严重影响患者的生活质量。肌肉骨骼系统慢性疼痛不仅给患者自身带来长期严重的危害，同时给患者带来长期的经济负担。治疗慢性疼痛需要花费大量的医疗资源，给社会造成巨大损失。因此，有人把慢性疼痛比喻为一种“不死的癌症”。"
+  },
+  {
+    "rule_name": "慢性继发性肌肉骨骼疼痛分类_持续炎症机制",
+    "head": {
+      "is_negative": false,
+      "name": "疼痛分类",
+      "arguments": [
+        "Y",
+        "慢性继发性肌肉骨骼疼痛"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "慢性肌肉骨骼疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分类依据",
+        "arguments": [
+          "Y",
+          "持续炎症机制"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "继发性病因",
+        "arguments": [
+          "Y",
+          "感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有属性",
+        "arguments": [
+          "Y",
+          "非手术相关"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疼痛"
+    },
+    "source_text": "慢性原发性非手术肌肉骨骼疼痛又进一步分为：①慢性原发性颈痛；②慢性原发性胸痛；③慢性原发性腰痛；④慢性原发性肢体痛。慢性继发性非手术肌肉骨骼疼痛又进一步分为：①持续炎症机制所致的慢性继发性肌肉骨骼疼痛（如感染、晶体沉积导致慢性继发性肌肉骨骼疼痛等）；②结构改变相关的慢性继发性肌肉骨骼疼痛（如骨关节炎、椎间关节突关节骨关节炎强硬相关的慢性继发性肌肉骨骼疼痛等）；③神经系统疾病关联的慢性继发性肌肉骨骼疼痛（如帕金森病、多发性硬化关联的慢性继发性肌肉骨骼疼痛等）；④慢性癌症相关疼痛。慢性术后肌肉骨骼疼痛则主要包括：①截肢（指/趾）后慢性疼痛；②脊髓病变手术后慢性疼痛；③脊柱手术后慢性疼痛；④关节置换术后慢性疼痛。"
+  },
+  {
+    "rule_name": "慢性继发性肌肉骨骼疼痛分类_结构改变机制",
+    "head": {
+      "is_negative": false,
+      "name": "疼痛分类",
+      "arguments": [
+        "Y",
+        "慢性继发性肌肉骨骼疼痛"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "慢性肌肉骨骼疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分类依据",
+        "arguments": [
+          "Y",
+          "结构改变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "继发性病因",
+        "arguments": [
+          "Y",
+          "骨关节炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有属性",
+        "arguments": [
+          "Y",
+          "非手术相关"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疼痛"
+    },
+    "source_text": "慢性原发性非手术肌肉骨骼疼痛又进一步分为：①慢性原发性颈痛；②慢性原发性胸痛；③慢性原发性腰痛；④慢性原发性肢体痛。慢性继发性非手术肌肉骨骼疼痛又进一步分为：①持续炎症机制所致的慢性继发性肌肉骨骼疼痛（如感染、晶体沉积导致慢性继发性肌肉骨骼疼痛等）；②结构改变相关的慢性继发性肌肉骨骼疼痛（如骨关节炎、椎间关节突关节骨关节炎强硬相关的慢性继发性肌肉骨骼疼痛等）；③神经系统疾病关联的慢性继发性肌肉骨骼疼痛（如帕金森病、多发性硬化关联的慢性继发性肌肉骨骼疼痛等）；④慢性癌症相关疼痛。慢性术后肌肉骨骼疼痛则主要包括：①截肢（指/趾）后慢性疼痛；②脊髓病变手术后慢性疼痛；③脊柱手术后慢性疼痛；④关节置换术后慢性疼痛。"
+  },
+  {
+    "rule_name": "慢性继发性肌肉骨骼疼痛分类_神经系统疾病机制",
+    "head": {
+      "is_negative": false,
+      "name": "疼痛分类",
+      "arguments": [
+        "Y",
+        "慢性继发性肌肉骨骼疼痛"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "慢性肌肉骨骼疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分类依据",
+        "arguments": [
+          "Y",
+          "神经系统疾病关联"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "继发性病因",
+        "arguments": [
+          "Y",
+          "帕金森病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有属性",
+        "arguments": [
+          "Y",
+          "非手术相关"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疼痛"
+    },
+    "source_text": "慢性原发性非手术肌肉骨骼疼痛又进一步分为：①慢性原发性颈痛；②慢性原发性胸痛；③慢性原发性腰痛；④慢性原发性肢体痛。慢性继发性非手术肌肉骨骼疼痛又进一步分为：①持续炎症机制所致的慢性继发性肌肉骨骼疼痛（如感染、晶体沉积导致慢性继发性肌肉骨骼疼痛等）；②结构改变相关的慢性继发性肌肉骨骼疼痛（如骨关节炎、椎间关节突关节骨关节炎强硬相关的慢性继发性肌肉骨骼疼痛等）；③神经系统疾病关联的慢性继发性肌肉骨骼疼痛（如帕金森病、多发性硬化关联的慢性继发性肌肉骨骼疼痛等）；④慢性癌症相关疼痛。慢性术后肌肉骨骼疼痛则主要包括：①截肢（指/趾）后慢性疼痛；②脊髓病变手术后慢性疼痛；③脊柱手术后慢性疼痛；④关节置换术后慢性疼痛。"
+  },
+  {
+    "rule_name": "慢性术后肌肉骨骼疼痛分类_截肢后",
+    "head": {
+      "is_negative": false,
+      "name": "疼痛分类",
+      "arguments": [
+        "Y",
+        "慢性术后肌肉骨骼疼痛"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "慢性肌肉骨骼疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "继发性病因",
+        "arguments": [
+          "Y",
+          "截肢手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛部位",
+        "arguments": [
+          "Y",
+          "指/趾"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有属性",
+        "arguments": [
+          "Y",
+          "术后发生"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疼痛"
+    },
+    "source_text": "慢性原发性非手术肌肉骨骼疼痛又进一步分为：①慢性原发性颈痛；②慢性原发性胸痛；③慢性原发性腰痛；④慢性原发性肢体痛。慢性继发性非手术肌肉骨骼疼痛又进一步分为：①持续炎症机制所致的慢性继发性肌肉骨骼疼痛（如感染、晶体沉积导致慢性继发性肌肉骨骼疼痛等）；②结构改变相关的慢性继发性肌肉骨骼疼痛（如骨关节炎、椎间关节突关节骨关节炎强硬相关的慢性继发性肌肉骨骼疼痛等）；③神经系统疾病关联的慢性继发性肌肉骨骼疼痛（如帕金森病、多发性硬化关联的慢性继发性肌肉骨骼疼痛等）；④慢性癌症相关疼痛。慢性术后肌肉骨骼疼痛则主要包括：①截肢（指/趾）后慢性疼痛；②脊髓病变手术后慢性疼痛；③脊柱手术后慢性疼痛；④关节置换术后慢性疼痛。"
+  },
+  {
+    "rule_name": "慢性术后肌肉骨骼疼痛分类_关节置换术后",
+    "head": {
+      "is_negative": false,
+      "name": "疼痛分类",
+      "arguments": [
+        "Y",
+        "慢性术后肌肉骨骼疼痛"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "慢性肌肉骨骼疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "继发性病因",
+        "arguments": [
+          "Y",
+          "关节置换手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疼痛部位",
+        "arguments": [
+          "Y",
+          "关节"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有属性",
+        "arguments": [
+          "Y",
+          "术后发生"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疼痛"
+    },
+    "source_text": "慢性原发性非手术肌肉骨骼疼痛又进一步分为：①慢性原发性颈痛；②慢性原发性胸痛；③慢性原发性腰痛；④慢性原发性肢体痛。慢性继发性非手术肌肉骨骼疼痛又进一步分为：①持续炎症机制所致的慢性继发性肌肉骨骼疼痛（如感染、晶体沉积导致慢性继发性肌肉骨骼疼痛等）；②结构改变相关的慢性继发性肌肉骨骼疼痛（如骨关节炎、椎间关节突关节骨关节炎强硬相关的慢性继发性肌肉骨骼疼痛等）；③神经系统疾病关联的慢性继发性肌肉骨骼疼痛（如帕金森病、多发性硬化关联的慢性继发性肌肉骨骼疼痛等）；④慢性癌症相关疼痛。慢性术后肌肉骨骼疼痛则主要包括：①截肢（指/趾）后慢性疼痛；②脊髓病变手术后慢性疼痛；③脊柱手术后慢性疼痛；④关节置换术后慢性疼痛。"
+  },
+  {
+    "rule_name": "农民职业为慢性疼痛危险因素",
+    "head": {
+      "is_negative": false,
+      "name": "具有慢性疼痛风险",
+      "arguments": [
+        "X",
+        "C"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于慢性疼痛",
+        "arguments": [
+          "C",
+          "肌肉骨骼系统"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "职业",
+        "arguments": [
+          "X",
+          "农民"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "易患病",
+        "arguments": [
+          "X",
+          "C"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "C": "慢性疼痛"
+    },
+    "source_text": "肌肉骨骼系统慢性疼痛的发生与生活习惯、职业因素及慢性疾病史相关。研究表明，农民、工人、与电脑操作相关的职业人群易患慢性疼痛[22, 23]。女性人群、吸烟者、已婚常预示更高的腰痛患病率，吸烟、饮酒则能增加患纤维肌痛的可能[20, 21]，肥胖患者有更高的慢性膝痛患病率[7]，糖尿病、高血压病等慢性病则与非神经性慢性疼痛相关[12]。此外，慢性疼痛与精神疾病相关。现已知肌肉骨骼系统慢性疼痛和抑郁、焦虑、失眠等精神心理系统有明确的相关性[24, 25]。"
+  },
+  {
+    "rule_name": "工人职业为慢性疼痛危险因素",
+    "head": {
+      "is_negative": false,
+      "name": "具有慢性疼痛风险",
+      "arguments": [
+        "X",
+        "C"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于慢性疼痛",
+        "arguments": [
+          "C",
+          "肌肉骨骼系统"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "职业",
+        "arguments": [
+          "X",
+          "工人"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "易患病",
+        "arguments": [
+          "X",
+          "C"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "C": "慢性疼痛"
+    },
+    "source_text": "肌肉骨骼系统慢性疼痛的发生与生活习惯、职业因素及慢性疾病史相关。研究表明，农民、工人、与电脑操作相关的职业人群易患慢性疼痛[22, 23]。女性人群、吸烟者、已婚常预示更高的腰痛患病率，吸烟、饮酒则能增加患纤维肌痛的可能[20, 21]，肥胖患者有更高的慢性膝痛患病率[7]，糖尿病、高血压病等慢性病则与非神经性慢性疼痛相关[12]。此外，慢性疼痛与精神疾病相关。现已知肌肉骨骼系统慢性疼痛和抑郁、焦虑、失眠等精神心理系统有明确的相关性[24, 25]。"
+  },
+  {
+    "rule_name": "电脑操作职业为慢性疼痛危险因素",
+    "head": {
+      "is_negative": false,
+      "name": "具有慢性疼痛风险",
+      "arguments": [
+        "X",
+        "C"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于慢性疼痛",
+        "arguments": [
+          "C",
+          "肌肉骨骼系统"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "职业",
+        "arguments": [
+          "X",
+          "电脑操作者"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "易患病",
+        "arguments": [
+          "X",
+          "C"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "C": "慢性疼痛"
+    },
+    "source_text": "肌肉骨骼系统慢性疼痛的发生与生活习惯、职业因素及慢性疾病史相关。研究表明，农民、工人、与电脑操作相关的职业人群易患慢性疼痛[22, 23]。女性人群、吸烟者、已婚常预示更高的腰痛患病率，吸烟、饮酒则能增加患纤维肌痛的可能[20, 21]，肥胖患者有更高的慢性膝痛患病率[7]，糖尿病、高血压病等慢性病则与非神经性慢性疼痛相关[12]。此外，慢性疼痛与精神疾病相关。现已知肌肉骨骼系统慢性疼痛和抑郁、焦虑、失眠等精神心理系统有明确的相关性[24, 25]。"
+  },
+  {
+    "rule_name": "女性吸烟已婚为腰痛高危因素",
+    "head": {
+      "is_negative": false,
+      "name": "具有慢性疼痛风险",
+      "arguments": [
+        "X",
+        "C"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "性别",
+        "arguments": [
+          "X",
+          "女性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生活习惯",
+        "arguments": [
+          "X",
+          "吸烟"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "婚姻状况",
+        "arguments": [
+          "X",
+          "已婚"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于慢性疼痛",
+        "arguments": [
+          "C",
+          "腰痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高患病率",
+        "arguments": [
+          "X",
+          "C"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "C": "慢性疼痛"
+    },
+    "source_text": "肌肉骨骼系统慢性疼痛的发生与生活习惯、职业因素及慢性疾病史相关。研究表明，农民、工人、与电脑操作相关的职业人群易患慢性疼痛[22, 23]。女性人群、吸烟者、已婚常预示更高的腰痛患病率，吸烟、饮酒则能增加患纤维肌痛的可能[20, 21]，肥胖患者有更高的慢性膝痛患病率[7]，糖尿病、高血压病等慢性病则与非神经性慢性疼痛相关[12]。此外，慢性疼痛与精神疾病相关。现已知肌肉骨骼系统慢性疼痛和抑郁、焦虑、失眠等精神心理系统有明确的相关性[24, 25]。"
+  },
+  {
+    "rule_name": "吸烟为纤维肌痛高危因素",
+    "head": {
+      "is_negative": false,
+      "name": "具有慢性疼痛风险",
+      "arguments": [
+        "X",
+        "C"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生活习惯",
+        "arguments": [
+          "X",
+          "吸烟"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于慢性疼痛",
+        "arguments": [
+          "C",
+          "纤维肌痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "增加患病风险",
+        "arguments": [
+          "X",
+          "C"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "C": "慢性疼痛"
+    },
+    "source_text": "肌肉骨骼系统慢性疼痛的发生与生活习惯、职业因素及慢性疾病史相关。研究表明，农民、工人、与电脑操作相关的职业人群易患慢性疼痛[22, 23]。女性人群、吸烟者、已婚常预示更高的腰痛患病率，吸烟、饮酒则能增加患纤维肌痛的可能[20, 21]，肥胖患者有更高的慢性膝痛患病率[7]，糖尿病、高血压病等慢性病则与非神经性慢性疼痛相关[12]。此外，慢性疼痛与精神疾病相关。现已知肌肉骨骼系统慢性疼痛和抑郁、焦虑、失眠等精神心理系统有明确的相关性[24, 25]。"
+  },
+  {
+    "rule_name": "饮酒为纤维肌痛高危因素",
+    "head": {
+      "is_negative": false,
+      "name": "具有慢性疼痛风险",
+      "arguments": [
+        "X",
+        "C"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生活习惯",
+        "arguments": [
+          "X",
+          "饮酒"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于慢性疼痛",
+        "arguments": [
+          "C",
+          "纤维肌痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "增加患病风险",
+        "arguments": [
+          "X",
+          "C"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "C": "慢性疼痛"
+    },
+    "source_text": "肌肉骨骼系统慢性疼痛的发生与生活习惯、职业因素及慢性疾病史相关。研究表明，农民、工人、与电脑操作相关的职业人群易患慢性疼痛[22, 23]。女性人群、吸烟者、已婚常预示更高的腰痛患病率，吸烟、饮酒则能增加患纤维肌痛的可能[20, 21]，肥胖患者有更高的慢性膝痛患病率[7]，糖尿病、高血压病等慢性病则与非神经性慢性疼痛相关[12]。此外，慢性疼痛与精神疾病相关。现已知肌肉骨骼系统慢性疼痛和抑郁、焦虑、失眠等精神心理系统有明确的相关性[24, 25]。"
+  },
+  {
+    "rule_name": "肥胖为慢性膝痛高危因素",
+    "head": {
+      "is_negative": false,
+      "name": "具有慢性疼痛风险",
+      "arguments": [
+        "X",
+        "C"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "体重状态",
+        "arguments": [
+          "X",
+          "肥胖"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于慢性疼痛",
+        "arguments": [
+          "C",
+          "慢性膝痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高患病率",
+        "arguments": [
+          "X",
+          "C"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "C": "慢性疼痛"
+    },
+    "source_text": "肌肉骨骼系统慢性疼痛的发生与生活习惯、职业因素及慢性疾病史相关。研究表明，农民、工人、与电脑操作相关的职业人群易患慢性疼痛[22, 23]。女性人群、吸烟者、已婚常预示更高的腰痛患病率，吸烟、饮酒则能增加患纤维肌痛的可能[20, 21]，肥胖患者有更高的慢性膝痛患病率[7]，糖尿病、高血压病等慢性病则与非神经性慢性疼痛相关[12]。此外，慢性疼痛与精神疾病相关。现已知肌肉骨骼系统慢性疼痛和抑郁、焦虑、失眠等精神心理系统有明确的相关性[24, 25]。"
+  },
+  {
+    "rule_name": "糖尿病为非神经性慢性疼痛关联因素",
+    "head": {
+      "is_negative": false,
+      "name": "具有慢性疼痛风险",
+      "arguments": [
+        "X",
+        "C"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有慢性病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于慢性疼痛",
+        "arguments": [
+          "C",
+          "非神经性慢性疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "相关性",
+        "arguments": [
+          "X",
+          "C"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "C": "慢性疼痛"
+    },
+    "source_text": "肌肉骨骼系统慢性疼痛的发生与生活习惯、职业因素及慢性疾病史相关。研究表明，农民、工人、与电脑操作相关的职业人群易患慢性疼痛[22, 23]。女性人群、吸烟者、已婚常预示更高的腰痛患病率，吸烟、饮酒则能增加患纤维肌痛的可能[20, 21]，肥胖患者有更高的慢性膝痛患病率[7]，糖尿病、高血压病等慢性病则与非神经性慢性疼痛相关[12]。此外，慢性疼痛与精神疾病相关。现已知肌肉骨骼系统慢性疼痛和抑郁、焦虑、失眠等精神心理系统有明确的相关性[24, 25]。"
+  },
+  {
+    "rule_name": "高血压为非神经性慢性疼痛关联因素",
+    "head": {
+      "is_negative": false,
+      "name": "具有慢性疼痛风险",
+      "arguments": [
+        "X",
+        "C"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有慢性病",
+        "arguments": [
+          "X",
+          "高血压病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于慢性疼痛",
+        "arguments": [
+          "C",
+          "非神经性慢性疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "相关性",
+        "arguments": [
+          "X",
+          "C"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "C": "慢性疼痛"
+    },
+    "source_text": "肌肉骨骼系统慢性疼痛的发生与生活习惯、职业因素及慢性疾病史相关。研究表明，农民、工人、与电脑操作相关的职业人群易患慢性疼痛[22, 23]。女性人群、吸烟者、已婚常预示更高的腰痛患病率，吸烟、饮酒则能增加患纤维肌痛的可能[20, 21]，肥胖患者有更高的慢性膝痛患病率[7]，糖尿病、高血压病等慢性病则与非神经性慢性疼痛相关[12]。此外，慢性疼痛与精神疾病相关。现已知肌肉骨骼系统慢性疼痛和抑郁、焦虑、失眠等精神心理系统有明确的相关性[24, 25]。"
+  },
+  {
+    "rule_name": "抑郁焦虑失眠与慢性疼痛明确相关",
+    "head": {
+      "is_negative": false,
+      "name": "具有慢性疼痛风险",
+      "arguments": [
+        "X",
+        "C"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有精神疾病",
+        "arguments": [
+          "X",
+          "抑郁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于慢性疼痛",
+        "arguments": [
+          "C",
+          "肌肉骨骼系统"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "明确相关性",
+        "arguments": [
+          "X",
+          "C"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "C": "慢性疼痛"
+    },
+    "source_text": "肌肉骨骼系统慢性疼痛的发生与生活习惯、职业因素及慢性疾病史相关。研究表明，农民、工人、与电脑操作相关的职业人群易患慢性疼痛[22, 23]。女性人群、吸烟者、已婚常预示更高的腰痛患病率，吸烟、饮酒则能增加患纤维肌痛的可能[20, 21]，肥胖患者有更高的慢性膝痛患病率[7]，糖尿病、高血压病等慢性病则与非神经性慢性疼痛相关[12]。此外，慢性疼痛与精神疾病相关。现已知肌肉骨骼系统慢性疼痛和抑郁、焦虑、失眠等精神心理系统有明确的相关性[24, 25]。"
+  }
+]

@@ -1,0 +1,260 @@
+【原始长篇章】:
+Because TSH is a trophic hormone that can stimulate the growth of cells derived from thyroid follicular epithelium, the use of levothyroxine to maintain low TSH levels is considered optimal in treatment of patients with papillary, follicular, or Hürthle cell carcinoma. However, data are lacking to permit precise specification of the appropriate serum levels of TSH. In general, patients with known structural residual carcinoma or at high risk for recurrence should have TSH levels maintained below 0.1 mU/L, whereas disease‑free patients at low risk for recurrence should have TSH levels maintained either slightly below or slightly above the lower limit of the reference range.  For low‑risk patients with biochemical evidence but no structural evidence of disease (eg, Tg positive, but imaging negative), maintain TSH levels at 0.1–0.5 mU/L. • Patients who remain disease free for several years can probably have their TSH levels maintained within the reference range (0.5–2 mU/L).  Given the potential toxicities associated with TSH‑suppressive doses of levothyroxine—including cardiac tachyarrhythmias (especially in the elderly) and bone demineralization (particularly in post‑menopausal women) as well as frank symptoms of thyrotoxicosis—the risk and benefit of TSH‑suppressive therapy must be balanced for each individual patient.  Patients whose TSH levels are chronically suppressed should be counseled to ensure adequate daily intake of calcium (1200 mg/d) and vitamin D (1000 units/d).
+
+【规则 1】
+规则名: 高风险或结构残留癌患者的TSH抑制目标
+逻辑表达: TSH抑制治疗目标(X, 低于0.1_mU/L) <- 甲状腺癌患者(X) ^ 癌症亚型(X, 乳头状癌) ^ 高风险复发(X) ^ ¬疾病状态(X, 无病)
+变量映射: 
+  - X: 患者
+
+【规则 2】
+规则名: 高风险或结构残留癌患者的TSH抑制目标_结构残留
+逻辑表达: TSH抑制治疗目标(X, 低于0.1_mU/L) <- 甲状腺癌患者(X) ^ 癌症亚型(X, 滤泡状癌) ^ 有结构性残留癌(X)
+变量映射: 
+  - X: 患者
+
+【规则 3】
+规则名: 低风险无病患者的TSH抑制目标
+逻辑表达: TSH抑制治疗目标(X, 接近正常范围下限) <- 甲状腺癌患者(X) ^ 疾病状态(X, 无病) ^ 低风险复发(X)
+变量映射: 
+  - X: 患者
+
+【规则 4】
+规则名: 低风险生化阳性无结构病患者的TSH抑制目标
+逻辑表达: TSH抑制治疗目标(X, 范围0.1_0.5_mU/L) <- 甲状腺癌患者(X) ^ 低风险复发(X) ^ 有生化证据(X, 阳性) ^ ¬有结构证据(X, 疾病)
+变量映射: 
+  - X: 患者
+
+【规则 5】
+规则名: 多年无病患者的TSH抑制目标
+逻辑表达: TSH抑制治疗目标(X, 范围0.5_2_mU/L) <- 甲状腺癌患者(X) ^ 疾病状态(X, 无病) ^ 无病持续时间(X, 多年)
+变量映射: 
+  - X: 患者
+
+【规则 6】
+规则名: 老年患者TSH抑制治疗的心脏风险
+逻辑表达: 治疗有风险(X, 左甲状腺素, 心脏快速性心律失常) <- 接受治疗(X, 左甲状腺素) ^ 治疗目的(X, TSH抑制) ^ 患者属性(X, 老年)
+变量映射: 
+  - X: 患者
+
+【规则 7】
+规则名: 绝经后妇女TSH抑制治疗的骨骼风险
+逻辑表达: 治疗有风险(X, 左甲状腺素, 骨质流失) <- 接受治疗(X, 左甲状腺素) ^ 治疗目的(X, TSH抑制) ^ 患者属性(X, 绝经后妇女)
+变量映射: 
+  - X: 患者
+
+【规则 8】
+规则名: TSH长期抑制患者的营养补充建议
+逻辑表达: 营养补充建议(X, 钙, 每日1200mg) <- 患者属性(X, TSH长期抑制) ^ 接受治疗(X, 左甲状腺素)
+变量映射: 
+  - X: 患者
+
+【规则 9】
+规则名: TSH长期抑制患者的维生素补充建议
+逻辑表达: 营养补充建议(X, 维生素D, 每日1000单位) <- 患者属性(X, TSH长期抑制) ^ 接受治疗(X, 左甲状腺素)
+变量映射: 
+  - X: 患者
+
+---
+
+
+【原始长篇章】:
+For thyroid nodule known or suspected on exam or incidental imaging finding:• Measure thyroid‑stimulating hormone (TSH)• Ultrasound of thyroid and neck including lateral neck lymph node compartmentsThyroid nodule(s) with low TSHThyroid nodule(s) with normal or elevated TSHaa	Evaluate and treat for hypothyroidism as clinically indicated.b	For well‑defined, autonomous nodules FNA is rarely indicated and repeat ultrasound may not be necessary. For other nodules not meeting criteria for FNA, or nodules that appear to be benign by ultrasound or FNA, surveillance should include repeat ultrasound after 6–12 months; if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals. If growth, follow THYR‑2 for subsequent management.Radioiodineimaging 123l thyroid uptake and scanAutonomously functioning (hot)HypofunctionalEvaluate and treat for thyrotoxicosis as indicated(malignancy is rare)bConsider ultrasound‑guided FNA based on clinical and sonographic featuresSeeSonographicFeaturesb (THYR‑2)
+
+【规则 1】
+规则名: 低TSH甲状腺结节_放射性碘扫描_自主功能性结节管理
+逻辑表达: 后续管理推荐(X, 评估治疗甲状腺毒症, 针对结节) <- 患者(X) ^ 甲状腺结节(Y) ^ 归属患者(Y, X) ^ 刺激素水平(X, 低) ^ 影像学检查推荐(X, 放射性碘扫描, 针对结节) ^ 扫描结果(Y, 自主功能性热结节)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+
+【规则 2】
+规则名: 低TSH甲状腺结节_放射性碘扫描_低功能结节管理
+逻辑表达: 后续管理推荐(Y, 超声引导下FNA检查, 基于特征) <- 患者(X) ^ 甲状腺结节(Y) ^ 归属患者(Y, X) ^ 刺激素水平(X, 低) ^ 影像学检查推荐(X, 放射性碘扫描, 针对结节) ^ 扫描结果(Y, 低功能) ^ 评估依据(Y, 临床特征) ^ 评估依据(Y, 超声特征)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+
+【规则 3】
+规则名: 正常或高TSH甲状腺结节_界限清晰自主结节管理
+逻辑表达: 管理方案(Y, 无需重复超声) <- 患者(X) ^ 甲状腺结节(Y) ^ 归属患者(Y, X) ^ 刺激素水平(X, 正常或升高) ^ 结节性质(Y, 界限清晰) ^ 结节性质(Y, 自主功能性) ^ ¬符合标准(Y, FNA指征)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+
+【规则 4】
+规则名: 正常或高TSH甲状腺结节_非FNA指征或良性结节的监测方案
+逻辑表达: 监测方案(Y, 重复超声, 时间6至12个月) <- 患者(X) ^ 甲状腺结节(Y) ^ 归属患者(Y, X) ^ 刺激素水平(X, 正常或升高) ^ ¬符合标准(Y, FNA指征) ^ 成像评估结果(Y, 良性) ^ ¬结节性质(Y, 界限清晰自主功能性)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+
+【规则 5】
+规则名: 正常或高TSH甲状腺结节_监测方案持续稳定后的延长间隔
+逻辑表达: 监测方案(Y, 后续超声, 时间3至5年间隔) <- 患者(X) ^ 甲状腺结节(Y) ^ 归属患者(Y, X) ^ 刺激素水平(X, 正常或升高) ^ 既往监测结果(Y, 稳定1至2年) ^ 当前管理方案(Y, 监测中)
+变量映射:
+  - X: 患者
+  - Y: 甲状腺结节
+
+---
+
+
+【原始长篇章】:
+THYR-2• Links to TI-RADS and ATA criteria for FNA were added.• "Active surveillance" changed to "Nodule surveillance" (also for THYR-3, THYR-4, and THYR-5)• Footnote f was updated: "Tg washout may be useful in diagnosis of lymph node metastases and is recommended if cytology is negative or non‑diagnostic. Consider at the time of lymph node biopsy."• Footnote h was updated: "For well‑defined, autonomous nodules FNA is rarely indicated and repeat ultrasound may not be necessary. For other nodules not meeting criteria for FNA, or nodules that appear to be benign by ultrasound or FNA, surveillance should include repeat ultrasound after 6–12 months; if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals. If growth and/or change in ultrasonographic features, consider FNA and follow THYR‑3, THYR‑4, and THYR-5 for subsequent management."THYR‑3• Footnote k was updated: "Alternative terms include: rule out neoplasm, atypical follicular lesion, and cellular follicular lesion. Estimated risk of malignancy is 5%‑15% 6%–18%. Also for THYR-4.• Footnote m is new: "The order of the treatment options does not indicate preference."THYR‑4• The page name was changed to "Molecular Diagnostic Results" from "FNA Results."• Follicular neoplasm, bottom pathway treatment: "Consider lobectomy for definitive diagnosis/treatment" was removed.THYR-5• Insufficient biopsy, nondiagnostic, solid treatment: "if repeat non‑diagnostic FNAs" added to "Consider surgery."• "Generally, more than two biopsies on a growing benign nodule are not indicated." was added to footnote t.
+
+【规则 1】
+规则名: 甲状腺结节使用TI-RADS标准评估后的监测策略
+逻辑表达: 管理策略(X, 结节监测) <- 甲状腺结节(X) ^ 评估标准(X, TI-RADS) ^ 评估行为(医生, X, 执行) ^ ¬符合标准(X, FNA指征)
+变量映射:
+  - X: 甲状腺结节
+
+【规则 2】
+规则名: 甲状腺结节使用ATA标准评估后的监测策略
+逻辑表达: 管理策略(X, 结节监测) <- 甲状腺结节(X) ^ 评估标准(X, ATA) ^ 评估行为(医生, X, 执行) ^ ¬符合标准(X, FNA指征)
+变量映射:
+  - X: 甲状腺结节
+
+【规则 3】
+规则名: 细胞学结果为滤泡性病变的甲状腺结节恶性风险评估
+逻辑表达: 恶性风险(X, 6-18%) <- 甲状腺结节(X) ^ 细胞学结果(X, 滤泡性病变) ^ 评估来源(医生, X, 进行) ^ 分类体系(X, THYR-3)
+变量映射:
+  - X: 甲状腺结节
+
+【规则 4】
+规则名: 诊断结果为分子诊断的甲状腺结节治疗选项调整
+逻辑表达: ¬治疗选项包含(X, 考虑叶切除术) <- 甲状腺结节(X) ^ 诊断结果类型(X, 分子诊断结果) ^ 分类体系(X, THYR-4) ^ 路径(X, 滤泡性肿瘤)
+变量映射:
+  - X: 甲状腺结节
+
+【规则 5】
+规则名: 实体甲状腺结节重复非诊断性FNA后的治疗考虑
+逻辑表达: 治疗考虑(X, 考虑手术) <- 甲状腺结节(X) ^ 结节属性(X, 实体) ^ 活检结果(X, 非诊断性) ^ 重复操作(医生, X, 执行) ^ 最终结果(X, 仍非诊断性)
+变量映射:
+  - X: 甲状腺结节
+
+【规则 6】
+规则名: 增长的良性甲状腺结节不建议多次活检
+逻辑表达: ¬建议操作(医生, X, 超过两次活检) <- 甲状腺结节(X) ^ 病理性质(X, 良性) ^ 生长状态(X, 增长) ^ 所属类别(X, THYR-5)
+变量映射:
+  - X: 甲状腺结节
+
+---
+
+
+【原始长篇章】:
+j) The diagnosis of follicular carcinoma or Hürthle cell carcinoma requires evidence of either vascular or capsular invasion, which cannot be determined by FNA. Molecular diagnostics may be useful to allow reclassification of follicular lesions (ie, follicular neoplasm, atypia of undetermined significance [AUS], follicular lesions of undetermined significance [FLUS]) as either more or less likely to be benign or malignant based on the genetic profile. If molecular testing suggests papillary thyroid carcinoma, especially in the case of BRAF V600E, see (PAP‑1). If molecular testing, in conjunction with clinical and ultrasound features, predicts a risk of malignancy comparable to the risk of malignancy seen with a benign FNA cytology (approximately 5% or less), consider active surveillance. Molecular markers should be interpreted with caution and in the context of clinical, radiographic, and cytologic features of each individual patient.
+
+【规则 1】
+规则名: 分子检测提示乳头状癌_参考特定指南
+逻辑表达: 处理推荐(X, 参考PAP1指南) <- 甲状腺结节(X) ^ FNA结果分类(X, 滤泡性肿瘤或AUS或FLUS) ^ 接受检测(X, 分子诊断) ^ 检测结果指示(X, 乳头状甲状腺癌)
+变量映射:
+  - X: 甲状腺结节
+
+【规则 2】
+规则名: 分子检测提示乳头状癌伴BRAF突变_参考特定指南
+逻辑表达: 处理推荐(X, 参考PAP1指南) <- 甲状腺结节(X) ^ FNA结果分类(X, 滤泡性肿瘤或AUS或FLUS) ^ 接受检测(X, 分子诊断) ^ 检测结果指示(X, 乳头状甲状腺癌) ^ 携带突变(X, BRAF_V600E)
+变量映射:
+  - X: 甲状腺结节
+
+【规则 3】
+规则名: 分子检测联合临床特征预测低恶性风险_考虑主动监测
+逻辑表达: 处理推荐(X, 考虑主动监测) <- 甲状腺结节(X) ^ 患者(Y) ^ 归属患者(X, Y) ^ 接受检测(X, 分子诊断) ^ 具有临床特征(Y, 特定超声与临床特征) ^ ¬预测恶性风险(X, 高于良性FNA基准)
+变量映射:
+  - X: 甲状腺结节
+  - Y: 患者
+
+【规则 4】
+规则名: 分子诊断需在临床影像细胞学背景下谨慎解读
+逻辑表达: 解读要求(D, 需谨慎并在临床背景下) <- 分子诊断结果(D) ^ 关联结节(D, X) ^ 关联患者(X, Y) ^ 具有临床特征(Y, 特定特征) ^ 具有影像特征(Y, 特定特征) ^ 具有细胞学特征(X, 特定特征)
+变量映射:
+  - D: 分子诊断结果
+  - X: 甲状腺结节
+  - Y: 患者
+
+---
+
+
+【原始长篇章】: For well‑defined, autonomous nodules FNA is rarely indicated and repeat ultrasound may not be necessary. For other nodules not meeting criteria for FNA, or nodules that appear to be benign by ultrasound or FNA, surveillance should include repeat ultrasound after 6–12 months; if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals. If growth and/or change in ultrasonographic features, consider FNA and follow THYR‑3, THYR‑4, and THYR-5 for subsequent management.
+
+【规则 1】
+规则名: 良性或未达FNA标准结节的超声稳定后延长监测间隔
+逻辑表达: 推荐处理(Y2, 考虑进行, 3至5年间隔) <- 甲状腺结节(X) ^ 属于监测方案(X, 良性结节监测) ^ 超声检查(Y1) ^ 检查对象(Y1, X) ^ 时间属性(Y1, 初始6-12月后) ^ 超声检查(Y2) ^ 检查对象(Y2, X) ^ 时序关系(Y2, 在Y1后) ^ 超声稳定(Y1) ^ 超声稳定(Y2)
+变量映射:
+  - X: 甲状腺结节
+  - Y1: 首次随访超声检查事件
+  - Y2: 后续超声检查事件
+
+【规则 2】
+规则名: 监测中结节生长后的处理建议
+逻辑表达: 推荐处理(X, 进行FNA, 若生长时) <- 甲状腺结节(X) ^ 属于监测方案(X, 良性结节监测) ^ 超声检查(Y) ^ 检查对象(Y, X) ^ 时序关系(Y, 监测期间) ^ 发现特征(Y, 结节生长) ^ ¬是自主性结节(X)
+变量映射:
+  - X: 甲状腺结节
+  - Y: 监测期间的超声检查事件
+
+【规则 3】
+规则名: 监测中结节超声特征变化后的处理建议
+逻辑表达: 推荐处理(X, 进行FNA, 若特征变化时) ^ 后续指南(X, THYR-3_THYR-5) <- 甲状腺结节(X) ^ 属于监测方案(X, 良性结节监测) ^ 超声检查(Y) ^ 检查对象(Y, X) ^ 时序关系(Y, 监测期间) ^ 发现特征(Y, 超声特征改变) ^ ¬是自主性结节(X)
+变量映射:
+  - X: 甲状腺结节
+  - Y: 监测期间的超声检查事件
+
+---
+
+
+【原始长篇章】:Includes nodular goiter, colloid nodule, hyperplastic/adenomatoid nodule, and Hashimoto’s thyroiditis. Estimated risk of malignancy is approximately 5% or less; consider active surveillance.s	Repeat ultrasound after 6–12 months, if stable for 1–2 years, then subsequent ultrasound can be considered at 3‑ to 5‑year intervals.t	Growth defined as >50% increase in nodule volume or 20% increase in size of 2–3 dimensions. Size changes should be >2 mm and should be assessed by direct comparison of images. Generally, more than two biopsies on a growing benign nodule are not indicated.THYR‑5Diagnostic categories for FNA results reflect NCI state of the science conference, the Bethesda Classification. Cibas ES and Ali SZ. Thyroid 2017;
+
+【规则 1】
+规则名: 符合特定细胞学特征的良性结节建议监测
+逻辑表达: 临床管理建议(Y, 主动监测, 考虑) <- 甲状腺结节(Y) ^ 细针穿刺活检样本(Z) ^ 来源于(Z, Y) ^ 细胞学诊断(Z, 良性) ^ 恶性风险评估(Y, 风险小于等于5%)
+变量映射:
+  - Y: 甲状腺结节
+  - Z: 细针穿刺活检样本
+
+【规则 2】
+规则名: 初始监测期后结节稳定则延长监测间隔
+逻辑表达: 临床管理建议(Y, 延长超声监测间隔至3至5年, 可考虑) <- 甲状腺结节(Y) ^ 实施监测方案(Y, 主动监测) ^ 超声检查事件(E1) ^ 检查对象(E1, Y) ^ 检查时间间隔(E1, 初始6至12个月) ^ 检查结果(E1, 稳定) ^ 稳定持续时间(Y, 1至2年)
+变量映射:
+  - Y: 甲状腺结节
+  - E1: 超声检查事件
+
+【规则 3】
+规则名: 定义结节生长标准_体积显著增加
+逻辑表达: 判定为生长(Y, 是) <- 甲状腺结节(Y) ^ 超声检查事件(E2) ^ 检查对象(E2, Y) ^ 超声检查事件(E3) ^ 检查对象(E3, Y) ^ 时间先后(E2, E3) ^ 体积增加百分比(Y, E2, E3, 大于50%)
+变量映射:
+  - Y: 甲状腺结节
+  - E2: 历史超声检查事件
+  - E3: 当前超声检查事件
+
+【规则 4】
+规则名: 定义结节生长标准_多维度尺寸显著增加
+逻辑表达: 判定为生长(Y, 是) <- 甲状腺结节(Y) ^ 超声检查事件(E2) ^ 检查对象(E2, Y) ^ 超声检查事件(E3) ^ 检查对象(E3, Y) ^ 时间先后(E2, E3) ^ 至少二维尺寸增加百分比(Y, E2, E3, 大于20%) ^ 最小尺寸变化(Y, E2, E3, 大于2毫米)
+变量映射:
+  - Y: 甲状腺结节
+  - E2: 历史超声检查事件
+  - E3: 当前超声检查事件
+
+【规则 5】
+规则名: 良性结节持续生长且已进行多次活检则不宜再活检
+逻辑表达: 临床管理建议(Y, 不再进行活检, 通常) <- 甲状腺结节(Y) ^ 细胞学诊断历史(Y, 良性) ^ 判定为生长(Y, 是) ^ 已进行活检次数(Y, 大于等于2)
+变量映射:
+  - Y: 甲状腺结节
+
+---
+
+
+【原始长篇章】:Updates in Version 2.2019 of the NCCN Guidelines for Thyroid Carcinoma from Version 1.2019 include:General• Entrectinib was added to the guidelines in response to the recent FDA approval.PAP-9 (footnote cc), FOLL-8 (footnote y), HÜRT-8 (footnote y) updated: "Larotrectinib and entrectinib are FDA approved..."ANAP-2 footnote f updated: "or consider larotrectinib or entrectinib if NTRK gene fusion positive (Drilon A, et al. Efficacy of larotrectinib in TRK fusion‑positive cancers in adults and children. N Engl J Med 2018;378(8):731‑739, Demetri GD, Paz-Ares L, Farago AF, et al. Efficacy and safety of entrectinib in patients with NTRK fusion-positive tumours: pooled analysis of STARTRK-2, STARTRK-1 and ALKA-372-001. Presented at the European Society for Medical Oncology Meeting in Munich, Germany;
+
+【规则 1】
+规则名: NTRK基因融合阳性实体瘤患者考虑使用Entrectinib之推荐
+逻辑表达: 用药推荐(X, entrectinib, 考虑) <- 实体瘤患者(X) ^ 基因检测结果(X, NTRK基因融合阳性) ^ FDA批准(entrectinib, 针对NTRK融合) ^ 疗效证据(entrectinib, 来自NTRK融合阳性肿瘤的汇总分析)
+变量映射: 
+  - X: 患者
+
+【规则 2】
+规则名: NTRK基因融合阳性实体瘤患者考虑使用Larotrectinib之推荐
+逻辑表达: 用药推荐(X, larotrectinib, 考虑) <- 实体瘤患者(X) ^ 基因检测结果(X, NTRK基因融合阳性) ^ FDA批准(larotrectinib, 针对NTRK融合) ^ 疗效证据(larotrectinib, 来自TRK融合阳性癌症的成人与儿童研究)
+变量映射: 
+  - X: 患者
+
+---
+

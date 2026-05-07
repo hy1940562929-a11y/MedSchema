@@ -1,0 +1,86 @@
+[
+  {
+    "rule_name": "脑出血患者安全降压至140mmHg的条件",
+    "head": {
+      "is_negative": false,
+      "name": "治疗安全",
+      "arguments": [
+        "X",
+        "收缩压降至140mmHg",
+        "安全"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "脑出血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "收缩压指标",
+        "arguments": [
+          "X",
+          "超过150mmHg"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "禁忌证",
+        "arguments": [
+          "X",
+          "急性降压治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "对于收缩压超过150 mm Hg、无急性降压治疗禁忌证的脑出血患者，将收缩压降至140 mm Hg是安全的（Ⅱa类推荐，A级证据）；并且可能改善患者的功能预后（Ⅱa类推荐，B级证据）。"
+  },
+  {
+    "rule_name": "脑出血患者降压可能改善预后的条件",
+    "head": {
+      "is_negative": false,
+      "name": "治疗改善预后",
+      "arguments": [
+        "X",
+        "收缩压降至140mmHg",
+        "可能"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "脑出血"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "收缩压指标",
+        "arguments": [
+          "X",
+          "超过150mmHg"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "禁忌证",
+        "arguments": [
+          "X",
+          "急性降压治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "对于收缩压超过150 mm Hg、无急性降压治疗禁忌证的脑出血患者，将收缩压降至140 mm Hg是安全的（Ⅱa类推荐，A级证据）；并且可能改善患者的功能预后（Ⅱa类推荐，B级证据）。"
+  }
+]

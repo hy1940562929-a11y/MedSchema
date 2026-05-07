@@ -1,0 +1,1440 @@
+[
+  {
+    "rule_name": "CRRT剂量亚组分析_低剂量35对比高剂量35_存活率未提高",
+    "head": {
+      "is_negative": false,
+      "name": "比较干预效果",
+      "arguments": [
+        "X",
+        "Y",
+        "低剂量阈值A",
+        "高剂量阈值B",
+        "存活率未显著提高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "研究",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脓毒症病人群体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "35mL/(kg·h)",
+          "低剂量阈值A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "大于35mL/(kg·h)",
+          "高剂量阈值B"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "一项Meta分析研究",
+      "Y": "被研究的脓毒症或脓毒症休克病人群体"
+    },
+    "source_text": "关于不同剂量的CRRT对脓毒症的疗效，共纳入11篇RCT研究，6篇为英文，5篇为中文。目前公认的高剂量CRRT为不低于35mL/（kg·h），入选的研究设定的高剂量、低剂量各不相同，因此，本Meta分析对不同剂量的CRRT行亚组分析，分别为≤35mL/（kg · h）组vs. ＞35mL/（kg·h）组，35mL/（kg·h）组vs. ＞35mL/（kg·h）组，≤40mL/（kg·h）组vs. ＞40mL/（kg·h）组，≤50mL/（kg·h）组vs.＞50mL/（kg·h）组，50mL/（kg·h）组vs.＞50mL/（kg·h）组，共5个亚组。Meta分析显示，相对于低剂量CRRT，高剂量CRRT不能显著提高脓毒症或脓毒症休克病人的存活率（RR：0.78，95%CI：0.47-1.29；RR：0.86，95%CI：0.69-1.06；RR：0.96，95%CI：0.84-1.08；RR：0.94，95%CI：0.84-1.05；RR：0.89，95%CI：0.47-1.08），证据质量为中等。",
+    "_violation_reason": "Head 谓词 '比较干预效果' 元数为 5"
+  },
+  {
+    "rule_name": "CRRT剂量亚组分析_剂量35对比高剂量35_存活率未提高",
+    "head": {
+      "is_negative": false,
+      "name": "比较干预效果",
+      "arguments": [
+        "X",
+        "Y",
+        "剂量阈值A",
+        "高剂量阈值B",
+        "存活率未显著提高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "研究",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脓毒症病人群体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "35mL/(kg·h)",
+          "剂量阈值A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "大于35mL/(kg·h)",
+          "高剂量阈值B"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "一项Meta分析研究",
+      "Y": "被研究的脓毒症或脓毒症休克病人群体"
+    },
+    "source_text": "关于不同剂量的CRRT对脓毒症的疗效，共纳入11篇RCT研究，6篇为英文，5篇为中文。目前公认的高剂量CRRT为不低于35mL/（kg·h），入选的研究设定的高剂量、低剂量各不相同，因此，本Meta分析对不同剂量的CRRT行亚组分析，分别为≤35mL/（kg · h）组vs. ＞35mL/（kg·h）组，35mL/（kg·h）组vs. ＞35mL/（kg·h）组，≤40mL/（kg·h）组vs. ＞40mL/（kg·h）组，≤50mL/（kg·h）组vs.＞50mL/（kg·h）组，50mL/（kg·h）组vs.＞50mL/（kg·h）组，共5个亚组。Meta分析显示，相对于低剂量CRRT，高剂量CRRT不能显著提高脓毒症或脓毒症休克病人的存活率（RR：0.78，95%CI：0.47-1.29；RR：0.86，95%CI：0.69-1.06；RR：0.96，95%CI：0.84-1.08；RR：0.94，95%CI：0.84-1.05；RR：0.89，95%CI：0.47-1.08），证据质量为中等。",
+    "_violation_reason": "Head 谓词 '比较干预效果' 元数为 5"
+  },
+  {
+    "rule_name": "CRRT剂量亚组分析_低剂量40对比高剂量40_存活率未提高",
+    "head": {
+      "is_negative": false,
+      "name": "比较干预效果",
+      "arguments": [
+        "X",
+        "Y",
+        "低剂量阈值C",
+        "高剂量阈值D",
+        "存活率未显著提高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "研究",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脓毒症病人群体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "小于等于40mL/(kg·h)",
+          "低剂量阈值C"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "大于40mL/(kg·h)",
+          "高剂量阈值D"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "一项Meta分析研究",
+      "Y": "被研究的脓毒症或脓毒症休克病人群体"
+    },
+    "source_text": "关于不同剂量的CRRT对脓毒症的疗效，共纳入11篇RCT研究，6篇为英文，5篇为中文。目前公认的高剂量CRRT为不低于35mL/（kg·h），入选的研究设定的高剂量、低剂量各不相同，因此，本Meta分析对不同剂量的CRRT行亚组分析，分别为≤35mL/（kg · h）组vs. ＞35mL/（kg·h）组，35mL/（kg·h）组vs. ＞35mL/（kg·h）组，≤40mL/（kg·h）组vs. ＞40mL/（kg·h）组，≤50mL/（kg·h）组vs.＞50mL/（kg·h）组，50mL/（kg·h）组vs.＞50mL/（kg·h）组，共5个亚组。Meta分析显示，相对于低剂量CRRT，高剂量CRRT不能显著提高脓毒症或脓毒症休克病人的存活率（RR：0.78，95%CI：0.47-1.29；RR：0.86，95%CI：0.69-1.06；RR：0.96，95%CI：0.84-1.08；RR：0.94，95%CI：0.84-1.05；RR：0.89，95%CI：0.47-1.08），证据质量为中等。",
+    "_violation_reason": "Head 谓词 '比较干预效果' 元数为 5"
+  },
+  {
+    "rule_name": "CRRT剂量亚组分析_低剂量50对比高剂量50_存活率未提高",
+    "head": {
+      "is_negative": false,
+      "name": "比较干预效果",
+      "arguments": [
+        "X",
+        "Y",
+        "低剂量阈值E",
+        "高剂量阈值F",
+        "存活率未显著提高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "研究",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脓毒症病人群体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "小于等于50mL/(kg·h)",
+          "低剂量阈值E"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "大于50mL/(kg·h)",
+          "高剂量阈值F"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "一项Meta分析研究",
+      "Y": "被研究的脓毒症或脓毒症休克病人群体"
+    },
+    "source_text": "关于不同剂量的CRRT对脓毒症的疗效，共纳入11篇RCT研究，6篇为英文，5篇为中文。目前公认的高剂量CRRT为不低于35mL/（kg·h），入选的研究设定的高剂量、低剂量各不相同，因此，本Meta分析对不同剂量的CRRT行亚组分析，分别为≤35mL/（kg · h）组vs. ＞35mL/（kg·h）组，35mL/（kg·h）组vs. ＞35mL/（kg·h）组，≤40mL/（kg·h）组vs. ＞40mL/（kg·h）组，≤50mL/（kg·h）组vs.＞50mL/（kg·h）组，50mL/（kg·h）组vs.＞50mL/（kg·h）组，共5个亚组。Meta分析显示，相对于低剂量CRRT，高剂量CRRT不能显著提高脓毒症或脓毒症休克病人的存活率（RR：0.78，95%CI：0.47-1.29；RR：0.86，95%CI：0.69-1.06；RR：0.96，95%CI：0.84-1.08；RR：0.94，95%CI：0.84-1.05；RR：0.89，95%CI：0.47-1.08），证据质量为中等。",
+    "_violation_reason": "Head 谓词 '比较干预效果' 元数为 5"
+  },
+  {
+    "rule_name": "CRRT剂量亚组分析_剂量50对比高剂量50_存活率未提高",
+    "head": {
+      "is_negative": false,
+      "name": "比较干预效果",
+      "arguments": [
+        "X",
+        "Y",
+        "剂量阈值G",
+        "高剂量阈值H",
+        "存活率未显著提高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "研究",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脓毒症病人群体",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "50mL/(kg·h)",
+          "剂量阈值G"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "剂量水平",
+        "arguments": [
+          "大于50mL/(kg·h)",
+          "高剂量阈值H"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "一项Meta分析研究",
+      "Y": "被研究的脓毒症或脓毒症休克病人群体"
+    },
+    "source_text": "关于不同剂量的CRRT对脓毒症的疗效，共纳入11篇RCT研究，6篇为英文，5篇为中文。目前公认的高剂量CRRT为不低于35mL/（kg·h），入选的研究设定的高剂量、低剂量各不相同，因此，本Meta分析对不同剂量的CRRT行亚组分析，分别为≤35mL/（kg · h）组vs. ＞35mL/（kg·h）组，35mL/（kg·h）组vs. ＞35mL/（kg·h）组，≤40mL/（kg·h）组vs. ＞40mL/（kg·h）组，≤50mL/（kg·h）组vs.＞50mL/（kg·h）组，50mL/（kg·h）组vs.＞50mL/（kg·h）组，共5个亚组。Meta分析显示，相对于低剂量CRRT，高剂量CRRT不能显著提高脓毒症或脓毒症休克病人的存活率（RR：0.78，95%CI：0.47-1.29；RR：0.86，95%CI：0.69-1.06；RR：0.96，95%CI：0.84-1.08；RR：0.94，95%CI：0.84-1.05；RR：0.89，95%CI：0.47-1.08），证据质量为中等。",
+    "_violation_reason": "Head 谓词 '比较干预效果' 元数为 5"
+  },
+  {
+    "rule_name": "糖尿病足溃疡预防的五个关键要素执行前提",
+    "head": {
+      "is_negative": false,
+      "name": "执行关键要素",
+      "arguments": []
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部状态",
+        "arguments": [
+          "Y",
+          "高危"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属关系",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险等级",
+        "arguments": [
+          "X",
+          "高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提供教育",
+        "arguments": [
+          "针对X",
+          "健康教育"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提供措施",
+        "arguments": [
+          "针对X",
+          "合适鞋子"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "针对X",
+          "溃疡风险因素"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "足部"
+    },
+    "source_text": "糖尿病患者足部溃疡预防指南解读该部分为预防糖尿病患者足部溃疡的指南，在2015年指南版本基础上提出了足部溃疡风险分层的IWGDF系统，根据患者的足部溃疡风险对患者进行分层，对糖尿病足患者依据溃疡风险分层进行干预措施的推荐。同时本指南针对高危患者足部溃疡预防首次提出5个关键要素[1-3]：① 识别高危足；② 定期检查高危足；③ 为患者、家庭、医务人员提供健康教育；④ 确保患者日常穿着合适的鞋；⑤ 治疗溃疡的风险因素。本次更新的指南中，从足部溃疡的风险等级出发，为糖尿病患者足部溃疡的预防提供循证建议[1-3]，同时将足部溃疡前症状、足部压力及足部护理知识进行了完善。每年对溃疡风险极低的患者进行保护性感觉丧失和外周动脉疾病筛查，对风险较高的患者进行额外风险因素的高风险筛查。为了预防足部溃疡，教育高危患者进行适当的足部自我护理，并治疗足部的任何溃疡前期体征。指导中高危患者正确配戴可调节的治疗鞋，并考虑指导患者监测足部皮肤温度。穿戴处方治疗鞋可以缓解步行时的足底压力，但是对于活动性溃疡或即将溃疡非手术治疗失败的患者，考虑手术干预，且手术不推荐神经减压术。",
+    "_violation_reason": "Head 谓词 '执行关键要素' 元数为 0"
+  },
+  {
+    "rule_name": "指南临床问题制定与证据评价流程",
+    "head": {
+      "is_negative": false,
+      "name": "指南流程执行",
+      "arguments": [
+        "X",
+        "Y",
+        "Z",
+        "W"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "指南核心小组",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床问题集",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对疾病",
+        "arguments": [
+          "Y",
+          "Concept_osteoarthritis"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床问题集",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对疾病",
+        "arguments": [
+          "Z",
+          "髋OA"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "文献综述小组",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "定义",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "定义",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "按原则解析",
+        "arguments": [
+          "X",
+          "Y",
+          "PICO"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "按原则解析",
+        "arguments": [
+          "X",
+          "Z",
+          "PICO"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "按策略检索",
+        "arguments": [
+          "W",
+          "文献",
+          "既定"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "按体系明确",
+        "arguments": [
+          "X",
+          "结局指标重要性",
+          "GRADE"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行评价分析",
+        "arguments": [
+          "W",
+          "检索结果"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "指南核心小组",
+      "Y": "针对膝OA的临床问题集",
+      "Z": "针对髋OA的临床问题集",
+      "W": "文献综述小组"
+    },
+    "source_text": "首先由指南核心小组确定临床问题，并按照PICO原则解析每个临床问题。本指南针对膝OA定义了67个临床问题，针对髋OA定义了60个临床问题。之后文献综述小组按照既定的检索策略检索PICO问题相关的文献。由指南核心小组根据GRADE评价体系事先明确结局指标的重要性程度，然后进一步在每个PICO问题中明确既定的结局指标以及结局指标的重要性程度。由文献综述小组对检索到的相关题目、摘要以及全文进行评价和分析，提取并合成相关的数据。",
+    "_violation_reason": "Head 谓词 '指南流程执行' 元数为 4"
+  },
+  {
+    "rule_name": "具备人工喂养条件的HIV感染产妇所生儿童应获指导",
+    "head": {
+      "is_negative": false,
+      "name": "提供喂养指导",
+      "arguments": [
+        "医务人员",
+        "X",
+        "Y",
+        "人工"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HIV感染产妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属儿童",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具备条件",
+        "arguments": [
+          "家庭",
+          "人工喂养"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估情况",
+        "arguments": [
+          "医务人员",
+          "家庭条件",
+          "完成"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "HIV感染产妇",
+      "Y": "所生儿童"
+    },
+    "source_text": "应当对HIV感染孕产妇所生儿童提倡人工喂养，避免母乳喂养。医务人员应当针对HIV感染孕产妇及其家人就人工喂养环境与条件、可接受性、知识和技能、可及性，可持续获得足量、营养和安全的代乳品等情况，及时进行综合的喂养指导和科学喂养评估。对于具备人工喂养条件者尽量提供人工喂养，并给予指导和支持。对于因不具备人工喂养条件而选择母乳喂养的HIV感染产妇及其家人，指导其坚持正确的纯母乳喂养，喂养时间最好不超过6个月。母乳喂养期间，HIV感染产妇应坚持ART，产妇乳腺炎和婴儿鹅口疮会增加母乳喂养HIV传播的风险，应及时识别和治疗。在母乳喂养期间婴儿每3个月进行一次病原学检测，在停止母乳喂养后4~6周、3个月和6个月进行随访检测。",
+    "_violation_reason": "Head 谓词 '提供喂养指导' 元数为 4"
+  },
+  {
+    "rule_name": "不具备人工喂养条件的HIV感染产妇选择母乳喂养应获指导",
+    "head": {
+      "is_negative": false,
+      "name": "提供喂养指导",
+      "arguments": [
+        "医务人员",
+        "X",
+        "Y",
+        "纯母乳不超过6个月"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HIV感染产妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属儿童",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "具备条件",
+        "arguments": [
+          "家庭",
+          "人工喂养"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "选择喂养方式",
+        "arguments": [
+          "家庭",
+          "母乳喂养"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "HIV感染产妇",
+      "Y": "所生儿童"
+    },
+    "source_text": "应当对HIV感染孕产妇所生儿童提倡人工喂养，避免母乳喂养。医务人员应当针对HIV感染孕产妇及其家人就人工喂养环境与条件、可接受性、知识和技能、可及性，可持续获得足量、营养和安全的代乳品等情况，及时进行综合的喂养指导和科学喂养评估。对于具备人工喂养条件者尽量提供人工喂养，并给予指导和支持。对于因不具备人工喂养条件而选择母乳喂养的HIV感染产妇及其家人，指导其坚持正确的纯母乳喂养，喂养时间最好不超过6个月。母乳喂养期间，HIV感染产妇应坚持ART，产妇乳腺炎和婴儿鹅口疮会增加母乳喂养HIV传播的风险，应及时识别和治疗。在母乳喂养期间婴儿每3个月进行一次病原学检测，在停止母乳喂养后4~6周、3个月和6个月进行随访检测。",
+    "_violation_reason": "Head 谓词 '提供喂养指导' 元数为 4"
+  },
+  {
+    "rule_name": "母乳喂养期间婴儿的病原学检测要求",
+    "head": {
+      "is_negative": false,
+      "name": "执行检测",
+      "arguments": [
+        "医务人员",
+        "Y",
+        "病原学",
+        "每3个月"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "当前喂养方式",
+        "arguments": [
+          "家庭",
+          "母乳喂养"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属儿童",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时间状态",
+        "arguments": [
+          "喂养期",
+          "进行中"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "HIV感染产妇",
+      "Y": "所生儿童"
+    },
+    "source_text": "应当对HIV感染孕产妇所生儿童提倡人工喂养，避免母乳喂养。医务人员应当针对HIV感染孕产妇及其家人就人工喂养环境与条件、可接受性、知识和技能、可及性，可持续获得足量、营养和安全的代乳品等情况，及时进行综合的喂养指导和科学喂养评估。对于具备人工喂养条件者尽量提供人工喂养，并给予指导和支持。对于因不具备人工喂养条件而选择母乳喂养的HIV感染产妇及其家人，指导其坚持正确的纯母乳喂养，喂养时间最好不超过6个月。母乳喂养期间，HIV感染产妇应坚持ART，产妇乳腺炎和婴儿鹅口疮会增加母乳喂养HIV传播的风险，应及时识别和治疗。在母乳喂养期间婴儿每3个月进行一次病原学检测，在停止母乳喂养后4~6周、3个月和6个月进行随访检测。",
+    "_violation_reason": "Head 谓词 '执行检测' 元数为 4"
+  },
+  {
+    "rule_name": "糖尿病治疗医师在病历中记录糖尿病患者流感疫苗接种情况",
+    "head": {
+      "is_negative": false,
+      "name": "记录医疗信息",
+      "arguments": [
+        "A",
+        "B",
+        "病历",
+        "流感疫苗报告"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病治疗医师",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "B"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "糖尿病治疗医师",
+      "B": "糖尿病患者"
+    },
+    "source_text": "2018版意大利指南指出，积极推广列入意大利卫生部批准的国家疫苗日历的疫苗接种，是每个医生的义务（意大利卫生部通告）。全科医生应系统地向糖尿病患者提供流感疫苗接种，同时在流感流行期间，为糖尿病患者接种肺炎球菌疫苗（如果可能的话）。全科医生就流感和肺炎球菌疫苗接种对糖尿病患者提供系统的咨询服务，并随时评估抗破伤风疫苗接种的覆盖率，以及提供抗带状疱疹疫苗接种的建议。此外，评估1型糖尿病成人接种脑膜炎球菌疫苗的覆盖率。糖尿病治疗医师和全科医生在收集患者病史的过程中，应在病历中系统评估和报告糖尿病患者接种抗流感、抗肺炎球菌、抗白百破、抗带状疱疹、抗脑膜炎球菌（1型糖尿病患者）等疫苗的情况。由糖尿病治疗医师提供系统的疫苗接种咨询，并在门诊相关文件或医院出院相关信件（提供给糖尿病患者）中报告患者接受上述疫苗的建议。糖尿病治疗医师应参加由相关科学学会组织的教育活动，针对成人糖尿病患者接种疫苗的主题，以提高其对这一问题的认识。",
+    "_violation_reason": "Head 谓词 '记录医疗信息' 元数为 4"
+  },
+  {
+    "rule_name": "糖尿病治疗医师在门诊文件中报告对糖尿病患者的疫苗建议",
+    "head": {
+      "is_negative": false,
+      "name": "记录医疗信息",
+      "arguments": [
+        "A",
+        "B",
+        "门诊文件",
+        "疫苗建议报告"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病治疗医师",
+        "arguments": [
+          "A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "B"
+        ]
+      }
+    ],
+    "variables": {
+      "A": "糖尿病治疗医师",
+      "B": "糖尿病患者"
+    },
+    "source_text": "2018版意大利指南指出，积极推广列入意大利卫生部批准的国家疫苗日历的疫苗接种，是每个医生的义务（意大利卫生部通告）。全科医生应系统地向糖尿病患者提供流感疫苗接种，同时在流感流行期间，为糖尿病患者接种肺炎球菌疫苗（如果可能的话）。全科医生就流感和肺炎球菌疫苗接种对糖尿病患者提供系统的咨询服务，并随时评估抗破伤风疫苗接种的覆盖率，以及提供抗带状疱疹疫苗接种的建议。此外，评估1型糖尿病成人接种脑膜炎球菌疫苗的覆盖率。糖尿病治疗医师和全科医生在收集患者病史的过程中，应在病历中系统评估和报告糖尿病患者接种抗流感、抗肺炎球菌、抗白百破、抗带状疱疹、抗脑膜炎球菌（1型糖尿病患者）等疫苗的情况。由糖尿病治疗医师提供系统的疫苗接种咨询，并在门诊相关文件或医院出院相关信件（提供给糖尿病患者）中报告患者接受上述疫苗的建议。糖尿病治疗医师应参加由相关科学学会组织的教育活动，针对成人糖尿病患者接种疫苗的主题，以提高其对这一问题的认识。",
+    "_violation_reason": "Head 谓词 '记录医疗信息' 元数为 4"
+  },
+  {
+    "rule_name": "TACE与全身治疗同时使用不推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "W",
+        "不推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HCC患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方式组合",
+        "arguments": [
+          "W",
+          "同时使用",
+          "TACE",
+          "索拉非尼等全身治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联患者",
+        "arguments": [
+          "W",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "W": "治疗方式组合"
+    },
+    "source_text": "(14)不推荐ＴＡＣＥ与索拉非尼等全身治疗同时或序贯使用［Ⅰ，Ｅ］。",
+    "_violation_reason": "Body 谓词 '治疗方式组合' 元数为 4"
+  },
+  {
+    "rule_name": "TACE与全身治疗序贯使用不推荐",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "W",
+        "不推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HCC患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方式组合",
+        "arguments": [
+          "W",
+          "序贯使用",
+          "TACE",
+          "索拉非尼等全身治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联患者",
+        "arguments": [
+          "W",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "W": "治疗方式组合"
+    },
+    "source_text": "(14)不推荐ＴＡＣＥ与索拉非尼等全身治疗同时或序贯使用［Ⅰ，Ｅ］。",
+    "_violation_reason": "Body 谓词 '治疗方式组合' 元数为 4"
+  },
+  {
+    "rule_name": "血红素合成路径_后续反应链",
+    "head": {
+      "is_negative": false,
+      "name": "合成血红素",
+      "arguments": [
+        "路径"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "催化转化",
+        "arguments": [
+          "ALA脱水酶",
+          "Concept_delta⁃aminolevulinic_acid",
+          "Concept_porphobilinogen"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "催化合成",
+        "arguments": [
+          "HMBS与尿卟啉原合成酶",
+          "Concept_porphobilinogen",
+          "尿卟啉原"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转化",
+        "arguments": [
+          "尿卟啉原",
+          "粪卟啉原"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "转化",
+        "arguments": [
+          "粪卟啉原",
+          "原卟啉原Ⅸ"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "形成",
+        "arguments": [
+          "原卟啉原Ⅸ",
+          "原卟啉Ⅸ"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "催化结合",
+        "arguments": [
+          "亚铁螯合酶",
+          "原卟啉Ⅸ",
+          "二价铁",
+          "Concept_氯高铁血红素"
+        ]
+      }
+    ],
+    "variables": {
+      "路径": "合成过程"
+    },
+    "source_text": "多数PBG在羟甲基胆素合成酶（HMBS）和尿卟啉原合成酶作用下合成尿卟啉原，再转化为粪卟啉原、原卟啉原Ⅸ，形成原卟啉Ⅸ，在亚铁螯合酶催化下与二价铁结合成血红素。",
+    "_violation_reason": "Body 谓词 '催化结合' 元数为 4"
+  },
+  {
+    "rule_name": "医生对特应性皮炎患者进行初始疾病管理与教育",
+    "head": {
+      "is_negative": false,
+      "name": "执行医疗活动",
+      "arguments": [
+        "X",
+        "Y",
+        "Z",
+        "疾病管理"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医生",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Z",
+          "Concept_atopic_dermatitis"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病属性",
+        "arguments": [
+          "Z",
+          "慢性复发性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需建立关系",
+        "arguments": [
+          "X",
+          "Y",
+          "良好医患关系"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行医疗活动",
+        "arguments": [
+          "X",
+          "Y",
+          "Z",
+          "患者教育"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗行为内容",
+        "arguments": [
+          "X",
+          "说明疾病性质"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗行为内容",
+        "arguments": [
+          "X",
+          "分析寻找病因"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗行为对象",
+        "arguments": [
+          "分析寻找病因",
+          "诱发加重因素"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "医生",
+      "Y": "患者",
+      "Z": "疾病（特应性皮炎）"
+    },
+    "source_text": "疾病管理与患者教育由于本病是慢性复发性疾病，需要长期治疗，应建立起良好的医患关系，通过对疾病全程管理获得最佳疗效。患者教育十分重要，医生应向患者和家属说明本病的性质、临床特点和注意事项。同时应与患者及家属详细分析寻找其发病病因和诱发加重因素（包括非特异性诱发因素，以及特异性过敏原诱发因素等），告知其回避策略。应对患者的病史、病程、皮损面积和严重程度等进行综合评估，确定治疗方案，力争在短期内控制疾病。医生还应向患者解释药物使用的方法，可期望疗效和可能的不良反应等。在随访过程中，医生应当仔细观察患者的病情变化，及时调整治疗方案，并通过维持治疗，尽可能长期控制症状，减少复发［35］。",
+    "_violation_reason": "Head 谓词 '执行医疗活动' 元数为 4"
+  },
+  {
+    "rule_name": "医生在随访中调整特应性皮炎患者的治疗方案以控制复发",
+    "head": {
+      "is_negative": false,
+      "name": "调整医疗方案",
+      "arguments": [
+        "X",
+        "W"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "医生",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Z",
+          "Concept_atopic_dermatitis"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "持有方案",
+        "arguments": [
+          "Y",
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "医疗阶段",
+        "arguments": [
+          "持有方案",
+          "维持治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "执行医疗活动",
+        "arguments": [
+          "X",
+          "Y",
+          "Z",
+          "随访观察"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "观察目标",
+        "arguments": [
+          "随访观察",
+          "病情变化"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "医生",
+      "Y": "患者",
+      "Z": "疾病（特应性皮炎）",
+      "W": "治疗方案"
+    },
+    "source_text": "疾病管理与患者教育由于本病是慢性复发性疾病，需要长期治疗，应建立起良好的医患关系，通过对疾病全程管理获得最佳疗效。患者教育十分重要，医生应向患者和家属说明本病的性质、临床特点和注意事项。同时应与患者及家属详细分析寻找其发病病因和诱发加重因素（包括非特异性诱发因素，以及特异性过敏原诱发因素等），告知其回避策略。应对患者的病史、病程、皮损面积和严重程度等进行综合评估，确定治疗方案，力争在短期内控制疾病。医生还应向患者解释药物使用的方法，可期望疗效和可能的不良反应等。在随访过程中，医生应当仔细观察患者的病情变化，及时调整治疗方案，并通过维持治疗，尽可能长期控制症状，减少复发［35］。",
+    "_violation_reason": "Body 谓词 '执行医疗活动' 元数为 4"
+  },
+  {
+    "rule_name": "不符合CHR特征_症状由其它障碍更好解释_抑郁牵连观念示例",
+    "head": {
+      "is_negative": true,
+      "name": "符合特征",
+      "arguments": [
+        "症状表现",
+        "Concept_轻微精神病综合征"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "临床评估",
+        "arguments": [
+          "评估对象"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "评估对象",
+          "牵连观念"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前诊断",
+        "arguments": [
+          "评估对象",
+          "抑郁发作"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联性",
+        "arguments": [
+          "牵连观念内容",
+          "高度相关",
+          "负性情绪状态"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "解释模型",
+        "arguments": [
+          "其它障碍",
+          "抑郁发作",
+          "更优",
+          "症状表现"
+        ]
+      }
+    ],
+    "variables": {
+      "评估对象": "被评估的个体或病例",
+      "症状表现": "具体的临床表现（如牵连观念）",
+      "牵连观念内容": "具体的观念内容描述",
+      "负性情绪状态": "患者的情绪状态",
+      "其它障碍": "特定的精神障碍类型（此处为抑郁发作）"
+    },
+    "source_text": "CHR早期识别，需要注意排除或仔细考虑两种情况来明确与其它精神障碍之间界限，简称“双检验”。（Ⅱ，B）检验一：时间检验。由于CHR本身是带有时间条件的概念，在诊断时，一定要强调时间顺序。如果CHR症状在其它精神障碍之前出现，或者在其它精神障碍完全缓解之后出现（例如，既往有抑郁发作，目前无明显情绪症状，但出现明显的弱化阳性症状），则认为其符合时间条件。如果是与其它精神障碍同时出现（伴随症状），则需要进行第二个检验来明确是否符合标准。检验二：解释检验。目的是区分该症状更具有精神病性障碍的特征，还是更具有其它精神障碍特征。如果该症状可以更好地应用其它障碍进行解释，则不符合CHR的特征。例如，抑郁发作患者出现牵连观念，觉得周围人对他/她有大量负性评价，评价与其情绪状态明显相关，则不应将这种牵连观念作为CHR的轻微症状来评价。必要时应针对该症状进行纵向随访观察，动态评价检验。",
+    "_violation_reason": "Body 谓词 '解释模型' 元数为 4"
+  },
+  {
+    "rule_name": "短效胆碱能M受体拮抗剂与β2受体激动剂联合用药协同作用",
+    "head": {
+      "is_negative": false,
+      "name": "药物联用效果",
+      "arguments": [
+        "X",
+        "Y",
+        "Z",
+        "协同"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用药物",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物类型",
+        "arguments": [
+          "Y",
+          "Concept_短效胆碱能M受体拮抗剂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用药物",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物类型",
+        "arguments": [
+          "Z",
+          "Concept_β2受体激动剂"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "药物(短效胆碱能M受体拮抗剂)",
+      "Z": "药物(β2受体激动剂)"
+    },
+    "source_text": "吸入性糖皮质激素是当前治疗支气管哮喘最有效的抗炎药物，但有真菌、细菌、病毒感染时应暂停使用，对药物成分过敏者禁用。β2受体激动剂是临床最常用的支气管舒张剂，注意有快速型心律失常的患者慎用。短效胆碱能M受体拮抗剂舒张支气管的作用比β2受体激动剂弱，起效也较慢，但对β2受体激动剂不耐受的患者可以选用，但对阿托品或其衍生物过敏的患者禁用，与β2受体激动剂联合应用具有协同作用。祛痰药中的乙酰半胱氨酸对有消化道溃疡病史的患者禁用，另外，因其对呼吸道黏膜有刺激作用，哮喘患者应用可能发生支气管痉挛。",
+    "_violation_reason": "Head 谓词 '药物联用效果' 元数为 4"
+  },
+  {
+    "rule_name": "中国5岁以下儿童RVGE致死占比",
+    "head": {
+      "is_negative": false,
+      "name": "致死占比",
+      "arguments": [
+        "Concept_rotavirus_gastroenteritis",
+        "Concept_婴幼儿严重腹泻",
+        "35%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "统计对象",
+        "arguments": [
+          "X",
+          "中国"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标群体",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "群体年龄",
+        "arguments": [
+          "Z",
+          "5岁以下"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "全死因病例数",
+        "arguments": [
+          "X",
+          "Z",
+          "236000"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致死病例数",
+        "arguments": [
+          "X",
+          "Z",
+          "Concept_婴幼儿严重腹泻",
+          "9072"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致死病例数",
+        "arguments": [
+          "X",
+          "Z",
+          "Concept_rotavirus_gastroenteritis",
+          "3191"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "中国统计对象",
+      "Z": "5岁以下儿童群体"
+    },
+    "source_text": "发病、死亡、住院和经济负担：腹泻是全球5岁以下儿童感染性疾病死亡第二大病因，RVGE是该年龄段儿童重症致死性腹泻的首要病因，在全球每年导致1 000万重症RVGE病例和11.8万~18.3万死亡病例［36‑39］，其中约41%的死亡病例发生在亚洲地区［38，40］。据世界卫生组织估算，中国2013年5岁以下儿童23.6万全死因病例中，有9 072例死于腹泻，其中3 191例死于RVGE，占腹泻致死的35%［41］。基于中国2009—2015年连续7年国家监测项目报告，5岁以下儿童腹泻病例中，30%RV阳性，RV在腹泻住院病例中检出率为39.5%，门诊腹泻病例检出率为28.1%［31］。此外，中国是亚洲用于治疗RVGE支出成本最高的国家（3.65亿美元/每年）［42］。2011年一项中国儿童RVGE经济负担研究显示，2006年10月至2007年12月，五个城市（北京、上海、苏州、福州和广州）因RV感染导致每例门诊的平均社会成本约为480元人民币，其中直接医疗成本约为320元人民币。住院的平均社会成本为5 100元人民币，其中直接医疗成本为4 600元人民币。按每年RV腹泻病例1 210万例推算，国家用于RV疾病负担的年度总直接成本和年度总社会成本以及年度自费支出分别可高达21.06亿和28.86亿人民币［43］。",
+    "_violation_reason": "Body 谓词 '致死病例数' 元数为 4"
+  },
+  {
+    "rule_name": "腰椎间盘突出神经根病_PELD治疗推荐_A级",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "Concept_经皮脊柱内镜腰椎间盘摘除术",
+        "腰椎间盘突出伴神经根病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "Concept_腰椎间盘突出症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "X",
+          "神经根病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对比属性",
+        "arguments": [
+          "Concept_经皮脊柱内镜腰椎间盘摘除术",
+          "开放式椎间盘切除术",
+          "出血量",
+          "少"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对比属性",
+        "arguments": [
+          "Concept_经皮脊柱内镜腰椎间盘摘除术",
+          "开放式椎间盘切除术",
+          "住院时间",
+          "较短"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（9）经皮脊柱内镜腰椎间盘摘除术：经皮脊柱内镜腰椎间盘摘除术(percutaneous endoscopic lum-bar discectomy, PELD)，具有与开放手术同等的治疗效果，住院时间更短，在疼痛缓解和功能恢复方面，显示最佳结果[27,28]（推荐级别B，证据水平2b）。PELD包括椎间孔入路(percutaneous endoscopic transforaminal discectomy, PETD)和经椎板间入路(percutaneous endoscopic interlaminar discectomy, PE-ID)两类技术，临床依据病人腰椎间盘突出节段、突出位置、安全性及术者技术情况综合选择。与开放式椎间盘切除术相比，PELD出血少，住院时间较短[29]（推荐级别A，证据水平1a）。",
+    "_violation_reason": "Body 谓词 '对比属性' 元数为 4"
+  },
+  {
+    "rule_name": "定义结节生长标准_体积显著增加",
+    "head": {
+      "is_negative": false,
+      "name": "判定为生长",
+      "arguments": [
+        "Y",
+        "是"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声检查事件",
+        "arguments": [
+          "E2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "E2",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声检查事件",
+        "arguments": [
+          "E3"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "E3",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时间先后",
+        "arguments": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "体积增加百分比",
+        "arguments": [
+          "Y",
+          "E2",
+          "E3",
+          "大于50%"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "甲状腺结节",
+      "E2": "历史超声检查事件",
+      "E3": "当前超声检查事件"
+    },
+    "source_text": "Includes nodular goiter, colloid nodule, hyperplastic/adenomatoid nodule, and Hashimoto’s thyroiditis.Estimated risk of malignancy is approximately5%or less; consider active surveillance.s Repeat ultrasound after6–12months, if stable for1–2years, then subsequent ultrasound can be considered at3‑ to5‑year intervals.t Growth defined as>50%increase in nodule volume or20%increase in size of2–3dimensions.Size changes should be>2mm and should be assessed by direct comparison of images.Generally, more than two biopsies on a growing benign nodule are not indicated.THYR‑5Diagnostic categories for FNA results reflect NCI state of the science conference, the Bethesda Classification.Cibas ES and Ali SZ.Thyroid2017;",
+    "_violation_reason": "Body 谓词 '体积增加百分比' 元数为 4"
+  },
+  {
+    "rule_name": "定义结节生长标准_多维度尺寸显著增加",
+    "head": {
+      "is_negative": false,
+      "name": "判定为生长",
+      "arguments": [
+        "Y",
+        "是"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声检查事件",
+        "arguments": [
+          "E2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "E2",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "超声检查事件",
+        "arguments": [
+          "E3"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查对象",
+        "arguments": [
+          "E3",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时间先后",
+        "arguments": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "至少二维尺寸增加百分比",
+        "arguments": [
+          "Y",
+          "E2",
+          "E3",
+          "大于20%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "最小尺寸变化",
+        "arguments": [
+          "Y",
+          "E2",
+          "E3",
+          "大于2毫米"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "甲状腺结节",
+      "E2": "历史超声检查事件",
+      "E3": "当前超声检查事件"
+    },
+    "source_text": "Includes nodular goiter, colloid nodule, hyperplastic/adenomatoid nodule, and Hashimoto’s thyroiditis.Estimated risk of malignancy is approximately5%or less; consider active surveillance.s Repeat ultrasound after6–12months, if stable for1–2years, then subsequent ultrasound can be considered at3‑ to5‑year intervals.t Growth defined as>50%increase in nodule volume or20%increase in size of2–3dimensions.Size changes should be>2mm and should be assessed by direct comparison of images.Generally, more than two biopsies on a growing benign nodule are not indicated.THYR‑5Diagnostic categories for FNA results reflect NCI state of the science conference, the Bethesda Classification.Cibas ES and Ali SZ.Thyroid2017;",
+    "_violation_reason": "Body 谓词 '至少二维尺寸增加百分比' 元数为 4"
+  }
+]

@@ -1,0 +1,724 @@
+[
+  {
+    "rule_name": "糖尿病足预防的综合基石措施",
+    "head": {
+      "is_negative": false,
+      "name": "执行预防措施",
+      "arguments": [
+        "整体方案",
+        "糖尿病足",
+        "综合"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高危足",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采取措施",
+        "arguments": [
+          "医疗团队",
+          "识别",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采取措施",
+        "arguments": [
+          "医疗团队",
+          "常规检查",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联人员",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "角色类型",
+        "arguments": [
+          "Z",
+          "家属或陪护"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采取教育措施",
+        "arguments": [
+          "医疗团队",
+          "Z",
+          "必要"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "鞋袜",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用于部位",
+        "arguments": [
+          "W",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性特征",
+        "arguments": [
+          "W",
+          "合适"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡危险因素",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关联于",
+        "arguments": [
+          "T",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采取治疗措施",
+        "arguments": [
+          "医疗团队",
+          "T",
+          "必要"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病患者",
+      "Y": "高危足",
+      "Z": "家属或陪护人员",
+      "W": "鞋袜",
+      "T": "溃疡危险因素"
+    },
+    "source_text": "糖尿病足预防指南提出5项预防的基石：识别高危足，常规检查高危足，教育糖尿病患者、家属及陪护人员，确保穿合适的鞋袜，治疗溃疡的危险因素。"
+  },
+  {
+    "rule_name": "骨髓炎治疗2至4周无效后需进行骨培养",
+    "head": {
+      "is_negative": false,
+      "name": "需进行干预",
+      "arguments": [
+        "X",
+        "骨培养"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "骨髓炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "抗生素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疗程时长",
+        "arguments": [
+          "X",
+          "2至4周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疗效评估",
+        "arguments": [
+          "X",
+          "感染未明显改善"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "骨髓炎的疗程推荐一般不超过6周，如果治疗2~4周感染没有得到明显改善，需要进行骨培养、必要的外科手术或更换抗生素。"
+  },
+  {
+    "rule_name": "骨髓炎治疗2至4周无效后需进行必要外科手术",
+    "head": {
+      "is_negative": false,
+      "name": "需进行干预",
+      "arguments": [
+        "X",
+        "必要外科手术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "骨髓炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "抗生素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疗程时长",
+        "arguments": [
+          "X",
+          "2至4周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疗效评估",
+        "arguments": [
+          "X",
+          "感染未明显改善"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "骨髓炎的疗程推荐一般不超过6周，如果治疗2~4周感染没有得到明显改善，需要进行骨培养、必要的外科手术或更换抗生素。"
+  },
+  {
+    "rule_name": "骨髓炎治疗2至4周无效后需更换抗生素",
+    "head": {
+      "is_negative": false,
+      "name": "需进行干预",
+      "arguments": [
+        "X",
+        "更换抗生素"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "骨髓炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "抗生素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疗程时长",
+        "arguments": [
+          "X",
+          "2至4周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疗效评估",
+        "arguments": [
+          "X",
+          "感染未明显改善"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "骨髓炎的疗程推荐一般不超过6周，如果治疗2~4周感染没有得到明显改善，需要进行骨培养、必要的外科手术或更换抗生素。"
+  },
+  {
+    "rule_name": "骨髓炎骨质全切且无软组织感染时抗生素疗程限制",
+    "head": {
+      "is_negative": false,
+      "name": "疗程推荐",
+      "arguments": [
+        "X",
+        "抗生素",
+        "不超过1周"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "骨髓炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "骨质全切除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术后状态",
+        "arguments": [
+          "X",
+          "无软组织感染"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "如果所有的骨质被切除同时没有软组织感染，那么抗生素使用一般不超过1周。"
+  },
+  {
+    "rule_name": "骨髓炎外科截骨后残端培养阳性需足疗程抗生素",
+    "head": {
+      "is_negative": false,
+      "name": "疗程推荐",
+      "arguments": [
+        "X",
+        "抗生素",
+        "需用足6周"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "骨髓炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受手术",
+        "arguments": [
+          "X",
+          "骨截除"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "术后送检",
+        "arguments": [
+          "残端骨组织",
+          "细菌培养和病理"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查结果",
+        "arguments": [
+          "残端骨组织",
+          "存在感染"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "残端骨组织": "骨组织样本"
+    },
+    "source_text": "这次专门提到了如果进行了外科骨的截除，最好把剩余残端骨组织送细菌培养和病理来确定残留的骨质是否还存在感染，如果还是存在，需要用足6周抗生素。"
+  },
+  {
+    "rule_name": "骨髓炎标准治疗方案为先静脉后口服",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方案",
+      "arguments": [
+        "X",
+        "先静脉后口服"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "骨髓炎患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗阶段",
+        "arguments": [
+          "X",
+          "初始治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "骨髓炎治疗起需采用静脉滴注抗生素，然后可以转换为口服抗生素维持。"
+  },
+  {
+    "rule_name": "不常规推荐高压氧治疗糖尿病足感染",
+    "head": {
+      "is_negative": true,
+      "name": "治疗推荐",
+      "arguments": [
+        "糖尿病足感染",
+        "高压氧治疗",
+        "常规"
+      ]
+    },
+    "body": [],
+    "variables": {
+      "糖尿病足感染": "疾病类型"
+    },
+    "source_text": "第26条谈到高压氧治疗或创面局部氧治疗，由于证据不足，这些方法不作为常规治疗糖尿病足感染的推荐方法。"
+  },
+  {
+    "rule_name": "不常规推荐创面局部氧治疗糖尿病足感染",
+    "head": {
+      "is_negative": true,
+      "name": "治疗推荐",
+      "arguments": [
+        "糖尿病足感染",
+        "创面局部氧治疗",
+        "常规"
+      ]
+    },
+    "body": [],
+    "variables": {
+      "糖尿病足感染": "疾病类型"
+    },
+    "source_text": "第26条谈到高压氧治疗或创面局部氧治疗，由于证据不足，这些方法不作为常规治疗糖尿病足感染的推荐方法。"
+  },
+  {
+    "rule_name": "不推荐局部使用集落刺激因子治疗糖尿病足感染",
+    "head": {
+      "is_negative": true,
+      "name": "用药推荐",
+      "arguments": [
+        "糖尿病足感染创面",
+        "集落刺激因子",
+        "局部"
+      ]
+    },
+    "body": [],
+    "variables": {
+      "糖尿病足感染创面": "创面"
+    },
+    "source_text": "最后1条不推荐局部使用集落刺激因子，因为它本身抗感染临床证据不足；"
+  },
+  {
+    "rule_name": "不常规使用局部抗微生物药物治疗糖尿病足感染",
+    "head": {
+      "is_negative": true,
+      "name": "用药推荐",
+      "arguments": [
+        "糖尿病足感染创面",
+        "局部抗微生物药物",
+        "常规"
+      ]
+    },
+    "body": [],
+    "variables": {
+      "糖尿病足感染创面": "创面"
+    },
+    "source_text": "不常规使用局部的抗微生物药物、银离子产品、蜂蜜、噬菌体或负压吸引治疗，因为其主要发挥的是促进愈合作用，其抗菌作用的研究相对较少，且试验设计往往存在很多缺陷。"
+  },
+  {
+    "rule_name": "不常规使用银离子产品治疗糖尿病足感染",
+    "head": {
+      "is_negative": true,
+      "name": "用药推荐",
+      "arguments": [
+        "糖尿病足感染创面",
+        "银离子产品",
+        "常规"
+      ]
+    },
+    "body": [],
+    "variables": {
+      "糖尿病足感染创面": "创面"
+    },
+    "source_text": "不常规使用局部的抗微生物药物、银离子产品、蜂蜜、噬菌体或负压吸引治疗，因为其主要发挥的是促进愈合作用，其抗菌作用的研究相对较少，且试验设计往往存在很多缺陷。"
+  },
+  {
+    "rule_name": "诊断糖尿病足软组织感染需基于全身局部炎症表现",
+    "head": {
+      "is_negative": false,
+      "name": "诊断依据",
+      "arguments": [
+        "糖尿病足软组织感染",
+        "临床表现",
+        "主要"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "存在指征",
+        "arguments": [
+          "患者",
+          "全身炎症表现"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在指征",
+        "arguments": [
+          "患者",
+          "局部炎症表现"
+        ]
+      }
+    ],
+    "variables": {
+      "患者": "糖尿病患者"
+    },
+    "source_text": "诊断糖尿病足软组织感染要以临床为准，基于全身或局部的炎症表现（推荐强度：强，证据级别：低）"
+  },
+  {
+    "rule_name": "评估糖尿病足感染需用指定分级表",
+    "head": {
+      "is_negative": false,
+      "name": "评估方法",
+      "arguments": [
+        "糖尿病足感染",
+        "使用分级表",
+        "推荐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "指定分级表",
+        "arguments": [
+          "感染严重度分级表",
+          "美国感染病学会"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指定分级表",
+        "arguments": [
+          "感染严重度分级表",
+          "国际糖尿病足工作组"
+        ]
+      }
+    ],
+    "variables": {
+      "糖尿病足感染": "疾病实例"
+    },
+    "source_text": "用美国感染病学会或国际糖尿病足工作组的感染严重度分级表进行评估。（强，中）"
+  },
+  {
+    "rule_name": "重度糖尿病足感染患者需住院治疗",
+    "head": {
+      "is_negative": false,
+      "name": "治疗建议",
+      "arguments": [
+        "X",
+        "住院治疗",
+        "需要"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部感染",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "感染严重度",
+        "arguments": [
+          "Y",
+          "重度"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "感染"
+    },
+    "source_text": "所有重度感染，部分复杂中度感染的糖尿病足患者需要住院治疗。（强，低）"
+  },
+  {
+    "rule_name": "临床表现不典型时考虑C反应蛋白助诊糖尿病足感染",
+    "head": {
+      "is_negative": false,
+      "name": "可考虑检查",
+      "arguments": [
+        "X",
+        "C反应蛋白",
+        "辅助诊断"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部感染",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床表现",
+        "arguments": [
+          "Y",
+          "不典型"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "感染"
+    },
+    "source_text": "如果糖尿病患者的足部感染临床表现不典型，可以考虑血清炎症标志物，如C反应蛋白，红细胞沉降率及降钙素原，帮助诊断。（弱，低）"
+  },
+  {
+    "rule_name": "临床表现不典型时考虑红细胞沉降率助诊糖尿病足感染",
+    "head": {
+      "is_negative": false,
+      "name": "可考虑检查",
+      "arguments": [
+        "X",
+        "红细胞沉降率",
+        "辅助诊断"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部感染",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床表现",
+        "arguments": [
+          "Y",
+          "不典型"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "感染"
+    },
+    "source_text": "如果糖尿病患者的足部感染临床表现不典型，可以考虑血清炎症标志物，如C反应蛋白，红细胞沉降率及降钙素原，帮助诊断。（弱，低）"
+  },
+  {
+    "rule_name": "临床表现不典型时考虑降钙素原助诊糖尿病足感染",
+    "head": {
+      "is_negative": false,
+      "name": "可考虑检查",
+      "arguments": [
+        "X",
+        "降钙素原",
+        "辅助诊断"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "足部感染",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床表现",
+        "arguments": [
+          "Y",
+          "不典型"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "感染"
+    },
+    "source_text": "如果糖尿病患者的足部感染临床表现不典型，可以考虑血清炎症标志物，如C反应蛋白，红细胞沉降率及降钙素原，帮助诊断。（弱，低）"
+  }
+]

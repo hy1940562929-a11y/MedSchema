@@ -1,0 +1,676 @@
+[
+  {
+    "rule_name": "血糖控制良好的糖尿病患者_NSTEMI_三支血管病变_考虑CABG",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "冠状动脉旁路移植术",
+        "考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血糖控制",
+        "arguments": [
+          "X",
+          "良好"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病事件",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "事件类型",
+        "arguments": [
+          "Y",
+          "非ST段抬高心肌梗死"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者经历事件",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "冠脉造影结果",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "结果对应事件",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变描述",
+        "arguments": [
+          "Z",
+          "三支血管病变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疾病事件",
+      "Z": "冠脉造影结果"
+    },
+    "source_text": "对于血糖控制良好的糖尿病患者，若发生非ST段抬高心肌梗死（NSTEMI），且冠脉造影提示三支血管病变，应考虑行冠状动脉旁路移植术（CABG）。但在以下三种情况下，应优先选择CABG：存在左主干病变且狭窄程度超过50%；出现心源性休克；或患者合并严重的心脏瓣膜病且需要同期进行瓣膜手术。"
+  },
+  {
+    "rule_name": "糖尿病患者_NSTEMI_三支血管病变_左主干病变超50%_优先CABG",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "冠状动脉旁路移植术",
+        "优先"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病事件",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "事件类型",
+        "arguments": [
+          "Y",
+          "非ST段抬高心肌梗死"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者经历事件",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "冠脉造影结果",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "结果对应事件",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变描述",
+        "arguments": [
+          "Z",
+          "三支血管病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并病变",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变部位",
+        "arguments": [
+          "W",
+          "左主干"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "狭窄程度",
+        "arguments": [
+          "W",
+          "超过50%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变归属",
+        "arguments": [
+          "W",
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疾病事件",
+      "Z": "冠脉造影结果",
+      "W": "血管病变"
+    },
+    "source_text": "对于血糖控制良好的糖尿病患者，若发生非ST段抬高心肌梗死（NSTEMI），且冠脉造影提示三支血管病变，应考虑行冠状动脉旁路移植术（CABG）。但在以下三种情况下，应优先选择CABG：存在左主干病变且狭窄程度超过50%；出现心源性休克；或患者合并严重的心脏瓣膜病且需要同期进行瓣膜手术。"
+  },
+  {
+    "rule_name": "糖尿病患者_NSTEMI_三支血管病变_伴心源性休克_优先CABG",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "冠状动脉旁路移植术",
+        "优先"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病事件",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "事件类型",
+        "arguments": [
+          "Y",
+          "非ST段抬高心肌梗死"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者经历事件",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "冠脉造影结果",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "结果对应事件",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变描述",
+        "arguments": [
+          "Z",
+          "三支血管病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "Y",
+          "心源性休克"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疾病事件",
+      "Z": "冠脉造影结果"
+    },
+    "source_text": "对于血糖控制良好的糖尿病患者，若发生非ST段抬高心肌梗死（NSTEMI），且冠脉造影提示三支血管病变，应考虑行冠状动脉旁路移植术（CABG）。但在以下三种情况下，应优先选择CABG：出现心源性休克；或患者合并严重的心脏瓣膜病且需要同期进行瓣膜手术。"
+  },
+  {
+    "rule_name": "糖尿病患者_NSTEMI_三支血管病变_合并需手术的严重瓣膜病_优先CABG",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "冠状动脉旁路移植术",
+        "优先"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病事件",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "事件类型",
+        "arguments": [
+          "Y",
+          "非ST段抬高心肌梗死"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者经历事件",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "冠脉造影结果",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "结果对应事件",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变描述",
+        "arguments": [
+          "Z",
+          "三支血管病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发疾病",
+        "arguments": [
+          "X",
+          "心脏瓣膜病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病严重度",
+        "arguments": [
+          "心脏瓣膜病",
+          "严重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "手术需求",
+        "arguments": [
+          "心脏瓣膜病",
+          "同期进行"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "疾病事件",
+      "Z": "冠脉造影结果"
+    },
+    "source_text": "对于血糖控制良好的糖尿病患者，若发生非ST段抬高心肌梗死（NSTEMI），且冠脉造影提示三支血管病变，应考虑行冠状动脉旁路移植术（CABG）。但在以下三种情况下，应优先选择CABG：或患者合并严重的心脏瓣膜病且需要同期进行瓣膜手术。"
+  },
+  {
+    "rule_name": "合并冠心病糖尿病患者确诊ASCVD时优先推荐GLP-1激动剂",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "GLP-1受体激动剂",
+        "优先"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "X",
+          "冠心病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "确诊疾病",
+        "arguments": [
+          "X",
+          "动脉粥样硬化性心血管疾病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "合并冠心病的糖尿病患者，推荐使用具有心血管获益证据的GLP-1受体激动剂或SGLT2抑制剂。若患者已确诊动脉粥样硬化性心血管疾病（ASCVD），或伴有心力衰竭（HF）、慢性肾脏病（CKD），应优先考虑选择SGLT2抑制剂或GLP-1受体激动剂。在启动GLP-1受体激动剂治疗前，必须详细询问并记录患者的个人及家族史，若患者本人有甲状腺髓样癌（MTC）病史或多发性内分泌腺瘤病2型（MEN2）病史，则禁用此类药物。"
+  },
+  {
+    "rule_name": "合并冠心病糖尿病患者伴心衰或CKD时优先推荐GLP-1激动剂",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "GLP-1受体激动剂",
+        "优先"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "X",
+          "冠心病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴发疾病",
+        "arguments": [
+          "X",
+          "心力衰竭"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴发疾病",
+        "arguments": [
+          "X",
+          "慢性肾脏病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "合并冠心病的糖尿病患者，推荐使用具有心血管获益证据的GLP-1受体激动剂或SGLT2抑制剂。若患者已确诊动脉粥样硬化性心血管疾病（ASCVD），或伴有心力衰竭（HF）、慢性肾脏病（CKD），应优先考虑选择SGLT2抑制剂或GLP-1受体激动剂。在启动GLP-1受体激动剂治疗前，必须详细询问并记录患者的个人及家族史，若患者本人有甲状腺髓样癌（MTC）病史或多发性内分泌腺瘤病2型（MEN2）病史，则禁用此类药物。"
+  },
+  {
+    "rule_name": "有MTC病史患者禁用GLP-1激动剂",
+    "head": {
+      "is_negative": false,
+      "name": "用药禁忌",
+      "arguments": [
+        "X",
+        "GLP-1受体激动剂",
+        "绝对"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "X",
+          "冠心病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "既往病史",
+        "arguments": [
+          "X",
+          "甲状腺髓样癌"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "合并冠心病的糖尿病患者，推荐使用具有心血管获益证据的GLP-1受体激动剂或SGLT2抑制剂。若患者已确诊动脉粥样硬化性心血管疾病（ASCVD），或伴有心力衰竭（HF）、慢性肾脏病（CKD），应优先考虑选择SGLT2抑制剂或GLP-1受体激动剂。在启动GLP-1受体激动剂治疗前，必须详细询问并记录患者的个人及家族史，若患者本人有甲状腺髓样癌（MTC）病史或多发性内分泌腺瘤病2型（MEN2）病史，则禁用此类药物。"
+  },
+  {
+    "rule_name": "有MEN2病史患者禁用GLP-1激动剂",
+    "head": {
+      "is_negative": false,
+      "name": "用药禁忌",
+      "arguments": [
+        "X",
+        "GLP-1受体激动剂",
+        "绝对"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "X",
+          "冠心病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "既往病史",
+        "arguments": [
+          "X",
+          "多发性内分泌腺瘤病2型"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "合并冠心病的糖尿病患者，推荐使用具有心血管获益证据的GLP-1受体激动剂或SGLT2抑制剂。若患者已确诊动脉粥样硬化性心血管疾病（ASCVD），或伴有心力衰竭（HF）、慢性肾脏病（CKD），应优先考虑选择SGLT2抑制剂或GLP-1受体激动剂。在启动GLP-1受体激动剂治疗前，必须详细询问并记录患者的个人及家族史，若患者本人有甲状腺髓样癌（MTC）病史或多发性内分泌腺瘤病2型（MEN2）病史，则禁用此类药物。"
+  },
+  {
+    "rule_name": "合并冠心病糖尿病患者确诊ASCVD时优先推荐SGLT2抑制剂",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "SGLT2抑制剂",
+        "优先"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "X",
+          "冠心病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "确诊疾病",
+        "arguments": [
+          "X",
+          "动脉粥样硬化性心血管疾病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "合并冠心病的糖尿病患者，推荐使用具有心血管获益证据的GLP-1受体激动剂或SGLT2抑制剂。若患者已确诊动脉粥样硬化性心血管疾病（ASCVD），或伴有心力衰竭（HF）、慢性肾脏病（CKD），应优先考虑选择SGLT2抑制剂或GLP-1受体激动剂。在启动GLP-1受体激动剂治疗前，必须详细询问并记录患者的个人及家族史，若患者本人有甲状腺髓样癌（MTC）病史或多发性内分泌腺瘤病2型（MEN2）病史，则禁用此类药物。"
+  },
+  {
+    "rule_name": "合并冠心病糖尿病患者伴心衰或CKD时优先推荐SGLT2抑制剂",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "SGLT2抑制剂",
+        "优先"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "糖尿病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并疾病",
+        "arguments": [
+          "X",
+          "冠心病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴发疾病",
+        "arguments": [
+          "X",
+          "心力衰竭"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴发疾病",
+        "arguments": [
+          "X",
+          "慢性肾脏病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "合并冠心病的糖尿病患者，推荐使用具有心血管获益证据的GLP-1受体激动剂或SGLT2抑制剂。若患者已确诊动脉粥样硬化性心血管疾病（ASCVD），或伴有心力衰竭（HF）、慢性肾脏病（CKD），应优先考虑选择SGLT2抑制剂或GLP-1受体激动剂。在启动GLP-1受体激动剂治疗前，必须详细询问并记录患者的个人及家族史，若患者本人有甲状腺髓样癌（MTC）病史或多发性内分泌腺瘤病2型（MEN2）病史，则禁用此类药物。"
+  }
+]

@@ -1,0 +1,1885 @@
+[
+  {
+    "rule_name": "为应对发展中国家儿童锌缺乏的普遍性与指南滞后而制定本共识",
+    "head": {
+      "is_negative": false,
+      "name": "制定目的",
+      "arguments": [
+        "C",
+        "规范和指导儿科临床使用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "儿童",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "身处",
+        "arguments": [
+          "X",
+          "发展中国家"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "锌缺乏症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基于群体状况制定",
+        "arguments": [
+          "C",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "共识制定主体",
+        "arguments": [
+          "C",
+          "中国研究型医院学会儿科学专业委员会"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "儿童群体",
+      "C": "本专家共识"
+    },
+    "source_text": "1973 年，WHO 首次确认锌元素在人体生长及健康中不可替代的地位，为其制定详尽的日常膳食标准［1］。1995 年，全国提高儿童生命质量学术会议讨论并发布《锌缺乏症的防治方案( 试行) 》［2］，2010 年，中华医学会儿科学分会儿童保健学组制定并发布《儿童微量营养素缺乏防治建议》［3］，推动了锌元素在儿科临床的合理应用。近年来，全球锌缺乏症的趋势和流行程度趋于稳定，但在发展中国家的儿童中仍具有一定的普遍性，目前缺乏我国锌缺乏发生率的大规模全国性调查数据。鉴于国内相关指南共识内容的滞后性，中国研究型医院学会儿科学专业委员会邀请国内相关领域专家，就我国儿童锌缺乏症的临床防治进行讨论并制定本共识，以期指导和规范锌元素在儿科的临床使用。"
+  },
+  {
+    "rule_name": "儿童过度补锌导致急性毒性及多系统不良影响",
+    "head": {
+      "is_negative": false,
+      "name": "产生急性毒性",
+      "arguments": [
+        "锌摄入超UL剂量",
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "儿童患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "日常膳食锌充足",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "补锌治疗",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致",
+        "arguments": [
+          "补锌治疗",
+          "锌摄入超UL剂量",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "产生不良影响",
+        "arguments": [
+          "锌摄入超UL剂量",
+          "免疫系统",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "产生不良影响",
+        "arguments": [
+          "锌摄入超UL剂量",
+          "铁状态",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "产生不良影响",
+        "arguments": [
+          "锌摄入超UL剂量",
+          "铜状态",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "产生不良影响",
+        "arguments": [
+          "锌摄入超UL剂量",
+          "胆固醇状态",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诱发症状",
+        "arguments": [
+          "锌摄入超UL剂量",
+          "恶心",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诱发症状",
+        "arguments": [
+          "锌摄入超UL剂量",
+          "呕吐",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诱发症状",
+        "arguments": [
+          "锌摄入超UL剂量",
+          "食欲降低",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诱发症状",
+        "arguments": [
+          "锌摄入超UL剂量",
+          "腹泻",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诱发症状",
+        "arguments": [
+          "锌摄入超UL剂量",
+          "头痛",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诱发症状",
+        "arguments": [
+          "锌摄入超UL剂量",
+          "贫血",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诱发症状",
+        "arguments": [
+          "锌摄入超UL剂量",
+          "神经系统病变",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诱发症状",
+        "arguments": [
+          "锌摄入超UL剂量",
+          "脂代谢异常",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "儿童患者"
+    },
+    "source_text": "过度补锌的风险日常膳食锌充足时，加用补锌药物存在锌元素摄入存在超UL 剂量的可能性。儿童最高摄入耐受量( UL) 以内补锌安全性良好［45-45］，不良反应在儿科临床中少见，但高剂量锌会产生急性毒性，可能对免疫系统、铁、铜和胆固醇的状态产生不良影响，可致恶心、呕吐、食欲降低、腹泻及头痛、贫血、神经系统病变和脂代谢异常［46-48］。"
+  },
+  {
+    "rule_name": "WHO指南推荐儿童急性腹泻常规补锌",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "补锌",
+        "常规"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "儿童",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "急性腹泻病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "锌元素对腹泻病的治疗作用已被广泛接受。WHO/UNICEF 在急性腹泻病指南中推荐儿童腹泻常规补锌［31］，认为补锌治疗可减少腹泻病病程，改善腹泻病严重程度。2016 年，我国急性感染性腹泻病指南中也建议补锌，认为补锌可改善腹泻病预后，减少复发率［32］。对有腹泻病风险的患儿，应尽早预防性补锌，补锌剂量可根据儿童膳食营养素参考摄入量( dietary reference intake，DＲI) 和个体锌营养状况确定。( 2) 反复呼吸道感染: 上呼吸道感染和肺炎引起的消化道症状可以减少锌的摄入和吸收，锌的缺乏也可导致反复呼吸道感染。锌元素增强机体的的抗病毒作用可能是通过阻断病毒与呼吸道上皮组织细胞间的ICAM-1 分子实现的［33］。5锌缺乏症的预防人体中的锌元素主要通过膳食获得。预防锌缺乏，首先需要坚持均衡膳食，动物性食物和植物性食物合理搭配，避免偏食，进食一些锌含量较丰富的红肉( 牛肉、瘦猪肉、肝脏等) 、部分海产品( 如牡蛎，但不宜大量食用) 、鱼类、禽类等。对易患缺锌的高危人群适当补充锌的每日供给量，如早产儿/低出生体质量儿、慢性腹泻和吸收不良综合征的患者、长期采用肠外营养的患者等。因母乳锌含量不断降低，出生6 个月以上的婴幼儿，单纯母乳喂养已无法满足其营养性要求［34-35］。根据儿童锌元素营养性需求，可量化地估计其DＲI。2017 年国家卫健委发布行业标准《中国居民膳食营养素参考摄入量》［36］对锌元素的DＲI 给予推荐，包括平均需要量( estimated average requirement，EAＲ) 、推荐摄入量( recommended nutrient intake，ＲNI) 、适宜摄入量( adequate intake，AI) 和可耐受最高摄入量( tolerableupper intake level，UL) ，见表3。由于居住环境、饮食习惯和经济发展水平的差异，锌元素在不同地区不同人群含量不同，补锌时还需参考本地区正常儿童锌元素含量参考值。"
+  },
+  {
+    "rule_name": "我国指南建议急性感染性腹泻病补锌",
+    "head": {
+      "is_negative": false,
+      "name": "治疗建议",
+      "arguments": [
+        "补锌",
+        "临床"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "急性感染性腹泻病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "锌元素对腹泻病的治疗作用已被广泛接受。WHO/UNICEF 在急性腹泻病指南中推荐儿童腹泻常规补锌［31］，认为补锌治疗可减少腹泻病病程，改善腹泻病严重程度。2016 年，我国急性感染性腹泻病指南中也建议补锌，认为补锌可改善腹泻病预后，减少复发率［32］。对有腹泻病风险的患儿，应尽早预防性补锌，补锌剂量可根据儿童膳食营养素参考摄入量( dietary reference intake，DＲI) 和个体锌营养状况确定。( 2) 反复呼吸道感染: 上呼吸道感染和肺炎引起的消化道症状可以减少锌的摄入和吸收，锌的缺乏也可导致反复呼吸道感染。锌元素增强机体的的抗病毒作用可能是通过阻断病毒与呼吸道上皮组织细胞间的ICAM-1 分子实现的［33］。5锌缺乏症的预防人体中的锌元素主要通过膳食获得。预防锌缺乏，首先需要坚持均衡膳食，动物性食物和植物性食物合理搭配，避免偏食，进食一些锌含量较丰富的红肉( 牛肉、瘦猪肉、肝脏等) 、部分海产品( 如牡蛎，但不宜大量食用) 、鱼类、禽类等。对易患缺锌的高危人群适当补充锌的每日供给量，如早产儿/低出生体质量儿、慢性腹泻和吸收不良综合征的患者、长期采用肠外营养的患者等。因母乳锌含量不断降低，出生6 个月以上的婴幼儿，单纯母乳喂养已无法满足其营养性要求［34-35］。根据儿童锌元素营养性需求，可量化地估计其DＲI。2017 年国家卫健委发布行业标准《中国居民膳食营养素参考摄入量》［36］对锌元素的DＲI 给予推荐，包括平均需要量( estimated average requirement，EAＲ) 、推荐摄入量( recommended nutrient intake，ＲNI) 、适宜摄入量( adequate intake，AI) 和可耐受最高摄入量( tolerableupper intake level，UL) ，见表3。由于居住环境、饮食习惯和经济发展水平的差异，锌元素在不同地区不同人群含量不同，补锌时还需参考本地区正常儿童锌元素含量参考值。"
+  },
+  {
+    "rule_name": "对有腹泻病风险的患儿尽早预防性补锌",
+    "head": {
+      "is_negative": false,
+      "name": "预防措施",
+      "arguments": [
+        "补锌",
+        "尽早"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病风险",
+        "arguments": [
+          "X",
+          "腹泻病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "锌元素对腹泻病的治疗作用已被广泛接受。WHO/UNICEF 在急性腹泻病指南中推荐儿童腹泻常规补锌［31］，认为补锌治疗可减少腹泻病病程，改善腹泻病严重程度。2016 年，我国急性感染性腹泻病指南中也建议补锌，认为补锌可改善腹泻病预后，减少复发率［32］。对有腹泻病风险的患儿，应尽早预防性补锌，补锌剂量可根据儿童膳食营养素参考摄入量( dietary reference intake，DＲI) 和个体锌营养状况确定。( 2) 反复呼吸道感染: 上呼吸道感染和肺炎引起的消化道症状可以减少锌的摄入和吸收，锌的缺乏也可导致反复呼吸道感染。锌元素增强机体的的抗病毒作用可能是通过阻断病毒与呼吸道上皮组织细胞间的ICAM-1 分子实现的［33］。5锌缺乏症的预防人体中的锌元素主要通过膳食获得。预防锌缺乏，首先需要坚持均衡膳食，动物性食物和植物性食物合理搭配，避免偏食，进食一些锌含量较丰富的红肉( 牛肉、瘦猪肉、肝脏等) 、部分海产品( 如牡蛎，但不宜大量食用) 、鱼类、禽类等。对易患缺锌的高危人群适当补充锌的每日供给量，如早产儿/低出生体质量儿、慢性腹泻和吸收不良综合征的患者、长期采用肠外营养的患者等。因母乳锌含量不断降低，出生6 个月以上的婴幼儿，单纯母乳喂养已无法满足其营养性要求［34-35］。根据儿童锌元素营养性需求，可量化地估计其DＲI。2017 年国家卫健委发布行业标准《中国居民膳食营养素参考摄入量》［36］对锌元素的DＲI 给予推荐，包括平均需要量( estimated average requirement，EAＲ) 、推荐摄入量( recommended nutrient intake，ＲNI) 、适宜摄入量( adequate intake，AI) 和可耐受最高摄入量( tolerableupper intake level，UL) ，见表3。由于居住环境、饮食习惯和经济发展水平的差异，锌元素在不同地区不同人群含量不同，补锌时还需参考本地区正常儿童锌元素含量参考值。"
+  },
+  {
+    "rule_name": "重度锌缺乏症特征表现_肠病性肢端皮炎患儿",
+    "head": {
+      "is_negative": false,
+      "name": "疾病状态",
+      "arguments": [
+        "X",
+        "重度锌缺乏症"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病于",
+        "arguments": [
+          "X",
+          "肠病性肢端皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征表现",
+        "arguments": [
+          "X",
+          "口周皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征表现",
+        "arguments": [
+          "X",
+          "肢端皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征表现",
+        "arguments": [
+          "X",
+          "腹泻"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征表现",
+        "arguments": [
+          "X",
+          "脱发"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "不同年龄儿童及青少年的锌缺乏症临床表现也存在差异［8，11］。新生儿、婴儿、幼儿及学龄前儿童，锌缺乏症多发认知能力受损，行为及情绪改变等症状，严重锌缺乏时可见肢体或口周的皮损。脱发、生长迟缓、睑结膜炎和反复感染多见于学龄期儿童的锌缺乏症，青春期青少年锌缺乏症可出现性成熟延迟。"
+  },
+  {
+    "rule_name": "重度锌缺乏症特征表现_青霉胺治疗WD患儿",
+    "head": {
+      "is_negative": false,
+      "name": "疾病状态",
+      "arguments": [
+        "X",
+        "重度锌缺乏症"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "肝豆状核变性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗用药",
+        "arguments": [
+          "X",
+          "青霉胺",
+          "长期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征表现",
+        "arguments": [
+          "X",
+          "口周皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征表现",
+        "arguments": [
+          "X",
+          "肢端皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征表现",
+        "arguments": [
+          "X",
+          "腹泻"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特征表现",
+        "arguments": [
+          "X",
+          "脱发"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "不同年龄儿童及青少年的锌缺乏症临床表现也存在差异［8，11］。新生儿、婴儿、幼儿及学龄前儿童，锌缺乏症多发认知能力受损，行为及情绪改变等症状，严重锌缺乏时可见肢体或口周的皮损。脱发、生长迟缓、睑结膜炎和反复感染多见于学龄期儿童的锌缺乏症，青春期青少年锌缺乏症可出现性成熟延迟。"
+  },
+  {
+    "rule_name": "婴幼儿期锌缺乏常见症状",
+    "head": {
+      "is_negative": false,
+      "name": "症状表现",
+      "arguments": [
+        "X",
+        "认知能力受损"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "年龄阶段",
+        "arguments": [
+          "X",
+          "婴幼儿及学龄前"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病状态",
+        "arguments": [
+          "X",
+          "锌缺乏症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "行为改变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "情绪改变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "不同年龄儿童及青少年的锌缺乏症临床表现也存在差异［8，11］。新生儿、婴儿、幼儿及学龄前儿童，锌缺乏症多发认知能力受损，行为及情绪改变等症状，严重锌缺乏时可见肢体或口周的皮损。脱发、生长迟缓、睑结膜炎和反复感染多见于学龄期儿童的锌缺乏症，青春期青少年锌缺乏症可出现性成熟延迟。"
+  },
+  {
+    "rule_name": "婴幼儿期严重锌缺乏皮损症状",
+    "head": {
+      "is_negative": false,
+      "name": "症状表现",
+      "arguments": [
+        "X",
+        "皮损"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "年龄阶段",
+        "arguments": [
+          "X",
+          "婴幼儿及学龄前"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病状态",
+        "arguments": [
+          "X",
+          "重度锌缺乏症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状部位",
+        "arguments": [
+          "皮损",
+          "肢体"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状部位",
+        "arguments": [
+          "皮损",
+          "口周"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "不同年龄儿童及青少年的锌缺乏症临床表现也存在差异［8，11］。新生儿、婴儿、幼儿及学龄前儿童，锌缺乏症多发认知能力受损，行为及情绪改变等症状，严重锌缺乏时可见肢体或口周的皮损。脱发、生长迟缓、睑结膜炎和反复感染多见于学龄期儿童的锌缺乏症，青春期青少年锌缺乏症可出现性成熟延迟。"
+  },
+  {
+    "rule_name": "学龄期儿童锌缺乏典型症状群",
+    "head": {
+      "is_negative": false,
+      "name": "症状表现",
+      "arguments": [
+        "X",
+        "脱发"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "年龄阶段",
+        "arguments": [
+          "X",
+          "学龄期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病状态",
+        "arguments": [
+          "X",
+          "锌缺乏症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "生长迟缓"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "睑结膜炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "反复感染"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "不同年龄儿童及青少年的锌缺乏症临床表现也存在差异［8，11］。新生儿、婴儿、幼儿及学龄前儿童，锌缺乏症多发认知能力受损，行为及情绪改变等症状，严重锌缺乏时可见肢体或口周的皮损。脱发、生长迟缓、睑结膜炎和反复感染多见于学龄期儿童的锌缺乏症，青春期青少年锌缺乏症可出现性成熟延迟。"
+  },
+  {
+    "rule_name": "青春期青少年锌缺乏典型症状",
+    "head": {
+      "is_negative": false,
+      "name": "症状表现",
+      "arguments": [
+        "X",
+        "性成熟延迟"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "年龄阶段",
+        "arguments": [
+          "X",
+          "青春期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病状态",
+        "arguments": [
+          "X",
+          "锌缺乏症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "青少年"
+    },
+    "source_text": "不同年龄儿童及青少年的锌缺乏症临床表现也存在差异［8，11］。新生儿、婴儿、幼儿及学龄前儿童，锌缺乏症多发认知能力受损，行为及情绪改变等症状，严重锌缺乏时可见肢体或口周的皮损。脱发、生长迟缓、睑结膜炎和反复感染多见于学龄期儿童的锌缺乏症，青春期青少年锌缺乏症可出现性成熟延迟。"
+  },
+  {
+    "rule_name": "水解不良类疾病导致锌吸收不良与缺乏",
+    "head": {
+      "is_negative": false,
+      "name": "导致症状",
+      "arguments": [
+        "Y",
+        "锌缺乏"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "疾病",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致病机制",
+        "arguments": [
+          "Y",
+          "引起肠腔成分水解不良"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影响生理过程",
+        "arguments": [
+          "Y",
+          "肠道锌吸收"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生理过程状态",
+        "arguments": [
+          "肠道锌吸收",
+          "不良"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "疾病（如胰腺功能不全、炎症性肠病）"
+    },
+    "source_text": "胰腺功能不全和炎症性肠病等引起肠腔成分水解不良的疾病会影响肠道锌吸收，引起锌缺乏。"
+  },
+  {
+    "rule_name": "肠病性肢端皮炎患者基因异常导致锌转运蛋白合成受阻与吸收减少",
+    "head": {
+      "is_negative": false,
+      "name": "肠道锌吸收率",
+      "arguments": [
+        "X",
+        "减少"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "肠病性肢端皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基因型",
+        "arguments": [
+          "X",
+          "SLC39A4基因异常"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致结果",
+        "arguments": [
+          "SLC39A4基因异常",
+          "hZIP4无法合成"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "AE 患者由于体内SLC39A4基因异常，人类锌离子转运蛋白4( hZIP4) 无法顺利合成，肠道锌吸收减少，从而使细胞内、血清或血浆锌水平降低，引起遗传性锌缺乏。"
+  },
+  {
+    "rule_name": "肠病性肢端皮炎患者锌吸收减少导致血锌降低与重度缺乏",
+    "head": {
+      "is_negative": false,
+      "name": "患病",
+      "arguments": [
+        "X",
+        "重度锌缺乏症"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "肠病性肢端皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肠道锌吸收率",
+        "arguments": [
+          "X",
+          "减少"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致结果",
+        "arguments": [
+          "肠道锌吸收率减少",
+          "细胞内血清血浆锌水平降低"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "AE 患者由于体内SLC39A4基因异常，人类锌离子转运蛋白4( hZIP4) 无法顺利合成，肠道锌吸收减少，从而使细胞内、血清或血浆锌水平降低，引起遗传性锌缺乏。"
+  },
+  {
+    "rule_name": "肠病性肢端皮炎患者的多系统病变三联征临床表现",
+    "head": {
+      "is_negative": false,
+      "name": "具有临床表现",
+      "arguments": [
+        "X",
+        "三联征"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "肠病性肢端皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变涉及系统",
+        "arguments": [
+          "X",
+          "皮肤胃肠道神经免疫系统"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要特征",
+        "arguments": [
+          "X",
+          "肢端及口周皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要特征",
+        "arguments": [
+          "X",
+          "脱发"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要特征",
+        "arguments": [
+          "X",
+          "腹泻"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "AE 临床表现包括皮肤、胃肠道、神经和免疫多个系统的联合病变，以肢端及口周皮炎、脱发和腹泻三联征为主要特点。"
+  },
+  {
+    "rule_name": "植酸与锌结合形成不溶复合物阻碍消化吸收",
+    "head": {
+      "is_negative": false,
+      "name": "导致结果",
+      "arguments": [
+        "a",
+        "锌不能被消化吸收"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "物质",
+        "arguments": [
+          "a",
+          "植酸"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用对象",
+        "arguments": [
+          "a",
+          "肠腔内锌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用机制",
+        "arguments": [
+          "a",
+          "结合形成不溶性复合物"
+        ]
+      }
+    ],
+    "variables": {
+      "a": "植酸"
+    },
+    "source_text": "植酸能与肠腔内的锌结合，形成不溶性复合物，导致锌不能被消化或吸收。"
+  },
+  {
+    "rule_name": "钙剂铁剂通过竞争抑制降低锌吸收率",
+    "head": {
+      "is_negative": false,
+      "name": "降低生理过程效率",
+      "arguments": [
+        "Z",
+        "锌吸收率"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物类别",
+        "arguments": [
+          "Z",
+          "钙剂铁剂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用机制",
+        "arguments": [
+          "Z",
+          "竞争性抑制"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用机制",
+        "arguments": [
+          "Z",
+          "干扰锌吸收环节"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "药物（钙剂、铁剂）"
+    },
+    "source_text": "钙剂、铁剂等可通过竞争性抑制或干扰锌吸收的多个环节，降低锌吸收率。"
+  },
+  {
+    "rule_name": "喹诺酮多西环素与锌形成螯合物阻碍吸收",
+    "head": {
+      "is_negative": false,
+      "name": "阻碍生理过程",
+      "arguments": [
+        "Z",
+        "锌吸收"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物类别",
+        "arguments": [
+          "Z",
+          "喹诺酮类多西环素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用机制",
+        "arguments": [
+          "Z",
+          "与多价阳离子锌形成不溶性离子药物螯合物"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "药物（喹诺酮类、多西环素）"
+    },
+    "source_text": "喹诺酮类、多西环素与多价阳离子锌等形成不溶性离子药物螯合物，阻碍吸收。"
+  },
+  {
+    "rule_name": "抗酸药及H2受体阻断剂造成高pH环境减少锌吸收",
+    "head": {
+      "is_negative": false,
+      "name": "减少生理过程",
+      "arguments": [
+        "Z",
+        "锌的吸收"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "药物类别",
+        "arguments": [
+          "Z",
+          "抗酸药抑制胃酸分泌药"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体药物",
+        "arguments": [
+          "Z",
+          "H2受体阻断剂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体药物",
+        "arguments": [
+          "Z",
+          "西咪替丁法莫替丁雷尼替丁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用机制",
+        "arguments": [
+          "Z",
+          "造成胃内高pH环境"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "药物（抗酸药、H2受体阻断剂等）"
+    },
+    "source_text": "抗酸药和抑制胃酸分泌药，如H2 受体阻断剂西咪替丁、法莫替丁、雷尼替丁等，造成胃内高pH 环境，减少锌的吸收。"
+  },
+  {
+    "rule_name": "腹泻感染与锌缺乏互为因果形成恶性循环",
+    "head": {
+      "is_negative": false,
+      "name": "互为因果",
+      "arguments": [
+        "X",
+        "疾病迁延不愈",
+        "锌缺乏症"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴发症状",
+        "arguments": [
+          "X",
+          "腹泻"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴发症状",
+        "arguments": [
+          "X",
+          "感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "锌缺乏症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "锌的摄入不足、吸收不良、丢失过多或需求增加等影响锌稳态的因素均可能导致锌缺乏。某些情况下( 如腹泻、感染) ，不仅会同时影响锌代谢的不同阶段导致锌缺乏，而且锌缺乏也会影响人体正常免疫功能导致疾病迁延不愈，互为因果，形成恶性循环。"
+  },
+  {
+    "rule_name": "母亲基因突变导致母乳锌不足引发新生儿锌缺乏",
+    "head": {
+      "is_negative": false,
+      "name": "患有疾病",
+      "arguments": [
+        "X",
+        "短暂性新生儿锌缺乏症"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "新生儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "母亲",
+        "arguments": [
+          "X",
+          "M"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基因突变",
+        "arguments": [
+          "M",
+          "SLC30A2基因"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "锌转运体合成不足",
+        "arguments": [
+          "M",
+          "ZnT2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "母乳锌含量",
+        "arguments": [
+          "M",
+          "不足"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "新生儿",
+      "M": "母亲"
+    },
+    "source_text": "母乳锌摄入不足: 短暂性新生儿锌缺乏症( transient neonatal zinc deficiency，TNZD) 是一种常染色体显性遗传病，母亲SLC30A2 基因突变，ZnT2 锌转运体合成不足，母体无法将锌元素足量转运至母乳内，导致新生儿锌缺乏［17-18］。"
+  },
+  {
+    "rule_name": "六月龄后辅食锌低且伴腹泻导致婴幼儿锌缺乏风险高",
+    "head": {
+      "is_negative": false,
+      "name": "导致风险",
+      "arguments": [
+        "X",
+        "锌缺乏症",
+        "较高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "婴幼儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "年龄大于",
+        "arguments": [
+          "X",
+          "6个月"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "辅食成分",
+        "arguments": [
+          "X",
+          "锌含量低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴发症状",
+        "arguments": [
+          "X",
+          "腹泻"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "喂养方式",
+        "arguments": [
+          "X",
+          "单纯母乳"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "婴幼儿"
+    },
+    "source_text": "膳食锌摄入不足: 出生6 个月后的婴幼儿，单纯母乳喂养已不能满足其对锌元素的营养性需求，若辅食锌含量较低，婴幼儿锌缺乏症的发生风险将变大，尤其当小儿伴发腹泻时，锌元素流失加剧，锌缺乏症更加严重。"
+  },
+  {
+    "rule_name": "低收入地区辅食高植酸低锌致婴幼儿轻中度锌缺乏风险高",
+    "head": {
+      "is_negative": false,
+      "name": "导致风险",
+      "arguments": [
+        "X",
+        "轻中度锌缺乏症",
+        "较高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "婴幼儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "居住地区",
+        "arguments": [
+          "X",
+          "低收入地区"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "辅食成分",
+        "arguments": [
+          "X",
+          "高锌食物少"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "辅食成分",
+        "arguments": [
+          "X",
+          "肌醇六磷酸含量高"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "婴幼儿"
+    },
+    "source_text": "低收入地区，婴幼儿所添加的辅食中高锌食物少，肌醇六磷酸含量高，发生轻中度锌缺乏症的风险较高［19］。"
+  },
+  {
+    "rule_name": "以植物性食物为主膳食因植酸干扰易致锌缺乏",
+    "head": {
+      "is_negative": false,
+      "name": "易导致",
+      "arguments": [
+        "X",
+        "锌缺乏"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "膳食结构",
+        "arguments": [
+          "X",
+          "植物性食物为主"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要食物",
+        "arguments": [
+          "X",
+          "谷物坚果豆类"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "含有成分",
+        "arguments": [
+          "谷物坚果豆类",
+          "植酸"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干扰吸收",
+        "arguments": [
+          "植酸",
+          "肠道锌"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "个体"
+    },
+    "source_text": "在植物性食物中，水果、蔬菜、根茎类食物的锌含量较低，谷物、坚果和豆类由于植酸干扰肠道锌的吸收，使锌的生物利用率降低，以植物性食物为主的膳食易导致锌缺乏［14］。"
+  },
+  {
+    "rule_name": "早产儿因锌储存不足且未补锌易发锌缺乏及生长障碍",
+    "head": {
+      "is_negative": false,
+      "name": "伴发症状",
+      "arguments": [
+        "X",
+        "生长障碍"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "早产儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "体内锌储存",
+        "arguments": [
+          "X",
+          "不足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "未接受治疗",
+        "arguments": [
+          "X",
+          "补锌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "锌缺乏症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "早产儿"
+    },
+    "source_text": "早产儿/小于胎龄儿由于出生时体内锌储存不足、潜在的摄入不足以及内源性丢失增加等因素，容易出现锌缺乏［20］。若未及时给予补锌治疗，多伴发较严重的生长障碍［21-24］。"
+  },
+  {
+    "rule_name": "早产儿充分喂养仍生长迟缓应考虑锌缺乏",
+    "head": {
+      "is_negative": false,
+      "name": "应考虑诊断",
+      "arguments": [
+        "X",
+        "锌缺乏症"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "早产儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受喂养",
+        "arguments": [
+          "X",
+          "充分能量及宏量营养素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出现症状",
+        "arguments": [
+          "X",
+          "生长迟缓"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "其他明确病因",
+        "arguments": [
+          "X",
+          "生长迟缓"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "早产儿"
+    },
+    "source_text": "给予早产儿/小于胎龄儿充分能量及宏量营养素时，婴儿仍然出现生长迟缓时，应考虑到锌缺乏症的可能。"
+  },
+  {
+    "rule_name": "消化道功能障碍疾病影响锌吸收致锌缺乏",
+    "head": {
+      "is_negative": false,
+      "name": "导致疾病",
+      "arguments": [
+        "X",
+        "锌缺乏症"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "胰腺功能不全"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "炎症性肠病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引发结果",
+        "arguments": [
+          "胰腺功能不全炎症性肠病",
+          "肠腔成分水解不良"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影响过程",
+        "arguments": [
+          "肠腔成分水解不良",
+          "肠道锌吸收"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "消化道功能障碍: 膳食锌经胃肠道消化吸收进入人体。胰腺功能不全和炎症性肠病等引起肠腔成分水解不良的疾病会影响肠道锌吸收，引起锌缺乏。"
+  },
+  {
+    "rule_name": "肠病性肢端皮炎遗传病致重度锌缺乏",
+    "head": {
+      "is_negative": false,
+      "name": "患有疾病",
+      "arguments": [
+        "X",
+        "重度锌缺乏症"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "婴儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "肠病性肢端皮炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "遗传模式",
+        "arguments": [
+          "肠病性肢端皮炎",
+          "常染色体隐性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病时段",
+        "arguments": [
+          "X",
+          "断奶后4至6周"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "婴儿"
+    },
+    "source_text": "肠病性肢端皮炎( acrodermatitis enteropathica，AE)［25］是一种常染色体隐性遗传病，多导致重度锌缺乏症，多发于断奶4 ～6 周的婴儿。"
+  },
+  {
+    "rule_name": "含锌物质经口服后的消化与离子化释放过程",
+    "head": {
+      "is_negative": false,
+      "name": "释放形式",
+      "arguments": [
+        "X",
+        "锌离子"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "含锌物质",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "摄入方式",
+        "arguments": [
+          "Y",
+          "口服"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "含元素",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "消化作用",
+        "arguments": [
+          "Y",
+          "胃"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肠道",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "实体",
+        "arguments": [
+          "X",
+          "锌元素"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "含锌食物或药物",
+      "X": "锌元素",
+      "Z": "肠道"
+    },
+    "source_text": "锌元素的代谢及生理功能含锌食物或药物经口摄入，胃中消化后，锌元素以锌离子的形式被释放入肠道。锌离子可与肠腔内配体( 内源/外源性) 结合后，在十二指肠远端及空肠近端通过跨细胞转运方式转运进入门静脉系统。柠檬酸促进锌的吸收，而铁、纤维素、肌醇六磷酸作为锌的螯合剂抑制锌的吸收。人体超过85%的锌元素被储存在骨骼肌( 约60%) 和骨骼( 约25%) 中，血液仅储存人体约0. 1%的锌，其中约70%与白蛋白结合。儿童的锌元素利用量虽在不同生长发育期的区别较大，但短期内，锌利用量对锌稳态影响不大，此时肠道内的锌吸收与锌排泄量的变化，对机体锌稳态的影响最大，肠道相关病变会严重干扰锌稳态。同时，人体不同时间点生理节律也会造成锌稳态的扰动，但影响较小［4］。锌元素通过细胞信号转导、催化、构型及基因转录调控等多途径［5］，发挥多样的生物学作用，参与儿童生长发育，包括生殖器官和性腺发育，与正常食欲和味觉维持、免疫功能等多种生理功能密切相关［6］。"
+  },
+  {
+    "rule_name": "锌离子在肠道的结合、转运及吸收的双向调节",
+    "head": {
+      "is_negative": false,
+      "name": "吸收途径",
+      "arguments": [
+        "X",
+        "跨细胞转运"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "锌离子",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肠道部位",
+        "arguments": [
+          "Z",
+          "十二指肠远端"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肠道部位",
+        "arguments": [
+          "Z",
+          "空肠近端"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "结合对象",
+        "arguments": [
+          "X",
+          "肠腔内配体"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影响物质",
+        "arguments": [
+          "W",
+          "柠檬酸"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影响作用",
+        "arguments": [
+          "W",
+          "X",
+          "促进"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影响物质",
+        "arguments": [
+          "K",
+          "铁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影响作用",
+        "arguments": [
+          "K",
+          "X",
+          "抑制"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "锌离子",
+      "Z": "肠道",
+      "W": "柠檬酸",
+      "K": "铁、纤维素或肌醇六磷酸"
+    },
+    "source_text": "锌元素的代谢及生理功能含锌食物或药物经口摄入，胃中消化后，锌元素以锌离子的形式被释放入肠道。锌离子可与肠腔内配体( 内源/外源性) 结合后，在十二指肠远端及空肠近端通过跨细胞转运方式转运进入门静脉系统。柠檬酸促进锌的吸收，而铁、纤维素、肌醇六磷酸作为锌的螯合剂抑制锌的吸收。人体超过85%的锌元素被储存在骨骼肌( 约60%) 和骨骼( 约25%) 中，血液仅储存人体约0. 1%的锌，其中约70%与白蛋白结合。儿童的锌元素利用量虽在不同生长发育期的区别较大，但短期内，锌利用量对锌稳态影响不大，此时肠道内的锌吸收与锌排泄量的变化，对机体锌稳态的影响最大，肠道相关病变会严重干扰锌稳态。同时，人体不同时间点生理节律也会造成锌稳态的扰动，但影响较小［4］。锌元素通过细胞信号转导、催化、构型及基因转录调控等多途径［5］，发挥多样的生物学作用，参与儿童生长发育，包括生殖器官和性腺发育，与正常食欲和味觉维持、免疫功能等多种生理功能密切相关［6］。"
+  },
+  {
+    "rule_name": "锌元素在人体组织中的主要储存分布与血液结合状态",
+    "head": {
+      "is_negative": false,
+      "name": "储存总量比例",
+      "arguments": [
+        "X",
+        "S",
+        "大于85%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "实体",
+        "arguments": [
+          "X",
+          "锌元素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "人体组织",
+        "arguments": [
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要储存组织",
+        "arguments": [
+          "S",
+          "骨骼肌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "储存比例",
+        "arguments": [
+          "X",
+          "骨骼肌",
+          "约60%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要储存组织",
+        "arguments": [
+          "T",
+          "骨骼"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "储存比例",
+        "arguments": [
+          "X",
+          "骨骼",
+          "约25%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血液",
+        "arguments": [
+          "B"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "储存比例",
+        "arguments": [
+          "X",
+          "B",
+          "约0.1%"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "锌元素",
+      "S": "骨骼肌和骨骼的并集",
+      "T": "骨骼",
+      "B": "血液"
+    },
+    "source_text": "锌元素的代谢及生理功能含锌食物或药物经口摄入，胃中消化后，锌元素以锌离子的形式被释放入肠道。锌离子可与肠腔内配体( 内源/外源性) 结合后，在十二指肠远端及空肠近端通过跨细胞转运方式转运进入门静脉系统。柠檬酸促进锌的吸收，而铁、纤维素、肌醇六磷酸作为锌的螯合剂抑制锌的吸收。人体超过85%的锌元素被储存在骨骼肌( 约60%) 和骨骼( 约25%) 中，血液仅储存人体约0. 1%的锌，其中约70%与白蛋白结合。儿童的锌元素利用量虽在不同生长发育期的区别较大，但短期内，锌利用量对锌稳态影响不大，此时肠道内的锌吸收与锌排泄量的变化，对机体锌稳态的影响最大，肠道相关病变会严重干扰锌稳态。同时，人体不同时间点生理节律也会造成锌稳态的扰动，但影响较小［4］。锌元素通过细胞信号转导、催化、构型及基因转录调控等多途径［5］，发挥多样的生物学作用，参与儿童生长发育，包括生殖器官和性腺发育，与正常食欲和味觉维持、免疫功能等多种生理功能密切相关［6］。"
+  },
+  {
+    "rule_name": "儿童短期锌稳态的关键影响因素与肠道病变的严重干扰",
+    "head": {
+      "is_negative": false,
+      "name": "关键稳态影响因子",
+      "arguments": [
+        "P",
+        "Z"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "儿童",
+        "arguments": [
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "锌元素",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "稳态属性",
+        "arguments": [
+          "X",
+          "锌稳态"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "短期时间尺度",
+        "arguments": [
+          "T"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "变化过程",
+        "arguments": [
+          "C",
+          "肠道锌吸收"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "变化过程",
+        "arguments": [
+          "D",
+          "锌排泄"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要影响",
+        "arguments": [
+          "C",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要影响",
+        "arguments": [
+          "D",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "次要影响",
+        "arguments": [
+          "E",
+          "锌利用量"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肠道",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理状态",
+        "arguments": [
+          "Z",
+          "肠道病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "干扰强度",
+        "arguments": [
+          "Z",
+          "X",
+          "严重"
+        ]
+      }
+    ],
+    "variables": {
+      "P": "儿童",
+      "X": "锌元素",
+      "T": "短期",
+      "C": "肠道锌吸收变化",
+      "D": "锌排泄变化",
+      "E": "锌利用量变化",
+      "Z": "肠道"
+    },
+    "source_text": "锌元素的代谢及生理功能含锌食物或药物经口摄入，胃中消化后，锌元素以锌离子的形式被释放入肠道。锌离子可与肠腔内配体( 内源/外源性) 结合后，在十二指肠远端及空肠近端通过跨细胞转运方式转运进入门静脉系统。柠檬酸促进锌的吸收，而铁、纤维素、肌醇六磷酸作为锌的螯合剂抑制锌的吸收。人体超过85%的锌元素被储存在骨骼肌( 约60%) 和骨骼( 约25%) 中，血液仅储存人体约0. 1%的锌，其中约70%与白蛋白结合。儿童的锌元素利用量虽在不同生长发育期的区别较大，但短期内，锌利用量对锌稳态影响不大，此时肠道内的锌吸收与锌排泄量的变化，对机体锌稳态的影响最大，肠道相关病变会严重干扰锌稳态。同时，人体不同时间点生理节律也会造成锌稳态的扰动，但影响较小［4］。锌元素通过细胞信号转导、催化、构型及基因转录调控等多途径［5］，发挥多样的生物学作用，参与儿童生长发育，包括生殖器官和性腺发育，与正常食欲和味觉维持、免疫功能等多种生理功能密切相关［6］。"
+  },
+  {
+    "rule_name": "锌元素通过多种途径介导儿童多系统生理功能",
+    "head": {
+      "is_negative": false,
+      "name": "生物学作用",
+      "arguments": [
+        "X",
+        "多样的"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "实体",
+        "arguments": [
+          "X",
+          "锌元素"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用途径",
+        "arguments": [
+          "X",
+          "细胞信号转导"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用途径",
+        "arguments": [
+          "X",
+          "催化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用途径",
+        "arguments": [
+          "X",
+          "构型"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用途径",
+        "arguments": [
+          "X",
+          "基因转录调控"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "儿童",
+        "arguments": [
+          "P"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "锌元素",
+      "P": "儿童"
+    },
+    "source_text": "锌元素的代谢及生理功能含锌食物或药物经口摄入，胃中消化后，锌元素以锌离子的形式被释放入肠道。锌离子可与肠腔内配体( 内源/外源性) 结合后，在十二指肠远端及空肠近端通过跨细胞转运方式转运进入门静脉系统。柠檬酸促进锌的吸收，而铁、纤维素、肌醇六磷酸作为锌的螯合剂抑制锌的吸收。人体超过85%的锌元素被储存在骨骼肌( 约60%) 和骨骼( 约25%) 中，血液仅储存人体约0. 1%的锌，其中约70%与白蛋白结合。儿童的锌元素利用量虽在不同生长发育期的区别较大，但短期内，锌利用量对锌稳态影响不大，此时肠道内的锌吸收与锌排泄量的变化，对机体锌稳态的影响最大，肠道相关病变会严重干扰锌稳态。同时，人体不同时间点生理节律也会造成锌稳态的扰动，但影响较小［4］。锌元素通过细胞信号转导、催化、构型及基因转录调控等多途径［5］，发挥多样的生物学作用，参与儿童生长发育，包括生殖器官和性腺发育，与正常食欲和味觉维持、免疫功能等多种生理功能密切相关［6］。"
+  }
+]

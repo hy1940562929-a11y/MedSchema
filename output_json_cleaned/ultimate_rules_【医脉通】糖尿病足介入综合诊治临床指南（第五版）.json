@@ -1,0 +1,1962 @@
+[
+  {
+    "rule_name": "基于低TcPO2值诊断糖尿病足伴有CLI",
+    "head": {
+      "is_negative": false,
+      "name": "指示诊断",
+      "arguments": [
+        "X",
+        "CLI"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测指标",
+        "arguments": [
+          "X",
+          "TcPO2值"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "检测TcPO2值",
+          "TcPO2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "量化关系",
+        "arguments": [
+          "TcPO2值",
+          "小于",
+          "30mmHg"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断标准",
+        "arguments": [
+          "量化关系",
+          "依据TASCⅡ型"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "TcPO2可反映糖尿病足或CLI患者下肢氧代谢状况，是目前最常用的检测组织血液灌注水平较为可靠的方法。TcPO2可用于评估大血管病变及微血管灌注障碍严重程度，判断患者是否需要进行血管再通，并预测治疗效果及溃疡愈合概率。TcPO2一般检测部位为足背、膝下及膝上10 cm处的腿前外侧，正常值约60 mmHg。参照TASC Ⅱ型，TcPO2＜30 mmHg可作为诊断糖尿病足伴有CLI及预测溃疡不愈的临界值。"
+  },
+  {
+    "rule_name": "基于低TcPO2值评估大血管病变严重程度",
+    "head": {
+      "is_negative": false,
+      "name": "指示严重程度",
+      "arguments": [
+        "X",
+        "大血管病变",
+        "重度"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测指标",
+        "arguments": [
+          "X",
+          "TcPO2值"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "检测TcPO2值",
+          "TcPO2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "量化关系",
+        "arguments": [
+          "TcPO2值",
+          "小于",
+          "30mmHg"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估对象",
+        "arguments": [
+          "检测TcPO2值",
+          "大血管病变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "TcPO2可反映糖尿病足或CLI患者下肢氧代谢状况，是目前最常用的检测组织血液灌注水平较为可靠的方法。TcPO2可用于评估大血管病变及微血管灌注障碍严重程度，判断患者是否需要进行血管再通，并预测治疗效果及溃疡愈合概率。TcPO2一般检测部位为足背、膝下及膝上10 cm处的腿前外侧，正常值约60 mmHg。参照TASC Ⅱ型，TcPO2＜30 mmHg可作为诊断糖尿病足伴有CLI及预测溃疡不愈的临界值。"
+  },
+  {
+    "rule_name": "基于低TcPO2值评估微血管灌注障碍严重程度",
+    "head": {
+      "is_negative": false,
+      "name": "指示严重程度",
+      "arguments": [
+        "X",
+        "微血管灌注障碍",
+        "重度"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测指标",
+        "arguments": [
+          "X",
+          "TcPO2值"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "检测TcPO2值",
+          "TcPO2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "量化关系",
+        "arguments": [
+          "TcPO2值",
+          "小于",
+          "30mmHg"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估对象",
+        "arguments": [
+          "检测TcPO2值",
+          "微血管灌注障碍"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "TcPO2可反映糖尿病足或CLI患者下肢氧代谢状况，是目前最常用的检测组织血液灌注水平较为可靠的方法。TcPO2可用于评估大血管病变及微血管灌注障碍严重程度，判断患者是否需要进行血管再通，并预测治疗效果及溃疡愈合概率。TcPO2一般检测部位为足背、膝下及膝上10 cm处的腿前外侧，正常值约60 mmHg。参照TASC Ⅱ型，TcPO2＜30 mmHg可作为诊断糖尿病足伴有CLI及预测溃疡不愈的临界值。"
+  },
+  {
+    "rule_name": "基于低TcPO2值预测糖尿病足溃疡不愈合",
+    "head": {
+      "is_negative": false,
+      "name": "预测结果",
+      "arguments": [
+        "Y",
+        "不愈合",
+        "高概率"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡病灶",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测指标",
+        "arguments": [
+          "X",
+          "TcPO2值"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法",
+        "arguments": [
+          "检测TcPO2值",
+          "TcPO2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "量化关系",
+        "arguments": [
+          "TcPO2值",
+          "小于",
+          "30mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡病灶"
+    },
+    "source_text": "TcPO2可反映糖尿病足或CLI患者下肢氧代谢状况，是目前最常用的检测组织血液灌注水平较为可靠的方法。TcPO2可用于评估大血管病变及微血管灌注障碍严重程度，判断患者是否需要进行血管再通，并预测治疗效果及溃疡愈合概率。TcPO2一般检测部位为足背、膝下及膝上10 cm处的腿前外侧，正常值约60 mmHg。参照TASC Ⅱ型，TcPO2＜30 mmHg可作为诊断糖尿病足伴有CLI及预测溃疡不愈的临界值。"
+  },
+  {
+    "rule_name": "糖尿病足特征_高发病率及后果",
+    "head": {
+      "is_negative": false,
+      "name": "严重影响健康",
+      "arguments": [
+        "X",
+        "中国人民"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病并发症",
+        "arguments": [
+          "X",
+          "糖尿病足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高发病率",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "标准方法缺失",
+        "arguments": [
+          "X",
+          "统一标准化治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "严重影响生活质量",
+        "arguments": [
+          "X",
+          "中国人民"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病足病例"
+    },
+    "source_text": "Diabetic foot is one of the most common complications of diabetes mellitus，and it has the characteristics of high incidence，high disability rate，high mortality and low cure rate，which has seriously affected the health and quality of life of Chinese people. However，so far there has been no uniform and standardized therapeutic method for diabetic foot. In 2015，China Diabetic Cellular and Interventional Therapy Technology Alliance for Diabetic Foot formulated the《Clinical Guidelines for Comprehensive Diagnosis and Treatment of Diabetic Foot （first edition）》，which filled in the blank of diabetic foot treatment standard in China and has played an important role in improving the treatment level of diabetic foot in China."
+  },
+  {
+    "rule_name": "糖尿病足特征_高致残率及后果",
+    "head": {
+      "is_negative": false,
+      "name": "严重影响健康",
+      "arguments": [
+        "X",
+        "中国人民"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病并发症",
+        "arguments": [
+          "X",
+          "糖尿病足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高致残率",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "标准方法缺失",
+        "arguments": [
+          "X",
+          "统一标准化治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "严重影响生活质量",
+        "arguments": [
+          "X",
+          "中国人民"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病足病例"
+    },
+    "source_text": "Diabetic foot is one of the most common complications of diabetes mellitus，and it has the characteristics of high incidence，high disability rate，high mortality and low cure rate，which has seriously affected the health and quality of life of Chinese people. However，so far there has been no uniform and standardized therapeutic method for diabetic foot. In 2015，China Diabetic Cellular and Interventional Therapy Technology Alliance for Diabetic Foot formulated the《Clinical Guidelines for Comprehensive Diagnosis and Treatment of Diabetic Foot （first edition）》，which filled in the blank of diabetic foot treatment standard in China and has played an important role in improving the treatment level of diabetic foot in China."
+  },
+  {
+    "rule_name": "糖尿病足特征_高死亡率及后果",
+    "head": {
+      "is_negative": false,
+      "name": "严重影响健康",
+      "arguments": [
+        "X",
+        "中国人民"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病并发症",
+        "arguments": [
+          "X",
+          "糖尿病足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高死亡率",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "标准方法缺失",
+        "arguments": [
+          "X",
+          "统一标准化治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "严重影响生活质量",
+        "arguments": [
+          "X",
+          "中国人民"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病足病例"
+    },
+    "source_text": "Diabetic foot is one of the most common complications of diabetes mellitus，and it has the characteristics of high incidence，high disability rate，high mortality and low cure rate，which has seriously affected the health and quality of life of Chinese people. However，so far there has been no uniform and standardized therapeutic method for diabetic foot. In 2015，China Diabetic Cellular and Interventional Therapy Technology Alliance for Diabetic Foot formulated the《Clinical Guidelines for Comprehensive Diagnosis and Treatment of Diabetic Foot （first edition）》，which filled in the blank of diabetic foot treatment standard in China and has played an important role in improving the treatment level of diabetic foot in China."
+  },
+  {
+    "rule_name": "糖尿病足特征_低治愈率及后果",
+    "head": {
+      "is_negative": false,
+      "name": "严重影响健康",
+      "arguments": [
+        "X",
+        "中国人民"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病并发症",
+        "arguments": [
+          "X",
+          "糖尿病足"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "低治愈率",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "标准方法缺失",
+        "arguments": [
+          "X",
+          "统一标准化治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "严重影响生活质量",
+        "arguments": [
+          "X",
+          "中国人民"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "糖尿病足病例"
+    },
+    "source_text": "Diabetic foot is one of the most common complications of diabetes mellitus，and it has the characteristics of high incidence，high disability rate，high mortality and low cure rate，which has seriously affected the health and quality of life of Chinese people. However，so far there has been no uniform and standardized therapeutic method for diabetic foot. In 2015，China Diabetic Cellular and Interventional Therapy Technology Alliance for Diabetic Foot formulated the《Clinical Guidelines for Comprehensive Diagnosis and Treatment of Diabetic Foot （first edition）》，which filled in the blank of diabetic foot treatment standard in China and has played an important role in improving the treatment level of diabetic foot in China."
+  },
+  {
+    "rule_name": "首版指南填补治疗空白",
+    "head": {
+      "is_negative": false,
+      "name": "填补空白",
+      "arguments": [
+        "Y",
+        "中国糖尿病足治疗标准"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "发布主体",
+        "arguments": [
+          "Y",
+          "中国糖尿病足细胞与介入治疗技术联盟"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指南内容",
+        "arguments": [
+          "Y",
+          "糖尿病足综合诊治临床指南"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指南版本",
+        "arguments": [
+          "Y",
+          "第一版"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发布时间",
+        "arguments": [
+          "Y",
+          "2015年"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提升水平",
+        "arguments": [
+          "Y",
+          "中国糖尿病足治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "糖尿病足临床指南"
+    },
+    "source_text": "Diabetic foot is one of the most common complications of diabetes mellitus，and it has the characteristics of high incidence，high disability rate，high mortality and low cure rate，which has seriously affected the health and quality of life of Chinese people. However，so far there has been no uniform and standardized therapeutic method for diabetic foot. In 2015，China Diabetic Cellular and Interventional Therapy Technology Alliance for Diabetic Foot formulated the《Clinical Guidelines for Comprehensive Diagnosis and Treatment of Diabetic Foot （first edition）》，which filled in the blank of diabetic foot treatment standard in China and has played an important role in improving the treatment level of diabetic foot in China."
+  },
+  {
+    "rule_name": "糖尿病足溃疡Wagner分级_0级",
+    "head": {
+      "is_negative": false,
+      "name": "分级为",
+      "arguments": [
+        "Y",
+        "Wagner 0级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "无溃疡特征",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "糖尿病足溃疡"
+    },
+    "source_text": "2.7溃疡和感染评估与分级糖尿病足溃疡评估尚无统一标准，一般需考虑溃疡面积、累及组织深度、合并感染及组织坏死情况，目前常用Wagner分级（表2）。分级症状0级无溃疡1级浅表溃疡，累及皮肤全层但不累及皮下组织2级深部溃疡穿透到肌肉层与韧带，不累及骨骼，无脓肿3级深部溃疡合并蜂窝织炎或脓肿形成，常伴有骨髓炎4级局部小范围坏疽5级累及整个足的大范围坏疽"
+  },
+  {
+    "rule_name": "糖尿病足溃疡Wagner分级_1级",
+    "head": {
+      "is_negative": false,
+      "name": "分级为",
+      "arguments": [
+        "Y",
+        "Wagner 1级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "浅表溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "累及皮肤全层",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "累及皮下组织",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "糖尿病足溃疡"
+    },
+    "source_text": "2.7溃疡和感染评估与分级糖尿病足溃疡评估尚无统一标准，一般需考虑溃疡面积、累及组织深度、合并感染及组织坏死情况，目前常用Wagner分级（表2）。分级症状0级无溃疡1级浅表溃疡，累及皮肤全层但不累及皮下组织2级深部溃疡穿透到肌肉层与韧带，不累及骨骼，无脓肿3级深部溃疡合并蜂窝织炎或脓肿形成，常伴有骨髓炎4级局部小范围坏疽5级累及整个足的大范围坏疽"
+  },
+  {
+    "rule_name": "糖尿病足溃疡Wagner分级_2级",
+    "head": {
+      "is_negative": false,
+      "name": "分级为",
+      "arguments": [
+        "Y",
+        "Wagner 2级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "深部溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "穿透至肌肉韧带",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "累及骨骼",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "脓肿形成",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "糖尿病足溃疡"
+    },
+    "source_text": "2.7溃疡和感染评估与分级糖尿病足溃疡评估尚无统一标准，一般需考虑溃疡面积、累及组织深度、合并感染及组织坏死情况，目前常用Wagner分级（表2）。分级症状0级无溃疡1级浅表溃疡，累及皮肤全层但不累及皮下组织2级深部溃疡穿透到肌肉层与韧带，不累及骨骼，无脓肿3级深部溃疡合并蜂窝织炎或脓肿形成，常伴有骨髓炎4级局部小范围坏疽5级累及整个足的大范围坏疽"
+  },
+  {
+    "rule_name": "糖尿病足溃疡Wagner分级_3级",
+    "head": {
+      "is_negative": false,
+      "name": "分级为",
+      "arguments": [
+        "Y",
+        "Wagner 3级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "深部溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并感染或脓肿",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "常伴骨髓炎",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "糖尿病足溃疡"
+    },
+    "source_text": "2.7溃疡和感染评估与分级糖尿病足溃疡评估尚无统一标准，一般需考虑溃疡面积、累及组织深度、合并感染及组织坏死情况，目前常用Wagner分级（表2）。分级症状0级无溃疡1级浅表溃疡，累及皮肤全层但不累及皮下组织2级深部溃疡穿透到肌肉层与韧带，不累及骨骼，无脓肿3级深部溃疡合并蜂窝织炎或脓肿形成，常伴有骨髓炎4级局部小范围坏疽5级累及整个足的大范围坏疽"
+  },
+  {
+    "rule_name": "糖尿病足溃疡Wagner分级_4级",
+    "head": {
+      "is_negative": false,
+      "name": "分级为",
+      "arguments": [
+        "Y",
+        "Wagner 4级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在坏疽",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "坏疽范围",
+        "arguments": [
+          "Y",
+          "局部小范围"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "糖尿病足溃疡"
+    },
+    "source_text": "2.7溃疡和感染评估与分级糖尿病足溃疡评估尚无统一标准，一般需考虑溃疡面积、累及组织深度、合并感染及组织坏死情况，目前常用Wagner分级（表2）。分级症状0级无溃疡1级浅表溃疡，累及皮肤全层但不累及皮下组织2级深部溃疡穿透到肌肉层与韧带，不累及骨骼，无脓肿3级深部溃疡合并蜂窝织炎或脓肿形成，常伴有骨髓炎4级局部小范围坏疽5级累及整个足的大范围坏疽"
+  },
+  {
+    "rule_name": "糖尿病足溃疡Wagner分级_5级",
+    "head": {
+      "is_negative": false,
+      "name": "分级为",
+      "arguments": [
+        "Y",
+        "Wagner 5级"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在坏疽",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "坏疽范围",
+        "arguments": [
+          "Y",
+          "累及整个足"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "糖尿病足溃疡"
+    },
+    "source_text": "2.7溃疡和感染评估与分级糖尿病足溃疡评估尚无统一标准，一般需考虑溃疡面积、累及组织深度、合并感染及组织坏死情况，目前常用Wagner分级（表2）。分级症状0级无溃疡1级浅表溃疡，累及皮肤全层但不累及皮下组织2级深部溃疡穿透到肌肉层与韧带，不累及骨骼，无脓肿3级深部溃疡合并蜂窝织炎或脓肿形成，常伴有骨髓炎4级局部小范围坏疽5级累及整个足的大范围坏疽"
+  },
+  {
+    "rule_name": "感染很少为溃疡的直接原因",
+    "head": {
+      "is_negative": false,
+      "name": "很少引起",
+      "arguments": [
+        "Z",
+        "Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "感染",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "溃疡病灶",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "溃疡病灶",
+      "Z": "感染"
+    },
+    "source_text": "糖尿病足神经缺血性溃疡极易受到感染，感染则很少直接引起溃疡。但感染的发生与截肢概率密切相关，尤其是对合并PAD患者［12］。深部感染表现为骨髓炎或沿肌腱播散的软组织感染，是关乎截肢与否及威胁患者生命的直接因素，患者转归与感染范围、合并症及是否伴有PAD相关［11，14］。"
+  },
+  {
+    "rule_name": "合并PAD患者的糖尿病足感染与高截肢概率相关",
+    "head": {
+      "is_negative": false,
+      "name": "关联于",
+      "arguments": [
+        "Z",
+        "截肢概率",
+        "高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病足神经缺血性溃疡",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "感染",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "合并症",
+        "arguments": [
+          "X",
+          "PAD"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "溃疡病灶",
+      "Z": "感染"
+    },
+    "source_text": "糖尿病足神经缺血性溃疡极易受到感染，感染则很少直接引起溃疡。但感染的发生与截肢概率密切相关，尤其是对合并PAD患者［12］。深部感染表现为骨髓炎或沿肌腱播散的软组织感染，是关乎截肢与否及威胁患者生命的直接因素，患者转归与感染范围、合并症及是否伴有PAD相关［11，14］。"
+  },
+  {
+    "rule_name": "表现为骨髓炎的深部感染是截肢与生命的直接威胁",
+    "head": {
+      "is_negative": false,
+      "name": "直接因素",
+      "arguments": [
+        "Z",
+        "截肢"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "深部感染",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "Z",
+          "骨髓炎"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "感染"
+    },
+    "source_text": "糖尿病足神经缺血性溃疡极易受到感染，感染则很少直接引起溃疡。但感染的发生与截肢概率密切相关，尤其是对合并PAD患者［12］。深部感染表现为骨髓炎或沿肌腱播散的软组织感染，是关乎截肢与否及威胁患者生命的直接因素，患者转归与感染范围、合并症及是否伴有PAD相关［11，14］。"
+  },
+  {
+    "rule_name": "表现为播散性软组织感染的深部感染是截肢与生命的直接威胁",
+    "head": {
+      "is_negative": false,
+      "name": "直接因素",
+      "arguments": [
+        "Z",
+        "截肢"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "深部感染",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "表现为",
+        "arguments": [
+          "Z",
+          "沿肌腱播散的软组织感染"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "感染"
+    },
+    "source_text": "糖尿病足神经缺血性溃疡极易受到感染，感染则很少直接引起溃疡。但感染的发生与截肢概率密切相关，尤其是对合并PAD患者［12］。深部感染表现为骨髓炎或沿肌腱播散的软组织感染，是关乎截肢与否及威胁患者生命的直接因素，患者转归与感染范围、合并症及是否伴有PAD相关［11，14］。"
+  },
+  {
+    "rule_name": "PAD患者胆固醇升高为独立危险因素",
+    "head": {
+      "is_negative": false,
+      "name": "PAD危险因素",
+      "arguments": [
+        "X",
+        "胆固醇升高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "PAD患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "高血脂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在异常",
+        "arguments": [
+          "X",
+          "胆固醇升高"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.1.3高血脂胆固醇、低密度脂蛋白（low densitylipoprotein，LDL）、三酰甘油及脂蛋白a升高均为PAD独立危险因素。降血脂的理想目标为LDL＜1.8 mmol/L。服用他汀类药物是当代治疗高血脂的一线方案，同时兼具稳定血管斑块、降低血管栓塞发生率的效果。每天服用辛伐他汀40 mg，可使心血管疾病病死率下降约17%，非冠状动脉血运重建需求减少约16%。本指南推荐标准为PAD患者低密度脂蛋白胆固醇（LDL-C）≤2.6 mmol/L（100 mg/dL），如饮食、运动干预不能使血脂达标，则需接受他汀类药物治疗。"
+  },
+  {
+    "rule_name": "PAD患者LDL升高为独立危险因素",
+    "head": {
+      "is_negative": false,
+      "name": "PAD危险因素",
+      "arguments": [
+        "X",
+        "LDL升高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "PAD患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "高血脂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在异常",
+        "arguments": [
+          "X",
+          "LDL升高"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.1.3高血脂胆固醇、低密度脂蛋白（low densitylipoprotein，LDL）、三酰甘油及脂蛋白a升高均为PAD独立危险因素。降血脂的理想目标为LDL＜1.8 mmol/L。服用他汀类药物是当代治疗高血脂的一线方案，同时兼具稳定血管斑块、降低血管栓塞发生率的效果。每天服用辛伐他汀40 mg，可使心血管疾病病死率下降约17%，非冠状动脉血运重建需求减少约16%。本指南推荐标准为PAD患者低密度脂蛋白胆固醇（LDL-C）≤2.6 mmol/L（100 mg/dL），如饮食、运动干预不能使血脂达标，则需接受他汀类药物治疗。"
+  },
+  {
+    "rule_name": "PAD患者三酰甘油升高为独立危险因素",
+    "head": {
+      "is_negative": false,
+      "name": "PAD危险因素",
+      "arguments": [
+        "X",
+        "三酰甘油升高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "PAD患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "高血脂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在异常",
+        "arguments": [
+          "X",
+          "三酰甘油升高"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.1.3高血脂胆固醇、低密度脂蛋白（low densitylipoprotein，LDL）、三酰甘油及脂蛋白a升高均为PAD独立危险因素。降血脂的理想目标为LDL＜1.8 mmol/L。服用他汀类药物是当代治疗高血脂的一线方案，同时兼具稳定血管斑块、降低血管栓塞发生率的效果。每天服用辛伐他汀40 mg，可使心血管疾病病死率下降约17%，非冠状动脉血运重建需求减少约16%。本指南推荐标准为PAD患者低密度脂蛋白胆固醇（LDL-C）≤2.6 mmol/L（100 mg/dL），如饮食、运动干预不能使血脂达标，则需接受他汀类药物治疗。"
+  },
+  {
+    "rule_name": "PAD患者脂蛋白a升高为独立危险因素",
+    "head": {
+      "is_negative": false,
+      "name": "PAD危险因素",
+      "arguments": [
+        "X",
+        "脂蛋白a升高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "PAD患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "高血脂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在异常",
+        "arguments": [
+          "X",
+          "脂蛋白a升高"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.1.3高血脂胆固醇、低密度脂蛋白（low densitylipoprotein，LDL）、三酰甘油及脂蛋白a升高均为PAD独立危险因素。降血脂的理想目标为LDL＜1.8 mmol/L。服用他汀类药物是当代治疗高血脂的一线方案，同时兼具稳定血管斑块、降低血管栓塞发生率的效果。每天服用辛伐他汀40 mg，可使心血管疾病病死率下降约17%，非冠状动脉血运重建需求减少约16%。本指南推荐标准为PAD患者低密度脂蛋白胆固醇（LDL-C）≤2.6 mmol/L（100 mg/dL），如饮食、运动干预不能使血脂达标，则需接受他汀类药物治疗。"
+  },
+  {
+    "rule_name": "高血脂患者降脂治疗LDL理想目标",
+    "head": {
+      "is_negative": false,
+      "name": "治疗目标",
+      "arguments": [
+        "X",
+        "LDL",
+        "<1.8 mmol/L"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "PAD患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "高血脂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "降脂"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.1.3高血脂胆固醇、低密度脂蛋白（low densitylipoprotein，LDL）、三酰甘油及脂蛋白a升高均为PAD独立危险因素。降血脂的理想目标为LDL＜1.8 mmol/L。服用他汀类药物是当代治疗高血脂的一线方案，同时兼具稳定血管斑块、降低血管栓塞发生率的效果。每天服用辛伐他汀40 mg，可使心血管疾病病死率下降约17%，非冠状动脉血运重建需求减少约16%。本指南推荐标准为PAD患者低密度脂蛋白胆固醇（LDL-C）≤2.6 mmol/L（100 mg/dL），如饮食、运动干预不能使血脂达标，则需接受他汀类药物治疗。"
+  },
+  {
+    "rule_name": "服用他汀类药物可稳定斑块并降低栓塞风险",
+    "head": {
+      "is_negative": false,
+      "name": "治疗具有效果",
+      "arguments": [
+        "X",
+        "他汀类药物",
+        "稳定斑块并降低栓塞风险"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "高血脂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "他汀类药物"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "X",
+          "LDL",
+          "<1.8 mmol/L"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.1.3高血脂胆固醇、低密度脂蛋白（low densitylipoprotein，LDL）、三酰甘油及脂蛋白a升高均为PAD独立危险因素。降血脂的理想目标为LDL＜1.8 mmol/L。服用他汀类药物是当代治疗高血脂的一线方案，同时兼具稳定血管斑块、降低血管栓塞发生率的效果。每天服用辛伐他汀40 mg，可使心血管疾病病死率下降约17%，非冠状动脉血运重建需求减少约16%。本指南推荐标准为PAD患者低密度脂蛋白胆固醇（LDL-C）≤2.6 mmol/L（100 mg/dL），如饮食、运动干预不能使血脂达标，则需接受他汀类药物治疗。"
+  },
+  {
+    "rule_name": "每日服用辛伐他汀40mg可降低心血管病死率",
+    "head": {
+      "is_negative": false,
+      "name": "治疗导致变化",
+      "arguments": [
+        "X",
+        "辛伐他汀每日40mg",
+        "心血管疾病病死率下降约17%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "PAD患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "高血脂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "辛伐他汀每日40mg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.1.3高血脂胆固醇、低密度脂蛋白（low densitylipoprotein，LDL）、三酰甘油及脂蛋白a升高均为PAD独立危险因素。降血脂的理想目标为LDL＜1.8 mmol/L。服用他汀类药物是当代治疗高血脂的一线方案，同时兼具稳定血管斑块、降低血管栓塞发生率的效果。每天服用辛伐他汀40 mg，可使心血管疾病病死率下降约17%，非冠状动脉血运重建需求减少约16%。本指南推荐标准为PAD患者低密度脂蛋白胆固醇（LDL-C）≤2.6 mmol/L（100 mg/dL），如饮食、运动干预不能使血脂达标，则需接受他汀类药物治疗。"
+  },
+  {
+    "rule_name": "每日服用辛伐他汀40mg可减少非冠脉血运重建",
+    "head": {
+      "is_negative": false,
+      "name": "治疗导致变化",
+      "arguments": [
+        "X",
+        "辛伐他汀每日40mg",
+        "非冠状动脉血运重建需求减少约16%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "PAD患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "高血脂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "辛伐他汀每日40mg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.1.3高血脂胆固醇、低密度脂蛋白（low densitylipoprotein，LDL）、三酰甘油及脂蛋白a升高均为PAD独立危险因素。降血脂的理想目标为LDL＜1.8 mmol/L。服用他汀类药物是当代治疗高血脂的一线方案，同时兼具稳定血管斑块、降低血管栓塞发生率的效果。每天服用辛伐他汀40 mg，可使心血管疾病病死率下降约17%，非冠状动脉血运重建需求减少约16%。本指南推荐标准为PAD患者低密度脂蛋白胆固醇（LDL-C）≤2.6 mmol/L（100 mg/dL），如饮食、运动干预不能使血脂达标，则需接受他汀类药物治疗。"
+  },
+  {
+    "rule_name": "PAD患者指南推荐的LDL-C控制标准",
+    "head": {
+      "is_negative": false,
+      "name": "指南推荐标准",
+      "arguments": [
+        "X",
+        "LDL-C",
+        "≤2.6 mmol/L"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "PAD患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "高血脂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指标",
+        "arguments": [
+          "X",
+          "LDL-C"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.1.3高血脂胆固醇、低密度脂蛋白（low densitylipoprotein，LDL）、三酰甘油及脂蛋白a升高均为PAD独立危险因素。降血脂的理想目标为LDL＜1.8 mmol/L。服用他汀类药物是当代治疗高血脂的一线方案，同时兼具稳定血管斑块、降低血管栓塞发生率的效果。每天服用辛伐他汀40 mg，可使心血管疾病病死率下降约17%，非冠状动脉血运重建需求减少约16%。本指南推荐标准为PAD患者低密度脂蛋白胆固醇（LDL-C）≤2.6 mmol/L（100 mg/dL），如饮食、运动干预不能使血脂达标，则需接受他汀类药物治疗。"
+  },
+  {
+    "rule_name": "生活方式干预失败后PAD患者需启用他汀治疗",
+    "head": {
+      "is_negative": false,
+      "name": "需接受治疗",
+      "arguments": [
+        "X",
+        "他汀类药物"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "PAD患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "高血脂"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行干预",
+        "arguments": [
+          "X",
+          "饮食运动"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "达到目标",
+        "arguments": [
+          "X",
+          "血脂达标"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指南推荐标准",
+        "arguments": [
+          "X",
+          "LDL-C",
+          "≤2.6 mmol/L"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.1.3高血脂胆固醇、低密度脂蛋白（low densitylipoprotein，LDL）、三酰甘油及脂蛋白a升高均为PAD独立危险因素。降血脂的理想目标为LDL＜1.8 mmol/L。服用他汀类药物是当代治疗高血脂的一线方案，同时兼具稳定血管斑块、降低血管栓塞发生率的效果。每天服用辛伐他汀40 mg，可使心血管疾病病死率下降约17%，非冠状动脉血运重建需求减少约16%。本指南推荐标准为PAD患者低密度脂蛋白胆固醇（LDL-C）≤2.6 mmol/L（100 mg/dL），如饮食、运动干预不能使血脂达标，则需接受他汀类药物治疗。"
+  },
+  {
+    "rule_name": "CLI患者基于症状与体征的血管再通治疗决策",
+    "head": {
+      "is_negative": false,
+      "name": "治疗决策",
+      "arguments": [
+        "X",
+        "血管再通治疗",
+        "关键"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "CLI患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血管病变特点",
+        "arguments": [
+          "Y",
+          "多发性多节段膝下"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变归属",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状体征",
+        "arguments": [
+          "X",
+          "具体"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CLI患者",
+      "Y": "血管病变"
+    },
+    "source_text": "CLI血管病变以多发性、多节段为特点，且常累及膝下胫腓动脉。患者症状与体征是决定是否需要血管再通治疗的关键。在综合考虑Rutherford分级、溃疡Wagner分级、下肢感染、血流动力学以及组织灌注情况下，影像检查可作为决策及选择再通治疗方案的依据。一旦进行血管再通治疗，对主髂动脉、股腘动脉病变治疗方案的选择，可根据影像学检查结果参考TASC Ⅱ指南。由于糖尿病足患者多为高龄且常合并颈动脉、冠状动脉等多发血管病变，即使长段的下肢动脉闭塞也可考虑尝试腔内治疗，尽量避免全身麻醉及开放性手术风险，颈动脉和肾动脉评价是治疗的基础和关键。膝下动脉病变一线方案是腔内治疗。基本目标是恢复至少一条向足部的通畅供血动脉。根据缺血性疼痛、溃疡坏死病灶所在区域选择目标血管并恢复直接供血的疗效，显著高于间接供血。如直接恢复血供失败，可尝试足底动脉环路（pedal- plantarloop，PPL）技术建立环路间接血供。膝下动脉病变和CLI治疗前，应首先造影评价双侧肾动脉及其功能并进行治疗，尤其是对肾脏功能检测异常者。"
+  },
+  {
+    "rule_name": "CLI患者基于综合评估的血管再通治疗决策",
+    "head": {
+      "is_negative": false,
+      "name": "治疗决策",
+      "arguments": [
+        "X",
+        "血管再通治疗",
+        "关键"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "CLI患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血管病变特点",
+        "arguments": [
+          "Y",
+          "多发性多节段膝下"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变归属",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估包含因素",
+        "arguments": [
+          "综合评估",
+          "Rutherford分级"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估包含因素",
+        "arguments": [
+          "综合评估",
+          "Wagner分级"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估包含因素",
+        "arguments": [
+          "综合评估",
+          "下肢感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估包含因素",
+        "arguments": [
+          "综合评估",
+          "血流动力学与组织灌注"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "决策依据",
+        "arguments": [
+          "Z",
+          "影像检查结果"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查针对目标",
+        "arguments": [
+          "Z",
+          "血管病变Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CLI患者",
+      "Y": "血管病变",
+      "Z": "影像检查"
+    },
+    "source_text": "CLI血管病变以多发性、多节段为特点，且常累及膝下胫腓动脉。患者症状与体征是决定是否需要血管再通治疗的关键。在综合考虑Rutherford分级、溃疡Wagner分级、下肢感染、血流动力学以及组织灌注情况下，影像检查可作为决策及选择再通治疗方案的依据。一旦进行血管再通治疗，对主髂动脉、股腘动脉病变治疗方案的选择，可根据影像学检查结果参考TASC Ⅱ指南。由于糖尿病足患者多为高龄且常合并颈动脉、冠状动脉等多发血管病变，即使长段的下肢动脉闭塞也可考虑尝试腔内治疗，尽量避免全身麻醉及开放性手术风险，颈动脉和肾动脉评价是治疗的基础和关键。膝下动脉病变一线方案是腔内治疗。基本目标是恢复至少一条向足部的通畅供血动脉。根据缺血性疼痛、溃疡坏死病灶所在区域选择目标血管并恢复直接供血的疗效，显著高于间接供血。如直接恢复血供失败，可尝试足底动脉环路（pedal- plantarloop，PPL）技术建立环路间接血供。膝下动脉病变和CLI治疗前，应首先造影评价双侧肾动脉及其功能并进行治疗，尤其是对肾脏功能检测异常者。"
+  },
+  {
+    "rule_name": "主髂动脉或股腘动脉病变的TASCⅡ指南参考方案",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方案选择",
+      "arguments": [
+        "X",
+        "参考TASCⅡ指南",
+        "针对病变"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "CLI患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "进行血管再通治疗",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变部位",
+        "arguments": [
+          "Y",
+          "主髂动脉或股腘动脉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变归属",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "决策依据",
+        "arguments": [
+          "Z",
+          "影像学检查结果"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查针对目标",
+        "arguments": [
+          "Z",
+          "血管病变Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CLI患者",
+      "Y": "血管病变",
+      "Z": "影像学检查"
+    },
+    "source_text": "CLI血管病变以多发性、多节段为特点，且常累及膝下胫腓动脉。患者症状与体征是决定是否需要血管再通治疗的关键。在综合考虑Rutherford分级、溃疡Wagner分级、下肢感染、血流动力学以及组织灌注情况下，影像检查可作为决策及选择再通治疗方案的依据。一旦进行血管再通治疗，对主髂动脉、股腘动脉病变治疗方案的选择，可根据影像学检查结果参考TASC Ⅱ指南。由于糖尿病足患者多为高龄且常合并颈动脉、冠状动脉等多发血管病变，即使长段的下肢动脉闭塞也可考虑尝试腔内治疗，尽量避免全身麻醉及开放性手术风险，颈动脉和肾动脉评价是治疗的基础和关键。膝下动脉病变一线方案是腔内治疗。基本目标是恢复至少一条向足部的通畅供血动脉。根据缺血性疼痛、溃疡坏死病灶所在区域选择目标血管并恢复直接供血的疗效，显著高于间接供血。如直接恢复血供失败，可尝试足底动脉环路（pedal- plantarloop，PPL）技术建立环路间接血供。膝下动脉病变和CLI治疗前，应首先造影评价双侧肾动脉及其功能并进行治疗，尤其是对肾脏功能检测异常者。"
+  },
+  {
+    "rule_name": "长段下肢动脉闭塞的腔内治疗尝试方案",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方案选择",
+      "arguments": [
+        "X",
+        "尝试腔内治疗",
+        "针对病变"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "CLI患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者特点",
+        "arguments": [
+          "X",
+          "高龄合并多发血管病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变特点",
+        "arguments": [
+          "Y",
+          "长段下肢动脉闭塞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变归属",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗基础要求",
+        "arguments": [
+          "X",
+          "完成颈动脉与肾动脉评价"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CLI患者",
+      "Y": "血管病变"
+    },
+    "source_text": "CLI血管病变以多发性、多节段为特点，且常累及膝下胫腓动脉。患者症状与体征是决定是否需要血管再通治疗的关键。在综合考虑Rutherford分级、溃疡Wagner分级、下肢感染、血流动力学以及组织灌注情况下，影像检查可作为决策及选择再通治疗方案的依据。一旦进行血管再通治疗，对主髂动脉、股腘动脉病变治疗方案的选择，可根据影像学检查结果参考TASC Ⅱ指南。由于糖尿病足患者多为高龄且常合并颈动脉、冠状动脉等多发血管病变，即使长段的下肢动脉闭塞也可考虑尝试腔内治疗，尽量避免全身麻醉及开放性手术风险，颈动脉和肾动脉评价是治疗的基础和关键。膝下动脉病变一线方案是腔内治疗。基本目标是恢复至少一条向足部的通畅供血动脉。根据缺血性疼痛、溃疡坏死病灶所在区域选择目标血管并恢复直接供血的疗效，显著高于间接供血。如直接恢复血供失败，可尝试足底动脉环路（pedal- plantarloop，PPL）技术建立环路间接血供。膝下动脉病变和CLI治疗前，应首先造影评价双侧肾动脉及其功能并进行治疗，尤其是对肾脏功能检测异常者。"
+  },
+  {
+    "rule_name": "膝下动脉病变的腔内治疗一线方案",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方案选择",
+      "arguments": [
+        "X",
+        "腔内治疗",
+        "一线"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "CLI患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变部位",
+        "arguments": [
+          "Y",
+          "膝下动脉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病变归属",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基本治疗目标",
+        "arguments": [
+          "X",
+          "恢复至少一条足部通畅供血动脉"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标血管选择依据",
+        "arguments": [
+          "Z",
+          "缺血性疼痛与溃疡坏死病灶区域"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CLI患者",
+      "Y": "血管病变",
+      "Z": "病灶区域"
+    },
+    "source_text": "CLI血管病变以多发性、多节段为特点，且常累及膝下胫腓动脉。患者症状与体征是决定是否需要血管再通治疗的关键。在综合考虑Rutherford分级、溃疡Wagner分级、下肢感染、血流动力学以及组织灌注情况下，影像检查可作为决策及选择再通治疗方案的依据。一旦进行血管再通治疗，对主髂动脉、股腘动脉病变治疗方案的选择，可根据影像学检查结果参考TASC Ⅱ指南。由于糖尿病足患者多为高龄且常合并颈动脉、冠状动脉等多发血管病变，即使长段的下肢动脉闭塞也可考虑尝试腔内治疗，尽量避免全身麻醉及开放性手术风险，颈动脉和肾动脉评价是治疗的基础和关键。膝下动脉病变一线方案是腔内治疗。基本目标是恢复至少一条向足部的通畅供血动脉。根据缺血性疼痛、溃疡坏死病灶所在区域选择目标血管并恢复直接供血的疗效，显著高于间接供血。如直接恢复血供失败，可尝试足底动脉环路（pedal- plantarloop，PPL）技术建立环路间接血供。膝下动脉病变和CLI治疗前，应首先造影评价双侧肾动脉及其功能并进行治疗，尤其是对肾脏功能检测异常者。"
+  },
+  {
+    "rule_name": "直接恢复血供失败后的PPL技术尝试",
+    "head": {
+      "is_negative": false,
+      "name": "治疗方案选择",
+      "arguments": [
+        "X",
+        "尝试PPL技术建立间接血供",
+        "替代"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "CLI患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基本治疗目标",
+        "arguments": [
+          "X",
+          "恢复至少一条足部通畅供血动脉"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "治疗结果",
+        "arguments": [
+          "X",
+          "直接恢复血供成功"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CLI患者"
+    },
+    "source_text": "CLI血管病变以多发性、多节段为特点，且常累及膝下胫腓动脉。患者症状与体征是决定是否需要血管再通治疗的关键。在综合考虑Rutherford分级、溃疡Wagner分级、下肢感染、血流动力学以及组织灌注情况下，影像检查可作为决策及选择再通治疗方案的依据。一旦进行血管再通治疗，对主髂动脉、股腘动脉病变治疗方案的选择，可根据影像学检查结果参考TASC Ⅱ指南。由于糖尿病足患者多为高龄且常合并颈动脉、冠状动脉等多发血管病变，即使长段的下肢动脉闭塞也可考虑尝试腔内治疗，尽量避免全身麻醉及开放性手术风险，颈动脉和肾动脉评价是治疗的基础和关键。膝下动脉病变一线方案是腔内治疗。基本目标是恢复至少一条向足部的通畅供血动脉。根据缺血性疼痛、溃疡坏死病灶所在区域选择目标血管并恢复直接供血的疗效，显著高于间接供血。如直接恢复血供失败，可尝试足底动脉环路（pedal- plantarloop，PPL）技术建立环路间接血供。膝下动脉病变和CLI治疗前，应首先造影评价双侧肾动脉及其功能并进行治疗，尤其是对肾脏功能检测异常者。"
+  },
+  {
+    "rule_name": "CLI治疗前的肾动脉评价与治疗",
+    "head": {
+      "is_negative": false,
+      "name": "治疗前步骤",
+      "arguments": [
+        "X",
+        "造影评价与治疗双侧肾动脉",
+        "必须"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "CLI患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "将进行膝下动脉病变或CLI治疗",
+        "arguments": [
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "CLI患者"
+    },
+    "source_text": "CLI血管病变以多发性、多节段为特点，且常累及膝下胫腓动脉。患者症状与体征是决定是否需要血管再通治疗的关键。在综合考虑Rutherford分级、溃疡Wagner分级、下肢感染、血流动力学以及组织灌注情况下，影像检查可作为决策及选择再通治疗方案的依据。一旦进行血管再通治疗，对主髂动脉、股腘动脉病变治疗方案的选择，可根据影像学检查结果参考TASC Ⅱ指南。由于糖尿病足患者多为高龄且常合并颈动脉、冠状动脉等多发血管病变，即使长段的下肢动脉闭塞也可考虑尝试腔内治疗，尽量避免全身麻醉及开放性手术风险，颈动脉和肾动脉评价是治疗的基础和关键。膝下动脉病变一线方案是腔内治疗。基本目标是恢复至少一条向足部的通畅供血动脉。根据缺血性疼痛、溃疡坏死病灶所在区域选择目标血管并恢复直接供血的疗效，显著高于间接供血。如直接恢复血供失败，可尝试足底动脉环路（pedal- plantarloop，PPL）技术建立环路间接血供。膝下动脉病变和CLI治疗前，应首先造影评价双侧肾动脉及其功能并进行治疗，尤其是对肾脏功能检测异常者。"
+  },
+  {
+    "rule_name": "糖尿病血管病_分级判定至I期",
+    "head": {
+      "is_negative": false,
+      "name": "疾病分期",
+      "arguments": [
+        "X",
+        "I期",
+        "轻度"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病血管病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用评价体系",
+        "arguments": [
+          "X",
+          "李茂全新分级标准"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "获得评分",
+        "arguments": [
+          "X",
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评分值",
+        "arguments": [
+          "S",
+          "小于4分"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "S": "评分"
+    },
+    "source_text": "同济大学附属第十人民医院李茂全团队根据患者血管解剖、功能检测及有效微循环，建立全新分级标准（表3），将糖尿病血管病分为3期6级：0期，正常；Ⅰ期＜4分，轻度；Ⅱa期4～6分；Ⅱb期7～9分；Ⅱc期10～12分；Ⅲ期＞12分。根据此评价体系，对481例糖尿病周围血管病患者治疗前后进行比较，采用SAS 9.4软件作正态性检验发现，患者治疗前后评分差值不符合正态分布，因此对其作Wilcoxon符号秩检验，检验统计量t＝4 726.5，P＜0.000 1，按照α＝0.05检验水准，差异有统计学意义，可以认为治疗前后患者评分不同，治疗后评分相较于治疗前平均下降的中位数为7.5（6～10）。"
+  },
+  {
+    "rule_name": "糖尿病血管病_分级判定至IIa期",
+    "head": {
+      "is_negative": false,
+      "name": "疾病分期",
+      "arguments": [
+        "X",
+        "IIa期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病血管病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用评价体系",
+        "arguments": [
+          "X",
+          "李茂全新分级标准"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "获得评分",
+        "arguments": [
+          "X",
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评分值",
+        "arguments": [
+          "S",
+          "介于4至6分"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "S": "评分"
+    },
+    "source_text": "同济大学附属第十人民医院李茂全团队根据患者血管解剖、功能检测及有效微循环，建立全新分级标准（表3），将糖尿病血管病分为3期6级：0期，正常；Ⅰ期＜4分，轻度；Ⅱa期4～6分；Ⅱb期7～9分；Ⅱc期10～12分；Ⅲ期＞12分。根据此评价体系，对481例糖尿病周围血管病患者治疗前后进行比较，采用SAS 9.4软件作正态性检验发现，患者治疗前后评分差值不符合正态分布，因此对其作Wilcoxon符号秩检验，检验统计量t＝4 726.5，P＜0.000 1，按照α＝0.05检验水准，差异有统计学意义，可以认为治疗前后患者评分不同，治疗后评分相较于治疗前平均下降的中位数为7.5（6～10）。"
+  },
+  {
+    "rule_name": "糖尿病血管病_分级判定至IIb期",
+    "head": {
+      "is_negative": false,
+      "name": "疾病分期",
+      "arguments": [
+        "X",
+        "IIb期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病血管病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用评价体系",
+        "arguments": [
+          "X",
+          "李茂全新分级标准"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "获得评分",
+        "arguments": [
+          "X",
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评分值",
+        "arguments": [
+          "S",
+          "介于7至9分"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "S": "评分"
+    },
+    "source_text": "同济大学附属第十人民医院李茂全团队根据患者血管解剖、功能检测及有效微循环，建立全新分级标准（表3），将糖尿病血管病分为3期6级：0期，正常；Ⅰ期＜4分，轻度；Ⅱa期4～6分；Ⅱb期7～9分；Ⅱc期10～12分；Ⅲ期＞12分。根据此评价体系，对481例糖尿病周围血管病患者治疗前后进行比较，采用SAS 9.4软件作正态性检验发现，患者治疗前后评分差值不符合正态分布，因此对其作Wilcoxon符号秩检验，检验统计量t＝4 726.5，P＜0.000 1，按照α＝0.05检验水准，差异有统计学意义，可以认为治疗前后患者评分不同，治疗后评分相较于治疗前平均下降的中位数为7.5（6～10）。"
+  },
+  {
+    "rule_name": "糖尿病血管病_分级判定至IIc期",
+    "head": {
+      "is_negative": false,
+      "name": "疾病分期",
+      "arguments": [
+        "X",
+        "IIc期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病血管病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用评价体系",
+        "arguments": [
+          "X",
+          "李茂全新分级标准"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "获得评分",
+        "arguments": [
+          "X",
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评分值",
+        "arguments": [
+          "S",
+          "介于10至12分"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "S": "评分"
+    },
+    "source_text": "同济大学附属第十人民医院李茂全团队根据患者血管解剖、功能检测及有效微循环，建立全新分级标准（表3），将糖尿病血管病分为3期6级：0期，正常；Ⅰ期＜4分，轻度；Ⅱa期4～6分；Ⅱb期7～9分；Ⅱc期10～12分；Ⅲ期＞12分。根据此评价体系，对481例糖尿病周围血管病患者治疗前后进行比较，采用SAS 9.4软件作正态性检验发现，患者治疗前后评分差值不符合正态分布，因此对其作Wilcoxon符号秩检验，检验统计量t＝4 726.5，P＜0.000 1，按照α＝0.05检验水准，差异有统计学意义，可以认为治疗前后患者评分不同，治疗后评分相较于治疗前平均下降的中位数为7.5（6～10）。"
+  },
+  {
+    "rule_name": "糖尿病血管病_分级判定至III期",
+    "head": {
+      "is_negative": false,
+      "name": "疾病分期",
+      "arguments": [
+        "X",
+        "III期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "糖尿病血管病患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用评价体系",
+        "arguments": [
+          "X",
+          "李茂全新分级标准"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "获得评分",
+        "arguments": [
+          "X",
+          "S"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评分值",
+        "arguments": [
+          "S",
+          "大于12分"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "S": "评分"
+    },
+    "source_text": "同济大学附属第十人民医院李茂全团队根据患者血管解剖、功能检测及有效微循环，建立全新分级标准（表3），将糖尿病血管病分为3期6级：0期，正常；Ⅰ期＜4分，轻度；Ⅱa期4～6分；Ⅱb期7～9分；Ⅱc期10～12分；Ⅲ期＞12分。根据此评价体系，对481例糖尿病周围血管病患者治疗前后进行比较，采用SAS 9.4软件作正态性检验发现，患者治疗前后评分差值不符合正态分布，因此对其作Wilcoxon符号秩检验，检验统计量t＝4 726.5，P＜0.000 1，按照α＝0.05检验水准，差异有统计学意义，可以认为治疗前后患者评分不同，治疗后评分相较于治疗前平均下降的中位数为7.5（6～10）。"
+  }
+]

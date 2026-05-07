@@ -1,0 +1,913 @@
+[
+  {
+    "rule_name": "甲状腺疾病成像关键作用_基于症状与类型",
+    "head": {
+      "is_negative": false,
+      "name": "作用关键",
+      "arguments": [
+        "Z",
+        "诊断与特征描述",
+        "针对疾病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "甲状腺疾病",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "增生性至炎症性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床表现",
+        "arguments": [
+          "Y",
+          "功能异常"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "成像程序",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对目标",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺疾病",
+      "Z": "成像程序"
+    },
+    "source_text": "There are a wide variety of diseases that affect the thyroid gland ranging from hyperplastic to neoplastic, autoimmune, or inﬂammatory.They can present with functional abnormality or a palpable structural change. Imaging has a key role in diagnosing and characterizingthe thyroid ﬁnding for management. Imaging is also essential in the management of thyroid cancer.The American College of Radiology Appropriateness Criteria are evidence-based guidelines for speciﬁc clinical conditions that arereviewed annually by a multidisciplinary expert panel. The guideline development and revision include an extensive analysis of currentmedical literature from peer reviewed journals and the application of well-established methodologies (RAND/UCLA AppropriatenessMethod and Grading of Recommendations Assessment, Development, and Evaluation or GRADE) to rate the appropriateness ofimaging and treatment procedures for speciﬁc clinical scenarios. In those instances where evidence is lacking or equivocal, expert opinionmay supplement the available evidence to recommend imaging or treatment."
+  },
+  {
+    "rule_name": "甲状腺恶性肿瘤管理中成像至关重要",
+    "head": {
+      "is_negative": false,
+      "name": "作用关键",
+      "arguments": [
+        "Z",
+        "疾病管理",
+        "针对恶性肿瘤"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "甲状腺疾病",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病性质",
+        "arguments": [
+          "Y",
+          "恶性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "成像程序",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对目标",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺恶性肿瘤",
+      "Z": "成像程序"
+    },
+    "source_text": "There are a wide variety of diseases that affect the thyroid gland ranging from hyperplastic to neoplastic, autoimmune, or inﬂammatory.They can present with functional abnormality or a palpable structural change. Imaging has a key role in diagnosing and characterizingthe thyroid ﬁnding for management. Imaging is also essential in the management of thyroid cancer.The American College of Radiology Appropriateness Criteria are evidence-based guidelines for speciﬁc clinical conditions that arereviewed annually by a multidisciplinary expert panel. The guideline development and revision include an extensive analysis of currentmedical literature from peer reviewed journals and the application of well-established methodologies (RAND/UCLA AppropriatenessMethod and Grading of Recommendations Assessment, Development, and Evaluation or GRADE) to rate the appropriateness ofimaging and treatment procedures for speciﬁc clinical scenarios. In those instances where evidence is lacking or equivocal, expert opinionmay supplement the available evidence to recommend imaging or treatment."
+  },
+  {
+    "rule_name": "甲状腺结节检查的高成本与常见后续干预",
+    "head": {
+      "is_negative": false,
+      "name": "检查成本高",
+      "arguments": [
+        "X",
+        "Y",
+        "针对结节"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺结节",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "良性",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "惰性",
+        "arguments": [
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺结节"
+    },
+    "source_text": "Thyroid nodules are the most common ﬁnding in the thyroid gland. The majority of thyroid nodules are benign [1,2]. Initiating workup is costly for the patient and health care system as biopsy is frequently followed by repeat imaging and surgery [3], despite the fact that the majority of small thyroid cancers are indolent [1,2]. Vaccarella et al [4] estimated that “overdiagnosis,” or identifying cancer that otherwise would be indolent, accounts for 77% of thyroid cancer cases in the United States."
+  },
+  {
+    "rule_name": "分化型甲状腺癌的良好预后与主要治疗方案",
+    "head": {
+      "is_negative": false,
+      "name": "高生存率",
+      "arguments": [
+        "X",
+        "Y",
+        "10年期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患有癌症",
+        "arguments": [
+          "X",
+          "分化型甲状腺癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "癌症类型",
+        "arguments": [
+          "Y",
+          "乳头状癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "癌症类型",
+        "arguments": [
+          "Y",
+          "滤泡癌"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "癌症"
+    },
+    "source_text": "Thyroid nodules are the most common ﬁnding in the thyroid gland. The majority of thyroid nodules are benign [1,2]. Initiating workup is costly for the patient and health care system as biopsy is frequently followed by repeat imaging and surgery [3], despite the fact that the majority of small thyroid cancers are indolent [1,2]. Vaccarella et al [4] estimated that “overdiagnosis,” or identifying cancer that otherwise would be indolent, accounts for 77% of thyroid cancer cases in the United States."
+  },
+  {
+    "rule_name": "髓样甲状腺癌的侵袭性与治疗",
+    "head": {
+      "is_negative": false,
+      "name": "较低生存率",
+      "arguments": [
+        "X",
+        "Y",
+        "10年期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患有癌症",
+        "arguments": [
+          "X",
+          "髓样甲状腺癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "侵袭性",
+        "arguments": [
+          "Y",
+          "更高"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "癌症"
+    },
+    "source_text": "Thyroid nodules are the most common ﬁnding in the thyroid gland. The majority of thyroid nodules are benign [1,2]. Initiating workup is costly for the patient and health care system as biopsy is frequently followed by repeat imaging and surgery [3], despite the fact that the majority of small thyroid cancers are indolent [1,2]. Vaccarella et al [4] estimated that “overdiagnosis,” or identifying cancer that otherwise would be indolent, accounts for 77% of thyroid cancer cases in the United States."
+  },
+  {
+    "rule_name": "甲状腺肿的常见人口学特征",
+    "head": {
+      "is_negative": false,
+      "name": "慢性病程",
+      "arguments": [
+        "Y",
+        "多年"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "甲状腺肿",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "甲状腺肿"
+    },
+    "source_text": "Thyroid nodules are the most common ﬁnding in the thyroid gland. The majority of thyroid nodules are benign [1,2]. Initiating workup is costly for the patient and health care system as biopsy is frequently followed by repeat imaging and surgery [3], despite the fact that the majority of small thyroid cancers are indolent [1,2]. Vaccarella et al [4] estimated that “overdiagnosis,” or identifying cancer that otherwise would be indolent, accounts for 77% of thyroid cancer cases in the United States."
+  },
+  {
+    "rule_name": "甲状腺毒症的常见内在病因",
+    "head": {
+      "is_negative": false,
+      "name": "病因",
+      "arguments": [
+        "X",
+        "甲状腺毒症",
+        "内在性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患有病症",
+        "arguments": [
+          "X",
+          "甲状腺毒症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Thyroid nodules are the most common ﬁnding in the thyroid gland. The majority of thyroid nodules are benign [1,2]. Initiating workup is costly for the patient and health care system as biopsy is frequently followed by repeat imaging and surgery [3], despite the fact that the majority of small thyroid cancers are indolent [1,2]. Vaccarella et al [4] estimated that “overdiagnosis,” or identifying cancer that otherwise would be indolent, accounts for 77% of thyroid cancer cases in the United States."
+  },
+  {
+    "rule_name": "依据临床状况复杂性与严重性选择影像检查",
+    "head": {
+      "is_negative": false,
+      "name": "决定选择",
+      "arguments": [
+        "Z",
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "面临临床状况",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有属性",
+        "arguments": [
+          "W",
+          "复杂性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有属性",
+        "arguments": [
+          "W",
+          "严重性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需要检查",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用于状况",
+        "arguments": [
+          "Z",
+          "W"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "影像检查",
+      "W": "临床状况"
+    },
+    "source_text": "Disclaimer: The ACR Committee on Appropriateness Criteria and its expert panels have developed criteria for determining appropriate imaging examinations for diagnosis and treatment of specified medical condition(s). These criteria are intended to guide radiologists, radiation oncologists, and referring physicians in making decisions regarding radiologic imaging and treatment.Generally, the complexity and severity of a patient’s clinical condition should dictate the selection of appropriate imaging procedures or treatments. Only those examinations generally used for evaluation of the patient’s condition are ranked. Other imaging studies necessary to evaluate other co-existent diseases or other medical consequences of this condition are not considered in this document. The availability of equipment or personnel may influence the selection of appropriate imaging procedures or treatments. Imaging techniques classified as investigational by the FDA have not been considered in developing these criteria;"
+  },
+  {
+    "rule_name": "纳入排名的检查需用于评估患者状况",
+    "head": {
+      "is_negative": false,
+      "name": "纳入排名",
+      "arguments": [
+        "Z",
+        "是"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "面临临床状况",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需要检查",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用途",
+        "arguments": [
+          "Z",
+          "评估患者状况"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用于状况",
+        "arguments": [
+          "Z",
+          "W"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "影像检查",
+      "W": "临床状况"
+    },
+    "source_text": "Disclaimer: The ACR Committee on Appropriateness Criteria and its expert panels have developed criteria for determining appropriate imaging examinations for diagnosis and treatment of specified medical condition(s). These criteria are intended to guide radiologists, radiation oncologists, and referring physicians in making decisions regarding radiologic imaging and treatment.Generally, the complexity and severity of a patient’s clinical condition should dictate the selection of appropriate imaging procedures or treatments. Only those examinations generally used for evaluation of the patient’s condition are ranked. Other imaging studies necessary to evaluate other co-existent diseases or other medical consequences of this condition are not considered in this document. The availability of equipment or personnel may influence the selection of appropriate imaging procedures or treatments. Imaging techniques classified as investigational by the FDA have not been considered in developing these criteria;"
+  },
+  {
+    "rule_name": "评估共存疾病或后果的其他检查不被考虑",
+    "head": {
+      "is_negative": true,
+      "name": "纳入排名",
+      "arguments": [
+        "Z",
+        "是"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "面临临床状况",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需要检查",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用途",
+        "arguments": [
+          "Z",
+          "评估共存疾病或其他医学后果"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "影像检查",
+      "W": "临床状况"
+    },
+    "source_text": "Disclaimer: The ACR Committee on Appropriateness Criteria and its expert panels have developed criteria for determining appropriate imaging examinations for diagnosis and treatment of specified medical condition(s). These criteria are intended to guide radiologists, radiation oncologists, and referring physicians in making decisions regarding radiologic imaging and treatment.Generally, the complexity and severity of a patient’s clinical condition should dictate the selection of appropriate imaging procedures or treatments. Only those examinations generally used for evaluation of the patient’s condition are ranked. Other imaging studies necessary to evaluate other co-existent diseases or other medical consequences of this condition are not considered in this document. The availability of equipment or personnel may influence the selection of appropriate imaging procedures or treatments. Imaging techniques classified as investigational by the FDA have not been considered in developing these criteria;"
+  },
+  {
+    "rule_name": "设备或人员可用性可能影响检查选择",
+    "head": {
+      "is_negative": false,
+      "name": "可能影响选择",
+      "arguments": [
+        "Z",
+        "U"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需要检查",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需要资源",
+        "arguments": [
+          "Z",
+          "U"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "资源可用性",
+        "arguments": [
+          "U",
+          "受限"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Z": "影像检查",
+      "U": "设备或人员资源"
+    },
+    "source_text": "Disclaimer: The ACR Committee on Appropriateness Criteria and its expert panels have developed criteria for determining appropriate imaging examinations for diagnosis and treatment of specified medical condition(s). These criteria are intended to guide radiologists, radiation oncologists, and referring physicians in making decisions regarding radiologic imaging and treatment.Generally, the complexity and severity of a patient’s clinical condition should dictate the selection of appropriate imaging procedures or treatments. Only those examinations generally used for evaluation of the patient’s condition are ranked. Other imaging studies necessary to evaluate other co-existent diseases or other medical consequences of this condition are not considered in this document. The availability of equipment or personnel may influence the selection of appropriate imaging procedures or treatments. Imaging techniques classified as investigational by the FDA have not been considered in developing these criteria;"
+  },
+  {
+    "rule_name": "FDA分类为研究性的影像技术不被标准考虑",
+    "head": {
+      "is_negative": true,
+      "name": "标准考虑",
+      "arguments": [
+        "Z"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "影像技术",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监管分类",
+        "arguments": [
+          "Z",
+          "FDA研究性"
+        ]
+      }
+    ],
+    "variables": {
+      "Z": "影像检查"
+    },
+    "source_text": "Disclaimer: The ACR Committee on Appropriateness Criteria and its expert panels have developed criteria for determining appropriate imaging examinations for diagnosis and treatment of specified medical condition(s). These criteria are intended to guide radiologists, radiation oncologists, and referring physicians in making decisions regarding radiologic imaging and treatment.Generally, the complexity and severity of a patient’s clinical condition should dictate the selection of appropriate imaging procedures or treatments. Only those examinations generally used for evaluation of the patient’s condition are ranked. Other imaging studies necessary to evaluate other co-existent diseases or other medical consequences of this condition are not considered in this document. The availability of equipment or personnel may influence the selection of appropriate imaging procedures or treatments. Imaging techniques classified as investigational by the FDA have not been considered in developing these criteria;"
+  },
+  {
+    "rule_name": "多数甲状腺结节为良性",
+    "head": {
+      "is_negative": false,
+      "name": "性质",
+      "arguments": [
+        "甲状腺结节",
+        "多数",
+        "良性"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "流行病学数据",
+        "arguments": [
+          "甲状腺结节",
+          "最常见",
+          "于甲状腺"
+        ]
+      }
+    ],
+    "variables": {},
+    "source_text": "Thyroid nodules are the most common ﬁnding in the thyroid gland. The majority of thyroid nodules are benign [1,2]."
+  },
+  {
+    "rule_name": "启动小结节癌检查的成本效益矛盾_因多数为惰性",
+    "head": {
+      "is_negative": false,
+      "name": "诊疗流程成本高昂",
+      "arguments": [
+        "甲状腺结节诊疗流程",
+        "对系统"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "包含步骤",
+        "arguments": [
+          "甲状腺结节诊疗流程",
+          "活检"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "后续常为",
+        "arguments": [
+          "活检",
+          "重复影像"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "后续常为",
+        "arguments": [
+          "活检",
+          "手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "性质",
+        "arguments": [
+          "小甲状腺癌",
+          "多数",
+          "惰性"
+        ]
+      }
+    ],
+    "variables": {},
+    "source_text": "Initiating workup is costly for the patient and health care system as biopsy is frequently followed by repeat imaging and surgery [3], despite the fact that the majority of small thyroid cancers are indolent [1,2]."
+  },
+  {
+    "rule_name": "美国甲状腺癌过度诊断的高比例",
+    "head": {
+      "is_negative": false,
+      "name": "流行病学占比",
+      "arguments": [
+        "过度诊断病例",
+        "77%",
+        "在美国甲状腺癌病例中"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "定义",
+        "arguments": [
+          "过度诊断",
+          "识别惰性癌"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "临床意义",
+        "arguments": [
+          "被识别的惰性癌",
+          "有"
+        ]
+      }
+    ],
+    "variables": {},
+    "source_text": "Vaccarella et al [4] estimated that “overdiagnosis,” or identifying cancer that otherwise would be indolent, accounts for 77% of thyroid cancer cases in the United States."
+  },
+  {
+    "rule_name": "分化型甲状腺癌_乳头状癌的属性与治疗",
+    "head": {
+      "is_negative": false,
+      "name": "癌症类型",
+      "arguments": [
+        "分化型甲状腺癌"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "包含亚型",
+        "arguments": [
+          "分化型甲状腺癌",
+          "乳头状癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "细胞起源",
+        "arguments": [
+          "乳头状癌",
+          "滤泡上皮细胞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "流行病学占比",
+        "arguments": [
+          "乳头状癌",
+          "84%",
+          "于甲状腺恶性肿瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预后指标",
+        "arguments": [
+          "乳头状癌",
+          "10年生存率",
+          "99%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要治疗",
+        "arguments": [
+          "乳头状癌",
+          "手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可能治疗",
+        "arguments": [
+          "乳头状癌",
+          "放射性碘消融"
+        ]
+      }
+    ],
+    "variables": {},
+    "source_text": "Papillary and follicular carcinomas arise from the follicular epithelial cells are known as differentiated thyroid carcinomas (DTC), representing 84% and 11% of all thyroid malignancies, respectively [2]. DTC have an excellent prognosis, with a 10-year survival rate of 99% for papillary carcinoma and 95% for follicular type [2]. DTCs are treated primarily with surgery and may have radioiodine ablation depending on the stage of disease."
+  },
+  {
+    "rule_name": "分化型甲状腺癌_滤泡状癌的属性与治疗",
+    "head": {
+      "is_negative": false,
+      "name": "癌症类型",
+      "arguments": [
+        "分化型甲状腺癌"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "包含亚型",
+        "arguments": [
+          "分化型甲状腺癌",
+          "滤泡状癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "细胞起源",
+        "arguments": [
+          "滤泡状癌",
+          "滤泡上皮细胞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "流行病学占比",
+        "arguments": [
+          "滤泡状癌",
+          "11%",
+          "于甲状腺恶性肿瘤"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预后指标",
+        "arguments": [
+          "滤泡状癌",
+          "10年生存率",
+          "95%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要治疗",
+        "arguments": [
+          "滤泡状癌",
+          "手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可能治疗",
+        "arguments": [
+          "滤泡状癌",
+          "放射性碘消融"
+        ]
+      }
+    ],
+    "variables": {},
+    "source_text": "Papillary and follicular carcinomas arise from the follicular epithelial cells are known as differentiated thyroid carcinomas (DTC), representing 84% and 11% of all thyroid malignancies, respectively [2]. DTC have an excellent prognosis, with a 10-year survival rate of 99% for papillary carcinoma and 95% for follicular type [2]. DTCs are treated primarily with surgery and may have radioiodine ablation depending on the stage of disease."
+  },
+  {
+    "rule_name": "髓样甲状腺癌的属性与治疗",
+    "head": {
+      "is_negative": false,
+      "name": "癌症类型",
+      "arguments": [
+        "髓样甲状腺癌"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "细胞起源",
+        "arguments": [
+          "髓样甲状腺癌",
+          "滤泡旁细胞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "侵袭性比较",
+        "arguments": [
+          "髓样甲状腺癌",
+          "高于",
+          "分化型甲状腺癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预后指标",
+        "arguments": [
+          "髓样甲状腺癌",
+          "10年生存率",
+          "82%"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主要治疗",
+        "arguments": [
+          "髓样甲状腺癌",
+          "手术"
+        ]
+      }
+    ],
+    "variables": {},
+    "source_text": "Medullary thyroid carcinoma (MTC) arises from parafollicular cells and is more aggressive, with a survival rate of 82% at 10 years [2]. MTC is also treated with surgery."
+  },
+  {
+    "rule_name": "未分化甲状腺癌的恶劣预后",
+    "head": {
+      "is_negative": false,
+      "name": "癌症类型",
+      "arguments": [
+        "未分化甲状腺癌"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "肿瘤分化程度",
+        "arguments": [
+          "未分化甲状腺癌",
+          "未分化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "侵袭性",
+        "arguments": [
+          "未分化甲状腺癌",
+          "高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "好发人群",
+        "arguments": [
+          "未分化甲状腺癌",
+          "老年人"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预后指标",
+        "arguments": [
+          "未分化甲状腺癌",
+          "10年生存率",
+          "8%"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "治疗显著影响",
+        "arguments": [
+          "未分化甲状腺癌治疗",
+          "生存率"
+        ]
+      }
+    ],
+    "variables": {},
+    "source_text": "Anaplastic carcinoma is an aggressive undifferentiated tumor typically occurring in the elderly with a 10-year survival of 8% [9]. Treatment of anaplastic carcinoma does not signiﬁcantly impact survival."
+  }
+]

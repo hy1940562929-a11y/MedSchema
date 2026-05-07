@@ -1,0 +1,1823 @@
+[
+  {
+    "rule_name": "常规灰阶超声对肝内占位性病变的早期诊断作用",
+    "head": {
+      "is_negative": false,
+      "name": "执行推荐",
+      "arguments": [
+        "医师",
+        "进行常规灰阶超声",
+        "针对任务Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者状态",
+        "arguments": [
+          "X",
+          "待诊断"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断任务",
+        "arguments": [
+          "Y",
+          "肝内占位性病变的早期检出与鉴别"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提供关键信息",
+        "arguments": [
+          "常规灰阶超声",
+          "Y",
+          "早期敏感检出与鉴别"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提供关键信息",
+        "arguments": [
+          "常规灰阶超声",
+          "Y",
+          "观察转移与侵犯"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "肝癌诊断任务"
+    },
+    "source_text": "超声检查因操作简便、实时无创、移动便捷等特点，是临床上最常用的肝脏影像学检查方法。常规灰阶超声可早期、敏感地检出肝内占位性病变，可鉴别其是囊性或实质性、良性或恶性，并观察肝内或腹腔内相关转移灶、肝内血管及胆管侵犯情况等。彩色多普勒血流成像可观察病灶内血供，同时明确病灶性质及与肝内重要血管的毗邻关系。超声造影检查可提示肝肿瘤的血流动力学变化，帮助鉴别诊断不同性质肝肿瘤，在评价肝癌的微血管灌注和引导介入治疗及介入治疗后即刻评估疗效方面具有优势。超声联合影像导航技术为肝癌的精准定位和实时微创消融提供了有效的手段[4]（证据等级3）。术中超声及术中超声造影检查能更敏感地显示肝内直径约为5 mm 的肝癌，更好地协同手术治疗[5]（证据等级3 级）。超声弹性成像可检测肝实质和肝内占位性病灶的组织硬度，为明确肝癌手术的可行性提供更多的辅助信息[6，7]（证据等级3 级）。多种超声技术的联合应用，可为肝癌精准的术前诊断、术中定位、术后评估起到重要作用[8]。"
+  },
+  {
+    "rule_name": "彩色多普勒血流成像对病灶血供与血管关系的评估作用",
+    "head": {
+      "is_negative": false,
+      "name": "执行推荐",
+      "arguments": [
+        "医师",
+        "进行彩色多普勒血流成像",
+        "针对任务Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者状态",
+        "arguments": [
+          "X",
+          "待评估"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断任务",
+        "arguments": [
+          "Y",
+          "明确病灶血供及与血管关系"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提供关键信息",
+        "arguments": [
+          "彩色多普勒血流成像",
+          "Y",
+          "观察病灶内血供"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提供关键信息",
+        "arguments": [
+          "彩色多普勒血流成像",
+          "Y",
+          "明确与肝内重要血管毗邻关系"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "肝癌诊断任务"
+    },
+    "source_text": "超声检查因操作简便、实时无创、移动便捷等特点，是临床上最常用的肝脏影像学检查方法。常规灰阶超声可早期、敏感地检出肝内占位性病变，可鉴别其是囊性或实质性、良性或恶性，并观察肝内或腹腔内相关转移灶、肝内血管及胆管侵犯情况等。彩色多普勒血流成像可观察病灶内血供，同时明确病灶性质及与肝内重要血管的毗邻关系。超声造影检查可提示肝肿瘤的血流动力学变化，帮助鉴别诊断不同性质肝肿瘤，在评价肝癌的微血管灌注和引导介入治疗及介入治疗后即刻评估疗效方面具有优势。超声联合影像导航技术为肝癌的精准定位和实时微创消融提供了有效的手段[4]（证据等级3）。术中超声及术中超声造影检查能更敏感地显示肝内直径约为5 mm 的肝癌，更好地协同手术治疗[5]（证据等级3 级）。超声弹性成像可检测肝实质和肝内占位性病灶的组织硬度，为明确肝癌手术的可行性提供更多的辅助信息[6，7]（证据等级3 级）。多种超声技术的联合应用，可为肝癌精准的术前诊断、术中定位、术后评估起到重要作用[8]。"
+  },
+  {
+    "rule_name": "超声造影对肝肿瘤血流动力学与介入治疗引导作用",
+    "head": {
+      "is_negative": false,
+      "name": "执行推荐",
+      "arguments": [
+        "医师",
+        "进行超声造影检查",
+        "针对任务Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者状态",
+        "arguments": [
+          "X",
+          "待鉴别或待介入"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断任务",
+        "arguments": [
+          "Y",
+          "鉴别肝肿瘤性质或引导介入治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提供关键信息",
+        "arguments": [
+          "超声造影检查",
+          "Y",
+          "提示血流动力学变化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提供关键信息",
+        "arguments": [
+          "超声造影检查",
+          "Y",
+          "评价微血管灌注与引导介入"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "肝癌诊断任务"
+    },
+    "source_text": "超声检查因操作简便、实时无创、移动便捷等特点，是临床上最常用的肝脏影像学检查方法。常规灰阶超声可早期、敏感地检出肝内占位性病变，可鉴别其是囊性或实质性、良性或恶性，并观察肝内或腹腔内相关转移灶、肝内血管及胆管侵犯情况等。彩色多普勒血流成像可观察病灶内血供，同时明确病灶性质及与肝内重要血管的毗邻关系。超声造影检查可提示肝肿瘤的血流动力学变化，帮助鉴别诊断不同性质肝肿瘤，在评价肝癌的微血管灌注和引导介入治疗及介入治疗后即刻评估疗效方面具有优势。超声联合影像导航技术为肝癌的精准定位和实时微创消融提供了有效的手段[4]（证据等级3）。术中超声及术中超声造影检查能更敏感地显示肝内直径约为5 mm 的肝癌，更好地协同手术治疗[5]（证据等级3 级）。超声弹性成像可检测肝实质和肝内占位性病灶的组织硬度，为明确肝癌手术的可行性提供更多的辅助信息[6，7]（证据等级3 级）。多种超声技术的联合应用，可为肝癌精准的术前诊断、术中定位、术后评估起到重要作用[8]。"
+  },
+  {
+    "rule_name": "术中超声对微小肝癌的敏感显示与手术协同作用",
+    "head": {
+      "is_negative": false,
+      "name": "执行推荐",
+      "arguments": [
+        "医师",
+        "进行术中超声",
+        "针对任务Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者状态",
+        "arguments": [
+          "X",
+          "术中"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断任务",
+        "arguments": [
+          "Y",
+          "敏感显示微小肝癌以协同手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提供关键信息",
+        "arguments": [
+          "术中超声及术中超声造影",
+          "Y",
+          "敏感显示直径约5mm肝癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提供关键信息",
+        "arguments": [
+          "术中超声及术中超声造影",
+          "Y",
+          "更好地协同手术治疗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "肝癌诊断任务"
+    },
+    "source_text": "超声检查因操作简便、实时无创、移动便捷等特点，是临床上最常用的肝脏影像学检查方法。常规灰阶超声可早期、敏感地检出肝内占位性病变，可鉴别其是囊性或实质性、良性或恶性，并观察肝内或腹腔内相关转移灶、肝内血管及胆管侵犯情况等。彩色多普勒血流成像可观察病灶内血供，同时明确病灶性质及与肝内重要血管的毗邻关系。超声造影检查可提示肝肿瘤的血流动力学变化，帮助鉴别诊断不同性质肝肿瘤，在评价肝癌的微血管灌注和引导介入治疗及介入治疗后即刻评估疗效方面具有优势。超声联合影像导航技术为肝癌的精准定位和实时微创消融提供了有效的手段[4]（证据等级3）。术中超声及术中超声造影检查能更敏感地显示肝内直径约为5 mm 的肝癌，更好地协同手术治疗[5]（证据等级3 级）。超声弹性成像可检测肝实质和肝内占位性病灶的组织硬度，为明确肝癌手术的可行性提供更多的辅助信息[6，7]（证据等级3 级）。多种超声技术的联合应用，可为肝癌精准的术前诊断、术中定位、术后评估起到重要作用[8]。"
+  },
+  {
+    "rule_name": "超声弹性成像对组织硬度检测与手术可行性评估作用",
+    "head": {
+      "is_negative": false,
+      "name": "执行推荐",
+      "arguments": [
+        "医师",
+        "进行超声弹性成像",
+        "针对任务Y"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者状态",
+        "arguments": [
+          "X",
+          "术前评估"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "诊断任务",
+        "arguments": [
+          "Y",
+          "明确组织硬度评估手术可行性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提供关键信息",
+        "arguments": [
+          "超声弹性成像",
+          "Y",
+          "检测肝实质与病灶组织硬度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "提供关键信息",
+        "arguments": [
+          "超声弹性成像",
+          "Y",
+          "为明确手术可行性提供辅助信息"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "肝癌诊断任务"
+    },
+    "source_text": "超声检查因操作简便、实时无创、移动便捷等特点，是临床上最常用的肝脏影像学检查方法。常规灰阶超声可早期、敏感地检出肝内占位性病变，可鉴别其是囊性或实质性、良性或恶性，并观察肝内或腹腔内相关转移灶、肝内血管及胆管侵犯情况等。彩色多普勒血流成像可观察病灶内血供，同时明确病灶性质及与肝内重要血管的毗邻关系。超声造影检查可提示肝肿瘤的血流动力学变化，帮助鉴别诊断不同性质肝肿瘤，在评价肝癌的微血管灌注和引导介入治疗及介入治疗后即刻评估疗效方面具有优势。超声联合影像导航技术为肝癌的精准定位和实时微创消融提供了有效的手段[4]（证据等级3）。术中超声及术中超声造影检查能更敏感地显示肝内直径约为5 mm 的肝癌，更好地协同手术治疗[5]（证据等级3 级）。超声弹性成像可检测肝实质和肝内占位性病灶的组织硬度，为明确肝癌手术的可行性提供更多的辅助信息[6，7]（证据等级3 级）。多种超声技术的联合应用，可为肝癌精准的术前诊断、术中定位、术后评估起到重要作用[8]。"
+  },
+  {
+    "rule_name": "病人术前评估必备_全身情况评估",
+    "head": {
+      "is_negative": false,
+      "name": "术前评估完成",
+      "arguments": [
+        "X",
+        "全身情况"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "拟行治疗",
+        "arguments": [
+          "X",
+          "肝切除术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用评估",
+        "arguments": [
+          "X",
+          "ECOGPS评分"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估结果",
+        "arguments": [
+          "X",
+          "全身情况",
+          "已获知"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "在术前应对病人的全身情况及肝脏储备功能进行全面评价，常采用美国东部肿瘤协作组提出的功能状态评分（ECOG PS）评估病人的全身情况；采用肝功能Child-Pugh 评分、吲哚菁绿（ICG）清除实验或瞬时弹性成像测定肝脏硬度[59-64]评价肝脏储备功能情况。包括中国学者的许多研究结果提示：经过选择的门静脉高压症病人，仍可接受肝切除手术，其术后长期生存优于接受其他治疗[65，66]。因此，更为精确地评价门静脉高压的程度[67，68]，有助于筛选适合手术切除的病人。如预期保留肝脏组织体积较小，则采用CT 和（或）MRI 测定剩余肝脏体积，并计算剩余肝脏体积占标准化肝脏体积的百分比[60]。通常认为肝功能Child-Pugh A 级、ICG-R15＜30%是实施手术切除的必要条件；"
+  },
+  {
+    "rule_name": "病人术前评估必备_肝脏储备评估方法1_Child-Pugh评分",
+    "head": {
+      "is_negative": false,
+      "name": "术前评估完成",
+      "arguments": [
+        "X",
+        "肝脏储备功能"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "拟行治疗",
+        "arguments": [
+          "X",
+          "肝切除术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用评估",
+        "arguments": [
+          "X",
+          "Child-Pugh评分"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估结果",
+        "arguments": [
+          "X",
+          "肝脏储备功能",
+          "已获知"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "在术前应对病人的全身情况及肝脏储备功能进行全面评价，常采用美国东部肿瘤协作组提出的功能状态评分（ECOG PS）评估病人的全身情况；采用肝功能Child-Pugh 评分、吲哚菁绿（ICG）清除实验或瞬时弹性成像测定肝脏硬度[59-64]评价肝脏储备功能情况。包括中国学者的许多研究结果提示：经过选择的门静脉高压症病人，仍可接受肝切除手术，其术后长期生存优于接受其他治疗[65，66]。因此，更为精确地评价门静脉高压的程度[67，68]，有助于筛选适合手术切除的病人。如预期保留肝脏组织体积较小，则采用CT 和（或）MRI 测定剩余肝脏体积，并计算剩余肝脏体积占标准化肝脏体积的百分比[60]。通常认为肝功能Child-Pugh A 级、ICG-R15＜30%是实施手术切除的必要条件；"
+  },
+  {
+    "rule_name": "病人术前评估必备_肝脏储备评估方法2_ICG清除实验",
+    "head": {
+      "is_negative": false,
+      "name": "术前评估完成",
+      "arguments": [
+        "X",
+        "肝脏储备功能"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "拟行治疗",
+        "arguments": [
+          "X",
+          "肝切除术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用评估",
+        "arguments": [
+          "X",
+          "ICG清除实验"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估结果",
+        "arguments": [
+          "X",
+          "肝脏储备功能",
+          "已获知"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "在术前应对病人的全身情况及肝脏储备功能进行全面评价，常采用美国东部肿瘤协作组提出的功能状态评分（ECOG PS）评估病人的全身情况；采用肝功能Child-Pugh 评分、吲哚菁绿（ICG）清除实验或瞬时弹性成像测定肝脏硬度[59-64]评价肝脏储备功能情况。包括中国学者的许多研究结果提示：经过选择的门静脉高压症病人，仍可接受肝切除手术，其术后长期生存优于接受其他治疗[65，66]。因此，更为精确地评价门静脉高压的程度[67，68]，有助于筛选适合手术切除的病人。如预期保留肝脏组织体积较小，则采用CT 和（或）MRI 测定剩余肝脏体积，并计算剩余肝脏体积占标准化肝脏体积的百分比[60]。通常认为肝功能Child-Pugh A 级、ICG-R15＜30%是实施手术切除的必要条件；"
+  },
+  {
+    "rule_name": "病人术前评估必备_肝脏储备评估方法3_瞬时弹性成像",
+    "head": {
+      "is_negative": false,
+      "name": "术前评估完成",
+      "arguments": [
+        "X",
+        "肝脏储备功能"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "拟行治疗",
+        "arguments": [
+          "X",
+          "肝切除术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用评估",
+        "arguments": [
+          "X",
+          "瞬时弹性成像"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估结果",
+        "arguments": [
+          "X",
+          "肝脏储备功能",
+          "已获知"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "在术前应对病人的全身情况及肝脏储备功能进行全面评价，常采用美国东部肿瘤协作组提出的功能状态评分（ECOG PS）评估病人的全身情况；采用肝功能Child-Pugh 评分、吲哚菁绿（ICG）清除实验或瞬时弹性成像测定肝脏硬度[59-64]评价肝脏储备功能情况。包括中国学者的许多研究结果提示：经过选择的门静脉高压症病人，仍可接受肝切除手术，其术后长期生存优于接受其他治疗[65，66]。因此，更为精确地评价门静脉高压的程度[67，68]，有助于筛选适合手术切除的病人。如预期保留肝脏组织体积较小，则采用CT 和（或）MRI 测定剩余肝脏体积，并计算剩余肝脏体积占标准化肝脏体积的百分比[60]。通常认为肝功能Child-Pugh A 级、ICG-R15＜30%是实施手术切除的必要条件；"
+  },
+  {
+    "rule_name": "门静脉高压症患者经选择后可手术",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "肝切除术",
+        "适用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "门静脉高压症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "经选择",
+        "arguments": [
+          "X",
+          "针对手术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "肝癌"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "在术前应对病人的全身情况及肝脏储备功能进行全面评价，常采用美国东部肿瘤协作组提出的功能状态评分（ECOG PS）评估病人的全身情况；采用肝功能Child-Pugh 评分、吲哚菁绿（ICG）清除实验或瞬时弹性成像测定肝脏硬度[59-64]评价肝脏储备功能情况。包括中国学者的许多研究结果提示：经过选择的门静脉高压症病人，仍可接受肝切除手术，其术后长期生存优于接受其他治疗[65，66]。因此，更为精确地评价门静脉高压的程度[67，68]，有助于筛选适合手术切除的病人。如预期保留肝脏组织体积较小，则采用CT 和（或）MRI 测定剩余肝脏体积，并计算剩余肝脏体积占标准化肝脏体积的百分比[60]。通常认为肝功能Child-Pugh A 级、ICG-R15＜30%是实施手术切除的必要条件；"
+  },
+  {
+    "rule_name": "预期保留肝体积较小时的额外体积评估_CT",
+    "head": {
+      "is_negative": false,
+      "name": "额外评估完成",
+      "arguments": [
+        "X",
+        "剩余肝脏体积"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "拟行治疗",
+        "arguments": [
+          "X",
+          "肝切除术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预期保留肝体积",
+        "arguments": [
+          "X",
+          "较小"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用评估",
+        "arguments": [
+          "X",
+          "CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估指标",
+        "arguments": [
+          "X",
+          "剩余肝脏体积占比",
+          "已计算"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "在术前应对病人的全身情况及肝脏储备功能进行全面评价，常采用美国东部肿瘤协作组提出的功能状态评分（ECOG PS）评估病人的全身情况；采用肝功能Child-Pugh 评分、吲哚菁绿（ICG）清除实验或瞬时弹性成像测定肝脏硬度[59-64]评价肝脏储备功能情况。包括中国学者的许多研究结果提示：经过选择的门静脉高压症病人，仍可接受肝切除手术，其术后长期生存优于接受其他治疗[65，66]。因此，更为精确地评价门静脉高压的程度[67，68]，有助于筛选适合手术切除的病人。如预期保留肝脏组织体积较小，则采用CT 和（或）MRI 测定剩余肝脏体积，并计算剩余肝脏体积占标准化肝脏体积的百分比[60]。通常认为肝功能Child-Pugh A 级、ICG-R15＜30%是实施手术切除的必要条件；"
+  },
+  {
+    "rule_name": "预期保留肝体积较小时的额外体积评估_MRI",
+    "head": {
+      "is_negative": false,
+      "name": "额外评估完成",
+      "arguments": [
+        "X",
+        "剩余肝脏体积"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "拟行治疗",
+        "arguments": [
+          "X",
+          "肝切除术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预期保留肝体积",
+        "arguments": [
+          "X",
+          "较小"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采用评估",
+        "arguments": [
+          "X",
+          "MRI"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估指标",
+        "arguments": [
+          "X",
+          "剩余肝脏体积占比",
+          "已计算"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "在术前应对病人的全身情况及肝脏储备功能进行全面评价，常采用美国东部肿瘤协作组提出的功能状态评分（ECOG PS）评估病人的全身情况；采用肝功能Child-Pugh 评分、吲哚菁绿（ICG）清除实验或瞬时弹性成像测定肝脏硬度[59-64]评价肝脏储备功能情况。包括中国学者的许多研究结果提示：经过选择的门静脉高压症病人，仍可接受肝切除手术，其术后长期生存优于接受其他治疗[65，66]。因此，更为精确地评价门静脉高压的程度[67，68]，有助于筛选适合手术切除的病人。如预期保留肝脏组织体积较小，则采用CT 和（或）MRI 测定剩余肝脏体积，并计算剩余肝脏体积占标准化肝脏体积的百分比[60]。通常认为肝功能Child-Pugh A 级、ICG-R15＜30%是实施手术切除的必要条件；"
+  },
+  {
+    "rule_name": "肝切除术必要条件_Child-PughA级且ICGR15达标",
+    "head": {
+      "is_negative": false,
+      "name": "满足手术必要条件",
+      "arguments": [
+        "X",
+        "肝切除术"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "病人",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估指标",
+        "arguments": [
+          "X",
+          "Child-Pugh评分",
+          "A级"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估指标",
+        "arguments": [
+          "X",
+          "ICG-R15",
+          "小于30%"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "病人"
+    },
+    "source_text": "在术前应对病人的全身情况及肝脏储备功能进行全面评价，常采用美国东部肿瘤协作组提出的功能状态评分（ECOG PS）评估病人的全身情况；采用肝功能Child-Pugh 评分、吲哚菁绿（ICG）清除实验或瞬时弹性成像测定肝脏硬度[59-64]评价肝脏储备功能情况。包括中国学者的许多研究结果提示：经过选择的门静脉高压症病人，仍可接受肝切除手术，其术后长期生存优于接受其他治疗[65，66]。因此，更为精确地评价门静脉高压的程度[67，68]，有助于筛选适合手术切除的病人。如预期保留肝脏组织体积较小，则采用CT 和（或）MRI 测定剩余肝脏体积，并计算剩余肝脏体积占标准化肝脏体积的百分比[60]。通常认为肝功能Child-Pugh A 级、ICG-R15＜30%是实施手术切除的必要条件；"
+  },
+  {
+    "rule_name": "PET_CT检查的肿瘤分期优势",
+    "head": {
+      "is_negative": false,
+      "name": "优势",
+      "arguments": [
+        "Z",
+        "肿瘤分期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "肝癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查类型",
+        "arguments": [
+          "Z",
+          "PET/CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对疾病",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用显像剂",
+        "arguments": [
+          "Z",
+          "18F-FDG"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "肝癌",
+      "Z": "PET/CT检查"
+    },
+    "source_text": "（1）正电子发射计算机断层成像（Positron emission tomography/CT，PET/CT），氟-18-脱氧葡萄糖（18F-FDG）PET/CT 全身显像的优势在于①对肿瘤进行分期，通过一次检查能够全面评价有无淋巴结转移及远处器官的转移[25，26]（证据等级1）；②再分期，因PET/CT 功能影像不受解剖结构的影响，可准确显示解剖结构发生变化后或者解剖结构复杂部位的复发转移灶[27，28]（证据等级2）；③疗效评价，对于抑制肿瘤活性的靶向药物，疗效评价更加敏感、准确[29，30]（证据等级2）；④指导放疗生物靶区的勾画、确定穿刺活检部位[27，28]（证据等级2）；⑤评价肿瘤的恶性程度和预后[31-34]（证据等级2）。碳-11 标记的乙酸盐（11C-acetate）或胆碱（11C-choline）PET 显像可提高对高分化肝癌诊断的灵敏度，与18F-FDG PET/CT 显像具有互补作用[35，36]。"
+  },
+  {
+    "rule_name": "PET_CT功能影像的再分期优势",
+    "head": {
+      "is_negative": false,
+      "name": "优势",
+      "arguments": [
+        "Z",
+        "再分期"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "肝癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查类型",
+        "arguments": [
+          "Z",
+          "PET/CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像特性",
+        "arguments": [
+          "Z",
+          "功能影像"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "特性",
+        "arguments": [
+          "Z",
+          "不受解剖结构影响"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "肝癌",
+      "Z": "PET/CT检查"
+    },
+    "source_text": "（1）正电子发射计算机断层成像（Positron emission tomography/CT，PET/CT），氟-18-脱氧葡萄糖（18F-FDG）PET/CT 全身显像的优势在于①对肿瘤进行分期，通过一次检查能够全面评价有无淋巴结转移及远处器官的转移[25，26]（证据等级1）；②再分期，因PET/CT 功能影像不受解剖结构的影响，可准确显示解剖结构发生变化后或者解剖结构复杂部位的复发转移灶[27，28]（证据等级2）；③疗效评价，对于抑制肿瘤活性的靶向药物，疗效评价更加敏感、准确[29，30]（证据等级2）；④指导放疗生物靶区的勾画、确定穿刺活检部位[27，28]（证据等级2）；⑤评价肿瘤的恶性程度和预后[31-34]（证据等级2）。碳-11 标记的乙酸盐（11C-acetate）或胆碱（11C-choline）PET 显像可提高对高分化肝癌诊断的灵敏度，与18F-FDG PET/CT 显像具有互补作用[35，36]。"
+  },
+  {
+    "rule_name": "PET_CT对靶向药物的疗效评价优势",
+    "head": {
+      "is_negative": false,
+      "name": "优势",
+      "arguments": [
+        "Z",
+        "疗效评价"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "肝癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用药物",
+        "arguments": [
+          "X",
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物类型",
+        "arguments": [
+          "W",
+          "靶向药物"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用机制",
+        "arguments": [
+          "W",
+          "抑制肿瘤活性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查类型",
+        "arguments": [
+          "Z",
+          "PET/CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对疾病",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "肝癌",
+      "Z": "PET/CT检查",
+      "W": "靶向药物"
+    },
+    "source_text": "（1）正电子发射计算机断层成像（Positron emission tomography/CT，PET/CT），氟-18-脱氧葡萄糖（18F-FDG）PET/CT 全身显像的优势在于①对肿瘤进行分期，通过一次检查能够全面评价有无淋巴结转移及远处器官的转移[25，26]（证据等级1）；②再分期，因PET/CT 功能影像不受解剖结构的影响，可准确显示解剖结构发生变化后或者解剖结构复杂部位的复发转移灶[27，28]（证据等级2）；③疗效评价，对于抑制肿瘤活性的靶向药物，疗效评价更加敏感、准确[29，30]（证据等级2）；④指导放疗生物靶区的勾画、确定穿刺活检部位[27，28]（证据等级2）；⑤评价肿瘤的恶性程度和预后[31-34]（证据等级2）。碳-11 标记的乙酸盐（11C-acetate）或胆碱（11C-choline）PET 显像可提高对高分化肝癌诊断的灵敏度，与18F-FDG PET/CT 显像具有互补作用[35，36]。"
+  },
+  {
+    "rule_name": "PET_CT指导放疗与穿刺的优势",
+    "head": {
+      "is_negative": false,
+      "name": "优势",
+      "arguments": [
+        "Z",
+        "指导治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "肝癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查类型",
+        "arguments": [
+          "Z",
+          "PET/CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对疾病",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可指导操作",
+        "arguments": [
+          "Z",
+          "勾画放疗靶区"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可指导操作",
+        "arguments": [
+          "Z",
+          "确定穿刺部位"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "肝癌",
+      "Z": "PET/CT检查"
+    },
+    "source_text": "（1）正电子发射计算机断层成像（Positron emission tomography/CT，PET/CT），氟-18-脱氧葡萄糖（18F-FDG）PET/CT 全身显像的优势在于①对肿瘤进行分期，通过一次检查能够全面评价有无淋巴结转移及远处器官的转移[25，26]（证据等级1）；②再分期，因PET/CT 功能影像不受解剖结构的影响，可准确显示解剖结构发生变化后或者解剖结构复杂部位的复发转移灶[27，28]（证据等级2）；③疗效评价，对于抑制肿瘤活性的靶向药物，疗效评价更加敏感、准确[29，30]（证据等级2）；④指导放疗生物靶区的勾画、确定穿刺活检部位[27，28]（证据等级2）；⑤评价肿瘤的恶性程度和预后[31-34]（证据等级2）。碳-11 标记的乙酸盐（11C-acetate）或胆碱（11C-choline）PET 显像可提高对高分化肝癌诊断的灵敏度，与18F-FDG PET/CT 显像具有互补作用[35，36]。"
+  },
+  {
+    "rule_name": "PET_CT评价肿瘤恶性程度与预后的优势",
+    "head": {
+      "is_negative": false,
+      "name": "优势",
+      "arguments": [
+        "Z",
+        "评价预后"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "肝癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查类型",
+        "arguments": [
+          "Z",
+          "PET/CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对疾病",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "肝癌",
+      "Z": "PET/CT检查"
+    },
+    "source_text": "（1）正电子发射计算机断层成像（Positron emission tomography/CT，PET/CT），氟-18-脱氧葡萄糖（18F-FDG）PET/CT 全身显像的优势在于①对肿瘤进行分期，通过一次检查能够全面评价有无淋巴结转移及远处器官的转移[25，26]（证据等级1）；②再分期，因PET/CT 功能影像不受解剖结构的影响，可准确显示解剖结构发生变化后或者解剖结构复杂部位的复发转移灶[27，28]（证据等级2）；③疗效评价，对于抑制肿瘤活性的靶向药物，疗效评价更加敏感、准确[29，30]（证据等级2）；④指导放疗生物靶区的勾画、确定穿刺活检部位[27，28]（证据等级2）；⑤评价肿瘤的恶性程度和预后[31-34]（证据等级2）。碳-11 标记的乙酸盐（11C-acetate）或胆碱（11C-choline）PET 显像可提高对高分化肝癌诊断的灵敏度，与18F-FDG PET/CT 显像具有互补作用[35，36]。"
+  },
+  {
+    "rule_name": "碳-11显像剂对高分化肝癌的诊断互补优势",
+    "head": {
+      "is_negative": false,
+      "name": "诊断互补",
+      "arguments": [
+        "Z",
+        "18F-FDG_PET/CT"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "肝癌"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "分化程度",
+        "arguments": [
+          "Y",
+          "高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查项目",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检查类型",
+        "arguments": [
+          "Z",
+          "PET"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "针对疾病",
+        "arguments": [
+          "Z",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "使用显像剂",
+        "arguments": [
+          "Z",
+          "碳-11_乙酸盐或胆碱"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "肝癌",
+      "Z": "PET检查"
+    },
+    "source_text": "（1）正电子发射计算机断层成像（Positron emission tomography/CT，PET/CT），氟-18-脱氧葡萄糖（18F-FDG）PET/CT 全身显像的优势在于①对肿瘤进行分期，通过一次检查能够全面评价有无淋巴结转移及远处器官的转移[25，26]（证据等级1）；②再分期，因PET/CT 功能影像不受解剖结构的影响，可准确显示解剖结构发生变化后或者解剖结构复杂部位的复发转移灶[27，28]（证据等级2）；③疗效评价，对于抑制肿瘤活性的靶向药物，疗效评价更加敏感、准确[29，30]（证据等级2）；④指导放疗生物靶区的勾画、确定穿刺活检部位[27，28]（证据等级2）；⑤评价肿瘤的恶性程度和预后[31-34]（证据等级2）。碳-11 标记的乙酸盐（11C-acetate）或胆碱（11C-choline）PET 显像可提高对高分化肝癌诊断的灵敏度，与18F-FDG PET/CT 显像具有互补作用[35，36]。"
+  },
+  {
+    "rule_name": "LOH检测适用于多结节或复发性肝癌的克隆起源评估",
+    "head": {
+      "is_negative": false,
+      "name": "检测方法适用于",
+      "arguments": [
+        "X",
+        "LOH检测",
+        "用于克隆起源评估"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "多结节性肝癌",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "常规方法难以识别特性",
+        "arguments": [
+          "X",
+          "克隆起源特性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "肝癌样本",
+      "Y": "患者"
+    },
+    "source_text": "多结节性肝癌的大小和数量以及术后复发性肝癌的克隆起源也是临床分期和选择治疗方案的重要参考依据。有研究结果显示：多结节性肝癌和复发性肝癌既可以是多中心起源的新生肿瘤，也可以是来自MVI 途径的单中心起源，但也可以两种起源模式同时存在。显然，多结节性肝癌和术后复发性肝癌的克隆起源方式将会影响临床分期和治疗模式的选择[55，56]。但这些肝癌的克隆起源特性难以通过常规组织形态学观察加以识别。http://guide.medlive.cn/9 / 75  为此，可采用基因组微卫星杂合性缺失（Loss of heterozygosity，LOH）等方法检测以评估多结节性肝癌和术后复发性肝癌的克隆起源方式，为临床肝癌分期及制订个体化治疗方案提供参考依据[57，58]。"
+  },
+  {
+    "rule_name": "基于LOH检测结果的多中心起源影响临床决策",
+    "head": {
+      "is_negative": false,
+      "name": "临床决策参考",
+      "arguments": [
+        "Z",
+        "X",
+        "参考依据"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "肝癌样本",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法适用于",
+        "arguments": [
+          "X",
+          "LOH检测",
+          "用于克隆起源评估"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "克隆起源模式为",
+        "arguments": [
+          "X",
+          "多中心起源"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "肝癌样本",
+      "Y": "患者",
+      "Z": "临床分期或治疗方案决策"
+    },
+    "source_text": "多结节性肝癌的大小和数量以及术后复发性肝癌的克隆起源也是临床分期和选择治疗方案的重要参考依据。有研究结果显示：多结节性肝癌和复发性肝癌既可以是多中心起源的新生肿瘤，也可以是来自MVI 途径的单中心起源，但也可以两种起源模式同时存在。显然，多结节性肝癌和术后复发性肝癌的克隆起源方式将会影响临床分期和治疗模式的选择[55，56]。但这些肝癌的克隆起源特性难以通过常规组织形态学观察加以识别。http://guide.medlive.cn/9 / 75  为此，可采用基因组微卫星杂合性缺失（Loss of heterozygosity，LOH）等方法检测以评估多结节性肝癌和术后复发性肝癌的克隆起源方式，为临床肝癌分期及制订个体化治疗方案提供参考依据[57，58]。"
+  },
+  {
+    "rule_name": "基于LOH检测结果的单中心MVI起源影响临床决策",
+    "head": {
+      "is_negative": false,
+      "name": "临床决策参考",
+      "arguments": [
+        "Z",
+        "X",
+        "参考依据"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "肝癌样本",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方法适用于",
+        "arguments": [
+          "X",
+          "LOH检测",
+          "用于克隆起源评估"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "克隆起源模式为",
+        "arguments": [
+          "X",
+          "单中心MVI起源"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "肝癌样本",
+      "Y": "患者",
+      "Z": "临床分期或治疗方案决策"
+    },
+    "source_text": "多结节性肝癌的大小和数量以及术后复发性肝癌的克隆起源也是临床分期和选择治疗方案的重要参考依据。有研究结果显示：多结节性肝癌和复发性肝癌既可以是多中心起源的新生肿瘤，也可以是来自MVI 途径的单中心起源，但也可以两种起源模式同时存在。显然，多结节性肝癌和术后复发性肝癌的克隆起源方式将会影响临床分期和治疗模式的选择[55，56]。但这些肝癌的克隆起源特性难以通过常规组织形态学观察加以识别。http://guide.medlive.cn/9 / 75  为此，可采用基因组微卫星杂合性缺失（Loss of heterozygosity，LOH）等方法检测以评估多结节性肝癌和术后复发性肝癌的克隆起源方式，为临床肝癌分期及制订个体化治疗方案提供参考依据[57，58]。"
+  },
+  {
+    "rule_name": "LOH检测对术后复发性肝癌的克隆起源评估适用",
+    "head": {
+      "is_negative": false,
+      "name": "检测方法适用于",
+      "arguments": [
+        "X",
+        "LOH检测",
+        "用于克隆起源评估"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "术后复发性肝癌",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "常规方法难以识别特性",
+        "arguments": [
+          "X",
+          "克隆起源特性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "肝癌样本",
+      "Y": "患者"
+    },
+    "source_text": "多结节性肝癌的大小和数量以及术后复发性肝癌的克隆起源也是临床分期和选择治疗方案的重要参考依据。有研究结果显示：多结节性肝癌和复发性肝癌既可以是多中心起源的新生肿瘤，也可以是来自MVI 途径的单中心起源，但也可以两种起源模式同时存在。显然，多结节性肝癌和术后复发性肝癌的克隆起源方式将会影响临床分期和治疗模式的选择[55，56]。但这些肝癌的克隆起源特性难以通过常规组织形态学观察加以识别。http://guide.medlive.cn/9 / 75  为此，可采用基因组微卫星杂合性缺失（Loss of heterozygosity，LOH）等方法检测以评估多结节性肝癌和术后复发性肝癌的克隆起源方式，为临床肝癌分期及制订个体化治疗方案提供参考依据[57，58]。"
+  },
+  {
+    "rule_name": "AFP达标且排除妊娠后高度提示肝癌",
+    "head": {
+      "is_negative": false,
+      "name": "诊断提示",
+      "arguments": [
+        "Y",
+        "肝癌",
+        "高度"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标志物",
+        "arguments": [
+          "X",
+          "AFP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "水平值",
+        "arguments": [
+          "Y",
+          "AFP≥400μg/L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属对象",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "生理状态",
+        "arguments": [
+          "X",
+          "妊娠"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "血清AFP水平"
+    },
+    "source_text": "血清AFP 是当前诊断肝癌和疗效监测常用且重要的指标。血清AFP≥400μg/L，排除妊娠、慢性或活动性肝病、生殖腺胚胎源性肿瘤以及消化道肿瘤后，高度提示肝癌。血清AFP 轻度升高者，应作动态观察，并与肝功能变化对比分析，有助于诊断。血清甲胎蛋白异质体（Lens culinaris agglutinin-reactive fraction of AFP，AFP-L3）、异常凝血酶原（Protein induced by vitamin K absence/antagonist-II，PIVKA II 或Des-gamma carboxyprothrombin，DCP）和血浆游离微小核糖核酸（microRNA）[42]也可作为肝癌早期诊断标志物，特别是对血清AFP 阴性人群。"
+  },
+  {
+    "rule_name": "AFP达标且排除慢性活动性肝病后高度提示肝癌",
+    "head": {
+      "is_negative": false,
+      "name": "诊断提示",
+      "arguments": [
+        "Y",
+        "肝癌",
+        "高度"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标志物",
+        "arguments": [
+          "X",
+          "AFP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "水平值",
+        "arguments": [
+          "Y",
+          "AFP≥400μg/L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属对象",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "慢性活动性肝病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "血清AFP水平"
+    },
+    "source_text": "血清AFP 是当前诊断肝癌和疗效监测常用且重要的指标。血清AFP≥400μg/L，排除妊娠、慢性或活动性肝病、生殖腺胚胎源性肿瘤以及消化道肿瘤后，高度提示肝癌。血清AFP 轻度升高者，应作动态观察，并与肝功能变化对比分析，有助于诊断。血清甲胎蛋白异质体（Lens culinaris agglutinin-reactive fraction of AFP，AFP-L3）、异常凝血酶原（Protein induced by vitamin K absence/antagonist-II，PIVKA II 或Des-gamma carboxyprothrombin，DCP）和血浆游离微小核糖核酸（microRNA）[42]也可作为肝癌早期诊断标志物，特别是对血清AFP 阴性人群。"
+  },
+  {
+    "rule_name": "AFP达标且排除生殖腺胚胎源性肿瘤后高度提示肝癌",
+    "head": {
+      "is_negative": false,
+      "name": "诊断提示",
+      "arguments": [
+        "Y",
+        "肝癌",
+        "高度"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标志物",
+        "arguments": [
+          "X",
+          "AFP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "水平值",
+        "arguments": [
+          "Y",
+          "AFP≥400μg/L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属对象",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "生殖腺胚胎源性肿瘤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "血清AFP水平"
+    },
+    "source_text": "血清AFP 是当前诊断肝癌和疗效监测常用且重要的指标。血清AFP≥400μg/L，排除妊娠、慢性或活动性肝病、生殖腺胚胎源性肿瘤以及消化道肿瘤后，高度提示肝癌。血清AFP 轻度升高者，应作动态观察，并与肝功能变化对比分析，有助于诊断。血清甲胎蛋白异质体（Lens culinaris agglutinin-reactive fraction of AFP，AFP-L3）、异常凝血酶原（Protein induced by vitamin K absence/antagonist-II，PIVKA II 或Des-gamma carboxyprothrombin，DCP）和血浆游离微小核糖核酸（microRNA）[42]也可作为肝癌早期诊断标志物，特别是对血清AFP 阴性人群。"
+  },
+  {
+    "rule_name": "AFP达标且排除消化道肿瘤后高度提示肝癌",
+    "head": {
+      "is_negative": false,
+      "name": "诊断提示",
+      "arguments": [
+        "Y",
+        "肝癌",
+        "高度"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标志物",
+        "arguments": [
+          "X",
+          "AFP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "水平值",
+        "arguments": [
+          "Y",
+          "AFP≥400μg/L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属对象",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "消化道肿瘤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "血清AFP水平"
+    },
+    "source_text": "血清AFP 是当前诊断肝癌和疗效监测常用且重要的指标。血清AFP≥400μg/L，排除妊娠、慢性或活动性肝病、生殖腺胚胎源性肿瘤以及消化道肿瘤后，高度提示肝癌。血清AFP 轻度升高者，应作动态观察，并与肝功能变化对比分析，有助于诊断。血清甲胎蛋白异质体（Lens culinaris agglutinin-reactive fraction of AFP，AFP-L3）、异常凝血酶原（Protein induced by vitamin K absence/antagonist-II，PIVKA II 或Des-gamma carboxyprothrombin，DCP）和血浆游离微小核糖核酸（microRNA）[42]也可作为肝癌早期诊断标志物，特别是对血清AFP 阴性人群。"
+  },
+  {
+    "rule_name": "血清AFP阴性人群可借助AFP-L3进行早期诊断",
+    "head": {
+      "is_negative": false,
+      "name": "用于早期诊断",
+      "arguments": [
+        "Z",
+        "肝癌"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标志物",
+        "arguments": [
+          "X",
+          "AFP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测结果",
+        "arguments": [
+          "X",
+          "AFP阴性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标志物",
+        "arguments": [
+          "Y",
+          "AFP-L3"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于人群",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用场景",
+        "arguments": [
+          "Y",
+          "AFP阴性人群"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "血清标志物AFP-L3",
+      "Z": "诊断方法"
+    },
+    "source_text": "血清AFP 是当前诊断肝癌和疗效监测常用且重要的指标。血清AFP≥400μg/L，排除妊娠、慢性或活动性肝病、生殖腺胚胎源性肿瘤以及消化道肿瘤后，高度提示肝癌。血清AFP 轻度升高者，应作动态观察，并与肝功能变化对比分析，有助于诊断。血清甲胎蛋白异质体（Lens culinaris agglutinin-reactive fraction of AFP，AFP-L3）、异常凝血酶原（Protein induced by vitamin K absence/antagonist-II，PIVKA II 或Des-gamma carboxyprothrombin，DCP）和血浆游离微小核糖核酸（microRNA）[42]也可作为肝癌早期诊断标志物，特别是对血清AFP 阴性人群。"
+  },
+  {
+    "rule_name": "血清AFP阴性人群可借助PIVKA_II进行早期诊断",
+    "head": {
+      "is_negative": false,
+      "name": "用于早期诊断",
+      "arguments": [
+        "Z",
+        "肝癌"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标志物",
+        "arguments": [
+          "X",
+          "AFP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测结果",
+        "arguments": [
+          "X",
+          "AFP阴性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标志物",
+        "arguments": [
+          "Y",
+          "PIVKA_II"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于人群",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用场景",
+        "arguments": [
+          "Y",
+          "AFP阴性人群"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "血清标志物PIVKA_II",
+      "Z": "诊断方法"
+    },
+    "source_text": "血清AFP 是当前诊断肝癌和疗效监测常用且重要的指标。血清AFP≥400μg/L，排除妊娠、慢性或活动性肝病、生殖腺胚胎源性肿瘤以及消化道肿瘤后，高度提示肝癌。血清AFP 轻度升高者，应作动态观察，并与肝功能变化对比分析，有助于诊断。血清甲胎蛋白异质体（Lens culinaris agglutinin-reactive fraction of AFP，AFP-L3）、异常凝血酶原（Protein induced by vitamin K absence/antagonist-II，PIVKA II 或Des-gamma carboxyprothrombin，DCP）和血浆游离微小核糖核酸（microRNA）[42]也可作为肝癌早期诊断标志物，特别是对血清AFP 阴性人群。"
+  },
+  {
+    "rule_name": "血清AFP阴性人群可借助血浆游离microRNA进行早期诊断",
+    "head": {
+      "is_negative": false,
+      "name": "用于早期诊断",
+      "arguments": [
+        "Z",
+        "肝癌"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标志物",
+        "arguments": [
+          "X",
+          "AFP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测结果",
+        "arguments": [
+          "X",
+          "AFP阴性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清标志物",
+        "arguments": [
+          "Y",
+          "血浆游离微小核糖核酸"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于人群",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用场景",
+        "arguments": [
+          "Y",
+          "AFP阴性人群"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "血清标志物血浆游离微小核糖核酸",
+      "Z": "诊断方法"
+    },
+    "source_text": "血清AFP 是当前诊断肝癌和疗效监测常用且重要的指标。血清AFP≥400μg/L，排除妊娠、慢性或活动性肝病、生殖腺胚胎源性肿瘤以及消化道肿瘤后，高度提示肝癌。血清AFP 轻度升高者，应作动态观察，并与肝功能变化对比分析，有助于诊断。血清甲胎蛋白异质体（Lens culinaris agglutinin-reactive fraction of AFP，AFP-L3）、异常凝血酶原（Protein induced by vitamin K absence/antagonist-II，PIVKA II 或Des-gamma carboxyprothrombin，DCP）和血浆游离微小核糖核酸（microRNA）[42]也可作为肝癌早期诊断标志物，特别是对血清AFP 阴性人群。"
+  }
+]

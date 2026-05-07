@@ -1,0 +1,1306 @@
+[
+  {
+    "rule_name": "接受特定抑制剂的产妇对产后出血谨慎使用甲炔诺酮",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "甲炔诺酮",
+        "谨慎考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "产妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "CYP3A4酶抑制剂_例如蛋白酶抑制剂",
+          "正在"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出现症状",
+        "arguments": [
+          "X",
+          "产后出血过多"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出血原因",
+        "arguments": [
+          "X",
+          "子宫弛缓症"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "存在方法",
+        "arguments": [
+          "X",
+          "其他替代"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估结果",
+        "arguments": [
+          "收益",
+          "风险",
+          "大于"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "产妇"
+    },
+    "source_text": "正在接受ART且达到病毒学抑制的孕产妇可以根据标准产科指征进行人工破膜术[6]。由于可能增加HIV围生期传播的风险，除非有明确的产科指征，一般应避免常规使用胎儿头皮电极进行胎儿监护以及使用产钳或负压吸引器进行手术分娩。在处理子宫弛缓症导致的产后出血过多时，如果产妇正在接受细胞色素P450（CYP）3A4酶抑制剂( 例如蛋白酶抑制剂)、整合酶抑制剂、考比司他，只有在无其他替代方法，收益大于风险时，才考虑使用甲炔诺酮，并以最低有效剂量短时间内给药；如果产妇正在接受CYP3A4酶诱导剂（如奈韦拉平或依非韦伦）治疗，由于这些药物可导致甲基麦角新碱浓度和疗效降低，应加用其他缩宫剂[6]。"
+  },
+  {
+    "rule_name": "接受特定诱导剂的产妇对产后出血加用其他缩宫剂",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "其他缩宫剂",
+        "应加用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "产妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "CYP3A4酶诱导剂_如奈韦拉平或依非韦伦",
+          "正在"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出现症状",
+        "arguments": [
+          "X",
+          "产后出血过多"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出血原因",
+        "arguments": [
+          "X",
+          "子宫弛缓症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物相互作用",
+        "arguments": [
+          "该治疗",
+          "甲基麦角新碱",
+          "降低浓度与疗效"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "产妇"
+    },
+    "source_text": "正在接受ART且达到病毒学抑制的孕产妇可以根据标准产科指征进行人工破膜术[6]。由于可能增加HIV围生期传播的风险，除非有明确的产科指征，一般应避免常规使用胎儿头皮电极进行胎儿监护以及使用产钳或负压吸引器进行手术分娩。在处理子宫弛缓症导致的产后出血过多时，如果产妇正在接受细胞色素P450（CYP）3A4酶抑制剂( 例如蛋白酶抑制剂)、整合酶抑制剂、考比司他，只有在无其他替代方法，收益大于风险时，才考虑使用甲炔诺酮，并以最低有效剂量短时间内给药；如果产妇正在接受CYP3A4酶诱导剂（如奈韦拉平或依非韦伦）治疗，由于这些药物可导致甲基麦角新碱浓度和疗效降低，应加用其他缩宫剂[6]。"
+  },
+  {
+    "rule_name": "具备人工喂养条件的HIV感染产妇所生儿童应获指导",
+    "head": {
+      "is_negative": false,
+      "name": "提供喂养指导",
+      "arguments": [
+        "医务人员",
+        "X",
+        "Y",
+        "人工"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HIV感染产妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属儿童",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具备条件",
+        "arguments": [
+          "家庭",
+          "人工喂养"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估情况",
+        "arguments": [
+          "医务人员",
+          "家庭条件",
+          "完成"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "HIV感染产妇",
+      "Y": "所生儿童"
+    },
+    "source_text": "应当对HIV感染孕产妇所生儿童提倡人工喂养，避免母乳喂养。医务人员应当针对HIV感染孕产妇及其家人就人工喂养环境与条件、可接受性、知识和技能、可及性，可持续获得足量、营养和安全的代乳品等情况，及时进行综合的喂养指导和科学喂养评估。对于具备人工喂养条件者尽量提供人工喂养，并给予指导和支持。对于因不具备人工喂养条件而选择母乳喂养的HIV感染产妇及其家人，指导其坚持正确的纯母乳喂养，喂养时间最好不超过6个月。母乳喂养期间，HIV感染产妇应坚持ART，产妇乳腺炎和婴儿鹅口疮会增加母乳喂养HIV传播的风险，应及时识别和治疗。在母乳喂养期间婴儿每3个月进行一次病原学检测，在停止母乳喂养后4~6周、3个月和6个月进行随访检测。"
+  },
+  {
+    "rule_name": "不具备人工喂养条件的HIV感染产妇选择母乳喂养应获指导",
+    "head": {
+      "is_negative": false,
+      "name": "提供喂养指导",
+      "arguments": [
+        "医务人员",
+        "X",
+        "Y",
+        "纯母乳不超过6个月"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HIV感染产妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属儿童",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "具备条件",
+        "arguments": [
+          "家庭",
+          "人工喂养"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "选择喂养方式",
+        "arguments": [
+          "家庭",
+          "母乳喂养"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "HIV感染产妇",
+      "Y": "所生儿童"
+    },
+    "source_text": "应当对HIV感染孕产妇所生儿童提倡人工喂养，避免母乳喂养。医务人员应当针对HIV感染孕产妇及其家人就人工喂养环境与条件、可接受性、知识和技能、可及性，可持续获得足量、营养和安全的代乳品等情况，及时进行综合的喂养指导和科学喂养评估。对于具备人工喂养条件者尽量提供人工喂养，并给予指导和支持。对于因不具备人工喂养条件而选择母乳喂养的HIV感染产妇及其家人，指导其坚持正确的纯母乳喂养，喂养时间最好不超过6个月。母乳喂养期间，HIV感染产妇应坚持ART，产妇乳腺炎和婴儿鹅口疮会增加母乳喂养HIV传播的风险，应及时识别和治疗。在母乳喂养期间婴儿每3个月进行一次病原学检测，在停止母乳喂养后4~6周、3个月和6个月进行随访检测。"
+  },
+  {
+    "rule_name": "母乳喂养期间维持安全的要求",
+    "head": {
+      "is_negative": false,
+      "name": "维持喂养方式",
+      "arguments": [
+        "家庭",
+        "母乳喂养"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "当前喂养方式",
+        "arguments": [
+          "家庭",
+          "母乳喂养"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "坚持治疗",
+        "arguments": [
+          "X",
+          "ART"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "并发症状",
+        "arguments": [
+          "X",
+          "乳腺炎"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "并发症状",
+        "arguments": [
+          "Y",
+          "鹅口疮"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "HIV感染产妇",
+      "Y": "所生儿童"
+    },
+    "source_text": "应当对HIV感染孕产妇所生儿童提倡人工喂养，避免母乳喂养。医务人员应当针对HIV感染孕产妇及其家人就人工喂养环境与条件、可接受性、知识和技能、可及性，可持续获得足量、营养和安全的代乳品等情况，及时进行综合的喂养指导和科学喂养评估。对于具备人工喂养条件者尽量提供人工喂养，并给予指导和支持。对于因不具备人工喂养条件而选择母乳喂养的HIV感染产妇及其家人，指导其坚持正确的纯母乳喂养，喂养时间最好不超过6个月。母乳喂养期间，HIV感染产妇应坚持ART，产妇乳腺炎和婴儿鹅口疮会增加母乳喂养HIV传播的风险，应及时识别和治疗。在母乳喂养期间婴儿每3个月进行一次病原学检测，在停止母乳喂养后4~6周、3个月和6个月进行随访检测。"
+  },
+  {
+    "rule_name": "母乳喂养期间婴儿的病原学检测要求",
+    "head": {
+      "is_negative": false,
+      "name": "执行检测",
+      "arguments": [
+        "医务人员",
+        "Y",
+        "病原学",
+        "每3个月"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "当前喂养方式",
+        "arguments": [
+          "家庭",
+          "母乳喂养"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属儿童",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "时间状态",
+        "arguments": [
+          "喂养期",
+          "进行中"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "HIV感染产妇",
+      "Y": "所生儿童"
+    },
+    "source_text": "应当对HIV感染孕产妇所生儿童提倡人工喂养，避免母乳喂养。医务人员应当针对HIV感染孕产妇及其家人就人工喂养环境与条件、可接受性、知识和技能、可及性，可持续获得足量、营养和安全的代乳品等情况，及时进行综合的喂养指导和科学喂养评估。对于具备人工喂养条件者尽量提供人工喂养，并给予指导和支持。对于因不具备人工喂养条件而选择母乳喂养的HIV感染产妇及其家人，指导其坚持正确的纯母乳喂养，喂养时间最好不超过6个月。母乳喂养期间，HIV感染产妇应坚持ART，产妇乳腺炎和婴儿鹅口疮会增加母乳喂养HIV传播的风险，应及时识别和治疗。在母乳喂养期间婴儿每3个月进行一次病原学检测，在停止母乳喂养后4~6周、3个月和6个月进行随访检测。"
+  },
+  {
+    "rule_name": "HIV感染孕妇无论病毒载量高低均应尽早启动ART_高载量情况",
+    "head": {
+      "is_negative": false,
+      "name": "建议操作",
+      "arguments": [
+        "X",
+        "启动ART",
+        "尽早"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HIV感染孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病状况",
+        "arguments": [
+          "X",
+          "HIV病毒载量",
+          "高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病状况",
+        "arguments": [
+          "X",
+          "HIV病毒载量",
+          "低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目的",
+        "arguments": [
+          "启动ART",
+          "防止母婴传播"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "无论孕产妇HIV病毒载量或CD4+ T淋巴细胞（简称CD4细胞）计数如何，所有HIV感染孕妇应在妊娠期尽早启动ART，以防止母婴传播。"
+  },
+  {
+    "rule_name": "HIV感染孕妇无论CD4计数高低均应尽早启动ART_高计数情况",
+    "head": {
+      "is_negative": false,
+      "name": "建议操作",
+      "arguments": [
+        "X",
+        "启动ART",
+        "尽早"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HIV感染孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病状况",
+        "arguments": [
+          "X",
+          "CD4细胞计数",
+          "高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病状况",
+        "arguments": [
+          "X",
+          "CD4细胞计数",
+          "低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目的",
+        "arguments": [
+          "启动ART",
+          "防止母婴传播"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "无论孕产妇HIV病毒载量或CD4+ T淋巴细胞（简称CD4细胞）计数如何，所有HIV感染孕妇应在妊娠期尽早启动ART，以防止母婴传播。"
+  },
+  {
+    "rule_name": "为HIV孕妇选择ART方案需考虑的综合因素",
+    "head": {
+      "is_negative": false,
+      "name": "选择方案需考虑因素",
+      "arguments": [
+        "X",
+        "ART方案"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "HIV感染孕妇",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需考虑因素",
+        "arguments": [
+          "ART方案",
+          "不良反应"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需考虑因素",
+        "arguments": [
+          "ART方案",
+          "药物相互作用"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需考虑因素",
+        "arguments": [
+          "ART方案",
+          "药代动力学"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需考虑因素",
+        "arguments": [
+          "ART方案",
+          "方便性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需考虑因素",
+        "arguments": [
+          "ART方案",
+          "妊娠期使用经验"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需考虑因素",
+        "arguments": [
+          "ART方案",
+          "病人耐药性结果"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "需考虑因素",
+        "arguments": [
+          "ART方案",
+          "病人并发症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "在为孕妇选择ART方案时，必须考虑多种因素，包括不良反应、药物相互作用、药代动力学（PK）、单用药物和药物组合的方便性、妊娠期间使用这些药物的经验以及病人的耐药性检测结果和并发症。"
+  },
+  {
+    "rule_name": "肌酐清除率不足者应避免使用TDF",
+    "head": {
+      "is_negative": false,
+      "name": "应避免使用",
+      "arguments": [
+        "X",
+        "TDF",
+        "肌酐清除率不足时"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肾功能指标",
+        "arguments": [
+          "X",
+          "肌酐清除率",
+          "小于60mL/min"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "用药考虑",
+        "arguments": [
+          "X",
+          "TDF"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "在肌酐清除率＜60mL /min时应避免使用TDF；"
+  },
+  {
+    "rule_name": "发生严重药物毒性时应停止并重启ART",
+    "head": {
+      "is_negative": false,
+      "name": "应停止用药",
+      "arguments": [
+        "X",
+        "所有抗HIV药物"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "ART"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生事件",
+        "arguments": [
+          "治疗过程",
+          "严重药物毒性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "严重药物毒性、妊娠剧烈呕吐、手术或药物短缺可能导致停药。无论出于任何原因，应同时停用所有抗HIV药物，并在条件允许时尽快重新开始ART。"
+  },
+  {
+    "rule_name": "发生妊娠剧烈呕吐时应停止并重启ART",
+    "head": {
+      "is_negative": false,
+      "name": "应停止用药",
+      "arguments": [
+        "X",
+        "所有抗HIV药物"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "ART"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生事件",
+        "arguments": [
+          "治疗过程",
+          "妊娠剧烈呕吐"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "严重药物毒性、妊娠剧烈呕吐、手术或药物短缺可能导致停药。无论出于任何原因，应同时停用所有抗HIV药物，并在条件允许时尽快重新开始ART。"
+  },
+  {
+    "rule_name": "因手术原因时应停止并重启ART",
+    "head": {
+      "is_negative": false,
+      "name": "应停止用药",
+      "arguments": [
+        "X",
+        "所有抗HIV药物"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "ART"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生事件",
+        "arguments": [
+          "治疗过程",
+          "手术"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "严重药物毒性、妊娠剧烈呕吐、手术或药物短缺可能导致停药。无论出于任何原因，应同时停用所有抗HIV药物，并在条件允许时尽快重新开始ART。"
+  },
+  {
+    "rule_name": "因药物短缺时应停止并重启ART",
+    "head": {
+      "is_negative": false,
+      "name": "应停止用药",
+      "arguments": [
+        "X",
+        "所有抗HIV药物"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "ART"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生事件",
+        "arguments": [
+          "治疗过程",
+          "药物短缺"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "严重药物毒性、妊娠剧烈呕吐、手术或药物短缺可能导致停药。无论出于任何原因，应同时停用所有抗HIV药物，并在条件允许时尽快重新开始ART。"
+  },
+  {
+    "rule_name": "DHHS指南禁忌为怀孕早期孕妇处方DTG",
+    "head": {
+      "is_negative": false,
+      "name": "用药禁忌",
+      "arguments": [
+        "X",
+        "DTG",
+        "指南规定"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "特定人群",
+        "arguments": [
+          "怀孕12周内的孕妇"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "个体属于人群",
+        "arguments": [
+          "X",
+          "怀孕12周内的孕妇"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指南来源",
+        "arguments": [
+          "规定",
+          "DHHS2019"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "2019DHHS指南指出不应为下列人群处方DTG：怀孕12周内的孕妇，有生育潜力并计划怀孕的人，有生育潜力、性活跃且不使用有效避孕措施的人。"
+  },
+  {
+    "rule_name": "DHHS指南禁忌为计划怀孕者处方DTG",
+    "head": {
+      "is_negative": false,
+      "name": "用药禁忌",
+      "arguments": [
+        "X",
+        "DTG",
+        "指南规定"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "特定人群",
+        "arguments": [
+          "有生育潜力并计划怀孕的人"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "个体属于人群",
+        "arguments": [
+          "X",
+          "有生育潜力并计划怀孕的人"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指南来源",
+        "arguments": [
+          "规定",
+          "DHHS2019"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "2019DHHS指南指出不应为下列人群处方DTG：怀孕12周内的孕妇，有生育潜力并计划怀孕的人，有生育潜力、性活跃且不使用有效避孕措施的人。"
+  },
+  {
+    "rule_name": "DHHS指南禁忌为未避孕的性活跃者处方DTG",
+    "head": {
+      "is_negative": false,
+      "name": "用药禁忌",
+      "arguments": [
+        "X",
+        "DTG",
+        "指南规定"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "特定人群",
+        "arguments": [
+          "有生育潜力性活跃且未使用有效避孕措施的人"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "个体属于人群",
+        "arguments": [
+          "X",
+          "有生育潜力性活跃且未使用有效避孕措施的人"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "指南来源",
+        "arguments": [
+          "规定",
+          "DHHS2019"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "2019DHHS指南指出不应为下列人群处方DTG：怀孕12周内的孕妇，有生育潜力并计划怀孕的人，有生育潜力、性活跃且不使用有效避孕措施的人。"
+  },
+  {
+    "rule_name": "18月龄以下儿童_HIV诊断_条件1_母婴阳性",
+    "head": {
+      "is_negative": false,
+      "name": "诊断结果",
+      "arguments": [
+        "X",
+        "HIV感染",
+        "确诊"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "年龄小于",
+        "arguments": [
+          "X",
+          "18月龄"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "母亲",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属关系",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "HIV状态",
+        "arguments": [
+          "Y",
+          "阳性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "HIV检测结果",
+        "arguments": [
+          "X",
+          "阳性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "婴儿",
+      "Y": "母亲"
+    },
+    "source_text": "18月龄及以下儿童，符合下列一项者即可诊断[5]：1）为HIV阳性母亲所生且HIV检测结果阳性；2）为HIV感染母亲所生和两次HIV核酸检测均为阳性( 第二次检测需在出生6周后进行)；3）有医源性暴露史，HIV分离试验结果阳性或两次HIV核酸检测均为阳性。非母乳喂养的婴儿基于两次或多次病毒学检测阴性可明确排除HIV感染[17]：一次在≥1个月时检测，另一次在≥4个月时检测。或者根据≥6个月的两次不同样本中检测HIV抗体阴性来排除HIV感染。或者按照国内推荐，根据两次病毒学检测（一次在出生6周，另一次在出生3个月）阴性排除婴儿HIV感染。由于围生期HIV暴露的儿童18~24个月时偶尔会有残留的母亲HIV抗体[18]，因此HIV抗体呈阳性的这一年龄组儿童应该基于HIV核酸检测排除或确认HIV感染。"
+  },
+  {
+    "rule_name": "18月龄以下儿童_HIV诊断_条件2_两次核酸阳性",
+    "head": {
+      "is_negative": false,
+      "name": "诊断结果",
+      "arguments": [
+        "X",
+        "HIV感染",
+        "确诊"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "年龄小于",
+        "arguments": [
+          "X",
+          "18月龄"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "母亲",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属关系",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "HIV状态",
+        "arguments": [
+          "Y",
+          "感染"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核酸检测结果",
+        "arguments": [
+          "X",
+          "阳性",
+          "第1次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核酸检测结果",
+        "arguments": [
+          "X",
+          "阳性",
+          "第2次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测时间",
+        "arguments": [
+          "第2次检测",
+          "晚于6周龄"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "婴儿",
+      "Y": "母亲"
+    },
+    "source_text": "18月龄及以下儿童，符合下列一项者即可诊断[5]：1）为HIV阳性母亲所生且HIV检测结果阳性；2）为HIV感染母亲所生和两次HIV核酸检测均为阳性( 第二次检测需在出生6周后进行)；3）有医源性暴露史，HIV分离试验结果阳性或两次HIV核酸检测均为阳性。非母乳喂养的婴儿基于两次或多次病毒学检测阴性可明确排除HIV感染[17]：一次在≥1个月时检测，另一次在≥4个月时检测。或者根据≥6个月的两次不同样本中检测HIV抗体阴性来排除HIV感染。或者按照国内推荐，根据两次病毒学检测（一次在出生6周，另一次在出生3个月）阴性排除婴儿HIV感染。由于围生期HIV暴露的儿童18~24个月时偶尔会有残留的母亲HIV抗体[18]，因此HIV抗体呈阳性的这一年龄组儿童应该基于HIV核酸检测排除或确认HIV感染。"
+  },
+  {
+    "rule_name": "18月龄以下儿童_HIV诊断_条件3a_医源暴露后分离试验阳性",
+    "head": {
+      "is_negative": false,
+      "name": "诊断结果",
+      "arguments": [
+        "X",
+        "HIV感染",
+        "确诊"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "年龄小于",
+        "arguments": [
+          "X",
+          "18月龄"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "暴露史",
+        "arguments": [
+          "X",
+          "医源性HIV暴露"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "HIV分离试验结果",
+        "arguments": [
+          "X",
+          "阳性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "婴儿"
+    },
+    "source_text": "18月龄及以下儿童，符合下列一项者即可诊断[5]：1）为HIV阳性母亲所生且HIV检测结果阳性；2）为HIV感染母亲所生和两次HIV核酸检测均为阳性( 第二次检测需在出生6周后进行)；3）有医源性暴露史，HIV分离试验结果阳性或两次HIV核酸检测均为阳性。非母乳喂养的婴儿基于两次或多次病毒学检测阴性可明确排除HIV感染[17]：一次在≥1个月时检测，另一次在≥4个月时检测。或者根据≥6个月的两次不同样本中检测HIV抗体阴性来排除HIV感染。或者按照国内推荐，根据两次病毒学检测（一次在出生6周，另一次在出生3个月）阴性排除婴儿HIV感染。由于围生期HIV暴露的儿童18~24个月时偶尔会有残留的母亲HIV抗体[18]，因此HIV抗体呈阳性的这一年龄组儿童应该基于HIV核酸检测排除或确认HIV感染。"
+  },
+  {
+    "rule_name": "18月龄以下儿童_HIV诊断_条件3b_医源暴露后两次核酸阳性",
+    "head": {
+      "is_negative": false,
+      "name": "诊断结果",
+      "arguments": [
+        "X",
+        "HIV感染",
+        "确诊"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "年龄小于",
+        "arguments": [
+          "X",
+          "18月龄"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "暴露史",
+        "arguments": [
+          "X",
+          "医源性HIV暴露"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核酸检测结果",
+        "arguments": [
+          "X",
+          "阳性",
+          "第1次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "核酸检测结果",
+        "arguments": [
+          "X",
+          "阳性",
+          "第2次"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "婴儿"
+    },
+    "source_text": "18月龄及以下儿童，符合下列一项者即可诊断[5]：1）为HIV阳性母亲所生且HIV检测结果阳性；2）为HIV感染母亲所生和两次HIV核酸检测均为阳性( 第二次检测需在出生6周后进行)；3）有医源性暴露史，HIV分离试验结果阳性或两次HIV核酸检测均为阳性。非母乳喂养的婴儿基于两次或多次病毒学检测阴性可明确排除HIV感染[17]：一次在≥1个月时检测，另一次在≥4个月时检测。或者根据≥6个月的两次不同样本中检测HIV抗体阴性来排除HIV感染。或者按照国内推荐，根据两次病毒学检测（一次在出生6周，另一次在出生3个月）阴性排除婴儿HIV感染。由于围生期HIV暴露的儿童18~24个月时偶尔会有残留的母亲HIV抗体[18]，因此HIV抗体呈阳性的这一年龄组儿童应该基于HIV核酸检测排除或确认HIV感染。"
+  },
+  {
+    "rule_name": "非母乳喂养婴儿_HIV排除_条件1_两次病毒学检测阴性",
+    "head": {
+      "is_negative": false,
+      "name": "诊断结果",
+      "arguments": [
+        "X",
+        "HIV感染",
+        "排除"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "年龄小于",
+        "arguments": [
+          "X",
+          "18月龄"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "喂养方式",
+        "arguments": [
+          "X",
+          "母乳喂养"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病毒学检测结果",
+        "arguments": [
+          "X",
+          "阴性",
+          "检测A"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测时间",
+        "arguments": [
+          "检测A",
+          "大于等于1月龄"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病毒学检测结果",
+        "arguments": [
+          "X",
+          "阴性",
+          "检测B"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测时间",
+        "arguments": [
+          "检测B",
+          "大于等于4月龄"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "婴儿"
+    },
+    "source_text": "18月龄及以下儿童，符合下列一项者即可诊断[5]：1）为HIV阳性母亲所生且HIV检测结果阳性；2）为HIV感染母亲所生和两次HIV核酸检测均为阳性( 第二次检测需在出生6周后进行)；3）有医源性暴露史，HIV分离试验结果阳性或两次HIV核酸检测均为阳性。非母乳喂养的婴儿基于两次或多次病毒学检测阴性可明确排除HIV感染[17]：一次在≥1个月时检测，另一次在≥4个月时检测。或者根据≥6个月的两次不同样本中检测HIV抗体阴性来排除HIV感染。或者按照国内推荐，根据两次病毒学检测（一次在出生6周，另一次在出生3个月）阴性排除婴儿HIV感染。由于围生期HIV暴露的儿童18~24个月时偶尔会有残留的母亲HIV抗体[18]，因此HIV抗体呈阳性的这一年龄组儿童应该基于HIV核酸检测排除或确认HIV感染。"
+  },
+  {
+    "rule_name": "非母乳喂养婴儿_HIV排除_条件2_两次抗体检测阴性",
+    "head": {
+      "is_negative": false,
+      "name": "诊断结果",
+      "arguments": [
+        "X",
+        "HIV感染",
+        "排除"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "年龄小于",
+        "arguments": [
+          "X",
+          "18月龄"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "喂养方式",
+        "arguments": [
+          "X",
+          "母乳喂养"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "HIV抗体检测结果",
+        "arguments": [
+          "X",
+          "阴性",
+          "样本1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采样时间",
+        "arguments": [
+          "样本1",
+          "大于等于6月龄"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "HIV抗体检测结果",
+        "arguments": [
+          "X",
+          "阴性",
+          "样本2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "采样时间",
+        "arguments": [
+          "样本2",
+          "大于等于6月龄"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "不同样本",
+        "arguments": [
+          "样本1",
+          "样本2"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "婴儿"
+    },
+    "source_text": "18月龄及以下儿童，符合下列一项者即可诊断[5]：1）为HIV阳性母亲所生且HIV检测结果阳性；2）为HIV感染母亲所生和两次HIV核酸检测均为阳性( 第二次检测需在出生6周后进行)；3）有医源性暴露史，HIV分离试验结果阳性或两次HIV核酸检测均为阳性。非母乳喂养的婴儿基于两次或多次病毒学检测阴性可明确排除HIV感染[17]：一次在≥1个月时检测，另一次在≥4个月时检测。或者根据≥6个月的两次不同样本中检测HIV抗体阴性来排除HIV感染。或者按照国内推荐，根据两次病毒学检测（一次在出生6周，另一次在出生3个月）阴性排除婴儿HIV感染。由于围生期HIV暴露的儿童18~24个月时偶尔会有残留的母亲HIV抗体[18]，因此HIV抗体呈阳性的这一年龄组儿童应该基于HIV核酸检测排除或确认HIV感染。"
+  },
+  {
+    "rule_name": "非母乳喂养婴儿_HIV排除_条件3_国内推荐方案阴性",
+    "head": {
+      "is_negative": false,
+      "name": "诊断结果",
+      "arguments": [
+        "X",
+        "HIV感染",
+        "排除"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "年龄小于",
+        "arguments": [
+          "X",
+          "18月龄"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "喂养方式",
+        "arguments": [
+          "X",
+          "母乳喂养"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "检测方案",
+        "arguments": [
+          "X",
+          "国内推荐"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病毒学检测结果",
+        "arguments": [
+          "X",
+          "阴性",
+          "出生6周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病毒学检测结果",
+        "arguments": [
+          "X",
+          "阴性",
+          "出生3个月"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "婴儿"
+    },
+    "source_text": "18月龄及以下儿童，符合下列一项者即可诊断[5]：1）为HIV阳性母亲所生且HIV检测结果阳性；2）为HIV感染母亲所生和两次HIV核酸检测均为阳性( 第二次检测需在出生6周后进行)；3）有医源性暴露史，HIV分离试验结果阳性或两次HIV核酸检测均为阳性。非母乳喂养的婴儿基于两次或多次病毒学检测阴性可明确排除HIV感染[17]：一次在≥1个月时检测，另一次在≥4个月时检测。或者根据≥6个月的两次不同样本中检测HIV抗体阴性来排除HIV感染。或者按照国内推荐，根据两次病毒学检测（一次在出生6周，另一次在出生3个月）阴性排除婴儿HIV感染。由于围生期HIV暴露的儿童18~24个月时偶尔会有残留的母亲HIV抗体[18]，因此HIV抗体呈阳性的这一年龄组儿童应该基于HIV核酸检测排除或确认HIV感染。"
+  },
+  {
+    "rule_name": "18至24月龄抗体阳性儿童_需核酸检测确认",
+    "head": {
+      "is_negative": false,
+      "name": "诊断要求",
+      "arguments": [
+        "X",
+        "HIV核酸检测",
+        "确认或排除"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "年龄范围",
+        "arguments": [
+          "X",
+          "18至24月龄"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "暴露类型",
+        "arguments": [
+          "X",
+          "围生期HIV暴露"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "HIV抗体检测结果",
+        "arguments": [
+          "X",
+          "阳性"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "儿童"
+    },
+    "source_text": "18月龄及以下儿童，符合下列一项者即可诊断[5]：1）为HIV阳性母亲所生且HIV检测结果阳性；2）为HIV感染母亲所生和两次HIV核酸检测均为阳性( 第二次检测需在出生6周后进行)；3）有医源性暴露史，HIV分离试验结果阳性或两次HIV核酸检测均为阳性。非母乳喂养的婴儿基于两次或多次病毒学检测阴性可明确排除HIV感染[17]：一次在≥1个月时检测，另一次在≥4个月时检测。或者根据≥6个月的两次不同样本中检测HIV抗体阴性来排除HIV感染。或者按照国内推荐，根据两次病毒学检测（一次在出生6周，另一次在出生3个月）阴性排除婴儿HIV感染。由于围生期HIV暴露的儿童18~24个月时偶尔会有残留的母亲HIV抗体[18]，因此HIV抗体呈阳性的这一年龄组儿童应该基于HIV核酸检测排除或确认HIV感染。"
+  }
+]

@@ -1,0 +1,554 @@
+[
+  {
+    "rule_name": "严重腺病毒肺炎导致气道闭塞后遗症",
+    "head": {
+      "is_negative": false,
+      "name": "后遗症",
+      "arguments": [
+        "Y",
+        "气道闭塞",
+        "可导致"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肺炎类型",
+        "arguments": [
+          "Y",
+          "腺病毒肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "严重程度",
+        "arguments": [
+          "Y",
+          "重度"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发疾病",
+        "arguments": [
+          "Y",
+          "慢性肺病"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "肺炎"
+    },
+    "source_text": "Children’s community-acquired pneumonia（CAP）is the most common disease in children in China. At present，it faces the following problems：CAP is one of the main causes of death in children under 5 years of age；severe mycoplasma and adenovirus pneumonia can result in such sequelae as airway occlusion，causing chronic lung disease in children；the assessment of severe CAP is critical for timely treatment，which may be affected by various factors such as increased respiratory rate，refusing to eat or dehydration，lower pulse oxygen saturation，altered consciousness，and severe extrapulmonary complications."
+  },
+  {
+    "rule_name": "儿童重症社区获得性肺炎评估指标",
+    "head": {
+      "is_negative": false,
+      "name": "疾病严重程度判定",
+      "arguments": [
+        "X",
+        "CAP",
+        "重症"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "CAP"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估指标",
+        "arguments": [
+          "X",
+          "呼吸频率增快"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估指标",
+        "arguments": [
+          "X",
+          "拒绝进食或脱水"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估指标",
+        "arguments": [
+          "X",
+          "脉搏血氧饱和度降低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估指标",
+        "arguments": [
+          "X",
+          "意识状态改变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估指标",
+        "arguments": [
+          "X",
+          "严重肺外并发症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "Children’s community-acquired pneumonia（CAP）is the most common disease in children in China. At present，it faces the following problems：CAP is one of the main causes of death in children under 5 years of age；severe mycoplasma and adenovirus pneumonia can result in such sequelae as airway occlusion，causing chronic lung disease in children；the assessment of severe CAP is critical for timely treatment，which may be affected by various factors such as increased respiratory rate，refusing to eat or dehydration，lower pulse oxygen saturation，altered consciousness，and severe extrapulmonary complications."
+  },
+  {
+    "rule_name": "基于典型症状的肺炎诊断指征",
+    "head": {
+      "is_negative": false,
+      "name": "符合诊断标准",
+      "arguments": [
+        "X",
+        "肺炎"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "发热"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "咳嗽"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "肺部固定湿性啰音"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.2.1临床表现根据发热、咳嗽以及肺部固定湿性啰音可诊断肺炎。肺炎支原体肺炎或细菌性肺炎早期肺部可无湿性啰音，为避免误诊，规范提出持续发热伴咳嗽超过3～5 d，应考虑肺炎可能。3.2.2胸部X 线片检查对于一般状况良好，临床表现可诊断肺炎的门诊患儿，尤其根据临床特点判断为典型呼吸道合胞病毒或其他病毒感染者，不推荐常规行胸部X线片检查。有肺炎症状，但体征不符合，病程超过3～5 d者，可行胸部X 线片检查。肺炎病情较重或考虑有胸腔积液、气胸、肺不张等并发症时，也应进行胸部X线片检查。"
+  },
+  {
+    "rule_name": "肺炎支原体肺炎早期无啰音时需考虑肺炎的病程标准",
+    "head": {
+      "is_negative": false,
+      "name": "应考虑诊断",
+      "arguments": [
+        "X",
+        "肺炎"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "肺炎支原体肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "早期无肺部湿性啰音"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "持续发热超过3到5天"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "伴咳嗽"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.2.1临床表现根据发热、咳嗽以及肺部固定湿性啰音可诊断肺炎。肺炎支原体肺炎或细菌性肺炎早期肺部可无湿性啰音，为避免误诊，规范提出持续发热伴咳嗽超过3～5 d，应考虑肺炎可能。3.2.2胸部X 线片检查对于一般状况良好，临床表现可诊断肺炎的门诊患儿，尤其根据临床特点判断为典型呼吸道合胞病毒或其他病毒感染者，不推荐常规行胸部X线片检查。有肺炎症状，但体征不符合，病程超过3～5 d者，可行胸部X 线片检查。肺炎病情较重或考虑有胸腔积液、气胸、肺不张等并发症时，也应进行胸部X线片检查。"
+  },
+  {
+    "rule_name": "细菌性肺炎早期无啰音时需考虑肺炎的病程标准",
+    "head": {
+      "is_negative": false,
+      "name": "应考虑诊断",
+      "arguments": [
+        "X",
+        "肺炎"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "细菌性肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "早期无肺部湿性啰音"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "持续发热超过3到5天"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "伴咳嗽"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "3.2.1临床表现根据发热、咳嗽以及肺部固定湿性啰音可诊断肺炎。肺炎支原体肺炎或细菌性肺炎早期肺部可无湿性啰音，为避免误诊，规范提出持续发热伴咳嗽超过3～5 d，应考虑肺炎可能。3.2.2胸部X 线片检查对于一般状况良好，临床表现可诊断肺炎的门诊患儿，尤其根据临床特点判断为典型呼吸道合胞病毒或其他病毒感染者，不推荐常规行胸部X线片检查。有肺炎症状，但体征不符合，病程超过3～5 d者，可行胸部X 线片检查。肺炎病情较重或考虑有胸腔积液、气胸、肺不张等并发症时，也应进行胸部X线片检查。"
+  },
+  {
+    "rule_name": "临床诊断肺炎且判断为呼吸道合胞病毒感染的患儿不常规推荐X线片",
+    "head": {
+      "is_negative": false,
+      "name": "检查推荐",
+      "arguments": [
+        "X",
+        "胸部X线片检查",
+        "不常规"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "门诊患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "状态良好",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合诊断标准",
+        "arguments": [
+          "X",
+          "肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床判断病原体",
+        "arguments": [
+          "X",
+          "典型呼吸道合胞病毒感染"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "3.2.1临床表现根据发热、咳嗽以及肺部固定湿性啰音可诊断肺炎。肺炎支原体肺炎或细菌性肺炎早期肺部可无湿性啰音，为避免误诊，规范提出持续发热伴咳嗽超过3～5 d，应考虑肺炎可能。3.2.2胸部X 线片检查对于一般状况良好，临床表现可诊断肺炎的门诊患儿，尤其根据临床特点判断为典型呼吸道合胞病毒或其他病毒感染者，不推荐常规行胸部X线片检查。有肺炎症状，但体征不符合，病程超过3～5 d者，可行胸部X 线片检查。肺炎病情较重或考虑有胸腔积液、气胸、肺不张等并发症时，也应进行胸部X线片检查。"
+  },
+  {
+    "rule_name": "临床诊断肺炎且判断为其他病毒感染的患儿不常规推荐X线片",
+    "head": {
+      "is_negative": false,
+      "name": "检查推荐",
+      "arguments": [
+        "X",
+        "胸部X线片检查",
+        "不常规"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "门诊患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "状态良好",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合诊断标准",
+        "arguments": [
+          "X",
+          "肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "临床判断病原体",
+        "arguments": [
+          "X",
+          "典型其他病毒感染"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "3.2.1临床表现根据发热、咳嗽以及肺部固定湿性啰音可诊断肺炎。肺炎支原体肺炎或细菌性肺炎早期肺部可无湿性啰音，为避免误诊，规范提出持续发热伴咳嗽超过3～5 d，应考虑肺炎可能。3.2.2胸部X 线片检查对于一般状况良好，临床表现可诊断肺炎的门诊患儿，尤其根据临床特点判断为典型呼吸道合胞病毒或其他病毒感染者，不推荐常规行胸部X线片检查。有肺炎症状，但体征不符合，病程超过3～5 d者，可行胸部X 线片检查。肺炎病情较重或考虑有胸腔积液、气胸、肺不张等并发症时，也应进行胸部X线片检查。"
+  },
+  {
+    "rule_name": "症状与体征不符且病程超时的患儿可行X线片检查",
+    "head": {
+      "is_negative": false,
+      "name": "检查适用",
+      "arguments": [
+        "X",
+        "胸部X线片检查",
+        "可行"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "肺炎症状"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "体征符合",
+        "arguments": [
+          "X",
+          "肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病程时长",
+        "arguments": [
+          "X",
+          "超过3到5天"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "3.2.1临床表现根据发热、咳嗽以及肺部固定湿性啰音可诊断肺炎。肺炎支原体肺炎或细菌性肺炎早期肺部可无湿性啰音，为避免误诊，规范提出持续发热伴咳嗽超过3～5 d，应考虑肺炎可能。3.2.2胸部X 线片检查对于一般状况良好，临床表现可诊断肺炎的门诊患儿，尤其根据临床特点判断为典型呼吸道合胞病毒或其他病毒感染者，不推荐常规行胸部X线片检查。有肺炎症状，但体征不符合，病程超过3～5 d者，可行胸部X 线片检查。肺炎病情较重或考虑有胸腔积液、气胸、肺不张等并发症时，也应进行胸部X线片检查。"
+  },
+  {
+    "rule_name": "肺炎病情较重时应进行X线片检查",
+    "head": {
+      "is_negative": false,
+      "name": "检查适用",
+      "arguments": [
+        "X",
+        "胸部X线片检查",
+        "应进行"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病情程度",
+        "arguments": [
+          "X",
+          "较重"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "3.2.1临床表现根据发热、咳嗽以及肺部固定湿性啰音可诊断肺炎。肺炎支原体肺炎或细菌性肺炎早期肺部可无湿性啰音，为避免误诊，规范提出持续发热伴咳嗽超过3～5 d，应考虑肺炎可能。3.2.2胸部X 线片检查对于一般状况良好，临床表现可诊断肺炎的门诊患儿，尤其根据临床特点判断为典型呼吸道合胞病毒或其他病毒感染者，不推荐常规行胸部X线片检查。有肺炎症状，但体征不符合，病程超过3～5 d者，可行胸部X 线片检查。肺炎病情较重或考虑有胸腔积液、气胸、肺不张等并发症时，也应进行胸部X线片检查。"
+  },
+  {
+    "rule_name": "考虑并发胸腔积液时应进行X线片检查",
+    "head": {
+      "is_negative": false,
+      "name": "检查适用",
+      "arguments": [
+        "X",
+        "胸部X线片检查",
+        "应进行"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "考虑并发症",
+        "arguments": [
+          "X",
+          "胸腔积液"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "3.2.1临床表现根据发热、咳嗽以及肺部固定湿性啰音可诊断肺炎。肺炎支原体肺炎或细菌性肺炎早期肺部可无湿性啰音，为避免误诊，规范提出持续发热伴咳嗽超过3～5 d，应考虑肺炎可能。3.2.2胸部X 线片检查对于一般状况良好，临床表现可诊断肺炎的门诊患儿，尤其根据临床特点判断为典型呼吸道合胞病毒或其他病毒感染者，不推荐常规行胸部X线片检查。有肺炎症状，但体征不符合，病程超过3～5 d者，可行胸部X 线片检查。肺炎病情较重或考虑有胸腔积液、气胸、肺不张等并发症时，也应进行胸部X线片检查。"
+  },
+  {
+    "rule_name": "考虑并发气胸时应进行X线片检查",
+    "head": {
+      "is_negative": false,
+      "name": "检查适用",
+      "arguments": [
+        "X",
+        "胸部X线片检查",
+        "应进行"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "考虑并发症",
+        "arguments": [
+          "X",
+          "气胸"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "3.2.1临床表现根据发热、咳嗽以及肺部固定湿性啰音可诊断肺炎。肺炎支原体肺炎或细菌性肺炎早期肺部可无湿性啰音，为避免误诊，规范提出持续发热伴咳嗽超过3～5 d，应考虑肺炎可能。3.2.2胸部X 线片检查对于一般状况良好，临床表现可诊断肺炎的门诊患儿，尤其根据临床特点判断为典型呼吸道合胞病毒或其他病毒感染者，不推荐常规行胸部X线片检查。有肺炎症状，但体征不符合，病程超过3～5 d者，可行胸部X 线片检查。肺炎病情较重或考虑有胸腔积液、气胸、肺不张等并发症时，也应进行胸部X线片检查。"
+  },
+  {
+    "rule_name": "考虑并发肺不张时应进行X线片检查",
+    "head": {
+      "is_negative": false,
+      "name": "检查适用",
+      "arguments": [
+        "X",
+        "胸部X线片检查",
+        "应进行"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "考虑并发症",
+        "arguments": [
+          "X",
+          "肺不张"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "3.2.1临床表现根据发热、咳嗽以及肺部固定湿性啰音可诊断肺炎。肺炎支原体肺炎或细菌性肺炎早期肺部可无湿性啰音，为避免误诊，规范提出持续发热伴咳嗽超过3～5 d，应考虑肺炎可能。3.2.2胸部X 线片检查对于一般状况良好，临床表现可诊断肺炎的门诊患儿，尤其根据临床特点判断为典型呼吸道合胞病毒或其他病毒感染者，不推荐常规行胸部X线片检查。有肺炎症状，但体征不符合，病程超过3～5 d者，可行胸部X 线片检查。肺炎病情较重或考虑有胸腔积液、气胸、肺不张等并发症时，也应进行胸部X线片检查。"
+  }
+]

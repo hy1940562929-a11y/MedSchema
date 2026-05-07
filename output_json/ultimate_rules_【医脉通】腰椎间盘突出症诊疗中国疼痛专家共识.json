@@ -1,0 +1,1814 @@
+[
+  {
+    "rule_name": "腰椎间盘突出神经根病_PELD治疗推荐_B级",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "PELD",
+        "腰椎间盘突出伴神经根病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腰椎间盘突出症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "X",
+          "神经根病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疗效对比",
+        "arguments": [
+          "PELD",
+          "开放手术",
+          "同等"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疗效属性",
+        "arguments": [
+          "PELD",
+          "疼痛缓解",
+          "最佳"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疗效属性",
+        "arguments": [
+          "PELD",
+          "功能恢复",
+          "最佳"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（9）经皮脊柱内镜腰椎间盘摘除术：经皮脊柱内镜腰椎间盘摘除术 (percutaneous endoscopic lum-bar discectomy, PELD)，具有与开放手术同等的治疗效果，住院时间更短，在疼痛缓解和功能恢复方面，显示最佳结果[27,28]（推荐级别B，证据水平2b）。PELD 包括椎间孔入路 (percutaneous endoscopic transforaminal discectomy, PETD) 和经椎板间入路(percutaneous endoscopic interlaminar discectomy, PE-ID) 两类技术，临床依据病人腰椎间盘突出节段、突出位置、安全性及术者技术情况综合选择。与开放式椎间盘切除术相比，PELD 出血少，住院时间较短[29]（推荐级别A，证据水平1a）。"
+  },
+  {
+    "rule_name": "腰椎间盘突出神经根病_PELD治疗推荐_A级",
+    "head": {
+      "is_negative": false,
+      "name": "治疗推荐",
+      "arguments": [
+        "X",
+        "PELD",
+        "腰椎间盘突出伴神经根病"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腰椎间盘突出症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "X",
+          "神经根病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对比属性",
+        "arguments": [
+          "PELD",
+          "开放式椎间盘切除术",
+          "出血量",
+          "少"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "对比属性",
+        "arguments": [
+          "PELD",
+          "开放式椎间盘切除术",
+          "住院时间",
+          "较短"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（9）经皮脊柱内镜腰椎间盘摘除术：经皮脊柱内镜腰椎间盘摘除术 (percutaneous endoscopic lum-bar discectomy, PELD)，具有与开放手术同等的治疗效果，住院时间更短，在疼痛缓解和功能恢复方面，显示最佳结果[27,28]（推荐级别B，证据水平2b）。PELD 包括椎间孔入路 (percutaneous endoscopic transforaminal discectomy, PETD) 和经椎板间入路(percutaneous endoscopic interlaminar discectomy, PE-ID) 两类技术，临床依据病人腰椎间盘突出节段、突出位置、安全性及术者技术情况综合选择。与开放式椎间盘切除术相比，PELD 出血少，住院时间较短[29]（推荐级别A，证据水平1a）。"
+  },
+  {
+    "rule_name": "LDH病人适用腰椎牵引治疗",
+    "head": {
+      "is_negative": false,
+      "name": "治疗适用",
+      "arguments": [
+        "Y",
+        "腰椎牵引"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "LDH"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "物理治疗方法",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属类型",
+        "arguments": [
+          "Y",
+          "牵引疗法"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗作用",
+        "arguments": [
+          "Y",
+          "减轻椎间盘内压"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗作用",
+        "arguments": [
+          "Y",
+          "松解粘连组织"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗作用",
+        "arguments": [
+          "Y",
+          "松弛韧带"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗作用",
+        "arguments": [
+          "Y",
+          "解除肌肉痉挛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗作用",
+        "arguments": [
+          "Y",
+          "改善局部血液循环"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗作用",
+        "arguments": [
+          "Y",
+          "纠正关节突关节紊乱"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "物理治疗方法"
+    },
+    "source_text": "物理治疗（1）牵引疗法：腰椎牵引是LDH 病人常用的保守治疗手段之一，可减轻椎间盘内压、松解粘连组织、松弛韧带、解除肌肉痉挛、改善局部血液循环并纠正关节突关节紊乱。（2）体外冲击波：体外冲击波治疗可有效地减轻腰背痛病人疼痛，改善其功能状态及生活质量 [30]。 （3）中低频电疗：临床上常使用的中低频电疗有经皮神经电刺激 (transcuataneous electrical nerve stimulation, TENS) 和干扰电治疗，TENS 可以缓解疼痛，减少功能障碍，改善LDH 病人肌群活化程度[31]，但TENS 疗效仍未得到公认[32,33]。（4）高能量激光治疗 (High-intensity laser thera-py, HTLT)：HTLT 可用于治疗低功率激光刺激难以覆盖的部位，如关节突关节深部，具有抗炎、消肿和镇痛的作用[34]。"
+  },
+  {
+    "rule_name": "腰背痛病人适用体外冲击波治疗",
+    "head": {
+      "is_negative": false,
+      "name": "治疗适用",
+      "arguments": [
+        "Y",
+        "体外冲击波"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腰背痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "物理治疗方法",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属类型",
+        "arguments": [
+          "Y",
+          "体外冲击波"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗作用",
+        "arguments": [
+          "Y",
+          "减轻疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗作用",
+        "arguments": [
+          "Y",
+          "改善功能状态"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗作用",
+        "arguments": [
+          "Y",
+          "改善生活质量"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "物理治疗方法"
+    },
+    "source_text": "物理治疗（1）牵引疗法：腰椎牵引是LDH 病人常用的保守治疗手段之一，可减轻椎间盘内压、松解粘连组织、松弛韧带、解除肌肉痉挛、改善局部血液循环并纠正关节突关节紊乱。（2）体外冲击波：体外冲击波治疗可有效地减轻腰背痛病人疼痛，改善其功能状态及生活质量 [30]。 （3）中低频电疗：临床上常使用的中低频电疗有经皮神经电刺激 (transcuataneous electrical nerve stimulation, TENS) 和干扰电治疗，TENS 可以缓解疼痛，减少功能障碍，改善LDH 病人肌群活化程度[31]，但TENS 疗效仍未得到公认[32,33]。（4）高能量激光治疗 (High-intensity laser thera-py, HTLT)：HTLT 可用于治疗低功率激光刺激难以覆盖的部位，如关节突关节深部，具有抗炎、消肿和镇痛的作用[34]。"
+  },
+  {
+    "rule_name": "LDH病人适用中低频TENS治疗_缓解症状",
+    "head": {
+      "is_negative": false,
+      "name": "治疗适用",
+      "arguments": [
+        "Y",
+        "TENS"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "LDH"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "物理治疗方法",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属类型",
+        "arguments": [
+          "Y",
+          "中低频电疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体技术",
+        "arguments": [
+          "Y",
+          "TENS"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗作用",
+        "arguments": [
+          "Y",
+          "缓解疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗作用",
+        "arguments": [
+          "Y",
+          "减少功能障碍"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗作用",
+        "arguments": [
+          "Y",
+          "改善肌群活化程度"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "物理治疗方法"
+    },
+    "source_text": "物理治疗（1）牵引疗法：腰椎牵引是LDH 病人常用的保守治疗手段之一，可减轻椎间盘内压、松解粘连组织、松弛韧带、解除肌肉痉挛、改善局部血液循环并纠正关节突关节紊乱。（2）体外冲击波：体外冲击波治疗可有效地减轻腰背痛病人疼痛，改善其功能状态及生活质量 [30]。 （3）中低频电疗：临床上常使用的中低频电疗有经皮神经电刺激 (transcuataneous electrical nerve stimulation, TENS) 和干扰电治疗，TENS 可以缓解疼痛，减少功能障碍，改善LDH 病人肌群活化程度[31]，但TENS 疗效仍未得到公认[32,33]。（4）高能量激光治疗 (High-intensity laser thera-py, HTLT)：HTLT 可用于治疗低功率激光刺激难以覆盖的部位，如关节突关节深部，具有抗炎、消肿和镇痛的作用[34]。"
+  },
+  {
+    "rule_name": "针对关节深部病灶适用高能量激光治疗",
+    "head": {
+      "is_negative": false,
+      "name": "治疗适用",
+      "arguments": [
+        "Y",
+        "HTLT"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "物理治疗方法",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "所属类型",
+        "arguments": [
+          "Y",
+          "高能量激光治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体技术",
+        "arguments": [
+          "Y",
+          "HTLT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "适用部位",
+        "arguments": [
+          "Y",
+          "关节突关节深部"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗作用",
+        "arguments": [
+          "Y",
+          "抗炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗作用",
+        "arguments": [
+          "Y",
+          "消肿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗作用",
+        "arguments": [
+          "Y",
+          "镇痛"
+        ]
+      }
+    ],
+    "variables": {
+      "Y": "物理治疗方法"
+    },
+    "source_text": "物理治疗（1）牵引疗法：腰椎牵引是LDH 病人常用的保守治疗手段之一，可减轻椎间盘内压、松解粘连组织、松弛韧带、解除肌肉痉挛、改善局部血液循环并纠正关节突关节紊乱。（2）体外冲击波：体外冲击波治疗可有效地减轻腰背痛病人疼痛，改善其功能状态及生活质量 [30]。 （3）中低频电疗：临床上常使用的中低频电疗有经皮神经电刺激 (transcuataneous electrical nerve stimulation, TENS) 和干扰电治疗，TENS 可以缓解疼痛，减少功能障碍，改善LDH 病人肌群活化程度[31]，但TENS 疗效仍未得到公认[32,33]。（4）高能量激光治疗 (High-intensity laser thera-py, HTLT)：HTLT 可用于治疗低功率激光刺激难以覆盖的部位，如关节突关节深部，具有抗炎、消肿和镇痛的作用[34]。"
+  },
+  {
+    "rule_name": "依据直腿抬高试验阳性等体征及影像学相符诊断LDH",
+    "head": {
+      "is_negative": false,
+      "name": "诊断疾病",
+      "arguments": [
+        "X",
+        "LDH",
+        "确诊"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "突出椎间盘",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查",
+        "arguments": [
+          "M"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "显示压迫",
+        "arguments": [
+          "M",
+          "Y",
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状体征相符",
+        "arguments": [
+          "M",
+          "W",
+          "是"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "直腿抬高试验",
+        "arguments": [
+          "Z1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "试验结果",
+        "arguments": [
+          "Z1",
+          "阳性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "腱反射较健侧减弱",
+        "arguments": [
+          "X",
+          "是"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肌力下降",
+        "arguments": [
+          "X",
+          "是"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "突出椎间盘",
+      "W": "受累神经根",
+      "M": "影像学检查（MRI或CT）",
+      "Z1": "直腿抬高试验"
+    },
+    "source_text": "③直腿抬高试验、直腿抬高加强试验、健侧直腿抬高试验或股神经牵拉试验阳性；④腱反射较健侧减弱；⑤肌力下降；⑥腰椎MRI 或CT 显示椎间盘突出，压迫神经与症状、体征受累神经相符。前5 项标准中，符合其中3项，结合第6项，即可诊断为LDH [9~12]（推荐级别A，证据水平1a）。（2）注意事项：①腰痛不是诊断LDH 的必要条件，但病人常有腰痛病史；②单纯MRI、CT 等影像学诊断不能作为诊断LDH 依据（推荐级别A，证据水平1a）；③脊髓造影术为有创操作，不作为常规推荐[11]（推荐级别B，证据水平2a）；④神经电生理检查和红外热成像检查对LDH 诊断意义有限，不做常规推荐[12] （推荐级别B，证据水平2a）；⑤对于多节段LDH，难以明确主要责任椎间盘节段时，可采用椎间盘造影术和选择性神经根阻滞术来明确责任节段。"
+  },
+  {
+    "rule_name": "依据股神经牵拉试验阳性等体征及影像学相符诊断LDH",
+    "head": {
+      "is_negative": false,
+      "name": "诊断疾病",
+      "arguments": [
+        "X",
+        "LDH",
+        "确诊"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "突出椎间盘",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患者",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查",
+        "arguments": [
+          "M"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "显示压迫",
+        "arguments": [
+          "M",
+          "Y",
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状体征相符",
+        "arguments": [
+          "M",
+          "W",
+          "是"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "股神经牵拉试验",
+        "arguments": [
+          "Z2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "试验结果",
+        "arguments": [
+          "Z2",
+          "阳性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "腱反射较健侧减弱",
+        "arguments": [
+          "X",
+          "是"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肌力下降",
+        "arguments": [
+          "X",
+          "是"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "突出椎间盘",
+      "W": "受累神经根",
+      "M": "影像学检查（MRI或CT）",
+      "Z2": "股神经牵拉试验"
+    },
+    "source_text": "③直腿抬高试验、直腿抬高加强试验、健侧直腿抬高试验或股神经牵拉试验阳性；④腱反射较健侧减弱；⑤肌力下降；⑥腰椎MRI 或CT 显示椎间盘突出，压迫神经与症状、体征受累神经相符。前5 项标准中，符合其中3项，结合第6项，即可诊断为LDH [9~12]（推荐级别A，证据水平1a）。（2）注意事项：①腰痛不是诊断LDH 的必要条件，但病人常有腰痛病史；②单纯MRI、CT 等影像学诊断不能作为诊断LDH 依据（推荐级别A，证据水平1a）；③脊髓造影术为有创操作，不作为常规推荐[11]（推荐级别B，证据水平2a）；④神经电生理检查和红外热成像检查对LDH 诊断意义有限，不做常规推荐[12] （推荐级别B，证据水平2a）；⑤对于多节段LDH，难以明确主要责任椎间盘节段时，可采用椎间盘造影术和选择性神经根阻滞术来明确责任节段。"
+  },
+  {
+    "rule_name": "单纯影像学显示突出但不相符不能作为LDH诊断依据",
+    "head": {
+      "is_negative": true,
+      "name": "诊断依据",
+      "arguments": [
+        "M",
+        "LDH",
+        "充分"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "影像学检查",
+        "arguments": [
+          "M"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "突出椎间盘",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "显示压迫",
+        "arguments": [
+          "M",
+          "Y",
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状体征相符",
+        "arguments": [
+          "M",
+          "W",
+          "否"
+        ]
+      }
+    ],
+    "variables": {
+      "M": "影像学检查（MRI或CT）",
+      "Y": "突出椎间盘",
+      "W": "神经根"
+    },
+    "source_text": "③直腿抬高试验、直腿抬高加强试验、健侧直腿抬高试验或股神经牵拉试验阳性；④腱反射较健侧减弱；⑤肌力下降；⑥腰椎MRI 或CT 显示椎间盘突出，压迫神经与症状、体征受累神经相符。前5 项标准中，符合其中3项，结合第6项，即可诊断为LDH [9~12]（推荐级别A，证据水平1a）。（2）注意事项：①腰痛不是诊断LDH 的必要条件，但病人常有腰痛病史；②单纯MRI、CT 等影像学诊断不能作为诊断LDH 依据（推荐级别A，证据水平1a）；③脊髓造影术为有创操作，不作为常规推荐[11]（推荐级别B，证据水平2a）；④神经电生理检查和红外热成像检查对LDH 诊断意义有限，不做常规推荐[12] （推荐级别B，证据水平2a）；⑤对于多节段LDH，难以明确主要责任椎间盘节段时，可采用椎间盘造影术和选择性神经根阻滞术来明确责任节段。"
+  },
+  {
+    "rule_name": "脊髓造影术不作为LDH常规推荐诊断方法",
+    "head": {
+      "is_negative": false,
+      "name": "诊断方法推荐",
+      "arguments": [
+        "D",
+        "LDH",
+        "不常规"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "诊断方法",
+        "arguments": [
+          "D",
+          "脊髓造影术"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "操作属性",
+        "arguments": [
+          "D",
+          "有创"
+        ]
+      }
+    ],
+    "variables": {
+      "D": "诊断方法"
+    },
+    "source_text": "③直腿抬高试验、直腿抬高加强试验、健侧直腿抬高试验或股神经牵拉试验阳性；④腱反射较健侧减弱；⑤肌力下降；⑥腰椎MRI 或CT 显示椎间盘突出，压迫神经与症状、体征受累神经相符。前5 项标准中，符合其中3项，结合第6项，即可诊断为LDH [9~12]（推荐级别A，证据水平1a）。（2）注意事项：①腰痛不是诊断LDH 的必要条件，但病人常有腰痛病史；②单纯MRI、CT 等影像学诊断不能作为诊断LDH 依据（推荐级别A，证据水平1a）；③脊髓造影术为有创操作，不作为常规推荐[11]（推荐级别B，证据水平2a）；④神经电生理检查和红外热成像检查对LDH 诊断意义有限，不做常规推荐[12] （推荐级别B，证据水平2a）；⑤对于多节段LDH，难以明确主要责任椎间盘节段时，可采用椎间盘造影术和选择性神经根阻滞术来明确责任节段。"
+  },
+  {
+    "rule_name": "退行性改变作为LDH基本病因",
+    "head": {
+      "is_negative": false,
+      "name": "病因",
+      "arguments": [
+        "X",
+        "腰椎间盘突出症",
+        "基本因素"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在病理改变",
+        "arguments": [
+          "X",
+          "腰椎间盘退行性改变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理表现",
+        "arguments": [
+          "X",
+          "纤维环含水量减少"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理表现",
+        "arguments": [
+          "X",
+          "髓核含水量减少"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理表现",
+        "arguments": [
+          "X",
+          "髓核失去弹性"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病理表现",
+        "arguments": [
+          "X",
+          "纤维环向心性裂隙"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "个体"
+    },
+    "source_text": "四、病因1. 退行性改变 腰椎间盘退行性改变是LDH发生的基本因素，包括纤维环和髓核含水量减少，髓核失去弹性，纤维环向心性裂隙。"
+  },
+  {
+    "rule_name": "积累伤力作为椎间盘退变主要原因",
+    "head": {
+      "is_negative": false,
+      "name": "病因",
+      "arguments": [
+        "X",
+        "椎间盘退变",
+        "主要原因"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在损伤因素",
+        "arguments": [
+          "X",
+          "积累伤力"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "个体"
+    },
+    "source_text": "2. 损伤 积累伤力是椎间盘退变的主要原因，急性外伤可作为椎间盘突出的诱发因素。"
+  },
+  {
+    "rule_name": "急性外伤作为椎间盘突出诱发因素",
+    "head": {
+      "is_negative": false,
+      "name": "病因",
+      "arguments": [
+        "X",
+        "椎间盘突出",
+        "诱发因素"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在损伤因素",
+        "arguments": [
+          "X",
+          "急性外伤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "个体"
+    },
+    "source_text": "2. 损伤 积累伤力是椎间盘退变的主要原因，急性外伤可作为椎间盘突出的诱发因素。"
+  },
+  {
+    "rule_name": "妊娠期增加椎间盘突出风险",
+    "head": {
+      "is_negative": false,
+      "name": "增加风险",
+      "arguments": [
+        "X",
+        "椎间盘突出"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生理状态",
+        "arguments": [
+          "X",
+          "妊娠"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生理改变",
+        "arguments": [
+          "X",
+          "韧带系统松弛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "承受应力",
+        "arguments": [
+          "X",
+          "腰骶部",
+          "增大"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "个体"
+    },
+    "source_text": "3. 妊娠 妊娠期间整个韧带系统处于松弛状态，而腰骶部又承受比平时更大的应力，增加了椎间盘突出的风险。"
+  },
+  {
+    "rule_name": "遗传因素导致年轻发病",
+    "head": {
+      "is_negative": false,
+      "name": "发病特征",
+      "arguments": [
+        "X",
+        "腰椎间盘突出症",
+        "年龄较轻"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腰椎间盘突出症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "家族病史",
+        "arguments": [
+          "X",
+          "腰椎间盘突出症"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "4. 遗传因素 有家族发病史的病例中，年龄较轻的病人多见。"
+  },
+  {
+    "rule_name": "腰骶先天异常增加椎间盘退变风险",
+    "head": {
+      "is_negative": false,
+      "name": "增加风险",
+      "arguments": [
+        "X",
+        "椎间盘退变"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "个体",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在发育异常",
+        "arguments": [
+          "X",
+          "腰骶段先天异常"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体异常",
+        "arguments": [
+          "X",
+          "腰椎骶化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体异常",
+        "arguments": [
+          "X",
+          "骶椎腰化"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具体异常",
+        "arguments": [
+          "X",
+          "脊柱侧弯"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致后果",
+        "arguments": [
+          "X",
+          "下腰椎承受异常应力"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "个体"
+    },
+    "source_text": "5. 发育异常 腰骶段先天异常如腰椎骶化、骶椎腰化、脊柱侧弯等使下腰椎承受异常应力，增加了椎间盘退变的风险。"
+  },
+  {
+    "rule_name": "伴有坐骨神经痛的腰痛患者短期症状缓解的硬膜外糖皮质激素注射推荐",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗方法",
+      "arguments": [
+        "X",
+        "硬膜外糖皮质激素注射"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "腰痛症状伴有坐骨神经痛",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗使用要求",
+        "arguments": [
+          "硬膜外糖皮质激素注射",
+          "小剂量糖皮质激素"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "风险禁忌",
+        "arguments": [
+          "硬膜外糖皮质激素注射",
+          "颗粒性糖皮质激素"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（3）注射治疗：包括硬膜外腔注射、选择性神经根注射、骶管注射、腰交感神经节注射等。硬膜外腔注射：可根据解剖定位或在影像引导下进行操作，经椎间孔、椎板间入路（包含侧隐窝入路）或经骶裂孔穿刺，使药物到达受累神经根周围。硬膜外糖皮质激素注射治疗 (epidurak steroid injection, ESI) 可在短期内缓解伴有坐骨神经痛的腰痛病人的症状[16,17]（推荐级别A，证据水平1b）。行ESI 治疗时，应小剂量使用糖皮质激素，剂量增加并不增加疗效；且ESI 仍存在严重的并发症，特别是由颗粒性糖皮质激素引起的脊髓损伤、脑梗死等，发生率在腰部区域比在颈部区域低[18]（推荐级别B，证据水平2b）。LDH 合并神经根痛病人局部注射透明质酸、细胞因子抑制剂等治疗，仍需更多高质量的RCT 研究证据。选择性神经根注射：在大多数情况下，LDH 病人行选择性神经根注射糖皮质激素，可以减少受压神经根及周围组织炎症，缓解疼痛，部分病人可实现长期疼痛控制，可作为首选治疗方法[19]（推荐级别B，证据水平2b）。骶管注射：骶管注射（可在超声引导下操作）有助于缓解LDH 病人腰骶神经根压迫引起的疼痛。腰交感神经节注射：腰交感神经注射常为L2 和L3 交感神经注射，可治疗LDH 导致的下肢交感神经相关性疼痛 [20]（推荐级别B，证据水平2a）。"
+  },
+  {
+    "rule_name": "腰椎间盘突出症神经根痛患者首选选择性神经根注射治疗",
+    "head": {
+      "is_negative": false,
+      "name": "首选治疗方法",
+      "arguments": [
+        "X",
+        "选择性神经根糖皮质激素注射"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腰椎间盘突出症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴有症状",
+        "arguments": [
+          "X",
+          "神经根痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗效果",
+        "arguments": [
+          "选择性神经根糖皮质激素注射",
+          "减少神经根及周围组织炎症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗效果",
+        "arguments": [
+          "选择性神经根糖皮质激素注射",
+          "缓解疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "可能效果",
+        "arguments": [
+          "选择性神经根糖皮质激素注射",
+          "长期疼痛控制"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（3）注射治疗：包括硬膜外腔注射、选择性神经根注射、骶管注射、腰交感神经节注射等。硬膜外腔注射：可根据解剖定位或在影像引导下进行操作，经椎间孔、椎板间入路（包含侧隐窝入路）或经骶裂孔穿刺，使药物到达受累神经根周围。硬膜外糖皮质激素注射治疗 (epidurak steroid injection, ESI) 可在短期内缓解伴有坐骨神经痛的腰痛病人的症状[16,17]（推荐级别A，证据水平1b）。行ESI 治疗时，应小剂量使用糖皮质激素，剂量增加并不增加疗效；且ESI 仍存在严重的并发症，特别是由颗粒性糖皮质激素引起的脊髓损伤、脑梗死等，发生率在腰部区域比在颈部区域低[18]（推荐级别B，证据水平2b）。LDH 合并神经根痛病人局部注射透明质酸、细胞因子抑制剂等治疗，仍需更多高质量的RCT 研究证据。选择性神经根注射：在大多数情况下，LDH 病人行选择性神经根注射糖皮质激素，可以减少受压神经根及周围组织炎症，缓解疼痛，部分病人可实现长期疼痛控制，可作为首选治疗方法[19]（推荐级别B，证据水平2b）。骶管注射：骶管注射（可在超声引导下操作）有助于缓解LDH 病人腰骶神经根压迫引起的疼痛。腰交感神经节注射：腰交感神经节注射常为L2 和L3 交感神经注射，可治疗LDH 导致的下肢交感神经相关性疼痛 [20]（推荐级别B，证据水平2a）。"
+  },
+  {
+    "rule_name": "腰椎间盘突出症患者腰骶神经根压迫性疼痛的骶管注射治疗",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗方法",
+      "arguments": [
+        "X",
+        "骶管注射"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腰椎间盘突出症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴有症状",
+        "arguments": [
+          "X",
+          "腰骶神经根压迫引起疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗效果",
+        "arguments": [
+          "骶管注射",
+          "缓解疼痛"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（3）注射治疗：包括硬膜外腔注射、选择性神经根注射、骶管注射、腰交感神经节注射等。硬膜外腔注射：可根据解剖定位或在影像引导下进行操作，经椎间孔、椎板间入路（包含侧隐窝入路）或经骶裂孔穿刺，使药物到达受累神经根周围。硬膜外糖皮质激素注射治疗 (epidurak steroid injection, ESI) 可在短期内缓解伴有坐骨神经痛的腰痛病人的症状[16,17]（推荐级别A，证据水平1b）。行ESI 治疗时，应小剂量使用糖皮质激素，剂量增加并不增加疗效；且ESI 仍存在严重的并发症，特别是由颗粒性糖皮质激素引起的脊髓损伤、脑梗死等，发生率在腰部区域比在颈部区域低[18]（推荐级别B，证据水平2b）。LDH 合并神经根痛病人局部注射透明质酸、细胞因子抑制剂等治疗，仍需更多高质量的RCT 研究证据。选择性神经根注射：在大多数情况下，LDH 病人行选择性神经根注射糖皮质激素，可以减少受压神经根及周围组织炎症，缓解疼痛，部分病人可实现长期疼痛控制，可作为首选治疗方法[19]（推荐级别B，证据水平2b）。骶管注射：骶管注射（可在超声引导下操作）有助于缓解LDH 病人腰骶神经根压迫引起的疼痛。腰交感神经节注射：腰交感神经节注射常为L2 和L3 交感神经注射，可治疗LDH 导致的下肢交感神经相关性疼痛 [20]（推荐级别B，证据水平2a）。"
+  },
+  {
+    "rule_name": "腰椎间盘突出症下肢交感神经相关性疼痛的腰交感神经节注射治疗",
+    "head": {
+      "is_negative": false,
+      "name": "推荐治疗方法",
+      "arguments": [
+        "X",
+        "腰交感神经节注射"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腰椎间盘突出症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴有症状",
+        "arguments": [
+          "X",
+          "下肢交感神经相关性疼痛"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "目标神经节",
+        "arguments": [
+          "腰交感神经节注射",
+          "L2和L3"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗效果",
+        "arguments": [
+          "腰交感神经节注射",
+          "治疗疼痛"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "（3）注射治疗：包括硬膜外腔注射、选择性神经根注射、骶管注射、腰交感神经节注射等。硬膜外腔注射：可根据解剖定位或在影像引导下进行操作，经椎间孔、椎板间入路（包含侧隐窝入路）或经骶裂孔穿刺，使药物到达受累神经根周围。硬膜外糖皮质激素注射治疗 (epidurak steroid injection, ESI) 可在短期内缓解伴有坐骨神经痛的腰痛病人的症状[16,17]（推荐级别A，证据水平1b）。行ESI 治疗时，应小剂量使用糖皮质激素，剂量增加并不增加疗效；且ESI 仍存在严重的并发症，特别是由颗粒性糖皮质激素引起的脊髓损伤、脑梗死等，发生率在腰部区域比在颈部区域低[18]（推荐级别B，证据水平2b）。LDH 合并神经根痛病人局部注射透明质酸、细胞因子抑制剂等治疗，仍需更多高质量的RCT 研究证据。选择性神经根注射：在大多数情况下，LDH 病人行选择性神经根注射糖皮质激素，可以减少受压神经根及周围组织炎症，缓解疼痛，部分病人可实现长期疼痛控制，可作为首选治疗方法[19]（推荐级别B，证据水平2b）。骶管注射：骶管注射（可在超声引导下操作）有助于缓解LDH 病人腰骶神经根压迫引起的疼痛。腰交感神经节注射：腰交感神经节注射常为L2 和L3 交感神经注射，可治疗LDH 导致的下肢交感神经相关性疼痛 [20]（推荐级别B，证据水平2a）。"
+  },
+  {
+    "rule_name": "因腰椎间盘突出导致椎间孔水肿引发症状的脊神经后支注射指征",
+    "head": {
+      "is_negative": false,
+      "name": "治疗指征",
+      "arguments": [
+        "W",
+        "Y",
+        "有效"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "腰骶部区域",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方法",
+        "arguments": [
+          "W",
+          "脊神经后支注射"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属部位",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致病原因",
+        "arguments": [
+          "Y",
+          "腰椎间盘突出"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引发病变",
+        "arguments": [
+          "Y",
+          "椎间孔组织水肿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致症状",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状类型",
+        "arguments": [
+          "Z",
+          "酸胀僵硬疼痛活动受限"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像引导要求",
+        "arguments": [
+          "W",
+          "推荐"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "腰骶部区域",
+      "Z": "症状表现",
+      "W": "治疗方法"
+    },
+    "source_text": "腰脊神经后支注射：当腰、骶部因腰椎间盘突出、慢性劳损等使椎间孔或椎管组织水肿，椎间孔径变窄，肌腱韧带炎症、关节突关节紊乱等发生时，均可引起相应节段脊神经后支的刺激，造成局部或邻近组织酸胀、僵硬、疼痛、活动受限等症状，进行脊神经后支注射是一种有效的治疗方法，推荐在超声等影像引导下操作。"
+  },
+  {
+    "rule_name": "因腰椎间盘突出导致椎管水肿引发症状的脊神经后支注射指征",
+    "head": {
+      "is_negative": false,
+      "name": "治疗指征",
+      "arguments": [
+        "W",
+        "Y",
+        "有效"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "腰骶部区域",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方法",
+        "arguments": [
+          "W",
+          "脊神经后支注射"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属部位",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致病原因",
+        "arguments": [
+          "Y",
+          "腰椎间盘突出"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引发病变",
+        "arguments": [
+          "Y",
+          "椎管组织水肿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致症状",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状类型",
+        "arguments": [
+          "Z",
+          "酸胀僵硬疼痛活动受限"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像引导要求",
+        "arguments": [
+          "W",
+          "推荐"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "腰骶部区域",
+      "Z": "症状表现",
+      "W": "治疗方法"
+    },
+    "source_text": "腰脊神经后支注射：当腰、骶部因腰椎间盘突出、慢性劳损等使椎间孔或椎管组织水肿，椎间孔径变窄，肌腱韧带炎症、关节突关节紊乱等发生时，均可引起相应节段脊神经后支的刺激，造成局部或邻近组织酸胀、僵硬、疼痛、活动受限等症状，进行脊神经后支注射是一种有效的治疗方法，推荐在超声等影像引导下操作。"
+  },
+  {
+    "rule_name": "因慢性劳损导致椎间孔水肿引发症状的脊神经后支注射指征",
+    "head": {
+      "is_negative": false,
+      "name": "治疗指征",
+      "arguments": [
+        "W",
+        "Y",
+        "有效"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "腰骶部区域",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方法",
+        "arguments": [
+          "W",
+          "脊神经后支注射"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属部位",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致病原因",
+        "arguments": [
+          "Y",
+          "慢性劳损"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引发病变",
+        "arguments": [
+          "Y",
+          "椎间孔组织水肿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致症状",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状类型",
+        "arguments": [
+          "Z",
+          "酸胀僵硬疼痛活动受限"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像引导要求",
+        "arguments": [
+          "W",
+          "推荐"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "腰骶部区域",
+      "Z": "症状表现",
+      "W": "治疗方法"
+    },
+    "source_text": "腰脊神经后支注射：当腰、骶部因腰椎间盘突出、慢性劳损等使椎间孔或椎管组织水肿，椎间孔径变窄，肌腱韧带炎症、关节突关节紊乱等发生时，均可引起相应节段脊神经后支的刺激，造成局部或邻近组织酸胀、僵硬、疼痛、活动受限等症状，进行脊神经后支注射是一种有效的治疗方法，推荐在超声等影像引导下操作。"
+  },
+  {
+    "rule_name": "因慢性劳损导致椎管水肿引发症状的脊神经后支注射指征",
+    "head": {
+      "is_negative": false,
+      "name": "治疗指征",
+      "arguments": [
+        "W",
+        "Y",
+        "有效"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "腰骶部区域",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方法",
+        "arguments": [
+          "W",
+          "脊神经后支注射"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属部位",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致病原因",
+        "arguments": [
+          "Y",
+          "慢性劳损"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引发病变",
+        "arguments": [
+          "Y",
+          "椎管组织水肿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致症状",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状类型",
+        "arguments": [
+          "Z",
+          "酸胀僵硬疼痛活动受限"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像引导要求",
+        "arguments": [
+          "W",
+          "推荐"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "腰骶部区域",
+      "Z": "症状表现",
+      "W": "治疗方法"
+    },
+    "source_text": "腰脊神经后支注射：当腰、骶部因腰椎间盘突出、慢性劳损等使椎间孔或椎管组织水肿，椎间孔径变窄，肌腱韧带炎症、关节突关节紊乱等发生时，均可引起相应节段脊神经后支的刺激，造成局部或邻近组织酸胀、僵硬、疼痛、活动受限等症状，进行脊神经后支注射是一种有效的治疗方法，推荐在超声等影像引导下操作。"
+  },
+  {
+    "rule_name": "因腰椎间盘突出导致肌腱韧带炎症引发症状的脊神经后支注射指征",
+    "head": {
+      "is_negative": false,
+      "name": "治疗指征",
+      "arguments": [
+        "W",
+        "Y",
+        "有效"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "腰骶部区域",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方法",
+        "arguments": [
+          "W",
+          "脊神经后支注射"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属部位",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致病原因",
+        "arguments": [
+          "Y",
+          "腰椎间盘突出"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引发病变",
+        "arguments": [
+          "Y",
+          "肌腱韧带炎症"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致症状",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状类型",
+        "arguments": [
+          "Z",
+          "酸胀僵硬疼痛活动受限"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像引导要求",
+        "arguments": [
+          "W",
+          "推荐"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "腰骶部区域",
+      "Z": "症状表现",
+      "W": "治疗方法"
+    },
+    "source_text": "腰脊神经后支注射：当腰、骶部因腰椎间盘突出、慢性劳损等使椎间孔或椎管组织水肿，椎间孔径变窄，肌腱韧带炎症、关节突关节紊乱等发生时，均可引起相应节段脊神经后支的刺激，造成局部或邻近组织酸胀、僵硬、疼痛、活动受限等症状，进行脊神经后支注射是一种有效的治疗方法，推荐在超声等影像引导下操作。"
+  },
+  {
+    "rule_name": "因腰椎间盘突出导致关节突关节紊乱引发症状的脊神经后支注射指征",
+    "head": {
+      "is_negative": false,
+      "name": "治疗指征",
+      "arguments": [
+        "W",
+        "Y",
+        "有效"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "腰骶部区域",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗方法",
+        "arguments": [
+          "W",
+          "脊神经后支注射"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属部位",
+        "arguments": [
+          "Y",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "致病原因",
+        "arguments": [
+          "Y",
+          "腰椎间盘突出"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引发病变",
+        "arguments": [
+          "Y",
+          "关节突关节紊乱"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "导致症状",
+        "arguments": [
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状类型",
+        "arguments": [
+          "Z",
+          "酸胀僵硬疼痛活动受限"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像引导要求",
+        "arguments": [
+          "W",
+          "推荐"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "腰骶部区域",
+      "Z": "症状表现",
+      "W": "治疗方法"
+    },
+    "source_text": "腰脊神经后支注射：当腰、骶部因腰椎间盘突出、慢性劳损等使椎间孔或椎管组织水肿，椎间孔径变窄，肌腱韧带炎症、关节突关节紊乱等发生时，均可引起相应节段脊神经后支的刺激，造成局部或邻近组织酸胀、僵硬、疼痛、活动受限等症状，进行脊神经后支注射是一种有效的治疗方法，推荐在超声等影像引导下操作。"
+  }
+]

@@ -1,0 +1,2072 @@
+[
+  {
+    "rule_name": "腺病毒肺炎患儿初期辨证为风热闭肺证的特征",
+    "head": {
+      "is_negative": false,
+      "name": "证型诊断",
+      "arguments": [
+        "X",
+        "Z",
+        "风热闭肺"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "小儿腺病毒肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病程阶段",
+        "arguments": [
+          "Y",
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于阶段",
+        "arguments": [
+          "W",
+          "初期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "证型",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主症表现",
+        "arguments": [
+          "Z",
+          "发热",
+          "存在"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主症表现",
+        "arguments": [
+          "Z",
+          "咳嗽",
+          "存在"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主症表现",
+        "arguments": [
+          "Z",
+          "气急",
+          "存在"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "主症表现",
+        "arguments": [
+          "Z",
+          "咽红",
+          "存在"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "舌脉表现",
+        "arguments": [
+          "Z",
+          "舌红",
+          "存在"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "舌脉表现",
+        "arguments": [
+          "Z",
+          "苔薄黄",
+          "存在"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "舌脉表现",
+        "arguments": [
+          "Z",
+          "脉浮数",
+          "存在"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "舌脉表现",
+        "arguments": [
+          "Z",
+          "指纹浮紫",
+          "存在"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿",
+      "Y": "疾病实例",
+      "Z": "证型实例",
+      "W": "病程阶段实例"
+    },
+    "source_text": "中医采用辨证施治，根据小儿腺病毒肺炎发病的基本规律，以及起病急、感染中毒症状重、进展迅速，易合并气营两燔等变证而危及生命的病变特点，将小儿腺病毒肺炎病程经过分为3个阶段，中医辨证分别为初期风热闭肺证及暑热闭肺证；随着病情进展外邪内陷，可出现表里同病，见表寒里热证或表实下利证；极期为痰热闭肺及毒热闭肺证，恢复期肺脾气虚证及阴虚肺热证，变证包括心阳虚衰证及邪陷厥阴证。 1.中医辨证治疗。 （1）常证 ①风热闭肺证本证候多见于肺炎初期患儿。主症：发热，咳嗽，气急，咽红。舌脉：舌红，苔薄黄，脉浮数，指纹浮紫。"
+  },
+  {
+    "rule_name": "腺病毒肺炎患儿初期辨证为暑热闭肺证的特征",
+    "head": {
+      "is_negative": false,
+      "name": "证型诊断",
+      "arguments": [
+        "X",
+        "Z",
+        "暑热闭肺"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患有疾病",
+        "arguments": [
+          "X",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "Y",
+          "小儿腺病毒肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病程阶段",
+        "arguments": [
+          "Y",
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属于阶段",
+        "arguments": [
+          "W",
+          "初期"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "证型",
+        "arguments": [
+          "Z"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿",
+      "Y": "疾病实例",
+      "Z": "证型实例",
+      "W": "病程阶段实例"
+    },
+    "source_text": "中医采用辨证施治，根据小儿腺病毒肺炎发病的基本规律，以及起病急、感染中毒症状重、进展迅速，易合并气营两燔等变证而危及生命的病变特点，将小儿腺病毒肺炎病程经过分为3个阶段，中医辨证分别为初期风热闭肺证及暑热闭肺证；随着病情进展外邪内陷，可出现表里同病，见表寒里热证或表实下利证；极期为痰热闭肺及毒热闭肺证，恢复期肺脾气虚证及阴虚肺热证，变证包括心阳虚衰证及邪陷厥阴证。 1.中医辨证治疗。 （1）常证 ①风热闭肺证本证候多见于肺炎初期患儿。主症：发热，咳嗽，气急，咽红。舌脉：舌红，苔薄黄，脉浮数，指纹浮紫。"
+  },
+  {
+    "rule_name": "腺病毒肺炎致支气管细支气管管腔阻塞机制",
+    "head": {
+      "is_negative": false,
+      "name": "管腔阻塞",
+      "arguments": [
+        "Z",
+        "部分"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "腺病毒肺炎",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病机制关键过程",
+        "arguments": [
+          "X",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "支气管黏膜",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "管腔",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "解剖结构所属",
+        "arguments": [
+          "Y",
+          "支气管细支气管树"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引发",
+        "arguments": [
+          "P",
+          "水肿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "作用对象",
+        "arguments": [
+          "P",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引发",
+        "arguments": [
+          "P",
+          "坏死脱落"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "产生物",
+        "arguments": [
+          "坏死物",
+          "N"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脱落自",
+        "arguments": [
+          "N",
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引发",
+        "arguments": [
+          "P",
+          "黏液分泌增加"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "产生物",
+        "arguments": [
+          "黏液",
+          "M"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "阻塞",
+        "arguments": [
+          "N",
+          "Z",
+          "部分"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "阻塞",
+        "arguments": [
+          "M",
+          "Z",
+          "部分"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病实体",
+      "P": "病理过程",
+      "Y": "黏膜组织",
+      "Z": "管腔结构",
+      "N": "坏死物",
+      "M": "黏液"
+    },
+    "source_text": "三、发病机制目前发病机制尚未完全阐明，认为与腺病毒本身以及诱发机体的炎症反应有关，其引起的肺部和全身炎症反应较其他病毒更重，可发展为多脏器功能衰竭。腺病毒和炎性介质可引起支气管和细支气管黏膜水肿，充血，坏死脱落，坏死物阻塞管腔；同时引起黏液分泌增加，阻塞管腔。支气管和细支气管周围以及管壁、肺泡壁、肺泡间隔和肺泡腔内有中性粒细胞、淋巴细胞等炎性细胞浸润。"
+  },
+  {
+    "rule_name": "腺病毒肺炎致多部位炎性细胞浸润机制",
+    "head": {
+      "is_negative": false,
+      "name": "炎性细胞浸润",
+      "arguments": [
+        "L",
+        "存在"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "腺病毒肺炎",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发病机制关键过程",
+        "arguments": [
+          "X",
+          "P"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "引发",
+        "arguments": [
+          "P",
+          "炎性细胞浸润"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "炎性细胞类型",
+        "arguments": [
+          "C1",
+          "中性粒细胞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "炎性细胞类型",
+        "arguments": [
+          "C2",
+          "淋巴细胞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "浸润部位",
+        "arguments": [
+          "L1",
+          "支气管细支气管周围"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "浸润部位",
+        "arguments": [
+          "L2",
+          "管壁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "浸润部位",
+        "arguments": [
+          "L3",
+          "肺泡壁"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "浸润部位",
+        "arguments": [
+          "L4",
+          "肺泡间隔"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "浸润部位",
+        "arguments": [
+          "L5",
+          "肺泡腔"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组成",
+        "arguments": [
+          "L",
+          "L1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组成",
+        "arguments": [
+          "L",
+          "L2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组成",
+        "arguments": [
+          "L",
+          "L3"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组成",
+        "arguments": [
+          "L",
+          "L4"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "组成",
+        "arguments": [
+          "L",
+          "L5"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "浸润细胞",
+        "arguments": [
+          "L",
+          "C1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "浸润细胞",
+        "arguments": [
+          "L",
+          "C2"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "疾病实体",
+      "P": "病理过程",
+      "L": "复合浸润部位",
+      "C1": "细胞类型",
+      "C2": "细胞类型",
+      "L1": "解剖区域",
+      "L2": "解剖区域",
+      "L3": "解剖区域",
+      "L4": "解剖区域",
+      "L5": "解剖区域"
+    },
+    "source_text": "三、发病机制目前发病机制尚未完全阐明，认为与腺病毒本身以及诱发机体的炎症反应有关，其引起的肺部和全身炎症反应较其他病毒更重，可发展为多脏器功能衰竭。腺病毒和炎性介质可引起支气管和细支气管黏膜水肿，充血，坏死脱落，坏死物阻塞管腔；同时引起黏液分泌增加，阻塞管腔。支气管和细支气管周围以及管壁、肺泡壁、肺泡间隔和肺泡腔内有中性粒细胞、淋巴细胞等炎性细胞浸润。"
+  },
+  {
+    "rule_name": "HLH诊断标准_组合1",
+    "head": {
+      "is_negative": false,
+      "name": "并发症",
+      "arguments": [
+        "X",
+        "HLH"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高热持续",
+        "arguments": [
+          "X",
+          "7-10天"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血细胞减少",
+        "arguments": [
+          "X",
+          "外周血二系或三系"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脾肿大",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清铁蛋白水平",
+        "arguments": [
+          "X",
+          "升高≥500μg/L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "活检可见",
+        "arguments": [
+          "X",
+          "噬血细胞现象"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "由其他原因引起",
+        "arguments": [
+          "X",
+          "骨髓抑制"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "由其他原因引起",
+        "arguments": [
+          "X",
+          "肝功能损伤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "噬血细胞性淋巴组织细胞增多症（HLH）。又称噬血细胞综合征。患儿多于高热7-10天后出现外周血二系或三系细胞减少，可伴有脾肿大，血清铁蛋白升高≥500μg/L，骨髓、脾或淋巴结活检可见噬血细胞现象，NK细胞活性降低或缺乏，高甘油三酯（TG）血症（TG≥3.0nmol/L）和/或低纤维蛋白原血症（纤维蛋白原≤1.5g/L）及血浆可溶性CD25（可溶性IL-2受体）≥2400U/ml等8条诊断标准中的任意5条。但需注意与骨髓抑制及肝功能损伤等所致表现相鉴别。"
+  },
+  {
+    "rule_name": "HLH诊断标准_组合2",
+    "head": {
+      "is_negative": false,
+      "name": "并发症",
+      "arguments": [
+        "X",
+        "HLH"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高热持续",
+        "arguments": [
+          "X",
+          "7-10天"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血细胞减少",
+        "arguments": [
+          "X",
+          "外周血二系或三系"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "NK细胞活性",
+        "arguments": [
+          "X",
+          "降低或缺乏"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "甘油三酯水平",
+        "arguments": [
+          "X",
+          "≥3.0nmol/L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "纤维蛋白原水平",
+        "arguments": [
+          "X",
+          "≤1.5g/L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血浆可溶性CD25水平",
+        "arguments": [
+          "X",
+          "≥2400U/ml"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "由其他原因引起",
+        "arguments": [
+          "X",
+          "骨髓抑制"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "由其他原因引起",
+        "arguments": [
+          "X",
+          "肝功能损伤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "噬血细胞性淋巴组织细胞增多症（HLH）。又称噬血细胞综合征。患儿多于高热7-10天后出现外周血二系或三系细胞减少，可伴有脾肿大，血清铁蛋白升高≥500μg/L，骨髓、脾或淋巴结活检可见噬血细胞现象，NK细胞活性降低或缺乏，高甘油三酯（TG）血症（TG≥3.0nmol/L）和/或低纤维蛋白原血症（纤维蛋白原≤1.5g/L）及血浆可溶性CD25（可溶性IL-2受体）≥2400U/ml等8条诊断标准中的任意5条。但需注意与骨髓抑制及肝功能损伤等所致表现相鉴别。"
+  },
+  {
+    "rule_name": "HLH诊断标准_组合3",
+    "head": {
+      "is_negative": false,
+      "name": "并发症",
+      "arguments": [
+        "X",
+        "HLH"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高热持续",
+        "arguments": [
+          "X",
+          "7-10天"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脾肿大",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血清铁蛋白水平",
+        "arguments": [
+          "X",
+          "升高≥500μg/L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "NK细胞活性",
+        "arguments": [
+          "X",
+          "降低或缺乏"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "甘油三酯水平",
+        "arguments": [
+          "X",
+          "≥3.0nmol/L"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血浆可溶性CD25水平",
+        "arguments": [
+          "X",
+          "≥2400U/ml"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "由其他原因引起",
+        "arguments": [
+          "X",
+          "骨髓抑制"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "由其他原因引起",
+        "arguments": [
+          "X",
+          "肝功能损伤"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "噬血细胞性淋巴组织细胞增多症（HLH）。又称噬血细胞综合征。患儿多于高热7-10天后出现外周血二系或三系细胞减少，可伴有脾肿大，血清铁蛋白升高≥500μg/L，骨髓、脾或淋巴结活检可见噬血细胞现象，NK细胞活性降低或缺乏，高甘油三酯（TG）血症（TG≥3.0nmol/L）和/或低纤维蛋白原血症（纤维蛋白原≤1.5g/L）及血浆可溶性CD25（可溶性IL-2受体）≥2400U/ml等8条诊断标准中的任意5条。但需注意与骨髓抑制及肝功能损伤等所致表现相鉴别。"
+  },
+  {
+    "rule_name": "腺病毒感染胸部X线早期影像特征支持诊断",
+    "head": {
+      "is_negative": false,
+      "name": "影像学诊断关联",
+      "arguments": [
+        "X",
+        "腺病毒感染",
+        "可支持"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "影像学检查项目为",
+        "arguments": [
+          "X",
+          "胸部X线"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查发现",
+        "arguments": [
+          "X",
+          "两肺纹理增多毛糙"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查发现",
+        "arguments": [
+          "X",
+          "双肺中内带明显"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查时序",
+        "arguments": [
+          "X",
+          "病程早期"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "胸部CT表现。由于胸部CT分辨率高，对病变的发现、性质、部位、大小等识别方面明显优于普通X线摄片，为诊断、病情评估及判断预后的主要手段。当胸部X线改变与呼吸困难等表现不平行时，应当及时行CT检查。以肺气肿和多肺叶受累的肺实变为主要特征，急性期肺实变多以双肺团簇状影为主，向心性分布，实变密度较高，多数实变影中可见支气管充气征，增强后强化较均匀。部分患儿以肺不张为主，也有一些患儿主要表现为大、小气道（细支气管）的炎症，包括充气不均匀、磨玻璃影、马赛克征、小叶中心性结节、树芽征、支气管壁增厚、支气管扩张、支气管分支增多等。可合并气胸、纵膈气肿和皮下气肿。"
+  },
+  {
+    "rule_name": "腺病毒感染胸部X线进展期出现片状影支持诊断",
+    "head": {
+      "is_negative": false,
+      "name": "影像学诊断关联",
+      "arguments": [
+        "X",
+        "腺病毒感染",
+        "可支持"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "影像学检查项目为",
+        "arguments": [
+          "X",
+          "胸部X线"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查发现",
+        "arguments": [
+          "X",
+          "病程3-7天出现片状影"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查发现",
+        "arguments": [
+          "X",
+          "以小片状融合多见"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查时序",
+        "arguments": [
+          "X",
+          "进展期"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "胸部CT表现。由于胸部CT分辨率高，对病变的发现、性质、部位、大小等识别方面明显优于普通X线摄片，为诊断、病情评估及判断预后的主要手段。当胸部X线改变与呼吸困难等表现不平行时，应当及时行CT检查。以肺气肿和多肺叶受累的肺实变为主要特征，急性期肺实变多以双肺团簇状影为主，向心性分布，实变密度较高，多数实变影中可见支气管充气征，增强后强化较均匀。部分患儿以肺不张为主，也有一些患儿主要表现为大、小气道（细支气管）的炎症，包括充气不均匀、磨玻璃影、马赛克征、小叶中心性结节、树芽征、支气管壁增厚、支气管扩张、支气管分支增多等。可合并气胸、纵膈气肿和皮下气肿。"
+  },
+  {
+    "rule_name": "腺病毒感染胸部X线肺门增宽且实变侧重支持诊断",
+    "head": {
+      "is_negative": false,
+      "name": "影像学诊断关联",
+      "arguments": [
+        "X",
+        "腺病毒感染",
+        "可支持"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "影像学检查项目为",
+        "arguments": [
+          "X",
+          "胸部X线"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查发现",
+        "arguments": [
+          "X",
+          "肺门致密增宽"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查发现",
+        "arguments": [
+          "X",
+          "以肺实变侧较重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查发现",
+        "arguments": [
+          "X",
+          "双侧"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "胸部CT表现。由于胸部CT分辨率高，对病变的发现、性质、部位、大小等识别方面明显优于普通X线摄片，为诊断、病情评估及判断预后的主要手段。当胸部X线改变与呼吸困难等表现不平行时，应当及时行CT检查。以肺气肿和多肺叶受累的肺实变为主要特征，急性期肺实变多以双肺团簇状影为主，向心性分布，实变密度较高，多数实变影中可见支气管充气征，增强后强化较均匀。部分患儿以肺不张为主，也有一些患儿主要表现为大、小气道（细支气管）的炎症，包括充气不均匀、磨玻璃影、马赛克征、小叶中心性结节、树芽征、支气管壁增厚、支气管扩张、支气管分支增多等。可合并气胸、纵膈气肿和皮下气肿。"
+  },
+  {
+    "rule_name": "胸部CT因分辨率高成为主要诊断评估手段",
+    "head": {
+      "is_negative": false,
+      "name": "检查方法主要用途为",
+      "arguments": [
+        "X",
+        "诊断病情评估预后"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "影像学检查项目为",
+        "arguments": [
+          "X",
+          "胸部CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "属性",
+        "arguments": [
+          "X",
+          "分辨率高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "优于对比项目",
+        "arguments": [
+          "X",
+          "普通X线摄片",
+          "病变发现性质部位大小识别"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "胸部CT表现。由于胸部CT分辨率高，对病变的发现、性质、部位、大小等识别方面明显优于普通X线摄片，为诊断、病情评估及判断预后的主要手段。当胸部X线改变与呼吸困难等表现不平行时，应当及时行CT检查。以肺气肿和多肺叶受累的肺实变为主要特征，急性期肺实变多以双肺团簇状影为主，向心性分布，实变密度较高，多数实变影中可见支气管充气征，增强后强化较均匀。部分患儿以肺不张为主，也有一些患儿主要表现为大、小气道（细支气管）的炎症，包括充气不均匀、磨玻璃影、马赛克征、小叶中心性结节、树芽征、支气管壁增厚、支气管扩张、支气管分支增多等。可合并气胸、纵膈气肿和皮下气肿。"
+  },
+  {
+    "rule_name": "X线改变与临床表现不平行触发及时CT检查",
+    "head": {
+      "is_negative": false,
+      "name": "触发医疗行为",
+      "arguments": [
+        "X",
+        "及时行CT检查"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "影像学检查项目为",
+        "arguments": [
+          "X",
+          "胸部X线"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学表现",
+        "arguments": [
+          "X",
+          "胸部X线改变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学表现",
+        "arguments": [
+          "X",
+          "呼吸困难等临床表现"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "关系属性",
+        "arguments": [
+          "X",
+          "不平行"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "胸部CT表现。由于胸部CT分辨率高，对病变的发现、性质、部位、大小等识别方面明显优于普通X线摄片，为诊断、病情评估及判断预后的主要手段。当胸部X线改变与呼吸困难等表现不平行时，应当及时行CT检查。以肺气肿和多肺叶受累的肺实变为主要特征，急性期肺实变多以双肺团簇状影为主，向心性分布，实变密度较高，多数实变影中可见支气管充气征，增强后强化较均匀。部分患儿以肺不张为主，也有一些患儿主要表现为大、小气道（细支气管）的炎症，包括充气不均匀、磨玻璃影、马赛克征、小叶中心性结节、树芽征、支气管壁增厚、支气管扩张、支气管分支增多等。可合并气胸、纵膈气肿和皮下气肿。"
+  },
+  {
+    "rule_name": "胸部CT呈现双肺团簇状影等特征符合急性期肺实变",
+    "head": {
+      "is_negative": false,
+      "name": "影像学检查表现符合",
+      "arguments": [
+        "X",
+        "急性期肺实变"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "影像学检查项目为",
+        "arguments": [
+          "X",
+          "胸部CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查发现",
+        "arguments": [
+          "X",
+          "双肺团簇状影"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查发现",
+        "arguments": [
+          "X",
+          "向心性分布"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查发现",
+        "arguments": [
+          "X",
+          "肺气肿"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查发现",
+        "arguments": [
+          "X",
+          "多肺叶受累"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "胸部CT表现。由于胸部CT分辨率高，对病变的发现、性质、部位、大小等识别方面明显优于普通X线摄片，为诊断、病情评估及判断预后的主要手段。当胸部X线改变与呼吸困难等表现不平行时，应当及时行CT检查。以肺气肿和多肺叶受累的肺实变为主要特征，急性期肺实变多以双肺团簇状影为主，向心性分布，实变密度较高，多数实变影中可见支气管充气征，增强后强化较均匀。部分患儿以肺不张为主，也有一些患儿主要表现为大、小气道（细支气管）的炎症，包括充气不均匀、磨玻璃影、马赛克征、小叶中心性结节、树芽征、支气管壁增厚、支气管扩张、支气管分支增多等。可合并气胸、纵膈气肿和皮下气肿。"
+  },
+  {
+    "rule_name": "胸部CT显示高密度实变伴支气管充气征符合急性期肺实变",
+    "head": {
+      "is_negative": false,
+      "name": "影像学检查表现符合",
+      "arguments": [
+        "X",
+        "急性期肺实变"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "影像学检查项目为",
+        "arguments": [
+          "X",
+          "胸部CT"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查发现",
+        "arguments": [
+          "X",
+          "实变密度较高"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查发现",
+        "arguments": [
+          "X",
+          "多数实变影中可见支气管充气征"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "影像学检查发现",
+        "arguments": [
+          "X",
+          "增强后强化较均匀"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "胸部CT表现。由于胸部CT分辨率高，对病变的发现、性质、部位、大小等识别方面明显优于普通X线摄片，为诊断、病情评估及判断预后的主要手段。当胸部X线改变与呼吸困难等表现不平行时，应当及时行CT检查。以肺气肿和多肺叶受累的肺实变为主要特征，急性期肺实变多以双肺团簇状影为主，向心性分布，实变密度较高，多数实变影中可见支气管充气征，增强后强化较均匀。部分患儿以肺不张为主，也有一些患儿主要表现为大、小气道（细支气管）的炎症，包括充气不均匀、磨玻璃影、马赛克征、小叶中心性结节、树芽征、支气管壁增厚、支气管扩张、支气管分支增多等。可合并气胸、纵膈气肿和皮下气肿。"
+  },
+  {
+    "rule_name": "重症腺病毒肺炎患儿不推荐支气管镜检查指征",
+    "head": {
+      "is_negative": true,
+      "name": "推荐操作",
+      "arguments": [
+        "Y",
+        "X",
+        "因耐受性差"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "重症腺病毒肺炎患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "病情状态",
+        "arguments": [
+          "X",
+          "重"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "脏器功能",
+        "arguments": [
+          "X",
+          "差"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在症状",
+        "arguments": [
+          "X",
+          "气道阻塞"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "耐受性",
+        "arguments": [
+          "X",
+          "支气管镜检查",
+          "差"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "风险操作",
+        "arguments": [
+          "Y",
+          "加重病情"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿",
+      "Y": "支气管镜检查操作"
+    },
+    "source_text": "能直接镜下观察病变、获取肺泡灌洗液进行病原检测，也可通过支气管镜进行钳夹坏死组织和/或刷取、灌洗黏液栓，以畅通气道。因重症腺病毒肺炎患儿病情重，一般情况和脏器功能差，并存在一定程度的气道阻塞，对支气管镜操作的耐受性差，加之不恰当的灌洗和钳夹治疗可加重病情，故并不适于所有患儿以及病程的任何时间段，应当慎重选择患儿和恰当的治疗时机，规范操作。推荐用于以下情况：1.有明显气道阻塞者：临床有喘息、呼吸增快、呼吸困难和低氧血症、呼吸音降低或固定喘鸣音，影像提示肺不张或者肺实变-肺不张，有粘液栓、肺气肿，纵隔气肿，细支气管炎病变等；呼吸机治疗出现峰压明显升高，潮气量下降，氧合不好；2.不除外并存异物、支气管畸形者；3.肺炎控制后，怀疑发生继发性支气管软化或支气管腔闭塞者。"
+  },
+  {
+    "rule_name": "重症腺病毒肺炎患儿推荐支气管镜检查指征_明显气道阻塞",
+    "head": {
+      "is_negative": false,
+      "name": "推荐操作",
+      "arguments": [
+        "Y",
+        "Z",
+        "为畅通气道"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "重症腺病毒肺炎患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "明显气道阻塞者",
+        "arguments": [
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患儿",
+        "arguments": [
+          "Z",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "存在指征",
+        "arguments": [
+          "Z",
+          "影像学肺不张"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "推荐时机",
+        "arguments": [
+          "Y",
+          "慎重选择"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿",
+      "Y": "支气管镜检查操作",
+      "Z": "明显气道阻塞指征"
+    },
+    "source_text": "能直接镜下观察病变、获取肺泡灌洗液进行病原检测，也可通过支气管镜进行钳夹坏死组织和/或刷取、灌洗黏液栓，以畅通气道。因重症腺病毒肺炎患儿病情重，一般情况和脏器功能差，并存在一定程度的气道阻塞，对支气管镜操作的耐受性差，加之不恰当的灌洗和钳夹治疗可加重病情，故并不适于所有患儿以及病程的任何时间段，应当慎重选择患儿和恰当的治疗时机，规范操作。推荐用于以下情况：1.有明显气道阻塞者：临床有喘息、呼吸增快、呼吸困难和低氧血症、呼吸音降低或固定喘鸣音，影像提示肺不张或者肺实变-肺不张，有粘液栓、肺气肿，纵隔气肿，细支气管炎病变等；呼吸机治疗出现峰压明显升高，潮气量下降，氧合不好；2.不除外并存异物、支气管畸形者；3.肺炎控制后，怀疑发生继发性支气管软化或支气管腔闭塞者。"
+  },
+  {
+    "rule_name": "重症腺病毒肺炎患儿推荐支气管镜检查指征_疑存异物或畸形",
+    "head": {
+      "is_negative": false,
+      "name": "推荐操作",
+      "arguments": [
+        "Y",
+        "W",
+        "为明确诊断"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "重症腺病毒肺炎患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并存异物或畸形",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患儿",
+        "arguments": [
+          "W",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "推荐时机",
+        "arguments": [
+          "Y",
+          "慎重选择"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿",
+      "Y": "支气管镜检查操作",
+      "W": "异物或支气管畸形"
+    },
+    "source_text": "能直接镜下观察病变、获取肺泡灌洗液进行病原检测，也可通过支气管镜进行钳夹坏死组织和/或刷取、灌洗黏液栓，以畅通气道。因重症腺病毒肺炎患儿病情重，一般情况和脏器功能差，并存在一定程度的气道阻塞，对支气管镜操作的耐受性差，加之不恰当的灌洗和钳夹治疗可加重病情，故并不适于所有患儿以及病程的任何时间段，应当慎重选择患儿和恰当的治疗时机，规范操作。推荐用于以下情况：1.有明显气道阻塞者：临床有喘息、呼吸增快、呼吸困难和低氧血症、呼吸音降低或固定喘鸣音，影像提示肺不张或者肺实变-肺不张，有粘液栓、肺气肿，纵隔气肿，细支气管炎病变等；呼吸机治疗出现峰压明显升高，潮气量下降，氧合不好；2.不除外并存异物、支气管畸形者；3.肺炎控制后，怀疑发生继发性支气管软化或支气管腔闭塞者。"
+  },
+  {
+    "rule_name": "重症腺病毒肺炎患儿推荐支气管镜检查指征_疑继发软化或闭塞",
+    "head": {
+      "is_negative": false,
+      "name": "推荐操作",
+      "arguments": [
+        "Y",
+        "V",
+        "为明确诊断"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "重症腺病毒肺炎患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "肺炎已控制",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "继发性支气管软化或管腔闭塞",
+        "arguments": [
+          "V"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "归属患儿",
+        "arguments": [
+          "V",
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "推荐时机",
+        "arguments": [
+          "Y",
+          "慎重选择"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿",
+      "Y": "支气管镜检查操作",
+      "V": "继发性支气管软化或管腔闭塞"
+    },
+    "source_text": "能直接镜下观察病变、获取肺泡灌洗液进行病原检测，也可通过支气管镜进行钳夹坏死组织和/或刷取、灌洗黏液栓，以畅通气道。因重症腺病毒肺炎患儿病情重，一般情况和脏器功能差，并存在一定程度的气道阻塞，对支气管镜操作的耐受性差，加之不恰当的灌洗和钳夹治疗可加重病情，故并不适于所有患儿以及病程的任何时间段，应当慎重选择患儿和恰当的治疗时机，规范操作。推荐用于以下情况：1.有明显气道阻塞者：临床有喘息、呼吸增快、呼吸困难和低氧血症、呼吸音降低或固定喘鸣音，影像提示肺不张或者肺实变-肺不张，有粘液栓、肺气肿，纵隔气肿，细支气管炎病变等；呼吸机治疗出现峰压明显升高，潮气量下降，氧合不好；2.不除外并存异物、支气管畸形者；3.肺炎控制后，怀疑发生继发性支气管软化或支气管腔闭塞者。"
+  },
+  {
+    "rule_name": "经普通氧疗无改善且符合严重低氧血症指征需有创通气",
+    "head": {
+      "is_negative": false,
+      "name": "执行医疗干预",
+      "arguments": [
+        "X",
+        "气管插管机械通气",
+        "及早"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "重症腺病毒肺炎患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受呼吸支持",
+        "arguments": [
+          "X",
+          "普通氧疗"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "病情改善",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "氧合状态监测",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "氧合指标",
+        "arguments": [
+          "Z",
+          "严重低氧血症",
+          "符合"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测参数",
+        "arguments": [
+          "Z",
+          "吸入氧浓度大于50"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测参数",
+        "arguments": [
+          "Z",
+          "血氧分压低于50mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿",
+      "Z": "氧合状态监测结果"
+    },
+    "source_text": "普通氧疗或无创通气或高流量通气治疗后病情无改善，并有以下表现时，需及早气管插管机械通气：（1）严重低氧血症：吸氧浓度＞50%，而PaO2＜50mmHg；（2）二氧化碳潴留：PaCO2＞70mmHg；"
+  },
+  {
+    "rule_name": "经普通氧疗无改善且符合二氧化碳潴留指征需有创通气",
+    "head": {
+      "is_negative": false,
+      "name": "执行医疗干预",
+      "arguments": [
+        "X",
+        "气管插管机械通气",
+        "及早"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "重症腺病毒肺炎患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受呼吸支持",
+        "arguments": [
+          "X",
+          "普通氧疗"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "病情改善",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "氧合状态监测",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "氧合指标",
+        "arguments": [
+          "Z",
+          "二氧化碳潴留",
+          "符合"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测参数",
+        "arguments": [
+          "Z",
+          "血二氧化碳分压高于70mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿",
+      "Z": "氧合状态监测结果"
+    },
+    "source_text": "普通氧疗或无创通气或高流量通气治疗后病情无改善，并有以下表现时，需及早气管插管机械通气：（1）严重低氧血症：吸氧浓度＞50%，而PaO2＜50mmHg；（2）二氧化碳潴留：PaCO2＞70mmHg；"
+  },
+  {
+    "rule_name": "经无创通气无改善且符合严重低氧血症指征需有创通气",
+    "head": {
+      "is_negative": false,
+      "name": "执行医疗干预",
+      "arguments": [
+        "X",
+        "气管插管机械通气",
+        "及早"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "重症腺病毒肺炎患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受呼吸支持",
+        "arguments": [
+          "X",
+          "无创通气"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "病情改善",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "氧合状态监测",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "氧合指标",
+        "arguments": [
+          "Z",
+          "严重低氧血症",
+          "符合"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测参数",
+        "arguments": [
+          "Z",
+          "吸入氧浓度大于50"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测参数",
+        "arguments": [
+          "Z",
+          "血氧分压低于50mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿",
+      "Z": "氧合状态监测结果"
+    },
+    "source_text": "普通氧疗或无创通气或高流量通气治疗后病情无改善，并有以下表现时，需及早气管插管机械通气：（1）严重低氧血症：吸氧浓度＞50%，而PaO2＜50mmHg；（2）二氧化碳潴留：PaCO2＞70mmHg；"
+  },
+  {
+    "rule_name": "经无创通气无改善且符合二氧化碳潴留指征需有创通气",
+    "head": {
+      "is_negative": false,
+      "name": "执行医疗干预",
+      "arguments": [
+        "X",
+        "气管插管机械通气",
+        "及早"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "重症腺病毒肺炎患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受呼吸支持",
+        "arguments": [
+          "X",
+          "无创通气"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "病情改善",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "氧合状态监测",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "氧合指标",
+        "arguments": [
+          "Z",
+          "二氧化碳潴留",
+          "符合"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测参数",
+        "arguments": [
+          "Z",
+          "血二氧化碳分压高于70mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿",
+      "Z": "氧合状态监测结果"
+    },
+    "source_text": "普通氧疗或无创通气或高流量通气治疗后病情无改善，并有以下表现时，需及早气管插管机械通气：（1）严重低氧血症：吸氧浓度＞50%，而PaO2＜50mmHg；（2）二氧化碳潴留：PaCO2＞70mmHg；"
+  },
+  {
+    "rule_name": "经高流量通气无改善且符合严重低氧血症指征需有创通气",
+    "head": {
+      "is_negative": false,
+      "name": "执行医疗干预",
+      "arguments": [
+        "X",
+        "气管插管机械通气",
+        "及早"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "重症腺病毒肺炎患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受呼吸支持",
+        "arguments": [
+          "X",
+          "高流量鼻导管通气"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "病情改善",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "氧合状态监测",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "氧合指标",
+        "arguments": [
+          "Z",
+          "严重低氧血症",
+          "符合"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测参数",
+        "arguments": [
+          "Z",
+          "吸入氧浓度大于50"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测参数",
+        "arguments": [
+          "Z",
+          "血氧分压低于50mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿",
+      "Z": "氧合状态监测结果"
+    },
+    "source_text": "普通氧疗或无创通气或高流量通气治疗后病情无改善，并有以下表现时，需及早气管插管机械通气：（1）严重低氧血症：吸氧浓度＞50%，而PaO2＜50mmHg；（2）二氧化碳潴留：PaCO2＞70mmHg；"
+  },
+  {
+    "rule_name": "经高流量通气无改善且符合二氧化碳潴留指征需有创通气",
+    "head": {
+      "is_negative": false,
+      "name": "执行医疗干预",
+      "arguments": [
+        "X",
+        "气管插管机械通气",
+        "及早"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "重症腺病毒肺炎患儿",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受呼吸支持",
+        "arguments": [
+          "X",
+          "高流量鼻导管通气"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "病情改善",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "氧合状态监测",
+        "arguments": [
+          "X",
+          "Z"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "氧合指标",
+        "arguments": [
+          "Z",
+          "二氧化碳潴留",
+          "符合"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "监测参数",
+        "arguments": [
+          "Z",
+          "血二氧化碳分压高于70mmHg"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿",
+      "Z": "氧合状态监测结果"
+    },
+    "source_text": "普通氧疗或无创通气或高流量通气治疗后病情无改善，并有以下表现时，需及早气管插管机械通气：（1）严重低氧血症：吸氧浓度＞50%，而PaO2＜50mmHg；（2）二氧化碳潴留：PaCO2＞70mmHg；"
+  },
+  {
+    "rule_name": "重症腺病毒肺炎患儿的稽留热与不规则热型及超高热表现",
+    "head": {
+      "is_negative": false,
+      "name": "重症",
+      "arguments": [
+        "X"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腺病毒肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状表现",
+        "arguments": [
+          "X",
+          "高热"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状时长",
+        "arguments": [
+          "X",
+          "持续2至4周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状具体型",
+        "arguments": [
+          "X",
+          "稽留热"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "伴随症状",
+        "arguments": [
+          "X",
+          "不规则热"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "最高体温指标",
+        "arguments": [
+          "X",
+          "超过40℃"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "起病急，常在起病之初即出现39℃以上的高热，可伴有咳嗽、喘息，轻症一般在7-11天体温恢复正常，其他症状也随之消失。重症患儿高热可持续2-4周，以稽留热多见，也有不规则热型，一些患儿最高体温超过40℃。呼吸困难多始于病后3-5天，伴全身中毒症状，精神萎靡或者烦躁，易激惹，甚至抽搐。部分患儿有腹泻、呕吐，甚至出现严重腹胀。少数患儿有结膜充血、扁桃体有分泌物。"
+  },
+  {
+    "rule_name": "病后数日出现呼吸困难伴精神萎靡中毒症状",
+    "head": {
+      "is_negative": false,
+      "name": "并发症状",
+      "arguments": [
+        "X",
+        "呼吸困难"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腺病毒肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状出现时间",
+        "arguments": [
+          "呼吸困难",
+          "病后3至5天"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "全身症状",
+        "arguments": [
+          "X",
+          "中毒症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "精神状态",
+        "arguments": [
+          "X",
+          "精神萎靡"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "精神状态",
+        "arguments": [
+          "X",
+          "烦躁"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "起病急，常在起病之初即出现39℃以上的高热，可伴有咳嗽、喘息，轻症一般在7-11天体温恢复正常，其他症状也随之消失。重症患儿高热可持续2-4周，以稽留热多见，也有不规则热型，一些患儿最高体温超过40℃。呼吸困难多始于病后3-5天，伴全身中毒症状，精神萎靡或者烦躁，易激惹，甚至抽搐。部分患儿有腹泻、呕吐，甚至出现严重腹胀。少数患儿有结膜充血、扁桃体有分泌物。"
+  },
+  {
+    "rule_name": "病后数日出现呼吸困难伴烦躁中毒症状",
+    "head": {
+      "is_negative": false,
+      "name": "并发症状",
+      "arguments": [
+        "X",
+        "呼吸困难"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腺病毒肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "症状出现时间",
+        "arguments": [
+          "呼吸困难",
+          "病后3至5天"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "全身症状",
+        "arguments": [
+          "X",
+          "中毒症状"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "精神状态",
+        "arguments": [
+          "X",
+          "烦躁"
+        ]
+      },
+      {
+        "is_negative": true,
+        "name": "精神状态",
+        "arguments": [
+          "X",
+          "精神萎靡"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "起病急，常在起病之初即出现39℃以上的高热，可伴有咳嗽、喘息，轻症一般在7-11天体温恢复正常，其他症状也随之消失。重症患儿高热可持续2-4周，以稽留热多见，也有不规则热型，一些患儿最高体温超过40℃。呼吸困难多始于病后3-5天，伴全身中毒症状，精神萎靡或者烦躁，易激惹，甚至抽搐。部分患儿有腹泻、呕吐，甚至出现严重腹胀。少数患儿有结膜充血、扁桃体有分泌物。"
+  },
+  {
+    "rule_name": "少数腺病毒肺炎患儿的结膜与扁桃体体征",
+    "head": {
+      "is_negative": false,
+      "name": "并发体征",
+      "arguments": [
+        "X",
+        "结膜充血"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腺病毒肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生范围",
+        "arguments": [
+          "X",
+          "少数"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发体征",
+        "arguments": [
+          "X",
+          "扁桃体分泌物"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "起病急，常在起病之初即出现39℃以上的高热，可伴有咳嗽、喘息，轻症一般在7-11天体温恢复正常，其他症状也随之消失。重症患儿高热可持续2-4周，以稽留热多见，也有不规则热型，一些患儿最高体温超过40℃。呼吸困难多始于病后3-5天，伴全身中毒症状，精神萎靡或者烦躁，易激惹，甚至抽搐。部分患儿有腹泻、呕吐，甚至出现严重腹胀。少数患儿有结膜充血、扁桃体有分泌物。"
+  },
+  {
+    "rule_name": "部分腺病毒肺炎患儿的腹泻与呕吐及严重腹胀",
+    "head": {
+      "is_negative": false,
+      "name": "并发症状",
+      "arguments": [
+        "X",
+        "腹泻"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腺病毒肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生范围",
+        "arguments": [
+          "X",
+          "部分"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "X",
+          "呕吐"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "严重程度",
+        "arguments": [
+          "X",
+          "出现严重腹胀"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "起病急，常在起病之初即出现39℃以上的高热，可伴有咳嗽、喘息，轻症一般在7-11天体温恢复正常，其他症状也随之消失。重症患儿高热可持续2-4周，以稽留热多见，也有不规则热型，一些患儿最高体温超过40℃。呼吸困难多始于病后3-5天，伴全身中毒症状，精神萎靡或者烦躁，易激惹，甚至抽搐。部分患儿有腹泻、呕吐，甚至出现严重腹胀。少数患儿有结膜充血、扁桃体有分泌物。"
+  },
+  {
+    "rule_name": "部分腺病毒肺炎患儿的呕吐与腹泻及严重腹胀",
+    "head": {
+      "is_negative": false,
+      "name": "并发症状",
+      "arguments": [
+        "X",
+        "呕吐"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患病",
+        "arguments": [
+          "X",
+          "腺病毒肺炎"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生范围",
+        "arguments": [
+          "X",
+          "部分"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "并发症状",
+        "arguments": [
+          "X",
+          "腹泻"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "严重程度",
+        "arguments": [
+          "X",
+          "出现严重腹胀"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患儿"
+    },
+    "source_text": "起病急，常在起病之初即出现39℃以上的高热，可伴有咳嗽、喘息，轻症一般在7-11天体温恢复正常，其他症状也随之消失。重症患儿高热可持续2-4周，以稽留热多见，也有不规则热型，一些患儿最高体温超过40℃。呼吸困难多始于病后3-5天，伴全身中毒症状，精神萎靡或者烦躁，易激惹，甚至抽搐。部分患儿有腹泻、呕吐，甚至出现严重腹胀。少数患儿有结膜充血、扁桃体有分泌物。"
+  }
+]

@@ -1,0 +1,958 @@
+[
+  {
+    "rule_name": "他汀治疗不达标且预计联合依折麦布可达标患者的联合用药建议",
+    "head": {
+      "is_negative": false,
+      "name": "联合用药推荐",
+      "arguments": [
+        "Y",
+        "依折麦布"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "X",
+          "超高危ASCVD"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "最大耐受剂量他汀"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗时长",
+        "arguments": [
+          "最大耐受剂量他汀",
+          "4至6周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗结果",
+        "arguments": [
+          "X",
+          "LDL-C不达标"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预期治疗结果",
+        "arguments": [
+          "X",
+          "他汀联合依折麦布治疗",
+          "达标"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "达标目标",
+        "arguments": [
+          "X",
+          "LDL-C",
+          "<1.4mmol/L且降幅≥50%"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "治疗方案"
+    },
+    "source_text": "启动非他汀类药物治疗的时机：对于最大耐受剂量他汀类药物治疗4~6 周后LDL⁃C 不达标的超高危ASCVD 患者，可以考虑联合非他汀治疗。对于预计他汀类药物联合依折麦布治疗可以达标（<1.4 mmol/L 且较基线降幅≥50%）的患者，建议他汀类联合依折麦布；对于预计不达标的患者，建议他汀类联合前蛋白转化酶枯草溶菌素/kexin9型（proproteinconvertase subtilisin/kexin type 9，PCSK9）抑制剂；"
+  },
+  {
+    "rule_name": "他汀治疗不达标且预计联合依折麦布仍不达标患者的联合用药建议",
+    "head": {
+      "is_negative": false,
+      "name": "联合用药推荐",
+      "arguments": [
+        "Y",
+        "PCSK9抑制剂"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "疾病类型",
+        "arguments": [
+          "X",
+          "超高危ASCVD"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "接受治疗",
+        "arguments": [
+          "X",
+          "最大耐受剂量他汀"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗时长",
+        "arguments": [
+          "最大耐受剂量他汀",
+          "4至6周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗结果",
+        "arguments": [
+          "X",
+          "LDL-C不达标"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预期治疗结果",
+        "arguments": [
+          "X",
+          "他汀联合依折麦布治疗",
+          "不达标"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "治疗方案"
+    },
+    "source_text": "启动非他汀类药物治疗的时机：对于最大耐受剂量他汀类药物治疗4~6 周后LDL⁃C 不达标的超高危ASCVD 患者，可以考虑联合非他汀治疗。对于预计他汀类药物联合依折麦布治疗可以达标（<1.4 mmol/L 且较基线降幅≥50%）的患者，建议他汀类联合依折麦布；对于预计不达标的患者，建议他汀类联合前蛋白转化酶枯草溶菌素/kexin9型（proproteinconvertase subtilisin/kexin type 9，PCSK9）抑制剂；"
+  },
+  {
+    "rule_name": "并存多血管床病变的ASCVD患者未来风险显著升高",
+    "head": {
+      "is_negative": false,
+      "name": "风险等级",
+      "arguments": [
+        "X",
+        "未来心血管事件",
+        "显著升高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "ASCVD患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患血管病",
+        "arguments": [
+          "X",
+          "冠状动脉",
+          "病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患血管病",
+        "arguments": [
+          "X",
+          "脑血管",
+          "病变"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患血管病",
+        "arguments": [
+          "X",
+          "外周血管",
+          "病变"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "全面评价ASCVD总体危险是防治血脂异常的必要前提。既往指南大多评估患者的10年总体发病风险，分为低、中、高和极高危，ASCVD患者直接列为极高危人群。然而，即使在ASCVD患者之间，再次发生ASCVD 事件的风险也截然不同：其10 年严重血管事件的再发率在17%，其中18%的人再发率<10%，22% 的人再发率>30%［4］。ASCVD 患者1年内面临极高的再发事件风险，中国国家卒中登记处入选11 560例患者，结果显示有17.7%的患者1 年内卒中再发［5］。国外亦有研究发现，患者发生ACS 后1 年内再发缺血性事件的风险为9.2%［6］。丹麦一项登记队列研究在平均3.6年的随访中观察到，MI发生后1年内患者再次发生MI、卒中或心血管死亡的风险为20%［7］。EPICOR Asia研究结果显示，非ST段抬高型ACS患者2年内再发率为3.0%~8.7%［8］。此外，冠心病的严重程度也可能增加患者未来事件的风险，多支冠状动脉病变患者的风险更高。与单纯PAD 患者相比，同时合并PAD、冠状动脉病变和脑血管病变患者的MACE 风险增加2.41倍，故并存多种类型血管病变患者的MACE风险显著增加。"
+  },
+  {
+    "rule_name": "冠状动脉多支病变的ASCVD患者未来风险显著升高",
+    "head": {
+      "is_negative": false,
+      "name": "风险等级",
+      "arguments": [
+        "X",
+        "未来心血管事件",
+        "显著升高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "ASCVD患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "血管病变程度",
+        "arguments": [
+          "X",
+          "冠状动脉",
+          "多支"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "全面评价ASCVD总体危险是防治血脂异常的必要前提。既往指南大多评估患者的10年总体发病风险，分为低、中、高和极高危，ASCVD患者直接列为极高危人群。然而，即使在ASCVD患者之间，再次发生ASCVD 事件的风险也截然不同：其10 年严重血管事件的再发率在17%，其中18%的人再发率<10%，22% 的人再发率>30%［4］。ASCVD 患者1年内面临极高的再发事件风险，中国国家卒中登记处入选11 560例患者，结果显示有17.7%的患者1 年内卒中再发［5］。国外亦有研究发现，患者发生ACS 后1 年内再发缺血性事件的风险为9.2%［6］。丹麦一项登记队列研究在平均3.6年的随访中观察到，MI发生后1年内患者再次发生MI、卒中或心血管死亡的风险为20%［7］。EPICOR Asia研究结果显示，非ST段抬高型ACS患者2年内再发率为3.0%~8.7%［8］。此外，冠心病的严重程度也可能增加患者未来事件的风险，多支冠状动脉病变患者的风险更高。与单纯PAD 患者相比，同时合并PAD、冠状动脉病变和脑血管病变患者的MACE 风险增加2.41倍，故并存多种类型血管病变患者的MACE风险显著增加。"
+  },
+  {
+    "rule_name": "有ASCVD复发史的ASCVD患者未来风险显著升高",
+    "head": {
+      "is_negative": false,
+      "name": "风险等级",
+      "arguments": [
+        "X",
+        "未来心血管事件",
+        "显著升高"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "ASCVD患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "既往病史",
+        "arguments": [
+          "X",
+          "ASCVD复发"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "全面评价ASCVD总体危险是防治血脂异常的必要前提。既往指南大多评估患者的10年总体发病风险，分为低、中、高和极高危，ASCVD患者直接列为极高危人群。然而，即使在ASCVD患者之间，再次发生ASCVD 事件的风险也截然不同：其10 年严重血管事件的再发率在17%，其中18%的人再发率<10%，22% 的人再发率>30%［4］。ASCVD 患者1年内面临极高的再发事件风险，中国国家卒中登记处入选11 560例患者，结果显示有17.7%的患者1 年内卒中再发［5］。国外亦有研究发现，患者发生ACS 后1 年内再发缺血性事件的风险为9.2%［6］。丹麦一项登记队列研究在平均3.6年的随访中观察到，MI发生后1年内患者再次发生MI、卒中或心血管死亡的风险为20%［7］。EPICOR Asia研究结果显示，非ST段抬高型ACS患者2年内再发率为3.0%~8.7%［8］。此外，冠心病的严重程度也可能增加患者未来事件的风险，多支冠状动脉病变患者的风险更高。与单纯PAD 患者相比，同时合并PAD、冠状动脉病变和脑血管病变患者的MACE 风险增加2.41倍，故并存多种类型血管病变患者的MACE风险显著增加。"
+  },
+  {
+    "rule_name": "超高危ASCVD患者预期不达标时联合PCSK9抑制剂",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "PCSK9抑制剂",
+        "联合治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者类型",
+        "arguments": [
+          "X",
+          "超高危ASCVD"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "预期效果",
+        "arguments": [
+          "X",
+          "LDL-C达标",
+          "否"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "当前用药",
+        "arguments": [
+          "X",
+          "他汀类"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "对于预计不达标的患者，建议他汀类联合前蛋白转化酶枯草溶菌素/kexin9型（proproteinconvertase subtilisin/kexin type 9，PCSK9）抑制剂；对于他汀类联合依折麦布治疗4~6 周后LDL⁃C 仍不达标的患者，建议联合PCSK9抑制剂；如患者出现肌病或肝功能受损，经评估明确为他汀类（任何种类或剂量）不耐受的患者，建议采用PCSK9 抑制剂治疗，以降低LDL⁃C 水平。超高危ASCVD患者的血脂管理路径见图1。"
+  },
+  {
+    "rule_name": "他汀依折麦布联合治疗后仍不达标时联合PCSK9抑制剂",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "PCSK9抑制剂",
+        "联合治疗"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者类型",
+        "arguments": [
+          "X",
+          "超高危ASCVD"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "联合用药方案",
+        "arguments": [
+          "X",
+          "他汀类与依折麦布"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗时长",
+        "arguments": [
+          "X",
+          "4至6周"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "评估结果",
+        "arguments": [
+          "X",
+          "LDL-C达标",
+          "否"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "对于预计不达标的患者，建议他汀类联合前蛋白转化酶枯草溶菌素/kexin9型（proproteinconvertase subtilisin/kexin type 9，PCSK9）抑制剂；对于他汀类联合依折麦布治疗4~6 周后LDL⁃C 仍不达标的患者，建议联合PCSK9抑制剂；如患者出现肌病或肝功能受损，经评估明确为他汀类（任何种类或剂量）不耐受的患者，建议采用PCSK9 抑制剂治疗，以降低LDL⁃C 水平。超高危ASCVD患者的血脂管理路径见图1。"
+  },
+  {
+    "rule_name": "出现肌病且评估为他汀不耐受时采用PCSK9抑制剂",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "PCSK9抑制剂",
+        "采用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者类型",
+        "arguments": [
+          "X",
+          "超高危ASCVD"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出现不良反应",
+        "arguments": [
+          "X",
+          "肌病"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物耐受性评估",
+        "arguments": [
+          "X",
+          "他汀类",
+          "不耐受"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "对于预计不达标的患者，建议他汀类联合前蛋白转化酶枯草溶菌素/kexin9型（proproteinconvertase subtilisin/kexin type 9，PCSK9）抑制剂；对于他汀类联合依折麦布治疗4~6 周后LDL⁃C 仍不达标的患者，建议联合PCSK9抑制剂；如患者出现肌病或肝功能受损，经评估明确为他汀类（任何种类或剂量）不耐受的患者，建议采用PCSK9 抑制剂治疗，以降低LDL⁃C 水平。超高危ASCVD患者的血脂管理路径见图1。"
+  },
+  {
+    "rule_name": "出现肝功能受损且评估为他汀不耐受时采用PCSK9抑制剂",
+    "head": {
+      "is_negative": false,
+      "name": "用药推荐",
+      "arguments": [
+        "X",
+        "PCSK9抑制剂",
+        "采用"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者类型",
+        "arguments": [
+          "X",
+          "超高危ASCVD"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "出现不良反应",
+        "arguments": [
+          "X",
+          "肝功能受损"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物耐受性评估",
+        "arguments": [
+          "X",
+          "他汀类",
+          "不耐受"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "对于预计不达标的患者，建议他汀类联合前蛋白转化酶枯草溶菌素/kexin9型（proproteinconvertase subtilisin/kexin type 9，PCSK9）抑制剂；对于他汀类联合依折麦布治疗4~6 周后LDL⁃C 仍不达标的患者，建议联合PCSK9抑制剂；如患者出现肌病或肝功能受损，经评估明确为他汀类（任何种类或剂量）不耐受的患者，建议采用PCSK9 抑制剂治疗，以降低LDL⁃C 水平。超高危ASCVD患者的血脂管理路径见图1。"
+  },
+  {
+    "rule_name": "ODYSSEY_OUTCOMES研究结论_他汀基础上联合阿利西尤降低事件风险",
+    "head": {
+      "is_negative": false,
+      "name": "降脂治疗方案疗效",
+      "arguments": [
+        "T",
+        "降低事件风险15%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "研究对象",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者类型",
+        "arguments": [
+          "X",
+          "近期发生ACS"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基础治疗",
+        "arguments": [
+          "X",
+          "他汀类药物"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "联合治疗方案",
+        "arguments": [
+          "T",
+          "阿利西尤单抗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "降脂效果",
+        "arguments": [
+          "T",
+          "有效降低LDL-C"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "T": "研究"
+    },
+    "source_text": "ODYSSEY OUTCOMES 研究［12］分析了近期发生过ACS（1~12个月）的患者，在接受他汀类药物治疗的基础上联用阿利西尤单抗可有效降低患者LDL⁃C 水平，并降低主要终点事件风险15%。ODYSSEY EAST研究（研究对象为中国、印度、泰国患者）入选接受最大耐受剂量他汀治疗LDL⁃C仍不达标［>1.8 mmol/L（70 mg/dl）］的ASCVD 高危患者共615 例，2∶1 随机接受阿利西尤单抗或依折麦布治疗24周，所有患者均未发生严重不良反应；结果表明阿利西尤单抗组与依折麦布组LDL⁃C 降幅分别为56.0% 和20.3%（P<0.001），LDL⁃C 达标率亦分别为85.1%和40.5%（P<0.001），提示在最大耐受剂量他汀应用基础上，阿利西尤单抗的降脂幅度明显优于依折麦布［24］，证明PCSK9抑制剂安全性较好。"
+  },
+  {
+    "rule_name": "ODYSSEY_EAST研究结论_他汀治疗不达标高危患者中阿利西尤优于依折麦布",
+    "head": {
+      "is_negative": false,
+      "name": "降脂效果比较",
+      "arguments": [
+        "T",
+        "优"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "研究对象",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "患者类型",
+        "arguments": [
+          "X",
+          "ASCVD高危"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基础治疗",
+        "arguments": [
+          "X",
+          "最大耐受剂量他汀"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生化指标状态",
+        "arguments": [
+          "X",
+          "LDL-C不达标"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗分组对比",
+        "arguments": [
+          "T",
+          "阿利西尤单抗_vs_依折麦布"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗药物",
+        "arguments": [
+          "Y",
+          "阿利西尤单抗"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "T": "研究",
+      "Y": "药物"
+    },
+    "source_text": "ODYSSEY OUTCOMES 研究［12］分析了近期发生过ACS（1~12个月）的患者，在接受他汀类药物治疗的基础上联用阿利西尤单抗可有效降低患者LDL⁃C 水平，并降低主要终点事件风险15%。ODYSSEY EAST研究（研究对象为中国、印度、泰国患者）入选接受最大耐受剂量他汀治疗LDL⁃C仍不达标［>1.8 mmol/L（70 mg/dl）］的ASCVD 高危患者共615 例，2∶1 随机接受阿利西尤单抗或依折麦布治疗24周，所有患者均未发生严重不良反应；结果表明阿利西尤单抗组与依折麦布组LDL⁃C 降幅分别为56.0% 和20.3%（P<0.001），LDL⁃C 达标率亦分别为85.1%和40.5%（P<0.001），提示在最大耐受剂量他汀应用基础上，阿利西尤单抗的降脂幅度明显优于依折麦布［24］，证明PCSK9抑制剂安全性较好。"
+  },
+  {
+    "rule_name": "指南推荐他汀联合依折麦布及PCSK9i研究的用药允许规则",
+    "head": {
+      "is_negative": false,
+      "name": "联合用药策略",
+      "arguments": [
+        "当前治疗方案",
+        "指南推荐首选"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者状态",
+        "arguments": [
+          "X",
+          "已接受最大他汀治疗"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "生化指标状态",
+        "arguments": [
+          "X",
+          "LDL-C未达标"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物使用许可",
+        "arguments": [
+          "Y",
+          "允许与他汀联用"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "药物类型",
+        "arguments": [
+          "Y",
+          "依折麦布"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "G": "指南",
+      "Y": "药物",
+      "Z": "研究"
+    },
+    "source_text": "ODYSSEY OUTCOMES 研究［12］分析了近期发生过ACS（1~12个月）的患者，在接受他汀类药物治疗的基础上联用阿利西尤单抗可有效降低患者LDL⁃C 水平，并降低主要终点事件风险15%。ODYSSEY EAST研究（研究对象为中国、印度、泰国患者）入选接受最大耐受剂量他汀治疗LDL⁃C仍不达标［>1.8 mmol/L（70 mg/dl）］的ASCVD 高危患者共615 例，2∶1 随机接受阿利西尤单抗或依折麦布治疗24周，所有患者均未发生严重不良反应；结果表明阿利西尤单抗组与依折麦布组LDL⁃C 降幅分别为56.0% 和20.3%（P<0.001），LDL⁃C 达标率亦分别为85.1%和40.5%（P<0.001），提示在最大耐受剂量他汀应用基础上，阿利西尤单抗的降脂幅度明显优于依折麦布［24］，证明PCSK9抑制剂安全性较好。"
+  },
+  {
+    "rule_name": "中国ASCVD患者符合超高危定义_事件次数达标",
+    "head": {
+      "is_negative": false,
+      "name": "符合定义",
+      "arguments": [
+        "X",
+        "超高危ASCVD"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "ASCVD患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "严重ASCVD事件",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "严重ASCVD事件",
+        "arguments": [
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "不相同",
+        "arguments": [
+          "Y",
+          "W"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生次数",
+        "arguments": [
+          "Y",
+          "X",
+          "至少2次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生次数",
+        "arguments": [
+          "W",
+          "X",
+          "至少2次"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "严重ASCVD事件",
+      "W": "严重ASCVD事件"
+    },
+    "source_text": "基于亚洲及中国人群的临床血脂管理经验，同时参考2018年AHA/ACC胆固醇管理指南，建议中国超高危ASCVD患者的风险分层采用严重事件+高风险因素模式，定义为发生过≥2 次严重的ASCVD事件或发生过1次严重的ASCVD事件合并≥2个高风险因素的患者为超高危ASCVD患者。"
+  },
+  {
+    "rule_name": "中国ASCVD患者符合超高危定义_事件加风险因素达标",
+    "head": {
+      "is_negative": false,
+      "name": "符合定义",
+      "arguments": [
+        "X",
+        "超高危ASCVD"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "ASCVD患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "严重ASCVD事件",
+        "arguments": [
+          "Y"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高风险因素",
+        "arguments": [
+          "Z1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高风险因素",
+        "arguments": [
+          "Z2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "不相同",
+        "arguments": [
+          "Z1",
+          "Z2"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "发生次数",
+        "arguments": [
+          "Y",
+          "X",
+          "至少1次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有",
+        "arguments": [
+          "X",
+          "Z1"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "具有",
+        "arguments": [
+          "X",
+          "Z2"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者",
+      "Y": "严重ASCVD事件",
+      "Z1": "高风险因素",
+      "Z2": "高风险因素"
+    },
+    "source_text": "基于亚洲及中国人群的临床血脂管理经验，同时参考2018年AHA/ACC胆固醇管理指南，建议中国超高危ASCVD患者的风险分层采用严重事件+高风险因素模式，定义为发生过≥2 次严重的ASCVD事件或发生过1次严重的ASCVD事件合并≥2个高风险因素的患者为超高危ASCVD患者。"
+  },
+  {
+    "rule_name": "基于两次以上ASCVD事件的超高危患者定义及LDL-C靶标",
+    "head": {
+      "is_negative": false,
+      "name": "LDL-C干预靶标",
+      "arguments": [
+        "X",
+        "降低至1.4mmol/L以下且较基线降幅超过50%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "ASCVD事件次数",
+        "arguments": [
+          "X",
+          "大于等于2次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合定义",
+        "arguments": [
+          "X",
+          "超高危ASCVD"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "血脂管理需根据动脉粥样硬化性心血管疾病（ASCVD）危险分层进行。该共识将发生过≥2次严重的ASCVD事件或发生过1次严重的ASCVD事件合并≥2个高风险因素的患者，定义为超高危ASCVD 患者。低密度脂蛋白胆固醇（LDL⁃C）是降脂治疗的首要干预靶点。建议对符合中国超高危ASCVD定义的患者，LDL⁃C水平的干预靶标为降低至1.4 mmol/L以下且较基线降幅超过50%；所有超高危ASCVD人群，应在控制饮食和改善生活方式的基础上，尽早开始并长期进行降脂治疗。"
+  },
+  {
+    "rule_name": "基于一次ASCVD事件合并多高风险因素的超高危患者定义及LDL-C靶标",
+    "head": {
+      "is_negative": false,
+      "name": "LDL-C干预靶标",
+      "arguments": [
+        "X",
+        "降低至1.4mmol/L以下且较基线降幅超过50%"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者",
+        "arguments": [
+          "X"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "ASCVD事件次数",
+        "arguments": [
+          "X",
+          "1次"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "高风险因素数量",
+        "arguments": [
+          "X",
+          "大于等于2个"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "符合定义",
+        "arguments": [
+          "X",
+          "超高危ASCVD"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "血脂管理需根据动脉粥样硬化性心血管疾病（ASCVD）危险分层进行。该共识将发生过≥2次严重的ASCVD事件或发生过1次严重的ASCVD事件合并≥2个高风险因素的患者，定义为超高危ASCVD 患者。低密度脂蛋白胆固醇（LDL⁃C）是降脂治疗的首要干预靶点。建议对符合中国超高危ASCVD定义的患者，LDL⁃C水平的干预靶标为降低至1.4 mmol/L以下且较基线降幅超过50%；所有超高危ASCVD人群，应在控制饮食和改善生活方式的基础上，尽早开始并长期进行降脂治疗。"
+  },
+  {
+    "rule_name": "中国超高危ASCVD患者的LDL-C干预靶标建议",
+    "head": {
+      "is_negative": false,
+      "name": "干预靶标",
+      "arguments": [
+        "X",
+        "降低至1.4mmolL以下且降幅超50%",
+        "建议"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者类型",
+        "arguments": [
+          "X",
+          "中国超高危ASCVD"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "X",
+          "LDL-C降低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基线条件",
+        "arguments": [
+          "X",
+          "有可计算基线"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "根据ASCVD风险的不同，降低LDL⁃C和非HDL⁃C的达标值也不同。2. 干预靶标：IMPROVE⁃IT［11］、FOURIER［12］及ODYSSEY OUTCOMES［13］研究均显示，对ASCVD极高风险人群进一步降低其LDL⁃C水平带来的获益。IMPROVE⁃IT研究中，最大耐受他汀联合依折麦布治疗的ACS 患者LDL⁃C 水平从均值1.8 mmol / L（70 mg/dl）降低至1.4 mmol/L（54 mg/dl），随访7年，主要研究终点（心血管死亡、MI、卒中、因不稳定心绞痛住院或冠脉血运重建）的发生风险降低6.4%。FOURIER研究纳入已有ASCVD的患者，接受最大耐受剂量他汀和/或依折麦布联合依洛尤单抗治疗，LDL⁃C水平从基线均值2.38 mmol/L（92 mg/dl）降低至0.78 mmol/L（30 mg/dl），主要终点事件的相对风险降低15%。在随机化前1~12个月因ACS住院治疗的患者中进行的ODYSSEY OUTCOMES研究也显示出相似结果，接受他汀类药物联合阿利西尤单抗治疗的患者LDL⁃C水平降低至均值1.4 mmol/L（53 mg/dl），其主要终点事件的相对风险降低15%。在评估2017 年以后的国际各类指南和共识后，专家组建议对符合中国超高危ASCVD 定义的患者，LDL⁃C 水平的干预靶标为降低至1.4 mmol/L以下且较基线降幅超过50%（基线是指未接受降脂药物治疗时的LDL⁃C水平，而正在接受降脂治疗的患者中，则外推计算基线的LDL⁃C 水平）。对于2年内发生≥2次MACE 的患者，可考虑LDL⁃C 降至1.0 mmol/L 以下且较基线降幅超过50% 以上。"
+  },
+  {
+    "rule_name": "2年内多次MACE患者的LDL-C干预靶标考虑",
+    "head": {
+      "is_negative": false,
+      "name": "干预靶标",
+      "arguments": [
+        "X",
+        "降低至1.0mmolL以下且降幅超50%",
+        "考虑"
+      ]
+    },
+    "body": [
+      {
+        "is_negative": false,
+        "name": "患者类型",
+        "arguments": [
+          "X",
+          "ASCVD"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "近期事件频率",
+        "arguments": [
+          "X",
+          "两年内至少两次MACE"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "治疗目标",
+        "arguments": [
+          "X",
+          "LDL-C降低"
+        ]
+      },
+      {
+        "is_negative": false,
+        "name": "基线条件",
+        "arguments": [
+          "X",
+          "有可计算基线"
+        ]
+      }
+    ],
+    "variables": {
+      "X": "患者"
+    },
+    "source_text": "根据ASCVD风险的不同，降低LDL⁃C和非HDL⁃C的达标值也不同。2. 干预靶标：IMPROVE⁃IT［11］、FOURIER［12］及ODYSSEY OUTCOMES［13］研究均显示，对ASCVD极高风险人群进一步降低其LDL⁃C水平带来的获益。IMPROVE⁃IT研究中，最大耐受他汀联合依折麦布治疗的ACS 患者LDL⁃C 水平从均值1.8 mmol / L（70 mg/dl）降低至1.4 mmol/L（54 mg/dl），随访7年，主要研究终点（心血管死亡、MI、卒中、因不稳定心绞痛住院或冠脉血运重建）的发生风险降低6.4%。FOURIER研究纳入已有ASCVD的患者，接受最大耐受剂量他汀和/或依折麦布联合依洛尤单抗治疗，LDL⁃C水平从基线均值2.38 mmol/L（92 mg/dl）降低至0.78 mmol/L（30 mg/dl），主要终点事件的相对风险降低15%。在随机化前1~12个月因ACS住院治疗的患者中进行的ODYSSEY OUTCOMES研究也显示出相似结果，接受他汀类药物联合阿利西尤单抗治疗的患者LDL⁃C水平降低至均值1.4 mmol/L（53 mg/dl），其主要终点事件的相对风险降低15%。在评估2017 年以后的国际各类指南和共识后，专家组建议对符合中国超高危ASCVD 定义的患者，LDL⁃C 水平的干预靶标为降低至1.4 mmol/L以下且较基线降幅超过50%（基线是指未接受降脂药物治疗时的LDL⁃C水平，而正在接受降脂治疗的患者中，则外推计算基线的LDL⁃C 水平）。对于2年内发生≥2次MACE 的患者，可考虑LDL⁃C 降至1.0 mmol/L 以下且较基线降幅超过50% 以上。"
+  }
+]
