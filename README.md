@@ -1,5 +1,7 @@
 # MedSchema
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20657629.svg)](https://doi.org/10.5281/zenodo.20657629)
+
 Canonical repository: https://github.com/hy1940562929-a11y/MedSchema
 
 MedSchema is a Chinese medical schema-rule resource for neuro-symbolic reasoning. It contains 2,957 Datalog-style schema rules extracted from clinical guideline documents and released in two complementary formats:
@@ -134,7 +136,7 @@ The dataset is a research resource and is not intended for direct clinical decis
 
 ## Archival Access
 
-This repository includes `.zenodo.json` metadata to support a permanent Zenodo archival release. The Zenodo DOI will be added here after the archival record is created.
+This repository is archived on Zenodo: https://doi.org/10.5281/zenodo.20657629
 
 ## License
 
