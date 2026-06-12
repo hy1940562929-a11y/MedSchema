@@ -5,13 +5,17 @@ from openai import OpenAI
 import concurrent.futures
 
 # ==========================================
-# 1. 配置 DeepSeek API
+# 1. DeepSeek API configuration
 # ==========================================
-DEEPSEEK_API_KEY = "sk-dee462b3e8ed45c4b5df7c6f8905c0d3"
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY")
+DEEPSEEK_BASE_URL = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
+
+if not DEEPSEEK_API_KEY:
+    raise RuntimeError("Please set the DEEPSEEK_API_KEY environment variable before running step1.py.")
 
 client = OpenAI(
     api_key=DEEPSEEK_API_KEY,
-    base_url="https://api.deepseek.com"
+    base_url=DEEPSEEK_BASE_URL
 )
 
 # ==========================================

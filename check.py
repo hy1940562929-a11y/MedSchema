@@ -5,15 +5,18 @@ import re
 from openai import OpenAI
 
 # ==========================================
-# 1. 配置参数
+# 1. Runtime configuration
 # ==========================================
-LOCAL_API_KEY = "not-needed"
-LOCAL_BASE_URL = "http://172.18.196.35:1234/v1"
-LOCAL_MODEL_NAME = "qwen3.6-35b-a3b" 
+LOCAL_API_KEY = os.environ.get("LOCAL_API_KEY", "not-needed")
+LOCAL_BASE_URL = os.environ.get("LOCAL_BASE_URL", "http://localhost:1234/v1")
+LOCAL_MODEL_NAME = os.environ.get("LOCAL_MODEL_NAME", "qwen3.6-35b-a3b")
 
-DEEPSEEK_API_KEY = "sk-dee462b3e8ed45c4b5df7c6f8905c0d3"
-DEEPSEEK_BASE_URL = "https://api.deepseek.com/v1"
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY")
+DEEPSEEK_BASE_URL = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com/v1")
 TEST_DATA_DIR = "check.jsonl"
+
+if not DEEPSEEK_API_KEY:
+    raise RuntimeError("Please set the DEEPSEEK_API_KEY environment variable before running check.py.")
 
 local_client = OpenAI(api_key=LOCAL_API_KEY, base_url=LOCAL_BASE_URL)
 judge_client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=DEEPSEEK_BASE_URL)

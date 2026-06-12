@@ -1,0 +1,30 @@
+{
+  "title": "MedSchema: A Chinese Medical Schema Rule Dataset for Advancing Neuro-Symbolic Reasoning",
+  "upload_type": "dataset",
+  "description": "MedSchema is a Chinese medical schema-rule resource containing 2,957 Datalog-style schema rules for neuro-symbolic reasoning, released in AST JSON, JSON-LD, and JSONL instruction-tuning formats.",
+  "creators": [
+    {"name": "Huang, Yu", "affiliation": "Tianjin University"},
+    {"name": "Xiong, Ke", "affiliation": "Tianjin University"},
+    {"name": "Xu, Chuanhao", "affiliation": "Tianjin University"},
+    {"name": "Jiang, Tingxin", "affiliation": "Tianjin University"},
+    {"name": "Liu, Yang", "affiliation": "Tianjin University"},
+    {"name": "Zhang, Xiaowang", "affiliation": "Tianjin University"}
+  ],
+  "keywords": [
+    "Semantic Web",
+    "medical knowledge graph",
+    "schema rules",
+    "Datalog",
+    "JSON-LD",
+    "neuro-symbolic reasoning",
+    "Chinese clinical guidelines"
+  ],
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/hy1940562929-a11y/MedSchema",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
